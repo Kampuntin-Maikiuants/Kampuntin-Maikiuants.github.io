@@ -17,17 +17,25 @@ layout: default
   </div>
 </section>
 
-{%- assign real_videos = site.data.videos | where_exp: "v", "v.youtube != ''" -%}
-{%- if real_videos.size > 0 %}
-<section class="section section--alt">
+{%- if site.data.videos.size > 0 %}
+<section class="section section--alt" id="videos">
   <div class="container">
     <h2 class="section-title">{{ t.videos_title }}</h2>
-    <div class="gallery">
-      {%- for v in real_videos %}
+    <div class="videos">
+      {%- for v in site.data.videos %}
         {%- assign v_title = v.title[page.lang] %}
-      <figure class="gallery__item gallery__item--video">
+      <figure class="video-item">
+        {%- if v.file and v.file != "" %}
+        <video controls preload="none" playsinline{% if v.poster %} poster="{{ v.poster | relative_url }}"{% endif %} aria-label="{{ v_title | escape }}">
+          <source src="{{ v.file | relative_url }}" type="video/mp4">
+        </video>
+        {%- elsif v.youtube and v.youtube != "" %}
         {% include embed.html type="youtube" id=v.youtube title=v_title %}
-        <figcaption>{{ v_title }}</figcaption>
+        {%- endif %}
+        <figcaption>
+          <strong>{{ v_title }}</strong>
+          {%- if v.text %}<span>{{ v.text[page.lang] }}</span>{% endif %}
+        </figcaption>
       </figure>
       {%- endfor %}
     </div>

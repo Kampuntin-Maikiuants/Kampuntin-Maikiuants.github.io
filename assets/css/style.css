@@ -654,6 +654,17 @@ a.album__cover:hover img { transform: scale(1.04); }
 .feed-post__text:has(details[open]) .feed-post__short { display: none; }
 .feed-post__link { font-size: .92rem; }
 
+/* ---------- Videos (Galerie) ---------- */
+.video-link { margin: 1.25rem 0 0; }
+.video-link span { display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; margin-right: .4rem; border-radius: 50%; background: var(--clay); color: #fff; font-size: .7rem; vertical-align: middle; }
+.videos { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); }
+.video-item { margin: 0; }
+.video-item video { width: 100%; height: auto; border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
+.video-item .embed { aspect-ratio: 16 / 9; }
+.video-item figcaption { padding: .9rem .25rem 0; display: flex; flex-direction: column; gap: .3rem; }
+.video-item figcaption strong { font-family: var(--font-serif); font-size: 1.2rem; color: var(--forest); }
+.video-item figcaption span { color: var(--muted); font-size: .95rem; }
+
 /* ---------- 404 ---------- */
 .notfound { min-height: 55vh; display: grid; place-items: center; }
 

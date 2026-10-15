@@ -59,7 +59,7 @@ Nach 1–2 Minuten ist die Änderung online.
 | Erfahrungsberichte, FAQ Volunteering | `_data/es/volunteering.yml`, `_data/en/volunteering.yml` |
 | 6 Fotos „Leben in der Jea“ (Touren + Volunteering) | `_data/jea_photos.yml` |
 | Menü-Reihenfolge | `_data/navigation.yml` |
-| YouTube-Videos | `_data/videos.yml` |
+| Videos (eigene MP4 in `assets/video/` oder YouTube) | `_data/videos.yml` |
 | Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
 | Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
 

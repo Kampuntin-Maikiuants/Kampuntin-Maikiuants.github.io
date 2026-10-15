@@ -64,6 +64,7 @@ methods:
 
 field:
   title: Fieldwork
+  video: "Watch the video: mapping land use and vegetation cover (3:23 min)"
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Searching for aquatic animals in the river }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Sorting samples by the river }

@@ -66,7 +66,7 @@ die schon eingebauten Fotos und Alben.
 - [ ] **Titelbild Touren:** im Moment ein Flussfoto von Jesko – gerne ein besseres
 - [ ] **Galerie:** Alben prüfen (Fiesta, Leben in Maikiuants, Volunteering, Forschung),
       Titel und Daten in `_data/albums.yml` anpassen, weitere Alben anlegen
-- [ ] Optional: **YouTube-Videos** (Link genügt)
+- [ ] Optional: weitere **Videos** (Forschungsvideo „Uso de suelo“ ist drin; lange Videos besser über YouTube)
 
 ## 6. Facebook & Instagram
 

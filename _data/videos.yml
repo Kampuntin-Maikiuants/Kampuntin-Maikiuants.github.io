@@ -1,9 +1,21 @@
-# Videos für die Galerie (YouTube). Werden erst nach Klick geladen (Datenschutz).
-# youtube: die Video-ID aus dem Link, z. B. https://youtu.be/AbCdEf12345 -> AbCdEf12345
-# Leere ID = Platzhalter. Eigene MP4-Dateien (klein halten!) einfach nach
-# assets/galeria/videos/ hochladen – sie erscheinen automatisch.
+# Videos für die Galerie
+# -----------------------------------------------------------------
+# Zwei Möglichkeiten pro Video:
+#   file:    eigene MP4-Datei in assets/video/ (unter 50 MB halten!), dazu ein Vorschaubild (poster)
+#   youtube: Video-ID aus dem YouTube-Link, z. B. https://youtu.be/AbCdEf12345 -> AbCdEf12345
+#            (lädt erst nach Klick – Datenschutz). Für lange Videos die bessere Wahl.
 
-- youtube: ""
-  title: { es: "Un día en Maikiuants", en: "A day in Maikiuants" }
-- youtube: ""
-  title: { es: "Tour de octubre 2026", en: "October 2026 tour" }
+- file: /assets/video/maikiuants-uso-de-suelo.mp4
+  poster: /assets/video/maikiuants-uso-de-suelo.jpg
+  title:
+    es: "Caracterización de la cobertura de uso de suelo"
+    en: "Mapping land use and vegetation cover"
+  text:
+    es: >-
+      Un proyecto de los paraecólogos de Maikiuants junto con la Universidad del Azuay: con GPS,
+      drones y sistemas de información geográfica documentamos cómo se usa el suelo y cómo está
+      la vegetación en nuestro territorio. (3:23 min, subtítulos en inglés)
+    en: >-
+      A project by the Maikiuants para-ecologists together with the Universidad del Azuay: using
+      GPS, drones and geographic information systems, we document how land is used and the state
+      of the vegetation in our territory. (3:23 min, English subtitles)

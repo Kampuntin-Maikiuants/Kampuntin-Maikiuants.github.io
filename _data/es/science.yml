@@ -65,6 +65,7 @@ methods:
 
 field:
   title: Trabajo de campo
+  video: "Ver el video: Caracterización de la cobertura de uso de suelo (3:23 min)"
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Búsqueda de animales acuáticos en el río }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Clasificando muestras junto al río }
