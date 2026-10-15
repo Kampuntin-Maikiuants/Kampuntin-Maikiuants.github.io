@@ -50,8 +50,10 @@ social:
       url: "https://www.facebook.com/profile.php?id=61566774571229"
   wwoof: ""                                 # Link zum WWOOF-Profil
 
-# Zeigt auf „Novedades“ die Facebook-Chroniken (erst nach Klick, wegen Datenschutz)
-facebook_timeline: true
+# Eingebettete Facebook-Chronik (erst nach Klick). Ausgeschaltet, weil Facebook sie nur noch
+# eingeloggten Besuchern zeigt – alle anderen sehen ein leeres Feld. Die Beiträge kommen
+# stattdessen über den automatischen Import (README, Abschnitt 3).
+facebook_timeline: false
 
 # =============================================================
 #  Ab hier: technische Einstellungen – normalerweise nicht ändern

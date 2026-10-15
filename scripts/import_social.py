@@ -89,7 +89,9 @@ def instagram_posts(ig, token):
 def main():
     tokens = [t.strip() for t in re.split(r"[\n,]", os.environ.get("FB_PAGE_TOKENS", "")) if t.strip()]
     if not tokens:
-        print("Kein FB_PAGE_TOKENS gesetzt – Import übersprungen.")
+        # ::warning:: erscheint auf GitHub direkt in der Übersicht des Durchlaufs
+        print("::warning title=Facebook-Import::Kein Secret FB_PAGE_TOKENS gesetzt – Import übersprungen. "
+              "Einrichtung: README, Abschnitt 3.")
         return 0
     try:
         old = json.load(open(DATA, encoding="utf-8"))
@@ -109,7 +111,13 @@ def main():
                 print(f"Instagram @{ig.get('username')}: ok")
         except Exception as e:  # ein Konto mit Problem soll die anderen nicht blockieren
             errors += 1
-            print(f"Fehler bei einem Token: {e}", file=sys.stderr)
+            detail = ""
+            if hasattr(e, "read"):  # Fehlermeldung von Facebook mitlesen
+                try:
+                    detail = json.load(e).get("error", {}).get("message", "")
+                except Exception:
+                    pass
+            print(f"::error title=Facebook-Import::Token Nr. {tokens.index(token) + 1}: {e} {detail}")
     # Beiträge von Konten, die diesmal nicht geladen werden konnten, behalten
     kept = [p for p in old if p.get("account") not in done_accounts]
     posts = {p["id"]: p for p in kept + fresh}.values()
@@ -122,7 +130,8 @@ def main():
         for name in os.listdir(IMG_DIR):
             if name.startswith(("fb-", "ig-")) and name not in used:
                 os.remove(os.path.join(IMG_DIR, name))
-    print(f"{len(posts)} Beiträge gespeichert.")
+    print(f"::notice title=Facebook-Import::{len(fresh)} Beiträge geladen, {len(posts)} gespeichert "
+          f"({', '.join(sorted(done_accounts)) or 'keine Konten'}).")
     return 1 if errors and not fresh else 0
 
 

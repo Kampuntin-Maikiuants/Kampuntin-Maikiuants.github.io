@@ -100,8 +100,11 @@ Beiträge, speichert Text und Fotos im Repository (`_data/social_posts.json`,
 `assets/img/social/`) und veröffentlicht die Website neu. Das Programm dafür ist
 `scripts/import_social.py`, der Zeitplan steht in `.github/workflows/website.yml`.
 
-Solange kein Zugangsschlüssel (Token) hinterlegt ist, passiert nichts. Die Seite zeigt dann
-stattdessen die Facebook-Chroniken zum Anklicken.
+Solange kein Zugangsschlüssel (Token) hinterlegt ist, passiert nichts. Die Seite zeigt dann nur
+die drei Konten als große Karten.
+
+> Die früher eingebettete Facebook-Chronik ist abgeschaltet: Facebook zeigt sie nur noch
+> Besuchern, die bei Facebook eingeloggt sind – alle anderen sahen ein leeres weißes Feld.
 
 **Voraussetzungen**
 - Es müssen **Facebook-Seiten** sein (keine privaten Profile), und wer einrichtet, muss dort
@@ -127,11 +130,19 @@ stattdessen die Facebook-Chroniken zum Anklicken.
 6. **Actions → Website bauen & Social Media importieren → Run workflow**. Nach 1–2 Minuten
    erscheinen die Beiträge auf der Website.
 
+**Kontrollieren, ob es läuft:** Tab **Actions** → letzten Durchlauf anklicken. Oben unter
+„Annotations“ steht eine kurze Meldung:
+- gelb *„Kein Secret FB_PAGE_TOKENS gesetzt“* → Schritte 1–5 sind noch nicht erledigt,
+- rot *„Token Nr. 1: …“* → das Token ist falsch oder abgelaufen (Meldung von Facebook steht dabei),
+- blau *„… Beiträge geladen“* → alles gut.
+
 **Gut zu wissen**
 - Ändert jemand das Facebook-Passwort oder entzieht der App die Rechte, werden die Tokens
   ungültig. Dann Schritte 2–5 wiederholen.
 - GitHub pausiert zeitgesteuerte Abläufe, wenn 60 Tage lang nichts im Repository passiert. Dann
   unter Actions einmal „Enable workflow“ klicken.
+- Nach dem Hinterlegen des Tokens nicht 6 Stunden warten: **Actions → Website bauen & Social
+  Media importieren → Run workflow** startet den Import sofort.
 - Einzelne Instagram-Posts lassen sich zusätzlich von Hand einbetten: Link in
   `_data/instagram_embeds.yml` eintragen (lädt erst nach Klick).
 

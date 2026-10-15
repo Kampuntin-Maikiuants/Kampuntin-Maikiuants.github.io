@@ -6,11 +6,13 @@ layout: default
 
 <section class="section">
   <div class="container">
-    {% include social-channels.html compact=true %}
     {%- if site.data.social_posts.size > 0 %}
+    {% include social-channels.html compact=true %}
     <h2 class="section-title subsection">{{ t.feed.title }}</h2>
     <p class="section-intro">{{ t.feed.text }}</p>
     {% include social-feed.html %}
+    {%- else %}
+    {% include social-channels.html %}
     {%- endif %}
   </div>
 </section>

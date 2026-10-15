@@ -73,7 +73,8 @@ die schon eingebauten Fotos und Alben.
 
 - [ ] Prüfen: Sind beide Facebook-Konten **Seiten** (keine Privatprofile)?
 - [ ] Prüfen: Ist @territorioshuar ein **Business-/Creator-Konto** und mit einer der Seiten verknüpft?
-- [ ] **Automatischen Import einrichten** (Anleitung README, Abschnitt 3, ca. 20 Minuten)
+- [ ] **Automatischen Import einrichten** (Anleitung README, Abschnitt 3, ca. 20 Minuten) –
+      ohne diesen Schritt erscheinen keine Facebook-Posts auf der Website
 
 ## 7. Rechtliches & Start
 
