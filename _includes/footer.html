@@ -1,0 +1,75 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign ui = site.data[lang].ui -%}
+{%- assign lang_pages = site.pages | where: "lang", lang -%}
+{%- assign contact_page = lang_pages | where: "ref", "contact" | first -%}
+{%- assign legal_page = lang_pages | where: "ref", "legal" | first -%}
+{%- assign home_page = lang_pages | where: "ref", "home" | first -%}
+{%- unless page.ref == "contact" or page.ref == "notfound" or page.ref == "legal" %}
+<section class="cta-band">
+  <div class="container cta-band__inner">
+    <div>
+      <h2>{{ ui.cta.title }}</h2>
+      <p>{{ ui.cta.text }}</p>
+    </div>
+    <p class="actions">
+      <a class="btn" href="{{ contact_page.url | relative_url }}">{{ ui.cta.button }}</a>
+      {%- if site.contact.whatsapp != "" %}
+      <a class="btn ghost" href="https://wa.me/{{ site.contact.whatsapp }}" rel="noopener">WhatsApp</a>
+      {%- endif %}
+    </p>
+  </div>
+</section>
+{%- endunless %}
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="{{ home_page.url | relative_url }}">
+        {% include logo.svg %}
+        <span class="brand-text"><strong>Kampuntin</strong><small>Maikiuants</small></span>
+      </a>
+      <p>{{ ui.footer.tagline }}</p>
+      <p class="footer-org">{{ site.org_name }}</p>
+    </div>
+    <nav aria-label="{{ ui.footer.explore }}">
+      <h2>{{ ui.footer.explore }}</h2>
+      <ul>
+        {%- for ref in site.data.navigation -%}
+          {%- assign p = lang_pages | where: "ref", ref | first -%}
+          {%- if p %}
+        <li><a href="{{ p.url | relative_url }}">{{ ui.nav[ref] }}</a></li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </nav>
+    <div>
+      <h2>{{ ui.footer.contact }}</h2>
+      <ul>
+        <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+        {%- for person in site.contact.people %}
+        <li><a href="https://wa.me/{{ person.whatsapp }}" rel="noopener">{{ person.name }} · {{ person.phone }}</a><br><small>{{ person.role[lang] }}</small></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2>{{ ui.footer.follow }}</h2>
+      <ul>
+        {%- if site.social.instagram.url and site.social.instagram.url != "" %}<li><a href="{{ site.social.instagram.url }}" rel="noopener">Instagram · @{{ site.social.instagram.handle }}</a></li>{% endif %}
+        {%- for fb in site.social.facebook %}<li><a href="{{ fb.url }}" rel="noopener">Facebook · {{ fb.name }}</a></li>{% endfor %}
+        {%- if site.social.wwoof != "" %}<li><a href="{{ site.social.wwoof }}" rel="noopener">WWOOF</a></li>{% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {{ site.time | date: "%Y" }} Kampuntin · Maikiuants</p>
+    <p><a href="{{ legal_page.url | relative_url }}">{{ ui.nav.legal }}</a></p>
+  </div>
+</footer>
+<dialog id="lightbox" class="lightbox" aria-label="{{ ui.photo }}">
+  <figure>
+    <img src="data:," alt="">
+    <figcaption></figcaption>
+  </figure>
+  <button type="button" class="lightbox__btn lightbox__close" data-close aria-label="{{ ui.close }}">×</button>
+  <button type="button" class="lightbox__btn lightbox__prev" data-prev aria-label="{{ ui.previous }}">‹</button>
+  <button type="button" class="lightbox__btn lightbox__next" data-next aria-label="{{ ui.next }}">›</button>
+</dialog>

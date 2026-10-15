@@ -1,0 +1,70 @@
+# General interface texts (menu, buttons, footer) – English
+lang_name: English
+locale: en_US
+skip: Skip to content
+menu: Menu
+switch_label: Leer esta página en español
+
+nav:
+  home: Home
+  science: Science
+  tours: Tours
+  volunteering: Volunteering
+  updates: Updates
+  gallery: Gallery
+  people: People
+  contact: Contact
+  legal: Legal notice & privacy
+
+months: [January, February, March, April, May, June, July, August, September, October, November, December]
+
+tour_status:
+  open: Places available
+  few: Last places
+  full: Fully booked
+
+read_story: Read the full story
+read_less: Show less
+
+read_more: Read more
+view_on: View on
+photos: photos
+photo: Photo
+video: Video
+close: Close
+previous: Previous
+next: Next
+
+embed:
+  load: Load content
+  notice: "Loading this content sends data to %platform%."
+  instagram: View Instagram post
+  facebook: View Facebook post
+  facebook_timeline: Show our Facebook page
+  youtube: Play video
+
+follow_us: Follow us
+
+cta:
+  title: Would you like to visit Maikiuants?
+  text: Send us your questions. We answer every message personally.
+  button: Write to us
+
+footer:
+  tagline: Tours, volunteering and community science with the Shuar community of Maikiuants in the Ecuadorian Amazon.
+  explore: Explore
+  contact: Contact
+  coordinator: tour and volunteer coordinator
+  follow: Follow us
+
+iucn:
+  CR: Critically endangered
+  EN: Endangered
+  VU: Vulnerable
+  NT: Near threatened
+  LC: Least concern
+
+not_found:
+  title: Page not found
+  text: Looks like this trail doesn't lead anywhere.
+  button: Back to home

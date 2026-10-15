@@ -1,0 +1,21 @@
+{%- comment -%} Kopfbereich einer Seite. Parameter: hero (Daten mit eyebrow, title, lead, image, buttons), big {%- endcomment -%}
+{%- assign h = include.hero -%}
+{%- assign hero_lang = page.lang | default: site.lang -%}
+<div class="page-hero{% if include.big %} page-hero--big{% endif %}{% if h.image and h.image != '' %} has-image{% endif %}">
+  {%- if h.image and h.image != "" %}
+  <img class="page-hero__bg" src="{{ h.image | relative_url }}" alt="{{ h.image_alt | escape }}" fetchpriority="high">
+  {%- endif %}
+  <div class="container page-hero__inner">
+    {%- if h.eyebrow %}<p class="eyebrow">{{ h.eyebrow }}</p>{% endif %}
+    <h1>{{ h.title }}</h1>
+    {%- if h.lead %}<p class="lead">{{ h.lead }}</p>{% endif %}
+    {%- if h.buttons %}
+    <p class="actions">
+      {%- for b in h.buttons -%}
+        {%- assign bp = site.pages | where: "ref", b.ref | where: "lang", hero_lang | first %}
+      <a class="btn{% if b.style == 'ghost' %} ghost{% endif %}" href="{{ bp.url | relative_url }}">{{ b.label }}</a>
+      {%- endfor %}
+    </p>
+    {%- endif %}
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign ui = site.data[lang].ui -%}
+{%- if lang == "en" -%}{%- assign other = "es" -%}{%- else -%}{%- assign other = "en" -%}{%- endif -%}
+{%- assign lang_pages = site.pages | where: "lang", lang -%}
+{%- assign home = lang_pages | where: "ref", "home" | first -%}
+{%- assign alt = site.pages | where: "ref", page.ref | where: "lang", other | first -%}
+{%- unless alt -%}{%- assign alt = site.pages | where: "ref", "home" | where: "lang", other | first -%}{%- endunless -%}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ home.url | relative_url }}">
+      {% include logo.svg %}
+      <span class="brand-text"><strong>Kampuntin</strong><small>Maikiuants</small></span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">{{ ui.menu }}</span><span class="burger-lines" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="{{ ui.menu }}">
+      <ul>
+        {%- for ref in site.data.navigation -%}
+          {%- assign p = lang_pages | where: "ref", ref | first -%}
+          {%- if p %}
+        <li><a href="{{ p.url | relative_url }}"{% if page.ref == ref %} aria-current="page"{% endif %}{% if ref == "contact" %} class="nav-cta"{% endif %}>{{ ui.nav[ref] }}</a></li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+      <a class="lang-switch" href="{{ alt.url | relative_url }}" hreflang="{{ other }}" title="{{ ui.switch_label }}">
+        <span class="sr-only" lang="{{ other }}">{{ ui.switch_label }}: </span>
+        <span{% if lang == "es" %} class="is-current"{% endif %}>ES</span><span aria-hidden="true">/</span><span{% if lang == "en" %} class="is-current"{% endif %}>EN</span>
+      </a>
+    </nav>
+  </div>
+</header>

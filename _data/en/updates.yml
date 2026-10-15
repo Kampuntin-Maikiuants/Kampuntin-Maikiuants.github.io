@@ -1,0 +1,26 @@
+# Updates page (social media) – English
+hero:
+  eyebrow: Updates
+  title: Follow us on social media
+  lead: >-
+    We share our news directly on Facebook and Instagram: everyday photos, tours, volunteering
+    and news from the community.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Angel's trumpet flowers in front of a traditional jea
+# Description per account (key = name from _config.yml or Instagram handle)
+descriptions:
+  Kampuntin: Tours, volunteering and news from our organisation.
+  Maikiuants: Everyday life in the community of Maikiuants.
+  territorioshuar: Photos of the rainforest, Shuar culture and our territory.
+open_facebook: Open on Facebook
+open_instagram: Open on Instagram
+timeline:
+  title: Latest on Facebook
+  text: >-
+    Here you can see the posts from our Facebook pages directly. To protect your privacy, they
+    only load when you click.
+feed:
+  title: Latest posts
+  text: The latest from our Facebook and Instagram pages – updated automatically.
+instagram:
+  title: On Instagram

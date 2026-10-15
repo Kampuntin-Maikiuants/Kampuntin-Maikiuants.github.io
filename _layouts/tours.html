@@ -1,0 +1,148 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].tours -%}
+{%- assign ui = site.data[page.lang].ui -%}
+{%- assign lang_pages = site.pages | where: "lang", page.lang -%}
+{%- assign contact_page = lang_pages | where: "ref", "contact" | first -%}
+{%- assign gallery_page = lang_pages | where: "ref", "gallery" | first -%}
+{%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="facts-band" aria-label="{{ t.intro.title }}">
+  <div class="container">
+    <ul class="facts">
+      {%- for f in t.facts %}
+      <li class="fact"><strong>{{ f.value }}</strong><span>{{ f.label }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split--media">
+    <div class="prose">
+      <h2 class="section-title">{{ t.intro.title }}</h2>
+      {{ t.intro.text | markdownify }}
+    </div>
+    {% include media.html src=t.intro.image alt=t.intro.image_alt class="split__img" %}
+  </div>
+</section>
+
+<section class="section section--forest section--quote">
+  <div class="container narrow center">
+    <blockquote class="quote quote--light">
+      <p>{{ t.quote.text }}</p>
+      <footer>— {{ t.quote.source }}</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.life.title }}</h2>
+    <p class="section-intro">{{ t.life.text }}</p>
+    {% include photo-grid.html photos=site.data.jea_photos group="jea" %}
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container split split--media">
+    <div>
+      <h2 class="section-title">{{ t.activities.title }}</h2>
+      <p class="section-intro">{{ t.activities.intro }}</p>
+      <ul class="checklist checklist--columns">
+        {%- for a in t.activities.items %}
+        <li>{{ a }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <a href="{{ t.activities.image | relative_url }}" data-lightbox data-caption="{{ t.activities.image_alt | escape }}">
+      <img class="split__img split__img--tall" src="{{ t.activities.image | relative_url }}" alt="{{ t.activities.image_alt | escape }}" loading="lazy">
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.itinerary.title }}</h2>
+    <p class="section-intro">{{ t.itinerary.note }}</p>
+    <ol class="timeline">
+      {%- for d in t.itinerary.days %}
+      <li>
+        <span class="timeline__day" aria-hidden="true">{{ forloop.index }}</span>
+        <div>
+          <h3><span class="sr-only">{{ forloop.index }}. </span>{{ d.title }}</h3>
+          <p>{{ d.text }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container grid grid--3 lists">
+    <div class="panel">
+      <h2>{{ t.included.title }}</h2>
+      <ul class="checklist">{% for i in t.included.items %}<li>{{ i }}</li>{% endfor %}</ul>
+    </div>
+    <div class="panel">
+      <h2>{{ t.not_included.title }}</h2>
+      <ul class="crosslist">{% for i in t.not_included.items %}<li>{{ i }}</li>{% endfor %}</ul>
+    </div>
+    <div class="panel">
+      <h2>{{ t.packing.title }}</h2>
+      <ul class="bulletlist">{% for i in t.packing.items %}<li>{{ i }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--forest" id="fechas">
+  <div class="container split">
+    <div>
+      <h2 class="section-title">{{ t.price.title }}</h2>
+      <p class="price"><strong>{{ t.price.amount }}</strong> <span>{{ t.price.per }}</span></p>
+      <p>{{ t.price.text }}</p>
+    </div>
+    <div>
+      <h2 class="section-title">{{ t.dates.title }}</h2>
+      <p>{{ t.dates.intro }}</p>
+      {%- assign shown = 0 %}
+      <ul class="dates">
+        {%- for d in site.data.tour_dates.dates -%}
+          {%- assign d_start = d.start | date: "%Y%m%d" | plus: 0 -%}
+          {%- if d_start < today -%}{%- continue -%}{%- endif -%}
+          {%- assign shown = shown | plus: 1 %}
+        <li>
+          <span class="dates__range">{% include date-range.html start=d.start end=d.end %}</span>
+          <span class="badge badge--{{ d.status }}">{{ ui.tour_status[d.status] }}</span>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- if shown == 0 %}<p><em>{{ t.dates.empty }}</em></p>{% endif %}
+      <p><a class="btn" href="{{ contact_page.url | relative_url }}">{{ t.dates.button }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.booking.title }}</h2>
+    {% include steps.html steps=t.booking.steps %}
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ t.past.title }}</h2>
+      <a class="link-arrow" href="{{ gallery_page.url | relative_url }}">{{ t.past.link }} →</a>
+    </div>
+    <p class="section-intro">{{ t.past.intro }}</p>
+    {%- assign gallery_data = site.data[page.lang].gallery %}
+    {% include albums.html limit=3 placeholders=gallery_data.placeholders %}
+  </div>
+</section>
+
+{% include faq.html faq=t.faq %}

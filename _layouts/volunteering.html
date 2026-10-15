@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].volunteering -%}
+{%- assign ui = site.data[page.lang].ui -%}
+{%- assign contact_page = site.pages | where: "ref", "contact" | where: "lang", page.lang | first -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="section">
+  <div class="container split split--center">
+    <div>
+      <h2 class="section-title">{{ t.who.title }}</h2>
+      <p class="section-intro">{{ t.who.intro }}</p>
+    </div>
+    <ul class="checklist checklist--big">
+      {%- for i in t.who.items %}
+      <li>{{ i }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.tasks.title }}</h2>
+    <p class="section-intro">{{ t.tasks.intro }}</p>
+    <div class="grid grid--tasks">
+      {%- for task in t.tasks.items %}
+      <article class="card">
+        <span class="card__icon" aria-hidden="true">{{ task.icon }}</span>
+        <h3>{{ task.title }}</h3>
+        <p>{{ task.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose prose--wide">
+      <h2 class="section-title">{{ t.life.title }}</h2>
+      {{ t.life.text | markdownify }}
+    </div>
+    {% include photo-grid.html photos=site.data.jea_photos group="jea" %}
+  </div>
+</section>
+
+<section class="section section--forest">
+  <div class="container narrow center">
+    <h2 class="section-title">{{ t.free_time.title }}</h2>
+    <p class="lead">{{ t.free_time.text }}</p>
+    <blockquote class="quote quote--light"><p>{{ t.free_time.quote }}</p></blockquote>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <h2 class="section-title">{{ t.practical.title }}</h2>
+      <dl class="facts-list">
+        {%- for p in t.practical.items %}
+        <div><dt>{{ p.label }}</dt><dd>{{ p.value }}</dd></div>
+        {%- endfor %}
+      </dl>
+      {%- if site.social.wwoof != "" %}
+      <p><a class="link-arrow" href="{{ site.social.wwoof }}" rel="noopener">{{ t.practical.wwoof }} →</a></p>
+      {%- endif %}
+    </div>
+    <div>
+      <h2 class="section-title">{{ t.apply.title }}</h2>
+      {% include steps.html steps=t.apply.steps %}
+      <p><a class="btn" href="{{ contact_page.url | relative_url }}">{{ t.apply.button }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.testimonials.title }}</h2>
+    <p class="section-intro">{{ t.testimonials.intro }}</p>
+    <div class="grid grid--3 grid--testimonials">
+      {%- for r in t.testimonials.items %}
+      <figure class="testimonial">
+        <blockquote><p>{{ r.quote }}</p></blockquote>
+        <figcaption>
+          {%- if r.photo and r.photo != "" %}<img src="{{ r.photo | relative_url }}" alt="" loading="lazy">{% endif %}
+          <span><strong>{{ r.name }}</strong><small>{{ r.meta }}</small></span>
+        </figcaption>
+        {%- if r.text and r.text != "" %}
+        <details class="testimonial__more">
+          <summary><span class="testimonial__open">{{ ui.read_story }}</span><span class="testimonial__close">{{ ui.read_less }}</span></summary>
+          <div class="testimonial__text">{{ r.text | markdownify }}</div>
+        </details>
+        {%- endif %}
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% include faq.html faq=t.faq %}

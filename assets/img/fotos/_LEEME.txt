@@ -1,0 +1,1 @@
+Fotos für die Seiten (Hero-Bilder usw.). Pfad im passenden _data/es|en/*.yml bei image: eintragen.

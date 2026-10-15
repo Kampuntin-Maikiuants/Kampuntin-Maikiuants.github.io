@@ -1,0 +1,43 @@
+{%- comment -%}
+  Datenschutzfreundliche Einbettung: lädt erst nach Klick.
+  Verwendung in einem Blogeintrag (eine Zeile, Link anpassen):
+    {% include embed.html type="instagram" url="https://www.instagram.com/p/XXXXXXXX/" %}
+    {% include embed.html type="facebook" url="https://www.facebook.com/.../posts/..." %}
+    {% include embed.html type="youtube" id="AbCdEf12345" %}
+{%- endcomment -%}
+{%- assign e_lang = page.lang | default: site.lang -%}
+{%- assign e_ui = site.data[e_lang].ui -%}
+{%- assign e_kind = "iframe" -%}
+{%- case include.type -%}
+  {%- when "youtube" -%}
+    {%- assign e_src = "https://www.youtube-nocookie.com/embed/" | append: include.id | append: "?autoplay=1&rel=0" -%}
+    {%- assign e_platform = "YouTube (Google)" -%}
+    {%- assign e_name = "YouTube" -%}
+    {%- assign e_label = e_ui.embed.youtube -%}
+  {%- when "instagram" -%}
+    {%- assign e_src = include.url -%}
+    {%- assign e_kind = "instagram" -%}
+    {%- assign e_platform = "Instagram (Meta)" -%}
+    {%- assign e_name = "Instagram" -%}
+    {%- assign e_label = e_ui.embed.instagram -%}
+  {%- when "facebook_page" -%}
+    {%- assign e_enc = include.url | url_encode -%}
+    {%- assign e_src = "https://www.facebook.com/plugins/page.php?tabs=timeline&width=500&height=700&small_header=true&adapt_container_width=true&href=" | append: e_enc -%}
+    {%- assign e_platform = "Facebook (Meta)" -%}
+    {%- assign e_name = "Facebook" -%}
+    {%- assign e_label = e_ui.embed.facebook_timeline -%}
+  {%- else -%}
+    {%- assign e_enc = include.url | url_encode -%}
+    {%- assign e_src = "https://www.facebook.com/plugins/post.php?show_text=true&width=500&href=" | append: e_enc -%}
+    {%- assign e_platform = "Facebook (Meta)" -%}
+    {%- assign e_name = "Facebook" -%}
+    {%- assign e_label = e_ui.embed.facebook -%}
+{%- endcase -%}
+{%- assign e_title = include.title | default: e_name -%}
+<div class="embed embed--{{ include.type | default: 'facebook' }}">
+  <div class="embed__placeholder">
+    <p class="embed__title">{{ e_title }}</p>
+    <button class="btn small" type="button" data-embed="{{ e_kind }}" data-src="{{ e_src | escape }}" data-title="{{ e_title | escape }}">▶ {{ e_label }}</button>
+    <p class="embed__notice">{{ e_ui.embed.notice | replace: "%platform%", e_platform }}</p>
+  </div>
+</div>

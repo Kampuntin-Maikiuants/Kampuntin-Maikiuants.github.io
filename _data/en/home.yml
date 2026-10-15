@@ -1,0 +1,114 @@
+# Home page – English
+# Tip: texts may use **bold**, *italics* and [links](https://...).
+
+hero:
+  eyebrow: Ecuadorian Amazon · Morona Santiago
+  title: Kampuntin Maikiuants
+  lead: >-
+    Experience the rainforest and get to know the Shuar community of Maikiuants: on a ten-day
+    tour or as a volunteer. Learn more about the community, the rainforest, our scientific work
+    and Kampuntin's mission.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Angel's trumpet flowers in front of a traditional jea in Maikiuants
+  buttons:
+    - { ref: tours, label: Explore the tours }
+    - { ref: volunteering, label: Volunteer with us, style: ghost }
+
+about:
+  title: The story behind the community
+  items:
+    - title: The Shuar
+      image: "/assets/img/fotos/shuar.jpg"
+      image_alt: Shuar families of Maikiuants in the forest
+      text: >-
+        The Shuar are one of the largest Indigenous peoples of the Amazon. Their language is
+        **Shuar Chicham**. Their life is deeply connected to the forest, the rivers and
+        spirituality. Food, medicine and materials are taken sustainably from the rainforest, and
+        knowledge is passed down from generation to generation.
+    - title: Maikiuants
+      image: "/assets/img/fotos/maikiuants.jpg"
+      image_alt: The centre of the Maikiuants community surrounded by rainforest
+      text: >-
+        Maikiuants is a Shuar community in the province of Morona Santiago in Ecuador's southern
+        Amazon, and part of the **Pueblo Shuar Arutam**. The village, surrounded by rainforest and
+        clear rivers, takes its name from the river that runs through it — and the river is named
+        after the *maikiuants* plant (its Shuar Chicham name), which grows all along its banks.
+    - title: Kampuntin
+      image: "/assets/img/fotos/kampuntin.jpg"
+      image_alt: The Kampuntin team with a group of volunteers in front of the jea
+      text: >-
+        Kampuntin is the organisation that makes tours and volunteering in Maikiuants possible.
+        Since [year], we have regularly run tours and volunteer projects, above all to learn from
+        and with each other. Kampuntin is also the organisation behind the scientific work, the
+        monitoring and the protection of the rainforest.
+
+# PLACEHOLDER – the mission will be worded in more detail later
+mission:
+  title: Kampuntin's mission
+  intro: >-
+    Kampuntin is the community tourism organisation of Maikiuants. We welcome visitors because
+    we want to protect what we have and share it.
+  items:
+    - title: Care for and monitor the rainforest
+      text: >-
+        We care for and monitor the forest, rivers and animals of our territory, so that future
+        generations can live from them and with them, too.
+    - title: Share and document Shuar culture
+      text: >-
+        We pass on our language, knowledge and customs to visitors and to the next generations —
+        and we document our way of life while we still can.
+    - title: Learn together
+      text: >-
+        Visitors, volunteers and community learn from each other — about plants, spirituality and
+        other ways of living.
+    - title: Strengthen the community
+      text: Tourism income stays in Maikiuants and funds the community's own projects.
+
+quote:
+  text: Iikia kampuntniuitji tura achitkiaji ii nekatairijiai.
+  translation: We are nature, connection and wisdom.
+  source: The Maikiuants community
+
+location:
+  title: Where we are
+  text: >-
+    Maikiuants is located in the province of **Morona Santiago** in Ecuador's southern Amazon, in
+    the Cordillera del Cóndor. The road to Maikiuants starts in **Limón Indanza**; from there it
+    takes about two and a half hours, usually by 4×4 taxi (approx. 50–60 USD). Detailed travel
+    instructions and meeting points are arranged before your arrival.
+  coords: 3°07'10.2" S · 78°15'56.4" W
+  map_link: View on OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+  labels:
+    title: Map of Ecuador showing the location of Maikiuants in the southern Amazon
+    peru: Peru
+    ocean: Pacific Ocean
+
+explore:
+  title: Discover Maikiuants
+  intro: Choose where to start.
+  items:
+    - ref: tours
+      icon: 🚌
+      title: Tours
+      text: Ten days in the rainforest for groups of up to 12 people, sharing community life.
+    - ref: volunteering
+      icon: 🌱
+      title: Volunteering
+      text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
+    - ref: science
+      icon: 🔬
+      title: Science
+      text: Community para-ecologists monitor biodiversity, rivers and the climate.
+    - ref: updates
+      icon: 📣
+      title: Updates
+      text: The latest posts from Facebook and Instagram, with photos from the rainforest.
+    - ref: gallery
+      icon: 📷
+      title: Gallery
+      text: Photo albums from tours, volunteering, research and celebrations.
+    - ref: people
+      icon: 🤝
+      title: People
+      text: The people of Maikiuants and Kampuntin who make all of this possible.

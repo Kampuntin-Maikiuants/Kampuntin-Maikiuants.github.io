@@ -1,0 +1,89 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].home -%}
+{%- assign ui = site.data[page.lang].ui -%}
+{%- assign lang_pages = site.pages | where: "lang", page.lang -%}
+{%- assign updates_page = lang_pages | where: "ref", "updates" | first -%}
+{% include page-hero.html hero=t.hero big=true %}
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.about.title }}</h2>
+    <div class="grid grid--3">
+      {%- for item in t.about.items %}
+      <article class="card card--media">
+        {% include media.html src=item.image alt=item.image_alt class="card__img" %}
+        <div class="card__body">
+          <h3>{{ item.title }}</h3>
+          {{ item.text | markdownify }}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container split">
+    <div>
+      <h2 class="section-title">{{ t.mission.title }}</h2>
+      <p class="section-intro">{{ t.mission.intro }}</p>
+      <blockquote class="quote">
+        <p lang="jiv">{{ t.quote.text }}</p>
+        {%- if t.quote.translation %}<p class="quote__translation">{{ t.quote.translation }}</p>{% endif %}
+        <footer>— {{ t.quote.source }}</footer>
+      </blockquote>
+    </div>
+    <ul class="principles">
+      {%- for m in t.mission.items %}
+      <li><h3>{{ m.title }}</h3><p>{{ m.text }}</p></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split--media">
+    <div class="prose">
+      <h2 class="section-title">{{ t.location.title }}</h2>
+      {{ t.location.text | markdownify }}
+      <p class="coords"><span aria-hidden="true">📍</span> {{ t.location.coords }}</p>
+      <p><a class="link-arrow" href="{{ t.location.map_url }}" rel="noopener">{{ t.location.map_link }} →</a></p>
+    </div>
+    <figure class="map-figure">
+      {% include map-ecuador.html labels=t.location.labels %}
+    </figure>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ ui.follow_us }}</h2>
+      <a class="link-arrow" href="{{ updates_page.url | relative_url }}">{{ ui.nav.updates }} →</a>
+    </div>
+    {% include social-channels.html compact=true %}
+    {%- if site.data.social_posts.size > 0 %}
+    {% include social-feed.html limit=3 %}
+    {%- endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.explore.title }}</h2>
+    <p class="section-intro">{{ t.explore.intro }}</p>
+    <div class="grid grid--3">
+      {%- for item in t.explore.items %}
+        {%- assign p = lang_pages | where: "ref", item.ref | first %}
+      <a class="card card--link" href="{{ p.url | relative_url }}">
+        <span class="card__icon" aria-hidden="true">{{ item.icon }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+        <span class="card__arrow" aria-hidden="true">→</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

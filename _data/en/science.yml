@@ -1,0 +1,154 @@
+# Science page (para-ecology) – English
+
+hero:
+  eyebrow: Community science
+  title: "Para-ecology: researching the forest from within the community"
+  lead: >-
+    In Maikiuants, community members train as para-ecologists. They combine Shuar knowledge
+    of the forest with scientific methods to document biodiversity and protect their
+    territory.
+  image: "/assets/img/fotos/hero-ciencia.jpg"
+  image_alt: Para-ecologists from Maikiuants working with microscopes
+
+what:
+  title: What is a para-ecologist?
+  image: "/assets/img/fotos/paraecologos.jpg"
+  image_alt: The para-ecologist team by the river
+  text: |-
+    A para-ecologist is a community member trained in ecological monitoring methods. They have
+    known the forest and its particularities since childhood, and learn to record their
+    observations systematically, so they can be compared over the years and shared with
+    researchers.
+
+    This way, knowledge stays in the community, and the data help to make decisions about the
+    territory: where to hunt less, where to build new homes, which areas to protect, and how the
+    river and the forest are changing with climate change.
+
+methods:
+  title: What we monitor
+  intro: >-
+    The data we collect are complex and require training. In addition to the existing weather
+    station and wildlife cameras, a new scientific station will soon be built so that we can
+    collect and analyse data even more systematically.
+  items:
+    - icon: 📷
+      title: Camera traps
+      text: >-
+        Automatic cameras have been placed in the territory of threatened animals to observe their
+        behaviour, their activity patterns and, where possible, their reproduction.
+    - icon: 🔭
+      title: Exploration walks
+      text: >-
+        On every walk we check everything at once: bird calls, frogs and other forest indicators,
+        seed trees, flowering and fruiting – linked to the plant nursery and agroforestry.
+    - icon: 💧
+      title: Water quality
+      text: >-
+        We regularly measure rivers and streams: pH value, temperature, turbidity and aquatic
+        macroinvertebrates, which react very quickly to any pollution.
+    - icon: 🌦️
+      title: Weather station
+      text: >-
+        Our weather station records temperature, humidity, rainfall and wind, so we can document
+        how the climate in the territory is changing.
+    - icon: 📖
+      title: Shuar life
+      text: >-
+        We document Shuar life and knowledge: we take photos, record the Shuar Chicham language and
+        note down names, uses and stories about plants and animals.
+    - icon: 🏗️
+      title: New scientific station
+      text: >-
+        Coming soon: a dedicated station to store, process and analyse monitoring data right here
+        in Maikiuants.
+
+field:
+  title: Fieldwork
+  photos:
+    - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Searching for aquatic animals in the river }
+    - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Sorting samples by the river }
+    - { image: /assets/img/fotos/ciencia-equipo.jpg, alt: The monitoring team in the forest }
+    - { image: /assets/img/fotos/estacion-meteorologica.jpg, alt: The Maikiuants weather station }
+    - { image: /assets/img/fotos/mariposa.jpg, alt: Blue butterfly on a tree trunk }
+    - { image: /assets/img/fotos/insecto.jpg, alt: Colourful grasshopper on a leaf }
+
+animals:
+  title: Our animal neighbours
+  intro: >-
+    The forest and rivers of Maikiuants are home to countless animals. Some are threatened,
+    some are new to science, and many live hidden under water.
+
+  threatened:
+    title: Threatened species
+    intro: >-
+      Maikiuants is an area of great importance for biodiversity. The harmonious relationship
+      between the Shuar community and nature allows mammals that are threatened worldwide to live
+      in its territory. Among others, the 2024 camera traps recorded:
+    note: Threat categories according to our information board.
+    also: "Also recorded: margay, tayra, ocelot, Amazon squirrel and spectral bat, among others."
+    sensitive: To protect them, we never publish exact locations of sensitive species.
+
+  atelopus:
+    title: "A very special frog: Atelopus sp."
+    name: Atelopus sp.
+    images:
+      - { image: /assets/img/fotos/atelopus.jpg, alt: Yellow and black Atelopus frog on moss }
+      - { image: /assets/img/fotos/atelopus-2.jpg, alt: Atelopus frog among leaves }
+    text: |-
+      All species of the genus *Atelopus* are threatened. The *Atelopus sp.* frog is endangered,
+      mainly due to the loss of its natural habitat. Maikiuants is one of the few places in the
+      world where it can still be seen.
+
+      Its survival depends on a balanced ecosystem with healthy forests and clean water. It is so
+      sensitive to changes in its environment and so hard to find that it is still in the process
+      of being scientifically described.
+
+  frog:
+    title: A species new to science?
+    name: Family Bufonidae – species not yet identified
+    images:
+      - { image: /assets/img/fotos/rana-nueva.jpg, alt: The Maikiuants frog that could be a new species }
+      - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: The frog in a sampling bag during monitoring }
+    text: |-
+      On **19 June 2024**, the para-ecologists discovered a frog that has not yet been identified.
+      The photos suggest it could belong to the family *Bufonidae*. However, its unusual features
+      raise the possibility that it could be a **completely new species**.
+
+  river:
+    title: "Life under water: the animals of our rivers"
+    image: /assets/img/fotos/ciencia-muestras.jpg
+    image_alt: Para-ecologists sorting aquatic macroinvertebrates
+    text: |-
+      The water of the Yunkumas and Akaas rivers is in excellent condition because the forest is
+      intact – we measure a pH of 7.8. The rivers are home to small aquatic animals (insect larvae,
+      snails, crabs and shrimps) that hardly anyone ever sees. The para-ecologists collect,
+      identify and photograph them.
+
+      Because they react quickly to pollution, they help us understand water quality and detect
+      any change straight away – for example in nearby rivers affected by mining.
+    groups:
+      - { name: Mayflies, latin: Ephemeroptera, image: "" }
+      - { name: Stoneflies, latin: Plecoptera, image: "" }
+      - { name: Caddisflies, latin: Trichoptera, image: "" }
+      - { name: Dragonflies, latin: Odonata, image: "" }
+      - { name: River crabs and shrimps, latin: Decapoda, image: "" }
+      - { name: Freshwater snails, latin: Gastropoda, image: "" }
+
+# PLACEHOLDER – book details to follow
+book:
+  eyebrow: Our book
+  title: "[Book title]"
+  cover: ""            # e.g. /assets/img/fotos/libro-portada.jpg
+  cover_alt: Cover of the book about the aquatic animals of Maikiuants
+  text: |-
+    Over [X] years, the para-ecologists of Maikiuants collected and photographed the animals
+    that live in our rivers. The result is this book: an illustrated guide with [number] species,
+    their names in Shuar Chicham and Spanish, and what they tell us about the water.
+
+    [More about the content, the authors and who the book is for.]
+  details:
+    - { label: Authors, value: "[Names]" }
+    - { label: Year, value: "[Year]" }
+    - { label: Languages, value: "[Shuar Chicham, Spanish]" }
+    - { label: Pages, value: "[XXX]" }
+  button: { label: How to get the book, url: "" }   # empty url = contact page

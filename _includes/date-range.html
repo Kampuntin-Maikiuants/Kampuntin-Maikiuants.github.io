@@ -1,0 +1,13 @@
+{%- comment -%} Zeitraum, z. B. „11–20 de enero de 2027“. Parameter: start, end {%- endcomment -%}
+{%- assign _l = page.lang | default: site.lang -%}
+{%- assign _months = site.data[_l].ui.months -%}
+{%- assign _m1 = include.start | date: "%-m" | minus: 1 -%}
+{%- assign _m2 = include.end | date: "%-m" | minus: 1 -%}
+{%- assign _d1 = include.start | date: "%-d" -%}
+{%- assign _d2 = include.end | date: "%-d" -%}
+{%- assign _y = include.end | date: "%Y" -%}
+{%- if _l == "en" -%}
+  {%- if _m1 == _m2 -%}{{ _months[_m1] }} {{ _d1 }}–{{ _d2 }}, {{ _y }}{%- else -%}{{ _months[_m1] }} {{ _d1 }} – {{ _months[_m2] }} {{ _d2 }}, {{ _y }}{%- endif -%}
+{%- else -%}
+  {%- if _m1 == _m2 -%}{{ _d1 }}–{{ _d2 }} de {{ _months[_m1] }} de {{ _y }}{%- else -%}{{ _d1 }} de {{ _months[_m1] }} – {{ _d2 }} de {{ _months[_m2] }} de {{ _y }}{%- endif -%}
+{%- endif -%}

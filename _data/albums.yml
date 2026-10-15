@@ -1,0 +1,31 @@
+# Fotoalben der Galerie
+# -----------------------------------------------------------------
+# Jedes Album ist ein Ordner in assets/galeria/, z. B. assets/galeria/2026-09-tour-septiembre/
+# Fotos einfach in den Ordner hochladen – das Album erscheint automatisch (neueste Ordnernamen zuerst,
+# deshalb Ordnernamen mit Datum beginnen).
+#
+# Hier optional Titel, Datum und Titelbild festlegen:
+#   folder: Ordnername
+#   title:  Titel auf Spanisch und Englisch
+#   date:   Datum (für die Anzeige „Octubre 2026“)
+#   cover:  Dateiname des Titelbilds (leer = erstes Foto im Ordner)
+# Ordner ohne Eintrag erscheinen trotzdem, mit dem Ordnernamen als Titel.
+
+- folder: fiesta-en-maikiuants
+  title: { es: "Fiesta en Maikiuants", en: "Celebration in Maikiuants" }
+  cover: ""
+
+- folder: 2026-10-vida-en-maikiuants
+  title: { es: "La vida en Maikiuants", en: "Life in Maikiuants" }
+  date: 2026-10-14
+  cover: "15.jpg"
+
+- folder: 2024-07-voluntariado
+  title: { es: "Voluntariado", en: "Volunteering" }
+  date: 2024-07-29
+  cover: ""
+
+- folder: 2024-06-investigacion
+  title: { es: "Investigación en el bosque y los ríos", en: "Research in the forest and rivers" }
+  date: 2024-06-18
+  cover: ""

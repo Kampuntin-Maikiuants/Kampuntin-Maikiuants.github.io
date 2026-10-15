@@ -1,0 +1,90 @@
+{%- comment -%}
+  Fotoalben aus assets/galeria/<ordner>/ – Titelbild + Klick öffnet alle Fotos in der Lightbox.
+  Parameter: tours_only (nur Tour-Alben), limit, placeholders (Liste, solange es keine Fotos gibt)
+{%- endcomment -%}
+{%- assign al_lang = page.lang | default: site.lang -%}
+{%- assign al_ui = site.data[al_lang].ui -%}
+{%- assign al_limit = include.limit | default: 1000 | plus: 0 -%}
+{%- assign al_exts = ".jpg .jpeg .png .webp .gif .avif" | split: " " -%}
+{%- assign al_files = site.static_files | where_exp: "f", "f.path contains '/assets/galeria/'" | sort: "path" -%}
+{%- capture al_folders -%}
+  {%- for f in al_files -%}
+    {%- assign al_ext = f.extname | downcase -%}
+    {%- assign al_parts = f.path | split: "/" -%}
+    {%- if al_exts contains al_ext and al_parts.size > 4 -%}{{ al_parts[3] }}|{%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign al_folders = al_folders | split: "|" | uniq | sort | reverse -%}
+{%- assign al_count = 0 -%}
+<div class="albums">
+{%- for folder in al_folders -%}
+  {%- if al_count >= al_limit -%}{%- break -%}{%- endif -%}
+  {%- assign meta = site.data.albums | where: "folder", folder | first -%}
+  {%- if include.tours_only -%}
+    {%- unless meta.tour or folder contains "tour" -%}{%- continue -%}{%- endunless -%}
+  {%- endif -%}
+  {%- assign al_count = al_count | plus: 1 -%}
+  {%- comment -%} Ohne Eintrag in albums.yml: Datum vorne im Ordnernamen abtrennen ("2026-07-minga" -> "minga", Juli 2026) {%- endcomment -%}
+  {%- assign al_parts = folder | split: "-" -%}
+  {%- assign al_words = "" -%}
+  {%- assign al_year = "" -%}
+  {%- assign al_month = 0 -%}
+  {%- assign al_leading = true -%}
+  {%- for part in al_parts -%}
+    {%- assign al_num = part | plus: 0 -%}
+    {%- if al_leading and al_num > 0 and part.size <= 4 -%}
+      {%- if part.size == 4 -%}{%- assign al_year = part -%}{%- elsif al_month == 0 -%}{%- assign al_month = al_num -%}{%- endif -%}
+    {%- else -%}
+      {%- assign al_leading = false -%}
+      {%- assign al_words = al_words | append: " " | append: part -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign al_title = meta.title[al_lang] | default: al_words | strip | replace: "_", " " -%}
+  {%- if al_title == "" -%}{%- assign al_title = folder -%}{%- endif -%}
+  {%- if meta.date -%}
+    {%- assign al_m = meta.date | date: "%-m" | minus: 1 -%}
+    {%- assign al_y = meta.date | date: "%Y" -%}
+    {%- assign al_when = al_ui.months[al_m] | capitalize | append: " " | append: al_y -%}
+  {%- elsif al_year != "" -%}
+    {%- assign al_when = al_year -%}
+    {%- if al_month > 0 -%}{%- assign al_m = al_month | minus: 1 -%}{%- assign al_when = al_ui.months[al_m] | capitalize | append: " " | append: al_year -%}{%- endif -%}
+  {%- else -%}
+    {%- assign al_when = "" -%}
+  {%- endif -%}
+  {%- assign al_needle = "/assets/galeria/" | append: folder | append: "/" -%}
+  {%- assign al_photos = "" | split: "" -%}
+  {%- for f in al_files -%}
+    {%- assign al_ext = f.extname | downcase -%}
+    {%- if al_exts contains al_ext and f.path contains al_needle -%}{%- assign al_photos = al_photos | push: f.path -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign al_cover = al_photos.first -%}
+  {%- if meta.cover and meta.cover != "" -%}{%- assign al_cover = al_needle | append: meta.cover -%}{%- endif %}
+  <article class="album">
+    <a class="album__cover" href="{{ al_cover | relative_url }}" data-lightbox data-album="{{ folder }}" data-caption="{{ al_title | escape }}">
+      <img src="{{ al_cover | relative_url }}" alt="{{ al_title | escape }}" loading="lazy" decoding="async">
+      <span class="album__count">{{ al_photos.size }} {{ al_ui.photos }}</span>
+    </a>
+    <div class="album__body">
+      <h3>{{ al_title }}</h3>
+      {%- if al_when != "" %}<p>{{ al_when }}</p>{% endif %}
+    </div>
+    <div hidden>
+      {%- for p in al_photos %}{% unless p == al_cover %}<a href="{{ p | relative_url }}" data-lightbox data-album="{{ folder }}" data-caption="{{ al_title | escape }}"></a>{% endunless %}{% endfor -%}
+    </div>
+  </article>
+{%- endfor -%}
+{%- if al_count == 0 and include.placeholders -%}
+  {%- for ph in include.placeholders -%}
+    {%- if al_count >= al_limit -%}{%- break -%}{%- endif -%}
+    {%- if include.tours_only and ph.tour != true -%}{%- continue -%}{%- endif -%}
+    {%- assign al_count = al_count | plus: 1 %}
+  <article class="album album--placeholder">
+    <div class="album__cover">
+      {% include media.html alt=ph.title %}
+      <span class="album__count">{{ ph.count }} {{ al_ui.photos }}</span>
+    </div>
+    <div class="album__body"><h3>{{ ph.title }}</h3><p>{{ ph.date }}</p></div>
+  </article>
+  {%- endfor -%}
+{%- endif %}
+</div>

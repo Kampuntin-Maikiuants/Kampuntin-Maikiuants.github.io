@@ -1,0 +1,42 @@
+{%- comment -%}
+  Automatisch importierte Facebook-/Instagram-Beiträge (_data/social_posts.json, siehe scripts/import_social.py).
+  Parameter: limit
+{%- endcomment -%}
+{%- assign sf_ui = site.data[page.lang].ui -%}
+{%- assign sf_limit = include.limit | default: 100 | plus: 0 -%}
+<div class="feed">
+  {%- for p in site.data.social_posts limit: sf_limit %}
+  {%- if p.source == "instagram" %}{% assign sf_platform = "Instagram" %}{% else %}{% assign sf_platform = "Facebook" %}{% endif %}
+  <article class="feed-post">
+    {%- if p.images.size > 0 %}
+    <a class="feed-post__media" href="{{ p.images.first | relative_url }}" data-lightbox data-album="{{ p.id }}" data-caption="{{ sf_platform }} · {{ p.account | escape }}">
+      <img src="{{ p.images.first | relative_url }}" alt="" loading="lazy" decoding="async">
+      {%- if p.images.size > 1 %}<span class="album__count">+{{ p.images.size | minus: 1 }}</span>{% endif %}
+    </a>
+    {%- if p.images.size > 1 %}
+    <div hidden>{% for img in p.images offset: 1 %}<a href="{{ img | relative_url }}" data-lightbox data-album="{{ p.id }}" data-caption="{{ sf_platform }} · {{ p.account | escape }}"></a>{% endfor %}</div>
+    {%- endif %}
+    {%- endif %}
+    <div class="feed-post__body">
+      <p class="feed-post__meta">
+        <span class="feed-src feed-src--{{ p.source }}">{{ sf_platform }} · {{ p.account }}</span>
+        <time datetime="{{ p.date | date_to_xmlschema }}">{% include date.html date=p.date %}</time>
+      </p>
+      {%- if p.text != "" %}
+      <div class="feed-post__text">
+        {%- if p.text.size > 280 %}
+        <p class="feed-post__short">{{ p.text | truncate: 260 | escape | newline_to_br }}</p>
+        <details>
+          <summary>{{ sf_ui.read_more }}</summary>
+          <p>{{ p.text | escape | newline_to_br }}</p>
+        </details>
+        {%- else %}
+        <p>{{ p.text | escape | newline_to_br }}</p>
+        {%- endif %}
+      </div>
+      {%- endif %}
+      <a class="link-arrow feed-post__link" href="{{ p.url }}" rel="noopener">{{ sf_ui.view_on }} {{ sf_platform }} →</a>
+    </div>
+  </article>
+  {%- endfor %}
+</div>

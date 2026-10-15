@@ -1,0 +1,108 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].science -%}
+{%- assign ui = site.data[page.lang].ui -%}
+{%- assign contact_page = site.pages | where: "ref", "contact" | where: "lang", page.lang | first -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="section">
+  <div class="container split split--media">
+    <div class="prose">
+      <h2 class="section-title">{{ t.what.title }}</h2>
+      {{ t.what.text | markdownify }}
+    </div>
+    {% include media.html src=t.what.image alt=t.what.image_alt class="split__img" %}
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.methods.title }}</h2>
+    <p class="section-intro">{{ t.methods.intro }}</p>
+    <div class="grid grid--3">
+      {%- for m in t.methods.items %}
+      <article class="card">
+        <span class="card__icon" aria-hidden="true">{{ m.icon }}</span>
+        <h3>{{ m.title }}</h3>
+        <p>{{ m.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+    <h3 class="subsection-title subsection">{{ t.field.title }}</h3>
+    {% include photo-grid.html photos=t.field.photos group="campo" %}
+  </div>
+</section>
+
+{%- assign a = t.animals %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ a.title }}</h2>
+    <p class="section-intro">{{ a.intro }}</p>
+
+    <h3 class="subsection-title">{{ a.threatened.title }}</h3>
+    <p class="section-intro">{{ a.threatened.intro }}</p>
+    <div class="grid grid--species">
+      {%- for s in site.data.species %}
+        {%- assign s_name = s.name[page.lang] %}
+      <article class="species">
+        {% include media.html src=s.image alt=s_name class="species__img" %}
+        <div class="species__body">
+          <span class="status status--{{ s.status | downcase }}"><abbr title="{{ ui.iucn[s.status] }}">{{ s.status }}</abbr> {{ ui.iucn[s.status] }}</span>
+          <h4>{{ s_name }}</h4>
+          <p class="latin"><i lang="la">{{ s.latin }}</i></p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="note">{{ a.threatened.also }}<br>{{ a.threatened.note }} <strong>{{ a.threatened.sensitive }}</strong></p>
+
+    {%- assign frogs = "atelopus frog" | split: " " %}
+    {%- for key in frogs %}
+      {%- assign fr = a[key] %}
+    <div class="split split--media subsection{% cycle '', ' split--reverse' %}">
+      {% include photo-grid.html photos=fr.images group=key class="photo-grid--2" %}
+      <div class="prose">
+        <h3 class="subsection-title">{{ fr.title }}</h3>
+        <p class="latin latin--big"><i>{{ fr.name }}</i></p>
+        {{ fr.text | markdownify }}
+      </div>
+    </div>
+    {%- endfor %}
+
+    <div class="split split--media subsection">
+      <div class="prose">
+        <h3 class="subsection-title">{{ a.river.title }}</h3>
+        {{ a.river.text | markdownify }}
+      </div>
+      {% include media.html src=a.river.image alt=a.river.image_alt class="split__img" %}
+    </div>
+    <div class="grid grid--tiles tiles-row">
+      {%- for g in a.river.groups %}
+      <figure class="tile">
+        {% include media.html src=g.image alt=g.name %}
+        <figcaption><strong>{{ g.name }}</strong> <i lang="la">{{ g.latin }}</i></figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{%- assign b = t.book %}
+{%- assign book_url = b.button.url | default: contact_page.url %}
+<section class="section section--forest">
+  <div class="container split split--media book">
+    {% include media.html src=b.cover alt=b.cover_alt class="book__cover" %}
+    <div class="prose">
+      <p class="eyebrow">{{ b.eyebrow }}</p>
+      <h2 class="section-title">{{ b.title }}</h2>
+      {{ b.text | markdownify }}
+      <dl class="facts-list facts-list--dark">
+        {%- for d in b.details %}
+        <div><dt>{{ d.label }}</dt><dd>{{ d.value }}</dd></div>
+        {%- endfor %}
+      </dl>
+      <p><a class="btn" href="{{ book_url | relative_url }}">{{ b.button.label }}</a></p>
+    </div>
+  </div>
+</section>

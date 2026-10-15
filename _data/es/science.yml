@@ -1,0 +1,157 @@
+# Página de ciencia (paraecología) – español
+
+hero:
+  eyebrow: Ciencia comunitaria
+  title: "Paraecología: investigar el bosque desde la comunidad"
+  lead: >-
+    En Maikiuants, personas de la comunidad se forman como paraecólogas y paraecólogos.
+    Unen el conocimiento shuar del bosque con métodos científicos para documentar la
+    biodiversidad y proteger su territorio.
+  image: "/assets/img/fotos/hero-ciencia.jpg"
+  image_alt: Paraecólogos de Maikiuants trabajando con microscopios
+
+what:
+  title: ¿Qué es un paraecólogo?
+  image: "/assets/img/fotos/paraecologos.jpg"
+  image_alt: El equipo de paraecólogos junto al río
+  text: |-
+    Un paraecólogo o una paraecóloga es una persona de la comunidad capacitada en métodos de
+    monitoreo ecológico. Conoce el bosque y sus particularidades desde la infancia, y aprende a
+    registrar sus observaciones de forma sistemática, para que puedan compararse a lo largo de
+    los años y compartirse con investigadores.
+
+    Así, el conocimiento se queda en la comunidad y los datos sirven para tomar decisiones sobre
+    el territorio: dónde cazar menos, dónde construir nuevas casas, qué zonas proteger y cómo
+    cambian el río y el bosque con el cambio climático.
+
+methods:
+  title: Qué monitoreamos
+  intro: >-
+    Los datos que recogemos son complejos y requieren formación. Además de la estación
+    meteorológica y las cámaras trampa que ya funcionan, pronto se construirá una nueva estación
+    científica para recoger y analizar los datos de forma aún más sistemática.
+  items:
+    - icon: 📷
+      title: Cámaras trampa
+      text: >-
+        Hemos instalado cámaras automáticas en el territorio de los animales amenazados para
+        observar su comportamiento, sus patrones de actividad y, si es posible, su reproducción.
+    - icon: 🔭
+      title: Recorridos de exploración
+      text: >-
+        En cada recorrido revisamos todo a la vez: cantos de aves, ranas y otros indicadores del
+        bosque, árboles semilleros, floración y fructificación – en conexión con el vivero y la
+        agroforestería.
+    - icon: 💧
+      title: Calidad del agua
+      text: >-
+        Medimos regularmente los ríos y quebradas: valor de pH, temperatura, turbidez y
+        macroinvertebrados acuáticos, que reaccionan muy rápido a cualquier contaminación.
+    - icon: 🌦️
+      title: Estación meteorológica
+      text: >-
+        Nuestra estación meteorológica registra temperatura, humedad del aire, lluvia y viento.
+        Así documentamos cómo cambia el clima en el territorio.
+    - icon: 📖
+      title: Vida shuar
+      text: >-
+        Documentamos la vida y los saberes shuar: tomamos fotos, grabamos la lengua shuar chicham
+        y registramos nombres, usos y relatos sobre plantas y animales.
+    - icon: 🏗️
+      title: Nueva estación científica
+      text: >-
+        Próximamente: una estación propia para guardar, procesar y analizar los datos del
+        monitoreo directamente en Maikiuants.
+
+field:
+  title: Trabajo de campo
+  photos:
+    - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Búsqueda de animales acuáticos en el río }
+    - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Clasificando muestras junto al río }
+    - { image: /assets/img/fotos/ciencia-equipo.jpg, alt: El equipo de monitoreo en el bosque }
+    - { image: /assets/img/fotos/estacion-meteorologica.jpg, alt: La estación meteorológica de Maikiuants }
+    - { image: /assets/img/fotos/mariposa.jpg, alt: Mariposa azul sobre un tronco }
+    - { image: /assets/img/fotos/insecto.jpg, alt: Saltamontes de colores sobre una hoja }
+
+animals:
+  title: Los animales con quienes convivimos
+  intro: >-
+    La selva y los ríos de Maikiuants son el hogar de muchísimos animales. Algunos están
+    amenazados, otros son nuevos para la ciencia y muchos viven escondidos bajo el agua.
+
+  threatened:
+    title: Especies amenazadas
+    intro: >-
+      Maikiuants es un área de gran importancia para la biodiversidad. La relación armoniosa de la
+      comunidad shuar con la naturaleza permite que en su territorio convivan mamíferos en peligro
+      de extinción a nivel mundial. Las cámaras trampa de 2024 registraron, entre otros:
+    note: Categorías de amenaza según nuestro panel informativo.
+    also: "También registrados: margay, tayra, ocelote, ardilla amazónica y falso vampiro, entre otros."
+    sensitive: Para protegerlas, no publicamos ubicaciones exactas de especies sensibles.
+
+  atelopus:
+    title: "Una rana muy especial: Atelopus sp."
+    name: Atelopus sp.
+    images:
+      - { image: /assets/img/fotos/atelopus.jpg, alt: Rana Atelopus amarilla y negra sobre musgo }
+      - { image: /assets/img/fotos/atelopus-2.jpg, alt: Rana Atelopus entre hojas }
+    text: |-
+      Todas las especies del género *Atelopus* están amenazadas. La rana *Atelopus sp.* está en
+      peligro de extinción, sobre todo por la pérdida de su hábitat natural. Maikiuants es uno de
+      los pocos lugares del mundo donde todavía se la puede ver.
+
+      Su supervivencia depende de un ecosistema equilibrado, con bosques sanos y agua limpia. Es
+      tan sensible a los cambios de su entorno y tan difícil de encontrar que todavía está en
+      proceso de descripción científica.
+
+  frog:
+    title: ¿Una especie nueva para la ciencia?
+    name: Familia Bufonidae – especie por identificar
+    images:
+      - { image: /assets/img/fotos/rana-nueva.jpg, alt: La rana de Maikiuants que podría ser una especie nueva }
+      - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: La rana en una bolsa de muestreo durante el monitoreo }
+    text: |-
+      El **19 de junio de 2024**, los paraecólogos descubrieron una rana que todavía no ha sido
+      identificada. Las fotos sugieren que podría pertenecer a la familia *Bufonidae*. Sin embargo,
+      sus características inusuales abren la posibilidad de que se trate de una **especie
+      completamente nueva**.
+
+  river:
+    title: "Vida bajo el agua: los animales de nuestros ríos"
+    image: /assets/img/fotos/ciencia-muestras.jpg
+    image_alt: Paraecólogos clasificando macroinvertebrados acuáticos
+    text: |-
+      El agua de los ríos Yunkumas y Akaas está en excelentes condiciones, gracias a que el bosque
+      está intacto – medimos un pH de 7,8. En los ríos viven pequeños animales acuáticos (larvas
+      de insectos, caracoles, cangrejos y camarones) que casi nadie ve. Los paraecólogos los
+      recolectan, los identifican y los fotografían.
+
+      Como reaccionan rápido a la contaminación, nos permiten entender la calidad del agua y
+      detectar enseguida cualquier alteración – por ejemplo en ríos cercanos afectados por la
+      actividad minera.
+    groups:
+      - { name: Efímeras, latin: Ephemeroptera, image: "" }
+      - { name: Plecópteros, latin: Plecoptera, image: "" }
+      - { name: Tricópteros, latin: Trichoptera, image: "" }
+      - { name: Libélulas, latin: Odonata, image: "" }
+      - { name: Cangrejos y camarones de río, latin: Decapoda, image: "" }
+      - { name: Caracoles de agua dulce, latin: Gastropoda, image: "" }
+
+# PLATZHALTER – Inhalte zum Buch folgen
+book:
+  eyebrow: Nuestro libro
+  title: "[Título del libro]"
+  cover: ""            # p. ej. /assets/img/fotos/libro-portada.jpg
+  cover_alt: Portada del libro sobre los animales acuáticos de Maikiuants
+  text: |-
+    Durante [X] años, los paraecólogos de Maikiuants recolectaron y fotografiaron los animales
+    que viven en nuestros ríos. El resultado es este libro: una guía ilustrada con [número]
+    especies, sus nombres en shuar chicham y en español, y lo que nos cuentan sobre el agua.
+
+    [Más información sobre el contenido, los autores y para quién está pensado el libro.]
+  details:
+    - { label: Autores, value: "[Nombres]" }
+    - { label: Año, value: "[Año]" }
+    - { label: Idiomas, value: "[Shuar chicham, español]" }
+    - { label: Páginas, value: "[XXX]" }
+  button: { label: Cómo conseguir el libro, url: "" }   # url leer = Kontaktseite

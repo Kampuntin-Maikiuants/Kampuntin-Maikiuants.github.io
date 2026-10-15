@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].updates -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="section">
+  <div class="container">
+    {% include social-channels.html compact=true %}
+    {%- if site.data.social_posts.size > 0 %}
+    <h2 class="section-title subsection">{{ t.feed.title }}</h2>
+    <p class="section-intro">{{ t.feed.text }}</p>
+    {% include social-feed.html %}
+    {%- endif %}
+  </div>
+</section>
+
+{%- if site.data.instagram_embeds %}
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.instagram.title }}</h2>
+    <div class="grid grid--embeds">
+      {%- for url in site.data.instagram_embeds %}
+      {% include embed.html type="instagram" url=url %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if site.data.social_posts.size == 0 and site.facebook_timeline and site.social.facebook.size > 0 %}
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.timeline.title }}</h2>
+    <p class="section-intro">{{ t.timeline.text }}</p>
+    <div class="grid grid--embeds">
+      {%- for fb in site.social.facebook %}
+        {%- assign fb_title = "Facebook · " | append: fb.name %}
+      {% include embed.html type="facebook_page" url=fb.url title=fb_title %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

@@ -1,0 +1,9 @@
+{%- comment -%} Datum in der Seitensprache, z. B. „12 de octubre de 2026“. Parameter: date {%- endcomment -%}
+{%- assign _l = page.lang | default: site.lang -%}
+{%- assign _months = site.data[_l].ui.months -%}
+{%- assign _m = include.date | date: "%-m" | minus: 1 -%}
+{%- if _l == "en" -%}
+{{ _months[_m] }} {{ include.date | date: "%-d, %Y" }}
+{%- else -%}
+{{ include.date | date: "%-d" }} de {{ _months[_m] }} de {{ include.date | date: "%Y" }}
+{%- endif -%}

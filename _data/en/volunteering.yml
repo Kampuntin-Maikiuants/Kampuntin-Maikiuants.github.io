@@ -1,0 +1,166 @@
+# Volunteering page – English (based on the WWOOF profile)
+# Text in [square brackets] is a placeholder: replace with the real information.
+
+hero:
+  eyebrow: Volunteering · Agroforestry · Community life
+  title: Volunteering in Maikiuants
+  lead: >-
+    We're looking for people who want to share knowledge and cultures, work, learn about the
+    rainforest and live together — and who want to experience community life in the Amazon, far
+    from the city.
+  image: "/assets/img/fotos/hero-voluntariado.jpg"
+  image_alt: Volunteer holding a bunch of bananas in the garden
+
+who:
+  title: Who are we looking for?
+  intro: >-
+    It doesn't matter exactly what you can do or which skills you bring — everything is welcome.
+    What matters is that you'd like to…
+  items:
+    - learn about plants, agroforestry and permaculture,
+    - live in a group and share tasks,
+    - learn about Shuar culture and life in the rainforest,
+    - spend lots of time outdoors,
+    - experience a slow, relaxed and flexible everyday life,
+    - and be open-minded, respectful and flexible.
+
+tasks:
+  title: How you'll help
+  intro: >-
+    All tasks are very flexible and not always needed. So be ready to help wherever help is needed
+    and to bring in your own ideas and skills. For example, you can help with:
+  items:
+    - icon: 🌱
+      title: Gardening
+      text: Plant nursery, planting, and looking after the garden and grounds around the house.
+    - icon: 🍌
+      title: Agroforestry
+      text: Maintaining the agroforestry crops by weeding, pruning and harvesting.
+    - icon: 🔨
+      title: Construction
+      text: Helping with construction work and infrastructure improvements.
+    - icon: 🤝
+      title: Mingas
+      text: Communal work days in the village of Maikiuants.
+    - icon: 🧵
+      title: Your skills
+      text: Individual help depending on your skills, for example sewing, social media or videos.
+
+life:
+  title: Life in the jea
+  text: |-
+    We sleep in a traditional house called a **jea**, in the middle of the jungle. There are
+    bunk beds on three levels and the possibility of hanging a hammock. The shower is the best
+    in the world: a pure river with fresh water.
+
+    A well-equipped kitchen is available for cooking. A solar panel supplies it with
+    electricity, and there is a blender and a juice extractor. In the future, we plan to install
+    a small fridge for food storage. Meals are usually shared with the other volunteers.
+  # The 6 photos are in _data/jea_photos.yml (shared with the tours page)
+
+free_time:
+  title: Free time
+  text: >-
+    In your free time, you can make the most of the area: we can take you on beautiful walks,
+    you can play with the children, take part in pottery-making, make crafts, play music and sing.
+  quote: It's a place of creativity and freedom where anything is possible.
+
+practical:
+  title: Practical information
+  items:
+    - { label: Minimum stay, value: "[2 weeks]" }
+    - { label: Working hours, value: "Flexible, 3–5 h a day, 5 days a week" }
+    - label: Food
+      value: >-
+        Bring food for at least the first week, to cook together with the 2–3 community members
+        you live with. Bananas and plantains grow here, and a small shop in the community sells
+        basics. Also bring extra cash for shopping and the taxi from Limón Indanza. There's a
+        solution for everything, and people are always happy to help.
+    - { label: Languages, value: "Spanish (basic Spanish helps a lot), Shuar Chicham" }
+    - { label: Arrival, value: "By bus to Limón Indanza, then about 2.5 h by 4×4 taxi (approx. 50–60 USD) to the community" }
+  wwoof: Find us on WWOOF too
+
+apply:
+  title: How to apply
+  steps:
+    - title: Introduce yourself
+      text: Tell us who you are, what motivates you and when you would like to come.
+    - title: Confirmation
+      text: We agree on dates and further details.
+    - title: Welcome!
+      text: We meet you at the accommodation and show you around.
+  button: I want to volunteer
+
+# PLACEHOLDER – add real testimonials (with consent)
+testimonials:
+  title: Volunteer experiences
+  intro: What people who have already spent time in Maikiuants say.
+  # quote = short quote (always visible) · text = full story to expand (optional, any length)
+  items:
+    - quote: >-
+        I came to help in the nursery and left having learned so much more — about plants, about
+        the community and about myself. Bathing in the river every morning is priceless.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        I came for three weeks and stayed two months. At first everything was new: sleeping in the
+        jea, cooking for everyone, getting used to the rhythm of the community. Little by little the
+        nursery became my favourite place.
+
+        [The full story can go here: how the arrival was, what you learned, a moment you'll never
+        forget and what you'd tell someone thinking about coming.]
+    - quote: >-
+        The first nights in the jea felt strange; after that I didn't want to leave. The best
+        part were the afternoons with the children and the walks at sunset.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        [Full story from the volunteer: the first days, life with the families, the forest walks
+        and what they took home from Maikiuants.]
+    - quote: >-
+        It's real work, with mud and rain. But watching the trees we planted grow and sharing
+        meals with everyone makes it all worth it.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        [Full story from the volunteer: work on the agroforestry plots, the minga, living with the
+        other volunteers and what it meant to them.]
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: How long can I stay?
+      a: >-
+        The minimum stay is [2 weeks]. Longer stays are very welcome, up to [X months].
+    - q: How much does volunteering cost?
+      a: >-
+        Accommodation in the jea is in exchange for your work. You bring food and cook together
+        (see "Practical information"); also plan some money for small purchases and the taxi from
+        Limón Indanza.
+    - q: Do I need experience in farming or construction?
+      a: >-
+        No. What matters is the willingness to learn and to work. We'll teach you everything
+        you need on site.
+    - q: Do I need to speak Spanish?
+      a: >-
+        Basic Spanish helps a lot when living with the community. [State whether someone on the
+        team speaks English.]
+    - q: What does a typical day look like?
+      a: >-
+        In the morning, when it's cooler, we work in the nursery, the plots or on construction.
+        After a shared lunch, afternoons are usually free: river, walks, crafts or time with the
+        children.
+    - q: Is there internet and electricity?
+      a: >-
+        A solar panel powers the kitchen, and you can charge your phone there too. There's no phone
+        signal, but internet is available at the community centre, about a 20–25-minute walk away.
+    - q: Which vaccinations and insurance do I need?
+      a: >-
+        Travel insurance with medical cover is required. Talk to a travel doctor; for the Amazon,
+        the yellow fever vaccination is usually recommended.
+    - q: Can I come with my partner or friends?
+      a: >-
+        Yes, just write to us early. We can host [X] volunteers at the same time.

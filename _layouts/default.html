@@ -1,0 +1,16 @@
+<!doctype html>
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign ui = site.data[lang].ui %}
+<html lang="{{ lang }}">
+<head>
+{% include head.html %}
+</head>
+<body class="page-{{ page.ref | default: 'default' }}">
+<a class="skip-link" href="#main">{{ ui.skip }}</a>
+{% include header.html %}
+<main id="main" tabindex="-1">
+{{ content }}
+</main>
+{% include footer.html %}
+</body>
+</html>

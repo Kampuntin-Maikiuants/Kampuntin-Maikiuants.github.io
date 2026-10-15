@@ -1,0 +1,15 @@
+# Tour-Termine (werden auf der Tour-Seite in beiden Sprachen angezeigt)
+# status: open = Plätze frei · few = letzte Plätze · full = ausgebucht
+# Vergangene Termine werden bei jedem Neubau der Seite (= jeder Änderung) ausgeblendet.
+# BEISPIEL-TERMINE – bitte durch echte Daten ersetzen.
+
+dates:
+  - start: 2027-01-11
+    end: 2027-01-20
+    status: open
+  - start: 2027-03-08
+    end: 2027-03-17
+    status: few
+  - start: 2027-07-05
+    end: 2027-07-14
+    status: open

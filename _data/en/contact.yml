@@ -1,0 +1,54 @@
+# Contact page – English
+hero:
+  eyebrow: Contact
+  title: Write to us
+  lead: >-
+    Questions about tours, volunteering or a research collaboration? Message us on WhatsApp
+    or by email. We answer personally; signal is limited in the rainforest, so please be patient.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Angel's trumpet flowers in front of a traditional jea
+direct:
+  whatsapp: WhatsApp
+  whatsapp_cta: WhatsApp
+  email: Email
+  email_hint: "General email:"
+  tips_title: To help us reply quickly, tell us
+  tips:
+    - whether you're interested in a tour, volunteering or something else,
+    - the dates you have in mind,
+    - how many people are coming,
+    - and a little about yourself.
+location:
+  title: Where we are
+  text: >-
+    Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon. The road
+    to the community starts in Limón Indanza; from there it takes about two and a half hours,
+    usually by 4×4 taxi (approx. 50–60 USD). Detailed travel instructions and meeting points are
+    arranged before your arrival.
+  map_link: View on OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: How long does it take you to reply?
+      a: >-
+        Usually a few days. Signal is limited in the rainforest, so sometimes it takes a little
+        longer. WhatsApp is often faster.
+    - q: Which languages can I write in?
+      a: Spanish or English. [Add other languages if available.]
+    - q: How do I get to Maikiuants?
+      a: >-
+        From Quito or Cuenca by bus to Limón Indanza, then about two and a half hours by 4×4 taxi
+        (approx. 50–60 USD) to the community. We'll agree on details and meeting points with you
+        before your trip.
+    - q: Can I visit Maikiuants without joining a tour?
+      a: >-
+        Visits are always agreed with the community beforehand. Write to us and we'll see what is
+        possible.
+    - q: Can I change or cancel a booking?
+      a: "[Add the change and cancellation terms.]"
+    - q: How can I support you without travelling?
+      a: >-
+        By sharing our updates, buying our book, or helping with translation, photography or
+        social media. [State whether there is a way to donate.]

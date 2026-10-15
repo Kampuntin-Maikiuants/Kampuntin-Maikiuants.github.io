@@ -1,0 +1,12 @@
+# People page – English (the people themselves are in _data/team.yml)
+hero:
+  eyebrow: People
+  title: The people behind Maikiuants
+  lead: >-
+    Kampuntin and Maikiuants are, above all, people: community families, guides,
+    para-ecologists, artisans and a small coordination team.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Angel's trumpet flowers in front of a traditional jea
+groups:
+  community: From the community
+  kampuntin: "Kampuntin: your team in Maikiuants"

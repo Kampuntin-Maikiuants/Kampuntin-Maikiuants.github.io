@@ -1,0 +1,38 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign ui = site.data[lang].ui -%}
+{%- if page.ref == "home" -%}
+  {%- assign full_title = site.title -%}
+{%- else -%}
+  {%- assign full_title = page.title | append: " · " | append: site.title -%}
+{%- endif -%}
+{%- assign desc = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 -%}
+{%- assign og_image = site.og_image -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('js')</script>
+<title>{{ full_title | escape }}</title>
+<meta name="description" content="{{ desc | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- unless page.ref == "notfound" %}
+  {%- assign translations = site.pages | where: "ref", page.ref -%}
+  {%- for p in translations %}
+<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | absolute_url }}">
+  {%- endfor -%}
+  {%- assign default_page = translations | where: "lang", "es" | first -%}
+  {%- if default_page %}
+<link rel="alternate" hreflang="x-default" href="{{ default_page.url | absolute_url }}">
+  {%- endif -%}
+{%- endunless %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:locale" content="{{ ui.locale }}">
+{%- if og_image and og_image != "" %}
+<meta property="og:image" content="{{ og_image | absolute_url }}">
+{%- endif %}
+<meta name="theme-color" content="#173a2a">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

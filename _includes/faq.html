@@ -1,0 +1,14 @@
+{%- comment -%} Häufige Fragen. Parameter: faq (Daten mit title und items: q/a) {%- endcomment -%}
+<section class="section{% if include.alt %} section--alt{% endif %}">
+  <div class="container narrow">
+    <h2 class="section-title">{{ include.faq.title }}</h2>
+    <div class="faq">
+      {%- for q in include.faq.items %}
+      <details>
+        <summary>{{ q.q }}</summary>
+        <p>{{ q.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

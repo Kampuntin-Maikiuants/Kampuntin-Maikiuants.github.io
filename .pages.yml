@@ -1,0 +1,29 @@
+# Konfiguration für Pages CMS (https://pagescms.org) – optionaler Editor,
+# mit dem Tour-Termine und Fotos ohne Programmierkenntnisse bearbeitet werden können.
+
+media:
+  input: assets/galeria
+  output: /assets/galeria
+
+content:
+  - name: tour_dates
+    label: Fechas de tours
+    type: file
+    path: _data/tour_dates.yml
+    format: yaml
+    fields:
+      - name: dates
+        label: Fechas
+        type: object
+        list: true
+        fields:
+          - { name: start, label: Inicio, type: date, options: { format: yyyy-MM-dd } }
+          - { name: end, label: Fin, type: date, options: { format: yyyy-MM-dd } }
+          - name: status
+            label: Estado
+            type: select
+            options:
+              values:
+                - { name: open, label: Plazas libres }
+                - { name: few, label: Últimas plazas }
+                - { name: full, label: Completo }

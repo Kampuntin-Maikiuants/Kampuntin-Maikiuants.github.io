@@ -1,0 +1,22 @@
+# Página de galería – español
+# Los álbumes se crean solos: cada carpeta en assets/galeria/ es un álbum (ver _data/albums.yml)
+hero:
+  eyebrow: Galería
+  title: Fotos y videos
+  lead: Álbumes de tours pasados, del voluntariado, de la vida en la comunidad, de nuestro trabajo de investigación y del bosque. Haz clic en un álbum para ver todas sus fotos.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Flores de floripondio frente a una jea tradicional
+albums_title: Álbumes de fotos
+videos_title: Videos
+empty_note: >-
+  Aquí aparecerán los álbumes en cuanto se suban fotos a una carpeta en assets/galeria. Por ahora
+  se muestran álbumes de ejemplo.
+consent: Todas las personas que aparecen en las fotos han dado su consentimiento.
+# Álbumes de ejemplo mientras no haya fotos
+placeholders:
+  - { title: Tour de septiembre 2026, date: Septiembre 2026, count: 48, tour: true }
+  - { title: Voluntariado en el vivero, date: Agosto 2026, count: 23 }
+  - { title: Tour de julio 2026, date: Julio 2026, count: 41, tour: true }
+  - { title: Fauna de nuestros ríos, date: Junio 2026, count: 19 }
+  - { title: La vida en Maikiuants, date: Mayo 2026, count: 36 }
+  - { title: Tour de marzo 2026, date: Marzo 2026, count: 37, tour: true }

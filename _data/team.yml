@@ -1,0 +1,69 @@
+# Personen auf der Seite „Equipo / People“
+# group: community (aus Maikiuants) oder kampuntin (Organisationsteam)
+# photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
+# WICHTIG: Nur mit Einverständnis der Person veröffentlichen.
+# PLATZHALTER – Namen, Rollen und Texte bitte ersetzen.
+
+- name: "[Nombre]"
+  group: community
+  photo: ""
+  role: { es: Síndico de Maikiuants, en: Community leader (síndico) }
+  bio:
+    es: Representa a la comunidad y coordina con la asamblea qué actividades se realizan con visitantes.
+    en: Represents the community and coordinates with the assembly which activities take place with visitors.
+
+- name: "[Nombre]"
+  group: community
+  photo: ""
+  role: { es: Paraecólogo, en: Para-ecologist }
+  bio:
+    es: Monitorea el bosque con cámaras trampa desde hace [X] años y conoce cada rastro del territorio.
+    en: Has been monitoring the forest with camera traps for [X] years and knows every track in the territory.
+
+- name: "[Nombre]"
+  group: community
+  photo: ""
+  role: { es: Paraecóloga, en: Para-ecologist }
+  bio:
+    es: Se especializa en aves y plantas medicinales, y enseña su nombre en shuar chicham.
+    en: Specialises in birds and medicinal plants, and teaches their names in Shuar Chicham.
+
+- name: "[Nombre]"
+  group: community
+  photo: ""
+  role: { es: Guía, en: Guide }
+  bio:
+    es: Guía las caminatas por el bosque y comparte historias y conocimientos de su familia.
+    en: Leads the forest walks and shares stories and knowledge passed down in their family.
+
+- name: "[Nombre]"
+  group: community
+  photo: ""
+  role: { es: Cerámica y artesanía, en: Pottery and crafts }
+  bio:
+    es: Enseña a los visitantes la elaboración de cerámica tradicional junto a otras mujeres de la comunidad.
+    en: Teaches visitors traditional pottery together with other women of the community.
+
+- name: "Freddy Ankuash"
+  group: kampuntin
+  photo: ""
+  role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination }
+  bio:
+    es: Organiza los tours y el voluntariado y es tu primer contacto antes y durante tu estancia. WhatsApp +593 98 015 4335.
+    en: Organises tours and volunteering and is your first contact before and during your stay. WhatsApp +593 98 015 4335.
+
+- name: "Minki Ankuash"
+  group: kampuntin
+  photo: ""
+  role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador }
+  bio:
+    es: Tu contacto si viajas desde Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
+    en: Your contact if you are travelling from within Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
+
+- name: "Julien Shakaim"
+  group: kampuntin
+  photo: ""
+  role: { es: Contacto para visitantes internacionales, en: Contact for international visitors }
+  bio:
+    es: Tu contacto si vienes desde el extranjero. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
+    en: Your contact if you are coming from abroad. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com

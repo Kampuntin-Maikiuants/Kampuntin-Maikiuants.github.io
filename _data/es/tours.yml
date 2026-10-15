@@ -1,0 +1,163 @@
+# Página de tours – español
+# Los datos entre [corchetes] son marcadores: reemplazar por la información real.
+
+hero:
+  eyebrow: Tours · 10 días · máx. 12 personas
+  title: Pasa tus días en la selva como parte de nuestra comunidad
+  lead: >-
+    Compartes la vida diaria de la comunidad de Maikiuants, caminas por el bosque con guías
+    shuar, trabajas en la huerta, cocinas, haces música, escuchas historias y descubres otro
+    ritmo de vida.
+  image: "/assets/img/fotos/hero-tours.jpg"
+  image_alt: Río de aguas claras entre rocas en medio de la selva
+
+facts:
+  - { value: "10", label: días en la selva }
+  - { value: "12", label: personas como máximo }
+  - { value: Jea, label: alojamiento tradicional }
+  - { value: Juntos, label: comidas compartidas }
+  - { value: Shuar, label: guías de la comunidad }
+
+intro:
+  title: Qué te espera
+  image: "/assets/img/fotos/cultura.jpg"
+  image_alt: Miembros de la comunidad compartiendo bebida y artesanía con visitantes
+  text: |-
+    La comunidad te recibe para un **intercambio cultural**. Junto con personas de la comunidad
+    compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la
+    selva. Tenemos la mejor ducha del mundo: el río.
+
+    Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos.
+    Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días
+    combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y
+    tiempo libre.
+
+quote:
+  text: En nuestro pueblo no se trata de turismo, sino de intercambio cultural.
+  source: Comunidad de Maikiuants
+
+life:
+  title: La vida en la jea
+  text: Así se vive durante tu estancia en Maikiuants.
+
+activities:
+  title: Actividades según tus deseos y el tiempo
+  intro: "Cada tour se adapta al grupo. Algunas de las cosas que podemos hacer juntos:"
+  image: "/assets/img/fotos/cascada.jpg"
+  image_alt: Cascada en medio de la selva cerca de Maikiuants
+  items:
+    - Caminatas a lugares sagrados y cascadas
+    - Cosecha de frutas nativas
+    - Baño de vapor con plantas medicinales
+    - Preparación de comida típica shuar
+    - Danzas y música
+    - Pesca
+    - Ceremonia de purificación
+    - Elaboración de artesanías
+
+itinerary:
+  title: Así puede ser tu tour
+  note: El programa es orientativo. El clima, el río y la vida de la comunidad marcan el ritmo.
+  days:
+    - title: Llegada
+      text: Llegada a Limón Indanza y viaje de unas 2,5 horas en taxi 4×4 hasta Maikiuants. Bienvenida de la comunidad.
+    - title: Conocer la comunidad
+      text: Recorrido por Maikiuants, la escuela y las huertas familiares (aja). Por la tarde, primer baño en el río.
+    - title: El bosque que cura
+      text: Caminata con un guía shuar. Plantas medicinales, árboles útiles y cómo leer los rastros de los animales.
+    - title: Manos a la tierra
+      text: Mañana en el vivero y en las parcelas agroforestales. Tarde libre para descansar o jugar con los niños.
+    - title: Arcilla y fibras
+      text: Cerámica y tejidos con la asociación de artesanía Nunkui de la comunidad.
+    - title: Excursión
+      text: Día completo hacia una cascada en medio del bosque, con almuerzo envuelto en hojas.
+    - title: Ciencia en el bosque
+      text: Con los paraecólogos, revisamos cámaras trampa y aprendemos cómo se monitorean los animales y los ríos.
+    - title: Cocina shuar
+      text: Preparamos platos tradicionales como el ayampaco y la chicha de yuca. Por la noche, música con flautas hechas a mano.
+    - title: Minga
+      text: Trabajo comunitario junto a las familias y fiesta de despedida con música y cantos.
+    - title: Regreso
+      text: Último desayuno juntos, despedida y viaje de regreso a Limón Indanza.
+
+included:
+  title: Incluido
+  items:
+    - Alojamiento en la jea (literas o un lugar para tu propia hamaca)
+    - Todas las comidas durante diez días (cocinamos juntos)
+    - Guías de la comunidad
+    - Actividades del programa
+    - Cocina y electricidad con energía solar
+    - Internet gratuito en el centro comunitario (a unos 20–25 minutos a pie del alojamiento)
+    - Un río para bañarse
+
+not_included:
+  title: No incluido
+  items:
+    - Vuelos y viaje hasta el centro comunitario y el alojamiento
+    - Seguro de viaje con cobertura médica (obligatorio)
+    - Compras grandes – no hay un supermercado cerca
+
+packing:
+  title: Qué llevar
+  items:
+    - Botas de caucho (también se pueden comprar en el centro comunitario)
+    - Ropa ligera de manga larga
+    - Chaqueta impermeable
+    - Toalla de secado rápido
+    - Mosquitero
+    - Sábanas
+    - Jabón biodegradable
+    - Repelente de mosquitos
+    - Botella de agua
+
+price:
+  title: Precio
+  amount: "[XXX] USD"
+  per: por persona, 10 días
+  text: >-
+    El precio cubre alojamiento, comidas, guías, actividades y un aporte fijo a los proyectos de
+    la comunidad. [Indicar condiciones de pago y cancelación.]
+
+dates:
+  title: Próximas fechas
+  intro: Grupos de máximo 12 personas. ¿Ninguna fecha te queda bien? Escríbenos.
+  empty: Las próximas fechas se publicarán pronto.
+  button: Reservar plaza
+
+booking:
+  title: Cómo reservar
+  steps:
+    - title: Escríbenos
+      text: Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan.
+    - title: Conversamos
+      text: Una breve llamada para resolver dudas y ver si el tour es para ti.
+    - title: Reserva
+      text: Confirmamos tu plaza con un anticipo de [XX] %.
+    - title: Prepárate
+      text: Te enviamos la guía de viaje con lista de equipaje e información de salud.
+
+past:
+  title: Fotos de Maikiuants
+  intro: Algunos momentos de tours, voluntariado y la vida en la comunidad.
+  link: Ver toda la galería
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - q: ¿Necesito una buena condición física?
+      a: >-
+        Basta una condición física normal. Caminamos por senderos con barro, subidas y cruces de
+        río. Si tienes alguna limitación, avísanos y buscamos alternativas.
+    - q: ¿Hay electricidad, señal de teléfono e internet?
+      a: >-
+        Un panel solar abastece la cocina y ahí también puedes cargar tu teléfono. No hay señal de
+        teléfono, pero hay internet en el centro comunitario, a unos 20–25 minutos a pie.
+    - q: ¿Qué idiomas se hablan?
+      a: >-
+        En la comunidad se habla shuar chicham y español. [Indicar si el equipo de Kampuntin
+        acompaña en inglés u otros idiomas.]
+    - q: ¿Es seguro?
+      a: >-
+        Viajamos en grupos pequeños y siempre acompañados por personas de la comunidad que
+        conocen el bosque. [Describir botiquín, comunicación de emergencia y plan de evacuación.]

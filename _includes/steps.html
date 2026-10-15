@@ -1,0 +1,5 @@
+<ol class="steps">
+  {%- for s in include.steps %}
+  <li><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+  {%- endfor %}
+</ol>

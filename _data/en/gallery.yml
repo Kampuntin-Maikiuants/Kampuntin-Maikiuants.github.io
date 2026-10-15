@@ -1,0 +1,22 @@
+# Gallery page – English
+# Albums are created automatically: each folder in assets/galeria/ is an album (see _data/albums.yml)
+hero:
+  eyebrow: Gallery
+  title: Photos and videos
+  lead: Albums from past tours, volunteering, community life, our research work and the forest. Click an album to see all its photos.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Angel's trumpet flowers in front of a traditional jea
+albums_title: Photo albums
+videos_title: Videos
+empty_note: >-
+  Albums will appear here as soon as photos are uploaded to a folder in assets/galeria. For now,
+  example albums are shown.
+consent: Everyone shown in these photos has given their consent.
+# Example albums while there are no photos
+placeholders:
+  - { title: September 2026 tour, date: September 2026, count: 48, tour: true }
+  - { title: Volunteering in the nursery, date: August 2026, count: 23 }
+  - { title: July 2026 tour, date: July 2026, count: 41, tour: true }
+  - { title: Wildlife of our rivers, date: June 2026, count: 19 }
+  - { title: Life in Maikiuants, date: May 2026, count: 36 }
+  - { title: March 2026 tour, date: March 2026, count: 37, tour: true }

@@ -1,0 +1,163 @@
+# Tours page – English
+# Text in [square brackets] is a placeholder: replace with the real information.
+
+hero:
+  eyebrow: Tours · 10 days · max. 12 people
+  title: Spend your days in the rainforest as part of our community
+  lead: >-
+    You share daily life in the Maikiuants community, walk through the forest with Shuar guides,
+    work in the gardens, cook, make music, listen to stories and discover a different rhythm of
+    life.
+  image: "/assets/img/fotos/hero-tours.jpg"
+  image_alt: Clear river flowing between rocks in the middle of the rainforest
+
+facts:
+  - { value: "10", label: days in the rainforest }
+  - { value: "12", label: people at most }
+  - { value: Jea, label: traditional accommodation }
+  - { value: Together, label: shared meals }
+  - { value: Shuar, label: community guides }
+
+intro:
+  title: What you can expect
+  image: "/assets/img/fotos/cultura.jpg"
+  image_alt: Community members sharing a drink and handicrafts with visitors
+  text: |-
+    The community welcomes you for a **cultural exchange**. Together with people from the
+    community you share the accommodation in a traditional jea, cook and eat together and learn
+    about the rainforest. We have the best shower in the world: the river.
+
+    You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for
+    them. We make music together and show you how to play our handmade flutes. The days combine
+    forest walks, work in the nursery and gardens, crafts, cooking and free time.
+
+quote:
+  text: In our village it's not about tourism, but about cultural exchange.
+  source: The Maikiuants community
+
+life:
+  title: Life in the jea
+  text: This is how you'll live during your stay in Maikiuants.
+
+activities:
+  title: Activities to suit your wishes and time
+  intro: "Every tour is adapted to the group. Some of the things we can do together:"
+  image: "/assets/img/fotos/cascada.jpg"
+  image_alt: Waterfall in the middle of the rainforest near Maikiuants
+  items:
+    - Walks to sacred places and waterfalls
+    - Harvesting native fruits
+    - Steam bath with medicinal plants
+    - Cooking traditional Shuar food
+    - Dance and music
+    - Fishing
+    - Purification ceremony
+    - Making handicrafts
+
+itinerary:
+  title: What your tour could look like
+  note: This programme is a guide. Weather, the river and community life set the pace.
+  days:
+    - title: Arrival
+      text: Arrival in Limón Indanza and a journey of about 2.5 hours by 4×4 taxi to Maikiuants. Welcome by the community.
+    - title: Getting to know the community
+      text: A walk through Maikiuants, the school and the family gardens (aja). In the afternoon, your first river bath.
+    - title: The healing forest
+      text: Forest walk with a Shuar guide. Medicinal plants, useful trees and how to read animal tracks.
+    - title: Hands in the soil
+      text: Morning in the plant nursery and agroforestry plots. Free afternoon to rest or play with the children.
+    - title: Clay and fibres
+      text: Pottery and weaving with the community's Nunkui handicraft association.
+    - title: Excursion
+      text: Full-day trip to a waterfall in the middle of the forest, with a leaf-wrapped lunch.
+    - title: Science in the forest
+      text: With the para-ecologists, we check camera traps and learn how animals and rivers are monitored.
+    - title: Shuar cooking
+      text: We prepare traditional dishes such as ayampaco and cassava chicha. Music with handmade flutes in the evening.
+    - title: Minga
+      text: Communal work together with the families, followed by a farewell celebration with music and songs.
+    - title: Departure
+      text: Last breakfast together, goodbyes and the journey back to Limón Indanza.
+
+included:
+  title: Included
+  items:
+    - Accommodation in the jea (bunk beds or a place for your own hammock)
+    - All meals for ten days (we cook together)
+    - Community guides
+    - Programme activities
+    - Solar-powered kitchen and electricity
+    - Free internet at the community centre (about a 20–25-minute walk from the accommodation)
+    - A river to bathe in
+
+not_included:
+  title: Not included
+  items:
+    - Flights and travel to the community centre and accommodation
+    - Travel insurance with medical cover (required)
+    - Big shopping trips – there's no large supermarket nearby
+
+packing:
+  title: What to bring
+  items:
+    - Rubber boots (also available to buy at the community centre)
+    - Light long-sleeved clothes
+    - Rain jacket
+    - Quick-dry towel
+    - Mosquito net
+    - Bed sheets
+    - Biodegradable soap
+    - Mosquito repellent
+    - Water bottle
+
+price:
+  title: Price
+  amount: "[XXX] USD"
+  per: per person, 10 days
+  text: >-
+    The price covers accommodation, meals, guides, activities and a fixed contribution to the
+    community's projects. [Add payment and cancellation terms.]
+
+dates:
+  title: Upcoming dates
+  intro: Groups of up to 12 people. None of the dates work for you? Get in touch.
+  empty: Upcoming dates will be published soon.
+  button: Book a place
+
+booking:
+  title: How to book
+  steps:
+    - title: Write to us
+      text: Tell us who you are, how many people are coming and which dates you are interested in.
+    - title: Let's talk
+      text: A short call to answer your questions and see whether the tour is right for you.
+    - title: Booking
+      text: We confirm your place with a [XX] % deposit.
+    - title: Get ready
+      text: We send you our travel guide with packing list and health information.
+
+past:
+  title: Photos from Maikiuants
+  intro: A few moments from tours, volunteering and community life.
+  link: See the full gallery
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: Do I need to be very fit?
+      a: >-
+        Normal fitness is enough. We walk on muddy trails with climbs and river crossings. If you
+        have any limitations, let us know and we will find alternatives.
+    - q: Is there electricity, phone signal and internet?
+      a: >-
+        A solar panel powers the kitchen, and you can charge your phone there too. There's no
+        phone signal, but internet is available at the community centre, about a 20–25-minute walk
+        away.
+    - q: Which languages are spoken?
+      a: >-
+        The community speaks Shuar Chicham and Spanish. [State whether the Kampuntin team
+        accompanies groups in English or other languages.]
+    - q: Is it safe?
+      a: >-
+        We travel in small groups, always accompanied by community members who know the forest.
+        [Describe first-aid kit, emergency communication and evacuation plan.]

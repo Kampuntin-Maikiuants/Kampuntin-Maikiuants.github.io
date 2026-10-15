@@ -1,0 +1,26 @@
+# Página de novedades (redes sociales) – español
+hero:
+  eyebrow: Novedades
+  title: Síguenos en las redes
+  lead: >-
+    Nuestras novedades las compartimos directamente en Facebook e Instagram: fotos del día a
+    día, tours, voluntariado y noticias de la comunidad.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Flores de floripondio frente a una jea tradicional
+# Beschreibung pro Konto (Schlüssel = Name aus _config.yml bzw. Instagram-Handle)
+descriptions:
+  Kampuntin: Tours, voluntariado y noticias de nuestra organización.
+  Maikiuants: La vida diaria en la comunidad de Maikiuants.
+  territorioshuar: Fotos de la selva, la cultura shuar y nuestro territorio.
+open_facebook: Abrir en Facebook
+open_instagram: Abrir en Instagram
+timeline:
+  title: Lo último en Facebook
+  text: >-
+    Aquí puedes ver directamente las publicaciones de nuestras páginas de Facebook. Para proteger
+    tu privacidad, solo se cargan cuando haces clic.
+feed:
+  title: Últimas publicaciones
+  text: Lo más reciente de nuestras páginas de Facebook e Instagram – se actualiza automáticamente.
+instagram:
+  title: En Instagram

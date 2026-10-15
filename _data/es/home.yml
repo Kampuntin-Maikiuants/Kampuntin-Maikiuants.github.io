@@ -1,0 +1,114 @@
+# Página de inicio – español
+# Consejo: en los textos se puede usar **negrita**, *cursiva* y [enlaces](https://...).
+
+hero:
+  eyebrow: Amazonía ecuatoriana · Morona Santiago
+  title: Kampuntin Maikiuants
+  lead: >-
+    Vive la selva y conoce a la comunidad shuar de Maikiuants: en un tour de diez días o como
+    voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la
+    misión de Kampuntin.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Flores de floripondio frente a una jea tradicional en Maikiuants
+  buttons:
+    - { ref: tours, label: Conocer los tours }
+    - { ref: volunteering, label: Ser voluntario/a, style: ghost }
+
+about:
+  title: La historia detrás de la comunidad
+  items:
+    - title: Los shuar
+      image: "/assets/img/fotos/shuar.jpg"
+      image_alt: Familias shuar de Maikiuants en el bosque
+      text: >-
+        Los shuar son uno de los pueblos indígenas más numerosos de la Amazonía. Su idioma es el
+        **shuar chicham**. Su vida está profundamente ligada al bosque, a los ríos y a la
+        espiritualidad. Los alimentos, las medicinas y los materiales se obtienen de la selva de
+        forma sostenible, y los saberes se transmiten de generación en generación.
+    - title: Maikiuants
+      image: "/assets/img/fotos/maikiuants.jpg"
+      image_alt: El centro de la comunidad de Maikiuants rodeado de selva
+      text: >-
+        Maikiuants es una comunidad shuar de la provincia de Morona Santiago, en la Amazonía sur
+        del Ecuador, y forma parte del **Pueblo Shuar Arutam**. El pueblo, rodeado de selva y ríos
+        limpios, lleva el nombre del río que lo atraviesa. Y el río, a su vez, se llama así por la
+        planta *maikiuants* (en shuar chicham), que crece por todas partes a lo largo de sus orillas.
+    - title: Kampuntin
+      image: "/assets/img/fotos/kampuntin.jpg"
+      image_alt: Equipo de Kampuntin con un grupo de voluntarios frente a la jea
+      text: >-
+        Kampuntin es la organización que hace posibles los tours y el voluntariado en Maikiuants.
+        Desde [año] organizamos regularmente tours y proyectos de voluntariado, sobre todo para
+        aprender unos de otros y unos con otros. Kampuntin también está detrás del trabajo
+        científico, del monitoreo y de la conservación de la selva.
+
+# PLATZHALTER – die Mission wird noch genauer ausformuliert
+mission:
+  title: La misión de Kampuntin
+  intro: >-
+    Kampuntin es la organización comunitaria de turismo de Maikiuants. Recibimos visitantes
+    porque queremos proteger lo que tenemos y compartirlo.
+  items:
+    - title: Cuidar y monitorear la selva
+      text: >-
+        Cuidamos y monitoreamos el bosque, los ríos y los animales de nuestro territorio, para que
+        también las próximas generaciones puedan vivir de ellos y con ellos.
+    - title: Compartir y documentar la cultura shuar
+      text: >-
+        Transmitimos nuestra lengua, nuestros saberes y costumbres a quienes nos visitan y a las
+        nuevas generaciones. Y documentamos nuestra forma de vida mientras todavía es posible.
+    - title: Aprender juntos
+      text: >-
+        Visitantes, voluntarios y comunidad aprendemos unos de otros: sobre las plantas, la
+        espiritualidad y otras formas de vivir.
+    - title: Fortalecer la comunidad
+      text: Los ingresos del turismo se quedan en Maikiuants y financian proyectos propios.
+
+quote:
+  text: Iikia kampuntniuitji tura achitkiaji ii nekatairijiai.
+  translation: Somos naturaleza, conexión y sabiduría.
+  source: Comunidad de Maikiuants
+
+location:
+  title: Dónde estamos
+  text: >-
+    Maikiuants se encuentra en la provincia de **Morona Santiago**, en la Amazonía sur del
+    Ecuador, en la Cordillera del Cóndor. La carretera hacia Maikiuants sale de **Limón Indanza**;
+    desde allí se llega en unas dos horas y media, normalmente en taxi 4×4 (aprox. 50–60 USD).
+    Las instrucciones detalladas de viaje y los puntos de encuentro se acuerdan antes de tu llegada.
+  coords: 3°07'10.2" S · 78°15'56.4" O
+  map_link: Ver en OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+  labels:
+    title: Mapa del Ecuador con la ubicación de Maikiuants en la Amazonía sur
+    peru: Perú
+    ocean: Océano Pacífico
+
+explore:
+  title: Descubre Maikiuants
+  intro: Elige por dónde empezar.
+  items:
+    - ref: tours
+      icon: 🚌
+      title: Tours
+      text: Diez días en la selva para grupos de hasta 12 personas, compartiendo la vida de la comunidad.
+    - ref: volunteering
+      icon: 🌱
+      title: Voluntariado
+      text: Huerta, agroforestería, mingas y construcción, viviendo en una jea tradicional en medio del bosque.
+    - ref: science
+      icon: 🔬
+      title: Ciencia
+      text: Paraecólogas y paraecólogos de la comunidad monitorean la biodiversidad, los ríos y el clima.
+    - ref: updates
+      icon: 📣
+      title: Novedades
+      text: Las últimas publicaciones de Facebook e Instagram, con fotos desde la selva.
+    - ref: gallery
+      icon: 📷
+      title: Galería
+      text: Álbumes de fotos de tours, voluntariado, investigación y fiestas.
+    - ref: people
+      icon: 🤝
+      title: Equipo
+      text: Las personas de Maikiuants y de Kampuntin que hacen posible todo esto.

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].gallery -%}
+{%- assign real_files = site.static_files | where_exp: "f", "f.path contains '/assets/galeria/'" -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.albums_title }}</h2>
+    {% include albums.html placeholders=t.placeholders %}
+    {%- if real_files.size == 0 %}
+    <p class="note">{{ t.empty_note }}</p>
+    {%- else %}
+    <p class="note">{{ t.consent }}</p>
+    {%- endif %}
+  </div>
+</section>
+
+{%- assign real_videos = site.data.videos | where_exp: "v", "v.youtube != ''" -%}
+{%- if real_videos.size > 0 %}
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.videos_title }}</h2>
+    <div class="gallery">
+      {%- for v in real_videos %}
+        {%- assign v_title = v.title[page.lang] %}
+      <figure class="gallery__item gallery__item--video">
+        {% include embed.html type="youtube" id=v.youtube title=v_title %}
+        <figcaption>{{ v_title }}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

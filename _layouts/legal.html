@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].legal -%}
+<div class="page-hero page-hero--small">
+  <div class="container page-hero__inner">
+    <h1>{{ t.title }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container narrow prose">
+    {%- for s in t.sections %}
+    <h2>{{ s.title }}</h2>
+    <p>{{ s.text | escape | newline_to_br }}</p>
+    {%- endfor %}
+  </div>
+</section>

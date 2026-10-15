@@ -1,0 +1,56 @@
+# Baut die Website und veröffentlicht sie auf GitHub Pages.
+# Holt vorher (falls eingerichtet) die neuesten Facebook-/Instagram-Beiträge.
+# Läuft bei jeder Änderung, alle 6 Stunden und auf Knopfdruck (Actions → Run workflow).
+# Voraussetzung: Settings → Pages → Source: „GitHub Actions“.
+name: Website bauen & Social Media importieren
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Facebook & Instagram importieren
+        env:
+          FB_PAGE_TOKENS: ${{ secrets.FB_PAGE_TOKENS }}
+        run: python3 scripts/import_social.py
+
+      - name: Neue Beiträge im Repository speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/social_posts.json assets/img/social
+          if ! git diff --cached --quiet; then
+            git commit -m "Social-Media-Beiträge aktualisiert"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

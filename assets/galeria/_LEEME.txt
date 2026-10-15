@@ -1,0 +1,4 @@
+Jedes Album ist ein eigener Ordner hier drin, z. B. 2026-09-tour-septiembre/.
+Ordnernamen mit Datum beginnen – dann steht das neueste Album vorne.
+Titel/Datum/Titelbild optional in _data/albums.yml.
+Dateien, die mit _ beginnen (wie diese), werden nicht veröffentlicht.

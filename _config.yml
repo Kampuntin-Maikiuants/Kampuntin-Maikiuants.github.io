@@ -1,0 +1,78 @@
+# =============================================================
+#  Maikiuants · Kampuntin – Website-Einstellungen
+#  Nach Änderungen an dieser Datei baut GitHub Pages die Seite neu
+#  (dauert ca. 1–2 Minuten).
+# =============================================================
+
+title: "Kampuntin Maikiuants"
+# Vollständiger Name der Organisation (erscheint in der Fußzeile)
+org_name: "Organización Comunitaria de Servicios Turísticos Kampuntin (Selva mi destino)"
+description: "Tours, voluntariado y ciencia comunitaria con la comunidad shuar de Maikiuants, Amazonía ecuatoriana."
+
+# Adresse der Website. GitHub Pages setzt url/baseurl automatisch.
+# Nur ausfüllen, wenn eine eigene Domain genutzt wird, z. B.:
+# url: "https://www.kampuntin.org"
+# baseurl: ""
+
+# Bild für Vorschauen in WhatsApp/Facebook (1200×630 px empfohlen)
+og_image: "/assets/img/fotos/og.jpg"
+
+# --- Kontakt -------------------------------------------------
+contact:
+  email: "ocstkampuntin@gmail.com"
+  whatsapp: "593980154335"         # Haupt-WhatsApp für die Buttons (ohne + und Leerzeichen)
+  # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
+  people:
+    - name: Freddy Ankuash
+      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination }
+      whatsapp: "593980154335"
+      phone: "+593 98 015 4335"
+    - name: Minki Ankuash
+      role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador }
+      whatsapp: "593969669760"
+      phone: "+593 96 966 9760"
+      email: "ocstkampuntin@gmail.com"
+    - name: Julien Shakaim
+      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors }
+      whatsapp: "32494860865"
+      phone: "+32 494 86 08 65"
+      email: "jdefourny.explore@gmail.com"
+
+# --- Soziale Netzwerke (leer lassen = wird nicht angezeigt) --
+social:
+  instagram:
+    handle: territorioshuar
+    url: "https://www.instagram.com/territorioshuar/"
+  facebook:                                 # eine oder mehrere Facebook-Seiten
+    - name: Kampuntin
+      url: "https://www.facebook.com/profile.php?id=61576137841827"
+    - name: Maikiuants
+      url: "https://www.facebook.com/profile.php?id=61566774571229"
+  wwoof: ""                                 # Link zum WWOOF-Profil
+
+# Zeigt auf „Novedades“ die Facebook-Chroniken (erst nach Klick, wegen Datenschutz)
+facebook_timeline: true
+
+# =============================================================
+#  Ab hier: technische Einstellungen – normalerweise nicht ändern
+# =============================================================
+lang: es
+timezone: America/Guayaquil
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - TODO.md
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .pages.yml
+  - node_modules

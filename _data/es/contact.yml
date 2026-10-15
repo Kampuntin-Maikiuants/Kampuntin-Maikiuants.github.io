@@ -1,0 +1,54 @@
+# Página de contacto – español
+hero:
+  eyebrow: Contacto
+  title: Escríbenos
+  lead: >-
+    ¿Preguntas sobre los tours, el voluntariado o una colaboración científica? Escríbenos por
+    WhatsApp o por correo. Respondemos personalmente; en la selva la señal es limitada, ten paciencia.
+  image: "/assets/img/fotos/hero-inicio.jpg"
+  image_alt: Flores de floripondio frente a una jea tradicional
+direct:
+  whatsapp: WhatsApp
+  whatsapp_cta: WhatsApp
+  email: Correo electrónico
+  email_hint: "Correo general:"
+  tips_title: Para responderte rápido, cuéntanos
+  tips:
+    - si te interesa un tour, el voluntariado u otra cosa,
+    - las fechas que tienes en mente,
+    - cuántas personas vienen,
+    - y un poco sobre ti.
+location:
+  title: Dónde estamos
+  text: >-
+    Maikiuants está en la provincia de Morona Santiago, en la Amazonía sur del Ecuador. La
+    carretera hacia la comunidad sale de Limón Indanza; desde allí son unas dos horas y media,
+    normalmente en taxi 4×4 (aprox. 50–60 USD). Las instrucciones detalladas de viaje y los puntos
+    de encuentro se acuerdan antes de tu llegada.
+  map_link: Ver en OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - q: ¿Cuánto tardan en responder?
+      a: >-
+        Normalmente pocos días. En la selva la señal es limitada, así que a veces tardamos un poco
+        más. Por WhatsApp suele ser más rápido.
+    - q: ¿En qué idiomas puedo escribir?
+      a: En español o en inglés. [Indicar otros idiomas si los hay.]
+    - q: ¿Cómo llego a Maikiuants?
+      a: >-
+        Desde Quito o Cuenca en bus hasta Limón Indanza y de allí unas dos horas y media en taxi 4×4
+        (aprox. 50–60 USD) hasta la comunidad. Los detalles y puntos de encuentro los acordamos
+        contigo antes del viaje.
+    - q: ¿Puedo visitar Maikiuants sin hacer un tour?
+      a: >-
+        Las visitas se acuerdan siempre antes con la comunidad. Escríbenos y vemos qué es
+        posible.
+    - q: ¿Puedo cambiar o cancelar una reserva?
+      a: "[Indicar las condiciones de cambio y cancelación.]"
+    - q: ¿Cómo puedo apoyar sin viajar?
+      a: >-
+        Compartiendo nuestras novedades, comprando nuestro libro o ayudando con traducción,
+        fotografía o redes sociales. [Indicar si hay una forma de donar.]

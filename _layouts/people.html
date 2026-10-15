@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].people -%}
+{% include page-hero.html hero=t.hero %}
+
+{%- assign groups = "kampuntin community" | split: " " %}
+{%- for g in groups %}
+<section class="section{% cycle '', ' section--alt' %}">
+  <div class="container">
+    <h2 class="section-title">{{ t.groups[g] }}</h2>
+    <div class="grid grid--people">
+      {%- assign members = site.data.team | where: "group", g -%}
+      {%- for person in members %}
+        {%- assign p_alt = person.name | append: " – " | append: person.role[page.lang] %}
+      <article class="person">
+        {% include media.html src=person.photo alt=p_alt class="person__img" %}
+        <h3>{{ person.name }}</h3>
+        <p class="person__role">{{ person.role[page.lang] }}</p>
+        <p>{{ person.bio[page.lang] }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endfor %}
+

@@ -1,0 +1,1 @@
+Porträtfotos für die Team-Seite (quadratisch, ca. 600×600 px). Pfad in _data/team.yml eintragen.

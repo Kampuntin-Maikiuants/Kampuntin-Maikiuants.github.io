@@ -1,0 +1,21 @@
+# Bedrohte Arten auf der Seite „Ciencia / Science“ (Kamerafallen 2024)
+# status: CR = vom Aussterben bedroht, EN = stark gefährdet, VU = gefährdet, NT = potenziell gefährdet
+# Kategorien wie auf der Infotafel in Maikiuants – Quelle bitte bestätigen.
+# image: optional, z. B. ein Kamerafallen-Foto /assets/img/fotos/jaguar.jpg
+
+- latin: Panthera onca
+  name: { es: Jaguar, en: Jaguar }
+  status: CR
+  image: ""
+- latin: Tremarctos ornatus
+  name: { es: Oso andino, en: Andean bear }
+  status: EN
+  image: ""
+- latin: Puma concolor
+  name: { es: Puma, en: Puma }
+  status: EN
+  image: ""
+- latin: Speothos venaticus
+  name: { es: Zorro vinagre, en: Bush dog }
+  status: VU
+  image: ""
