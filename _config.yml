@@ -48,7 +48,7 @@ social:
       url: "https://www.facebook.com/profile.php?id=61576137841827"
     - name: Maikiuants
       url: "https://www.facebook.com/profile.php?id=61566774571229"
-  wwoof: ""                                 # Link zum WWOOF-Profil
+  wwoof: "https://wwoofindependents.org/en/host/56512"   # WWOOF-Profil
 
 # Eingebettete Facebook-Chronik (erst nach Klick). Ausgeschaltet, weil Facebook sie nur noch
 # eingeloggten Besuchern zeigt – alle anderen sehen ein leeres Feld. Die Beiträge kommen

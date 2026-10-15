@@ -18,7 +18,6 @@ Ausgangsort mit Taxi 4×4 (50–60 USD), Internet im Gemeinschaftszentrum, Ausfl
 - [ ] **Sprachen:** Spricht jemand im Team Englisch (oder Deutsch)?
 - [ ] **Sicherheit:** Erste Hilfe, Notfall-Kommunikation, Evakuierung (für die Tour-FAQ)
 - [ ] **Spenden:** Gibt es eine Möglichkeit, euch zu unterstützen (Konto, Plattform)?
-- [ ] **WWOOF-Profil-Link** (wird dann auf der Volunteering-Seite verlinkt)
 - [ ] **Seit wann** gibt es Kampuntin / die Touren? (Startseite: „Desde [año]“)
 - [ ] **Kontakte vom Flyer** (Freddy Ankuash, Minki Ankuash, Julien Shakaim) sind eingebaut –
       kurz bei allen dreien nachfragen, ob Nummer und E-Mail öffentlich sichtbar sein dürfen
@@ -98,4 +97,3 @@ die schon eingebauten Fotos und Alben.
 | `legal.yml` | Adresse, Ort/Land |
 | `team.yml` | 5× [Nombre] + Rollen/Texte |
 | `tour_dates.yml` | Beispiel-Termine ersetzen |
-| `_config.yml` | WWOOF-Link |
