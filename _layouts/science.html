@@ -91,12 +91,19 @@ layout: default
       </figure>
       {%- endfor %}
     </div>
+    {%- if a.river.book_note %}
+    <p class="book-note">
+      <span aria-hidden="true">📖</span>
+      <span>{{ a.river.book_note | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+      <a class="link-arrow" href="#libro">{{ a.river.book_link }} ↓</a></span>
+    </p>
+    {%- endif %}
   </div>
 </section>
 
 {%- assign b = t.book %}
 {%- assign book_url = b.button.url | default: contact_page.url %}
-<section class="section section--forest">
+<section class="section section--forest" id="libro">
   <div class="container split split--media book">
     <a class="book__cover-link" href="{{ b.cover | relative_url }}" data-lightbox data-album="libro" data-caption="{{ b.title | escape }}">
       {% include media.html src=b.cover alt=b.cover_alt class="book__cover" %}

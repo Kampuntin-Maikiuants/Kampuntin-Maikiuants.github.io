@@ -122,10 +122,14 @@ animals:
       The water of the Yunkumas and Akaas rivers is in excellent condition because the forest is
       intact – we measure a pH of 7.8. The rivers are home to small aquatic animals (insect larvae,
       snails, crabs and shrimps) that hardly anyone ever sees. The para-ecologists collect,
-      identify and photograph them; the photos below are from our book.
+      identify and photograph them.
 
       Because they react quickly to pollution, they help us understand water quality and detect
       any change straight away – for example in nearby rivers affected by mining.
+    book_note: >-
+      All photos are from our book, the *Guía de macroinvertebrados acuáticos*. There you'll find
+      many more species and everything about their anatomy and what they mean for the water.
+    book_link: More about the book
     groups:          # Fotos aus dem Buch
       - { name: "Mayfly", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
       - { name: "Damselfly (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }

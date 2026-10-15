@@ -63,14 +63,16 @@ layout: default
         <div><dt>{{ p.label }}</dt><dd>{{ p.value }}</dd></div>
         {%- endfor %}
       </dl>
-      {%- if site.social.wwoof != "" %}
-      <p><a class="link-arrow" href="{{ site.social.wwoof }}" rel="noopener">{{ t.practical.wwoof }} →</a></p>
-      {%- endif %}
     </div>
     <div>
       <h2 class="section-title">{{ t.apply.title }}</h2>
       {% include steps.html steps=t.apply.steps %}
-      <p><a class="btn" href="{{ contact_page.url | relative_url }}">{{ t.apply.button }}</a></p>
+      <p class="actions">
+        <a class="btn" href="{{ contact_page.url | relative_url }}">{{ t.apply.button }}</a>
+        {%- if site.social.wwoof != "" %}
+        <a class="btn ghost-dark" href="{{ site.social.wwoof }}" rel="noopener">{{ t.practical.wwoof }} →</a>
+        {%- endif %}
+      </p>
     </div>
   </div>
 </section>

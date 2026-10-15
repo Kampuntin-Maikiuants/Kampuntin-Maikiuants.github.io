@@ -500,6 +500,9 @@ abbr[title] { text-decoration: none; }
 
 /* ---------- Buch ---------- */
 .book { align-items: center; }
+.book-note { display: flex; gap: .75rem; align-items: flex-start; margin: 1.5rem 0 0; padding: 1rem 1.25rem; background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--clay); border-radius: var(--radius-sm); }
+.book-note > span:first-child { font-size: 1.4rem; line-height: 1.2; }
+.book-note .link-arrow { white-space: nowrap; }
 .book__cover-link { justify-self: center; display: block; }
 .book__subtitle { font-family: var(--font-serif); font-size: 1.15rem; color: #f0c7a4 !important; margin-top: -.25rem; }
 .book__pages { margin-top: clamp(2.5rem, 5vw, 3.5rem); }

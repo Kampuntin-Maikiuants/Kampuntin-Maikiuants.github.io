@@ -124,11 +124,15 @@ animals:
       El agua de los ríos Yunkumas y Akaas está en excelentes condiciones, gracias a que el bosque
       está intacto – medimos un pH de 7,8. En los ríos viven pequeños animales acuáticos (larvas
       de insectos, caracoles, cangrejos y camarones) que casi nadie ve. Los paraecólogos los
-      recolectan, los identifican y los fotografían; las fotos de abajo son de nuestro libro.
+      recolectan, los identifican y los fotografían.
 
       Como reaccionan rápido a la contaminación, nos permiten entender la calidad del agua y
       detectar enseguida cualquier alteración – por ejemplo en ríos cercanos afectados por la
       actividad minera.
+    book_note: >-
+      Todas las fotos son de nuestro libro, la *Guía de macroinvertebrados acuáticos*. Allí
+      encontrarás muchas más especies y todo sobre su anatomía y su importancia para el agua.
+    book_link: Más sobre el libro
     groups:          # Fotos aus dem Buch
       - { name: "Efímera", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
       - { name: "Caballito del diablo (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
