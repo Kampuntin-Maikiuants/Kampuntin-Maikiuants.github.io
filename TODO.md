@@ -47,9 +47,9 @@ Froschart vom 19.06.2024, Flüsse Yunkumas/Akaas mit pH 7,8, Wetterstation.
 - [ ] **Gefährdungskategorien** der Arten (Jaguar = vom Aussterben bedroht usw.) – Quelle
       bestätigen (Rote Liste Ecuador? UICN?)
 - [ ] **Kamerafallen-Fotos** von Jaguar, Brillenbär, Puma, Waldhund
-- [ ] **Flusstiere:** Stimmen die 6 Gruppen? Je ein Foto (z. B. aus dem Buch)
-- [ ] **Buch:** Titel, Autor·innen, Jahr, Sprachen, Seitenzahl, Beschreibung, Cover-Foto,
-      und wie man es bekommt
+- [ ] **Buch:** Autor·innen, Jahr, Seitenzahl, Verlag (Logo „natura“ auf dem Cover?) und wie man
+      es bekommt (Kauf? Download? Kontakt?) – Titel, Cover, Buchseiten und 10 Tierfamilien sind drin
+- [ ] **Schreibweise des Flusses:** Buch-Cover „Aakas“, Infotafel „Akaas“ – was stimmt?
 - [ ] **Neue Forschungsstation:** Zeitplan / Details, falls ihr mehr zeigen wollt
 
 ## 4. Menschen & Erfahrungsberichte
@@ -92,7 +92,7 @@ die schon eingebauten Fotos und Alben.
 | `home.yml` | [año] – seit wann Kampuntin |
 | `tours.yml` | [XXX] USD, [XX] % Anzahlung, Zahlungs-/Stornobedingungen, Sicherheit, Sprachen |
 | `volunteering.yml` | [2 semanas], [X meses], Sprachen, Anzahl Freiwillige, Erfahrungsberichte ([Nombre], [país], [año]) |
-| `science.yml` | Buch (Titel, Autor·innen, Jahr, Sprachen, Seiten, Anzahl Arten) |
+| `science.yml` | Buch (Autor·innen, Jahr, Seiten, Bezugsweg) |
 | `contact.yml` | Sprachen, Stornobedingungen, Spenden |
 | `legal.yml` | Adresse, Ort/Land |
 | `team.yml` | 5× [Nombre] + Rollen/Texte |

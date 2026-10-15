@@ -488,15 +488,22 @@ abbr[title] { text-decoration: none; }
 .subsection { margin-top: clamp(3.5rem, 7vw, 5rem); }
 .subsection-title { font-size: clamp(1.4rem, 2.5vw, 1.8rem); margin-bottom: .5rem; }
 .latin--big { font-size: 1.1rem; margin-bottom: 1rem; }
-.grid--tiles { grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); }
+.grid--tiles { grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); }
 .tile { margin: 0; }
 .tile img, .tile .ph { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); font-size: .85rem; }
+.tile a { display: block; border-radius: var(--radius); overflow: hidden; }
+.tile a img { transition: transform .35s; }
+.tile a:hover img { transform: scale(1.05); }
 .tile figcaption { padding: .55rem .2rem 0; font-size: .92rem; line-height: 1.35; }
 .tile figcaption strong { display: block; color: var(--forest); }
 .tile figcaption i { color: var(--muted); }
 
 /* ---------- Buch ---------- */
 .book { align-items: center; }
+.book__cover-link { justify-self: center; display: block; }
+.book__subtitle { font-family: var(--font-serif); font-size: 1.15rem; color: #f0c7a4 !important; margin-top: -.25rem; }
+.book__pages { margin-top: clamp(2.5rem, 5vw, 3.5rem); }
+.book__pages .subsection-title { color: #fff; }
 .book__cover { width: 100%; max-width: 380px; aspect-ratio: 3 / 4; object-fit: cover; justify-self: center; border-radius: 6px 14px 14px 6px; box-shadow: 0 20px 50px rgb(0 0 0 / .35); }
 .section--forest .ph { background: repeating-linear-gradient(135deg, rgb(255 255 255 / .05) 0 14px, transparent 14px 28px), linear-gradient(160deg, #2c5a43, #21523b); color: var(--on-dark); }
 .facts-list--dark div { border-color: rgb(255 255 255 / .15); }

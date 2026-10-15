@@ -118,40 +118,52 @@ animals:
 
   river:
     title: "Vida bajo el agua: los animales de nuestros ríos"
-    image: /assets/img/fotos/ciencia-muestras.jpg
-    image_alt: Paraecólogos clasificando macroinvertebrados acuáticos
+    image: /assets/img/libro/collage.jpg
+    image_alt: Macroinvertebrados acuáticos de nuestros ríos (fotos del libro)
     text: |-
       El agua de los ríos Yunkumas y Akaas está en excelentes condiciones, gracias a que el bosque
       está intacto – medimos un pH de 7,8. En los ríos viven pequeños animales acuáticos (larvas
       de insectos, caracoles, cangrejos y camarones) que casi nadie ve. Los paraecólogos los
-      recolectan, los identifican y los fotografían.
+      recolectan, los identifican y los fotografían; las fotos de abajo son de nuestro libro.
 
       Como reaccionan rápido a la contaminación, nos permiten entender la calidad del agua y
       detectar enseguida cualquier alteración – por ejemplo en ríos cercanos afectados por la
       actividad minera.
-    groups:
-      - { name: Efímeras, latin: Ephemeroptera, image: "" }
-      - { name: Plecópteros, latin: Plecoptera, image: "" }
-      - { name: Tricópteros, latin: Trichoptera, image: "" }
-      - { name: Libélulas, latin: Odonata, image: "" }
-      - { name: Cangrejos y camarones de río, latin: Decapoda, image: "" }
-      - { name: Caracoles de agua dulce, latin: Gastropoda, image: "" }
+    groups:          # Fotos aus dem Buch
+      - { name: "Efímera", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
+      - { name: "Caballito del diablo (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
+      - { name: "Escarabajo centavo", latin: Psephenidae, image: /assets/img/libro/psephenidae.jpg }
+      - { name: "Escarabajo de los rápidos (larva)", latin: Elmidae, image: /assets/img/libro/elmidae.jpg }
+      - { name: "Escarabajo dríopido", latin: Dryopidae, image: /assets/img/libro/dryopidae.jpg }
+      - { name: "Escarabajo estafilínido", latin: Staphylinidae, image: /assets/img/libro/staphylinidae.jpg }
+      - { name: "Mosca de alas reticuladas (larva)", latin: Blephariceridae, image: /assets/img/libro/blephariceridae.jpg }
+      - { name: "Mosca negra (larva)", latin: Simuliidae, image: /assets/img/libro/simuliidae.jpg }
+      - { name: "Sanguijuela", latin: Glossiphoniidae, image: /assets/img/libro/glossiphoniidae.jpg }
+      - { name: "Lombriz acuática", latin: Oligochaeta, image: /assets/img/libro/oligochaeta.jpg }
 
-# PLATZHALTER – Inhalte zum Buch folgen
+# Buch: Titel vom Cover. Restliche Angaben in [eckigen Klammern] bitte ergänzen.
 book:
   eyebrow: Nuestro libro
-  title: "[Título del libro]"
-  cover: ""            # p. ej. /assets/img/fotos/libro-portada.jpg
-  cover_alt: Portada del libro sobre los animales acuáticos de Maikiuants
+  title: Guía de macroinvertebrados acuáticos
+  subtitle: de las microcuencas de los ríos Aakas y Yunkumas – Cordillera del Cóndor
+  cover: "/assets/img/libro/portada.jpg"
+  cover_alt: Portada de la Guía de macroinvertebrados acuáticos de los ríos Aakas y Yunkumas
   text: |-
-    Durante [X] años, los paraecólogos de Maikiuants recolectaron y fotografiaron los animales
-    que viven en nuestros ríos. El resultado es este libro: una guía ilustrada con [número]
-    especies, sus nombres en shuar chicham y en español, y lo que nos cuentan sobre el agua.
+    Los paraecólogos de Maikiuants recolectaron, identificaron y fotografiaron los pequeños
+    animales que viven en nuestros ríos. El resultado es esta guía ilustrada: fotografías
+    detalladas de cada familia —desde efímeras y caballitos del diablo hasta escarabajos, larvas
+    de moscas y sanguijuelas—, una introducción a su anatomía y lo que nos cuentan sobre la
+    calidad del agua.
 
-    [Más información sobre el contenido, los autores y para quién está pensado el libro.]
+    [Más información sobre los autores, para quién está pensado el libro y cómo conseguirlo.]
   details:
     - { label: Autores, value: "[Nombres]" }
     - { label: Año, value: "[Año]" }
-    - { label: Idiomas, value: "[Shuar chicham, español]" }
+    - { label: Idioma, value: Español }
     - { label: Páginas, value: "[XXX]" }
-  button: { label: Cómo conseguir el libro, url: "" }   # url leer = Kontaktseite
+  button: { label: Cómo conseguir el libro, url: "" }   # leer = Kontaktseite
+  pages_title: Un vistazo al libro
+  pages:
+    - { image: /assets/img/libro/anatomia.jpg, alt: "Página del libro: anatomía de los macroinvertebrados" }
+    - { image: /assets/img/libro/paginas.jpg, alt: "Doble página con una sanguijuela (Glossiphoniidae)" }
+    - { image: /assets/img/libro/portada-mano.jpg, alt: La guía en la mano }

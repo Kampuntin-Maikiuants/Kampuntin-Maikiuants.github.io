@@ -80,7 +80,13 @@ layout: default
     <div class="grid grid--tiles tiles-row">
       {%- for g in a.river.groups %}
       <figure class="tile">
-        {% include media.html src=g.image alt=g.name %}
+        {%- if g.image and g.image != "" %}
+        <a href="{{ g.image | relative_url }}" data-lightbox data-album="rio" data-caption="{{ g.name | escape }} – {{ g.latin }}">
+          <img src="{{ g.image | relative_url }}" alt="{{ g.name | escape }} ({{ g.latin }})" loading="lazy" decoding="async">
+        </a>
+        {%- else %}
+        {% include media.html alt=g.name %}
+        {%- endif %}
         <figcaption><strong>{{ g.name }}</strong> <i lang="la">{{ g.latin }}</i></figcaption>
       </figure>
       {%- endfor %}
@@ -92,10 +98,13 @@ layout: default
 {%- assign book_url = b.button.url | default: contact_page.url %}
 <section class="section section--forest">
   <div class="container split split--media book">
-    {% include media.html src=b.cover alt=b.cover_alt class="book__cover" %}
+    <a class="book__cover-link" href="{{ b.cover | relative_url }}" data-lightbox data-album="libro" data-caption="{{ b.title | escape }}">
+      {% include media.html src=b.cover alt=b.cover_alt class="book__cover" %}
+    </a>
     <div class="prose">
       <p class="eyebrow">{{ b.eyebrow }}</p>
       <h2 class="section-title">{{ b.title }}</h2>
+      {%- if b.subtitle %}<p class="book__subtitle">{{ b.subtitle }}</p>{% endif %}
       {{ b.text | markdownify }}
       <dl class="facts-list facts-list--dark">
         {%- for d in b.details %}
@@ -105,4 +114,10 @@ layout: default
       <p><a class="btn" href="{{ book_url | relative_url }}">{{ b.button.label }}</a></p>
     </div>
   </div>
+  {%- if b.pages %}
+  <div class="container book__pages">
+    <h3 class="subsection-title">{{ b.pages_title }}</h3>
+    {% include photo-grid.html photos=b.pages group="libro" %}
+  </div>
+  {%- endif %}
 </section>

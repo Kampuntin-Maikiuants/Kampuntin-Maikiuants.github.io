@@ -116,39 +116,50 @@ animals:
 
   river:
     title: "Life under water: the animals of our rivers"
-    image: /assets/img/fotos/ciencia-muestras.jpg
-    image_alt: Para-ecologists sorting aquatic macroinvertebrates
+    image: /assets/img/libro/collage.jpg
+    image_alt: Aquatic macroinvertebrates from our rivers (photos from the book)
     text: |-
       The water of the Yunkumas and Akaas rivers is in excellent condition because the forest is
       intact – we measure a pH of 7.8. The rivers are home to small aquatic animals (insect larvae,
       snails, crabs and shrimps) that hardly anyone ever sees. The para-ecologists collect,
-      identify and photograph them.
+      identify and photograph them; the photos below are from our book.
 
       Because they react quickly to pollution, they help us understand water quality and detect
       any change straight away – for example in nearby rivers affected by mining.
-    groups:
-      - { name: Mayflies, latin: Ephemeroptera, image: "" }
-      - { name: Stoneflies, latin: Plecoptera, image: "" }
-      - { name: Caddisflies, latin: Trichoptera, image: "" }
-      - { name: Dragonflies, latin: Odonata, image: "" }
-      - { name: River crabs and shrimps, latin: Decapoda, image: "" }
-      - { name: Freshwater snails, latin: Gastropoda, image: "" }
+    groups:          # Fotos aus dem Buch
+      - { name: "Mayfly", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
+      - { name: "Damselfly (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
+      - { name: "Water penny", latin: Psephenidae, image: /assets/img/libro/psephenidae.jpg }
+      - { name: "Riffle beetle (larva)", latin: Elmidae, image: /assets/img/libro/elmidae.jpg }
+      - { name: "Long-toed water beetle", latin: Dryopidae, image: /assets/img/libro/dryopidae.jpg }
+      - { name: "Rove beetle", latin: Staphylinidae, image: /assets/img/libro/staphylinidae.jpg }
+      - { name: "Net-winged midge (larva)", latin: Blephariceridae, image: /assets/img/libro/blephariceridae.jpg }
+      - { name: "Black fly (larva)", latin: Simuliidae, image: /assets/img/libro/simuliidae.jpg }
+      - { name: "Leech", latin: Glossiphoniidae, image: /assets/img/libro/glossiphoniidae.jpg }
+      - { name: "Aquatic worm", latin: Oligochaeta, image: /assets/img/libro/oligochaeta.jpg }
 
-# PLACEHOLDER – book details to follow
+# Book: title from the cover. Please fill in the remaining details in [square brackets].
 book:
   eyebrow: Our book
-  title: "[Book title]"
-  cover: ""            # e.g. /assets/img/fotos/libro-portada.jpg
-  cover_alt: Cover of the book about the aquatic animals of Maikiuants
+  title: Guía de macroinvertebrados acuáticos
+  subtitle: "Guide to the aquatic macroinvertebrates of the Aakas and Yunkumas river micro-basins – Cordillera del Cóndor"
+  cover: "/assets/img/libro/portada.jpg"
+  cover_alt: Cover of the guide to the aquatic macroinvertebrates of the Aakas and Yunkumas rivers
   text: |-
-    Over [X] years, the para-ecologists of Maikiuants collected and photographed the animals
-    that live in our rivers. The result is this book: an illustrated guide with [number] species,
-    their names in Shuar Chicham and Spanish, and what they tell us about the water.
+    The para-ecologists of Maikiuants collected, identified and photographed the small animals
+    that live in our rivers. The result is this illustrated guide: detailed photographs of each
+    family — from mayflies and damselflies to beetles, fly larvae and leeches — an introduction
+    to their anatomy, and what they tell us about water quality.
 
-    [More about the content, the authors and who the book is for.]
+    [More about the authors, who the book is for and how to get it.]
   details:
     - { label: Authors, value: "[Names]" }
     - { label: Year, value: "[Year]" }
-    - { label: Languages, value: "[Shuar Chicham, Spanish]" }
+    - { label: Language, value: Spanish }
     - { label: Pages, value: "[XXX]" }
   button: { label: How to get the book, url: "" }   # empty url = contact page
+  pages_title: A look inside
+  pages:
+    - { image: /assets/img/libro/anatomia.jpg, alt: "Book page: anatomy of macroinvertebrates" }
+    - { image: /assets/img/libro/paginas.jpg, alt: "Double page with a leech (Glossiphoniidae)" }
+    - { image: /assets/img/libro/portada-mano.jpg, alt: The guide in hand }
