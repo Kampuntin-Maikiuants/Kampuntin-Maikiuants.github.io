@@ -76,10 +76,10 @@ field:
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Búsqueda de animales acuáticos en el río }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Clasificando muestras junto al río }
-    - { image: /assets/img/fotos/ciencia-equipo.jpg, alt: El equipo de monitoreo en el bosque }
+    - { image: /assets/img/fotos/camara-trampa-instalacion.jpg, alt: Paraecólogos instalando una cámara trampa en el bosque }
     - { image: /assets/img/fotos/estacion-meteorologica.jpg, alt: La estación meteorológica de Maikiuants }
-    - { image: /assets/img/fotos/mariposa.jpg, alt: Mariposa azul sobre un tronco }
-    - { image: /assets/img/fotos/insecto.jpg, alt: Saltamontes de colores sobre una hoja }
+    - { image: /assets/img/fotos/reunion-equipo.jpg, alt: Reunión de trabajo del equipo con computadoras }
+    - { image: /assets/img/fotos/libro-presentacion.jpg, alt: Presentación de la Guía de macroinvertebrados acuáticos }
 
 animals:
   title: Los animales con quienes convivimos

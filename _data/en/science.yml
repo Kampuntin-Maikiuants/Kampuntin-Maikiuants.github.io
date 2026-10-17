@@ -75,10 +75,10 @@ field:
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Searching for aquatic animals in the river }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Sorting samples by the river }
-    - { image: /assets/img/fotos/ciencia-equipo.jpg, alt: The monitoring team in the forest }
+    - { image: /assets/img/fotos/camara-trampa-instalacion.jpg, alt: Para-ecologists installing a camera trap in the forest }
     - { image: /assets/img/fotos/estacion-meteorologica.jpg, alt: The Maikiuants weather station }
-    - { image: /assets/img/fotos/mariposa.jpg, alt: Blue butterfly on a tree trunk }
-    - { image: /assets/img/fotos/insecto.jpg, alt: Colourful grasshopper on a leaf }
+    - { image: /assets/img/fotos/reunion-equipo.jpg, alt: Team work meeting with laptops }
+    - { image: /assets/img/fotos/libro-presentacion.jpg, alt: Presenting the guide to aquatic macroinvertebrates }
 
 animals:
   title: Our animal neighbours
