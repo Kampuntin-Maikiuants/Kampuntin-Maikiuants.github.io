@@ -43,8 +43,6 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
       Heilpflanzen, Rituale)? Was davon darf öffentlich beschrieben werden?
 - [ ] **Sicherheit:** Erste-Hilfe-Ausrüstung, Notfallkommunikation (Funk/Satellit?), nächstes
       Krankenhaus, Evakuierungsplan
-- [ ] **Sprachen:** Welche Sprachen sprechen Julien und die Dolmetscher (Englisch, Französisch,
-      Deutsch?) – auch für Kontakt- und Volunteering-FAQ
 - [ ] **Tour-Video**, das Freddy angeboten hat, schicken lassen
 - [ ] **Raíces (Belgien):** Sollen sie mit Logo/Link auf der Website erscheinen? Wer ist dort Ansprechpartner?
 - [ ] **55 % der Einnahmen:** Wofür genau (Verwaltung, Guides, Köchinnen, Lebensmittel)? Und wohin
@@ -111,21 +109,20 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 2. ¿Cuánto dura el viaje Quito → Cuenca → Maikiuants? ¿Se duerme en Cuenca? ¿El primer y el último día son solo de viaje?
 3. ¿Qué actividades espirituales tendrá el tour 2027 (ceremonias, plantas medicinales…)? ¿Qué podemos publicar?
 4. Seguridad: ¿qué botiquín hay, cómo se comunican en una emergencia, dónde está el hospital más cercano?
-5. ¿Qué idiomas hablan Julien y los intérpretes?
-6. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
-7. ¿Quieren que Raíces aparezca en la página (logo, enlace)?
-8. ¿Qué institución reconoció a Kampuntin en 2023? ¿Tienen RUC?
-9. ¿Quiénes son el gerente, el secretario y el contador?
-10. ¿Cuáles son los roles de Marcos y Eddy, y los apellidos y roles de Jessica y Numi? ¿Nos pueden enviar una foto y una o dos frases de cada uno (con su permiso)?
-11. ¿Cuál es el correo oficial de Kampuntin: ocstkampuntin@gmail.com u otro?
-12. ¿Cómo se llama exactamente la cooperación internacional de Inglaterra que apoya la investigación de la rana?
-13. ¿Podemos publicar ya el nombre *Rhinella maikiuants*? ¿Hay una publicación o un enlace?
-14. Libro: ¿año, número de páginas, editorial? ¿Se puede comprar, pedir o descargar?
-15. ¿Cómo se escribe el río: Aakas o Akaas?
-16. Voluntariado: ¿es gratis (alojamiento a cambio de trabajo)? ¿Hay un aporte para la comida?
-17. ¿Quieren recibir donaciones? ¿Por qué medio?
-18. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
-19. ¿Quién de Kampuntin puede actualizar las plazas libres de los tours en la página? (Necesita una cuenta de GitHub; le enviamos una guía corta.)
+5. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
+6. ¿Quieren que Raíces aparezca en la página (logo, enlace)?
+7. ¿Qué institución reconoció a Kampuntin en 2023? ¿Tienen RUC?
+8. ¿Quiénes son el gerente, el secretario y el contador?
+9. ¿Cuáles son los roles de Marcos y Eddy, y los apellidos y roles de Jessica y Numi? ¿Nos pueden enviar una foto y una o dos frases de cada uno (con su permiso)?
+10. ¿Cuál es el correo oficial de Kampuntin: ocstkampuntin@gmail.com u otro?
+11. ¿Cómo se llama exactamente la cooperación internacional de Inglaterra que apoya la investigación de la rana?
+12. ¿Podemos publicar ya el nombre *Rhinella maikiuants*? ¿Hay una publicación o un enlace?
+13. Libro: ¿año, número de páginas, editorial? ¿Se puede comprar, pedir o descargar?
+14. ¿Cómo se escribe el río: Aakas o Akaas?
+15. Voluntariado: ¿es gratis (alojamiento a cambio de trabajo)? ¿Hay un aporte para la comida?
+16. ¿Quieren recibir donaciones? ¿Por qué medio?
+17. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
+18. ¿Quién de Kampuntin puede actualizar las plazas libres de los tours en la página? (Necesita una cuenta de GitHub; le enviamos una guía corta.)
 
 ---
 
@@ -134,7 +131,6 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 | Datei | Platzhalter |
 |---|---|
 | `tours.yml` | Sicherheit (Erste Hilfe, Notfall) |
-| `volunteering.yml` | Sprachen (Englisch im Team?), Erfahrungsberichte ([Nombre], [país], [año]) |
+| `volunteering.yml` | Erfahrungsberichte ([Nombre], [país], [año]) |
 | `science.yml` | Buch: [Año], [XXX] Seiten |
-| `contact.yml` | weitere Sprachen |
 | `team.yml` | Rolle und Text bei Marcos, Eddy, Jessica; [Apellido] bei Jessica und Numi |

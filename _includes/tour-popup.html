@@ -23,7 +23,7 @@
 {%- assign ui = site.data[page.lang].ui -%}
 {%- assign tours_page = site.pages | where: "ref", "tours" | where: "lang", page.lang | first -%}
 {%- assign next_label = next.label[page.lang] | strip -%}
-<aside class="tour-popup" id="tour-popup" data-key="{{ next.start | date: '%Y%m%d' }}" aria-label="{{ p.eyebrow }}" hidden>
+<aside class="tour-popup" id="tour-popup" aria-label="{{ p.eyebrow }}" hidden>
   <button class="tour-popup__close" type="button" aria-label="{{ p.close }}">×</button>
   <img class="tour-popup__img" src="{{ p.image | relative_url }}" alt="" loading="lazy" decoding="async">
   <div class="tour-popup__body">
