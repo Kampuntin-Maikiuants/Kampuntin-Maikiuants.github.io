@@ -62,6 +62,7 @@ Nach 1–2 Minuten ist die Änderung online.
 | Videos (eigene MP4 in `assets/video/` oder YouTube) | `_data/videos.yml` |
 | Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
 | Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
+| Hintergrundmuster an/aus | `_config.yml` → `background_pattern: true/false` (Stärke: `opacity` bei „Hintergrundmuster“ in `style.css`) |
 
 **Fotos einbauen:** Bild hochladen (z. B. nach `assets/img/fotos/`). Dann im passenden
 Text-File bei `image: ""` den Pfad eintragen, z. B. `image: "/assets/img/fotos/inicio.jpg"`.

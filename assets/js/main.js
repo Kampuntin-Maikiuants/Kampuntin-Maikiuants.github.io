@@ -84,4 +84,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     box.classList.add('loaded');
   });
+
+  // --- Kopfbild bewegt sich beim Scrollen langsamer mit (Parallax) ----------
+  const heroBg = $('.page-hero__bg');
+  if (heroBg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    let ticking = false;
+    const update = () => {
+      const y = window.scrollY;
+      if (y < window.innerHeight * 1.5) heroBg.style.transform = `translate3d(0, ${Math.round(y * 0.35)}px, 0)`;
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+    }, { passive: true });
+  }
 });

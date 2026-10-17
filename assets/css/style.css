@@ -178,13 +178,27 @@ abbr[title] { text-decoration: none; }
   padding-block: clamp(3.5rem, 9vw, 6.5rem) clamp(3rem, 7vw, 5rem);
 }
 .page-hero--big { min-height: min(82vh, 760px); display: flex; align-items: flex-end; }
+/* Weicher Übergang: der Kopfbereich läuft unten in den Seitenhintergrund aus */
+.page-hero {
+  --hero-fade: clamp(70px, 11vw, 150px);
+  padding-bottom: calc(clamp(2rem, 5vw, 3.5rem) + var(--hero-fade));
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - var(--hero-fade)), transparent);
+          mask-image: linear-gradient(to bottom, #000 calc(100% - var(--hero-fade)), transparent);
+}
 .page-hero--small { padding-block: 3rem 2.5rem; }
 .page-hero--post { padding-block: 3rem 2.5rem; }
-.page-hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.page-hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; will-change: transform; }
 .page-hero.has-image::after {
   content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(180deg, rgb(10 30 20 / .25) 0%, rgb(10 30 20 / .7) 75%, rgb(10 30 20 / .85) 100%);
 }
+.page-hero.has-illustration { background: #2d3427; }
+.page-hero.has-illustration h1,
+.page-hero.has-illustration .lead,
+.page-hero.has-illustration .eyebrow {
+  text-shadow: 0 2px 4px rgb(0 0 0 / .55), 0 4px 22px rgb(0 0 0 / .65);
+}
+.page-hero.has-illustration .lead { opacity: 1; }
 .page-hero__inner { max-width: var(--container); }
 .page-hero h1 { color: #fff; max-width: 18ch; }
 .page-hero--post h1, .page-hero--small h1 { max-width: none; font-size: clamp(2rem, 4.5vw, 3rem); }
@@ -197,6 +211,15 @@ abbr[title] { text-decoration: none; }
   color: #f0c7a4;
 }
 .notfound .eyebrow { color: var(--clay); font-size: 1.2rem; }
+
+/* ---------- Hintergrundmuster (Test, an/aus in _config.yml: background_pattern) ---------- */
+body.has-pattern::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: url("../img/ilustraciones/fondo.jpg") center / cover no-repeat;
+  opacity: .07;            /* Stärke des Musters: höher = deutlicher */
+  mix-blend-mode: multiply;
+}
+body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 
 /* ---------- Abschnitte ---------- */
 .section { padding-block: var(--section-space); }

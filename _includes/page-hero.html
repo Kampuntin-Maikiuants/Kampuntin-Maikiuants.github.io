@@ -1,7 +1,9 @@
 {%- comment -%} Kopfbereich einer Seite. Parameter: hero (Daten mit eyebrow, title, lead, image, buttons), big {%- endcomment -%}
 {%- assign h = include.hero -%}
 {%- assign hero_lang = page.lang | default: site.lang -%}
-<div class="page-hero{% if include.big %} page-hero--big{% endif %}{% if h.image and h.image != '' %} has-image{% endif %}">
+{%- comment -%} Bilder aus /ilustraciones/ werden ohne Abdunklung gezeigt, nur mit Schatten hinter der Schrift {%- endcomment -%}
+{%- if h.image contains "/ilustraciones/" %}{% assign hero_mode = " has-illustration" %}{% elsif h.image and h.image != "" %}{% assign hero_mode = " has-image" %}{% else %}{% assign hero_mode = "" %}{% endif %}
+<div class="page-hero{% if include.big %} page-hero--big{% endif %}{{ hero_mode }}">
   {%- if h.image and h.image != "" %}
   <img class="page-hero__bg" src="{{ h.image | relative_url }}" alt="{{ h.image_alt | escape }}" fetchpriority="high">
   {%- endif %}

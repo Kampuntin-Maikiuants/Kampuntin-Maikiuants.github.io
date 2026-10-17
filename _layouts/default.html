@@ -5,7 +5,7 @@
 <head>
 {% include head.html %}
 </head>
-<body class="page-{{ page.ref | default: 'default' }}">
+<body class="page-{{ page.ref | default: 'default' }}{% if site.background_pattern %} has-pattern{% endif %}">
 <a class="skip-link" href="#main">{{ ui.skip }}</a>
 {% include header.html %}
 <main id="main" tabindex="-1">

@@ -8,8 +8,8 @@ hero:
     Vive la selva y conoce a la comunidad shuar de Maikiuants: en un tour de diez días o como
     voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la
     misión de Kampuntin.
-  image: "/assets/img/fotos/hero-inicio.jpg"
-  image_alt: Flores de floripondio frente a una jea tradicional en Maikiuants
+  image: "/assets/img/ilustraciones/inicio.jpg"
+  image_alt: Ilustración de plantas de la selva amazónica
   buttons:
     - { ref: tours, label: Conocer los tours }
     - { ref: volunteering, label: Ser voluntario/a, style: ghost }

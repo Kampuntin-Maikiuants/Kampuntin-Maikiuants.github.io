@@ -5,8 +5,8 @@ hero:
   lead: >-
     We share our news directly on Facebook and Instagram: everyday photos, tours, volunteering
     and news from the community.
-  image: "/assets/img/fotos/hero-inicio.jpg"
-  image_alt: Angel's trumpet flowers in front of a traditional jea
+  image: "/assets/img/ilustraciones/detalle-1.jpg"
+  image_alt: Illustration of Amazon rainforest plants
 # Description per account (key = name from _config.yml or Instagram handle)
 descriptions:
   Kampuntin: Tours, volunteering and news from our organisation.

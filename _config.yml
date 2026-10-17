@@ -50,6 +50,9 @@ social:
       url: "https://www.facebook.com/profile.php?id=61566774571229"
   wwoof: "https://wwoofindependents.org/en/host/56512"   # WWOOF-Profil
 
+# Illustration als schwaches Muster im Hintergrund der ganzen Seite (true = an, false = aus)
+background_pattern: true
+
 # Eingebettete Facebook-Chronik (erst nach Klick). Ausgeschaltet, weil Facebook sie nur noch
 # eingeloggten Besuchern zeigt – alle anderen sehen ein leeres Feld. Die Beiträge kommen
 # stattdessen über den automatischen Import (README, Abschnitt 3).

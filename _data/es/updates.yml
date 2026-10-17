@@ -5,8 +5,8 @@ hero:
   lead: >-
     Nuestras novedades las compartimos directamente en Facebook e Instagram: fotos del día a
     día, tours, voluntariado y noticias de la comunidad.
-  image: "/assets/img/fotos/hero-inicio.jpg"
-  image_alt: Flores de floripondio frente a una jea tradicional
+  image: "/assets/img/ilustraciones/detalle-1.jpg"
+  image_alt: Ilustración de plantas de la selva amazónica
 # Beschreibung pro Konto (Schlüssel = Name aus _config.yml bzw. Instagram-Handle)
 descriptions:
   Kampuntin: Tours, voluntariado y noticias de nuestra organización.

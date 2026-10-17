@@ -8,8 +8,8 @@ hero:
     Experience the rainforest and get to know the Shuar community of Maikiuants: on a ten-day
     tour or as a volunteer. Learn more about the community, the rainforest, our scientific work
     and Kampuntin's mission.
-  image: "/assets/img/fotos/hero-inicio.jpg"
-  image_alt: Angel's trumpet flowers in front of a traditional jea in Maikiuants
+  image: "/assets/img/ilustraciones/inicio.jpg"
+  image_alt: Illustration of Amazon rainforest plants
   buttons:
     - { ref: tours, label: Explore the tours }
     - { ref: volunteering, label: Volunteer with us, style: ghost }
