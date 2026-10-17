@@ -64,6 +64,15 @@ layout: default
           <span class="status status--{{ s.status | downcase }}"><abbr title="{{ ui.iucn[s.status] }}">{{ s.status }}</abbr> {{ ui.iucn[s.status] }}</span>
           <h4>{{ s_name }}</h4>
           <p class="latin"><i lang="la">{{ s.latin }}</i></p>
+          <details class="species__cams">
+            <summary>{{ ui.camera_photos }}{% if s.snapshots.size > 0 %} ({{ s.snapshots.size }}){% endif %}</summary>
+            {%- if s.snapshots.size > 0 %}
+              {%- assign cam_group = "camara-" | append: forloop.index %}
+            {% include photo-grid.html photos=s.snapshots group=cam_group class="photo-grid--cams" %}
+            {%- else %}
+            <p class="species__empty">{{ ui.camera_soon }}</p>
+            {%- endif %}
+          </details>
         </div>
       </article>
       {%- endfor %}

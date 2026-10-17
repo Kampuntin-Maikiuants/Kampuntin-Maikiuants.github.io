@@ -45,7 +45,8 @@ Froschart vom 19.06.2024, Flüsse Yunkumas/Akaas mit pH 7,8, Wetterstation.
 
 - [ ] **Gefährdungskategorien** der Arten (Jaguar = vom Aussterben bedroht usw.) – Quelle
       bestätigen (Rote Liste Ecuador? UICN?)
-- [ ] **Kamerafallen-Fotos** von Jaguar, Brillenbär, Puma, Waldhund
+- [ ] **Kamerafallen-Fotos** von Jaguar, Brillenbär, Puma, Waldhund – kommen in `_data/species.yml`
+      unter `snapshots` und erscheinen dann zum Aufklappen unter der jeweiligen Tier-Karte
 - [ ] **Buch:** Autor·innen, Jahr, Seitenzahl, Verlag (Logo „natura“ auf dem Cover?) und wie man
       es bekommt (Kauf? Download? Kontakt?) – Titel, Cover, Buchseiten und 10 Tierfamilien sind drin
 - [ ] **Schreibweise des Flusses:** Buch-Cover „Aakas“, Infotafel „Akaas“ – was stimmt?

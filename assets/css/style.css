@@ -277,7 +277,8 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .grid { display: grid; gap: clamp(1rem, 2.5vw, 1.5rem); grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
 .grid--3 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 .grid--4 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
-.grid--species { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+.grid--species { grid-template-columns: repeat(2, 1fr); align-items: start; }
+@media (min-width: 900px) { .grid--species { grid-template-columns: repeat(4, 1fr); } }
 .grid--people { grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
 
 .card {
@@ -408,7 +409,17 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 
 /* ---------- Arten ---------- */
 .species { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
-.species__img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 0; }
+.species__img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 0; background: #e9e8e3; }
+.species__cams { margin-top: .9rem; border-top: 1px solid var(--line); padding-top: .7rem; }
+.species__cams summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: .5rem;
+  font-size: .88rem; font-weight: 650; color: var(--forest); }
+.species__cams summary::-webkit-details-marker { display: none; }
+.species__cams summary::after { content: "+"; font-size: 1.2rem; line-height: 1; color: var(--clay); }
+.species__cams[open] summary::after { content: "–"; }
+.species__cams summary:hover { color: var(--clay-dark); }
+.species__empty { margin: .6rem 0 0; font-size: .85rem; color: var(--muted); }
+.photo-grid--cams { grid-template-columns: repeat(2, 1fr) !important; gap: .5rem; margin-top: .7rem; }
+.photo-grid--cams .photo-grid__item img { aspect-ratio: 4 / 3; border-radius: var(--radius-sm); }
 .species .ph { border-radius: 0; aspect-ratio: 4 / 3; }
 .species__body { padding: 1rem 1.1rem 1.2rem; }
 .species h4 { font-family: var(--font-serif); color: var(--forest); font-size: 1.1rem; line-height: 1.2; margin: .6rem 0 .1rem; }
