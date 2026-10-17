@@ -29,20 +29,15 @@ tasks:
     Todas las tareas son muy flexibles y no siempre hacen falta. Así que prepárate para ayudar
     donde se necesite y para aportar tus propias ideas y habilidades. Por ejemplo, puedes ayudar en:
   items:
-    - icon: 🌱
-      title: Huerta y jardín
+    - title: Huerta y jardín
       text: Vivero, siembra y cuidado del jardín y del terreno alrededor de la casa.
-    - icon: 🍌
-      title: Agroforestería
+    - title: Agroforestería
       text: Mantener los cultivos agroforestales con deshierbe, poda y cosecha.
-    - icon: 🔨
-      title: Construcción
+    - title: Construcción
       text: Apoyar en trabajos de construcción y en mejoras de la infraestructura.
-    - icon: 🤝
-      title: Mingas
+    - title: Mingas
       text: Jornadas de trabajo comunitario en el pueblo de Maikiuants.
-    - icon: 🧵
-      title: Tus habilidades
+    - title: Tus habilidades
       text: Ayuda individual según lo que sabes hacer, por ejemplo coser, redes sociales o videos.
 
 life:

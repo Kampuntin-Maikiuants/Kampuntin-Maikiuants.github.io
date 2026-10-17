@@ -30,20 +30,15 @@ tasks:
     All tasks are very flexible and not always needed. So be ready to help wherever help is needed
     and to bring in your own ideas and skills. For example, you can help with:
   items:
-    - icon: 🌱
-      title: Gardening
+    - title: Gardening
       text: Plant nursery, planting, and looking after the garden and grounds around the house.
-    - icon: 🍌
-      title: Agroforestry
+    - title: Agroforestry
       text: Maintaining the agroforestry crops by weeding, pruning and harvesting.
-    - icon: 🔨
-      title: Construction
+    - title: Construction
       text: Helping with construction work and infrastructure improvements.
-    - icon: 🤝
-      title: Mingas
+    - title: Mingas
       text: Communal work days in the village of Maikiuants.
-    - icon: 🧵
-      title: Your skills
+    - title: Your skills
       text: Individual help depending on your skills, for example sewing, social media or videos.
 
 life:

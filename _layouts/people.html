@@ -15,7 +15,11 @@ layout: default
       {%- for person in members %}
         {%- assign p_alt = person.name | append: " – " | append: person.role[page.lang] %}
       <article class="person">
+        {%- if person.photo and person.photo != "" %}
         {% include media.html src=person.photo alt=p_alt class="person__img" %}
+        {%- else %}
+        <span class="person__img person__initial" aria-hidden="true">{{ person.name | slice: 0 }}</span>
+        {%- endif %}
         <h3>{{ person.name }}</h3>
         <p class="person__role">{{ person.role[page.lang] }}</p>
         <p>{{ person.bio[page.lang] }}</p>

@@ -19,9 +19,12 @@ nav:
 months: [January, February, March, April, May, June, July, August, September, October, November, December]
 
 tour_status:
+  request: Availability on request
   open: Places available
   few: Last places
   full: Fully booked
+tour_places: "%n places left"
+tour_places_one: 1 place left
 
 read_story: Read the full story
 read_less: Show less

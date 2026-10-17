@@ -48,7 +48,7 @@ layout: default
     <div class="prose">
       <h2 class="section-title">{{ t.location.title }}</h2>
       {{ t.location.text | markdownify }}
-      <p class="coords"><span aria-hidden="true">📍</span> {{ t.location.coords }}</p>
+      <p class="coords">{{ t.location.coords }}</p>
       <p><a class="link-arrow" href="{{ t.location.map_url }}" rel="noopener">{{ t.location.map_link }} →</a></p>
     </div>
     <figure class="map-figure">
@@ -78,7 +78,7 @@ layout: default
       {%- for item in t.explore.items %}
         {%- assign p = lang_pages | where: "ref", item.ref | first %}
       <a class="card card--link" href="{{ p.url | relative_url }}">
-        <span class="card__icon" aria-hidden="true">{{ item.icon }}</span>
+        {%- if item.icon %}<span class="card__icon" aria-hidden="true">{{ item.icon }}</span>{% endif %}
         <h3>{{ item.title }}</h3>
         <p>{{ item.text }}</p>
         <span class="card__arrow" aria-hidden="true">→</span>
@@ -87,3 +87,5 @@ layout: default
     </div>
   </div>
 </section>
+
+{% include tour-popup.html %}

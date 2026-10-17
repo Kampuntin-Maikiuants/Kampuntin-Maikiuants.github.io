@@ -63,6 +63,7 @@ Nach 1–2 Minuten ist die Änderung online.
 | Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
 | Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
 | Hintergrundmuster an/aus | `_config.yml` → `background_pattern: true/false` (Stärke: `opacity` bei „Hintergrundmuster“ in `style.css`) |
+| Tour-Hinweis auf der Startseite an/aus | `_config.yml` → `tour_popup: true/false` (Texte: `tour_popup` in `_data/es|en/home.yml`; Termin kommt automatisch aus `tour_dates.yml`) |
 
 **Fotos einbauen:** Bild hochladen (z. B. nach `assets/img/fotos/`). Dann im passenden
 Text-File bei `image: ""` den Pfad eintragen, z. B. `image: "/assets/img/fotos/inicio.jpg"`.
@@ -148,8 +149,10 @@ die drei Konten als große Karten.
   `_data/instagram_embeds.yml` eintragen (lädt erst nach Klick).
 
 **Pages CMS (optional):** Mit [app.pagescms.org](https://app.pagescms.org) (kostenlos, Login mit
-GitHub) lassen sich die Tour-Termine in einem Formular bearbeiten. Die Einstellungen dafür
-stehen in `.pages.yml`.
+GitHub) lassen sich die Tour-Termine und freien Plätze in einem Formular bearbeiten – auch vom
+Handy. Die Einstellungen dafür stehen in `.pages.yml`, die Anleitung auf Spanisch für die Leitung
+ganz unten („Guía rápida: actualizar las plazas de un tour“). Wer das Formular nutzen soll,
+braucht ein GitHub-Konto und muss unter **Settings → Collaborators** eingeladen werden.
 
 ---
 
@@ -210,3 +213,19 @@ Danach unter http://localhost:4000 ansehen.
 3. Abre la nueva carpeta → **Add file → Upload files** y sube las fotos (reducidas a unos 1600 px).
 4. En uno o dos minutos el álbum aparece en la galería. Título y fecha opcionales en
    `_data/albums.yml`.
+
+## Guía rápida (español): actualizar las plazas de un tour
+
+Se hace en un minuto, también desde el celular. Se necesita una cuenta de GitHub con acceso al
+repositorio (la primera vez hay que pedir la invitación).
+
+1. Abre [app.pagescms.org](https://app.pagescms.org) e inicia sesión con GitHub.
+2. Elige el repositorio **Kampuntin-Maikiuants.github.io** → **Fechas de tours**.
+3. En la fecha del tour escribe en **Plazas libres** cuántas plazas quedan (por ejemplo 12, y
+   después de cada reserva un número menos). Con **0** aparece «Completo».
+   Si no quieres contar plazas, deja el campo vacío y elige un **Estado**, por ejemplo
+   «Plazas a consultar».
+4. Para una fecha nueva: **Agregar**, llenar inicio y fin (y si aún no es exacta, el texto en
+   «Texto en vez de la fecha»).
+5. **Guardar.** En uno o dos minutos la página web está actualizada.
+

@@ -8,7 +8,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 ## Aus dem Interview bereits eingebaut
 
-- **Touren:** Preis 2.000 USD (10 Tage, alles inklusive). Abholung in Quito durch den internationalen
+- **Touren:** Preis 2.000 USD (10 Tage, alles inklusive), keine Anzahlung – Zahlung und Details
+  nach Vereinbarung. Abholung in Quito durch den internationalen
   Guide, dann Buseta nach Cuenca und Taxi nach Maikiuants. Leistungen „inklusive / nicht inklusive“.
   Raíces (Belgien) als Partner. Termine April 2027 und August/September 2027. Schwerpunkt 2027
   „Spiritualität“. FAQ zu Sprachen, Sicherheit und Erfahrung.
@@ -33,8 +34,9 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 ### Touren
 - [ ] **Genaue Termine 2027** (Start- und Enddatum) für April und für August/September
-- [ ] **Anzahlung** in % und wann der Rest fällig ist; Zahlungsweg (Überweisung? an Raíces oder Kampuntin?)
-- [ ] **Stornierungs- und Umbuchungsbedingungen**
+- [ ] **Freie Plätze pflegen:** Wer bei Kampuntin trägt die Plätze ein? Diese Person braucht ein
+      GitHub-Konto → im Repository unter Settings → Collaborators einladen → Anleitung im README
+      („Guía rápida: actualizar las plazas“). Bis dahin steht bei den Terminen „Plazas a consultar“.
 - [ ] **Ablauf der Anreise:** Wie lange dauert Quito → Cuenca → Maikiuants? Übernachtung in Cuenca?
       Sind Tag 1 und Tag 10 reine Reisetage?
 - [ ] **Tagesablauf** der 10 Tage – passt der Entwurf zum Schwerpunkt Spiritualität (Zeremonien,
@@ -99,32 +101,31 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Galerie:** Alben prüfen und Titel/Daten in `_data/albums.yml` anpassen
 - [ ] **Datenschutz-/Impressumstext** kurz rechtlich prüfen lassen
 - [ ] Ordner `_archiv` (alte Version) löschen
-- [ ] Letzter Durchgang am Handy, dann Website teilen 🎉 (WWOOF-Profil, Facebook, Instagram-Bio)
+- [ ] Letzter Durchgang am Handy, dann Website teilen (WWOOF-Profil, Facebook, Instagram-Bio)
 
 ---
 
 ## 2. Preguntas para Freddy (en español)
 
 1. ¿Cuáles son las fechas exactas (inicio y fin) de los tours de abril y de agosto/septiembre 2027?
-2. ¿Qué porcentaje se paga como anticipo, cuándo se paga el resto y cómo (transferencia a Raíces o a Kampuntin)?
-3. ¿Cuáles son las condiciones de cancelación y de cambio de fecha?
-4. ¿Cuánto dura el viaje Quito → Cuenca → Maikiuants? ¿Se duerme en Cuenca? ¿El primer y el último día son solo de viaje?
-5. ¿Qué actividades espirituales tendrá el tour 2027 (ceremonias, plantas medicinales…)? ¿Qué podemos publicar?
-6. Seguridad: ¿qué botiquín hay, cómo se comunican en una emergencia, dónde está el hospital más cercano?
-7. ¿Qué idiomas hablan Julien y los intérpretes?
-8. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
-9. ¿Quieren que Raíces aparezca en la página (logo, enlace)?
-10. ¿Qué institución reconoció a Kampuntin en 2023? ¿Tienen RUC?
-11. ¿Quiénes son el gerente, el secretario y el contador?
-12. ¿Cuáles son los roles de Marcos y Eddy, y los apellidos y roles de Jessica y Numi? ¿Nos pueden enviar una foto y una o dos frases de cada uno (con su permiso)?
-13. ¿Cuál es el correo oficial de Kampuntin: ocstkampuntin@gmail.com u otro?
-14. ¿Cómo se llama exactamente la cooperación internacional de Inglaterra que apoya la investigación de la rana?
-15. ¿Podemos publicar ya el nombre *Rhinella maikiuants*? ¿Hay una publicación o un enlace?
-16. Libro: ¿año, número de páginas, editorial? ¿Se puede comprar, pedir o descargar?
-17. ¿Cómo se escribe el río: Aakas o Akaas?
-18. Voluntariado: ¿es gratis (alojamiento a cambio de trabajo)? ¿Hay un aporte para la comida?
-19. ¿Quieren recibir donaciones? ¿Por qué medio?
-20. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
+2. ¿Cuánto dura el viaje Quito → Cuenca → Maikiuants? ¿Se duerme en Cuenca? ¿El primer y el último día son solo de viaje?
+3. ¿Qué actividades espirituales tendrá el tour 2027 (ceremonias, plantas medicinales…)? ¿Qué podemos publicar?
+4. Seguridad: ¿qué botiquín hay, cómo se comunican en una emergencia, dónde está el hospital más cercano?
+5. ¿Qué idiomas hablan Julien y los intérpretes?
+6. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
+7. ¿Quieren que Raíces aparezca en la página (logo, enlace)?
+8. ¿Qué institución reconoció a Kampuntin en 2023? ¿Tienen RUC?
+9. ¿Quiénes son el gerente, el secretario y el contador?
+10. ¿Cuáles son los roles de Marcos y Eddy, y los apellidos y roles de Jessica y Numi? ¿Nos pueden enviar una foto y una o dos frases de cada uno (con su permiso)?
+11. ¿Cuál es el correo oficial de Kampuntin: ocstkampuntin@gmail.com u otro?
+12. ¿Cómo se llama exactamente la cooperación internacional de Inglaterra que apoya la investigación de la rana?
+13. ¿Podemos publicar ya el nombre *Rhinella maikiuants*? ¿Hay una publicación o un enlace?
+14. Libro: ¿año, número de páginas, editorial? ¿Se puede comprar, pedir o descargar?
+15. ¿Cómo se escribe el río: Aakas o Akaas?
+16. Voluntariado: ¿es gratis (alojamiento a cambio de trabajo)? ¿Hay un aporte para la comida?
+17. ¿Quieren recibir donaciones? ¿Por qué medio?
+18. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
+19. ¿Quién de Kampuntin puede actualizar las plazas libres de los tours en la página? (Necesita una cuenta de GitHub; le enviamos una guía corta.)
 
 ---
 
@@ -132,8 +133,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 | Datei | Platzhalter |
 |---|---|
-| `tours.yml` | [XX] % Anzahlung, Zahlungs-/Stornobedingungen, Sicherheit (Erste Hilfe, Notfall) |
+| `tours.yml` | Sicherheit (Erste Hilfe, Notfall) |
 | `volunteering.yml` | Sprachen (Englisch im Team?), Erfahrungsberichte ([Nombre], [país], [año]) |
 | `science.yml` | Buch: [Año], [XXX] Seiten |
-| `contact.yml` | weitere Sprachen, Stornobedingungen |
+| `contact.yml` | weitere Sprachen |
 | `team.yml` | Rolle und Text bei Marcos, Eddy, Jessica; [Apellido] bei Jessica und Numi |

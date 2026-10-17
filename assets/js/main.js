@@ -85,6 +85,32 @@ document.addEventListener('DOMContentLoaded', () => {
     box.classList.add('loaded');
   });
 
+  // --- Kleines Fenster mit dem nächsten Tour-Termin (Startseite) -----------
+  // Erscheint nach ein paar Sekunden; einmal geschlossen, bleibt es für diesen Termin weg.
+  const popup = $('#tour-popup');
+  if (popup) {
+    const storeKey = 'kampuntin-tour-popup';
+    const remember = () => { try { localStorage.setItem(storeKey, popup.dataset.key); } catch (e) { /* privat */ } };
+    let seen = null;
+    try { seen = localStorage.getItem(storeKey); } catch (e) { /* privat */ }
+    if (seen !== popup.dataset.key) {
+      const close = () => {
+        popup.classList.remove('is-visible');
+        window.setTimeout(() => { popup.hidden = true; }, 350);
+        remember();
+      };
+      $('.tour-popup__close', popup).addEventListener('click', close);
+      $('.tour-popup__btn', popup).addEventListener('click', remember);
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && popup.classList.contains('is-visible') && !$('dialog[open]')) close();
+      });
+      window.setTimeout(() => {
+        popup.hidden = false;
+        window.requestAnimationFrame(() => window.requestAnimationFrame(() => popup.classList.add('is-visible')));
+      }, 3500);
+    }
+  }
+
   // --- Kopfbild bewegt sich beim Scrollen langsamer mit (Parallax) ----------
   const heroBg = $('.page-hero__bg');
   if (heroBg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

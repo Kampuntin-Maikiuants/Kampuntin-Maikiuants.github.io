@@ -27,7 +27,7 @@ layout: default
     <div class="grid grid--tasks">
       {%- for task in t.tasks.items %}
       <article class="card">
-        <span class="card__icon" aria-hidden="true">{{ task.icon }}</span>
+        {%- if task.icon %}<span class="card__icon" aria-hidden="true">{{ task.icon }}</span>{% endif %}
         <h3>{{ task.title }}</h3>
         <p>{{ task.text }}</p>
       </article>

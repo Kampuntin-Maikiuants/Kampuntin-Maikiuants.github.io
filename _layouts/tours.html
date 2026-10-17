@@ -122,7 +122,7 @@ layout: default
           {%- assign shown = shown | plus: 1 %}
         <li>
           <span class="dates__range">{%- assign dl = d.label[page.lang] | strip -%}{% if dl != "" %}{{ dl }}{% else %}{% include date-range.html start=d.start end=d.end %}{% endif %}</span>
-          <span class="badge badge--{{ d.status }}">{{ ui.tour_status[d.status] }}</span>
+          {% include tour-badge.html date=d %}
         </li>
         {%- endfor %}
       </ul>

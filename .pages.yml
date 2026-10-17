@@ -25,11 +25,15 @@ content:
             fields:
               - { name: es, label: Español, type: string }
               - { name: en, label: English, type: string }
+          - name: free
+            label: Plazas libres (número; 0 = completo). Dejar vacío para usar el estado de abajo
+            type: number
           - name: status
-            label: Estado
+            label: Estado (solo si "Plazas libres" está vacío)
             type: select
             options:
               values:
+                - { name: request, label: Plazas a consultar }
                 - { name: open, label: Plazas libres }
                 - { name: few, label: Últimas plazas }
                 - { name: full, label: Completo }

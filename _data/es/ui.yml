@@ -19,9 +19,12 @@ nav:
 months: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
 
 tour_status:
+  request: Plazas a consultar
   open: Plazas libres
   few: Últimas plazas
   full: Completo
+tour_places: Quedan %n plazas
+tour_places_one: Queda 1 plaza
 
 read_story: Leer la experiencia completa
 read_less: Mostrar menos

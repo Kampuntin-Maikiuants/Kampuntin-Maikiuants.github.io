@@ -38,33 +38,27 @@ methods:
     station and wildlife cameras, a new scientific station will soon be built so that we can
     collect and analyse data even more systematically.
   items:
-    - icon: 📷
-      title: Camera traps
+    - title: Camera traps
       text: >-
         Automatic cameras have been placed in the territory of threatened animals to observe their
         behaviour, their activity patterns and, where possible, their reproduction.
-    - icon: 🔭
-      title: Exploration walks
+    - title: Exploration walks
       text: >-
         On every walk we check everything at once: bird calls, frogs and other forest indicators,
         seed trees, flowering and fruiting – linked to the plant nursery and agroforestry.
-    - icon: 💧
-      title: Water quality
+    - title: Water quality
       text: >-
         We regularly measure rivers and streams: pH value, temperature, turbidity and aquatic
         macroinvertebrates, which react very quickly to any pollution.
-    - icon: 🌦️
-      title: Weather station
+    - title: Weather station
       text: >-
         Our weather station records temperature, humidity, rainfall and wind, so we can document
         how the climate in the territory is changing.
-    - icon: 📖
-      title: Shuar life
+    - title: Shuar life
       text: >-
         We document Shuar life and knowledge: we take photos, record the Shuar Chicham language and
         note down names, uses and stories about plants and animals.
-    - icon: 🏗️
-      title: New scientific station
+    - title: New scientific station
       text: >-
         Coming soon: a dedicated station to store, process and analyse monitoring data right here
         in Maikiuants.

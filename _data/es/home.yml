@@ -94,14 +94,22 @@ explore:
   intro: Elige por dónde empezar.
   items:
     - ref: tours
-      icon: 🚌
       title: Tours
       text: Diez días en la selva para grupos de hasta 12 personas, compartiendo la vida de la comunidad.
     - ref: volunteering
-      icon: 🌱
       title: Voluntariado
       text: Huerta, agroforestería, mingas y construcción, viviendo en una jea tradicional en medio del bosque.
     - ref: science
-      icon: 🔬
       title: Ciencia
       text: Paraecólogas y paraecólogos de la comunidad monitorean la biodiversidad, los ríos y el clima.
+
+# Kleines Fenster unten rechts (nächster Tour-Termin) – an/aus: tour_popup in _config.yml
+tour_popup:
+  eyebrow: Próximo tour
+  text: >-
+    Diez días viviendo con la comunidad shuar de Maikiuants. En 2027, con enfoque en la
+    espiritualidad.
+  per: por persona
+  button: Ver el tour
+  close: Cerrar
+  image: /assets/img/fotos/cascada.jpg

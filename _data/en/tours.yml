@@ -120,7 +120,7 @@ price:
     All-inclusive for ten days: transfer from Quito, accommodation, meals, guides, interpreters,
     safety and activities. We organise the tours together with the Belgian organisation Raíces. We
     pay local guides and cooks, buy food within the community, and 5% of the income goes directly
-    to Maikiuants. [Add payment and cancellation terms.]
+    to Maikiuants. Payment and all other details are arranged personally with you.
 
 dates:
   title: Upcoming dates
@@ -130,17 +130,15 @@ dates:
     In 2027 our tours focus on spirituality: finding yourself, valuing every moment of life,
     healing, finding harmony and connecting with nature – to live well.
   empty: Upcoming dates will be published soon.
-  button: Book a place
+  button: Contact us to book
 
 booking:
   title: How to book
   steps:
     - title: Write to us
       text: Tell us who you are, how many people are coming and which dates you are interested in.
-    - title: Let's talk
-      text: A short call to answer your questions and see whether the tour is right for you.
     - title: Booking
-      text: We confirm your place with a [XX] % deposit.
+      text: We confirm your booking and arrange the dates, payment and all other details with you.
     - title: Get ready
       text: We send you our travel guide with packing list and health information.
 

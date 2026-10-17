@@ -38,34 +38,28 @@ methods:
     meteorológica y las cámaras trampa que ya funcionan, pronto se construirá una nueva estación
     científica para recoger y analizar los datos de forma aún más sistemática.
   items:
-    - icon: 📷
-      title: Cámaras trampa
+    - title: Cámaras trampa
       text: >-
         Hemos instalado cámaras automáticas en el territorio de los animales amenazados para
         observar su comportamiento, sus patrones de actividad y, si es posible, su reproducción.
-    - icon: 🔭
-      title: Recorridos de exploración
+    - title: Recorridos de exploración
       text: >-
         En cada recorrido revisamos todo a la vez: cantos de aves, ranas y otros indicadores del
         bosque, árboles semilleros, floración y fructificación – en conexión con el vivero y la
         agroforestería.
-    - icon: 💧
-      title: Calidad del agua
+    - title: Calidad del agua
       text: >-
         Medimos regularmente los ríos y quebradas: valor de pH, temperatura, turbidez y
         macroinvertebrados acuáticos, que reaccionan muy rápido a cualquier contaminación.
-    - icon: 🌦️
-      title: Estación meteorológica
+    - title: Estación meteorológica
       text: >-
         Nuestra estación meteorológica registra temperatura, humedad del aire, lluvia y viento.
         Así documentamos cómo cambia el clima en el territorio.
-    - icon: 📖
-      title: Vida shuar
+    - title: Vida shuar
       text: >-
         Documentamos la vida y los saberes shuar: tomamos fotos, grabamos la lengua shuar chicham
         y registramos nombres, usos y relatos sobre plantas y animales.
-    - icon: 🏗️
-      title: Nueva estación científica
+    - title: Nueva estación científica
       text: >-
         Próximamente: una estación propia para guardar, procesar y analizar los datos del
         monitoreo directamente en Maikiuants.

@@ -53,6 +53,10 @@ social:
 # Illustration als schwaches Muster im Hintergrund der ganzen Seite (true = an, false = aus)
 background_pattern: true
 
+# Kleines Fenster auf der Startseite, das den nächsten Tour-Termin bewirbt (true = an, false = aus).
+# Zeigt automatisch den nächsten Termin aus _data/tour_dates.yml, der noch freie Plätze hat.
+tour_popup: true
+
 # Eingebettete Facebook-Chronik (erst nach Klick). Ausgeschaltet, weil Facebook sie nur noch
 # eingeloggten Besuchern zeigt – alle anderen sehen ein leeres Feld. Die Beiträge kommen
 # stattdessen über den automatischen Import (README, Abschnitt 3).

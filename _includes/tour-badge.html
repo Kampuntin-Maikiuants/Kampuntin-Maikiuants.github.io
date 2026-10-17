@@ -1,0 +1,18 @@
+{%- comment -%}
+  Plätze-Anzeige für einen Tour-Termin. Parameter: date (Eintrag aus _data/tour_dates.yml)
+  Ist "free" ausgefüllt, wird die Zahl gezeigt (0 = ausgebucht), sonst der "status".
+{%- endcomment -%}
+{%- assign tb = include.date -%}
+{%- assign tb_ui = site.data[page.lang].ui -%}
+{%- if tb.free != nil and tb.free != "" -%}
+  {%- assign tb_free = tb.free | plus: 0 -%}
+  {%- if tb_free <= 0 -%}
+<span class="badge badge--full">{{ tb_ui.tour_status.full }}</span>
+  {%- else -%}
+    {%- if tb_free == 1 -%}{%- assign tb_text = tb_ui.tour_places_one -%}{%- else -%}{%- assign tb_text = tb_ui.tour_places | replace: "%n", tb_free -%}{%- endif -%}
+<span class="badge badge--{% if tb_free <= 3 %}few{% else %}open{% endif %}">{{ tb_text }}</span>
+  {%- endif -%}
+{%- else -%}
+  {%- assign tb_status = tb.status | default: "request" -%}
+<span class="badge badge--{{ tb_status }}">{{ tb_ui.tour_status[tb_status] }}</span>
+{%- endif -%}

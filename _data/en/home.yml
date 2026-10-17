@@ -93,14 +93,22 @@ explore:
   intro: Choose where to start.
   items:
     - ref: tours
-      icon: 🚌
       title: Tours
       text: Ten days in the rainforest for groups of up to 12 people, sharing community life.
     - ref: volunteering
-      icon: 🌱
       title: Volunteering
       text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
     - ref: science
-      icon: 🔬
       title: Science
       text: Community para-ecologists monitor biodiversity, rivers and the climate.
+
+# Small box in the bottom corner (next tour date) – on/off: tour_popup in _config.yml
+tour_popup:
+  eyebrow: Next tour
+  text: >-
+    Ten days living with the Shuar community of Maikiuants. In 2027, with a focus on
+    spirituality.
+  per: per person
+  button: See the tour
+  close: Close
+  image: /assets/img/fotos/cascada.jpg

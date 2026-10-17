@@ -121,7 +121,8 @@ price:
     Todo incluido durante los diez días: traslado desde Quito, alojamiento, comidas, guías,
     intérpretes, seguridad y actividades. Organizamos los tours junto con la organización belga
     Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y el 5 % de
-    los ingresos va directamente a Maikiuants. [Indicar condiciones de pago y cancelación.]
+    los ingresos va directamente a Maikiuants. El pago y los demás detalles los acordamos
+    personalmente contigo.
 
 dates:
   title: Próximas fechas
@@ -131,17 +132,15 @@ dates:
     En 2027 nuestros tours se centran en la espiritualidad: encontrarse a uno mismo, valorar cada
     momento de la vida, sanar, armonizar y conectar con la naturaleza – para vivir bien.
   empty: Las próximas fechas se publicarán pronto.
-  button: Reservar plaza
+  button: Escríbenos para reservar
 
 booking:
   title: Cómo reservar
   steps:
     - title: Escríbenos
       text: Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan.
-    - title: Conversamos
-      text: Una breve llamada para resolver dudas y ver si el tour es para ti.
     - title: Reserva
-      text: Confirmamos tu plaza con un anticipo de [XX] %.
+      text: Confirmamos tu reserva y acordamos contigo las fechas, el pago y todos los detalles.
     - title: Prepárate
       text: Te enviamos la guía de viaje con lista de equipaje e información de salud.
 
