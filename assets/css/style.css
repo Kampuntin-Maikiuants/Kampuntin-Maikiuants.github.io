@@ -205,8 +205,9 @@ abbr[title] { text-decoration: none; }
 .page-hero.has-illustration .page-hero__inner::before,
 .page-hero.has-image .page-hero__inner::before {
   content: ""; position: absolute; z-index: -1; pointer-events: none;
-  left: -6rem; right: 20%; top: -4rem; bottom: -4rem;
-  background: radial-gradient(ellipse at 35% 50%, rgb(10 20 14 / .45), rgb(10 20 14 / .18) 45%, transparent 72%);
+  left: -10rem; right: 5%; top: -6rem; bottom: -6rem;
+  /* closest-side: der Verlauf ist an allen vier Rändern komplett durchsichtig – keine Kante */
+  background: radial-gradient(closest-side, rgb(10 20 14 / .45), rgb(10 20 14 / .22) 50%, transparent);
 }
 .page-hero h1 { color: #fff; max-width: 18ch; }
 .page-hero--post h1, .page-hero--small h1 { max-width: none; font-size: clamp(2rem, 4.5vw, 3rem); }
