@@ -65,7 +65,7 @@ methods:
 
 field:
   title: Trabajo de campo
-  video: "Ver el video: Caracterización de la cobertura de uso de suelo (3:23 min)"
+  video: true            # zeigt das erste Video aus _data/videos.yml
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Búsqueda de animales acuáticos en el río }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Clasificando muestras junto al río }
@@ -131,9 +131,10 @@ animals:
       detectar enseguida cualquier alteración – por ejemplo en ríos cercanos afectados por la
       actividad minera.
     book_note: >-
-      Todas las fotos son de nuestro libro, la *Guía de macroinvertebrados acuáticos*. Allí
-      encontrarás muchas más especies y todo sobre su anatomía y su importancia para el agua.
-    book_link: Más sobre el libro
+      Fotografías: *Guía de macroinvertebrados acuáticos de las microcuencas de los ríos Aakas y
+      Yunkumas – Cordillera del Cóndor*. La guía completa describe muchas más familias, su anatomía
+      y su función como indicadores de la calidad del agua.
+    book_link: Ver la publicación
     groups:          # Fotos aus dem Buch
       - { name: "Efímera", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
       - { name: "Caballito del diablo (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
@@ -151,7 +152,7 @@ book:
   eyebrow: Nuestro libro
   title: Guía de macroinvertebrados acuáticos
   subtitle: de las microcuencas de los ríos Aakas y Yunkumas – Cordillera del Cóndor
-  cover: "/assets/img/libro/portada.jpg"
+  cover: "/assets/img/libro/portada-recortada.jpg"
   cover_alt: Portada de la Guía de macroinvertebrados acuáticos de los ríos Aakas y Yunkumas
   text: |-
     Los paraecólogos de Maikiuants recolectaron, identificaron y fotografiaron los pequeños

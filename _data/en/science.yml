@@ -64,7 +64,7 @@ methods:
 
 field:
   title: Fieldwork
-  video: "Watch the video: mapping land use and vegetation cover (3:23 min)"
+  video: true            # shows the first video from _data/videos.yml
   photos:
     - { image: /assets/img/fotos/ciencia-rio.jpg, alt: Searching for aquatic animals in the river }
     - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Sorting samples by the river }
@@ -128,9 +128,10 @@ animals:
       Because they react quickly to pollution, they help us understand water quality and detect
       any change straight away – for example in nearby rivers affected by mining.
     book_note: >-
-      All photos are from our book, the *Guía de macroinvertebrados acuáticos*. There you'll find
-      many more species and everything about their anatomy and what they mean for the water.
-    book_link: More about the book
+      Photographs: *Guía de macroinvertebrados acuáticos de las microcuencas de los ríos Aakas y
+      Yunkumas – Cordillera del Cóndor*. The full guide describes many more families, their anatomy
+      and their role as indicators of water quality.
+    book_link: View the publication
     groups:          # Fotos aus dem Buch
       - { name: "Mayfly", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
       - { name: "Damselfly (larva)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
@@ -148,7 +149,7 @@ book:
   eyebrow: Our book
   title: Guía de macroinvertebrados acuáticos
   subtitle: "Guide to the aquatic macroinvertebrates of the Aakas and Yunkumas river micro-basins – Cordillera del Cóndor"
-  cover: "/assets/img/libro/portada.jpg"
+  cover: "/assets/img/libro/portada-recortada.jpg"
   cover_alt: Cover of the guide to the aquatic macroinvertebrates of the Aakas and Yunkumas rivers
   text: |-
     The para-ecologists of Maikiuants collected, identified and photographed the small animals

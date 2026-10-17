@@ -100,15 +100,3 @@ explore:
       icon: 🔬
       title: Ciencia
       text: Paraecólogas y paraecólogos de la comunidad monitorean la biodiversidad, los ríos y el clima.
-    - ref: updates
-      icon: 📣
-      title: Novedades
-      text: Las últimas publicaciones de Facebook e Instagram, con fotos desde la selva.
-    - ref: gallery
-      icon: 📷
-      title: Galería
-      text: Álbumes de fotos de tours, voluntariado, investigación y fiestas.
-    - ref: people
-      icon: 🤝
-      title: Equipo
-      text: Las personas de Maikiuants y de Kampuntin que hacen posible todo esto.

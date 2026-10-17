@@ -100,15 +100,3 @@ explore:
       icon: 🔬
       title: Science
       text: Community para-ecologists monitor biodiversity, rivers and the climate.
-    - ref: updates
-      icon: 📣
-      title: Updates
-      text: The latest posts from Facebook and Instagram, with photos from the rainforest.
-    - ref: gallery
-      icon: 📷
-      title: Gallery
-      text: Photo albums from tours, volunteering, research and celebrations.
-    - ref: people
-      icon: 🤝
-      title: People
-      text: The people of Maikiuants and Kampuntin who make all of this possible.

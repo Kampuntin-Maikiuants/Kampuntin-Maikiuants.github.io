@@ -31,9 +31,18 @@ layout: default
     </div>
     <h3 class="subsection-title subsection">{{ t.field.title }}</h3>
     {% include photo-grid.html photos=t.field.photos group="campo" %}
-    {%- if t.field.video %}
-      {%- assign gallery_page = site.pages | where: "ref", "gallery" | where: "lang", page.lang | first %}
-    <p class="video-link"><a class="link-arrow" href="{{ gallery_page.url | relative_url }}#videos"><span aria-hidden="true">▶</span> {{ t.field.video }} →</a></p>
+    {%- assign sv = site.data.videos | first %}
+    {%- if t.field.video and sv.file %}
+    <div class="science-video subsection">
+      <video controls preload="none" playsinline{% if sv.poster %} poster="{{ sv.poster | relative_url }}"{% endif %} aria-label="{{ sv.title[page.lang] | escape }}">
+        <source src="{{ sv.file | relative_url }}" type="video/mp4">
+      </video>
+      <div>
+        <p class="eyebrow eyebrow--dark">Video · 3:23 min</p>
+        <h3 class="subsection-title">{{ sv.title[page.lang] }}</h3>
+        <p>{{ sv.text[page.lang] }}</p>
+      </div>
+    </div>
     {%- endif %}
   </div>
 </section>
@@ -96,10 +105,9 @@ layout: default
       {%- endfor %}
     </div>
     {%- if a.river.book_note %}
-    <p class="book-note">
-      <span aria-hidden="true">📖</span>
-      <span>{{ a.river.book_note | markdownify | remove: "<p>" | remove: "</p>" | strip }}
-      <a class="link-arrow" href="#libro">{{ a.river.book_link }} ↓</a></span>
+    <p class="source-note">
+      {{ a.river.book_note | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+      <a href="#libro">{{ a.river.book_link }}</a>
     </p>
     {%- endif %}
   </div>
@@ -109,9 +117,17 @@ layout: default
 {%- assign book_url = b.button.url | default: contact_page.url %}
 <section class="section section--forest" id="libro">
   <div class="container split split--media book">
-    <a class="book__cover-link" href="{{ b.cover | relative_url }}" data-lightbox data-album="libro" data-caption="{{ b.title | escape }}">
-      {% include media.html src=b.cover alt=b.cover_alt class="book__cover" %}
+    {%- if b.cover and b.cover != "" %}
+    <a class="book3d" href="{{ b.cover | relative_url }}" data-lightbox data-album="libro" data-caption="{{ b.title | escape }}">
+      <span class="book3d__inner">
+        <span class="book3d__back" aria-hidden="true"></span>
+        <span class="book3d__pages" aria-hidden="true"></span>
+        <img class="book3d__cover" src="{{ b.cover | relative_url }}" alt="{{ b.cover_alt | escape }}" loading="lazy">
+      </span>
     </a>
+    {%- else %}
+    {% include media.html alt=b.cover_alt class="book__cover" %}
+    {%- endif %}
     <div class="prose">
       <p class="eyebrow">{{ b.eyebrow }}</p>
       <h2 class="section-title">{{ b.title }}</h2>

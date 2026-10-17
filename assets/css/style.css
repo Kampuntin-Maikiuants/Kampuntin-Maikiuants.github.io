@@ -523,9 +523,23 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 
 /* ---------- Buch ---------- */
 .book { align-items: center; }
-.book-note { display: flex; gap: .75rem; align-items: flex-start; margin: 1.5rem 0 0; padding: 1rem 1.25rem; background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--clay); border-radius: var(--radius-sm); }
-.book-note > span:first-child { font-size: 1.4rem; line-height: 1.2; }
-.book-note .link-arrow { white-space: nowrap; }
+/* Quellenangabe unter den Flusstier-Fotos */
+.source-note { margin: 1.5rem 0 0; padding-top: .9rem; border-top: 1px solid var(--line); font-size: .9rem; line-height: 1.55; color: var(--muted); max-width: 80ch; }
+.source-note a { color: var(--forest); font-weight: 600; }
+/* Buch in 3D – nutzt das echte Cover */
+.book3d { --d: 22px; display: block; justify-self: center; width: min(72vw, 330px); perspective: 1600px; }
+.book3d__inner { position: relative; display: block; aspect-ratio: 1000 / 1245; transform-style: preserve-3d;
+  transform: rotateY(-26deg) rotateX(5deg); transition: transform .6s ease; }
+.book3d:hover .book3d__inner, .book3d:focus-visible .book3d__inner { transform: rotateY(-10deg) rotateX(2deg); }
+.book3d__cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 2px 5px 5px 2px;
+  transform: translateZ(calc(var(--d) / 2)); box-shadow: inset 6px 0 10px rgb(255 255 255 / .08); }
+.book3d__inner::after { content: ""; position: absolute; inset: 0; transform: translateZ(calc(var(--d) / 2 + .5px)); border-radius: 2px 5px 5px 2px; pointer-events: none;
+  background: linear-gradient(90deg, rgb(0 0 0 / .35) 0, rgb(255 255 255 / .12) 2.5%, transparent 6%, transparent 85%, rgb(255 255 255 / .08) 100%); }
+.book3d__back { position: absolute; inset: 0; background: #121212; border-radius: 2px 5px 5px 2px; transform: translateZ(calc(var(--d) / -2));
+  box-shadow: 18px 26px 40px rgb(0 0 0 / .55); }
+.book3d__pages { position: absolute; top: 4px; bottom: 4px; right: calc(var(--d) / -2); width: var(--d); transform: rotateY(90deg);
+  background: repeating-linear-gradient(90deg, #f3eee2 0 2px, #d9d2c2 2px 3px); }
+@media (prefers-reduced-motion: reduce) { .book3d__inner { transition: none; } }
 .book__cover-link { justify-self: center; display: block; }
 .book__subtitle { font-family: var(--font-serif); font-size: 1.15rem; color: #f0c7a4 !important; margin-top: -.25rem; }
 .book__pages { margin-top: clamp(2.5rem, 5vw, 3.5rem); }
@@ -677,9 +691,14 @@ a.album__cover:hover img { transform: scale(1.04); }
 .feed-post__text:has(details[open]) .feed-post__short { display: none; }
 .feed-post__link { font-size: .92rem; }
 
+/* ---------- Video auf der Wissenschaftsseite ---------- */
+.science-video { display: grid; gap: clamp(1.25rem, 3vw, 2.5rem); align-items: center; }
+@media (min-width: 860px) { .science-video { grid-template-columns: 1.5fr 1fr; } }
+.science-video video { width: 100%; height: auto; border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
+.science-video p:last-child { margin-bottom: 0; color: var(--muted); }
+.eyebrow--dark { color: var(--clay); margin-bottom: .5rem; }
+
 /* ---------- Videos (Galerie) ---------- */
-.video-link { margin: 1.25rem 0 0; }
-.video-link span { display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; margin-right: .4rem; border-radius: 50%; background: var(--clay); color: #fff; font-size: .7rem; vertical-align: middle; }
 .videos { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); }
 .video-item { margin: 0; }
 .video-item video { width: 100%; height: auto; border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
