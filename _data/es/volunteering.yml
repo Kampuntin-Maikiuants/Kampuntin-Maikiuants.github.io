@@ -68,7 +68,7 @@ free_time:
 practical:
   title: Datos prácticos
   items:
-    - { label: Estancia mínima, value: "[2 semanas]" }
+    - { label: Estancia, value: "Mínimo un mes (estancias más cortas, de 2–3 semanas, se pueden acordar) – sin máximo" }
     - { label: Horario de trabajo, value: "Flexible, 3–5 horas al día, 5 días por semana" }
     - label: Comida
       value: >-
@@ -134,8 +134,9 @@ faq:
   items:
     - q: ¿Cuánto tiempo puedo quedarme?
       a: >-
-        La estancia mínima es de [2 semanas]. Estancias más largas son muy bienvenidas, hasta
-        [X meses].
+        Lo ideal es un mínimo de un mes, pero somos flexibles: también se pueden acordar dos o tres
+        semanas. No hay máximo: puedes quedarte meses o incluso años; un amigo nuestro ya vive aquí
+        desde hace cinco años.
     - q: ¿Cuánto cuesta el voluntariado?
       a: >-
         El alojamiento en la jea es a cambio de tu trabajo. La comida la traes tú y la cocinan
@@ -164,4 +165,5 @@ faq:
         para la Amazonía normalmente se recomienda la vacuna contra la fiebre amarilla.
     - q: ¿Puedo venir con mi pareja o con amigos?
       a: >-
-        Sí, escríbenos con tiempo. Podemos recibir a [X] voluntarios al mismo tiempo.
+        Sí, escríbenos con tiempo. En el albergue hay lugar para 12 personas; ya hemos recibido a
+        6 o 7 voluntarios a la vez.

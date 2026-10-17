@@ -68,7 +68,7 @@ free_time:
 practical:
   title: Practical information
   items:
-    - { label: Minimum stay, value: "[2 weeks]" }
+    - { label: Length of stay, value: "At least one month (shorter stays of 2–3 weeks can be arranged) – no maximum" }
     - { label: Working hours, value: "Flexible, 3–5 h a day, 5 days a week" }
     - label: Food
       value: >-
@@ -134,7 +134,9 @@ faq:
   items:
     - q: How long can I stay?
       a: >-
-        The minimum stay is [2 weeks]. Longer stays are very welcome, up to [X months].
+        Ideally at least one month, but we're flexible: two or three weeks can also be arranged.
+        There's no maximum – you can stay for months or even years; a friend of ours has been living
+        here for five years.
     - q: How much does volunteering cost?
       a: >-
         Accommodation in the jea is in exchange for your work. You bring food and cook together
@@ -163,4 +165,5 @@ faq:
         the yellow fever vaccination is usually recommended.
     - q: Can I come with my partner or friends?
       a: >-
-        Yes, just write to us early. We can host [X] volunteers at the same time.
+        Yes, just write to us early. The lodge has room for 12 people; we have already hosted 6 or 7
+        volunteers at the same time.

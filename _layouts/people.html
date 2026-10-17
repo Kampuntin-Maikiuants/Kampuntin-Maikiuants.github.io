@@ -6,11 +6,12 @@ layout: default
 
 {%- assign groups = "kampuntin community" | split: " " %}
 {%- for g in groups %}
+{%- assign members = site.data.team | where: "group", g -%}
+{%- if members.size > 0 %}
 <section class="section{% cycle '', ' section--alt' %}">
   <div class="container">
     <h2 class="section-title">{{ t.groups[g] }}</h2>
     <div class="grid grid--people">
-      {%- assign members = site.data.team | where: "group", g -%}
       {%- for person in members %}
         {%- assign p_alt = person.name | append: " – " | append: person.role[page.lang] %}
       <article class="person">
@@ -23,5 +24,6 @@ layout: default
     </div>
   </div>
 </section>
+{%- endif %}
 {%- endfor %}
 

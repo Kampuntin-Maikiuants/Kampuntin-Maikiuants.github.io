@@ -60,7 +60,7 @@ itinerary:
   note: El programa es orientativo. El clima, el río y la vida de la comunidad marcan el ritmo.
   days:
     - title: Llegada
-      text: Llegada a Limón Indanza y viaje de unas 2,5 horas en taxi 4×4 hasta Maikiuants. Bienvenida de la comunidad.
+      text: Te recibe en Quito nuestro guía internacional. Juntos viajamos en buseta hasta Cuenca y en taxi hasta Maikiuants, donde nos da la bienvenida la comunidad.
     - title: Conocer la comunidad
       text: Recorrido por Maikiuants, la escuela y las huertas familiares (aja). Por la tarde, primer baño en el río.
     - title: El bosque que cura
@@ -78,15 +78,17 @@ itinerary:
     - title: Minga
       text: Trabajo comunitario junto a las familias y fiesta de despedida con música y cantos.
     - title: Regreso
-      text: Último desayuno juntos, despedida y viaje de regreso a Limón Indanza.
+      text: Último desayuno juntos, despedida y viaje de regreso a Quito con el guía internacional.
 
 included:
   title: Incluido
   items:
+    - Traslado desde Quito con nuestro guía internacional (en buseta hasta Cuenca y en taxi hasta Maikiuants)
     - Alojamiento en la jea (literas o un lugar para tu propia hamaca)
-    - Todas las comidas durante diez días (cocinamos juntos)
-    - Guías de la comunidad
-    - Actividades del programa
+    - Todas las comidas durante diez días – compramos los alimentos y los preparan cocineras de la comunidad
+    - Guías de la comunidad e intérpretes
+    - Seguridad y acompañamiento durante todo el tour
+    - Todas las actividades del programa
     - Cocina y electricidad con energía solar
     - Internet gratuito en el centro comunitario (a unos 20–25 minutos a pie del alojamiento)
     - Un río para bañarse
@@ -94,9 +96,9 @@ included:
 not_included:
   title: No incluido
   items:
-    - Vuelos y viaje hasta el centro comunitario y el alojamiento
+    - Vuelos hasta Quito
     - Seguro de viaje con cobertura médica (obligatorio)
-    - Compras grandes – no hay un supermercado cerca
+    - Gastos personales y artesanías – no hay un supermercado cerca
 
 packing:
   title: Qué llevar
@@ -113,15 +115,21 @@ packing:
 
 price:
   title: Precio
-  amount: "[XXX] USD"
+  amount: "2.000 USD"
   per: por persona, 10 días
   text: >-
-    El precio cubre alojamiento, comidas, guías, actividades y un aporte fijo a los proyectos de
-    la comunidad. [Indicar condiciones de pago y cancelación.]
+    Todo incluido durante los diez días: traslado desde Quito, alojamiento, comidas, guías,
+    intérpretes, seguridad y actividades. Organizamos los tours junto con la organización belga
+    Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y el 5 % de
+    los ingresos va directamente a Maikiuants. [Indicar condiciones de pago y cancelación.]
 
 dates:
   title: Próximas fechas
-  intro: Grupos de máximo 12 personas. ¿Ninguna fecha te queda bien? Escríbenos.
+  intro: Grupos de máximo 12 personas. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  focus_title: "Enfoque 2027: espiritualidad"
+  focus: >-
+    En 2027 nuestros tours se centran en la espiritualidad: encontrarse a uno mismo, valorar cada
+    momento de la vida, sanar, armonizar y conectar con la naturaleza – para vivir bien.
   empty: Las próximas fechas se publicarán pronto.
   button: Reservar plaza
 
@@ -155,9 +163,14 @@ faq:
         teléfono, pero hay internet en el centro comunitario, a unos 20–25 minutos a pie.
     - q: ¿Qué idiomas se hablan?
       a: >-
-        En la comunidad se habla shuar chicham y español. [Indicar si el equipo de Kampuntin
-        acompaña en inglés u otros idiomas.]
+        En la comunidad se habla shuar chicham y español. Durante el tour te acompañan nuestro guía
+        internacional e intérpretes.
+    - q: ¿Tienen experiencia recibiendo visitantes?
+      a: >-
+        Sí. Al principio aprendimos sobre la marcha, pero hoy tenemos una experiencia muy bonita
+        atendiendo y cuidando a nuestros visitantes e intercambiando saberes desde el territorio.
     - q: ¿Es seguro?
       a: >-
-        Viajamos en grupos pequeños y siempre acompañados por personas de la comunidad que
-        conocen el bosque. [Describir botiquín, comunicación de emergencia y plan de evacuación.]
+        Sí. Desde tu llegada a Quito te acompaña nuestro guía internacional, y en la selva siempre
+        vas con personas de la comunidad que conocen el bosque. La seguridad está incluida en el
+        precio. [Describir botiquín, comunicación de emergencia y plan de evacuación.]

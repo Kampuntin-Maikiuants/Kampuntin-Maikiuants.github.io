@@ -19,6 +19,12 @@ content:
         fields:
           - { name: start, label: Inicio, type: date, options: { format: yyyy-MM-dd } }
           - { name: end, label: Fin, type: date, options: { format: yyyy-MM-dd } }
+          - name: label
+            label: Texto en vez de la fecha (opcional, si la fecha exacta aún no está fija)
+            type: object
+            fields:
+              - { name: es, label: Español, type: string }
+              - { name: en, label: English, type: string }
           - name: status
             label: Estado
             type: select

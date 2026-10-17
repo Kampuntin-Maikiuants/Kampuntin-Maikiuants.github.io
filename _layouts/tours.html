@@ -108,6 +108,12 @@ layout: default
     <div>
       <h2 class="section-title">{{ t.dates.title }}</h2>
       <p>{{ t.dates.intro }}</p>
+      {%- if t.dates.focus %}
+      <div class="tour-focus">
+        <strong>{{ t.dates.focus_title }}</strong>
+        <p>{{ t.dates.focus }}</p>
+      </div>
+      {%- endif %}
       {%- assign shown = 0 %}
       <ul class="dates">
         {%- for d in site.data.tour_dates.dates -%}
@@ -115,7 +121,7 @@ layout: default
           {%- if d_start < today -%}{%- continue -%}{%- endif -%}
           {%- assign shown = shown | plus: 1 %}
         <li>
-          <span class="dates__range">{% include date-range.html start=d.start end=d.end %}</span>
+          <span class="dates__range">{%- assign dl = d.label[page.lang] | strip -%}{% if dl != "" %}{{ dl }}{% else %}{% include date-range.html start=d.start end=d.end %}{% endif %}</span>
           <span class="badge badge--{{ d.status }}">{{ ui.tour_status[d.status] }}</span>
         </li>
         {%- endfor %}

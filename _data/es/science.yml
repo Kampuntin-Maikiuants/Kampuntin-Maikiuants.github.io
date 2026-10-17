@@ -21,8 +21,15 @@ what:
     los años y compartirse con investigadores.
 
     Así, el conocimiento se queda en la comunidad y los datos sirven para tomar decisiones sobre
-    el territorio: dónde cazar menos, dónde construir nuevas casas, qué zonas proteger y cómo
-    cambian el río y el bosque con el cambio climático.
+    el territorio: dónde construir nuevas casas, qué zonas proteger y cómo cambian el río y el
+    bosque con el cambio climático.
+  quote:
+    text: >-
+      Somos personas que damos auxilio a toda la biodiversidad que existe en nuestro territorio,
+      para conocerla, valorarla y respetarla, y llamamos a la conciencia ambiental para que las
+      próximas generaciones la sigan cuidando. Ser paraecólogo es dar auxilio a todas las especies
+      que están en peligro de extinción.
+    author: Freddy Ankuash, paraecólogo y coordinador de Kampuntin
 
 methods:
   title: Qué monitoreamos
@@ -107,15 +114,20 @@ animals:
 
   frog:
     title: ¿Una especie nueva para la ciencia?
-    name: Familia Bufonidae – especie por identificar
+    name: Rhinella maikiuants (nombre propuesto)
     images:
       - { image: /assets/img/fotos/rana-nueva.jpg, alt: La rana de Maikiuants que podría ser una especie nueva }
       - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: La rana en una bolsa de muestreo durante el monitoreo }
     text: |-
-      El **19 de junio de 2024**, los paraecólogos descubrieron una rana que todavía no ha sido
-      identificada. Las fotos sugieren que podría pertenecer a la familia *Bufonidae*. Sin embargo,
-      sus características inusuales abren la posibilidad de que se trate de una **especie
-      completamente nueva**.
+      El **19 de junio de 2024**, durante el monitoreo, los paraecólogos encontraron una rana de la
+      familia de los sapos (*Bufonidae*) con características muy inusuales. Todo indica que se trata
+      de una **especie nueva para la ciencia** que solo existe en el territorio de Maikiuants. Por
+      eso proponemos para ella el nombre científico ***Rhinella maikiuants***.
+
+      En la investigación participan unos diez paraecólogos de la comunidad, con el apoyo de la
+      Universidad del Azuay (UDA) y de una cooperación internacional de Inglaterra. Ahora la
+      comunidad científica está debatiendo el hallazgo; esperamos que pronto se confirme
+      oficialmente como especie nueva.
 
   river:
     title: "Vida bajo el agua: los animales de nuestros ríos"
@@ -161,13 +173,14 @@ book:
     de moscas y sanguijuelas—, una introducción a su anatomía y lo que nos cuentan sobre la
     calidad del agua.
 
-    [Más información sobre los autores, para quién está pensado el libro y cómo conseguirlo.]
+    La guía la hicimos nosotros mismos: unos diez paraecólogos de Maikiuants, cuyos nombres
+    aparecen en el libro. Solo existen pocos ejemplares impresos; si te interesa, escríbenos.
   details:
-    - { label: Autores, value: "[Nombres]" }
+    - { label: Autores, value: "Paraecólogos de Maikiuants" }
     - { label: Año, value: "[Año]" }
     - { label: Idioma, value: Español }
     - { label: Páginas, value: "[XXX]" }
-  button: { label: Cómo conseguir el libro, url: "" }   # leer = Kontaktseite
+  button: { label: Preguntar por el libro, url: "" }   # leer = Kontaktseite
   pages_title: Un vistazo al libro
   pages:
     - { image: /assets/img/libro/anatomia.jpg, alt: "Página del libro: anatomía de los macroinvertebrados" }

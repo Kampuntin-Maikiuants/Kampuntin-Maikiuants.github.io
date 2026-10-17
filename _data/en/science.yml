@@ -21,8 +21,15 @@ what:
     researchers.
 
     This way, knowledge stays in the community, and the data help to make decisions about the
-    territory: where to hunt less, where to build new homes, which areas to protect, and how the
-    river and the forest are changing with climate change.
+    territory: where to build new homes, which areas to protect, and how the river and the forest
+    are changing with climate change.
+  quote:
+    text: >-
+      We are people who come to the aid of all the biodiversity in our territory – to know it,
+      value it and respect it – and we raise environmental awareness so that future generations
+      keep caring for it. Being a para-ecologist means coming to the aid of every species that is
+      in danger of extinction.
+    author: Freddy Ankuash, para-ecologist and coordinator of Kampuntin
 
 methods:
   title: What we monitor
@@ -106,14 +113,20 @@ animals:
 
   frog:
     title: A species new to science?
-    name: Family Bufonidae – species not yet identified
+    name: Rhinella maikiuants (proposed name)
     images:
       - { image: /assets/img/fotos/rana-nueva.jpg, alt: The Maikiuants frog that could be a new species }
       - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: The frog in a sampling bag during monitoring }
     text: |-
-      On **19 June 2024**, the para-ecologists discovered a frog that has not yet been identified.
-      The photos suggest it could belong to the family *Bufonidae*. However, its unusual features
-      raise the possibility that it could be a **completely new species**.
+      On **19 June 2024**, during monitoring, the para-ecologists found a frog of the true toad
+      family (*Bufonidae*) with very unusual features. Everything suggests it is a **species new to
+      science** that exists only in the territory of Maikiuants. That is why we propose the
+      scientific name ***Rhinella maikiuants***.
+
+      Around ten para-ecologists from the community are involved in the research, supported by the
+      Universidad del Azuay (UDA) and an international cooperation partner from England. The find is
+      now being discussed by the scientific community; we hope it will soon be officially confirmed
+      as a new species.
 
   river:
     title: "Life under water: the animals of our rivers"
@@ -157,13 +170,14 @@ book:
     family — from mayflies and damselflies to beetles, fly larvae and leeches — an introduction
     to their anatomy, and what they tell us about water quality.
 
-    [More about the authors, who the book is for and how to get it.]
+    We made this guide ourselves: around ten para-ecologists from Maikiuants, whose names appear
+    in the book. Only a few printed copies exist – if you are interested, get in touch.
   details:
-    - { label: Authors, value: "[Names]" }
+    - { label: Authors, value: "Para-ecologists of Maikiuants" }
     - { label: Year, value: "[Year]" }
     - { label: Language, value: Spanish }
     - { label: Pages, value: "[XXX]" }
-  button: { label: How to get the book, url: "" }   # empty url = contact page
+  button: { label: Ask about the book, url: "" }   # empty url = contact page
   pages_title: A look inside
   pages:
     - { image: /assets/img/libro/anatomia.jpg, alt: "Book page: anatomy of macroinvertebrates" }

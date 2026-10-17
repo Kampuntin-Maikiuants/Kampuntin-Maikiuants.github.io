@@ -31,16 +31,18 @@ about:
       text: >-
         Maikiuants es una comunidad shuar de la provincia de Morona Santiago, en la Amazonía sur
         del Ecuador, y forma parte del **Pueblo Shuar Arutam**. El pueblo, rodeado de selva y ríos
-        limpios, lleva el nombre del río que lo atraviesa. Y el río, a su vez, se llama así por la
-        planta *maikiuants* (en shuar chicham), que crece por todas partes a lo largo de sus orillas.
+        limpios, lleva el nombre del río que lo atraviesa: *maikiua* es el guanto (floripondio), que
+        crece por todas partes a lo largo de sus orillas, y *ants* es el agua. Maikiuants significa
+        «el agua del guanto».
     - title: Kampuntin
       image: "/assets/img/fotos/kampuntin.jpg"
       image_alt: Equipo de Kampuntin con un grupo de voluntarios frente a la jea
       text: >-
-        Kampuntin es la organización que hace posibles los tours y el voluntariado en Maikiuants.
-        Desde [año] organizamos regularmente tours y proyectos de voluntariado, sobre todo para
-        aprender unos de otros y unos con otros. Kampuntin también está detrás del trabajo
-        científico, del monitoreo y de la conservación de la selva.
+        *Kampuntin* significa «selva» en shuar chicham; de ahí nuestro lema **«Selva, mi destino»**.
+        Somos la organización que hace posibles los tours y el voluntariado en Maikiuants. Ya
+        trabajábamos antes, y desde 2023 estamos reconocidos legalmente. Nos mueve aprender unos de
+        otros y unos con otros. Kampuntin también está detrás del trabajo científico, del monitoreo y
+        de la conservación de la selva.
 
 # PLATZHALTER – die Mission wird noch genauer ausformuliert
 mission:
@@ -62,7 +64,10 @@ mission:
         Visitantes, voluntarios y comunidad aprendemos unos de otros: sobre las plantas, la
         espiritualidad y otras formas de vivir.
     - title: Fortalecer la comunidad
-      text: Los ingresos del turismo se quedan en Maikiuants y financian proyectos propios.
+      text: >-
+        Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y el 5 % de los
+        ingresos va directamente a Maikiuants. Además apoyamos a familias que lo necesitan en salud y
+        educación.
 
 quote:
   text: Iikia kampuntniuitji tura achitkiaji ii nekatairijiai.
@@ -75,7 +80,7 @@ location:
     Maikiuants se encuentra en la provincia de **Morona Santiago**, en la Amazonía sur del
     Ecuador, en la Cordillera del Cóndor. La carretera hacia Maikiuants sale de **Limón Indanza**;
     desde allí se llega en unas dos horas y media, normalmente en taxi 4×4 (aprox. 50–60 USD).
-    Las instrucciones detalladas de viaje y los puntos de encuentro se acuerdan antes de tu llegada.
+    A los grupos de los tours los recogemos en Quito y viajamos juntos hasta la comunidad.
   coords: 3°07'10.2" S · 78°15'56.4" O
   map_link: Ver en OpenStreetMap
   map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"

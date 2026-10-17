@@ -59,7 +59,7 @@ itinerary:
   note: This programme is a guide. Weather, the river and community life set the pace.
   days:
     - title: Arrival
-      text: Arrival in Limón Indanza and a journey of about 2.5 hours by 4×4 taxi to Maikiuants. Welcome by the community.
+      text: Our international guide welcomes you in Quito. Together we travel by minibus to Cuenca and by taxi to Maikiuants, where the community welcomes us.
     - title: Getting to know the community
       text: A walk through Maikiuants, the school and the family gardens (aja). In the afternoon, your first river bath.
     - title: The healing forest
@@ -77,15 +77,17 @@ itinerary:
     - title: Minga
       text: Communal work together with the families, followed by a farewell celebration with music and songs.
     - title: Departure
-      text: Last breakfast together, goodbyes and the journey back to Limón Indanza.
+      text: Last breakfast together, goodbyes and the journey back to Quito with the international guide.
 
 included:
   title: Included
   items:
+    - Transfer from Quito with our international guide (minibus to Cuenca, then taxi to Maikiuants)
     - Accommodation in the jea (bunk beds or a place for your own hammock)
-    - All meals for ten days (we cook together)
-    - Community guides
-    - Programme activities
+    - All meals for ten days – we buy the food and community cooks prepare it
+    - Community guides and interpreters
+    - Safety and support throughout the tour
+    - All programme activities
     - Solar-powered kitchen and electricity
     - Free internet at the community centre (about a 20–25-minute walk from the accommodation)
     - A river to bathe in
@@ -93,9 +95,9 @@ included:
 not_included:
   title: Not included
   items:
-    - Flights and travel to the community centre and accommodation
+    - Flights to Quito
     - Travel insurance with medical cover (required)
-    - Big shopping trips – there's no large supermarket nearby
+    - Personal expenses and handicrafts – there's no large supermarket nearby
 
 packing:
   title: What to bring
@@ -112,15 +114,21 @@ packing:
 
 price:
   title: Price
-  amount: "[XXX] USD"
+  amount: "2,000 USD"
   per: per person, 10 days
   text: >-
-    The price covers accommodation, meals, guides, activities and a fixed contribution to the
-    community's projects. [Add payment and cancellation terms.]
+    All-inclusive for ten days: transfer from Quito, accommodation, meals, guides, interpreters,
+    safety and activities. We organise the tours together with the Belgian organisation Raíces. We
+    pay local guides and cooks, buy food within the community, and 5% of the income goes directly
+    to Maikiuants. [Add payment and cancellation terms.]
 
 dates:
   title: Upcoming dates
-  intro: Groups of up to 12 people. None of the dates work for you? Get in touch.
+  intro: Groups of up to 12 people. Exact dates will be confirmed soon – get in touch if you're interested.
+  focus_title: "Focus 2027: spirituality"
+  focus: >-
+    In 2027 our tours focus on spirituality: finding yourself, valuing every moment of life,
+    healing, finding harmony and connecting with nature – to live well.
   empty: Upcoming dates will be published soon.
   button: Book a place
 
@@ -155,9 +163,14 @@ faq:
         away.
     - q: Which languages are spoken?
       a: >-
-        The community speaks Shuar Chicham and Spanish. [State whether the Kampuntin team
-        accompanies groups in English or other languages.]
+        The community speaks Shuar Chicham and Spanish. During the tour, our international guide and
+        interpreters accompany you.
+    - q: Do you have experience hosting visitors?
+      a: >-
+        Yes. At the beginning we learned as we went, but today we have a lovely experience of
+        welcoming and caring for our visitors and exchanging knowledge from our territory.
     - q: Is it safe?
       a: >-
-        We travel in small groups, always accompanied by community members who know the forest.
+        Yes. From your arrival in Quito, our international guide accompanies you, and in the forest
+        you're always with community members who know it well. Safety is included in the price.
         [Describe first-aid kit, emergency communication and evacuation plan.]

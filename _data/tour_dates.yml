@@ -1,15 +1,15 @@
 # Tour-Termine (werden auf der Tour-Seite in beiden Sprachen angezeigt)
 # status: open = Plätze frei · few = letzte Plätze · full = ausgebucht
-# Vergangene Termine werden bei jedem Neubau der Seite (= jeder Änderung) ausgeblendet.
-# BEISPIEL-TERMINE – bitte durch echte Daten ersetzen.
+# Genaues Datum: start + end eintragen (z. B. 2027-04-12 / 2027-04-21).
+# Noch ungefähres Datum: zusätzlich "label" setzen – dann wird der Text statt des Datums gezeigt.
+# "start" dient dann nur zum Sortieren und Ausblenden vergangener Termine.
 
 dates:
-  - start: 2027-01-11
-    end: 2027-01-20
+  - start: 2027-04-15
+    end: 2027-04-30
+    label: { es: "Abril 2027 · mediados o finales de mes", en: "April 2027 · mid or late April" }
     status: open
-  - start: 2027-03-08
-    end: 2027-03-17
-    status: few
-  - start: 2027-07-05
-    end: 2027-07-14
+  - start: 2027-08-01
+    end: 2027-09-30
+    label: { es: "Agosto o septiembre 2027", en: "August or September 2027" }
     status: open
