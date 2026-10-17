@@ -80,6 +80,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] Soll es einen **Spendenweg** geben (Konto, Plattform, über Raíces)? Im Moment steht dort nur „escríbenos“
 
 ### Texte & Freigaben
+- [ ] **Logo „Agua del guanto“** (jetzt auf der Website): von Freddy und der Gemeinschaft freigeben lassen –
+      passt der Guanto als Symbol? Für Druck/Stempel am Ende die Schrift in Pfade umwandeln lassen
 - [ ] **Freddys Zitat** (Wissenschaftsseite) ist sprachlich leicht geglättet – kurz von ihm freigeben lassen
 - [ ] **Shuar-Leitsatz** „Iikia kampuntniuitji tura achitkiaji ii nekatairijiai“ prüfen (von der Infotafel)
 - [ ] **Guanto** = Floripondio/Engelstrompete (*Brugmansia*) – stimmt die Übersetzung?
@@ -123,6 +125,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 16. ¿Quieren recibir donaciones? ¿Por qué medio?
 17. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
 18. ¿Quién de Kampuntin puede actualizar las plazas libres de los tours en la página? (Necesita una cuenta de GitHub; le enviamos una guía corta.)
+19. ¿Les gusta el logo nuevo (una gota de agua con la flor de guanto)? ¿Está bien usar el guanto como símbolo de Kampuntin?
 
 ---
 

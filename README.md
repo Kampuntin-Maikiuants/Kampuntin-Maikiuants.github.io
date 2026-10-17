@@ -63,6 +63,7 @@ Nach 1–2 Minuten ist die Änderung online.
 | Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
 | Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
 | Hintergrundmuster an/aus | `_config.yml` → `background_pattern: true/false` (Stärke: `opacity` bei „Hintergrundmuster“ in `style.css`) |
+| Logo (Kopf- und Fußzeile) | `_includes/logo.svg` · Browser-Icon: `assets/img/favicon.svg` · iPhone-Icon: `assets/img/apple-touch-icon.png` · alle Varianten als Dateien im Ordner `Logo-Entwurf` neben der Website |
 | Tour-Hinweis auf der Startseite an/aus | `_config.yml` → `tour_popup: true/false` (Texte: `tour_popup` in `_data/es|en/home.yml`; Termin kommt automatisch aus `tour_dates.yml`) |
 
 **Fotos einbauen:** Bild hochladen (z. B. nach `assets/img/fotos/`). Dann im passenden
