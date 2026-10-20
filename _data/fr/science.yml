@@ -1,0 +1,185 @@
+# Page science (paraécologie) – français
+
+hero:
+  eyebrow: Science communautaire
+  title: "Paraécologie : la communauté étudie sa forêt"
+  lead: >-
+    À Maikiuants, des membres de la communauté se forment pour devenir paraécologues. Ils allient
+    les savoirs shuar sur la forêt aux méthodes scientifiques pour documenter la biodiversité et
+    protéger leur territoire.
+  image: "/assets/img/fotos/hero-ciencia.jpg"
+  image_alt: Des paraécologues de Maikiuants travaillent au microscope
+
+what:
+  title: Qu’est-ce qu’un paraécologue ?
+  image: "/assets/img/fotos/paraecologos.jpg"
+  image_alt: L’équipe de paraécologues au bord de la rivière
+  text: |-
+    Un ou une paraécologue est un membre de la communauté formé aux méthodes de suivi
+    écologique. Connaissant la forêt et ses particularités depuis l’enfance, il ou elle apprend
+    à consigner ses observations de façon systématique, afin qu’elles puissent être comparées au
+    fil des années et partagées avec des chercheurs.
+
+    Ainsi, le savoir reste dans la communauté, et les données aident à prendre des décisions sur
+    le territoire : où construire de nouvelles maisons, quelles zones protéger, et comment la
+    rivière et la forêt évoluent avec le changement climatique.
+  quote:
+    text: >-
+      Nous sommes des personnes qui viennent en aide à toute la biodiversité de notre territoire –
+      pour la connaître, la valoriser et la respecter – et nous éveillons la conscience
+      environnementale pour que les générations futures continuent d’en prendre soin. Être
+      paraécologue, c’est venir en aide à chaque espèce menacée d’extinction.
+    author: Freddy Ankuash, paraécologue et coordinateur de Kampuntin
+
+methods:
+  title: Ce que nous surveillons
+  intro: >-
+    Les données que nous recueillons sont complexes et demandent une formation. En plus de la
+    station météorologique et des pièges photographiques déjà en place, une nouvelle station
+    scientifique sera bientôt construite pour recueillir et analyser les données de façon encore
+    plus systématique.
+  items:
+    - title: Pièges photographiques
+      text: >-
+        Des caméras automatiques ont été installées sur le territoire d’animaux menacés pour
+        observer leur comportement, leurs rythmes d’activité et, si possible, leur reproduction.
+    - title: Sorties d’exploration
+      text: >-
+        À chaque sortie, nous observons tout à la fois : chants d’oiseaux, grenouilles et autres
+        indicateurs de la forêt, arbres semenciers, floraison et fructification – en lien avec la
+        pépinière et l’agroforesterie.
+    - title: Qualité de l’eau
+      text: >-
+        Nous analysons régulièrement les rivières et les ruisseaux : pH, température, turbidité et
+        macroinvertébrés aquatiques, qui réagissent très vite à toute pollution.
+    - title: Station météorologique
+      text: >-
+        Notre station météorologique enregistre la température, l’humidité, les précipitations et
+        le vent, afin de documenter l’évolution du climat sur le territoire.
+    - title: La vie shuar
+      text: >-
+        Nous documentons la vie et les savoirs shuar : nous prenons des photos, enregistrons la
+        langue Shuar Chicham et notons les noms, les usages et les récits liés aux plantes et aux
+        animaux.
+    - title: Nouvelle station scientifique
+      text: >-
+        Bientôt : une station dédiée pour stocker, traiter et analyser les données du suivi
+        directement à Maikiuants.
+
+field:
+  title: Travail de terrain
+  video: true            # shows the first video from _data/videos.yml
+  photos:
+    - { image: /assets/img/fotos/ciencia-rio.jpg, alt: À la recherche d’animaux aquatiques dans la rivière }
+    - { image: /assets/img/fotos/ciencia-muestras.jpg, alt: Tri des échantillons au bord de la rivière }
+    - { image: /assets/img/fotos/camara-trampa-instalacion.jpg, alt: Des paraécologues installent un piège photographique dans la forêt }
+    - { image: /assets/img/fotos/estacion-meteorologica.jpg, alt: La station météorologique de Maikiuants }
+    - { image: /assets/img/fotos/reunion-equipo.jpg, alt: Réunion de travail de l’équipe avec des ordinateurs portables }
+    - { image: /assets/img/fotos/libro-presentacion.jpg, alt: Présentation du guide des macroinvertébrés aquatiques }
+
+animals:
+  title: Nos voisins les animaux
+  intro: >-
+    La forêt et les rivières de Maikiuants abritent d’innombrables animaux. Certains sont
+    menacés, d’autres sont nouveaux pour la science, et beaucoup vivent cachés sous l’eau.
+
+  threatened:
+    title: Espèces menacées
+    intro: >-
+      Maikiuants est une zone de grande importance pour la biodiversité. La relation harmonieuse
+      entre la communauté shuar et la nature permet à des mammifères menacés à l’échelle mondiale
+      de vivre sur son territoire. En 2024, les pièges photographiques ont notamment enregistré :
+    note: Catégories de menace selon notre panneau d’information.
+    also: "Également enregistrés : margay, tayra, ocelot, écureuil amazonien et faux vampire, entre autres."
+    sensitive: Pour les protéger, nous ne publions jamais la localisation exacte des espèces sensibles.
+
+  atelopus:
+    title: "Une grenouille très particulière : Atelopus sp."
+    name: Atelopus sp.
+    images:
+      - { image: /assets/img/fotos/atelopus.jpg, alt: Grenouille Atelopus jaune et noire sur de la mousse }
+      - { image: /assets/img/fotos/atelopus-2.jpg, alt: Grenouille Atelopus jaune et noire sur une fougère }
+    text: |-
+      Toutes les espèces du genre *Atelopus* sont menacées. La grenouille *Atelopus sp.* est en
+      danger, principalement à cause de la perte de son habitat naturel. Maikiuants est l’un des
+      rares endroits au monde où l’on peut encore l’observer.
+
+      Sa survie dépend d’un écosystème équilibré, avec des forêts saines et une eau propre. Elle
+      est si sensible aux changements de son environnement et si difficile à trouver qu’elle est
+      encore en cours de description scientifique.
+
+  frog:
+    title: Une espèce nouvelle pour la science ?
+    name: Rhinella maikiuants (nom proposé)
+    images:
+      - { image: /assets/img/fotos/rana-nueva.jpg, alt: Le crapaud de Maikiuants qui pourrait être une nouvelle espèce }
+      - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: Le crapaud dans un sac d’échantillonnage pendant le suivi }
+    text: |-
+      Le **19 juin 2024**, lors d’une sortie de suivi, les paraécologues ont trouvé un crapaud de
+      la famille des *Bufonidae* aux caractéristiques très inhabituelles. Tout porte à croire qu’il
+      s’agit d’une **espèce nouvelle pour la science**, qui n’existe que sur le territoire de
+      Maikiuants. C’est pourquoi nous proposons le nom scientifique ***Rhinella maikiuants***.
+
+      Une dizaine de paraécologues de la communauté participent à la recherche, avec le soutien de
+      l’Universidad del Azuay (UDA) et d’un partenaire de coopération internationale venu
+      d’Angleterre. La découverte est actuellement examinée par la communauté scientifique ; nous
+      espérons que l’espèce sera bientôt officiellement reconnue.
+
+  river:
+    title: "La vie sous l’eau : les animaux de nos rivières"
+    image: /assets/img/libro/collage.jpg
+    image_alt: Macroinvertébrés aquatiques de nos rivières (photos du livre)
+    text: |-
+      L’eau des rivières Yunkumas et Akaas est en excellent état parce que la forêt est intacte –
+      nous mesurons un pH de 7,8. Les rivières abritent de petits animaux aquatiques (larves
+      d’insectes, escargots, crabes et crevettes) que presque personne ne voit jamais. Les
+      paraécologues les récoltent, les identifient et les photographient.
+
+      Comme ils réagissent rapidement à la pollution, ils nous aident à comprendre la qualité de
+      l’eau et à détecter immédiatement le moindre changement – par exemple dans les rivières
+      voisines touchées par l’exploitation minière.
+    book_note: >-
+      Photographies : *Guía de macroinvertebrados acuáticos de las microcuencas de los ríos Aakas y
+      Yunkumas – Cordillera del Cóndor*. Le guide complet décrit bien d’autres familles, leur
+      anatomie et leur rôle d’indicateurs de la qualité de l’eau.
+    book_link: Voir la publication
+    groups:          # Fotos aus dem Buch
+      - { name: "Éphémère", latin: Euthyplociidae, image: /assets/img/libro/euthyplociidae.jpg }
+      - { name: "Demoiselle (larve)", latin: Polythoridae, image: /assets/img/libro/polythoridae.jpg }
+      - { name: "Coléoptère pséphénidé", latin: Psephenidae, image: /assets/img/libro/psephenidae.jpg }
+      - { name: "Coléoptère des rapides (larve)", latin: Elmidae, image: /assets/img/libro/elmidae.jpg }
+      - { name: "Coléoptère dryopidé", latin: Dryopidae, image: /assets/img/libro/dryopidae.jpg }
+      - { name: "Staphylin", latin: Staphylinidae, image: /assets/img/libro/staphylinidae.jpg }
+      - { name: "Moucheron des torrents (larve)", latin: Blephariceridae, image: /assets/img/libro/blephariceridae.jpg }
+      - { name: "Simulie (larve)", latin: Simuliidae, image: /assets/img/libro/simuliidae.jpg }
+      - { name: "Sangsue", latin: Glossiphoniidae, image: /assets/img/libro/glossiphoniidae.jpg }
+      - { name: "Ver aquatique", latin: Oligochaeta, image: /assets/img/libro/oligochaeta.jpg }
+
+# Book: title from the cover. Please fill in the remaining details in [square brackets].
+book:
+  eyebrow: Notre livre
+  title: Guía de macroinvertebrados acuáticos
+  subtitle: "Guide des macroinvertébrés aquatiques des micro-bassins versants des rivières Aakas et Yunkumas – Cordillera del Cóndor"
+  cover: "/assets/img/libro/portada-recortada.jpg"
+  cover_alt: Couverture du guide des macroinvertébrés aquatiques des rivières Aakas et Yunkumas
+  text: |-
+    Les paraécologues de Maikiuants ont récolté, identifié et photographié les petits animaux
+    qui vivent dans nos rivières. Le résultat, c’est ce guide illustré : des photographies
+    détaillées de chaque famille — des éphémères et demoiselles aux coléoptères, larves de
+    mouches et sangsues —, une introduction à leur anatomie, et ce qu’ils nous apprennent sur la
+    qualité de l’eau.
+
+    Nous avons réalisé ce guide nous-mêmes : une dizaine de paraécologues de Maikiuants, dont les
+    noms figurent dans le livre. Il n’en existe que quelques exemplaires imprimés ; si cela vous
+    intéresse, contactez-nous.
+  details:
+    - { label: Auteurs, value: "Paraécologues de Maikiuants" }
+    - { label: Année, value: "[Année]" }
+    - { label: Langue, value: Espagnol }
+    - { label: Pages, value: "[XXX]" }
+  button: { label: Se renseigner sur le livre, url: "" }   # empty url = contact page
+  pages_title: Un aperçu du livre
+  pages:
+    - { image: /assets/img/libro/anatomia.jpg, alt: "Page du livre : anatomie des macroinvertébrés" }
+    - { image: /assets/img/libro/paginas.jpg, alt: "Double page avec une sangsue (Glossiphoniidae)" }
+    - { image: /assets/img/libro/portada-mano.jpg, alt: Le guide en main }

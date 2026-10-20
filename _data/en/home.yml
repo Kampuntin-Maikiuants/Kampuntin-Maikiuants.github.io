@@ -27,6 +27,7 @@ about:
         knowledge is passed down from generation to generation.
     - title: Maikiuants
       image: "/assets/img/fotos/maikiuants.jpg"
+      image_position: bottom      # Bild unten ausrichten, damit das Wasserzeichen sichtbar bleibt
       image_alt: The centre of the Maikiuants community surrounded by rainforest
       text: >-
         Maikiuants is a Shuar community in the province of Morona Santiago in Ecuador's southern
@@ -87,6 +88,11 @@ location:
     title: Map of Ecuador showing the location of Maikiuants in the southern Amazon
     peru: Peru
     ocean: Pacific Ocean
+  region:
+    title: "Detailed map: the road from Limón Indanza to Maikiuants"
+    caption: >-
+      From Limón Indanza to Maikiuants: about 49 km, roughly 2.5 hours by 4×4 taxi. Protected areas
+      in green. Data: © OpenStreetMap contributors.
 
 explore:
   title: Discover Maikiuants
@@ -111,4 +117,4 @@ tour_popup:
   per: per person
   button: See the tour
   close: Close
-  image: /assets/img/fotos/cascada.jpg
+  image: /assets/img/fotos/tour-popup.jpg

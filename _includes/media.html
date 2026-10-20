@@ -1,6 +1,6 @@
 {%- comment -%} Bild oder – solange kein Bild eingetragen ist – ein Platzhalter. Parameter: src, alt, class {%- endcomment -%}
 {%- if include.src and include.src != "" -%}
-<img class="{{ include.class }}" src="{{ include.src | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
+<img class="{{ include.class }}" src="{{ include.src | relative_url }}?v={{ site.image_version }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
 {%- else -%}
 <div class="ph {{ include.class }}" role="img" aria-label="{{ include.alt | escape }}"><span>{{ include.alt }}</span></div>
 {%- endif -%}

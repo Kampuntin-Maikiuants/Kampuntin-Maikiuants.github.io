@@ -24,16 +24,16 @@ contact:
   # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
   people:
     - name: Freddy Ankuash
-      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination }
+      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination, fr: Coordination des tours et du bénévolat }
       whatsapp: "593980154335"
       phone: "+593 98 015 4335"
     - name: Minki Ankuash
-      role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador }
+      role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador, fr: Contact pour les visiteurs d’Équateur }
       whatsapp: "593969669760"
       phone: "+593 96 966 9760"
       email: "ocstkampuntin@gmail.com"
     - name: Julien Shakaim
-      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors }
+      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"
       email: "jdefourny.explore@gmail.com"
@@ -51,6 +51,19 @@ social:
   wwoof: "https://wwoofindependents.org/en/host/56512"   # WWOOF-Profil
 
 # Illustration als schwaches Muster im Hintergrund der ganzen Seite (true = an, false = aus)
+# Wer die Website pflegt (Abschnitt „Las caras detrás de esta web“, Impressum)
+webmaster:
+  name: Jesko Dorner
+  email: jesko.dorner@gmail.com
+
+# Besucherstatistik mit GoatCounter (kostenlos, ohne Cookies): Kontonamen eintragen,
+# z. B. goatcounter: "kampuntin" für https://kampuntin.goatcounter.com – leer = aus.
+goatcounter: ""
+
+# Versionsnummer für Fotos: nach dem Austausch von Bildern (gleicher Dateiname) um 1 erhöhen,
+# damit Browser nicht die alte, zwischengespeicherte Fassung zeigen.
+image_version: 3
+
 background_pattern: true
 
 # Kleines Fenster auf der Startseite, das den nächsten Tour-Termin bewirbt (true = an, false = aus).
@@ -66,6 +79,8 @@ facebook_timeline: false
 #  Ab hier: technische Einstellungen – normalerweise nicht ändern
 # =============================================================
 lang: es
+# Sprachen der Website (Reihenfolge im Sprachumschalter)
+languages: [es, en, fr]
 timezone: America/Guayaquil
 
 markdown: kramdown

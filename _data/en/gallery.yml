@@ -11,7 +11,6 @@ videos_title: Videos
 empty_note: >-
   Albums will appear here as soon as photos are uploaded to a folder in assets/galeria. For now,
   example albums are shown.
-consent: Everyone shown in these photos has given their consent.
 # Example albums while there are no photos
 placeholders:
   - { title: September 2026 tour, date: September 2026, count: 48, tour: true }

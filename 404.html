@@ -8,15 +8,18 @@ sitemap: false
 ---
 {%- assign es = site.data.es.ui.not_found -%}
 {%- assign en = site.data.en.ui.not_found -%}
+{%- assign fr = site.data.fr.ui.not_found -%}
 <section class="section notfound">
   <div class="container narrow center">
     <p class="eyebrow">404</p>
     <h1>{{ es.title }}</h1>
     <p>{{ es.text }}</p>
     <p lang="en" class="muted">{{ en.title }} · {{ en.text }}</p>
+    {%- if fr %}<p lang="fr" class="muted">{{ fr.title }} · {{ fr.text }}</p>{% endif %}
     <p class="actions center">
       <a class="btn" href="{{ '/' | relative_url }}">{{ es.button }}</a>
       <a class="btn ghost-dark" href="{{ '/en/' | relative_url }}" lang="en">{{ en.button }}</a>
+      {%- if fr %}<a class="btn ghost-dark" href="{{ '/fr/' | relative_url }}" lang="fr">{{ fr.button }}</a>{% endif %}
     </p>
   </div>
 </section>

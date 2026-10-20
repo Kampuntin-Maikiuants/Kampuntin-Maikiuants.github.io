@@ -1,0 +1,27 @@
+# Page équipe – français (les personnes elles-mêmes sont dans _data/team.yml)
+hero:
+  eyebrow: Équipe
+  title: Celles et ceux qui font vivre Maikiuants
+  lead: >-
+    Derrière Kampuntin, il y a une petite équipe : des personnes qui coordonnent les tours et le
+    bénévolat, vous guident dans la forêt et s’occupent de vous pendant votre séjour.
+  image: "/assets/img/ilustraciones/detalle-3.jpg"
+  image_alt: Illustration de plantes de la forêt amazonienne
+groups:
+  community: De la communauté
+  kampuntin: "Kampuntin : votre équipe à Maikiuants"
+
+# Section "Faces behind the website" (bottom of the people page, anchor #creditos)
+credits:
+  title: Les visages derrière ce site
+  intro: >-
+    Plusieurs personnes ont réalisé ce site ensemble. Les photos sont de Jesko Dorner et des
+    archives de Kampuntin ; les illustrations des en-têtes et le logo sont d’Anouk Segebart.
+  people:
+    - { name: Jesko Dorner, role: "Photos, textes, conception web et maintenance", email: jesko.dorner@gmail.com }
+    - { name: Anouk Segebart, role: "Illustrations, logo et textes", email: anoukbsb@gmail.com }
+    - { name: Nalo Goosmann, role: Textes }
+    - { name: Yael Bulik, role: Textes }
+  webdesign: "Conception web : Jesko Dorner, avec Claude d’Anthropic."
+  maintained: "Ce site est géré par Jesko Dorner. Pour toute question ou correction concernant les informations du site, écrivez à"
+  map: "Cartes : © les contributeurs d’OpenStreetMap et Natural Earth."

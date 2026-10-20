@@ -6,26 +6,61 @@
 #
 # Hier optional Titel, Datum und Titelbild festlegen:
 #   folder: Ordnername
-#   title:  Titel auf Spanisch und Englisch
+#   title:  Titel auf Spanisch, Englisch und Französisch
 #   date:   Datum (für die Anzeige „Octubre 2026“)
 #   cover:  Dateiname des Titelbilds (leer = erstes Foto im Ordner)
 # Ordner ohne Eintrag erscheinen trotzdem, mit dem Ordnernamen als Titel.
 
 - folder: fiesta-en-maikiuants
-  title: { es: "Fiesta en Maikiuants", en: "Celebration in Maikiuants" }
+  title: { es: "Fiesta en Maikiuants", en: "Celebration in Maikiuants", fr: "Fête à Maikiuants" }
   cover: ""
 
-- folder: 2026-10-vida-en-maikiuants
-  title: { es: "La vida en Maikiuants", en: "Life in Maikiuants" }
-  date: 2026-10-14
+- folder: 2026-10-19-selva
+  title: { es: "Caminata por la selva", en: "Walk through the rainforest", fr: "Randonnée dans la forêt" }
+  date: 2026-10-19
+  cover: "18.jpg"
+
+- folder: 2026-10-18-plantas-medicinales
+  title: { es: "Plantas medicinales en el río", en: "Medicinal plants by the river", fr: "Plantes médicinales au bord de la rivière" }
+  date: 2026-10-18
   cover: "15.jpg"
 
+- folder: 2026-10-17-ceramica
+  title: { es: "Taller de cerámica", en: "Pottery workshop", fr: "Atelier de céramique" }
+  date: 2026-10-17
+  cover: "14.jpg"
+
+- folder: 2026-10-16-cocina
+  title: { es: "De la chacra al fuego: cocina tradicional", en: "From the garden to the fire: traditional cooking", fr: "Du jardin au feu : cuisine traditionnelle" }
+  date: 2026-10-16
+  cover: "34.jpg"
+
+- folder: 2026-10-15-ciencia
+  title: { es: "Ciencia: estación meteorológica y nuestro libro", en: "Science: weather station and our book", fr: "Science : station météo et notre livre" }
+  date: 2026-10-15
+  cover: "03.jpg"
+
+- folder: 2026-10-12-minga
+  title: { es: "Minga y comida con la comunidad", en: "Minga and a meal with the community", fr: "Minga et repas avec la communauté" }
+  date: 2026-10-12
+  cover: "02.jpg"
+
+- folder: 2026-10-09-jea
+  title: { es: "La vida en la jea", en: "Life at the jea", fr: "La vie dans la jea" }
+  date: 2026-10-09
+  cover: "17.jpg"
+
+- folder: 2026-10-07-llegada
+  title: { es: "Llegada al pueblo de Maikiuants", en: "Arriving in the village of Maikiuants", fr: "Arrivée au village de Maikiuants" }
+  date: 2026-10-07
+  cover: "22.jpg"
+
 - folder: 2024-07-voluntariado
-  title: { es: "Voluntariado", en: "Volunteering" }
+  title: { es: "Voluntariado", en: "Volunteering", fr: "Bénévolat" }
   date: 2024-07-29
   cover: ""
 
 - folder: 2024-06-investigacion
-  title: { es: "Investigación en el bosque y los ríos", en: "Research in the forest and rivers" }
+  title: { es: "Investigación en el bosque y los ríos", en: "Research in the forest and rivers", fr: "Recherche dans la forêt et les rivières" }
   date: 2024-06-18
   cover: ""

@@ -4,6 +4,7 @@ locale: es_EC
 skip: Saltar al contenido
 menu: Menú
 switch_label: Read this page in English
+lang_label: Idioma
 
 nav:
   home: Inicio
@@ -23,6 +24,7 @@ tour_status:
   open: Plazas libres
   few: Últimas plazas
   full: Completo
+shuar_name: "Nombre shuar:"
 tour_places: Quedan %n plazas
 tour_places_one: Queda 1 plaza
 
@@ -61,6 +63,7 @@ footer:
   contact: Contacto
   coordinator: coordinación de tours y voluntariado
   follow: Síguenos
+  credits: Créditos
 
 iucn:
   CR: En peligro crítico

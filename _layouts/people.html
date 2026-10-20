@@ -2,6 +2,7 @@
 layout: default
 ---
 {%- assign t = site.data[page.lang].people -%}
+{%- assign ui = site.data[page.lang].ui -%}
 {% include page-hero.html hero=t.hero %}
 
 {%- assign groups = "kampuntin community" | split: " " %}
@@ -13,7 +14,7 @@ layout: default
     <h2 class="section-title">{{ t.groups[g] }}</h2>
     <div class="grid grid--people">
       {%- for person in members %}
-        {%- assign p_alt = person.name | append: " – " | append: person.role[page.lang] %}
+        {%- assign p_alt = person.name | append: " – " | append: person.role[page.lang] | default: person.role.en %}
       <article class="person">
         {%- if person.photo and person.photo != "" %}
         {% include media.html src=person.photo alt=p_alt class="person__img" %}
@@ -21,8 +22,9 @@ layout: default
         <span class="person__img person__initial" aria-hidden="true">{{ person.name | slice: 0 }}</span>
         {%- endif %}
         <h3>{{ person.name }}</h3>
-        <p class="person__role">{{ person.role[page.lang] }}</p>
-        <p>{{ person.bio[page.lang] }}</p>
+        {%- if person.shuar_name %}<p class="person__shuar"><span>{{ ui.shuar_name }}</span> {{ person.shuar_name }}</p>{% endif %}
+        <p class="person__role">{{ person.role[page.lang] | default: person.role.en }}</p>
+        <p>{{ person.bio[page.lang] | default: person.bio.en }}</p>
       </article>
       {%- endfor %}
     </div>
@@ -31,3 +33,27 @@ layout: default
 {%- endif %}
 {%- endfor %}
 
+
+{%- assign c = t.credits %}
+{%- if c %}
+<section class="section section--alt credits" id="creditos">
+  <div class="container">
+    <h2 class="section-title">{{ c.title }}</h2>
+    <p class="section-intro">{{ c.intro }}</p>
+    <div class="credits__grid">
+      {%- for cp in c.people %}
+      <article class="credit-card">
+        <span class="credit-card__initial" aria-hidden="true">{{ cp.name | slice: 0 }}</span>
+        <div>
+          <h3>{{ cp.name }}</h3>
+          <p>{{ cp.role }}</p>
+          {%- if cp.email %}<p><a href="mailto:{{ cp.email }}">{{ cp.email }}</a></p>{% endif %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="credits__note">{{ c.webdesign }} {{ c.map }}</p>
+    <p class="credits__note credits__note--strong">{{ c.maintained }} <a href="mailto:{{ site.webmaster.email }}">{{ site.webmaster.email }}</a>.</p>
+  </div>
+</section>
+{%- endif %}

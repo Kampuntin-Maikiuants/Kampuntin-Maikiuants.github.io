@@ -22,13 +22,15 @@
 {%- assign tours = site.data[page.lang].tours -%}
 {%- assign ui = site.data[page.lang].ui -%}
 {%- assign tours_page = site.pages | where: "ref", "tours" | where: "lang", page.lang | first -%}
-{%- assign next_label = next.label[page.lang] | strip -%}
+{%- assign next_label = next.label[page.lang] | default: next.label.en | strip -%}
+{%- assign next_note = next.note[page.lang] | default: next.note.en | strip -%}
 <aside class="tour-popup" id="tour-popup" aria-label="{{ p.eyebrow }}" hidden>
   <button class="tour-popup__close" type="button" aria-label="{{ p.close }}">×</button>
-  <img class="tour-popup__img" src="{{ p.image | relative_url }}" alt="" loading="lazy" decoding="async">
+  <img class="tour-popup__img" src="{{ p.image | relative_url }}?v={{ site.image_version }}" alt="" loading="lazy" decoding="async">
   <div class="tour-popup__body">
     <p class="tour-popup__eyebrow">{{ p.eyebrow }}</p>
     <p class="tour-popup__title">{% if next_label != "" %}{{ next_label }}{% else %}{% include date-range.html start=next.start end=next.end %}{% endif %}</p>
+    {%- if next_note != "" %}<p class="tour-popup__note">{{ next_note }}</p>{% endif %}
     <p class="tour-popup__text">{{ p.text }}</p>
     <p class="tour-popup__meta">{% include tour-badge.html date=next %} <span>{{ tours.price.amount }} {{ p.per }}</span></p>
     <a class="btn tour-popup__btn" href="{{ tours_page.url | relative_url }}#fechas">{{ p.button }}</a>

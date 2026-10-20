@@ -8,6 +8,9 @@ sections:
       Office: Maikiuants community
       Limón Indanza, Morona Santiago, Ecuador
       Email: ocstkampuntin@gmail.com
+  - title: Website maintenance
+    text: >-
+      This website is maintained by Jesko Dorner. For questions or corrections about its content: jesko.dorner@gmail.com. For tours, volunteering and everything else, please write to Kampuntin (see above).
   - title: Hosting
     text: >-
       This website is hosted on GitHub Pages (GitHub Inc., USA). When you visit it, GitHub
@@ -15,7 +18,7 @@ sections:
       secure. See GitHub's privacy statement for details.
   - title: Cookies and external services
     text: >-
-      This website does not use cookies or analytics tools. Content from YouTube, Instagram and
+      This website does not use cookies. Content from YouTube, Instagram and
       Facebook only loads when you click on it; from that moment on, data is sent to those
       platforms.
   - title: Contact
@@ -26,3 +29,8 @@ sections:
     text: >-
       You can request information about your data, its correction or deletion at any time by
       writing to ocstkampuntin@gmail.com.
+# Erscheint nur, wenn in _config.yml "goatcounter" eingetragen ist
+analytics:
+  title: Visitor statistics
+  text: >-
+    We use GoatCounter to see how many people visit the website. It uses no cookies and stores no personal data – it only counts visits anonymously (page, approximate country, browser type).

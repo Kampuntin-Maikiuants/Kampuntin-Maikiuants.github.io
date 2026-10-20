@@ -1,0 +1,180 @@
+# Page des tours – français
+# Le texte entre [crochets] est un marqueur : à remplacer par les vraies informations.
+
+hero:
+  eyebrow: Tours · 10 jours · 12 personnes max.
+  title: Passez vos journées dans la forêt, au sein de notre communauté
+  lead: >-
+    Vous partagez le quotidien de la communauté de Maikiuants, marchez en forêt avec des guides
+    shuar, travaillez dans les potagers, cuisinez, faites de la musique, écoutez des histoires et
+    découvrez un autre rythme de vie.
+  image: "/assets/img/fotos/hero-tours.jpg"
+  image_alt: Des visiteurs marchent dans la forêt avec un guide
+
+facts:
+  - { value: "10", label: jours dans la forêt }
+  - { value: "12", label: personnes au maximum }
+  - { value: Jea, label: hébergement traditionnel }
+  - { value: Ensemble, label: repas partagés }
+  - { value: Shuar, label: guides de la communauté }
+
+intro:
+  title: Ce qui vous attend
+  image: "/assets/img/fotos/cultura.jpg"
+  image_alt: Des membres de la communauté partagent une boisson et de l’artisanat avec des visiteurs
+  text: |-
+    La communauté vous accueille pour un **échange culturel**. Avec des membres de la
+    communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez
+    ensemble, et découvrez la forêt. Nous avons la meilleure douche du monde : la rivière.
+
+    Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients.
+    Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes
+    fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans
+    les potagers, artisanat, cuisine et temps libre.
+
+quote:
+  text: Dans notre village, il ne s’agit pas de tourisme, mais d’échange culturel.
+  source: La communauté de Maikiuants
+
+life:
+  title: La vie dans la jea
+  text: Voici comment vous vivrez pendant votre séjour à Maikiuants.
+
+activities:
+  title: Des activités selon vos envies et votre temps
+  intro: "Chaque tour est adapté au groupe. Voici quelques-unes des choses que nous pouvons faire ensemble :"
+  image: "/assets/img/fotos/cascada.jpg"
+  image_alt: Cascade au milieu de la forêt près de Maikiuants
+  items:
+    - Balades vers des lieux sacrés et des cascades
+    - Cueillette de fruits locaux
+    - Bain de vapeur aux plantes médicinales
+    - Cuisine traditionnelle shuar
+    - Danse et musique
+    - Pêche
+    - Cérémonie de purification
+    - Fabrication d’objets artisanaux
+
+itinerary:
+  title: À quoi votre tour pourrait ressembler
+  note: Ce programme est indicatif. La météo, la rivière et la vie de la communauté donnent le rythme.
+  days:
+    - title: Arrivée
+      text: Notre guide international vous accueille à Quito. Ensemble, nous voyageons en minibus jusqu’à Cuenca, puis en taxi jusqu’à Maikiuants, où la communauté nous souhaite la bienvenue.
+    - title: Découverte du village
+      text: Nous parcourons Maikiuants et rencontrons la communauté et les familles. L’après-midi, baignade dans la rivière.
+    - title: La forêt qui soigne
+      text: Une longue marche dans la forêt avec un guide shuar pour découvrir les plantes médicinales traditionnelles.
+    - title: Minga
+      text: Nous participons à une minga, la journée de travail collectif qui permet d’entretenir le village. Ensuite, nous mangeons tous ensemble avec la communauté.
+    - title: L’argile de notre terre
+      text: Poterie avec l’argile des environs et découverte de l’artisanat traditionnel.
+    - title: Du jardin à la cuisine
+      text: Nous récoltons ensemble des fruits et des légumes dans nos plantations et cuisinons des spécialités traditionnelles.
+    - title: Les cascades
+      text: Une sortie en bateau jusqu’aux grandes cascades les plus proches.
+    - title: Lances et football
+      text: Nous apprenons à tailler des lances traditionnelles. L’après-midi, football avec les enfants du village.
+    - title: Musique et danse
+      text: Nous faisons de la musique ensemble, regardons et apprenons des danses traditionnelles, et fêtons les adieux.
+    - title: Départ
+      text: Dernier petit-déjeuner ensemble, derniers au revoir et retour vers Quito avec le guide international.
+
+included:
+  title: Inclus
+  items:
+    - Transfert depuis Quito avec notre guide international (minibus jusqu’à Cuenca, puis taxi jusqu’à Maikiuants)
+    - Hébergement dans la jea (lits superposés ou un emplacement pour votre propre hamac)
+    - Tous les repas pendant dix jours – nous achetons la nourriture et des cuisinières de la communauté la préparent
+    - Guides de la communauté et interprètes
+    - Sécurité et accompagnement pendant tout le tour
+    - Toutes les activités du programme
+    - Cuisine et électricité à l’énergie solaire
+    - Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)
+    - Une rivière pour se baigner
+
+not_included:
+  title: Non inclus
+  items:
+    - Vols jusqu’à Quito
+    - Assurance voyage avec couverture médicale (obligatoire)
+    - Dépenses personnelles et artisanat – il n’y a pas de grand supermarché à proximité
+
+packing:
+  title: Ce qu’il faut emporter
+  items:
+    - Bottes en caoutchouc (également en vente au centre communautaire)
+    - Vêtements légers à manches longues
+    - Veste de pluie
+    - Serviette à séchage rapide
+    - Moustiquaire
+    - Draps
+    - Savon biodégradable
+    - Répulsif anti-moustiques
+    - Gourde
+
+price:
+  title: Prix
+  amount: "2 000 USD"
+  per: par personne, 10 jours
+  text: >-
+    Tout compris pendant dix jours : transfert depuis Quito, hébergement, repas, guides,
+    interprètes, sécurité et activités. Nous organisons les tours avec l’organisation belge
+    Raíces. Nous rémunérons des guides et des cuisinières de la communauté, achetons la
+    nourriture sur place, et 5 % des revenus vont directement à Maikiuants. Le paiement et tous
+    les autres détails sont convenus personnellement avec vous.
+
+dates:
+  title: Prochaines dates
+  intro: Groupes de 12 personnes maximum. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
+  focus_title: "Thème 2027 : la spiritualité"
+  focus: >-
+    En 2027, nos tours sont axés sur la spiritualité : se retrouver soi-même, apprécier chaque
+    instant de la vie, guérir, trouver l’harmonie et se relier à la nature – pour bien vivre.
+  empty: Les prochaines dates seront publiées bientôt.
+  button: Nous contacter pour réserver
+
+booking:
+  title: Comment réserver
+  steps:
+    - title: Écrivez-nous
+      text: Dites-nous qui vous êtes, combien de personnes viendront et quelles dates vous intéressent.
+    - title: Réservation
+      text: Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les autres détails.
+    - title: Préparez-vous
+      text: Nous vous envoyons notre guide de voyage avec la liste des affaires à emporter et des informations de santé.
+
+past:
+  title: Photos de Maikiuants
+  intro: Quelques moments des tours, du bénévolat et de la vie de la communauté.
+  link: Voir toute la galerie
+
+faq:
+  title: Questions fréquentes
+  items:
+    - q: Faut-il être en très bonne condition physique ?
+      a: >-
+        Une condition physique normale suffit. Nous marchons sur des sentiers boueux, avec des
+        montées et des traversées de rivière. Si vous avez des limitations, dites-le-nous et nous
+        trouverons des alternatives.
+    - q: Y a-t-il de l’électricité, du réseau téléphonique et Internet ?
+      a: >-
+        La cuisine fonctionne à l’énergie solaire et vous pouvez y recharger votre téléphone. Il n’y
+        a ni Wi-Fi ni réseau téléphonique dans la jea, mais il y a du Wi-Fi gratuit au village, à
+        environ 35 minutes à pied.
+    - q: Quelles langues parle-t-on ?
+      a: >-
+        À Maikiuants, on parle le Shuar Chicham et l’espagnol – presque aucune autre langue.
+        Pendant le tour, notre guide international et des interprètes vous accompagnent, et nous
+        trouvons toujours un moyen de nous comprendre.
+    - q: Avez-vous de l’expérience dans l’accueil de visiteurs ?
+      a: >-
+        Oui. Au début, nous avons appris sur le tas, mais aujourd’hui nous avons une belle
+        expérience de l’accueil et de l’accompagnement de nos visiteurs, et du partage des savoirs
+        de notre territoire.
+    - q: Est-ce sûr ?
+      a: >-
+        Oui. Dès votre arrivée à Quito, notre guide international vous accompagne, et en forêt vous
+        êtes toujours avec des membres de la communauté qui la connaissent bien. La sécurité est
+        incluse dans le prix.
+        [Décrire la trousse de premiers secours, la communication d’urgence et le plan d’évacuation.]

@@ -1,0 +1,78 @@
+# Textes généraux de l’interface (menu, boutons, pied de page) – français
+lang_name: Français
+locale: fr_FR
+skip: Aller au contenu
+menu: Menu
+switch_label: Changer de langue
+lang_label: Langue
+
+nav:
+  home: Accueil
+  science: Science
+  tours: Tours
+  volunteering: Bénévolat
+  updates: Actualités
+  gallery: Galerie
+  people: Équipe
+  contact: Contact
+  legal: Mentions légales et confidentialité
+
+months: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+
+tour_status:
+  request: Places sur demande
+  open: Places disponibles
+  few: Dernières places
+  full: Complet
+shuar_name: "Nom shuar :"
+tour_places: "Plus que %n places"
+tour_places_one: "Plus qu’une place"
+
+read_story: Lire le témoignage complet
+read_less: Afficher moins
+
+read_more: Lire la suite
+view_on: Voir sur
+camera_photos: Photos des pièges photographiques
+camera_soon: Les photos des pièges photographiques seront bientôt publiées.
+photos: photos
+photo: Photo
+video: Vidéo
+close: Fermer
+previous: Précédent
+next: Suivant
+
+embed:
+  load: Charger le contenu
+  notice: "Le chargement de ce contenu transmet des données à %platform%."
+  instagram: Voir la publication Instagram
+  facebook: Voir la publication Facebook
+  facebook_timeline: Afficher notre page Facebook
+  youtube: Lire la vidéo
+
+follow_us: Suivez-nous
+
+cta:
+  title: Vous aimeriez découvrir Maikiuants ?
+  text: Envoyez-nous vos questions. Nous répondons personnellement à chaque message.
+  button: Écrivez-nous
+
+footer:
+  tagline: Tours, bénévolat et science communautaire avec la communauté shuar de Maikiuants, en Amazonie équatorienne.
+  explore: Explorer
+  contact: Contact
+  coordinator: coordination des tours et du bénévolat
+  follow: Suivez-nous
+  credits: Crédits
+
+iucn:
+  CR: En danger critique
+  EN: En danger
+  VU: Vulnérable
+  NT: Quasi menacé
+  LC: Préoccupation mineure
+
+not_found:
+  title: Page introuvable
+  text: On dirait que ce sentier ne mène nulle part.
+  button: Retour à l’accueil

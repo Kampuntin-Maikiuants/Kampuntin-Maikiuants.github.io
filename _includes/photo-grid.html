@@ -8,8 +8,8 @@
     {%- assign pg_alt = ph.alt[pg_lang] | default: ph.alt -%}
   <figure class="photo-grid__item">
     {%- if ph.image and ph.image != "" %}
-    <a href="{{ ph.image | relative_url }}" data-lightbox{% if include.group %} data-album="{{ include.group }}"{% endif %} data-caption="{{ pg_alt | escape }}">
-      <img src="{{ ph.image | relative_url }}" alt="{{ pg_alt | escape }}" loading="lazy" decoding="async">
+    <a href="{{ ph.image | relative_url }}?v={{ site.image_version }}" data-lightbox{% if include.group %} data-album="{{ include.group }}"{% endif %} data-caption="{{ pg_alt | escape }}">
+      <img src="{{ ph.image | relative_url }}?v={{ site.image_version }}" alt="{{ pg_alt | escape }}" loading="lazy" decoding="async">
     </a>
     {%- else %}
     {% include media.html alt=pg_alt %}

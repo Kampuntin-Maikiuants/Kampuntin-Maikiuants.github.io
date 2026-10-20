@@ -1,6 +1,6 @@
 # To-do bis zur fertigen Website
 
-Stand: 17. Oktober 2026 (nach dem Interview mit Freddy) · Zum Abhaken: `[ ]` → `[x]`
+Stand: 20. Oktober 2026 · Zum Abhaken: `[ ]` → `[x]`
 
 Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich sie ein.
 
@@ -53,8 +53,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
       Kampuntin eine Registriernummer (RUC) fürs Impressum?
 - [ ] **Directiva:** Wer ist Gerente, Secretario und Contador?
 - [ ] **Marcos und Eddy Ankuash:** Rollen, 1–2 Sätze, quadratisches Foto – mit Einverständnis
-- [ ] **Jessica und Numi:** Nachnamen, Rollen (bei Numi: passt „Guía · naturaleza“?), 1–2 Sätze,
-      Foto – mit Einverständnis
+- [ ] **Jessica:** Nachname, Rolle, 1–2 Sätze, Foto – mit Einverständnis
+- [ ] **Numi:** Schreibweise prüfen – „Numi“ oder „Nemi“? (beides kam vor). Passt „Guía · naturaleza“?
 - [ ] **Fotos mit Personen** in Galerie und Alben: Freddy schlug vor, Namen über die Fotos zu
       sammeln – nur falls ihr Namen in Bildunterschriften wollt
 - [ ] **Postadresse** fürs Impressum, falls es eine gibt (sonst bleibt „Büro in Maikiuants“)
@@ -80,14 +80,15 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] Soll es einen **Spendenweg** geben (Konto, Plattform, über Raíces)? Im Moment steht dort nur „escríbenos“
 
 ### Texte & Freigaben
-- [ ] **Logo „Agua del guanto“** (jetzt auf der Website): von Freddy und der Gemeinschaft freigeben lassen –
-      passt der Guanto als Symbol? Für Druck/Stempel am Ende die Schrift in Pfade umwandeln lassen
+- [ ] **Logo** (Guanto-Blüte von Anouk Segebart, jetzt auf der Website): von Freddy und der Gemeinschaft freigeben lassen
 - [ ] **Freddys Zitat** (Wissenschaftsseite) ist sprachlich leicht geglättet – kurz von ihm freigeben lassen
 - [ ] **Shuar-Leitsatz** „Iikia kampuntniuitji tura achitkiaji ii nekatairijiai“ prüfen (von der Infotafel)
 - [ ] **Guanto** = Floripondio/Engelstrompete (*Brugmansia*) – stimmt die Übersetzung?
 - [ ] **Kontakte vom Flyer** (Freddy, Minki, Julien): dürfen Nummer und E-Mail öffentlich sichtbar sein?
 - [ ] Alle Texte über Kultur, Wissen und Territorium der Shuar **von der Gemeinschaft freigeben lassen**
 - [ ] **Englische Übersetzung** am Ende gegenlesen lassen
+- [ ] **Französische Übersetzung** (neu, `_data/fr/`) von einer Muttersprachlerin gegenlesen lassen
+- [ ] **Credits:** Schreibweise „Nalo Goosmann“ prüfen (im Auftrag stand „Gooosmann“)
 
 ### Facebook & Instagram
 - [ ] Sind beide Facebook-Konten **Seiten** (keine Privatprofile)?
@@ -97,8 +98,11 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 ### Sonstiges
 - [ ] **Domain:** Bleibt es bei `kampuntin-maikiuants.github.io` oder eigene Adresse (ca. 10–15 €/Jahr)?
-- [ ] **Fotos:** Einverständnis aller abgebildeten Personen (auch Kinder!), besseres Titelbild für Touren
-- [ ] **Galerie:** Alben prüfen und Titel/Daten in `_data/albums.yml` anpassen
+- [ ] **Fotos:** Einverständnis aller abgebildeten Personen (auch Kinder!)
+- [ ] **Galerie:** neue Alben aus „Fotos Website mit Nametag“ – Titel prüfen (v. a. „Minga y comida
+      con la comunidad“ vom 12.10. – war das die Minga oder die Fotopräsentation der Freiwilligen?)
+      und ggf. in `_data/albums.yml` ändern
+- [ ] **Besucherstatistik:** GoatCounter-Konto anlegen und in `_config.yml` eintragen (README, Abschnitt 4)
 - [ ] **Datenschutz-/Impressumstext** kurz rechtlich prüfen lassen
 - [ ] Ordner `_archiv` (alte Version) löschen
 - [ ] Letzter Durchgang am Handy, dann Website teilen (WWOOF-Profil, Facebook, Instagram-Bio)
@@ -125,7 +129,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 16. ¿Quieren recibir donaciones? ¿Por qué medio?
 17. ¿Está bien tu definición de paraecólogo tal como la escribimos en la página?
 18. ¿Quién de Kampuntin puede actualizar las plazas libres de los tours en la página? (Necesita una cuenta de GitHub; le enviamos una guía corta.)
-19. ¿Les gusta el logo nuevo (una gota de agua con la flor de guanto)? ¿Está bien usar el guanto como símbolo de Kampuntin?
+19. ¿Les gusta el logo nuevo (la flor de guanto en un círculo amarillo, dibujado por Anouk Segebart)? ¿Está bien usar el guanto como símbolo de Kampuntin?
 
 ---
 
@@ -136,4 +140,4 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 | `tours.yml` | Sicherheit (Erste Hilfe, Notfall) |
 | `volunteering.yml` | Erfahrungsberichte ([Nombre], [país], [año]) |
 | `science.yml` | Buch: [Año], [XXX] Seiten |
-| `team.yml` | Rolle und Text bei Marcos, Eddy, Jessica; [Apellido] bei Jessica und Numi |
+| `team.yml` | Rolle und Text bei Marcos, Eddy, Jessica; [Apellido] bei Jessica |

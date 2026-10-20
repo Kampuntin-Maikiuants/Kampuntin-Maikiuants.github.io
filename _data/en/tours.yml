@@ -9,7 +9,7 @@ hero:
     work in the gardens, cook, make music, listen to stories and discover a different rhythm of
     life.
   image: "/assets/img/fotos/hero-tours.jpg"
-  image_alt: Clear river flowing between rocks in the middle of the rainforest
+  image_alt: Visitors walking through the rainforest with a guide
 
 facts:
   - { value: "10", label: days in the rainforest }
@@ -60,22 +60,22 @@ itinerary:
   days:
     - title: Arrival
       text: Our international guide welcomes you in Quito. Together we travel by minibus to Cuenca and by taxi to Maikiuants, where the community welcomes us.
-    - title: Getting to know the community
-      text: A walk through Maikiuants, the school and the family gardens (aja). In the afternoon, your first river bath.
+    - title: Getting to know the village
+      text: We walk through Maikiuants and meet the community and the families. In the afternoon, a bath in the river.
     - title: The healing forest
-      text: Forest walk with a Shuar guide. Medicinal plants, useful trees and how to read animal tracks.
-    - title: Hands in the soil
-      text: Morning in the plant nursery and agroforestry plots. Free afternoon to rest or play with the children.
-    - title: Clay and fibres
-      text: Pottery and weaving with the community's Nunkui handicraft association.
-    - title: Excursion
-      text: Full-day trip to a waterfall in the middle of the forest, with a leaf-wrapped lunch.
-    - title: Science in the forest
-      text: With the para-ecologists, we check camera traps and learn how animals and rivers are monitored.
-    - title: Shuar cooking
-      text: We prepare traditional dishes such as ayampaco and cassava chicha. Music with handmade flutes in the evening.
+      text: A long walk through the rainforest with a Shuar guide to learn about traditional medicinal plants.
     - title: Minga
-      text: Communal work together with the families, followed by a farewell celebration with music and songs.
+      text: We take part in a minga, the community work day that keeps the village in good shape. Afterwards we all eat together with the community.
+    - title: Clay from our land
+      text: Pottery with clay from the surroundings and a look at traditional handicrafts.
+    - title: From the garden to the kitchen
+      text: We harvest fruit and vegetables from our plantations together and cook traditional specialities.
+    - title: The waterfalls
+      text: A boat trip to the nearest big waterfalls.
+    - title: Spears and football
+      text: We learn how to carve traditional spears. In the afternoon, football with the village children.
+    - title: Music and dance
+      text: We make music together, watch and learn traditional dances and celebrate our farewell.
     - title: Departure
       text: Last breakfast together, goodbyes and the journey back to Quito with the international guide.
 
@@ -89,7 +89,7 @@ included:
     - Safety and support throughout the tour
     - All programme activities
     - Solar-powered kitchen and electricity
-    - Free internet at the community centre (about a 20–25-minute walk from the accommodation)
+    - Free wifi in the village (about a 35-minute walk from the accommodation)
     - A river to bathe in
 
 not_included:
@@ -156,9 +156,8 @@ faq:
         have any limitations, let us know and we will find alternatives.
     - q: Is there electricity, phone signal and internet?
       a: >-
-        A solar panel powers the kitchen, and you can charge your phone there too. There's no
-        phone signal, but internet is available at the community centre, about a 20–25-minute walk
-        away.
+        The kitchen runs on solar power and you can charge your phone there. There's no wifi and no
+        phone signal at the jea, but there is free wifi in the village, about a 35-minute walk away.
     - q: Which languages are spoken?
       a: >-
         In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the

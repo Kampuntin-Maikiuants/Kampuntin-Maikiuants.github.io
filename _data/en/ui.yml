@@ -4,6 +4,7 @@ locale: en_US
 skip: Skip to content
 menu: Menu
 switch_label: Leer esta página en español
+lang_label: Language
 
 nav:
   home: Home
@@ -23,6 +24,7 @@ tour_status:
   open: Places available
   few: Last places
   full: Fully booked
+shuar_name: "Shuar name:"
 tour_places: "%n places left"
 tour_places_one: 1 place left
 
@@ -61,6 +63,7 @@ footer:
   contact: Contact
   coordinator: tour and volunteer coordinator
   follow: Follow us
+  credits: Credits
 
 iucn:
   CR: Critically endangered

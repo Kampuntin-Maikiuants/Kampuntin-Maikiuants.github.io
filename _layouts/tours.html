@@ -121,7 +121,10 @@ layout: default
           {%- if d_start < today -%}{%- continue -%}{%- endif -%}
           {%- assign shown = shown | plus: 1 %}
         <li>
-          <span class="dates__range">{%- assign dl = d.label[page.lang] | strip -%}{% if dl != "" %}{{ dl }}{% else %}{% include date-range.html start=d.start end=d.end %}{% endif %}</span>
+          <span class="dates__when">
+            <span class="dates__range">{%- assign dl = d.label[page.lang] | default: d.label.en | strip -%}{% if dl != "" %}{{ dl }}{% else %}{% include date-range.html start=d.start end=d.end %}{% endif %}</span>
+            {%- assign dn = d.note[page.lang] | default: d.note.en | strip -%}{% if dn != "" %}<span class="dates__note">{{ dn }}</span>{% endif %}
+          </span>
           {% include tour-badge.html date=d %}
         </li>
         {%- endfor %}

@@ -1,63 +1,73 @@
 # Personen auf der Seite „Equipo / People“
 # group: kampuntin (Organisationsteam). Optional auch "community" – dann erscheint
 #        automatisch ein zweiter Abschnitt „De la comunidad“.
+# shuar_name: optional, Shuar-Name (erscheint unter dem Namen). Wer nur einen Shuar-Namen hat,
+#             trägt ihn einfach unter "name" ein.
 # photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
 # WICHTIG: Nur mit Einverständnis der Person veröffentlichen.
 
 - name: "Freddy Ankuash"
+  shuar_name: "Nenkas Chicham"
   group: kampuntin
   photo: ""
-  role: { es: Dirección y coordinación de Kampuntin, en: Head and coordinator of Kampuntin }
+  role: { es: Dirección y coordinación de Kampuntin, en: Head and coordinator of Kampuntin, fr: Direction et coordination de Kampuntin }
   bio:
     es: Dirige Kampuntin, coordina los tours y el voluntariado y es tu primer contacto antes y durante tu estancia. Paraecólogo. WhatsApp +593 98 015 4335.
     en: Leads Kampuntin, coordinates tours and volunteering and is your first contact before and during your stay. Para-ecologist. WhatsApp +593 98 015 4335.
+    fr: Dirige Kampuntin, coordonne les tours et le bénévolat et reste votre premier contact avant et pendant votre séjour. Paraécologue. WhatsApp +593 98 015 4335.
 
 - name: "Minki Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador }
+  role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador, fr: Contact pour les visiteurs d’Équateur }
   bio:
     es: Tu contacto si viajas desde Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
     en: Your contact if you are travelling from within Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
+    fr: Votre contact si vous voyagez depuis l’Équateur. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
 
 - name: "Julien Shakaim"
   group: kampuntin
   photo: ""
-  role: { es: Contacto para visitantes internacionales, en: Contact for international visitors }
+  role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
   bio:
     es: Tu contacto si vienes desde el extranjero. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
     en: Your contact if you are coming from abroad. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
+    fr: Votre contact si vous venez de l’étranger. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
 
 # Laut Interview ebenfalls im Kampuntin-Team (Directiva: gerente, secretario, contador).
 # PLATZHALTER in [eckigen Klammern] – Nachname, Rolle und Text bitte ergänzen.
 - name: "Marcos Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en la directiva de Kampuntin]", en: "[Role on the Kampuntin board]" }
+  role: { es: "[Rol en la directiva de Kampuntin]", en: "[Role on the Kampuntin board]", fr: "[Rôle au bureau de Kampuntin]" }
   bio:
     es: "[1–2 frases sobre Marcos.]"
     en: "[1–2 sentences about Marcos.]"
+    fr: "[1 ou 2 phrases sur Marcos.]"
 
 - name: "Eddy Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]" }
+  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]", fr: "[Rôle chez Kampuntin]" }
   bio:
     es: "[1–2 frases sobre Eddy.]"
     en: "[1–2 sentences about Eddy.]"
+    fr: "[1 ou 2 phrases sur Eddy.]"
 
 - name: "Jessica [Apellido]"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]" }
+  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]", fr: "[Rôle chez Kampuntin]" }
   bio:
     es: "[1–2 frases sobre Jessica.]"
     en: "[1–2 sentences about Jessica.]"
+    fr: "[1 ou 2 phrases sur Jessica.]"
 
-- name: "Numi [Apellido]"
+- name: "Numi"
   group: kampuntin
-  photo: ""
-  role: { es: "Guía · naturaleza", en: "Guide · nature" }
+  photo: "/assets/img/equipo/numi.jpg"
+  role: { es: "Guía · naturaleza", en: "Guide · nature", fr: "Guide · nature" }
   bio:
     es: Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio.
     en: Leads the rainforest walks and shares their knowledge of the plants and animals of the territory.
+    fr: Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire.

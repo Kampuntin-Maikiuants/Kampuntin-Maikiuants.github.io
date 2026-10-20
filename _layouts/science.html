@@ -42,8 +42,8 @@ layout: default
       </video>
       <div>
         <p class="eyebrow eyebrow--dark">Video · 3:23 min</p>
-        <h3 class="subsection-title">{{ sv.title[page.lang] }}</h3>
-        <p>{{ sv.text[page.lang] }}</p>
+        <h3 class="subsection-title">{{ sv.title[page.lang] | default: sv.title.en }}</h3>
+        <p>{{ sv.text[page.lang] | default: sv.text.en }}</p>
       </div>
     </div>
     {%- endif %}
@@ -60,7 +60,7 @@ layout: default
     <p class="section-intro">{{ a.threatened.intro }}</p>
     <div class="grid grid--species">
       {%- for s in site.data.species %}
-        {%- assign s_name = s.name[page.lang] %}
+        {%- assign s_name = s.name[page.lang] | default: s.name.en %}
       <article class="species">
         {% include media.html src=s.image alt=s_name class="species__img" %}
         <div class="species__body">

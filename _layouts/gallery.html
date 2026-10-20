@@ -12,7 +12,6 @@ layout: default
     {%- if real_files.size == 0 %}
     <p class="note">{{ t.empty_note }}</p>
     {%- else %}
-    <p class="note">{{ t.consent }}</p>
     {%- endif %}
   </div>
 </section>
@@ -23,7 +22,7 @@ layout: default
     <h2 class="section-title">{{ t.videos_title }}</h2>
     <div class="videos">
       {%- for v in site.data.videos %}
-        {%- assign v_title = v.title[page.lang] %}
+        {%- assign v_title = v.title[page.lang] | default: v.title.en %}
       <figure class="video-item">
         {%- if v.file and v.file != "" %}
         <video controls preload="none" playsinline{% if v.poster %} poster="{{ v.poster | relative_url }}"{% endif %} aria-label="{{ v_title | escape }}">
@@ -34,7 +33,7 @@ layout: default
         {%- endif %}
         <figcaption>
           <strong>{{ v_title }}</strong>
-          {%- if v.text %}<span>{{ v.text[page.lang] }}</span>{% endif %}
+          {%- if v.text %}<span>{{ v.text[page.lang] | default: v.text.en }}</span>{% endif %}
         </figcaption>
       </figure>
       {%- endfor %}

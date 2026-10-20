@@ -9,7 +9,7 @@ hero:
     shuar, trabajas en la huerta, cocinas, haces música, escuchas historias y descubres otro
     ritmo de vida.
   image: "/assets/img/fotos/hero-tours.jpg"
-  image_alt: Río de aguas claras entre rocas en medio de la selva
+  image_alt: Visitantes caminando con un guía por la selva
 
 facts:
   - { value: "10", label: días en la selva }
@@ -61,22 +61,22 @@ itinerary:
   days:
     - title: Llegada
       text: Te recibe en Quito nuestro guía internacional. Juntos viajamos en buseta hasta Cuenca y en taxi hasta Maikiuants, donde nos da la bienvenida la comunidad.
-    - title: Conocer la comunidad
-      text: Recorrido por Maikiuants, la escuela y las huertas familiares (aja). Por la tarde, primer baño en el río.
-    - title: El bosque que cura
-      text: Caminata con un guía shuar. Plantas medicinales, árboles útiles y cómo leer los rastros de los animales.
-    - title: Manos a la tierra
-      text: Mañana en el vivero y en las parcelas agroforestales. Tarde libre para descansar o jugar con los niños.
-    - title: Arcilla y fibras
-      text: Cerámica y tejidos con la asociación de artesanía Nunkui de la comunidad.
-    - title: Excursión
-      text: Día completo hacia una cascada en medio del bosque, con almuerzo envuelto en hojas.
-    - title: Ciencia en el bosque
-      text: Con los paraecólogos, revisamos cámaras trampa y aprendemos cómo se monitorean los animales y los ríos.
-    - title: Cocina shuar
-      text: Preparamos platos tradicionales como el ayampaco y la chicha de yuca. Por la noche, música con flautas hechas a mano.
+    - title: Conocer el pueblo
+      text: Recorremos Maikiuants y conocemos a la comunidad y a las familias. Por la tarde, baño en el río.
+    - title: La selva que cura
+      text: Una caminata larga por la selva con un guía shuar, para conocer las plantas medicinales tradicionales.
     - title: Minga
-      text: Trabajo comunitario junto a las familias y fiesta de despedida con música y cantos.
+      text: Participamos en una minga, el día de trabajo comunitario para cuidar el pueblo. Después comemos todos juntos con la comunidad.
+    - title: Barro de nuestra tierra
+      text: Cerámica con arcilla de los alrededores y un vistazo a la artesanía tradicional.
+    - title: De la chacra a la cocina
+      text: Cosechamos juntos frutas y verduras de nuestras plantaciones y cocinamos especialidades tradicionales.
+    - title: Las cascadas
+      text: Paseo en bote hasta las cascadas grandes más cercanas.
+    - title: Lanzas y fútbol
+      text: Aprendemos a tallar lanzas tradicionales. Por la tarde, fútbol con los niños del pueblo.
+    - title: Música y danza
+      text: Hacemos música juntos, vemos y aprendemos danzas tradicionales y celebramos la despedida.
     - title: Regreso
       text: Último desayuno juntos, despedida y viaje de regreso a Quito con el guía internacional.
 
@@ -90,7 +90,7 @@ included:
     - Seguridad y acompañamiento durante todo el tour
     - Todas las actividades del programa
     - Cocina y electricidad con energía solar
-    - Internet gratuito en el centro comunitario (a unos 20–25 minutos a pie del alojamiento)
+    - Wifi gratis en el pueblo (a unos 35 minutos a pie del alojamiento)
     - Un río para bañarse
 
 not_included:
@@ -158,8 +158,8 @@ faq:
         río. Si tienes alguna limitación, avísanos y buscamos alternativas.
     - q: ¿Hay electricidad, señal de teléfono e internet?
       a: >-
-        Un panel solar abastece la cocina y ahí también puedes cargar tu teléfono. No hay señal de
-        teléfono, pero hay internet en el centro comunitario, a unos 20–25 minutos a pie.
+        La cocina funciona con energía solar y ahí puedes cargar tu teléfono. En la jea no hay wifi
+        ni señal de teléfono, pero en el pueblo, a unos 35 minutos a pie, hay wifi gratis.
     - q: ¿Qué idiomas se hablan?
       a: >-
         En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te

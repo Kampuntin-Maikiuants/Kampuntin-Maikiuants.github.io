@@ -13,7 +13,8 @@ layout: default
     <div class="grid grid--3">
       {%- for item in t.about.items %}
       <article class="card card--media">
-        {% include media.html src=item.image alt=item.image_alt class="card__img" %}
+        {%- if item.image_position == "bottom" %}{% assign ci_class = "card__img card__img--bottom" %}{% else %}{% assign ci_class = "card__img" %}{% endif %}
+        {% include media.html src=item.image alt=item.image_alt class=ci_class %}
         <div class="card__body">
           <h3>{{ item.title }}</h3>
           {{ item.text | markdownify }}
@@ -50,6 +51,10 @@ layout: default
       {{ t.location.text | markdownify }}
       <p class="coords">{{ t.location.coords }}</p>
       <p><a class="link-arrow" href="{{ t.location.map_url }}" rel="noopener">{{ t.location.map_link }} →</a></p>
+      <figure class="map-figure map-figure--region">
+        {% include map-region.html labels=t.location.region %}
+        <figcaption>{{ t.location.region.caption }}</figcaption>
+      </figure>
     </div>
     <figure class="map-figure">
       {% include map-ecuador.html labels=t.location.labels %}

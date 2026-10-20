@@ -24,7 +24,7 @@
   <div class="container footer-grid">
     <div class="footer-brand">
       <a class="brand" href="{{ home_page.url | relative_url }}">
-        {% include logo.svg id="fuss" %}
+        {% include logo.html %}
         <span class="brand-text"><strong>Kampuntin</strong><small>Maikiuants</small></span>
       </a>
       <p>{{ ui.footer.tagline }}</p>
@@ -46,7 +46,7 @@
       <ul>
         <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
         {%- for person in site.contact.people %}
-        <li><a href="https://wa.me/{{ person.whatsapp }}" rel="noopener">{{ person.name }} · {{ person.phone }}</a><br><small>{{ person.role[lang] }}</small></li>
+        <li><a href="https://wa.me/{{ person.whatsapp }}" rel="noopener">{{ person.name }} · {{ person.phone }}</a><br><small>{{ person.role[lang] | default: person.role.en }}</small></li>
         {%- endfor %}
       </ul>
     </div>
@@ -61,7 +61,8 @@
   </div>
   <div class="container footer-bottom">
     <p>© {{ site.time | date: "%Y" }} Kampuntin · Maikiuants</p>
-    <p><a href="{{ legal_page.url | relative_url }}">{{ ui.nav.legal }}</a></p>
+    {%- assign people_page = site.pages | where: "ref", "people" | where: "lang", lang | first %}
+    <p><a href="{{ people_page.url | relative_url }}#creditos">{{ ui.footer.credits }}</a> · <a href="{{ legal_page.url | relative_url }}">{{ ui.nav.legal }}</a></p>
   </div>
 </footer>
 <dialog id="lightbox" class="lightbox" aria-label="{{ ui.photo }}">

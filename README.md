@@ -49,8 +49,9 @@ Nach 1–2 Minuten ist die Änderung online.
 
 | Was | Wo |
 |---|---|
-| Texte jeder Seite | `_data/es/*.yml` (Spanisch) und `_data/en/*.yml` (Englisch), eine Datei pro Seite |
-| Menü, Buttons, Fußzeile | `_data/es/ui.yml`, `_data/en/ui.yml` |
+| Texte jeder Seite | `_data/es/*.yml` (Spanisch), `_data/en/*.yml` (Englisch) und `_data/fr/*.yml` (Französisch), eine Datei pro Seite |
+| Menü, Buttons, Fußzeile | `_data/es/ui.yml`, `_data/en/ui.yml`, `_data/fr/ui.yml` |
+| Sprachen im Umschalter | `_config.yml` → `languages: [es, en, fr]` (Seiten in `pages/es`, `pages/en`, `pages/fr`) |
 | E-Mail, WhatsApp, Instagram, Facebook, WWOOF, Name der Organisation | `_config.yml` |
 | Tour-Termine | `_data/tour_dates.yml` |
 | Team (Namen, Rollen, Fotos) | `_data/team.yml` |
@@ -63,7 +64,11 @@ Nach 1–2 Minuten ist die Änderung online.
 | Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
 | Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
 | Hintergrundmuster an/aus | `_config.yml` → `background_pattern: true/false` (Stärke: `opacity` bei „Hintergrundmuster“ in `style.css`) |
-| Logo (Kopf- und Fußzeile) | `_includes/logo.svg` · Browser-Icon: `assets/img/favicon.svg` · iPhone-Icon: `assets/img/apple-touch-icon.png` · alle Varianten als Dateien im Ordner `Logo-Entwurf` neben der Website |
+| Logo von Anouk Segebart (Kopf- und Fußzeile) | `assets/img/logo-128.png` / `logo-256.png` (eingebunden über `_includes/logo.html`) · Browser-Icons: `assets/img/favicon-32/48/192.png` · iPhone-Icon: `assets/img/apple-touch-icon.png` · Original im Ordner `Logo-Entwurf` neben der Website |
+| Credits „Las caras detrás de esta web“ | `_data/<sprache>/people.yml` unter `credits`; Webmaster in `_config.yml` → `webmaster` |
+| Shuar-Namen im Team | `_data/team.yml` → `shuar_name: "…"` |
+| Detailkarte Limón Indanza – Maikiuants | wird erzeugt mit `python3 scripts/make_region_map.py` (Daten: OpenStreetMap) |
+| Besucherstatistik (GoatCounter) | `_config.yml` → `goatcounter: "kontoname"` – Anleitung unten, Abschnitt 4 |
 | Tour-Hinweis auf der Startseite an/aus | `_config.yml` → `tour_popup: true/false` (Texte: `tour_popup` in `_data/es|en/home.yml`; Termin kommt automatisch aus `tour_dates.yml`) |
 
 **Fotos einbauen:** Bild hochladen (z. B. nach `assets/img/fotos/`). Dann im passenden
@@ -177,6 +182,18 @@ kostenlosem Plan).
 
 ---
 
+### Besucherstatistik
+
+GitHub Pages zeigt keine Besucherzahlen (unter *Insights → Traffic* sieht man nur Besuche des
+Repositorys, nicht der Website). Empfehlung: **GoatCounter** – kostenlos für Projekte wie dieses,
+ohne Cookies, ohne Einwilligungs-Banner, und die Zahlen lassen sich mit Kampuntin teilen.
+
+1. Auf [goatcounter.com](https://www.goatcounter.com) ein Konto anlegen, Code z. B. `kampuntin`.
+2. In `_config.yml` eintragen: `goatcounter: "kampuntin"` → speichern, pushen.
+3. Ab dann zählt die Seite Besuche. Im Impressum erscheint automatisch ein kurzer Hinweis dazu.
+4. Teilen: In GoatCounter unter *Settings → Users* Kampuntin als Benutzer einladen, oder unter
+   *Settings → Site settings* die Statistik öffentlich machen und den Link weitergeben.
+
 ## 5. Vor dem Start: Checkliste
 
 - [ ] Alle Platzhalter ersetzen. Sie stehen in **[eckigen Klammern]**, z. B. `[ciudad de encuentro]`,
@@ -195,14 +212,17 @@ kostenlosem Plan).
 
 ## 6. Lokale Vorschau (optional, für Technik-Interessierte)
 
-Braucht Ruby 3.x (z. B. `brew install ruby`), dann im Projektordner:
+Auf diesem Mac liegt das Bauwerkzeug im Ordner `vendor/` (wird nicht zu GitHub hochgeladen):
 
 ```bash
-bundle install
-bundle exec jekyll serve
+./vendor/build.sh
 ```
 
-Danach unter http://localhost:4000 ansehen.
+baut die Seite nach `_site/`. `./vendor/vorschau.sh` erzeugt zusätzlich die Offline-Vorschau
+neben dem Projekt (`../Vorschau` und `../Kampuntin-Website-offline.zip`).
+
+Auf einem anderen Rechner: Ruby 3.x installieren (z. B. `brew install ruby`), dann
+`bundle install` und `bundle exec jekyll serve` – danach unter http://localhost:4000 ansehen.
 
 ---
 

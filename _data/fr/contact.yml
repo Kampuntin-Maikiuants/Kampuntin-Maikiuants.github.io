@@ -1,0 +1,64 @@
+# Page de contact – français
+hero:
+  eyebrow: Contact
+  title: Écrivez-nous
+  lead: >-
+    Des questions sur les tours, le bénévolat ou une collaboration scientifique ? Écrivez-nous sur
+    WhatsApp ou par e-mail. Nous répondons personnellement ; le réseau est limité dans la forêt,
+    merci donc de votre patience.
+  image: "/assets/img/ilustraciones/detalle-4.jpg"
+  image_alt: Illustration de plantes de la forêt amazonienne
+direct:
+  whatsapp: WhatsApp
+  whatsapp_cta: WhatsApp
+  email: E-mail
+  email_hint: "E-mail général :"
+  tips_title: Pour que nous puissions vous répondre rapidement, dites-nous
+  tips:
+    - si un tour, le bénévolat ou autre chose vous intéresse,
+    - les dates que vous envisagez,
+    - combien de personnes viendront,
+    - et quelques mots sur vous.
+location:
+  title: Où nous trouver
+  text: >-
+    Maikiuants se trouve dans la province de Morona Santiago, dans le sud de l’Amazonie
+    équatorienne. La route vers la communauté part de Limón Indanza ; de là, il faut compter
+    environ deux heures et demie, généralement en taxi 4×4 (env. 50–60 USD). Nous accueillons les
+    groupes des tours à Quito. Nous convenons des autres détails du voyage avec vous avant votre
+    arrivée.
+  map_link: Voir sur OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+
+faq:
+  title: Questions fréquentes
+  items:
+    - q: En combien de temps répondez-vous ?
+      a: >-
+        En général en quelques jours. Le réseau est limité dans la forêt, cela prend donc parfois
+        un peu plus de temps. WhatsApp est souvent plus rapide.
+    - q: Dans quelles langues puis-je vous écrire ?
+      a: >-
+        L’espagnol est l’idéal. Si vous ne parlez pas espagnol, écrivez-nous quand même : nous
+        trouvons toujours un moyen de nous comprendre.
+    - q: Comment se rendre à Maikiuants ?
+      a: >-
+        **Tours :** nous venons vous chercher à Quito. Notre guide international voyage avec le
+        groupe en minibus jusqu’à Cuenca, puis en taxi jusqu’à Maikiuants ; le transport est inclus
+        dans le prix. **Bénévolat :** en bus jusqu’à Limón Indanza, puis environ deux heures et
+        demie en taxi 4×4 (env. 50–60 USD) jusqu’à la communauté. Nous convenons des détails avec
+        vous avant votre voyage.
+    - q: Puis-je visiter Maikiuants sans participer à un tour ?
+      a: >-
+        Les visites sont toujours convenues à l’avance avec la communauté. Écrivez-nous et nous
+        verrons ce qui est possible.
+    - q: Puis-je modifier ou annuler une réservation ?
+      a: >-
+        Oui. Écrivez-nous le plus tôt possible : les modifications et les annulations se règlent
+        personnellement avec vous.
+    - q: Comment vous soutenir sans voyager ?
+      a: >-
+        En partageant nos actualités ou en nous aidant pour la traduction, la photographie ou les
+        réseaux sociaux. Avec une partie de ses revenus, Kampuntin apporte déjà un soutien social
+        aux familles de la communauté pour la santé, l’éducation et les besoins urgents. Si vous
+        souhaitez soutenir ce travail par un don, n’hésitez pas à nous contacter.

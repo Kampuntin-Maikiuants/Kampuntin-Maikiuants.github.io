@@ -1,13 +1,14 @@
 # Fotos „La vida en la jea / Life in the jea“ – erscheinen auf der Volunteering- UND der Tour-Seite
+# Reihenfolge wie die Originale „Life in the shea“, „… shea1“ bis „… shea5“
+- image: /assets/img/fotos/jea.jpg
+  alt: { es: La jea en medio de la selva, en: The jea in the middle of the rainforest, fr: La jea au milieu de la forêt }
 - image: /assets/img/fotos/jea-dormitorio.jpg
-  alt: { es: Literas dentro de la jea, en: Bunk beds inside the jea }
+  alt: { es: Literas dentro de la jea, en: Bunk beds inside the jea, fr: Lits superposés dans la jea }
 - image: /assets/img/fotos/jea-cocina.jpg
-  alt: { es: La cocina abierta con energía solar, en: The open solar-powered kitchen }
+  alt: { es: La cocina abierta con energía solar, en: The open solar-powered kitchen, fr: La cuisine ouverte à l’énergie solaire }
 - image: /assets/img/fotos/jea-cocinar.jpg
-  alt: { es: Preparando tortillas juntos, en: Making tortillas together }
+  alt: { es: Preparando tortillas de yuca juntos, en: Making cassava patties together, fr: Préparer ensemble des galettes de manioc }
 - image: /assets/img/fotos/jea-rio.jpg
-  alt: { es: Baño en el río – la mejor ducha del mundo, en: Bathing in the river – the best shower in the world }
-- image: /assets/img/fotos/jea-huerta.jpg
-  alt: { es: Ají en la huerta junto a la casa, en: Chillies in the garden next to the house }
+  alt: { es: Baño en el río – la mejor ducha del mundo, en: Bathing in the river – the best shower in the world, fr: Baignade dans la rivière – la meilleure douche du monde }
 - image: /assets/img/fotos/jea-ropa.jpg
-  alt: { es: Ropa tendida al sol, en: Laundry drying in the sun }
+  alt: { es: Ropa tendida al sol, en: Laundry drying in the sun, fr: Linge qui sèche au soleil }

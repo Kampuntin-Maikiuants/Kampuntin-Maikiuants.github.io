@@ -1,0 +1,21 @@
+# Page galerie – français
+# Les albums sont créés automatiquement : chaque dossier de assets/galeria/ est un album (voir _data/albums.yml)
+hero:
+  eyebrow: Galerie
+  title: Photos et vidéos
+  lead: Albums des tours passés, du bénévolat, de la vie de la communauté, de notre travail de recherche et de la forêt. Cliquez sur un album pour voir toutes ses photos.
+  image: "/assets/img/ilustraciones/detalle-2.jpg"
+  image_alt: Illustration de plantes de la forêt amazonienne
+albums_title: Albums photo
+videos_title: Vidéos
+empty_note: >-
+  Les albums apparaîtront ici dès que des photos seront ajoutées dans un dossier de assets/galeria.
+  En attendant, des albums d’exemple sont affichés.
+# Albums d’exemple tant qu’il n’y a pas de photos
+placeholders:
+  - { title: Tour de septembre 2026, date: septembre 2026, count: 48, tour: true }
+  - { title: Bénévolat à la pépinière, date: août 2026, count: 23 }
+  - { title: Tour de juillet 2026, date: juillet 2026, count: 41, tour: true }
+  - { title: La faune de nos rivières, date: juin 2026, count: 19 }
+  - { title: La vie à Maikiuants, date: mai 2026, count: 36 }
+  - { title: Tour de mars 2026, date: mars 2026, count: 37, tour: true }

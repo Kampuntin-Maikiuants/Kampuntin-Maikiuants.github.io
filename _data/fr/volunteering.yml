@@ -1,0 +1,167 @@
+# Page bénévolat – français (d’après le profil WWOOF)
+# Le texte entre [crochets] est un marqueur : à remplacer par les vraies informations.
+
+hero:
+  eyebrow: Bénévolat · Agroforesterie · Vie communautaire
+  title: Bénévolat à Maikiuants
+  lead: >-
+    Nous recherchons des personnes qui ont envie de partager savoirs et cultures, de travailler,
+    de découvrir la forêt et de vivre ensemble — et de connaître la vie communautaire en
+    Amazonie, loin de la ville.
+  image: "/assets/img/fotos/hero-voluntariado.jpg"
+  image_alt: Des bénévoles avec des machettes à côté d’un membre de la communauté
+
+who:
+  title: Qui recherchons-nous ?
+  intro: >-
+    Peu importe ce que vous savez faire exactement ou les compétences que vous apportez — tout
+    est bienvenu. Ce qui compte, c’est que vous ayez envie…
+  items:
+    - d’en apprendre plus sur les plantes, l’agroforesterie et la permaculture,
+    - de vivre en groupe et de partager les tâches,
+    - de découvrir la culture shuar et la vie dans la forêt,
+    - de passer beaucoup de temps en plein air,
+    - de vivre un quotidien lent, tranquille et flexible,
+    - et de faire preuve d’ouverture, de respect et de flexibilité.
+
+tasks:
+  title: Comment vous pouvez aider
+  intro: >-
+    Toutes les tâches sont très flexibles et ne sont pas toujours nécessaires. Préparez-vous donc
+    à aider là où il le faut et à apporter vos propres idées et compétences. Vous pouvez par
+    exemple aider dans les domaines suivants :
+  items:
+    - title: Jardinage
+      text: Pépinière, plantations et entretien du jardin et du terrain autour de la maison.
+    - title: Agroforesterie
+      text: Entretien des cultures agroforestières par le désherbage, la taille et la récolte.
+    - title: Construction
+      text: Aide aux travaux de construction et à l’amélioration des infrastructures.
+    - title: Mingas
+      text: Journées de travail collectif dans le village de Maikiuants.
+    - title: Vos compétences
+      text: Une aide selon vos compétences, par exemple la couture, les réseaux sociaux ou la vidéo.
+
+life:
+  title: La vie dans la jea
+  text: |-
+    Nous dormons dans une maison traditionnelle appelée **jea**, en pleine forêt. Il y a des
+    lits superposés sur trois niveaux et la possibilité d’accrocher un hamac. La douche est la
+    meilleure du monde : une rivière pure à l’eau fraîche.
+
+    Une cuisine bien équipée est à votre disposition. Un panneau solaire l’alimente en
+    électricité, et il y a un mixeur et une centrifugeuse. À l’avenir, nous prévoyons d’installer
+    un petit réfrigérateur pour conserver les aliments. Les repas sont généralement partagés avec
+    les autres bénévoles.
+  # The 6 photos are in _data/jea_photos.yml (shared with the tours page)
+
+free_time:
+  title: Temps libre
+  text: >-
+    Pendant votre temps libre, vous pouvez profiter des environs : nous pouvons vous emmener faire
+    de belles balades, vous pouvez jouer avec les enfants, participer à la fabrication de
+    poteries, faire de l’artisanat, jouer de la musique et chanter.
+  quote: C’est un lieu de créativité et de liberté où tout est possible.
+
+practical:
+  title: Informations pratiques
+  items:
+    - { label: Durée du séjour, value: "Au moins un mois (des séjours plus courts de 2 à 3 semaines sont possibles après accord) – pas de durée maximale" }
+    - { label: Horaires de travail, value: "Flexibles, 3 à 5 h par jour, 5 jours par semaine" }
+    - label: Nourriture
+      value: >-
+        Apportez de quoi manger au moins pour la première semaine, pour cuisiner avec les 2 ou 3
+        membres de la communauté avec qui vous vivez. Ici poussent des bananes et des bananes
+        plantain, et une petite boutique de la communauté vend des produits de base. Prévoyez aussi
+        de l’argent liquide en plus pour les courses et le taxi depuis Limón Indanza. Il y a une
+        solution à tout, et les gens sont toujours prêts à aider.
+    - { label: Langues, value: "Espagnol et Shuar Chicham – presque aucune autre langue. Quelques bases d’espagnol aident beaucoup" }
+    - { label: Arrivée, value: "En bus jusqu’à Limón Indanza, puis environ 2 h 30 en taxi 4×4 (env. 50–60 USD) jusqu’à la communauté" }
+  wwoof: Retrouvez-nous aussi sur WWOOF
+
+apply:
+  title: Comment postuler
+  steps:
+    - title: Présentez-vous
+      text: Dites-nous qui vous êtes, ce qui vous motive et quand vous aimeriez venir.
+    - title: Confirmation
+      text: Nous convenons des dates et des autres détails.
+    - title: Bienvenue !
+      text: Nous vous accueillons à l’hébergement et vous faisons découvrir les lieux.
+  button: Je veux devenir bénévole
+
+# PLACEHOLDER – add real testimonials (with consent)
+testimonials:
+  title: Témoignages de bénévoles
+  intro: Ce que racontent les personnes qui ont déjà passé du temps à Maikiuants.
+  # quote = short quote (always visible) · text = full story to expand (optional, any length)
+  items:
+    - quote: >-
+        Je suis venue aider à la pépinière et je suis repartie en ayant appris bien plus — sur les
+        plantes, sur la communauté et sur moi-même. Se baigner dans la rivière chaque matin n’a pas
+        de prix.
+      name: "[Nom]"
+      meta: "Bénévole · [pays] · [année]"
+      photo: ""
+      text: |-
+        Je suis venue pour trois semaines et je suis restée deux mois. Au début, tout était
+        nouveau : dormir dans la jea, cuisiner pour tout le monde, m’habituer au rythme de la
+        communauté. Peu à peu, la pépinière est devenue mon endroit préféré.
+
+        [Le récit complet peut figurer ici : comment s’est passée l’arrivée, ce que vous avez
+        appris, un moment inoubliable et ce que vous diriez à quelqu’un qui envisage de venir.]
+    - quote: >-
+        Les premières nuits dans la jea m’ont semblé étranges ; ensuite, je ne voulais plus partir.
+        Le meilleur, c’étaient les après-midi avec les enfants et les balades au coucher du soleil.
+      name: "[Nom]"
+      meta: "Bénévole · [pays] · [année]"
+      photo: ""
+      text: |-
+        [Récit complet du bénévole : les premiers jours, la vie avec les familles, les balades en
+        forêt et ce qu’il a rapporté de Maikiuants.]
+    - quote: >-
+        C’est un vrai travail, avec de la boue et de la pluie. Mais voir pousser les arbres que nous
+        avons plantés et partager les repas avec tout le monde, ça en vaut vraiment la peine.
+      name: "[Nom]"
+      meta: "Bénévole · [pays] · [année]"
+      photo: ""
+      text: |-
+        [Récit complet de la bénévole : le travail sur les parcelles agroforestières, la minga, la
+        vie avec les autres bénévoles et ce que cela a représenté pour elle.]
+
+faq:
+  title: Questions fréquentes
+  items:
+    - q: Combien coûte le bénévolat ?
+      a: >-
+        L’hébergement dans la jea est offert en échange de votre travail. Prévoyez un peu d’argent
+        pour le taxi depuis Limón Indanza et pour acheter votre nourriture (voir « Informations
+        pratiques »).
+    - q: Faut-il de l’expérience en agriculture ou en construction ?
+      a: >-
+        Non. Ce qui compte, c’est l’envie d’apprendre et de travailler. Nous vous apprendrons sur
+        place tout ce dont vous avez besoin.
+    - q: Faut-il parler espagnol ?
+      a: >-
+        Presque personne dans la communauté ne parle anglais, donc quelques bases d’espagnol aident
+        beaucoup au quotidien. Nous vous conseillons de télécharger une application de traduction
+        qui fonctionne hors ligne, pour les mots qui vous manquent.
+    - q: À quoi ressemble une journée type ?
+      a: >-
+        Chaque jour est différent. Il n’y a souvent pas de programme fixe et beaucoup de choses se
+        font spontanément. N’hésitez pas à apporter vos propres envies et idées : ensemble, nous
+        voyons ce qui est possible.
+    - q: Y a-t-il Internet et de l’électricité ?
+      a: >-
+        La cuisine fonctionne à l’énergie solaire et vous pouvez y recharger votre téléphone. Il n’y
+        a ni Wi-Fi ni réseau téléphonique dans la maison où vous vivez, mais vous pouvez marcher
+        environ 35 minutes jusqu’au village et y utiliser le Wi-Fi gratuit.
+    - q: De quels vaccins et de quelle assurance ai-je besoin ?
+      a: >-
+        Une assurance voyage avec couverture médicale est obligatoire. Consultez un médecin
+        spécialisé en médecine des voyages ; pour l’Amazonie, les vaccins contre la fièvre jaune,
+        la fièvre typhoïde, les hépatites A et B et la rage sont généralement très importants.
+    - q: Puis-je venir en couple ou entre amis ?
+      a: >-
+        Oui, écrivez-nous simplement suffisamment tôt. L’hébergement peut accueillir 12 personnes ;
+        nous avons déjà reçu 6 ou 7 bénévoles en même temps.

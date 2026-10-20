@@ -8,6 +8,8 @@
 {%- assign _y = include.end | date: "%Y" -%}
 {%- if _l == "en" -%}
   {%- if _m1 == _m2 -%}{{ _months[_m1] }} {{ _d1 }}–{{ _d2 }}, {{ _y }}{%- else -%}{{ _months[_m1] }} {{ _d1 }} – {{ _months[_m2] }} {{ _d2 }}, {{ _y }}{%- endif -%}
+{%- elsif _l == "fr" -%}
+  {%- if _m1 == _m2 -%}{{ _d1 }}–{{ _d2 }} {{ _months[_m1] }} {{ _y }}{%- else -%}{{ _d1 }} {{ _months[_m1] }} – {{ _d2 }} {{ _months[_m2] }} {{ _y }}{%- endif -%}
 {%- else -%}
   {%- if _m1 == _m2 -%}{{ _d1 }}–{{ _d2 }} de {{ _months[_m1] }} de {{ _y }}{%- else -%}{{ _d1 }} de {{ _months[_m1] }} – {{ _d2 }} de {{ _months[_m2] }} de {{ _y }}{%- endif -%}
 {%- endif -%}

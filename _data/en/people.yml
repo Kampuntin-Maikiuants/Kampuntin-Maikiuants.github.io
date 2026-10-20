@@ -10,3 +10,18 @@ hero:
 groups:
   community: From the community
   kampuntin: "Kampuntin: your team in Maikiuants"
+
+# Section "Faces behind the website" (bottom of the people page, anchor #creditos)
+credits:
+  title: The faces behind this website
+  intro: >-
+    Several people made this website together. The photos are by Jesko Dorner and from the
+    Kampuntin archive; the header illustrations and the logo are by Anouk Segebart.
+  people:
+    - { name: Jesko Dorner, role: "Photos, texts, web design and maintenance", email: jesko.dorner@gmail.com }
+    - { name: Anouk Segebart, role: "Illustrations, logo and texts", email: anoukbsb@gmail.com }
+    - { name: Nalo Goosmann, role: Texts }
+    - { name: Yael Bulik, role: Texts }
+  webdesign: "Web design: Jesko Dorner, with Anthropic's Claude."
+  maintained: "This website is maintained by Jesko Dorner. For questions or corrections about the information on the site, write to"
+  map: "Maps: © OpenStreetMap contributors and Natural Earth."

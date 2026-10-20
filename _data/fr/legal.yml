@@ -1,0 +1,37 @@
+# Mentions légales et confidentialité – français
+# PLACEHOLDER: this content must be reviewed by a legal professional.
+title: Mentions légales et confidentialité
+sections:
+  - title: Responsable
+    text: |-
+      Organización Comunitaria de Servicios Turísticos Kampuntin (Selva mi destino)
+      Bureau : communauté de Maikiuants
+      Limón Indanza, Morona Santiago, Équateur
+      E-mail : ocstkampuntin@gmail.com
+  - title: Gestion du site
+    text: >-
+      Ce site est géré par Jesko Dorner. Pour toute question ou correction concernant son contenu : jesko.dorner@gmail.com. Pour les tours, le bénévolat et tout le reste, merci d’écrire à Kampuntin (voir ci-dessus).
+  - title: Hébergement
+    text: >-
+      Ce site est hébergé par GitHub Pages (GitHub Inc., États-Unis). Lors de votre visite, GitHub
+      traite des données techniques, comme votre adresse IP, afin de fournir les pages et d’en
+      assurer la sécurité. Pour plus de détails, consultez la déclaration de confidentialité de
+      GitHub.
+  - title: Cookies et services externes
+    text: >-
+      Ce site n’utilise pas de cookies. Les contenus de YouTube, Instagram et Facebook ne se
+      chargent que lorsque vous cliquez dessus ; à partir de ce moment, des données sont
+      transmises à ces plateformes.
+  - title: Contact
+    text: >-
+      Les données que vous nous envoyez par e-mail ou par WhatsApp servent uniquement à répondre à
+      votre demande et ne sont pas transmises à des tiers.
+  - title: Vos droits
+    text: >-
+      Vous pouvez à tout moment demander des informations sur vos données, leur rectification ou
+      leur suppression en écrivant à ocstkampuntin@gmail.com.
+# Erscheint nur, wenn in _config.yml "goatcounter" eingetragen ist
+analytics:
+  title: Statistiques de fréquentation
+  text: >-
+    Nous utilisons GoatCounter pour savoir combien de personnes visitent le site. Cet outil n’utilise pas de cookies et ne stocke aucune donnée personnelle : il compte seulement les visites de manière anonyme (page, pays approximatif, type de navigateur).

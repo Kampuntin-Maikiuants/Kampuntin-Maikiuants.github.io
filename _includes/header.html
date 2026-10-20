@@ -1,14 +1,11 @@
 {%- assign lang = page.lang | default: site.lang -%}
 {%- assign ui = site.data[lang].ui -%}
-{%- if lang == "en" -%}{%- assign other = "es" -%}{%- else -%}{%- assign other = "en" -%}{%- endif -%}
 {%- assign lang_pages = site.pages | where: "lang", lang -%}
 {%- assign home = lang_pages | where: "ref", "home" | first -%}
-{%- assign alt = site.pages | where: "ref", page.ref | where: "lang", other | first -%}
-{%- unless alt -%}{%- assign alt = site.pages | where: "ref", "home" | where: "lang", other | first -%}{%- endunless -%}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{{ home.url | relative_url }}">
-      {% include logo.svg id="kopf" %}
+      {% include logo.html %}
       <span class="brand-text"><strong>Kampuntin</strong><small>Maikiuants</small></span>
     </a>
     <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -23,10 +20,14 @@
           {%- endif -%}
         {%- endfor %}
       </ul>
-      <a class="lang-switch" href="{{ alt.url | relative_url }}" hreflang="{{ other }}" title="{{ ui.switch_label }}">
-        <span class="sr-only" lang="{{ other }}">{{ ui.switch_label }}: </span>
-        <span{% if lang == "es" %} class="is-current"{% endif %}>ES</span><span aria-hidden="true">/</span><span{% if lang == "en" %} class="is-current"{% endif %}>EN</span>
-      </a>
+      <div class="lang-switch" role="group" aria-label="{{ ui.lang_label }}">
+        {%- for l in site.languages %}
+          {%- assign lp = site.pages | where: "ref", page.ref | where: "lang", l | first -%}
+          {%- unless lp %}{% assign lp = site.pages | where: "ref", "home" | where: "lang", l | first %}{% endunless %}
+          {%- unless forloop.first %}<span class="lang-switch__sep" aria-hidden="true">/</span>{% endunless %}
+          {%- if l == lang %}<span class="is-current" aria-current="true">{{ l | upcase }}</span>{% else %}<a href="{{ lp.url | relative_url }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ site.data[l].ui.lang_name }}">{{ l | upcase }}</a>{% endif %}
+        {%- endfor %}
+      </div>
     </nav>
   </div>
 </header>

@@ -30,10 +30,15 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale" content="{{ ui.locale }}">
 {%- if og_image and og_image != "" %}
-<meta property="og:image" content="{{ og_image | absolute_url }}">
+<meta property="og:image" content="{{ og_image | absolute_url }}?v={{ site.image_version }}">
 {%- endif %}
 <meta name="theme-color" content="#173a2a">
-<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}?v=2" type="image/svg+xml">
-<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}?v=2">
+{%- if site.goatcounter and site.goatcounter != "" %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{%- endif %}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}?v=3">
+<link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/img/favicon-48.png' | relative_url }}?v=3">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/favicon-192.png' | relative_url }}?v=3">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}?v=3">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

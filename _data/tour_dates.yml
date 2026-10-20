@@ -5,15 +5,18 @@
 #                    few = letzte Plätze · full = ausgebucht
 # Am einfachsten im Formular von Pages CMS (Anleitung im README, „Guía rápida“).
 # Genaues Datum: start + end eintragen (z. B. 2027-04-12 / 2027-04-21).
-# Noch ungefähres Datum: zusätzlich "label" setzen – dann wird der Text statt des Datums gezeigt.
+# Noch ungefähres Datum: zusätzlich "label" (Zeitraum, z. B. „Abril 2027“) und optional "note"
+# (kleiner Hinweis darunter, z. B. „Fecha exacta por confirmar“) – dann wird der Text statt des Datums gezeigt.
 # "start" dient dann nur zum Sortieren und Ausblenden vergangener Termine.
 
 dates:
   - start: 2027-04-15
     end: 2027-04-30
-    label: { es: "Abril 2027 · mediados o finales de mes", en: "April 2027 · mid or late April" }
+    label: { es: "Abril 2027", en: "April 2027", fr: "Avril 2027" }
+    note: { es: "Mediados o finales de abril · fecha exacta por confirmar", en: "Mid or late April · exact date to be confirmed", fr: "Mi-avril ou fin avril · date exacte à confirmer" }
     status: request
   - start: 2027-08-01
     end: 2027-09-30
-    label: { es: "Agosto o septiembre 2027", en: "August or September 2027" }
+    label: { es: "Agosto / septiembre 2027", en: "August / September 2027", fr: "Août / septembre 2027" }
+    note: { es: "Fecha exacta por confirmar", en: "Exact date to be confirmed", fr: "Date exacte à confirmer" }
     status: request

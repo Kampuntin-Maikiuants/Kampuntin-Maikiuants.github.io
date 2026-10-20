@@ -1,0 +1,26 @@
+# Page actualités (réseaux sociaux) – français
+hero:
+  eyebrow: Actualités
+  title: Suivez-nous sur les réseaux sociaux
+  lead: >-
+    Nous publions nos actualités directement sur Facebook et Instagram : photos du quotidien,
+    tours, bénévolat et nouvelles de la communauté.
+  image: "/assets/img/ilustraciones/detalle-1.jpg"
+  image_alt: Illustration de plantes de la forêt amazonienne
+# Description per account (key = name from _config.yml or Instagram handle)
+descriptions:
+  Kampuntin: Tours, bénévolat et actualités de notre organisation.
+  Maikiuants: Le quotidien de la communauté de Maikiuants.
+  territorioshuar: Photos de la forêt, de la culture shuar et de notre territoire.
+open_facebook: Ouvrir sur Facebook
+open_instagram: Ouvrir sur Instagram
+timeline:
+  title: Dernières nouvelles sur Facebook
+  text: >-
+    Vous pouvez voir ici directement les publications de nos pages Facebook. Pour protéger votre
+    vie privée, elles ne se chargent que lorsque vous cliquez.
+feed:
+  title: Dernières publications
+  text: Les dernières nouvelles de nos pages Facebook et Instagram – mises à jour automatiquement.
+instagram:
+  title: Sur Instagram

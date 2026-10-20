@@ -8,22 +8,22 @@
 #              - { image: /assets/img/especies/jaguar-camara-1.jpg, alt: "Jaguar en la cámara trampa, marzo 2024" }
 
 - latin: Panthera onca
-  name: { es: Jaguar, en: Jaguar }
+  name: { es: Jaguar, en: Jaguar, fr: Jaguar }
   status: CR
   image: /assets/img/especies/jaguar.jpg
   snapshots: []
 - latin: Tremarctos ornatus
-  name: { es: Oso andino, en: Andean bear }
+  name: { es: Oso andino, en: Andean bear, fr: Ours à lunettes }
   status: EN
   image: /assets/img/especies/oso-andino.jpg
   snapshots: []
 - latin: Puma concolor
-  name: { es: Puma, en: Puma }
+  name: { es: Puma, en: Puma, fr: Puma }
   status: EN
   image: /assets/img/especies/puma.jpg
   snapshots: []
 - latin: Speothos venaticus
-  name: { es: Zorro vinagre, en: Bush dog }
+  name: { es: Zorro vinagre, en: Bush dog, fr: Chien des buissons }
   status: VU
   image: /assets/img/especies/zorro-vinagre.jpg
   snapshots: []

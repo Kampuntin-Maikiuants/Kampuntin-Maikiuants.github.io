@@ -12,7 +12,7 @@ layout: default
       <article class="contact-card">
         <span class="contact-card__icon" aria-hidden="true">{{ person.name | slice: 0 }}</span>
         <span class="contact-card__body">
-          <small>{{ person.role[page.lang] }}</small>
+          <small>{{ person.role[page.lang] | default: person.role.en }}</small>
           <strong>{{ person.name }}</strong>
           <span>{{ person.phone }}</span>
           {%- if person.email %}<a class="contact-card__mail" href="mailto:{{ person.email }}">{{ person.email }}</a>{% endif %}

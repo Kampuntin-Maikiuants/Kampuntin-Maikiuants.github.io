@@ -39,7 +39,7 @@
       {%- assign al_words = al_words | append: " " | append: part -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- assign al_title = meta.title[al_lang] | default: al_words | strip | replace: "_", " " -%}
+  {%- assign al_title = meta.title[al_lang] | default: meta.title.en | default: al_words | strip | replace: "_", " " -%}
   {%- if al_title == "" -%}{%- assign al_title = folder -%}{%- endif -%}
   {%- if meta.date -%}
     {%- assign al_m = meta.date | date: "%-m" | minus: 1 -%}

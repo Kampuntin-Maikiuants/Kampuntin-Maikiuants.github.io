@@ -13,5 +13,9 @@ layout: default
     <h2>{{ s.title }}</h2>
     <p>{{ s.text | escape | newline_to_br }}</p>
     {%- endfor %}
+    {%- if site.goatcounter and site.goatcounter != "" and t.analytics %}
+    <h2>{{ t.analytics.title }}</h2>
+    <p>{{ t.analytics.text }}</p>
+    {%- endif %}
   </div>
 </section>

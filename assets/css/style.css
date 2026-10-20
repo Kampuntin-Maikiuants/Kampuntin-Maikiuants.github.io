@@ -109,7 +109,7 @@ abbr[title] { text-decoration: none; }
 .header-inner { display: flex; align-items: center; gap: 1rem; min-height: var(--header-h); }
 .brand { display: inline-flex; align-items: center; gap: .65rem; color: inherit; text-decoration: none; margin-right: auto; }
 .brand:hover { color: inherit; }
-.brand-mark { flex: none; width: auto; height: 46px; }
+.brand-mark { flex: none; width: 46px; height: 46px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand-text strong { font-family: var(--font-serif); font-size: 1.3rem; letter-spacing: .01em; }
 .brand-text small { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; opacity: .75; }
@@ -124,11 +124,13 @@ abbr[title] { text-decoration: none; }
 .site-nav ul a.nav-cta:hover, .site-nav ul a.nav-cta[aria-current="page"] { background: var(--clay-dark); }
 .lang-switch {
   display: inline-flex; gap: .3rem; align-items: center;
-  padding: .35rem .7rem; border: 1px solid rgb(255 255 255 / .35); border-radius: 999px;
+  padding: .35rem .75rem; border: 1px solid rgb(255 255 255 / .35); border-radius: 999px;
   font-size: .85rem; letter-spacing: .05em; color: var(--on-dark-muted);
 }
+.lang-switch a { color: var(--on-dark-muted); text-decoration: none; font-size: inherit; font-weight: 500; line-height: inherit; }
+.lang-switch a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.lang-switch__sep { opacity: .5; }
 .lang-switch .is-current { color: #fff; font-weight: 750; }
-.lang-switch:hover { border-color: #fff; color: #fff; }
 
 .burger {
   display: none; position: relative; width: 46px; height: 46px; padding: 0;
@@ -301,6 +303,7 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .card__icon { font-size: 1.9rem; line-height: 1; margin-bottom: .9rem; }
 .card--media { padding: 0; overflow: hidden; }
 .card--media .card__img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 0; }
+.card--media .card__img--bottom { object-position: 50% 100%; }
 .card--media .card__body { padding: 1.4rem 1.5rem 1.6rem; }
 .card--link { color: inherit; text-decoration: none; transition: transform .2s, box-shadow .2s, border-color .2s; }
 .card--link:hover { color: inherit; transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--moss); }
@@ -400,7 +403,9 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .tour-focus p { margin: 0; color: var(--on-dark); }
 .dates { list-style: none; margin: 1rem 0 1.5rem; padding: 0; }
 .dates li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; padding: .85rem 0; border-bottom: 1px solid rgb(255 255 255 / .15); }
-.dates__range { font-weight: 650; }
+.dates__when { display: flex; flex-direction: column; gap: .1rem; }
+.dates__range { font-weight: 650; font-size: 1.05rem; }
+.dates__note { font-size: .85rem; color: var(--on-dark-muted); }
 .badge { display: inline-block; padding: .2rem .7rem; border-radius: 999px; font-size: .82rem; font-weight: 700; }
 .badge--open { background: #dfe9d3; color: #24502f; }
 .badge--few { background: #f6dfb8; color: #6b4210; }
@@ -450,6 +455,8 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .person__initial { display: grid; place-items: center; background: var(--forest); color: var(--on-dark); font-family: var(--font-serif); font-size: 3rem; font-weight: 600; }
 .section--alt .person__initial { background: var(--forest-2); }
 .person h3 { margin-bottom: .1rem; }
+.person__shuar { margin: -.05rem 0 .35rem; font-family: var(--font-serif); font-style: italic; color: var(--forest-2); }
+.person__shuar span { font-family: var(--font-sans); font-style: normal; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: .2rem; }
 .person__role { color: var(--clay-dark); font-weight: 650; font-size: .95rem; margin-bottom: .6rem; }
 .person p:last-child { color: var(--muted); font-size: .95rem; margin: 0; }
 
@@ -575,6 +582,34 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 /* ---------- Standort & Karte ---------- */
 .coords { font-weight: 650; color: var(--forest); font-variant-numeric: tabular-nums; }
 .map-figure { margin: 0; }
+.map__zoom { fill: none; stroke: var(--clay-dark); stroke-width: 2; stroke-dasharray: 5 4; }
+/* Detailkarte Limón Indanza – Maikiuants (Daten: OpenStreetMap) */
+.map-figure--region { margin-top: 1.5rem; }
+.map-figure--region figcaption { margin-top: .5rem; font-size: .85rem; color: var(--muted); }
+.map--region { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); background: #f1ebdf; }
+.mr__land { fill: #f1ebdf; }
+.mr__park { fill: #dde7cb; stroke: #9ab46f; stroke-width: 1.5; stroke-dasharray: 6 4; }
+.mr__river { fill: none; stroke: #9cc5cb; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.mr__river--major { stroke-width: 4.5; }
+.mr__road { fill: none; stroke: #c3b597; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.mr__road--tertiary { stroke: #ab9a7c; stroke-width: 2.6; }
+.mr__road--major { stroke: #8f7b5c; stroke-width: 3.6; }
+.mr__road--track { stroke-dasharray: 4 4; stroke-width: 1.4; }
+.mr__route-casing { fill: none; stroke: #fff; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+.mr__route { fill: none; stroke: var(--clay); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.mr__place { fill: var(--forest); stroke: #fff; stroke-width: 2; }
+.mr__place--village { fill: #5a635c; }
+.mr__label { fill: var(--ink); font: 600 18px var(--font-sans); paint-order: stroke; stroke: #f1ebdf; stroke-width: 5px; stroke-linejoin: round; }
+.mr__label--town { font-size: 21px; font-weight: 700; }
+.mr__label--village { fill: #4a554d; font-weight: 500; }
+.mr__river-label { fill: #3f7f86; font: italic 17px var(--font-serif); paint-order: stroke; stroke: #f1ebdf; stroke-width: 4px; stroke-linejoin: round; }
+.mr__marker { fill: var(--clay); stroke: #fff; stroke-width: 3.5; }
+.mr__marker-label { fill: var(--clay-dark); font: 700 28px var(--font-serif); paint-order: stroke; stroke: #fff; stroke-width: 6px; stroke-linejoin: round; }
+.mr__scale rect { fill: var(--forest); }
+.mr__scale .mr__scale-half { fill: #fff; stroke: var(--forest); stroke-width: 1.5; }
+.mr__scale text, .mr__north text { fill: var(--forest); font: 700 16px var(--font-sans); }
+.mr__north path { fill: var(--forest); }
+.mr__credit { fill: #6b7268; font: 13px var(--font-sans); }
 .map { width: 100%; height: auto; display: block; border-radius: var(--radius); box-shadow: var(--shadow); max-height: 640px; }
 .map__sea { fill: #dce8e6; }
 .map__land { fill: #f1ebdf; stroke: #cfc4ad; stroke-width: 1.5; }
@@ -751,7 +786,8 @@ a.album__cover:hover img { transform: scale(1.04); }
 .tour-popup__img { width: 100%; height: 100%; object-fit: cover; }
 .tour-popup__body { padding: .95rem 1.1rem 1.05rem; }
 .tour-popup__eyebrow { margin: 0 0 .15rem; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--clay); }
-.tour-popup__title { margin: 0 1.75rem .35rem 0; font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; line-height: 1.2; color: var(--forest); }
+.tour-popup__title { margin: 0 1.75rem .3rem 0; font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; line-height: 1.2; color: var(--forest); }
+.tour-popup__note { margin: -.2rem 0 .45rem; font-size: .8rem; color: var(--muted); }
 .tour-popup__text { margin: 0 0 .6rem; font-size: .88rem; line-height: 1.45; color: var(--muted); }
 .tour-popup__meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; margin: 0 0 .75rem; font-size: .85rem; font-weight: 600; color: var(--forest); }
 .tour-popup__meta .badge { font-size: .75rem; }
@@ -771,3 +807,13 @@ a.album__cover:hover img { transform: scale(1.04); }
   .tour-popup__btn { padding: .4rem .9rem; font-size: .85rem; }
 }
 @media (prefers-reduced-motion: reduce) { .tour-popup { transition: none; } }
+
+/* ---------- Credits: Gesichter hinter der Website ---------- */
+.credits__grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); margin-top: 1.5rem; }
+.credit-card { display: flex; gap: .9rem; align-items: flex-start; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.2rem; }
+.credit-card__initial { flex: none; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--forest); color: var(--on-dark); font: 600 1.4rem var(--font-serif); }
+.credit-card h3 { font-size: 1.1rem; margin: .1rem 0 .2rem; }
+.credit-card p { margin: 0; font-size: .92rem; color: var(--muted); }
+.credit-card a { word-break: break-all; }
+.credits__note { margin: 1.25rem 0 0; font-size: .92rem; color: var(--muted); }
+.credits__note--strong { margin-top: .4rem; color: var(--ink); }
