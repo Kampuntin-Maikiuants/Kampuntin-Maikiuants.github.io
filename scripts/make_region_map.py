@@ -29,7 +29,7 @@ def load(name):
 raw, parks = load('raw.json'), load('parks.json')
 
 # Ausschnitt und Projektion (flächentreu genug für 40 km)
-LON0, LON1, LAT0, LAT1 = -78.56, -78.14, -3.235, -2.915
+LON0, LON1, LAT0, LAT1 = -78.592, -78.108, -3.259, -2.891
 COS = math.cos(math.radians(3.07))
 W = 640
 K = W / ((LON1 - LON0) * COS)
@@ -159,25 +159,22 @@ for name, frac in (('Río Zamora', .55), ('Río Coangos', .5)):
         x, y, a = lab
         o.append(f'  <text class="mr__river-label" transform="translate({x:.1f} {y - 6:.1f}) rotate({a:.0f})" text-anchor="middle">{name}</text>')
 SHOW = [('Limón Indanza', 'town', 'end'), ('San Juan Bosco', 'town', 'start'), ('Indanza', 'village', 'start'),
-        ('Yunkumas', 'village', 'start'), ('Warintza', 'village', 'start'), ('San Miguel de Conchay', 'village', 'start')]
+        ('Yunkumas', 'village', 'start'), ('Warintza', 'village', 'start')]
 for name, kind, anchor in SHOW:
     if name not in places: continue
     x, y = P(*places[name])
-    r, dx = (6, 11) if kind == 'town' else (4.5, 10)
+    r, dx = (5.5, 10) if kind == 'town' else (4.5, 9)
     if anchor == 'end': dx = -dx
     o.append(f'  <circle class="mr__place mr__place--{kind}" cx="{x:.1f}" cy="{y:.1f}" r="{r}"/>'
-             f'<text class="mr__label mr__label--{kind}" x="{x + dx:.1f}" y="{y + 6:.1f}" text-anchor="{anchor}">{name}</text>')
+             f'<text class="mr__label mr__label--{kind}" x="{x + dx:.1f}" y="{y + 7:.1f}" text-anchor="{anchor}">{name}</text>')
 mx, my = P(*places['Maikiuants'])
 o.append(f'  <circle class="map__pulse" cx="{mx:.1f}" cy="{my:.1f}" r="20"/>')
 o.append(f'  <circle class="mr__marker" cx="{mx:.1f}" cy="{my:.1f}" r="10"/>')
-o.append(f'  <text class="mr__marker-label" x="{mx + 16:.1f}" y="{my - 12:.1f}">Maikiuants</text>')
+o.append(f'  <text class="mr__marker-label" x="{mx + 4:.1f}" y="{my - 20:.1f}" text-anchor="middle">Maikiuants</text>')
 km10 = 10 / 111.32 * K * COS
-o.append(f'  <g class="mr__scale" transform="translate(20 {H - 26})"><rect width="{km10:.1f}" height="7"/>'
-         f'<rect class="mr__scale-half" width="{km10 / 2:.1f}" height="7"/><text x="0" y="-7">0</text>'
-         f'<text x="{km10:.1f}" y="-7" text-anchor="middle">10 km</text></g>')
-o.append(f'  <g class="mr__north" transform="translate({W - 30} 36)"><path d="M0 -20 L10 9 L0 3 L-10 9 Z"/>'
-         '<text y="28" text-anchor="middle">N</text></g>')
-o.append(f'  <text class="mr__credit" x="{W - 10}" y="{H - 10}" text-anchor="end">© OpenStreetMap</text>')
+o.append(f'  <g class="mr__scale" transform="translate(22 {H - 24})"><rect width="{km10:.1f}" height="4"/>'
+         f'<text x="{km10 + 8:.1f}" y="5" >10 km</text></g>')
+o.append(f'  <text class="mr__credit" x="{W - 12}" y="{H - 12}" text-anchor="end">© OpenStreetMap</text>')
 o.append('</svg>')
 open(OUT, 'w', encoding='utf-8').write('\n'.join(o) + '\n')
 print(f'{OUT}: {W}×{H}, Weg {dist[dst]:.1f} km, {len(park_paths)} Schutzgebiete, Maikiuants bei {mx:.0f}/{my:.0f}')

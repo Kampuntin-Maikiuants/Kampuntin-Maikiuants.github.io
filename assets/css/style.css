@@ -585,31 +585,35 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .map__zoom { fill: none; stroke: var(--clay-dark); stroke-width: 2; stroke-dasharray: 5 4; }
 /* Detailkarte Limón Indanza – Maikiuants (Daten: OpenStreetMap) */
 .map-figure--region { margin-top: 1.5rem; }
+/* Zwei Spalten: Detailkarte kleiner, ihre Unterkante auf Höhe der Ecuador-Karte */
+@media (min-width: 860px) {
+  .split--location { align-items: end; }
+  .map-figure--region { position: relative; max-width: 68%; }
+  .map-figure--region figcaption { position: absolute; top: 100%; left: 0; width: 147%; }
+}
 .map-figure--region figcaption { margin-top: .5rem; font-size: .85rem; color: var(--muted); }
 .map--region { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); background: #f1ebdf; }
 .mr__land { fill: #f1ebdf; }
 .mr__park { fill: #dde7cb; stroke: #9ab46f; stroke-width: 1.5; stroke-dasharray: 6 4; }
-.mr__river { fill: none; stroke: #9cc5cb; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.mr__river--major { stroke-width: 4.5; }
-.mr__road { fill: none; stroke: #c3b597; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.mr__road--tertiary { stroke: #ab9a7c; stroke-width: 2.6; }
-.mr__road--major { stroke: #8f7b5c; stroke-width: 3.6; }
-.mr__road--track { stroke-dasharray: 4 4; stroke-width: 1.4; }
-.mr__route-casing { fill: none; stroke: #fff; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
-.mr__route { fill: none; stroke: var(--clay); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.mr__river { fill: none; stroke: #9cc5cb; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.mr__river--major { stroke-width: 6; }
+.mr__road { fill: none; stroke: #c3b597; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.mr__road--tertiary { stroke: #ab9a7c; stroke-width: 3.4; }
+.mr__road--major { stroke: #8f7b5c; stroke-width: 4.6; }
+.mr__road--track { stroke-dasharray: 5 5; stroke-width: 1.8; }
+.mr__route-casing { fill: none; stroke: #fff; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+.mr__route { fill: none; stroke: var(--clay); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
 .mr__place { fill: var(--forest); stroke: #fff; stroke-width: 2; }
 .mr__place--village { fill: #5a635c; }
-.mr__label { fill: var(--ink); font: 600 18px var(--font-sans); paint-order: stroke; stroke: #f1ebdf; stroke-width: 5px; stroke-linejoin: round; }
-.mr__label--town { font-size: 21px; font-weight: 700; }
+/* Schrift wie bei der Ecuador-Karte: schlicht, mit hellem Rand */
+.mr__label { fill: var(--ink); font: 600 21px var(--font-sans); paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
 .mr__label--village { fill: #4a554d; font-weight: 500; }
-.mr__river-label { fill: #3f7f86; font: italic 17px var(--font-serif); paint-order: stroke; stroke: #f1ebdf; stroke-width: 4px; stroke-linejoin: round; }
-.mr__marker { fill: var(--clay); stroke: #fff; stroke-width: 3.5; }
-.mr__marker-label { fill: var(--clay-dark); font: 700 28px var(--font-serif); paint-order: stroke; stroke: #fff; stroke-width: 6px; stroke-linejoin: round; }
-.mr__scale rect { fill: var(--forest); }
-.mr__scale .mr__scale-half { fill: #fff; stroke: var(--forest); stroke-width: 1.5; }
-.mr__scale text, .mr__north text { fill: var(--forest); font: 700 16px var(--font-sans); }
-.mr__north path { fill: var(--forest); }
-.mr__credit { fill: #6b7268; font: 13px var(--font-sans); }
+.mr__river-label { fill: #6d908b; font: italic 19px var(--font-serif); paint-order: stroke; stroke: #f1ebdf; stroke-width: 4px; stroke-linejoin: round; }
+.mr__marker { fill: var(--clay); stroke: #fff; stroke-width: 3; }
+.mr__marker-label { fill: var(--clay-dark); font: 700 27px var(--font-serif); paint-order: stroke; stroke: #fff; stroke-width: 5px; stroke-linejoin: round; }
+.mr__scale rect { fill: #8a8f86; }
+.mr__scale text { fill: #6b7268; font: 500 16px var(--font-sans); }
+.mr__credit { fill: #8a8f86; font: 14px var(--font-sans); }
 .map { width: 100%; height: auto; display: block; border-radius: var(--radius); box-shadow: var(--shadow); max-height: 640px; }
 .map__sea { fill: #dce8e6; }
 .map__land { fill: #f1ebdf; stroke: #cfc4ad; stroke-width: 1.5; }
