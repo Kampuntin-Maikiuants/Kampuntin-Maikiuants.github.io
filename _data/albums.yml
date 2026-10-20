@@ -15,45 +15,35 @@
   title: { es: "Fiesta en Maikiuants", en: "Celebration in Maikiuants", fr: "Fête à Maikiuants" }
   cover: ""
 
-- folder: 2026-10-19-selva
-  title: { es: "Caminata por la selva", en: "Walk through the rainforest", fr: "Randonnée dans la forêt" }
+- folder: 2026-10-19-caminata-con-guia
+  title: { es: "Caminata por la selva con guía", en: "Forest walk with a guide", fr: "Balade en forêt avec un guide" }
   date: 2026-10-19
-  cover: "18.jpg"
+  cover: "004.jpg"
 
-- folder: 2026-10-18-plantas-medicinales
-  title: { es: "Plantas medicinales en el río", en: "Medicinal plants by the river", fr: "Plantes médicinales au bord de la rivière" }
+- folder: 2026-10-18-champu-natural
+  title: { es: "Champú natural de plantas", en: "Making natural shampoo from plants", fr: "Shampoing naturel aux plantes" }
   date: 2026-10-18
-  cover: "15.jpg"
+  cover: "013.jpg"
 
-- folder: 2026-10-17-ceramica
+- folder: 2026-10-17-taller-de-ceramica
   title: { es: "Taller de cerámica", en: "Pottery workshop", fr: "Atelier de céramique" }
   date: 2026-10-17
-  cover: "14.jpg"
+  cover: "010.jpg"
 
-- folder: 2026-10-16-cocina
-  title: { es: "De la chacra al fuego: cocina tradicional", en: "From the garden to the fire: traditional cooking", fr: "Du jardin au feu : cuisine traditionnelle" }
+- folder: 2026-10-16-comida-tradicional
+  title: { es: "Comida tradicional", en: "Traditional meal", fr: "Repas traditionnel" }
   date: 2026-10-16
-  cover: "34.jpg"
+  cover: "034.jpg"
 
-- folder: 2026-10-15-ciencia
-  title: { es: "Ciencia: estación meteorológica y nuestro libro", en: "Science: weather station and our book", fr: "Science : station météo et notre livre" }
+- folder: 2026-10-15-libro
+  title: { es: "Nuestro libro: Guía de macroinvertebrados acuáticos", en: "Our book: guide to aquatic macroinvertebrates", fr: "Notre livre : guide des macroinvertébrés aquatiques" }
   date: 2026-10-15
-  cover: "03.jpg"
+  cover: "01.jpg"
 
-- folder: 2026-10-12-minga
-  title: { es: "Minga y comida con la comunidad", en: "Minga and a meal with the community", fr: "Minga et repas avec la communauté" }
-  date: 2026-10-12
-  cover: "02.jpg"
-
-- folder: 2026-10-09-jea
-  title: { es: "La vida en la jea", en: "Life at the jea", fr: "La vie dans la jea" }
-  date: 2026-10-09
-  cover: "17.jpg"
-
-- folder: 2026-10-07-llegada
-  title: { es: "Llegada al pueblo de Maikiuants", en: "Arriving in the village of Maikiuants", fr: "Arrivée au village de Maikiuants" }
+- folder: 2026-10-07-jesko-en-maikiuants
+  title: { es: "Jesko en Maikiuants", en: "Jesko in Maikiuants", fr: "Jesko à Maikiuants" }
   date: 2026-10-07
-  cover: "22.jpg"
+  cover: "072.jpg"
 
 - folder: 2024-07-voluntariado
   title: { es: "Voluntariado", en: "Volunteering", fr: "Bénévolat" }

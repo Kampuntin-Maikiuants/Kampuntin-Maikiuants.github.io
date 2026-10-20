@@ -29,7 +29,8 @@ sections:
   - title: Vos droits
     text: >-
       Vous pouvez à tout moment demander des informations sur vos données, leur rectification ou
-      leur suppression en écrivant à ocstkampuntin@gmail.com.
+      leur suppression en écrivant à jesko.dorner@gmail.com (qui gère ce site) ou à
+      ocstkampuntin@gmail.com.
 # Erscheint nur, wenn in _config.yml "goatcounter" eingetragen ist
 analytics:
   title: Statistiques de fréquentation
