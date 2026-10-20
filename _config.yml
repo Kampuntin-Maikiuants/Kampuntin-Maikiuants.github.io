@@ -58,7 +58,7 @@ webmaster:
 
 # Besucherstatistik mit GoatCounter (kostenlos, ohne Cookies): Kontonamen eintragen,
 # z. B. goatcounter: "kampuntin" für https://kampuntin.goatcounter.com – leer = aus.
-goatcounter: ""
+goatcounter: "jeskodor"
 
 # Versionsnummer für Fotos: nach dem Austausch von Bildern (gleicher Dateiname) um 1 erhöhen,
 # damit Browser nicht die alte, zwischengespeicherte Fassung zeigen.
