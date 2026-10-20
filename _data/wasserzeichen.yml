@@ -1,0 +1,20 @@
+# Fotos mit Wasserzeichen „© Jesko Dorner“ (unten links im Bild)
+# ------------------------------------------------------------------
+# Die Website schneidet Fotos für Kacheln und Karten zu. Diese Fotos werden dabei links unten
+# ausgerichtet, damit das Wasserzeichen immer ganz sichtbar bleibt. Neues Foto mit Wasserzeichen?
+# Pfad hier eintragen. (Ganze Galerie-Alben: Ordnername unter "albums".)
+
+images:
+  - /assets/img/fotos/maikiuants.jpg
+  - /assets/img/fotos/jea.jpg
+  - /assets/img/fotos/jea-dormitorio.jpg
+  - /assets/img/fotos/jea-cocina.jpg
+  - /assets/img/fotos/jea-cocinar.jpg
+  - /assets/img/fotos/jea-rio.jpg
+  - /assets/img/fotos/jea-ropa.jpg
+  - /assets/img/fotos/estacion-meteorologica.jpg
+  - /assets/img/fotos/tour-popup.jpg
+
+# Bei Headern, Froschfotos, Buchseiten und Galerie-Titelbildern ist der Ausschnitt wichtiger als das
+# Wasserzeichen – diese stehen deshalb bewusst nicht in der Liste.
+albums: []

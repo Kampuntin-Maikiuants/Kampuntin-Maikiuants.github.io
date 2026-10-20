@@ -589,9 +589,7 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 @media (min-width: 860px) {
   .split--location { align-items: end; }
   .map-figure--region { position: relative; max-width: 68%; }
-  .map-figure--region figcaption { position: absolute; top: 100%; left: 0; width: 147%; }
 }
-.map-figure--region figcaption { margin-top: .5rem; font-size: .85rem; color: var(--muted); }
 .map--region { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); background: #f1ebdf; }
 .mr__land { fill: #f1ebdf; }
 .mr__park { fill: #dde7cb; stroke: #9ab46f; stroke-width: 1.5; stroke-dasharray: 6 4; }
@@ -821,3 +819,12 @@ a.album__cover:hover img { transform: scale(1.04); }
 .credit-card a { word-break: break-all; }
 .credits__note { margin: 1.25rem 0 0; font-size: .92rem; color: var(--muted); }
 .credits__note--strong { margin-top: .4rem; color: var(--ink); }
+
+/* Fotos mit Wasserzeichen (Liste: _data/wasserzeichen.yml): beim Zuschneiden links unten ausrichten,
+   damit „© Jesko Dorner“ immer ganz sichtbar bleibt */
+img.wm { object-position: 0 100% !important; }
+.page-hero__tag {
+  position: absolute; left: max(var(--gutter), calc((100% - var(--container)) / 2 + var(--gutter))); bottom: calc(var(--hero-fade) + .4rem); z-index: 1;
+  color: #fff; font: 500 .8rem/1 "Avenir Next", var(--font-sans); letter-spacing: .01em; opacity: .9;
+  text-shadow: 0 1px 2px rgb(0 0 0 / .6);
+}

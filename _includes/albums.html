@@ -61,7 +61,7 @@
   {%- if meta.cover and meta.cover != "" -%}{%- assign al_cover = al_needle | append: meta.cover -%}{%- endif %}
   <article class="album">
     <a class="album__cover" href="{{ al_cover | relative_url }}" data-lightbox data-album="{{ folder }}" data-caption="{{ al_title | escape }}">
-      <img src="{{ al_cover | relative_url }}" alt="{{ al_title | escape }}" loading="lazy" decoding="async">
+      <img{% if site.data.wasserzeichen.albums contains folder %} class="wm"{% endif %} src="{{ al_cover | relative_url }}" alt="{{ al_title | escape }}" loading="lazy" decoding="async">
       <span class="album__count">{{ al_photos.size }} {{ al_ui.photos }}</span>
     </a>
     <div class="album__body">
