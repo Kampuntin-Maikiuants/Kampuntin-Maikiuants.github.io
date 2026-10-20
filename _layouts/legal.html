@@ -2,7 +2,8 @@
 layout: default
 ---
 {%- assign t = site.data[page.lang].legal -%}
-<div class="page-hero page-hero--small">
+<div class="page-hero page-hero--small has-illustration">
+  <img class="page-hero__bg" src="{{ '/assets/img/ilustraciones/detalle-1.jpg' | relative_url }}" alt="">
   <div class="container page-hero__inner">
     <h1>{{ t.title }}</h1>
   </div>

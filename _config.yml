@@ -62,7 +62,7 @@ goatcounter: ""
 
 # Versionsnummer für Fotos: nach dem Austausch von Bildern (gleicher Dateiname) um 1 erhöhen,
 # damit Browser nicht die alte, zwischengespeicherte Fassung zeigen.
-image_version: 3
+image_version: 6
 
 background_pattern: true
 

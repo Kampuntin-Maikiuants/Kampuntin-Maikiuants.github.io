@@ -98,7 +98,7 @@ animals:
     name: Atelopus sp.
     images:
       - { image: /assets/img/fotos/atelopus.jpg, alt: Grenouille Atelopus jaune et noire sur de la mousse }
-      - { image: /assets/img/fotos/atelopus-2.jpg, alt: Grenouille Atelopus jaune et noire sur une fougère }
+      - { image: /assets/img/fotos/atelopus-2.jpg, alt: Grenouille Atelopus vue de dessous, dans la main d’un guide }
     text: |-
       Toutes les espèces du genre *Atelopus* sont menacées. La grenouille *Atelopus sp.* est en
       danger, principalement à cause de la perte de son habitat naturel. Maikiuants est l’un des
