@@ -23,20 +23,15 @@ contact:
   whatsapp: "593980154335"         # Haupt-WhatsApp für die Buttons (ohne + und Leerzeichen)
   # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
   people:
-    - name: Freddy Ankuash
-      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination, fr: Coordination des tours et du bénévolat }
-      whatsapp: "593980154335"
-      phone: "+593 98 015 4335"
-    - name: Minki Ankuash
-      role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador, fr: Contact pour les visiteurs d’Équateur }
-      whatsapp: "593969669760"
-      phone: "+593 96 966 9760"
-      email: "ocstkampuntin@gmail.com"
     - name: Julien Shakaim
       role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"
       email: "jdefourny.explore@gmail.com"
+    - name: Freddy Ankuash
+      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination, fr: Coordination des tours et du bénévolat }
+      whatsapp: "593980154335"
+      phone: "+593 98 015 4335"
 
 # --- Soziale Netzwerke (leer lassen = wird nicht angezeigt) --
 social:

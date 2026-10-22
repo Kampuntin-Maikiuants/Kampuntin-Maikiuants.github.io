@@ -12,12 +12,12 @@ hero:
 who:
   title: "We are looking for people who would like to…"
   items:
-    - learn about plants, agroforestry and permaculture,
-    - live in a group and share the tasks,
-    - get to know Shuar culture and life in the rainforest,
-    - spend a lot of time outdoors,
-    - enjoy a slow, calm and flexible day-to-day life,
-    - be open-minded, respectful and flexible.
+    - learn about plants, agroforestry and permaculture
+    - live in a group and share the tasks
+    - get to know Shuar culture and life in the rainforest
+    - spend a lot of time outdoors
+    - enjoy a slow, calm and flexible day-to-day life
+    - be open-minded, respectful and flexible
 
 
 tasks:
@@ -34,7 +34,7 @@ tasks:
     - title: "Minga"
       text: "Community work days in the village of Maikiuants."
     - title: "Your skills"
-      text: "Bring in your own skills, for example sewing, social media or videos, etc. Every impulse is welcome."
+      text: "Bring in your own skills, for example sewing, social media or videos. You can also help with your language, with translations or by teaching languages. Every impulse is welcome."
 
 
 life:
@@ -53,13 +53,13 @@ free_time:
   title: Free time
   text: >-
     In your free time, you can make the most of the area: we can take you on beautiful walks,
-    you can play with the children, take part in pottery-making, make crafts, play music and sing.
+    you can play with the children, take part in pottery-making, make crafts, play music and sing. You can also use your free time to learn, read and meditate.
   quote: It's a place of creativity and freedom where anything is possible.
 
 practical:
   title: Practical information
   items:
-    - { label: Length of stay, value: "At least one month (shorter stays of 2–3 weeks can be arranged) – no maximum" }
+    - { label: Length of stay, value: "At least one month (shorter stays of 2–3 weeks can be arranged) – no upper limit" }
     - { label: Working hours, value: "Flexible, 3–5 h a day, 5 days a week" }
     - label: Food
       value: >-
@@ -68,7 +68,7 @@ practical:
         basics. Also bring extra cash for shopping and the taxi from Limón Indanza. There's a
         solution for everything, and people are always happy to help.
     - { label: Languages, value: "Spanish and Shuar Chicham – hardly any other languages. Basic Spanish helps a lot" }
-    - { label: Arrival, value: "By bus to Limón Indanza, then about 2.5 h by taxi (approx. 50–60 USD) to the community" }
+    - { label: Arrival, value: "By bus to Limón Indanza, then about 2 h 30 by taxi (approx. 60–70 USD) to the community" }
   wwoof: Find us on WWOOF too
 
 apply:
@@ -148,6 +148,6 @@ faq:
         Travel insurance with medical cover is required. Talk to a travel doctor; for the Amazon,
         vaccinations against yellow fever, typhoid, hepatitis A and B and rabies are usually very
         important.
-    - q: Can I come with my partner or friends?
+    - q: Can I come with my partner, family or friends?
       a: >-
         Yes, just write to us early. The lodge has room for 12 people.

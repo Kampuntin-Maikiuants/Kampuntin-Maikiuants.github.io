@@ -11,7 +11,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - **Touren:** Maßgeblich ist Juliens Seite (raices.be/voyages-tout-public), gilt für alle Touren:
   22 Tage ab/bis Cuenca, davon ca. 10 in Maikiuants, danach Cueva de los Tayos und Río Santiago
   (Shuar auf der peruanischen Seite). Preis 3.890 € pro Person. Nicht inklusive: Flüge,
-  Reiseversicherung, Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Keine Anzahlung – Zahlung
+  Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Die Reiseversicherung übernimmt Raíces
+  (laut Freddy, 22.10.; auf Juliens Seite steht noch, dass man sie selbst abschließt). Keine Anzahlung – Zahlung
   und Details nach Vereinbarung. Raíces (Belgien) als Partner, Link zum Tagesprogramm auf der
   Tour-Seite. Termine April 2027 und August/September 2027. Schwerpunkt 2027 „Spiritualität“.
   FAQ zu Sprachen, Sicherheit und Erfahrung.
@@ -39,6 +40,9 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Freie Plätze pflegen:** Wer bei Kampuntin trägt die Plätze ein? Diese Person braucht ein
       GitHub-Konto → im Repository unter Settings → Collaborators einladen → Anleitung im README
       („Guía rápida: actualizar las plazas“). Bis dahin steht bei den Terminen „Plazas a consultar“.
+- [ ] **Gespräch mit Freddy (22.10.), noch offen:** Beim Text über die Shuar nannte er eine
+      Alternative „somos el … de la selva“ (germen? guardián?) – Wortlaut klären. Minki ist von
+      Kontakt- und Team-Seite entfernt. Versicherung mit Julien abgleichen.
 - [ ] **April 2027:** Steht nicht auf Juliens Seite. Gibt es den Termin, und ist er auch die
       22-Tage-Reise ab Cuenca?
 - [x] **Ablauf der Anreise:** geklärt über Juliens Programm (Start in Cuenca, über Limón Indanza

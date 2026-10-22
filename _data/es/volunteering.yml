@@ -12,12 +12,12 @@ hero:
 who:
   title: "Buscamos a personas que quieran…"
   items:
-    - aprender sobre plantas, agroforestería y permacultura,
-    - vivir en grupo y compartir las tareas,
-    - conocer la cultura shuar y la vida en la selva,
-    - pasar mucho tiempo al aire libre,
-    - vivir un día a día lento, tranquilo y flexible,
-    - ser una persona abierta, respetuosa y flexible.
+    - aprender sobre plantas, agroforestería y permacultura
+    - vivir en grupo y compartir las tareas
+    - conocer la cultura shuar y la vida en la selva
+    - pasar mucho tiempo al aire libre
+    - vivir un día a día lento, tranquilo y flexible
+    - ser una persona abierta, respetuosa y flexible
 
 
 tasks:
@@ -34,7 +34,7 @@ tasks:
     - title: "Mingas"
       text: "Jornadas de trabajo comunitario en el pueblo de Maikiuants."
     - title: "Tus habilidades"
-      text: "Aporta tus propias habilidades, por ejemplo costura, redes sociales o videos, etc. Cualquier impulso es bienvenido."
+      text: "Aporta tus propias habilidades, por ejemplo costura, redes sociales o videos. También puedes ayudar con tu idioma, con traducciones o enseñando idiomas. Cualquier impulso es bienvenido."
 
 
 life:
@@ -54,13 +54,13 @@ free_time:
   text: >-
     En tu tiempo libre puedes aprovechar la zona: te llevamos a caminatas preciosas, puedes jugar
     con los niños, participar en la elaboración de cerámica, hacer artesanías, tocar música y
-    cantar.
+    cantar. También puedes aprovechar tu tiempo libre para aprender, leer y meditar.
   quote: Es un lugar de creatividad y libertad donde todo es posible.
 
 practical:
   title: Datos prácticos
   items:
-    - { label: Estancia, value: "Mínimo un mes (estancias más cortas, de 2–3 semanas, se pueden acordar) – sin máximo" }
+    - { label: Estancia, value: "Mínimo un mes (estancias más cortas, de 2–3 semanas, se pueden acordar) – sin límite" }
     - { label: Horario de trabajo, value: "Flexible, 3–5 horas al día, 5 días por semana" }
     - label: Comida
       value: >-
@@ -69,7 +69,7 @@ practical:
         comunidad vende productos básicos. Trae también dinero extra para compras y el taxi desde
         Limón Indanza. Para todo hay solución y la gente está siempre dispuesta a ayudar.
     - { label: Idiomas, value: "Español y shuar chicham, otros idiomas casi no. Un nivel básico de español ayuda mucho" }
-    - { label: Llegada, value: "En bus hasta Limón Indanza y desde allí unas 2,5 h en taxi (aprox. 50–60 USD) hasta la comunidad" }
+    - { label: Llegada, value: "En bus hasta Limón Indanza y desde allí unas 2 h 30 en taxi (aprox. 60–70 USD) hasta la comunidad" }
   wwoof: También nos encuentras en WWOOF
 
 apply:
@@ -149,6 +149,6 @@ faq:
         Un seguro de viaje con cobertura médica es obligatorio. Consulta a un médico de viajes; para
         la Amazonía suelen ser muy importantes las vacunas contra la fiebre amarilla, la fiebre
         tifoidea, la hepatitis A y B y la rabia.
-    - q: ¿Puedo venir con mi pareja o con amigos?
+    - q: ¿Puedo venir con mi pareja, mi familia o con amigos?
       a: >-
         Sí, escríbenos con tiempo. El albergue tiene lugar para 12 personas.
