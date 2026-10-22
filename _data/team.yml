@@ -42,13 +42,13 @@
   photo: ""
   role: { es: "Dueño de la tienda del pueblo", en: "Owner of the village shop", fr: "Propriétaire de la petite épicerie du village" }
   bio:
-    es: "Tiene la pequeña tienda del pueblo y apoya las excursiones y las visitas guiadas por el pueblo."
-    en: "Runs the small shop in the village and supports the excursions and village tours."
-    fr: "Tient la petite épicerie du village et soutient les excursions et les visites du village."
+    es: "Tiene la pequeña tienda del pueblo y ayuda solo con las visitas guiadas por el pueblo."
+    en: "Runs the small shop in the village and only helps with the village tours."
+    fr: "Tient la petite épicerie du village et aide uniquement pour les visites du village."
   details:
-    es: "Marcos es dueño de la pequeña tienda del pueblo. Apoya las excursiones y guía visitas por el pueblo."
-    en: "Marcos owns the small shop in the village. He supports the excursions and leads village tours."
-    fr: "Marcos tient la petite épicerie du village. Il soutient les excursions et guide les visites du village."
+    es: "Marcos es dueño de la pequeña tienda del pueblo. Solo ayuda con las visitas guiadas por el pueblo."
+    en: "Marcos owns the small shop in the village. He only helps with the village tours."
+    fr: "Marcos tient la petite épicerie du village. Il aide uniquement pour les visites du village."
 
 - name: "Eddy Ankuash"
   group: kampuntin
