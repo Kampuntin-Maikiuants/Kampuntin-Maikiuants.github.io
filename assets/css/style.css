@@ -240,6 +240,8 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .section--forest a:not(.btn) { color: #f0c7a4; }
 .section-title { margin-bottom: .5rem; }
 .section-intro { color: var(--muted); max-width: 62ch; margin-bottom: 2rem; }
+.section-intro p { margin: 0 0 1rem; }
+.section-intro p:last-child { margin-bottom: 0; }
 .section--forest .section-intro { color: var(--on-dark-muted); }
 .section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 2rem; margin-bottom: 1.5rem; }
 .section-head .section-title { margin: 0; }
@@ -270,7 +272,7 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow-lg);
 }
-.fact { position: relative; flex: 1 1 0; padding: 1.3rem .75rem 1.2rem; text-align: center; }
+.fact { position: relative; flex: 1 1 0; padding: 1.3rem .75rem 1.2rem; text-align: center; display: flex; flex-direction: column; justify-content: center; }
 .fact + .fact::before { content: ""; position: absolute; left: 0; top: 25%; bottom: 25%; width: 1px; background: var(--line); }
 .fact strong { display: block; font-family: var(--font-serif); font-size: clamp(1.35rem, 2.2vw, 1.75rem); font-weight: 600; color: var(--clay); line-height: 1.1; margin-bottom: .3rem; }
 .fact span { display: block; color: var(--clay); font-size: .82rem; font-weight: 600; line-height: 1.3; }
@@ -841,10 +843,7 @@ img.wm { object-position: 0 100% !important; }
 .exp-card--small { max-width: 620px; }
 .exp-note { margin-top: 1rem !important; font-size: .92rem; color: var(--muted); }
 
-/* ---------- Team: Details zum Aufklappen, Link zur Kontaktseite ---------- */
-.person__more { text-align: left; margin-top: .7rem; }
-.person__more summary { cursor: pointer; color: var(--clay-dark); font-weight: 650; font-size: .92rem; }
-.person__more p { margin-top: .4rem; color: var(--muted); font-size: .95rem; }
+/* ---------- Team: Link zur Kontaktseite ---------- */
 .person__contact { display: inline-block; margin-top: .8rem; font-size: .92rem; }
 
 /* ---------- Credits: dezent, ohne Fotos ---------- */

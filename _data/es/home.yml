@@ -38,9 +38,14 @@ about:
 # PLATZHALTER – die Mission wird noch genauer ausformuliert
 mission:
   title: La misión de Kampuntin
-  intro: >-
-    Kampuntin es la organización comunitaria de turismo de Maikiuants. Recibimos visitantes
-    porque queremos proteger lo que tenemos y compartirlo.
+  intro: |-
+    La Organización Comunitaria de Servicios Turísticos KAMPUNTIN, Selva Mi Destino, tiene como objetivo preservar la cultura, las costumbres y la sabiduría ancestral del pueblo Shuar, promoviendo un intercambio cultural basado en el respeto, la identidad y la naturaleza.
+
+    Nuestros principios se fundamentan en la protección de la Amazonía, la conservación de la selva, la transmisión de conocimientos a las nuevas generaciones y al mundo, y el fortalecimiento de una economía sostenible y sustentable que beneficie a las familias de la comunidad Maikiuants.
+
+    En Kampuntin, no se trata solamente de turismo, sino de compartir nuestra identidad, defender nuestro territorio y construir un futuro con dignidad, cultura y armonía con la naturaleza.
+
+    **KAMPUNTIN – SELVA MI DESTINO**<br>Desarrollo económico con identidad, respeto a la naturaleza y orgullo de ser Shuar.
   items:
     - title: Cuidar y monitorear la selva
       text: >-

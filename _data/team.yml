@@ -1,5 +1,5 @@
 # Personen auf der Seite „Equipo / People“
-# group: kampuntin (Organisationsteam) oder community. "details" erscheint beim Aufklappen.
+# group: kampuntin (Organisationsteam) oder community. "details" (optional) ist die ausführliche Beschreibung und ersetzt auf der Seite die kurze "bio".
 # photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
 # shuar_name: optional, Shuar-Name unter dem Namen.
 # Keine Telefonnummern oder E-Mails hier – die Seite verlinkt auf die Kontaktseite.
@@ -63,7 +63,7 @@
     en: "Eddy owns a sawmill and grows bananas, cassava and sugarcane on his plantations. Visitors and volunteers can harvest together with him."
     fr: "Eddy possède une scierie et cultive bananes, manioc et canne à sucre dans ses plantations. Les visiteurs et les bénévoles peuvent récolter avec lui."
 
-- name: "Jessica [Apellido]"
+- name: "Jessica"
   group: kampuntin
   photo: ""
   role: { es: "Voluntaria y parte de la comunidad", en: "Volunteer and community member", fr: "Bénévole et membre de la communauté" }

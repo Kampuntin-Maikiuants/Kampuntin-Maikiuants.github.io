@@ -38,9 +38,14 @@ about:
 # PLACEHOLDER – the mission will be worded in more detail later
 mission:
   title: Kampuntin's mission
-  intro: >-
-    Kampuntin is the community tourism organisation of Maikiuants. We welcome visitors because
-    we want to protect what we have and share it.
+  intro: |-
+    The Community Tourism Services Organization KAMPUNTIN, Selva Mi Destino, aims to preserve the culture, customs and ancestral wisdom of the Shuar people, promoting a cultural exchange based on respect, identity and nature.
+
+    Our principles are based on protecting the Amazon, conserving the rainforest, passing knowledge on to the new generations and to the world, and strengthening a sustainable economy that benefits the families of the Maikiuants community.
+
+    At Kampuntin, it is not only about tourism. It is about sharing our identity, defending our territory and building a future with dignity, culture and harmony with nature.
+
+    **KAMPUNTIN – SELVA MI DESTINO**<br>Economic development with identity, respect for nature and pride in being Shuar.
   items:
     - title: Care for and monitor the rainforest
       text: >-
