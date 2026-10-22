@@ -8,7 +8,7 @@
 - name: "Freddy Ankuash"
   shuar_name: "Nenkas Chicham"
   group: kampuntin
-  photo: ""
+  photo: "/assets/img/equipo/freddy.jpg"
   role: { es: "Dirección de Kampuntin y coordinación", en: "Head of Kampuntin and coordination", fr: "Direction de Kampuntin et coordination" }
   bio:
     es: "Coordina a los voluntarios y a los grupos, y planifica las excursiones."
@@ -30,7 +30,7 @@
 
 - name: "Marcos Ankuash"
   group: kampuntin
-  photo: ""
+  photo: "/assets/img/equipo/marcos.jpg"
   role: { es: "Dueño de la tienda del pueblo", en: "Owner of the village shop", fr: "Propriétaire de la petite épicerie du village" }
   bio:
     es: "Tiene la pequeña tienda del pueblo y ayuda solo con las visitas guiadas por el pueblo."
@@ -56,7 +56,7 @@
 
 - name: "Jessica"
   group: kampuntin
-  photo: ""
+  photo: "/assets/img/equipo/jessica.jpg"
   role: { es: "Voluntaria y parte de la comunidad", en: "Volunteer and community member", fr: "Bénévole et membre de la communauté" }
   bio:
     es: "Vive con los grupos de voluntarios y ayuda en los tours."
