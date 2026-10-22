@@ -59,7 +59,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 ### Organisation & Team
 - [ ] **Anerkennung 2023:** Von welcher Behörde (im Interview unklar, klang wie „ASEP“)? Hat
       Kampuntin eine Registriernummer (RUC) fürs Impressum?
-- [ ] **Directiva:** Wer ist Gerente, Secretario und Contador?
+- [ ] **Directiva:** Secretario ist Eddy, Tesorero ist Marcos (22.10.). Wer ist Gerente?
 - [ ] **Marcos und Eddy Ankuash:** Rollen, 1–2 Sätze, quadratisches Foto – mit Einverständnis
 - [ ] **Jessica:** Nachname, Rolle, 1–2 Sätze, Foto – mit Einverständnis
 - [ ] **Numi:** Schreibweise prüfen – „Numi“ oder „Nemi“? (beides kam vor). Passt „Guía · naturaleza“?
@@ -126,7 +126,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 5. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
 6. ¿Quieren que Raíces aparezca en la página (logo, enlace)?
 7. ¿Qué institución reconoció a Kampuntin en 2023? ¿Tienen RUC?
-8. ¿Quiénes son el gerente, el secretario y el contador?
+8. ¿Quién es el gerente? (Secretario: Eddy, tesorero: Marcos)
 9. ¿Cuáles son los roles de Marcos y Eddy, y los apellidos y roles de Jessica y Numi? ¿Nos pueden enviar una foto y una o dos frases de cada uno (con su permiso)?
 10. ¿Cuál es el correo oficial de Kampuntin: ocstkampuntin@gmail.com u otro?
 11. ¿Cómo se llama exactamente la cooperación internacional de Inglaterra que apoya la investigación de la rana?

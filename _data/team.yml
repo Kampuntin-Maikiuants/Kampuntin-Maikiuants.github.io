@@ -21,7 +21,7 @@
 
 - name: "Julien Shakaim"
   group: kampuntin
-  photo: ""
+  photo: "/assets/img/equipo/julien.jpg"
   role: { es: "Contacto para visitantes internacionales", en: "Contact for international visitors", fr: "Contact pour les visiteurs internationaux" }
   bio:
     es: "Tu contacto si vienes desde el extranjero."
@@ -31,20 +31,20 @@
 - name: "Marcos Ankuash"
   group: kampuntin
   photo: "/assets/img/equipo/marcos.jpg"
-  role: { es: "Dueño de la tienda del pueblo", en: "Owner of the village shop", fr: "Propriétaire de la petite épicerie du village" }
+  role: { es: "Tesorero de Kampuntin", en: "Treasurer of Kampuntin", fr: "Trésorier de Kampuntin" }
   bio:
-    es: "Tiene la pequeña tienda del pueblo y ayuda solo con las visitas guiadas por el pueblo."
-    en: "Runs the small shop in the village and only helps with the village tours."
-    fr: "Tient la petite épicerie du village et aide uniquement pour les visites du village."
+    es: "Tiene la pequeña tienda del pueblo y ayuda con las visitas guiadas por el pueblo."
+    en: "Runs the small shop in the village and helps with the village tours."
+    fr: "Tient la petite épicerie du village et aide pour les visites du village."
   details:
-    es: "Marcos es dueño de la pequeña tienda del pueblo. Solo ayuda con las visitas guiadas por el pueblo."
-    en: "Marcos owns the small shop in the village. He only helps with the village tours."
-    fr: "Marcos tient la petite épicerie du village. Il aide uniquement pour les visites du village."
+    es: "Marcos es dueño de la pequeña tienda del pueblo y ayuda con las visitas guiadas por el pueblo."
+    en: "Marcos owns the small shop in the village and helps with the village tours."
+    fr: "Marcos tient la petite épicerie du village et aide pour les visites du village."
 
 - name: "Eddy Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: "Dueño de un aserradero y de plantaciones", en: "Owner of a sawmill and of plantations", fr: "Propriétaire d’une scierie et de plantations" }
+  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }
   bio:
     es: "Tiene un aserradero y cultiva plátano, yuca y caña de azúcar, que cosechamos juntos."
     en: "Runs a sawmill and grows bananas, cassava and sugarcane, which we harvest together."
