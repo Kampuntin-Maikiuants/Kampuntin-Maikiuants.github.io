@@ -36,8 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!link) return;
       e.preventDefault();
       // Album: alle Fotos desselben Albums (auch die versteckten), sonst alle sichtbaren Fotos
+      // Album: nach Dateinummer sortieren, damit die Zählung (z. B. 12 / 14) zur Nummer im Dateinamen passt
       list = link.dataset.album
         ? $$(`a[data-lightbox][data-album="${CSS.escape(link.dataset.album)}"]`)
+            .sort((a, b) => a.getAttribute('href').localeCompare(b.getAttribute('href'), undefined, { numeric: true }))
         : $$('a[data-lightbox]').filter((a) => !a.closest('[hidden]'));
       show(list.indexOf(link));
       lightbox.showModal();

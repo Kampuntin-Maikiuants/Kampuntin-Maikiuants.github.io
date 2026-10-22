@@ -10,7 +10,7 @@
 
 - folder: 10-caminatas-por-la-selva
   title: { es: "Caminatas por la selva", en: "Walks in the rainforest", fr: "Randonnées dans la forêt" }
-  cover: "009.jpg"
+  cover: "008.jpg"
 
 - folder: 09-plantas-y-cuidado-natural
   title: { es: "Plantas y cuidado natural", en: "Plants and natural care", fr: "Plantes et soins naturels" }
@@ -18,7 +18,7 @@
 
 - folder: 08-cocina-tradicional
   title: { es: "Cocina tradicional", en: "Traditional cooking", fr: "Cuisine traditionnelle" }
-  cover: "011.jpg"
+  cover: "012.jpg"
 
 - folder: 07-ceramica-y-artesania
   title: { es: "Cerámica y artesanía", en: "Pottery and handicrafts", fr: "Poterie et artisanat" }
