@@ -66,6 +66,23 @@ quote:
   source: ""
 
 
+# Project: cultural and science house (images: visualisations by the Universidad del Azuay)
+culture_house:
+  eyebrow: Project
+  title: Cultural and science house
+  text: >-
+    A cultural and science house will be built in Maikiuants: a place where both science and Shuar
+    culture are shown and preserved. It will be built in stages and include a museum,
+    laboratories, an education centre, offices, dormitories and accommodation for scientists, a
+    dining room with kitchen and dry toilets.
+  note: "Visualisations of the project: Universidad del Azuay – Consultora de Arquitectura y Urbanismo."
+  images:
+    - { image: /assets/img/casa-cultural/casa-cultural-1.jpg, alt: "Visualisation: aerial view of the laboratories, the accommodation for scientists and the round house with a thatched roof" }
+    - { image: /assets/img/casa-cultural/casa-cultural-3.jpg, alt: "Visualisation: the central square with the museum, the offices and the education centre" }
+    - { image: /assets/img/casa-cultural/casa-cultural-2.jpg, alt: "Visualisation: dormitories, dining room with kitchen and dry toilet in the middle of the rainforest" }
+    - { image: /assets/img/casa-cultural/casa-cultural-4.jpg, alt: "Visualisation: visitors and community members in front of the wooden buildings" }
+    - { image: /assets/img/casa-cultural/casa-cultural-5.jpg, alt: "Visualisation: path between the wooden buildings and the round house" }
+
 location:
   title: Where we are
   text: >-

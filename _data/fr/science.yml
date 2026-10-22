@@ -66,10 +66,6 @@ methods:
       text: >-
         Bientôt : une station dédiée pour stocker, traiter et analyser les données du suivi
         directement à Maikiuants.
-    - title: Maison culturelle et scientifique
-      text: >-
-        Une maison culturelle et scientifique sera construite à Maikiuants : un espace
-        d’exposition où la science et la culture shuar sont présentées et conservées.
 
 field:
   title: Travail de terrain
@@ -97,6 +93,14 @@ animals:
     note: Catégories de menace selon notre panneau d’information.
     also: "Également enregistrés : margay, tayra, ocelot, écureuil amazonien et faux vampire, entre autres."
     sensitive: Pour les protéger, nous ne publions jamais la localisation exacte des espèces sensibles.
+    more_title: Autres images de nos pièges photographiques
+    more_photos:
+      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Piège photographique, juin 2025" }
+      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Piège photographique, juin 2025" }
+      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Piège photographique, juin 2025" }
+      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Piège photographique de nuit, novembre 2025" }
+      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Piège photographique de nuit, novembre 2025" }
+      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Piège photographique de nuit, novembre 2025" }
 
   atelopus:
     title: "Une grenouille très particulière : Atelopus sp."
@@ -119,6 +123,7 @@ animals:
     images:
       - { image: /assets/img/fotos/rana-nueva.jpg, alt: Le crapaud de Maikiuants qui pourrait être une nouvelle espèce }
       - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: Le crapaud dans un sac d’échantillonnage pendant le suivi }
+      - { image: /assets/img/fotos/rana-nueva-3.jpg, alt: Le crapaud sur une pierre, photographié pendant le suivi }
     text: |-
       Le **19 juin 2024**, lors d’une sortie de suivi, les paraécologues ont trouvé un crapaud de
       la famille des *Bufonidae* aux caractéristiques très inhabituelles. Tout porte à croire qu’il

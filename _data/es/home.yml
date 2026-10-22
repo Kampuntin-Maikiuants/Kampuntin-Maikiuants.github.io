@@ -66,6 +66,23 @@ quote:
   source: ""
 
 
+# Proyecto: casa cultural y científica (imágenes: visualizaciones de la Universidad del Azuay)
+culture_house:
+  eyebrow: Proyecto
+  title: Casa cultural y científica
+  text: >-
+    En Maikiuants se construirá una casa cultural y científica: un lugar donde se muestran y se
+    conservan tanto la ciencia como la cultura shuar. Se construirá por etapas e incluirá un
+    museo, laboratorios, un centro educativo, oficinas, dormitorios y alojamiento para
+    científicos, un comedor con cocina y baños secos.
+  note: "Visualizaciones del proyecto: Universidad del Azuay – Consultora de Arquitectura y Urbanismo."
+  images:
+    - { image: /assets/img/casa-cultural/casa-cultural-1.jpg, alt: "Visualización: vista aérea de los laboratorios, el alojamiento para científicos y la casa redonda con techo de paja" }
+    - { image: /assets/img/casa-cultural/casa-cultural-3.jpg, alt: "Visualización: la plaza central con el museo, las oficinas y el centro educativo" }
+    - { image: /assets/img/casa-cultural/casa-cultural-2.jpg, alt: "Visualización: dormitorios, comedor con cocina y baño seco en medio de la selva" }
+    - { image: /assets/img/casa-cultural/casa-cultural-4.jpg, alt: "Visualización: visitantes y miembros de la comunidad frente a los edificios de madera" }
+    - { image: /assets/img/casa-cultural/casa-cultural-5.jpg, alt: "Visualización: camino entre los edificios de madera y la casa redonda" }
+
 location:
   title: Dónde estamos
   text: >-

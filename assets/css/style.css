@@ -843,6 +843,19 @@ img.wm { object-position: 0 100% !important; }
 .exp-card--small { max-width: 620px; }
 .exp-note { margin-top: 1rem !important; font-size: .92rem; color: var(--muted); }
 
+/* ---------- Startseite: Kultur- und Wissenschaftshaus (großes Bild + vier kleine) ---------- */
+.photo-grid--feature { grid-template-columns: repeat(2, 1fr); }
+.photo-grid--feature .photo-grid__item:first-child { grid-column: 1 / -1; }
+@media (min-width: 760px) {
+  .photo-grid--feature { grid-template-columns: repeat(4, 1fr); }
+  .photo-grid--feature .photo-grid__item:first-child { grid-column: span 2; grid-row: span 2; }
+  .photo-grid--feature .photo-grid__item:first-child a, .photo-grid--feature .photo-grid__item:first-child img { height: 100%; }
+}
+.section--forest .source-note { color: var(--on-dark-muted); border-color: rgb(255 255 255 / .15); }
+/* Zweispaltiges Fotoraster: ein einzelnes letztes Bild (z. B. Querformat) über die ganze Breite */
+.photo-grid--2 .photo-grid__item:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.photo-grid--2 .photo-grid__item:last-child:nth-child(odd) img { aspect-ratio: 16 / 9; }
+
 /* ---------- Tour: Hinweis auf die längere Reise von Raíces ---------- */
 .partner-trip { margin-top: 2.5rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; }
 .partner-trip > div { flex: 1 1 420px; }

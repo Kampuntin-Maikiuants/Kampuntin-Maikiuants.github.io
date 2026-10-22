@@ -44,6 +44,19 @@ layout: default
   </div>
 </section>
 
+{%- assign ch = t.culture_house %}
+{%- if ch %}
+<section class="section section--forest culture-house" id="casa-cultural">
+  <div class="container">
+    <p class="eyebrow">{{ ch.eyebrow }}</p>
+    <h2 class="section-title">{{ ch.title }}</h2>
+    <div class="section-intro">{{ ch.text | markdownify }}</div>
+    {% include photo-grid.html photos=ch.images group="casa-cultural" class="photo-grid--feature" %}
+    {%- if ch.note %}<p class="source-note">{{ ch.note }}</p>{% endif %}
+  </div>
+</section>
+{%- endif %}
+
 <section class="section">
   <div class="container split split--media split--location">
     <div class="prose">

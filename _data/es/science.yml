@@ -63,10 +63,6 @@ methods:
       text: >-
         Próximamente: una estación propia para guardar, procesar y analizar los datos del
         monitoreo directamente en Maikiuants.
-    - title: Casa cultural y científica
-      text: >-
-        En Maikiuants se construirá una casa cultural y científica: un espacio de exposición
-        donde se muestran y se conservan tanto la ciencia como la cultura shuar.
 
 field:
   title: Trabajo de campo
@@ -94,6 +90,14 @@ animals:
     note: Categorías de amenaza según nuestro panel informativo.
     also: "También registrados: margay, tayra, ocelote, ardilla amazónica y falso vampiro, entre otros."
     sensitive: Para protegerlas, no publicamos ubicaciones exactas de especies sensibles.
+    more_title: Más registros de las cámaras trampa
+    more_photos:
+      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Registro de cámara trampa, junio de 2025" }
+      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Registro de cámara trampa, junio de 2025" }
+      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Registro de cámara trampa, junio de 2025" }
+      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
+      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
+      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
 
   atelopus:
     title: "Una rana muy especial: Atelopus sp."
@@ -116,6 +120,7 @@ animals:
     images:
       - { image: /assets/img/fotos/rana-nueva.jpg, alt: La rana de Maikiuants que podría ser una especie nueva }
       - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: La rana en una bolsa de muestreo durante el monitoreo }
+      - { image: /assets/img/fotos/rana-nueva-3.jpg, alt: La rana sobre una piedra, fotografiada durante el monitoreo }
     text: |-
       El **19 de junio de 2024**, durante el monitoreo, los paraecólogos encontraron una rana de la
       familia de los sapos (*Bufonidae*) con características muy inusuales. Todo indica que se trata

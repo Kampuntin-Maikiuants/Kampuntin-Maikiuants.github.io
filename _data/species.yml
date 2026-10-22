@@ -16,7 +16,11 @@
   name: { es: Oso andino, en: Andean bear, fr: Ours à lunettes }
   status: EN
   image: /assets/img/especies/oso-andino.jpg
-  snapshots: []
+  snapshots:
+    - { image: /assets/img/especies/oso-andino-camara-1.jpg, alt: { es: "Oso andino en el bosque, frente a la cámara trampa", en: "Andean bear in the forest, in front of the camera trap", fr: "Ours à lunettes en forêt, devant le piège photographique" } }
+    - { image: /assets/img/especies/oso-andino-camara-2.jpg, alt: { es: "Oso andino acercándose a la cámara trampa", en: "Andean bear approaching the camera trap", fr: "Ours à lunettes s’approchant du piège photographique" } }
+    - { image: /assets/img/especies/oso-andino-camara-3.jpg, alt: { es: "Oso andino de cerca", en: "Andean bear up close", fr: "Ours à lunettes de près" } }
+    - { image: /assets/img/especies/oso-andino-camara-4.jpg, alt: { es: "Oso andino cruzando el bosque", en: "Andean bear crossing the forest", fr: "Ours à lunettes traversant la forêt" } }
 - latin: Puma concolor
   name: { es: Puma, en: Puma, fr: Puma }
   status: EN

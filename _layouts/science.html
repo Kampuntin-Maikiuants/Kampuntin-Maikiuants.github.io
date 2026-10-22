@@ -80,6 +80,10 @@ layout: default
       {%- endfor %}
     </div>
     <p class="note">{{ a.threatened.also }}<br><strong>{{ a.threatened.sensitive }}</strong></p>
+    {%- if a.threatened.more_photos %}
+    <h3 class="subsection-title subsection">{{ a.threatened.more_title }}</h3>
+    {% include photo-grid.html photos=a.threatened.more_photos group="camaras" %}
+    {%- endif %}
 
     {%- assign frogs = "atelopus frog" | split: " " %}
     {%- for key in frogs %}

@@ -62,10 +62,6 @@ methods:
       text: >-
         Coming soon: a dedicated station to store, process and analyse monitoring data right here
         in Maikiuants.
-    - title: Cultural and science house
-      text: >-
-        A cultural and science house will be built in Maikiuants: an exhibition space where both
-        science and Shuar culture are shown and preserved.
 
 field:
   title: Fieldwork
@@ -93,6 +89,14 @@ animals:
     note: Threat categories according to our information board.
     also: "Also recorded: margay, tayra, ocelot, Amazon squirrel and spectral bat, among others."
     sensitive: To protect them, we never publish exact locations of sensitive species.
+    more_title: More from our camera traps
+    more_photos:
+      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Camera trap recording, June 2025" }
+      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Camera trap recording, June 2025" }
+      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Camera trap recording, June 2025" }
+      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Night-time camera trap recording, November 2025" }
+      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Night-time camera trap recording, November 2025" }
+      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Night-time camera trap recording, November 2025" }
 
   atelopus:
     title: "A very special frog: Atelopus sp."
@@ -115,6 +119,7 @@ animals:
     images:
       - { image: /assets/img/fotos/rana-nueva.jpg, alt: The Maikiuants frog that could be a new species }
       - { image: /assets/img/fotos/rana-nueva-2.jpg, alt: The frog in a sampling bag during monitoring }
+      - { image: /assets/img/fotos/rana-nueva-3.jpg, alt: The frog on a stone, photographed during monitoring }
     text: |-
       On **19 June 2024**, during monitoring, the para-ecologists found a frog of the true toad
       family (*Bufonidae*) with very unusual features. Everything suggests it is a **species new to
