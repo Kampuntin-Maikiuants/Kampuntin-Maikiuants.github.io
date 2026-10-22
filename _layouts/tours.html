@@ -62,6 +62,25 @@ layout: default
   </div>
 </section>
 
+{%- if t.why %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ t.why.title }}</h2>
+    <p class="section-intro">{{ t.why.intro }}</p>
+    <div class="grid grid--why">
+      <div class="panel">
+        <h3>{{ t.why.community_title }}</h3>
+        <ul class="checklist">{% for i in t.why.community %}<li>{{ i }}</li>{% endfor %}</ul>
+      </div>
+      <div class="panel">
+        <h3>{{ t.why.you_title }}</h3>
+        <ul class="checklist">{% for i in t.why.you %}<li>{{ i }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
 <section class="section section--alt">
   <div class="container grid grid--3 lists">
     <div class="panel">

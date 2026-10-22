@@ -23,11 +23,15 @@
 - name: "Julien Shakaim"
   group: kampuntin
   photo: "/assets/img/equipo/julien.jpg"
-  role: { es: "Contacto para visitantes internacionales", en: "Contact for international visitors", fr: "Contact pour les visiteurs internationaux" }
+  role: { es: "Fundador de Raíces · guía y traductor", en: "Founder of Raíces · guide and translator", fr: "Fondateur de Raíces · guide et traducteur" }
   bio:
-    es: "Tu contacto si vienes desde el extranjero."
-    en: "Your contact if you are coming from abroad."
-    fr: "Votre contact si vous venez de l’étranger."
+    es: "Fundó la asociación belga Raíces y acompaña los tours como guía y traductor."
+    en: "Founded the Belgian association Raíces and accompanies the tours as guide and translator."
+    fr: "A fondé l’association belge Raíces et accompagne les tours comme guide et traducteur."
+  details:
+    es: "Julien es aventurero, realizador y fotógrafo, y fundó la asociación belga [Raíces](https://www.raices.be/){:target=\"_blank\" rel=\"noopener\"}. Conoció a los shuar en 2017, durante un viaje de cuatro años sin motor por el continente americano, y desde entonces considera a Maikiuants su familia amazónica. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero."
+    en: "Julien is an adventurer, filmmaker and photographer and founded the Belgian association [Raíces](https://www.raices.be/){:target=\"_blank\" rel=\"noopener\"}. He met the Shuar in 2017 during a four-year journey across the Americas without a motor, and has since considered Maikiuants his Amazonian family. He accompanies the tours as guide and translator and is your contact if you are coming from abroad."
+    fr: "Julien est aventurier, réalisateur et photographe, et a fondé l’association belge [Raíces](https://www.raices.be/){:target=\"_blank\" rel=\"noopener\"}. Il a rencontré les Shuar en 2017, lors d’un voyage de quatre ans sans moteur à travers le continent américain, et considère depuis Maikiuants comme sa famille amazonienne. Il accompagne les tours comme guide et traducteur et est votre contact si vous venez de l’étranger."
 
 - name: "Marcos Ankuash"
   group: kampuntin

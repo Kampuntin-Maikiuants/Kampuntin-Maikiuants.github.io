@@ -37,6 +37,8 @@ intro:
     combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y
     tiempo libre.
 
+    El viaje se llama **Arutam**: para los shuar, Arutam es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza.
+
 
 life:
   title: La vida en la jea
@@ -80,6 +82,24 @@ experience:
   departure: >-
     Al final de la estancia en Maikiuants nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. Después viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
 
+why:
+  title: "¿Por qué este viaje?"
+  intro: No es un viaje turístico, sino una aventura compartida.
+  community_title: Lo que tu viaje aporta a la comunidad
+  community:
+    - "Visibilidad para su difícil situación sociopolítica"
+    - "Apoyo para financiar la defensa del territorio"
+    - "Ingresos propios, independientes de los proyectos del gobierno"
+    - "Orgullo por la identidad shuar, para que los jóvenes mantengan vivo su saber"
+    - "Apoyo a una educación propia"
+    - "Apertura al resto del mundo"
+  you_title: Lo que te llevas
+  you:
+    - "Una reconexión con la naturaleza"
+    - "Una reconexión contigo mismo"
+    - "Nuevas tomas de conciencia"
+    - "Una experiencia de grupo intensa"
+
 included:
   title: "Incluido"
   items:
@@ -98,7 +118,7 @@ included:
 not_included:
   title: "No incluido"
   items:
-    - "Vuelos hasta Cuenca y de regreso"
+    - "Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)"
     - "Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)"
     - "Comidas del día 1 (aprox. 3–10 USD por comida)"
 
@@ -129,7 +149,8 @@ price:
     el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. Organizamos los tours junto con la organización belga
     Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
     apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos
-    personalmente contigo.
+    personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te
+    aconsejamos cómo organizar eventos para recaudarlos.
 
 dates:
   title: Próximas fechas
@@ -149,7 +170,7 @@ booking:
     - title: "Reserva"
       text: "Confirmamos tu reserva y acordamos contigo las fechas, el pago y todos los detalles."
     - title: "Prepárate"
-      text: "Nos alegra recibirte en Cuenca para 22 días transformadores."
+      text: "Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para 22 días transformadores."
 
 
 past:
@@ -164,7 +185,7 @@ faq:
       a: >-
         Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces
         de río, a veces durante varias horas. Para entrar a la Cueva de los Tayos se baja 60 metros
-        con cuerdas, acompañados por guías locales. Si tienes alguna limitación, avísanos y buscamos
+        con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos
         alternativas.
     - q: ¿Hay electricidad, señal de teléfono e internet?
       a: >-
@@ -173,7 +194,7 @@ faq:
     - q: ¿Qué idiomas se hablan?
       a: >-
         En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te
-        acompañan nuestro guía internacional e intérpretes, y siempre encontramos una manera de
+        acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de
         entendernos.
     - q: ¿Es seguro?
       a: >-

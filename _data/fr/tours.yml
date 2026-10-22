@@ -37,6 +37,8 @@ intro:
     fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans
     les potagers, artisanat, cuisine et temps libre.
 
+    Le voyage s’appelle **Arutam** : pour les Shuar, Arutam est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant.
+
 
 life:
   title: La vie dans la jea
@@ -80,6 +82,24 @@ experience:
   departure: >-
     À la fin du séjour à Maikiuants, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Vient ensuite l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
 
+why:
+  title: "Pourquoi ce voyage ?"
+  intro: Ce n’est pas un voyage touristique, mais une aventure partagée.
+  community_title: Ce que votre voyage apporte à la communauté
+  community:
+    - "De la visibilité face à une situation sociopolitique difficile"
+    - "Un soutien pour financer la défense de leur territoire"
+    - "Des revenus propres, indépendants des projets gouvernementaux"
+    - "La fierté de l’identité shuar, pour que les jeunes gardent leur savoir vivant"
+    - "Un soutien à une éducation autonome"
+    - "Une ouverture sur le reste du monde"
+  you_title: Ce que vous emportez
+  you:
+    - "Une reconnexion à la nature"
+    - "Une reconnexion à vous-même"
+    - "Des prises de conscience"
+    - "Une expérience de groupe intense"
+
 included:
   title: "Inclus"
   items:
@@ -98,7 +118,7 @@ included:
 not_included:
   title: "Non inclus"
   items:
-    - "Vols jusqu’à Cuenca et retour"
+    - "Vols jusqu’à Cuenca et retour (nous vous conseillons volontiers)"
     - "Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)"
     - "Repas du 1er jour (env. 3–10 USD par repas)"
 
@@ -129,7 +149,7 @@ price:
     le voyage, guides, interprètes, assurance voyage, sécurité et activités. Nous organisons les tours avec l’organisation belge
     Raíces. Nous rémunérons des guides et des cuisinières de la communauté, achetons la
     nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous
-    les autres détails sont convenus personnellement avec vous.
+    les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
 
 dates:
   title: Prochaines dates
@@ -149,7 +169,7 @@ booking:
     - title: "Réservation"
       text: "Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les détails."
     - title: "Préparez-vous"
-      text: "Nous avons hâte de vous accueillir à Cuenca pour 22 jours transformateurs."
+      text: "Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour 22 jours transformateurs."
 
 
 past:
@@ -165,7 +185,8 @@ faq:
         Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec
         des montées et des traversées de rivière, parfois pendant plusieurs heures. Pour accéder à
         la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux.
-        Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
+        C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de
+        sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
     - q: Y a-t-il de l’électricité, du réseau téléphonique et Internet ?
       a: >-
         La cuisine fonctionne à l’énergie solaire et vous pouvez y recharger votre téléphone. Il n’y
@@ -174,7 +195,7 @@ faq:
     - q: Quelles langues parle-t-on ?
       a: >-
         À Maikiuants, on parle le Shuar Chicham et l’espagnol – presque aucune autre langue.
-        Pendant le tour, notre guide international et des interprètes vous accompagnent, et nous
+        Pendant le tour, Julien, notre guide francophone et traducteur, ainsi que des interprètes de la communauté vous accompagnent, et nous
         trouvons toujours un moyen de nous comprendre.
     - q: Est-ce sûr ?
       a: >-

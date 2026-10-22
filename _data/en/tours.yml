@@ -36,6 +36,8 @@ intro:
     them. We make music together and show you how to play our handmade flutes. The days combine
     forest walks, work in the nursery and gardens, crafts, cooking and free time.
 
+    The journey is called **Arutam**: for the Shuar, Arutam is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature.
+
 
 life:
   title: Life in the jea
@@ -79,6 +81,24 @@ experience:
   departure: >-
     At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
 
+why:
+  title: "Why this journey?"
+  intro: This is not a tourist trip but a shared adventure.
+  community_title: What your journey brings to the community
+  community:
+    - "Visibility for their difficult socio-political situation"
+    - "Support to fund the defence of their territory"
+    - "Their own income, independent of government projects"
+    - "Pride in Shuar identity, so that young people keep their knowledge alive"
+    - "Support for their own education"
+    - "An opening to the rest of the world"
+  you_title: What you take home
+  you:
+    - "A reconnection with nature"
+    - "A reconnection with yourself"
+    - "New insights"
+    - "An intense group experience"
+
 included:
   title: "Included"
   items:
@@ -97,7 +117,7 @@ included:
 not_included:
   title: "Not included"
   items:
-    - "Flights to Cuenca and back"
+    - "Flights to Cuenca and back (we are happy to advise you)"
     - "Taxi between the airport and the hotel in Cuenca (arrival and departure)"
     - "Meals on day 1 (approx. 3–10 USD per meal)"
 
@@ -127,7 +147,7 @@ price:
     All-inclusive for 22 days from Cuenca: accommodation, meals, all transport during the journey,
     guides, translators, travel insurance, safety and activities. We organise the tours together with the Belgian organisation Raíces. We
     pay local guides and cooks, buy food within the community and support Maikiuants
-    financially. Payment and all other details are arranged personally with you.
+    financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 
 dates:
   title: Upcoming dates
@@ -147,7 +167,7 @@ booking:
     - title: "Booking"
       text: "We confirm your booking and arrange the dates, payment and all other details with you."
     - title: "Get ready"
-      text: "We are looking forward to welcoming you in Cuenca for 22 transformational days."
+      text: "Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for 22 transformational days."
 
 
 past:
@@ -162,7 +182,7 @@ faq:
       a: >-
         Good basic fitness is enough. We walk on muddy trails with climbs and river crossings,
         sometimes for several hours. To reach the Cueva de los Tayos there is a 60-metre rope
-        descent with local guides. If you have any limitations, let us know and we will find
+        descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find
         alternatives.
     - q: Is there electricity, phone signal and internet?
       a: >-
@@ -171,7 +191,7 @@ faq:
     - q: Which languages are spoken?
       a: >-
         In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the
-        tour, our international guide and translators accompany you, and we always find a way to
+        tour, Julien, our French-speaking guide and translator, and translators from the community accompany you, and we always find a way to
         understand each other.
     - q: Is it safe?
       a: >-

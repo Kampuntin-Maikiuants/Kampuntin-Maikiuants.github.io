@@ -856,6 +856,10 @@ img.wm { object-position: 0 100% !important; }
 .photo-grid--2 .photo-grid__item:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .photo-grid--2 .photo-grid__item:last-child:nth-child(odd) img { aspect-ratio: 16 / 9; }
 
+/* ---------- Tour: Warum diese Reise (zwei Listen nebeneinander) ---------- */
+.grid--why { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.grid--why .panel h3 { font-size: 1.3rem; margin-bottom: .8rem; }
+
 /* ---------- Tour: Hinweis auf die längere Reise von Raíces ---------- */
 .partner-trip { margin-top: 2.5rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; }
 .partner-trip > div { flex: 1 1 420px; }
