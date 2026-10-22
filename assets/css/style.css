@@ -843,6 +843,13 @@ img.wm { object-position: 0 100% !important; }
 .exp-card--small { max-width: 620px; }
 .exp-note { margin-top: 1rem !important; font-size: .92rem; color: var(--muted); }
 
+/* ---------- Tour: Hinweis auf die längere Reise von Raíces ---------- */
+.partner-trip { margin-top: 2.5rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; }
+.partner-trip > div { flex: 1 1 420px; }
+.partner-trip h3 { margin: 0 0 .4rem; font-size: 1.3rem; }
+.partner-trip p { margin: 0; max-width: 62ch; }
+.partner-trip .partner-trip__meta { margin-top: .6rem; font-weight: 650; font-size: .95rem; color: var(--clay-dark); }
+
 /* ---------- Team: Link zur Kontaktseite ---------- */
 .person__contact { display: inline-block; margin-top: .8rem; font-size: .92rem; }
 

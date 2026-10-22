@@ -120,6 +120,16 @@ layout: default
   <div class="container">
     <h2 class="section-title">{{ t.booking.title }}</h2>
     {% include steps.html steps=t.booking.steps %}
+    {%- if t.partner_trip %}
+    <aside class="panel partner-trip">
+      <div>
+        <h3>{{ t.partner_trip.title }}</h3>
+        <p>{{ t.partner_trip.text }}</p>
+        {%- if t.partner_trip.meta %}<p class="partner-trip__meta">{{ t.partner_trip.meta }}</p>{% endif %}
+      </div>
+      <a class="btn ghost-dark" href="{{ t.partner_trip.url }}" target="_blank" rel="noopener">{{ t.partner_trip.button }} ↗</a>
+    </aside>
+    {%- endif %}
   </div>
 </section>
 

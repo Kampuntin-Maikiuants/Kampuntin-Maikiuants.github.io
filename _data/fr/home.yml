@@ -5,8 +5,8 @@ hero:
   eyebrow: Amazonie équatorienne · Morona Santiago
   title: Kampuntin Maikiuants
   lead: >-
-    Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors d’un tour de
-    dix jours ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
+    Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors d’un voyage de
+    22 jours ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
     scientifique et la mission de Kampuntin.
   image: "/assets/img/ilustraciones/banner-startseite.jpg"
   image_alt: Illustration de plantes de la forêt amazonienne
@@ -73,7 +73,7 @@ location:
     Maikiuants se trouve dans la province de **Morona Santiago**, dans le sud de l’Amazonie
     équatorienne, dans la Cordillera del Cóndor. La route vers Maikiuants part de **Limón
     Indanza** ; de là, il faut compter environ deux heures et demie, généralement en taxi
-    (env. 50–60 USD). Nous accueillons les groupes des tours à Quito et voyageons ensemble jusqu’à
+    (env. 50–60 USD). Les tours commencent à Cuenca, d’où nous voyageons ensemble jusqu’à
     la communauté.
     La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
   coords: 3°07'10.2" S · 78°15'56.4" O
@@ -92,7 +92,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: Dix jours dans la forêt pour des groupes de 12 personnes maximum, en partageant la vie de la communauté.
+      text: 22 jours en territoire shuar pour des groupes de 12 personnes maximum, dont une dizaine de jours à partager la vie de la communauté.
     - ref: volunteering
       title: Bénévolat
       text: Jardinage, agroforesterie, mingas et construction, en vivant dans une jea traditionnelle au cœur de la forêt.
@@ -104,7 +104,7 @@ explore:
 tour_popup:
   eyebrow: Prochain tour
   text: >-
-    Dix jours à vivre avec la communauté shuar de Maikiuants, tout compris. En 2027, avec un accent sur la spiritualité.
+    22 jours en territoire shuar, dont une dizaine de jours dans la communauté de Maikiuants. En 2027, avec un accent sur la spiritualité.
   per: par personne
   button: Voir le tour
   close: Fermer

@@ -12,7 +12,7 @@ hero:
   image_alt: Visitors walking through the rainforest with a guide
 
 facts:
-  - { text: "10 days in the rainforest" }
+  - { text: "22 days, 10 in Maikiuants" }
   - { text: "12 people at most" }
   - { text: "Jea: traditional accommodation" }
   - { text: "Shared meals" }
@@ -24,6 +24,10 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Community members sharing a drink and handicrafts with visitors
   text: |-
+    The journey lasts **22 days**. It starts and ends in Cuenca; at its heart are about ten days
+    with the community in Maikiuants, followed by an expedition to the Cueva de los Tayos and a
+    canoe trip to Shuar communities in Peru.
+
     The community welcomes you for a **cultural exchange**. Together with people from the
     community you share the accommodation in a traditional jea, cook and eat together and learn
     about the rainforest. We have the best shower in the world: the river.
@@ -41,10 +45,10 @@ life:
 
 experience:
   title: "What you can expect from your tour"
-  arrival_title: "Arrival"
+  arrival_title: "Arrival in Cuenca"
   arrival: >-
-    Our international guide welcomes you in Quito. Together we travel by minibus to Cuenca and by taxi to Maikiuants, where the community welcomes us.
-  activities_title: "Activities awaiting you"
+    The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. Via Limón Indanza, where a Shuar shaman leads a purification ceremony, we continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
+  activities_title: "About ten days in Maikiuants"
   activities_note: >-
     The activities depend on the season and the community's schedule. We are happy to hear and include your wishes and interests.
   activities:
@@ -67,18 +71,23 @@ experience:
     - "Cooking traditional Shuar food"
     - "Purification ceremony"
     - "Making handicrafts"
-  departure_title: "Departure"
+    - "Learning how the community defends its territory against mining"
+    - "Setting up a camera trap to observe wildlife"
+    - "A Shuar steam bath with medicinal plants"
+    - "Several days as \"nomads of the jungle\": hikes through the territory and a night in a shelter we build ourselves"
+    - "Farewell party with the community"
+  departure_title: "Cueva de los Tayos, Río Santiago and return"
   departure: >-
-    Last breakfast together, goodbyes and the journey back to Quito with the international guide.
+    After Maikiuants comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
 
 included:
   title: "Included"
   items:
-    - "Transfer from Quito with our international guide (minibus to Cuenca, then taxi to Maikiuants)"
-    - "Accommodation in the jea (bunk beds or a place for your own hammock)"
-    - "All meals for ten days prepared by community cooks"
-    - "Community guides and interpreters"
-    - "All programme activities"
+    - "All transport during the journey from Cuenca: bus, 4×4, boat and traditional canoe"
+    - "Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in communities, in the forest and in the Cueva de los Tayos"
+    - "All meals from day 2; in Maikiuants prepared by community cooks"
+    - "Our international guide and translator, plus community guides"
+    - "All programme activities and ceremonies"
     - "Solar-powered kitchen and electricity"
     - "Free wifi in the village (about a 35-minute walk from the accommodation)"
     - "A river to bathe in"
@@ -88,7 +97,9 @@ included:
 not_included:
   title: "Not included"
   items:
-    - "Flights to Quito"
+    - "Flights to Cuenca and back"
+    - "Taxi between the airport and the hotel in Cuenca (arrival and departure)"
+    - "Meals on day 1 (approx. 3–10 USD per meal)"
     - "Travel insurance with medical cover (required)"
 
 
@@ -110,17 +121,17 @@ packing:
 
 price:
   title: Price
-  amount: "2,000 USD"
-  per: per person, 10 days
+  amount: "€3,890"
+  per: per person, 22 days
   text: >-
-    All-inclusive for ten days: transfer from Quito, accommodation, meals, guides, interpreters,
-    safety and activities. We organise the tours together with the Belgian organisation Raíces. We
+    All-inclusive for 22 days from Cuenca: accommodation, meals, all transport during the journey,
+    guides, translators, safety and activities. We organise the tours together with the Belgian organisation Raíces. We
     pay local guides and cooks, buy food within the community, and 5% of the income goes directly
     to Maikiuants. Payment and all other details are arranged personally with you.
 
 dates:
   title: Upcoming dates
-  intro: Groups of up to 12 people. Exact dates will be confirmed soon – get in touch if you're interested.
+  intro: Groups of up to 12 people. The journey starts and ends in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
   focus_title: "Focus 2027: spirituality"
   focus: >-
     In 2027 our tours focus on spirituality: finding yourself, valuing every moment of life,
@@ -136,7 +147,7 @@ booking:
     - title: "Booking"
       text: "We confirm your booking and arrange the dates, payment and all other details with you."
     - title: "Get ready"
-      text: "We are looking forward to welcoming you in Maikiuants for 10 transformational days."
+      text: "We are looking forward to welcoming you in Cuenca for 22 transformational days."
 
 
 past:
@@ -149,8 +160,10 @@ faq:
   items:
     - q: Do I need to be very fit?
       a: >-
-        Normal fitness is enough. We walk on muddy trails with climbs and river crossings. If you
-        have any limitations, let us know and we will find alternatives.
+        Good basic fitness is enough. We walk on muddy trails with climbs and river crossings,
+        sometimes for several hours. To reach the Cueva de los Tayos there is a 60-metre rope
+        descent with local guides. If you have any limitations, let us know and we will find
+        alternatives.
     - q: Is there electricity, phone signal and internet?
       a: >-
         The kitchen runs on solar power and you can charge your phone there. There's no wifi and no
@@ -158,8 +171,18 @@ faq:
     - q: Which languages are spoken?
       a: >-
         In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the
-        tour, our international guide and interpreters accompany you, and we always find a way to
+        tour, our international guide and translators accompany you, and we always find a way to
         understand each other.
     - q: Is it safe?
       a: >-
         The Maikiuants community is built on trust, and moving around inside the community is safe. On excursions and in the forest you are always with community members who know the region well.
+
+# Info box below "How to book": detailed programme on the Raíces website.
+# Delete the whole block to hide the box.
+partner_trip:
+  title: "The day-by-day programme"
+  text: >-
+    Raíces, Julien's Belgian organisation and our partner for the tours, publishes the detailed
+    day-by-day programme and a PDF of the journey on its website.
+  button: "View the programme on raices.be (in French)"
+  url: "https://www.raices.be/voyages-tout-public/"

@@ -12,7 +12,7 @@ hero:
   image_alt: Des visiteurs marchent dans la forêt avec un guide
 
 facts:
-  - { text: "10 jours dans la forêt" }
+  - { text: "22 jours, dont 10 à Maikiuants" }
   - { text: "12 personnes au maximum" }
   - { text: "Jea : hébergement traditionnel" }
   - { text: "Repas partagés" }
@@ -24,6 +24,10 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Des membres de la communauté partagent une boisson et de l’artisanat avec des visiteurs
   text: |-
+    Le voyage dure **22 jours**. Il commence et se termine à Cuenca ; au cœur du voyage, une
+    dizaine de jours avec la communauté à Maikiuants, suivis d’une expédition à la Cueva de los
+    Tayos et d’un voyage en pirogue vers des communautés shuar du Pérou.
+
     La communauté vous accueille pour un **échange culturel**. Avec des membres de la
     communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez
     ensemble, et découvrez la forêt. Nous avons la meilleure douche du monde : la rivière.
@@ -42,10 +46,10 @@ life:
 
 experience:
   title: "Ce que vous pouvez attendre de votre tour"
-  arrival_title: "Arrivée"
+  arrival_title: "Arrivée à Cuenca"
   arrival: >-
-    Notre guide international vous accueille à Quito. Ensemble, nous prenons un minibus jusqu’à Cuenca puis un taxi jusqu’à Maikiuants, où la communauté nous accueille.
-  activities_title: "Les activités qui vous attendent"
+    Le voyage commence à Cuenca, à 2 800 mètres d’altitude. Après une journée libre pour vous acclimater, nous découvrons le centre historique, le marché local et le musée Pumapungo. En passant par Limón Indanza, où un chaman shuar guide une cérémonie de purification, nous continuons en 4×4 à travers la Cordillère du Condor jusqu’à Maikiuants, où la communauté nous accueille avec de la danse et une fête.
+  activities_title: "Une dizaine de jours à Maikiuants"
   activities_note: >-
     Les activités dépendent de la saison et du programme de la communauté. Nous sommes heureux d’écouter vos souhaits et vos intérêts et de les intégrer.
   activities:
@@ -68,18 +72,23 @@ experience:
     - "Cuisine traditionnelle shuar"
     - "Cérémonie de purification"
     - "Fabrication d’artisanat"
-  departure_title: "Départ"
+    - "Découvrir comment la communauté défend son territoire face à l’industrie minière"
+    - "Installer un piège photographique pour observer la faune"
+    - "Un bain de vapeur shuar aux plantes médicinales"
+    - "Plusieurs jours en « nomades de la jungle » : randonnées à travers le territoire et une nuit dans un abri construit par nous-mêmes"
+    - "Fête d’adieu avec la communauté"
+  departure_title: "Cueva de los Tayos, Río Santiago et retour"
   departure: >-
-    Dernier petit-déjeuner ensemble, au revoir et voyage de retour vers Quito avec le guide international.
+    Après Maikiuants vient l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
 
 included:
   title: "Inclus"
   items:
-    - "Transfert depuis Quito avec notre guide international (minibus jusqu’à Cuenca, puis taxi jusqu’à Maikiuants)"
-    - "Hébergement dans la jea (lits superposés ou place pour votre propre hamac)"
-    - "Tous les repas pendant dix jours, préparés par les cuisinières de la communauté"
-    - "Guides et interprètes de la communauté"
-    - "Toutes les activités du programme"
+    - "Tous les transports pendant le voyage depuis Cuenca : bus, 4×4, bateau et pirogue traditionnelle"
+    - "Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits dans des communautés, en forêt et dans la Cueva de los Tayos"
+    - "Tous les repas à partir du 2e jour ; à Maikiuants, préparés par les cuisinières de la communauté"
+    - "Notre guide international et traducteur, ainsi que des guides de la communauté"
+    - "Toutes les activités et cérémonies du programme"
     - "Cuisine à l’énergie solaire et électricité"
     - "Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)"
     - "Une rivière pour vous baigner"
@@ -89,7 +98,9 @@ included:
 not_included:
   title: "Non inclus"
   items:
-    - "Vols jusqu’à Quito"
+    - "Vols jusqu’à Cuenca et retour"
+    - "Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)"
+    - "Repas du 1er jour (env. 3–10 USD par repas)"
     - "Assurance voyage avec couverture médicale (obligatoire)"
 
 
@@ -111,18 +122,18 @@ packing:
 
 price:
   title: Prix
-  amount: "2 000 USD"
-  per: par personne, 10 jours
+  amount: "3 890 €"
+  per: par personne, 22 jours
   text: >-
-    Tout compris pendant dix jours : transfert depuis Quito, hébergement, repas, guides,
-    interprètes, sécurité et activités. Nous organisons les tours avec l’organisation belge
+    Tout compris pendant 22 jours depuis Cuenca : hébergement, repas, tous les transports pendant
+    le voyage, guides, interprètes, sécurité et activités. Nous organisons les tours avec l’organisation belge
     Raíces. Nous rémunérons des guides et des cuisinières de la communauté, achetons la
     nourriture sur place, et 5 % des revenus vont directement à Maikiuants. Le paiement et tous
     les autres détails sont convenus personnellement avec vous.
 
 dates:
   title: Prochaines dates
-  intro: Groupes de 12 personnes maximum. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
+  intro: Groupes de 12 personnes maximum. Le voyage commence et se termine à Cuenca. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
   focus_title: "Thème 2027 : la spiritualité"
   focus: >-
     En 2027, nos tours sont axés sur la spiritualité : se retrouver soi-même, apprécier chaque
@@ -138,7 +149,7 @@ booking:
     - title: "Réservation"
       text: "Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les détails."
     - title: "Préparez-vous"
-      text: "Nous avons hâte de vous accueillir à Maikiuants pour 10 jours transformateurs."
+      text: "Nous avons hâte de vous accueillir à Cuenca pour 22 jours transformateurs."
 
 
 past:
@@ -151,9 +162,10 @@ faq:
   items:
     - q: Faut-il être en très bonne condition physique ?
       a: >-
-        Une condition physique normale suffit. Nous marchons sur des sentiers boueux, avec des
-        montées et des traversées de rivière. Si vous avez des limitations, dites-le-nous et nous
-        trouverons des alternatives.
+        Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec
+        des montées et des traversées de rivière, parfois pendant plusieurs heures. Pour accéder à
+        la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux.
+        Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
     - q: Y a-t-il de l’électricité, du réseau téléphonique et Internet ?
       a: >-
         La cuisine fonctionne à l’énergie solaire et vous pouvez y recharger votre téléphone. Il n’y
@@ -167,3 +179,13 @@ faq:
     - q: Est-ce sûr ?
       a: >-
         La communauté de Maikiuants repose sur la confiance, et se déplacer à l’intérieur de la communauté est sûr. Lors des excursions et dans la forêt, vous êtes toujours accompagné de membres de la communauté qui connaissent bien la région.
+
+# Encadré sous « Comment réserver » : programme détaillé sur le site de Raíces.
+# Supprimer tout le bloc pour masquer l’encadré.
+partner_trip:
+  title: "Le programme jour par jour"
+  text: >-
+    Raíces, l’association belge de Julien avec laquelle nous organisons les tours, publie sur son
+    site le programme détaillé jour par jour et un PDF du voyage.
+  button: "Voir le programme sur raices.be"
+  url: "https://www.raices.be/voyages-tout-public/"

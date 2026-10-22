@@ -8,11 +8,13 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 ## Aus dem Interview bereits eingebaut
 
-- **Touren:** Preis 2.000 USD (10 Tage, alles inklusive), keine Anzahlung – Zahlung und Details
-  nach Vereinbarung. Abholung in Quito durch den internationalen
-  Guide, dann Buseta nach Cuenca und Taxi nach Maikiuants. Leistungen „inklusive / nicht inklusive“.
-  Raíces (Belgien) als Partner. Termine April 2027 und August/September 2027. Schwerpunkt 2027
-  „Spiritualität“. FAQ zu Sprachen, Sicherheit und Erfahrung.
+- **Touren:** Maßgeblich ist Juliens Seite (raices.be/voyages-tout-public), gilt für alle Touren:
+  22 Tage ab/bis Cuenca, davon ca. 10 in Maikiuants, danach Cueva de los Tayos und Río Santiago
+  (Shuar auf der peruanischen Seite). Preis 3.890 € pro Person. Nicht inklusive: Flüge,
+  Reiseversicherung, Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Keine Anzahlung – Zahlung
+  und Details nach Vereinbarung. Raíces (Belgien) als Partner, Link zum Tagesprogramm auf der
+  Tour-Seite. Termine April 2027 und August/September 2027. Schwerpunkt 2027 „Spiritualität“.
+  FAQ zu Sprachen, Sicherheit und Erfahrung.
 - **Startseite:** Bedeutung von *Kampuntin* („selva“) und dem Leitspruch „Selva, mi destino“.
   Rechtlich anerkannt seit 2023. *Maikiuants* = „el agua del guanto“. Mission: lokale Guides und
   Köchinnen, Einkauf in der Gemeinschaft, 5 % an Maikiuants, Sozialhilfe (Gesundheit, Bildung).
@@ -22,7 +24,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
   *Rhinella maikiuants* für die neue Froschart (ca. 10 Paraecólogos; UDA und eine Kooperation aus
   England; wissenschaftliche Bestätigung steht aus). Buch: von den Paraecólogos selbst, nur wenige
   gedruckte Exemplare.
-- **Kontakt:** Anreise getrennt für Touren (Quito) und Volunteering (Limón Indanza). Spenden-Antwort
+- **Kontakt:** Anreise getrennt für Touren (Cuenca) und Volunteering (Limón Indanza). Spenden-Antwort
   mit Kampuntins Sozialhilfe.
 - **Impressum:** Büro in der Gemeinschaft Maikiuants.
 - **Team:** Freddy als Leitung von Kampuntin. Karten für Marcos, Eddy, Jessica und Numi (Guide,
@@ -37,14 +39,16 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Freie Plätze pflegen:** Wer bei Kampuntin trägt die Plätze ein? Diese Person braucht ein
       GitHub-Konto → im Repository unter Settings → Collaborators einladen → Anleitung im README
       („Guía rápida: actualizar las plazas“). Bis dahin steht bei den Terminen „Plazas a consultar“.
-- [ ] **Ablauf der Anreise:** Wie lange dauert Quito → Cuenca → Maikiuants? Übernachtung in Cuenca?
-      Sind Tag 1 und Tag 10 reine Reisetage?
-- [ ] **Tagesablauf** der 10 Tage – passt der Entwurf zum Schwerpunkt Spiritualität (Zeremonien,
-      Heilpflanzen, Rituale)? Was davon darf öffentlich beschrieben werden?
+- [ ] **April 2027:** Steht nicht auf Juliens Seite. Gibt es den Termin, und ist er auch die
+      22-Tage-Reise ab Cuenca?
+- [x] **Ablauf der Anreise:** geklärt über Juliens Programm (Start in Cuenca, über Limón Indanza
+      nach Maikiuants).
+- [x] **Tagesablauf:** geklärt über Juliens Programm; die Tour-Seite zeigt eine Kurzfassung und
+      verlinkt auf das Tagesprogramm bei Raíces.
 - [ ] **Sicherheit:** Erste-Hilfe-Ausrüstung, Notfallkommunikation (Funk/Satellit?), nächstes
       Krankenhaus, Evakuierungsplan
 - [ ] **Tour-Video**, das Freddy angeboten hat, schicken lassen
-- [ ] **Raíces (Belgien):** Sollen sie mit Logo/Link auf der Website erscheinen? Wer ist dort Ansprechpartner?
+- [ ] **Raíces (Belgien):** Link zum Tagesprogramm ist eingebaut. Soll zusätzlich das Logo erscheinen? Ansprechpartner ist Julien.
 - [ ] **55 % der Einnahmen:** Wofür genau (Verwaltung, Guides, Köchinnen, Lebensmittel)? Und wohin
       gehen die übrigen 40 %? Nur wenn ihr das transparent zeigen wollt
 
@@ -112,7 +116,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 ## 2. Preguntas para Freddy (en español)
 
 1. ¿Cuáles son las fechas exactas (inicio y fin) de los tours de abril y de agosto/septiembre 2027?
-2. ¿Cuánto dura el viaje Quito → Cuenca → Maikiuants? ¿Se duerme en Cuenca? ¿El primer y el último día son solo de viaje?
+2. ¿El tour de abril 2027 existe? ¿Es también el viaje de 22 días de Raíces (Cuenca–Cuenca, 3.890 €)?
 3. ¿Qué actividades espirituales tendrá el tour 2027 (ceremonias, plantas medicinales…)? ¿Qué podemos publicar?
 4. Seguridad: ¿qué botiquín hay, cómo se comunican en una emergencia, dónde está el hospital más cercano?
 5. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?
@@ -151,7 +155,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Shuar Chicham:** Ich kann das nicht verlässlich übersetzen. Eine Übersetzung bräuchte jemand aus der Gemeinschaft.
 - [ ] **Buch:** Verlag „Universidad del Azuay & Casa Editorial“ und ISBN 978-9942-54-103-1 kommen von euch und sind nicht im Netz bestätigt. Autoren, Jahr und Seitenzahl habe ich nicht gefunden und deshalb von der Seite genommen. Bitte aus dem Impressum des Buches ergänzen (das Foto mit der Literaturliste zeigt nur die Seite 149).
 - [ ] **Ecoforensic:** Schreibweise im Klappentext prüfen („Fundación Ecoforensic“, im Interview „ecoforense“).
-- [ ] **Arutam:** Im Klappentext stand „Arutan“, ich habe „Arutam“ geschrieben. Bitte bestätigen.
+- [x] **Arutam:** Im Klappentext stand „Arutan“, ich habe „Arutam“ geschrieben. Bestätigt: „Arutam“ ist richtig.
 - [ ] **Team:** Jessicas Nachname fehlt noch. Rollen und Beschreibungen von Marcos, Eddy und Jessica bitte gegenlesen.
 - [ ] **Titel „Who we are“:** Ich habe für „The story behind the community“ einen neuen Titel gewählt. Bitte sagen, ob der passt.
 - [ ] **Anrede:** Kampuntin spricht in der Wir-Form, Besucher werden direkt angesprochen. Die Beschreibungen von Maikiuants und den Shuar bleiben in der dritten Person, wie ihr sie geschrieben habt. Bitte prüfen, ob das euren Wunsch trifft.

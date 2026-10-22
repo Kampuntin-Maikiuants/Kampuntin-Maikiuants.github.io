@@ -12,7 +12,7 @@ hero:
   image_alt: Visitantes caminando con un guía por la selva
 
 facts:
-  - { text: "10 días en la selva" }
+  - { text: "22 días, 10 en Maikiuants" }
   - { text: "12 personas como máximo" }
   - { text: "Jea: alojamiento tradicional" }
   - { text: "Comidas compartidas" }
@@ -24,6 +24,10 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Miembros de la comunidad compartiendo bebida y artesanía con visitantes
   text: |-
+    El viaje dura **22 días**. Empieza y termina en Cuenca; en el centro están unos diez días con
+    la comunidad en Maikiuants, seguidos de una expedición a la Cueva de los Tayos y un viaje en
+    canoa a comunidades shuar del Perú.
+
     La comunidad te recibe para un **intercambio cultural**. Junto con personas de la comunidad
     compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la
     selva. Tenemos la mejor ducha del mundo: el río.
@@ -42,10 +46,10 @@ life:
 
 experience:
   title: "Lo que puedes esperar de tu tour"
-  arrival_title: "Llegada"
+  arrival_title: "Llegada a Cuenca"
   arrival: >-
-    Te recibe en Quito nuestro guía internacional. Juntos viajamos en buseta hasta Cuenca y en taxi hasta Maikiuants, donde nos da la bienvenida la comunidad.
-  activities_title: "Actividades que te esperan"
+    El viaje empieza en Cuenca, a 2.800 metros. Tras un día libre para aclimatarte, conocemos el centro histórico, el mercado local y el museo Pumapungo. Pasando por Limón Indanza, donde un chamán shuar guía una ceremonia de purificación, seguimos en 4×4 por la Cordillera del Cóndor hasta Maikiuants, donde la comunidad nos recibe con baile y fiesta.
+  activities_title: "Unos diez días en Maikiuants"
   activities_note: >-
     Las actividades dependen de la temporada y del calendario de la comunidad. Con gusto escuchamos tus deseos e intereses y los incluimos.
   activities:
@@ -68,18 +72,23 @@ experience:
     - "Cocina tradicional shuar"
     - "Ceremonia de purificación"
     - "Elaboración de artesanías"
-  departure_title: "Despedida"
+    - "Conocer cómo la comunidad defiende su territorio frente a la minería"
+    - "Instalar una cámara trampa para observar la fauna"
+    - "Un baño de vapor shuar con plantas medicinales"
+    - "Varios días como «nómadas de la selva»: caminatas por el territorio y una noche en un refugio construido por nosotros mismos"
+    - "Fiesta de despedida con la comunidad"
+  departure_title: "Cueva de los Tayos, río Santiago y regreso"
   departure: >-
-    Último desayuno juntos, despedidas y viaje de regreso a Quito con el guía internacional.
+    Después de Maikiuants viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
 
 included:
   title: "Incluido"
   items:
-    - "Traslado desde Quito con nuestro guía internacional (buseta a Cuenca, luego taxi a Maikiuants)"
-    - "Alojamiento en la jea (literas o un lugar para tu propia hamaca)"
-    - "Todas las comidas durante diez días, preparadas por las cocineras de la comunidad"
-    - "Guías e intérpretes de la comunidad"
-    - "Todas las actividades del programa"
+    - "Todos los traslados durante el viaje desde Cuenca: bus, 4×4, lancha y canoa tradicional"
+    - "Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en comunidades, en el bosque y en la Cueva de los Tayos"
+    - "Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad"
+    - "Nuestro guía internacional y traductor, y guías de la comunidad"
+    - "Todas las actividades y ceremonias del programa"
     - "Cocina con energía solar y electricidad"
     - "Wifi gratis en el pueblo (a unos 35 minutos a pie del alojamiento)"
     - "Un río para bañarte"
@@ -89,7 +98,9 @@ included:
 not_included:
   title: "No incluido"
   items:
-    - "Vuelos a Quito"
+    - "Vuelos hasta Cuenca y de regreso"
+    - "Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)"
+    - "Comidas del día 1 (aprox. 3–10 USD por comida)"
     - "Seguro de viaje con cobertura médica (obligatorio)"
 
 
@@ -111,18 +122,18 @@ packing:
 
 price:
   title: Precio
-  amount: "2.000 USD"
-  per: por persona, 10 días
+  amount: "3.890 €"
+  per: por persona, 22 días
   text: >-
-    Todo incluido durante los diez días: traslado desde Quito, alojamiento, comidas, guías,
-    intérpretes, seguridad y actividades. Organizamos los tours junto con la organización belga
+    Todo incluido durante 22 días desde Cuenca: alojamiento, comidas, todos los traslados durante
+    el viaje, guías, intérpretes, seguridad y actividades. Organizamos los tours junto con la organización belga
     Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y el 5 % de
     los ingresos va directamente a Maikiuants. El pago y los demás detalles los acordamos
     personalmente contigo.
 
 dates:
   title: Próximas fechas
-  intro: Grupos de máximo 12 personas. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  intro: Grupos de máximo 12 personas. El viaje empieza y termina en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
   focus_title: "Enfoque 2027: espiritualidad"
   focus: >-
     En 2027 nuestros tours se centran en la espiritualidad: encontrarse a uno mismo, valorar cada
@@ -138,7 +149,7 @@ booking:
     - title: "Reserva"
       text: "Confirmamos tu reserva y acordamos contigo las fechas, el pago y todos los detalles."
     - title: "Prepárate"
-      text: "Nos alegra recibirte en Maikiuants para 10 días transformadores."
+      text: "Nos alegra recibirte en Cuenca para 22 días transformadores."
 
 
 past:
@@ -151,8 +162,10 @@ faq:
   items:
     - q: ¿Necesito una buena condición física?
       a: >-
-        Basta una condición física normal. Caminamos por senderos con barro, subidas y cruces de
-        río. Si tienes alguna limitación, avísanos y buscamos alternativas.
+        Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces
+        de río, a veces durante varias horas. Para entrar a la Cueva de los Tayos se baja 60 metros
+        con cuerdas, acompañados por guías locales. Si tienes alguna limitación, avísanos y buscamos
+        alternativas.
     - q: ¿Hay electricidad, señal de teléfono e internet?
       a: >-
         La cocina funciona con energía solar y ahí puedes cargar tu teléfono. En la jea no hay wifi
@@ -165,3 +178,13 @@ faq:
     - q: ¿Es seguro?
       a: >-
         La comunidad de Maikiuants se basa en la confianza, y moverse dentro de la comunidad es seguro. En las excursiones y en la selva siempre vas con miembros de la comunidad que conocen bien la región.
+
+# Hinweis-Box unter „Cómo reservar“: ausführliches Programm bei Raíces (Link auf deren Website).
+# Ganz entfernen, wenn die Box nicht mehr erscheinen soll.
+partner_trip:
+  title: "El programa día a día"
+  text: >-
+    Raíces, la organización belga de Julien con la que organizamos los tours, publica en su sitio
+    web el programa detallado día por día y un PDF del viaje.
+  button: "Ver el programa en raices.be (en francés)"
+  url: "https://www.raices.be/voyages-tout-public/"

@@ -5,8 +5,8 @@ hero:
   eyebrow: Ecuadorian Amazon · Morona Santiago
   title: Kampuntin Maikiuants
   lead: >-
-    Experience the rainforest and get to know the Shuar community of Maikiuants: on a ten-day
-    tour or as a volunteer. Learn more about the community, the rainforest, our scientific work
+    Experience the rainforest and get to know the Shuar community of Maikiuants: on a 22-day
+    journey or as a volunteer. Learn more about the community, the rainforest, our scientific work
     and Kampuntin's mission.
   image: "/assets/img/ilustraciones/banner-startseite.jpg"
   image_alt: Illustration of Amazon rainforest plants
@@ -71,8 +71,8 @@ location:
   text: >-
     Maikiuants is located in the province of **Morona Santiago** in Ecuador's southern Amazon, in
     the Cordillera del Cóndor. The road to Maikiuants starts in **Limón Indanza**; from there it
-    takes about two and a half hours, usually by taxi (approx. 50–60 USD). Tour groups are
-    picked up in Quito and we travel together to the community.
+    takes about two and a half hours, usually by taxi (approx. 50–60 USD). Tours start in
+    Cuenca and from there we travel together to the community.
     The road is not shown on Google Maps, but it is on OpenStreetMap.
   coords: 3°07'10.2" S · 78°15'56.4" W
   map_link: View on OpenStreetMap
@@ -90,7 +90,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: Ten days in the rainforest for groups of up to 12 people, sharing community life.
+      text: 22 days in Shuar territory for groups of up to 12 people, with about ten days sharing community life.
     - ref: volunteering
       title: Volunteering
       text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
@@ -102,7 +102,7 @@ explore:
 tour_popup:
   eyebrow: Next tour
   text: >-
-    Ten days living with the Shuar community of Maikiuants, all-inclusive. In 2027, with a focus on spirituality.
+    22 days in Shuar territory, with about ten days in the Maikiuants community. In 2027, with a focus on spirituality.
   per: per person
   button: See the tour
   close: Close
