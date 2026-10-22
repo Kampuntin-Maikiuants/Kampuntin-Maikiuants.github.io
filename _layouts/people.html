@@ -25,7 +25,8 @@ layout: default
         <h3>{{ person.name }}</h3>
         {%- if person.shuar_name %}<p class="person__shuar"><span>{{ ui.shuar_name }}</span> {{ person.shuar_name }}</p>{% endif %}
         <p class="person__role">{{ person.role[page.lang] | default: person.role.en }}</p>
-        <p>{{ (person.details[page.lang] | default: person.details.en) | default: (person.bio[page.lang] | default: person.bio.en) }}</p>
+        {%- assign p_text = person.details[page.lang] | default: person.details.en | default: person.bio[page.lang] | default: person.bio.en %}
+        <p>{{ p_text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
         <a class="link-arrow person__contact" href="{{ contact_page.url | relative_url }}">{{ ui.person_contact }} →</a>
       </article>
       {%- endfor %}

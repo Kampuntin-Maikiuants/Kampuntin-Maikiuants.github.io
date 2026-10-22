@@ -1,4 +1,5 @@
 # Personen auf der Seite „Equipo / People“
+# Texte dürfen **fett**, *kursiv* und [Links](https://...) enthalten.
 # group: kampuntin (Organisationsteam) oder community. "details" (optional) ist die ausführliche Beschreibung und ersetzt auf der Seite die kurze "bio".
 # photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
 # shuar_name: optional, Shuar-Name unter dem Namen.
@@ -9,7 +10,7 @@
   shuar_name: "Nenkas Chicham"
   group: kampuntin
   photo: "/assets/img/equipo/freddy.jpg"
-  role: { es: "Dirección de Kampuntin y coordinación", en: "Head of Kampuntin and coordination", fr: "Direction de Kampuntin et coordination" }
+  role: { es: "Gerente y coordinación de Kampuntin", en: "Manager and coordinator of Kampuntin", fr: "Gérant et coordinateur de Kampuntin" }
   bio:
     es: "Coordina a los voluntarios y a los grupos, y planifica las excursiones."
     en: "Coordinates the volunteers and groups and plans the excursions."
@@ -33,26 +34,26 @@
   photo: "/assets/img/equipo/marcos.jpg"
   role: { es: "Tesorero de Kampuntin", en: "Treasurer of Kampuntin", fr: "Trésorier de Kampuntin" }
   bio:
-    es: "Tiene la pequeña tienda del pueblo y ayuda con las visitas guiadas por el pueblo."
-    en: "Runs the small shop in the village and helps with the village tours."
-    fr: "Tient la petite épicerie du village et aide pour les visites du village."
+    es: "Emprendedor comercial con su tienda de víveres y gestor digital."
+    en: "A business entrepreneur with his grocery shop and a digital manager."
+    fr: "Entrepreneur commercial avec son épicerie et gestionnaire numérique."
   details:
-    es: "Marcos es dueño de la pequeña tienda del pueblo y ayuda con las visitas guiadas por el pueblo."
-    en: "Marcos owns the small shop in the village and helps with the village tours."
-    fr: "Marcos tient la petite épicerie du village et aide pour les visites du village."
+    es: "Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital y administra la cuenta de Instagram [«Territorio Shuar Indomable»](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
+    en: "Marcos is a business entrepreneur with his grocery shop. He is also a digital manager and runs the Instagram account [\"Territorio Shuar Indomable\"](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
+    fr: "Marcos est entrepreneur commercial avec son épicerie. Il est aussi gestionnaire numérique et administre le compte Instagram [« Territorio Shuar Indomable »](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
 
 - name: "Eddy Ankuash"
   group: kampuntin
   photo: ""
   role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }
   bio:
-    es: "Tiene un aserradero y cultiva plátano, yuca y caña de azúcar, que cosechamos juntos."
-    en: "Runs a sawmill and grows bananas, cassava and sugarcane, which we harvest together."
-    fr: "Possède une scierie et cultive bananes, manioc et canne à sucre, que nous récoltons ensemble."
+    es: "Es emprendedor en la agricultura y la carpintería."
+    en: "An entrepreneur in agriculture and carpentry."
+    fr: "Entrepreneur dans l’agriculture et la menuiserie."
   details:
-    es: "Eddy es dueño de un aserradero y cultiva plátano, yuca y caña de azúcar en sus plantaciones. Los visitantes y los voluntarios pueden cosechar junto con él."
-    en: "Eddy owns a sawmill and grows bananas, cassava and sugarcane on his plantations. Visitors and volunteers can harvest together with him."
-    fr: "Eddy possède une scierie et cultive bananes, manioc et canne à sucre dans ses plantations. Les visiteurs et les bénévoles peuvent récolter avec lui."
+    es: "Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar, y los visitantes y los voluntarios pueden cosechar junto con él."
+    en: "Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him."
+    fr: "Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre, et les visiteurs et les bénévoles peuvent récolter avec lui."
 
 - name: "Jessica"
   group: kampuntin
