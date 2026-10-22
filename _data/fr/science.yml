@@ -1,7 +1,7 @@
 # Page science (paraécologie) – français
 
 hero:
-  eyebrow: Science communautaire
+  eyebrow: Science
   title: "Paraécologie : la communauté étudie sa forêt"
   lead: >-
     À Maikiuants, des membres de la communauté se forment pour devenir paraécologues. Ils allient
@@ -34,7 +34,7 @@ what:
 methods:
   title: Ce que nous surveillons
   intro: >-
-    Les données que nous recueillons sont complexes et demandent une formation. En plus de la
+    En plus de la
     station météorologique et des pièges photographiques déjà en place, une nouvelle station
     scientifique sera bientôt construite pour recueillir et analyser les données de façon encore
     plus systématique.
@@ -162,21 +162,12 @@ book:
   subtitle: "Guide des macroinvertébrés aquatiques des micro-bassins versants des rivières Aakas et Yunkumas – Cordillera del Cóndor"
   cover: "/assets/img/libro/portada-recortada.jpg"
   cover_alt: Couverture du guide des macroinvertébrés aquatiques des rivières Aakas et Yunkumas
-  text: |-
-    Les paraécologues de Maikiuants ont récolté, identifié et photographié les petits animaux
-    qui vivent dans nos rivières. Le résultat, c’est ce guide illustré : des photographies
-    détaillées de chaque famille — des éphémères et demoiselles aux coléoptères, larves de
-    mouches et sangsues —, une introduction à leur anatomie, et ce qu’ils nous apprennent sur la
-    qualité de l’eau.
-
-    Nous avons réalisé ce guide nous-mêmes : une dizaine de paraécologues de Maikiuants, dont les
-    noms figurent dans le livre. Il n’en existe que quelques exemplaires imprimés ; si cela vous
-    intéresse, contactez-nous.
+  text: >-
+    La communauté shuar de Maikiuants, établie dans la Cordillera del Cóndor, possède un vaste territoire qui abrite une grande biodiversité d’espèces et d’écosystèmes, aujourd’hui menacés par des activités extractives. Cette zone est principalement arrosée par les rivières Aakas et Yunkumas, dont les écosystèmes aquatiques abritent une grande variété de faune, parmi laquelle se distinguent les macroinvertébrés aquatiques. Ce guide présente les familles de ce groupe de faune ; leur présence montre que les eaux de ces deux rivières sont en excellent état. Cet ouvrage est le résultat d’études menées conjointement par l’Universidad del Azuay, la communauté de Maikiuants, le Pueblo Shuar Arutam et la Fundación Ecoforensic, dont l’objectif est d’explorer et de faire connaître la richesse biologique et culturelle de ce territoire.
   details:
-    - { label: Auteurs, value: "Paraécologues de Maikiuants" }
-    - { label: Année, value: "[Année]" }
-    - { label: Langue, value: Espagnol }
-    - { label: Pages, value: "[XXX]" }
+    - { label: Langue, value: "Espagnol" }
+    - { label: Éditeur, value: "Universidad del Azuay & Casa Editorial" }
+    - { label: ISBN, value: "978-9942-54-103-1" }
   button: { label: Se renseigner sur le livre, url: "" }   # empty url = contact page
   pages_title: Un aperçu du livre
   pages:

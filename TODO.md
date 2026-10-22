@@ -1,6 +1,6 @@
 # To-do bis zur fertigen Website
 
-Stand: 20. Oktober 2026 · Zum Abhaken: `[ ]` → `[x]`
+Stand: 22. Oktober 2026 · Zum Abhaken: `[ ]` → `[x]`
 
 Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich sie ein.
 
@@ -141,3 +141,19 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 | `volunteering.yml` | Erfahrungsberichte ([Nombre], [país], [año]) |
 | `science.yml` | Buch: [Año], [XXX] Seiten |
 | `team.yml` | Rolle und Text bei Marcos, Eddy, Jessica; [Apellido] bei Jessica |
+
+---
+
+## Offen nach der Überarbeitung (22. Oktober)
+
+- [ ] **„jea“:** Das Wort steht nicht im Interview. Bitte bei Freddy bestätigen, dass das traditionelle Haus so heißt (ich vermute: Shuar-Wort für „Haus“).
+- [ ] **Dolmetscher:** Im Interview steht „intérpretes“ (Transkription: „reintérpretes“), nicht „professionelle Übersetzer“. Die Seite sagt jetzt „interpreters“.
+- [ ] **Shuar Chicham:** Ich kann das nicht verlässlich übersetzen. Eine Übersetzung bräuchte jemand aus der Gemeinschaft.
+- [ ] **Buch:** Verlag „Universidad del Azuay & Casa Editorial“ und ISBN 978-9942-54-103-1 kommen von euch und sind nicht im Netz bestätigt. Autoren, Jahr und Seitenzahl habe ich nicht gefunden und deshalb von der Seite genommen. Bitte aus dem Impressum des Buches ergänzen (das Foto mit der Literaturliste zeigt nur die Seite 149).
+- [ ] **Ecoforensic:** Schreibweise im Klappentext prüfen („Fundación Ecoforensic“, im Interview „ecoforense“).
+- [ ] **Arutam:** Im Klappentext stand „Arutan“, ich habe „Arutam“ geschrieben. Bitte bestätigen.
+- [ ] **Team:** Jessicas Nachname fehlt noch. Rollen und Beschreibungen von Marcos, Eddy und Jessica bitte gegenlesen.
+- [ ] **Titel „Who we are“:** Ich habe für „The story behind the community“ einen neuen Titel gewählt. Bitte sagen, ob der passt.
+- [ ] **Anrede:** Kampuntin spricht in der Wir-Form, Besucher werden direkt angesprochen. Die Beschreibungen von Maikiuants und den Shuar bleiben in der dritten Person, wie ihr sie geschrieben habt. Bitte prüfen, ob das euren Wunsch trifft.
+- [ ] **Übersetzung:** Die FAQ zur Sprache verspricht „wir übersetzen Ihre Nachricht“. Bitte bestätigen, dass ihr das leisten könnt.
+- [ ] **Infotafeln und Flyer:** Der Flyer nennt den Verein Nunkui mit Keramik, Webarbeiten und Ohrringen. Ob „jewelry“ (Schmuck) im Programm stehen soll, bitte entscheiden.

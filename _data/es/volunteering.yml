@@ -2,43 +2,40 @@
 # Los datos entre [corchetes] son marcadores: reemplazar por la información real.
 
 hero:
-  eyebrow: Voluntariado · Agroforestería · Vida comunitaria
+  eyebrow: Voluntariado
   title: Voluntariado en Maikiuants
   lead: >-
-    Buscamos personas que quieran intercambiar saberes y culturas, trabajar, aprender sobre la
-    selva y convivir, y que quieran vivir la vida comunitaria en la Amazonía, lejos de la ciudad.
+    Únete a nosotros en Maikiuants para trabajar, aprender y vivir juntos.
   image: "/assets/img/fotos/hero-voluntariado.jpg"
   image_alt: Voluntarias con machetes junto a un miembro de la comunidad
 
 who:
-  title: ¿A quién buscamos?
-  intro: >-
-    No importa exactamente qué sabes hacer ni qué habilidades traes: todo es bienvenido. Lo
-    importante es que tengas ganas de…
+  title: "Buscamos a personas que quieran"
   items:
     - aprender sobre plantas, agroforestería y permacultura,
     - vivir en grupo y compartir las tareas,
     - conocer la cultura shuar y la vida en la selva,
     - pasar mucho tiempo al aire libre,
     - vivir un día a día lento, tranquilo y flexible,
-    - y ser una persona abierta, respetuosa y flexible.
+    - ser una persona abierta, respetuosa y flexible.
+
 
 tasks:
-  title: En qué ayudas
+  title: "En qué ayudas"
   intro: >-
-    Todas las tareas son muy flexibles y no siempre hacen falta. Así que prepárate para ayudar
-    donde se necesite y para aportar tus propias ideas y habilidades. Por ejemplo, puedes ayudar en:
+    Te invitamos a ayudar donde haga falta y a aportar tus propias ideas y habilidades. Algunas de las tareas en las que puedes ayudar:
   items:
-    - title: Huerta y jardín
-      text: Vivero, siembra y cuidado del jardín y del terreno alrededor de la casa.
-    - title: Agroforestería
-      text: Mantener los cultivos agroforestales con deshierbe, poda y cosecha.
-    - title: Construcción
-      text: Apoyar en trabajos de construcción y en mejoras de la infraestructura.
-    - title: Mingas
-      text: Jornadas de trabajo comunitario en el pueblo de Maikiuants.
-    - title: Tus habilidades
-      text: Ayuda individual según lo que sabes hacer, por ejemplo coser, redes sociales o videos.
+    - title: "Huerta y jardín"
+      text: "Vivero, siembra y cuidado del jardín y del terreno alrededor de la casa."
+    - title: "Agroforestería"
+      text: "Mantener los cultivos agroforestales con deshierbe, poda y cosecha."
+    - title: "Construcción"
+      text: "Apoyar en trabajos de construcción y en mejoras de la infraestructura."
+    - title: "Mingas"
+      text: "Jornadas de trabajo comunitario en el pueblo de Maikiuants."
+    - title: "Tus habilidades"
+      text: "Aporta tus propias habilidades, por ejemplo costura, redes sociales o videos, etc. Cualquier impulso es bienvenido."
+
 
 life:
   title: La vida en la jea
@@ -72,7 +69,7 @@ practical:
         comunidad vende productos básicos. Trae también dinero extra para compras y el taxi desde
         Limón Indanza. Para todo hay solución y la gente está siempre dispuesta a ayudar.
     - { label: Idiomas, value: "Español y shuar chicham, otros idiomas casi no. Un nivel básico de español ayuda mucho" }
-    - { label: Llegada, value: "En bus hasta Limón Indanza y desde allí unas 2,5 h en taxi 4×4 (aprox. 50–60 USD) hasta la comunidad" }
+    - { label: Llegada, value: "En bus hasta Limón Indanza y desde allí unas 2,5 h en taxi (aprox. 50–60 USD) hasta la comunidad" }
   wwoof: También nos encuentras en WWOOF
 
 apply:
@@ -137,9 +134,7 @@ faq:
         necesario en el lugar.
     - q: ¿Necesito hablar español?
       a: >-
-        En la comunidad casi nadie habla inglés, así que un nivel básico de español ayuda mucho para
-        convivir. Te recomendamos descargar una app de traducción que funcione sin internet para
-        algunas palabras.
+        En la comunidad casi nadie habla inglés, así que un nivel básico de español ayuda mucho para convivir.
     - q: ¿Cómo es un día normal?
       a: >-
         Cada día es diferente. Muchas veces no hay un plan fijo y muchas cosas surgen de forma
@@ -156,5 +151,4 @@ faq:
         tifoidea, la hepatitis A y B y la rabia.
     - q: ¿Puedo venir con mi pareja o con amigos?
       a: >-
-        Sí, escríbenos con tiempo. En el albergue hay lugar para 12 personas; ya hemos recibido a
-        6 o 7 voluntarios a la vez.
+        Sí, escríbenos con tiempo. El albergue tiene lugar para 12 personas.

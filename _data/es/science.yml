@@ -1,7 +1,7 @@
 # Página de ciencia (paraecología) – español
 
 hero:
-  eyebrow: Ciencia comunitaria
+  eyebrow: Ciencia
   title: "Paraecología: investigar el bosque desde la comunidad"
   lead: >-
     En Maikiuants, personas de la comunidad se forman como paraecólogas y paraecólogos.
@@ -34,7 +34,7 @@ what:
 methods:
   title: Qué monitoreamos
   intro: >-
-    Los datos que recogemos son complejos y requieren formación. Además de la estación
+    Además de la estación
     meteorológica y las cámaras trampa que ya funcionan, pronto se construirá una nueva estación
     científica para recoger y analizar los datos de forma aún más sistemática.
   items:
@@ -160,20 +160,12 @@ book:
   subtitle: de las microcuencas de los ríos Aakas y Yunkumas – Cordillera del Cóndor
   cover: "/assets/img/libro/portada-recortada.jpg"
   cover_alt: Portada de la Guía de macroinvertebrados acuáticos de los ríos Aakas y Yunkumas
-  text: |-
-    Los paraecólogos de Maikiuants recolectaron, identificaron y fotografiaron los pequeños
-    animales que viven en nuestros ríos. El resultado es esta guía ilustrada: fotografías
-    detalladas de cada familia —desde efímeras y caballitos del diablo hasta escarabajos, larvas
-    de moscas y sanguijuelas—, una introducción a su anatomía y lo que nos cuentan sobre la
-    calidad del agua.
-
-    La guía la hicimos nosotros mismos: unos diez paraecólogos de Maikiuants, cuyos nombres
-    aparecen en el libro. Solo existen pocos ejemplares impresos; si te interesa, escríbenos.
+  text: >-
+    La comunidad shuar Maikiuants, asentada en la Cordillera del Cóndor, presenta un amplio territorio que alberga una gran biodiversidad de especies y ecosistemas, hoy amenazados por actividades extractivas. Esta zona es bañada principalmente por los ríos Aakas y Yunkumas, cuyos ecosistemas acuáticos presentan una amplia variedad de fauna, entre la que destacan los macroinvertebrados acuáticos. Esta guía presenta las familias de este grupo de fauna, que por su presencia demuestran que las aguas de estos dos ríos están en excelentes condiciones. Esta obra es el resultado de estudios que se realizan de manera conjunta entre la Universidad del Azuay, la comunidad de Maikiuants, el Pueblo Shuar Arutam y la Fundación Ecoforensic, cuyo objetivo es explorar y evidenciar la riqueza biológica y cultural de estos.
   details:
-    - { label: Autores, value: "Paraecólogos de Maikiuants" }
-    - { label: Año, value: "[Año]" }
-    - { label: Idioma, value: Español }
-    - { label: Páginas, value: "[XXX]" }
+    - { label: Idioma, value: "Español" }
+    - { label: Editorial, value: "Universidad del Azuay & Casa Editorial" }
+    - { label: ISBN, value: "978-9942-54-103-1" }
   button: { label: Preguntar por el libro, url: "" }   # leer = Kontaktseite
   pages_title: Un vistazo al libro
   pages:

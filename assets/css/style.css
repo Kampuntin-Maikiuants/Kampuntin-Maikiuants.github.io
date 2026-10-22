@@ -828,3 +828,28 @@ img.wm { object-position: 0 100% !important; }
   color: #fff; font: 500 .8rem/1 "Avenir Next", var(--font-sans); letter-spacing: .01em; opacity: .9;
   text-shadow: 0 1px 2px rgb(0 0 0 / .6);
 }
+
+/* ---------- Tour: Eckdaten in einheitlicher Schrift ---------- */
+.facts .fact { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; line-height: 1.3; color: var(--forest); }
+.facts .fact span { display: inline; font-size: inherit; }
+
+/* ---------- Tour: „Lo que puedes esperar“ in drei Blöcken ---------- */
+.experience { display: grid; gap: 1.25rem; }
+.exp-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem 1.6rem; box-shadow: var(--shadow); }
+.exp-card h3 { margin: 0 0 .6rem; font-size: 1.25rem; }
+.exp-card p { margin: 0; }
+.exp-card--small { max-width: 620px; }
+.exp-note { margin-top: 1rem !important; font-size: .92rem; color: var(--muted); }
+
+/* ---------- Team: Details zum Aufklappen, Link zur Kontaktseite ---------- */
+.person__more { text-align: left; margin-top: .7rem; }
+.person__more summary { cursor: pointer; color: var(--clay-dark); font-weight: 650; font-size: .92rem; }
+.person__more p { margin-top: .4rem; color: var(--muted); font-size: .95rem; }
+.person__contact { display: inline-block; margin-top: .8rem; font-size: .92rem; }
+
+/* ---------- Credits: dezent, ohne Fotos ---------- */
+.credits { padding: 2.2rem 0 2.6rem; border-top: 1px solid var(--line); }
+.credits__title { font-family: var(--font-sans); font-size: .95rem; font-weight: 650; letter-spacing: .04em; color: var(--muted); margin: 0 0 .7rem; }
+.credits__list { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; font-size: .9rem; color: var(--muted); }
+.credits__list strong { color: var(--forest); font-weight: 600; }
+.credits__note { font-size: .82rem; color: var(--muted); margin: .9rem 0 0; }

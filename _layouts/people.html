@@ -3,6 +3,7 @@ layout: default
 ---
 {%- assign t = site.data[page.lang].people -%}
 {%- assign ui = site.data[page.lang].ui -%}
+{%- assign contact_page = site.pages | where: "ref", "contact" | where: "lang", page.lang | first -%}
 {% include page-hero.html hero=t.hero %}
 
 {%- assign groups = "kampuntin community" | split: " " %}
@@ -25,6 +26,13 @@ layout: default
         {%- if person.shuar_name %}<p class="person__shuar"><span>{{ ui.shuar_name }}</span> {{ person.shuar_name }}</p>{% endif %}
         <p class="person__role">{{ person.role[page.lang] | default: person.role.en }}</p>
         <p>{{ person.bio[page.lang] | default: person.bio.en }}</p>
+        {%- if person.details %}
+        <details class="person__more">
+          <summary>{{ ui.person_more }}</summary>
+          <p>{{ person.details[page.lang] | default: person.details.en }}</p>
+        </details>
+        {%- endif %}
+        <a class="link-arrow person__contact" href="{{ contact_page.url | relative_url }}">{{ ui.person_contact }} →</a>
       </article>
       {%- endfor %}
     </div>
@@ -36,24 +44,16 @@ layout: default
 
 {%- assign c = t.credits %}
 {%- if c %}
-<section class="section section--alt credits" id="creditos">
-  <div class="container">
-    <h2 class="section-title">{{ c.title }}</h2>
-    <p class="section-intro">{{ c.intro }}</p>
-    <div class="credits__grid">
+<section class="credits" id="creditos">
+  <div class="container narrow">
+    <h2 class="credits__title">{{ c.title }}</h2>
+    <ul class="credits__list">
       {%- for cp in c.people %}
-      <article class="credit-card">
-        <span class="credit-card__initial" aria-hidden="true">{{ cp.name | slice: 0 }}</span>
-        <div>
-          <h3>{{ cp.name }}</h3>
-          <p>{{ cp.role }}</p>
-          {%- if cp.email %}<p><a href="mailto:{{ cp.email }}">{{ cp.email }}</a></p>{% endif %}
-        </div>
-      </article>
+      <li><strong>{{ cp.name }}</strong> · {{ cp.role }}</li>
       {%- endfor %}
-    </div>
+    </ul>
     <p class="credits__note">{{ c.webdesign }} {{ c.map }}</p>
-    <p class="credits__note credits__note--strong">{{ c.maintained }} <a href="mailto:{{ site.webmaster.email }}">{{ site.webmaster.email }}</a>.</p>
+    <p class="credits__note">{{ c.maintained }} <a href="mailto:{{ site.webmaster.email }}">{{ site.webmaster.email }}</a></p>
   </div>
 </section>
 {%- endif %}

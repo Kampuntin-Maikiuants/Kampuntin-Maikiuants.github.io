@@ -2,7 +2,7 @@
 # Text in [square brackets] is a placeholder: replace with the real information.
 
 hero:
-  eyebrow: Tours · 10 days · max. 12 people
+  eyebrow: Tours
   title: Spend your days in the rainforest as part of our community
   lead: >-
     You share daily life in the Maikiuants community, walk through the forest with Shuar guides,
@@ -12,11 +12,12 @@ hero:
   image_alt: Visitors walking through the rainforest with a guide
 
 facts:
-  - { value: "10", label: days in the rainforest }
-  - { value: "12", label: people at most }
-  - { value: Jea, label: traditional accommodation }
-  - { value: Together, label: shared meals }
-  - { value: Shuar, label: community guides }
+  - { text: "10 days in the rainforest" }
+  - { text: "12 people at most" }
+  - { text: "Jea: traditional accommodation" }
+  - { text: "Shared meals" }
+  - { text: "Community guides" }
+
 
 intro:
   title: What you can expect
@@ -31,86 +32,81 @@ intro:
     them. We make music together and show you how to play our handmade flutes. The days combine
     forest walks, work in the nursery and gardens, crafts, cooking and free time.
 
-quote:
-  text: In our village it's not about tourism, but about cultural exchange.
-  source: The Maikiuants community
 
 life:
   title: Life in the jea
   text: This is how you'll live during your stay in Maikiuants.
 
-activities:
-  title: Activities to suit your wishes and time
-  intro: "Every tour is adapted to the group. Some of the things we can do together:"
-  image: "/assets/img/fotos/cascada.jpg"
-  image_alt: Waterfall in the middle of the rainforest near Maikiuants
-  items:
-    - Walks to sacred places and waterfalls
-    - Harvesting native fruits
-    - Steam bath with medicinal plants
-    - Cooking traditional Shuar food
-    - Dance and music
-    - Fishing
-    - Purification ceremony
-    - Making handicrafts
 
-itinerary:
-  title: What your tour could look like
-  note: This programme is a guide. Weather, the river and community life set the pace.
-  days:
-    - title: Arrival
-      text: Our international guide welcomes you in Quito. Together we travel by minibus to Cuenca and by taxi to Maikiuants, where the community welcomes us.
-    - title: Getting to know the village
-      text: We walk through Maikiuants and meet the community and the families. In the afternoon, a bath in the river.
-    - title: The healing forest
-      text: A long walk through the rainforest with a Shuar guide to learn about traditional medicinal plants.
-    - title: Minga
-      text: We take part in a minga, the community work day that keeps the village in good shape. Afterwards we all eat together with the community.
-    - title: Clay from our land
-      text: Pottery with clay from the surroundings and a look at traditional handicrafts.
-    - title: From the garden to the kitchen
-      text: We harvest fruit and vegetables from our plantations together and cook traditional specialities.
-    - title: The waterfalls
-      text: A boat trip to the nearest big waterfalls.
-    - title: Spears and football
-      text: We learn how to carve traditional spears. In the afternoon, football with the village children.
-    - title: Music and dance
-      text: We make music together, watch and learn traditional dances and celebrate our farewell.
-    - title: Departure
-      text: Last breakfast together, goodbyes and the journey back to Quito with the international guide.
+
+experience:
+  title: "What you can expect from your tour"
+  arrival_title: "Arrival"
+  arrival: >-
+    Our international guide welcomes you in Quito. Together we travel by minibus to Cuenca and by taxi to Maikiuants, where the community welcomes us.
+  activities_title: "Activities awaiting you"
+  activities_note: >-
+    The activities depend on the season and the community's schedule. We are happy to hear and include your wishes and interests.
+  activities:
+    - "Getting to know the village and the community"
+    - "Taking part in a minga (the community work day that cares for the village)"
+    - "Eating with the whole community in the village and then listening to the village assembly"
+    - "Pottery with clay from the immediate surroundings"
+    - "Harvesting vegetables and fruit together from our plantations"
+    - "Making music together"
+    - "A long walk through the rainforest and traditional medicinal plants"
+    - "Learning how to carve traditional spears"
+    - "Cooking traditional specialities together"
+    - "Playing football with the children of the village"
+    - "A boat trip to the nearest big waterfalls"
+    - "Looking at traditional handicrafts"
+    - "Bathing in the river"
+    - "Dance and music"
+    - "Fishing"
+    - "Walks to sacred places and waterfalls"
+    - "Cooking traditional Shuar food"
+    - "Purification ceremony"
+    - "Making handicrafts"
+  departure_title: "Departure"
+  departure: >-
+    Last breakfast together, goodbyes and the journey back to Quito with the international guide.
 
 included:
-  title: Included
+  title: "Included"
   items:
-    - Transfer from Quito with our international guide (minibus to Cuenca, then taxi to Maikiuants)
-    - Accommodation in the jea (bunk beds or a place for your own hammock)
-    - All meals for ten days – we buy the food and community cooks prepare it
-    - Community guides and interpreters
-    - Safety and support throughout the tour
-    - All programme activities
-    - Solar-powered kitchen and electricity
-    - Free wifi in the village (about a 35-minute walk from the accommodation)
-    - A river to bathe in
+    - "Transfer from Quito with our international guide (minibus to Cuenca, then taxi to Maikiuants)"
+    - "Accommodation in the jea (bunk beds or a place for your own hammock)"
+    - "All meals for ten days prepared by community cooks"
+    - "Community guides and interpreters"
+    - "All programme activities"
+    - "Solar-powered kitchen and electricity"
+    - "Free wifi in the village (about a 35-minute walk from the accommodation)"
+    - "A river to bathe in"
+    - "A tiny shop in the community centre for personal expenses"
+
 
 not_included:
-  title: Not included
+  title: "Not included"
   items:
-    - Flights to Quito
-    - Travel insurance with medical cover (required)
-    - Personal expenses and handicrafts – there's no large supermarket nearby
+    - "Flights to Quito"
+    - "Travel insurance with medical cover (required)"
+
 
 packing:
-  title: What to bring
+  title: "What to bring"
   items:
-    - Rubber boots (also available to buy at the community centre)
-    - Light long-sleeved clothes
-    - Rain jacket
-    - Quick-dry towel
-    - Mosquito net
-    - Bed sheets
-    - Biodegradable soap
-    - Mosquito repellent
-    - Water bottle
+    - "Rubber boots or waterproof hiking boots"
+    - "Light long-sleeved clothes"
+    - "Rain jacket"
+    - "Quick-dry towel"
+    - "Mosquito net"
+    - "Bed sheets"
+    - "Biodegradable soap"
+    - "Mosquito repellent"
+    - "Sunscreen"
+    - "Bathing clothes"
+    - "Water bottle"
+
 
 price:
   title: Price
@@ -133,14 +129,15 @@ dates:
   button: Contact us to book
 
 booking:
-  title: How to book
+  title: "How to book"
   steps:
-    - title: Write to us
-      text: Tell us who you are, how many people are coming and which dates you are interested in.
-    - title: Booking
-      text: We confirm your booking and arrange the dates, payment and all other details with you.
-    - title: Get ready
-      text: We send you our travel guide with packing list and health information.
+    - title: "Write to us"
+      text: "Tell us who you are, how many people are coming and which dates you are interested in."
+    - title: "Booking"
+      text: "We confirm your booking and arrange the dates, payment and all other details with you."
+    - title: "Get ready"
+      text: "We are looking forward to welcoming you in Maikiuants for 10 transformational days."
+
 
 past:
   title: Photos from Maikiuants
@@ -163,12 +160,6 @@ faq:
         In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the
         tour, our international guide and interpreters accompany you, and we always find a way to
         understand each other.
-    - q: Do you have experience hosting visitors?
-      a: >-
-        Yes. At the beginning we learned as we went, but today we have a lovely experience of
-        welcoming and caring for our visitors and exchanging knowledge from our territory.
     - q: Is it safe?
       a: >-
-        Yes. From your arrival in Quito, our international guide accompanies you, and in the forest
-        you're always with community members who know it well. Safety is included in the price.
-        [Describe first-aid kit, emergency communication and evacuation plan.]
+        The Maikiuants community is built on trust, and moving around inside the community is safe. On excursions and in the forest you are always with community members who know the region well.

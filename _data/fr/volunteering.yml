@@ -2,45 +2,40 @@
 # Le texte entre [crochets] est un marqueur : à remplacer par les vraies informations.
 
 hero:
-  eyebrow: Bénévolat · Agroforesterie · Vie communautaire
+  eyebrow: Bénévolat
   title: Bénévolat à Maikiuants
   lead: >-
-    Nous recherchons des personnes qui ont envie de partager savoirs et cultures, de travailler,
-    de découvrir la forêt et de vivre ensemble — et de connaître la vie communautaire en
-    Amazonie, loin de la ville.
+    Rejoignez-nous à Maikiuants pour travailler, apprendre et vivre ensemble.
   image: "/assets/img/fotos/hero-voluntariado.jpg"
   image_alt: Des bénévoles avec des machettes à côté d’un membre de la communauté
 
 who:
-  title: Qui recherchons-nous ?
-  intro: >-
-    Peu importe ce que vous savez faire exactement ou les compétences que vous apportez — tout
-    est bienvenu. Ce qui compte, c’est que vous ayez envie…
+  title: "Nous recherchons des personnes qui souhaitent"
   items:
-    - d’en apprendre plus sur les plantes, l’agroforesterie et la permaculture,
-    - de vivre en groupe et de partager les tâches,
-    - de découvrir la culture shuar et la vie dans la forêt,
-    - de passer beaucoup de temps en plein air,
-    - de vivre un quotidien lent, tranquille et flexible,
-    - et de faire preuve d’ouverture, de respect et de flexibilité.
+    - apprendre sur les plantes, l’agroforesterie et la permaculture,
+    - vivre en groupe et partager les tâches,
+    - découvrir la culture shuar et la vie dans la forêt,
+    - passer beaucoup de temps en plein air,
+    - vivre un quotidien lent, calme et souple,
+    - être ouvert d’esprit, respectueux et souple.
+
 
 tasks:
-  title: Comment vous pouvez aider
+  title: "Comment vous aiderez"
   intro: >-
-    Toutes les tâches sont très flexibles et ne sont pas toujours nécessaires. Préparez-vous donc
-    à aider là où il le faut et à apporter vos propres idées et compétences. Vous pouvez par
-    exemple aider dans les domaines suivants :
+    Nous vous invitons à aider là où l’on a besoin de vous et à apporter vos propres idées et compétences. Voici quelques tâches auxquelles vous pourriez participer :
   items:
-    - title: Jardinage
-      text: Pépinière, plantations et entretien du jardin et du terrain autour de la maison.
-    - title: Agroforesterie
-      text: Entretien des cultures agroforestières par le désherbage, la taille et la récolte.
-    - title: Construction
-      text: Aide aux travaux de construction et à l’amélioration des infrastructures.
-    - title: Mingas
-      text: Journées de travail collectif dans le village de Maikiuants.
-    - title: Vos compétences
-      text: Une aide selon vos compétences, par exemple la couture, les réseaux sociaux ou la vidéo.
+    - title: "Pépinière et jardin"
+      text: "Pépinière, semis et entretien du jardin et du terrain autour de la maison."
+    - title: "Agroforesterie"
+      text: "Entretenir les cultures agroforestières : désherbage, taille et récolte."
+    - title: "Construction"
+      text: "Soutien aux travaux de construction et aux améliorations des infrastructures."
+    - title: "Minga"
+      text: "Journées de travail collectif dans le village de Maikiuants."
+    - title: "Vos compétences"
+      text: "Apportez vos propres compétences, par exemple la couture, les réseaux sociaux ou les vidéos, etc. Chaque initiative est la bienvenue."
+
 
 life:
   title: La vie dans la jea
@@ -76,7 +71,7 @@ practical:
         de l’argent liquide en plus pour les courses et le taxi depuis Limón Indanza. Il y a une
         solution à tout, et les gens sont toujours prêts à aider.
     - { label: Langues, value: "Espagnol et Shuar Chicham – presque aucune autre langue. Quelques bases d’espagnol aident beaucoup" }
-    - { label: Arrivée, value: "En bus jusqu’à Limón Indanza, puis environ 2 h 30 en taxi 4×4 (env. 50–60 USD) jusqu’à la communauté" }
+    - { label: Arrivée, value: "En bus jusqu’à Limón Indanza, puis environ 2 h 30 en taxi (env. 50–60 USD) jusqu’à la communauté" }
   wwoof: Retrouvez-nous aussi sur WWOOF
 
 apply:
@@ -143,9 +138,7 @@ faq:
         place tout ce dont vous avez besoin.
     - q: Faut-il parler espagnol ?
       a: >-
-        Presque personne dans la communauté ne parle anglais, donc quelques bases d’espagnol aident
-        beaucoup au quotidien. Nous vous conseillons de télécharger une application de traduction
-        qui fonctionne hors ligne, pour les mots qui vous manquent.
+        Presque personne dans la communauté ne parle anglais, donc un niveau d’espagnol de base aide beaucoup à vivre ensemble.
     - q: À quoi ressemble une journée type ?
       a: >-
         Chaque jour est différent. Il n’y a souvent pas de programme fixe et beaucoup de choses se
@@ -163,5 +156,4 @@ faq:
         la fièvre typhoïde, les hépatites A et B et la rage sont généralement très importants.
     - q: Puis-je venir en couple ou entre amis ?
       a: >-
-        Oui, écrivez-nous simplement suffisamment tôt. L’hébergement peut accueillir 12 personnes ;
-        nous avons déjà reçu 6 ou 7 bénévoles en même temps.
+        Oui, écrivez-nous suffisamment tôt. Le logement peut accueillir 12 personnes.

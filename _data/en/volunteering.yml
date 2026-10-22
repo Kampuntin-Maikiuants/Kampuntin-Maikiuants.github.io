@@ -2,44 +2,40 @@
 # Text in [square brackets] is a placeholder: replace with the real information.
 
 hero:
-  eyebrow: Volunteering · Agroforestry · Community life
+  eyebrow: Volunteering
   title: Volunteering in Maikiuants
   lead: >-
-    We're looking for people who want to share knowledge and cultures, work, learn about the
-    rainforest and live together — and who want to experience community life in the Amazon, far
-    from the city.
+    Join us in Maikiuants to work, learn and live together.
   image: "/assets/img/fotos/hero-voluntariado.jpg"
   image_alt: Volunteers with machetes next to a member of the community
 
 who:
-  title: Who are we looking for?
-  intro: >-
-    It doesn't matter exactly what you can do or which skills you bring — everything is welcome.
-    What matters is that you'd like to…
+  title: "We are looking for people who would like to"
   items:
     - learn about plants, agroforestry and permaculture,
-    - live in a group and share tasks,
-    - learn about Shuar culture and life in the rainforest,
-    - spend lots of time outdoors,
-    - experience a slow, relaxed and flexible everyday life,
-    - and be open-minded, respectful and flexible.
+    - live in a group and share the tasks,
+    - get to know Shuar culture and life in the rainforest,
+    - spend a lot of time outdoors,
+    - enjoy a slow, calm and flexible day-to-day life,
+    - be open-minded, respectful and flexible.
+
 
 tasks:
-  title: How you'll help
+  title: "How you'll help"
   intro: >-
-    All tasks are very flexible and not always needed. So be ready to help wherever help is needed
-    and to bring in your own ideas and skills. For example, you can help with:
+    We invite you to assist wherever help is needed and to bring in your own ideas and skills. Some of the tasks you could help with:
   items:
-    - title: Gardening
-      text: Plant nursery, planting, and looking after the garden and grounds around the house.
-    - title: Agroforestry
-      text: Maintaining the agroforestry crops by weeding, pruning and harvesting.
-    - title: Construction
-      text: Helping with construction work and infrastructure improvements.
-    - title: Mingas
-      text: Communal work days in the village of Maikiuants.
-    - title: Your skills
-      text: Individual help depending on your skills, for example sewing, social media or videos.
+    - title: "Garden and nursery"
+      text: "Nursery, sowing and care of the garden and the land around the house."
+    - title: "Agroforestry"
+      text: "Looking after the agroforestry crops with weeding, pruning and harvesting."
+    - title: "Construction"
+      text: "Support with construction work and improvements to the infrastructure."
+    - title: "Minga"
+      text: "Community work days in the village of Maikiuants."
+    - title: "Your skills"
+      text: "Bring in your own skills, for example sewing, social media or videos, etc. Every impulse is welcome."
+
 
 life:
   title: Life in the jea
@@ -72,7 +68,7 @@ practical:
         basics. Also bring extra cash for shopping and the taxi from Limón Indanza. There's a
         solution for everything, and people are always happy to help.
     - { label: Languages, value: "Spanish and Shuar Chicham – hardly any other languages. Basic Spanish helps a lot" }
-    - { label: Arrival, value: "By bus to Limón Indanza, then about 2.5 h by 4×4 taxi (approx. 50–60 USD) to the community" }
+    - { label: Arrival, value: "By bus to Limón Indanza, then about 2.5 h by taxi (approx. 50–60 USD) to the community" }
   wwoof: Find us on WWOOF too
 
 apply:
@@ -137,8 +133,7 @@ faq:
         you need on site.
     - q: Do I need to speak Spanish?
       a: >-
-        Hardly anyone in the community speaks English, so basic Spanish helps a lot when living
-        together. We recommend downloading a translation app that works offline for the odd word.
+        Hardly anyone in the community speaks English, so basic Spanish helps a lot when living together.
     - q: What does a typical day look like?
       a: >-
         Every day is different. There's often no fixed plan and many things happen spontaneously.
@@ -155,5 +150,4 @@ faq:
         important.
     - q: Can I come with my partner or friends?
       a: >-
-        Yes, just write to us early. The lodge has room for 12 people; we have already hosted 6 or 7
-        volunteers at the same time.
+        Yes, just write to us early. The lodge has room for 12 people.

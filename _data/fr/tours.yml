@@ -2,7 +2,7 @@
 # Le texte entre [crochets] est un marqueur : à remplacer par les vraies informations.
 
 hero:
-  eyebrow: Tours · 10 jours · 12 personnes max.
+  eyebrow: Tours
   title: Passez vos journées dans la forêt, au sein de notre communauté
   lead: >-
     Vous partagez le quotidien de la communauté de Maikiuants, marchez en forêt avec des guides
@@ -12,11 +12,12 @@ hero:
   image_alt: Des visiteurs marchent dans la forêt avec un guide
 
 facts:
-  - { value: "10", label: jours dans la forêt }
-  - { value: "12", label: personnes au maximum }
-  - { value: Jea, label: hébergement traditionnel }
-  - { value: Ensemble, label: repas partagés }
-  - { value: Shuar, label: guides de la communauté }
+  - { text: "10 jours dans la forêt" }
+  - { text: "12 personnes au maximum" }
+  - { text: "Jea : hébergement traditionnel" }
+  - { text: "Repas partagés" }
+  - { text: "Guides de la communauté" }
+
 
 intro:
   title: Ce qui vous attend
@@ -32,86 +33,81 @@ intro:
     fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans
     les potagers, artisanat, cuisine et temps libre.
 
-quote:
-  text: Dans notre village, il ne s’agit pas de tourisme, mais d’échange culturel.
-  source: La communauté de Maikiuants
 
 life:
   title: La vie dans la jea
   text: Voici comment vous vivrez pendant votre séjour à Maikiuants.
 
-activities:
-  title: Des activités selon vos envies et votre temps
-  intro: "Chaque tour est adapté au groupe. Voici quelques-unes des choses que nous pouvons faire ensemble :"
-  image: "/assets/img/fotos/cascada.jpg"
-  image_alt: Cascade au milieu de la forêt près de Maikiuants
-  items:
-    - Balades vers des lieux sacrés et des cascades
-    - Cueillette de fruits locaux
-    - Bain de vapeur aux plantes médicinales
-    - Cuisine traditionnelle shuar
-    - Danse et musique
-    - Pêche
-    - Cérémonie de purification
-    - Fabrication d’objets artisanaux
 
-itinerary:
-  title: À quoi votre tour pourrait ressembler
-  note: Ce programme est indicatif. La météo, la rivière et la vie de la communauté donnent le rythme.
-  days:
-    - title: Arrivée
-      text: Notre guide international vous accueille à Quito. Ensemble, nous voyageons en minibus jusqu’à Cuenca, puis en taxi jusqu’à Maikiuants, où la communauté nous souhaite la bienvenue.
-    - title: Découverte du village
-      text: Nous parcourons Maikiuants et rencontrons la communauté et les familles. L’après-midi, baignade dans la rivière.
-    - title: La forêt qui soigne
-      text: Une longue marche dans la forêt avec un guide shuar pour découvrir les plantes médicinales traditionnelles.
-    - title: Minga
-      text: Nous participons à une minga, la journée de travail collectif qui permet d’entretenir le village. Ensuite, nous mangeons tous ensemble avec la communauté.
-    - title: L’argile de notre terre
-      text: Poterie avec l’argile des environs et découverte de l’artisanat traditionnel.
-    - title: Du jardin à la cuisine
-      text: Nous récoltons ensemble des fruits et des légumes dans nos plantations et cuisinons des spécialités traditionnelles.
-    - title: Les cascades
-      text: Une sortie en bateau jusqu’aux grandes cascades les plus proches.
-    - title: Lances et football
-      text: Nous apprenons à tailler des lances traditionnelles. L’après-midi, football avec les enfants du village.
-    - title: Musique et danse
-      text: Nous faisons de la musique ensemble, regardons et apprenons des danses traditionnelles, et fêtons les adieux.
-    - title: Départ
-      text: Dernier petit-déjeuner ensemble, derniers au revoir et retour vers Quito avec le guide international.
+
+experience:
+  title: "Ce que vous pouvez attendre de votre tour"
+  arrival_title: "Arrivée"
+  arrival: >-
+    Notre guide international vous accueille à Quito. Ensemble, nous prenons un minibus jusqu’à Cuenca puis un taxi jusqu’à Maikiuants, où la communauté nous accueille.
+  activities_title: "Les activités qui vous attendent"
+  activities_note: >-
+    Les activités dépendent de la saison et du programme de la communauté. Nous sommes heureux d’écouter vos souhaits et vos intérêts et de les intégrer.
+  activities:
+    - "Faire connaissance avec le village et la communauté"
+    - "Participer à une minga (la journée de travail collectif qui entretient le village)"
+    - "Manger avec toute la communauté dans le village, puis écouter l’assemblée du village"
+    - "Poterie avec de l’argile des environs"
+    - "Récolter ensemble légumes et fruits de nos plantations"
+    - "Faire de la musique ensemble"
+    - "Une longue randonnée dans la forêt tropicale et les plantes médicinales traditionnelles"
+    - "Apprendre à sculpter des lances traditionnelles"
+    - "Cuisiner ensemble des spécialités traditionnelles"
+    - "Jouer au football avec les enfants du village"
+    - "Une excursion en pirogue jusqu’aux plus grandes cascades des environs"
+    - "Admirer l’artisanat traditionnel"
+    - "Se baigner dans la rivière"
+    - "Danses et musique"
+    - "Pêche"
+    - "Randonnées vers des lieux sacrés et des cascades"
+    - "Cuisine traditionnelle shuar"
+    - "Cérémonie de purification"
+    - "Fabrication d’artisanat"
+  departure_title: "Départ"
+  departure: >-
+    Dernier petit-déjeuner ensemble, au revoir et voyage de retour vers Quito avec le guide international.
 
 included:
-  title: Inclus
+  title: "Inclus"
   items:
-    - Transfert depuis Quito avec notre guide international (minibus jusqu’à Cuenca, puis taxi jusqu’à Maikiuants)
-    - Hébergement dans la jea (lits superposés ou un emplacement pour votre propre hamac)
-    - Tous les repas pendant dix jours – nous achetons la nourriture et des cuisinières de la communauté la préparent
-    - Guides de la communauté et interprètes
-    - Sécurité et accompagnement pendant tout le tour
-    - Toutes les activités du programme
-    - Cuisine et électricité à l’énergie solaire
-    - Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)
-    - Une rivière pour se baigner
+    - "Transfert depuis Quito avec notre guide international (minibus jusqu’à Cuenca, puis taxi jusqu’à Maikiuants)"
+    - "Hébergement dans la jea (lits superposés ou place pour votre propre hamac)"
+    - "Tous les repas pendant dix jours, préparés par les cuisinières de la communauté"
+    - "Guides et interprètes de la communauté"
+    - "Toutes les activités du programme"
+    - "Cuisine à l’énergie solaire et électricité"
+    - "Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)"
+    - "Une rivière pour vous baigner"
+    - "Une petite boutique au centre communautaire pour vos dépenses personnelles"
+
 
 not_included:
-  title: Non inclus
+  title: "Non inclus"
   items:
-    - Vols jusqu’à Quito
-    - Assurance voyage avec couverture médicale (obligatoire)
-    - Dépenses personnelles et artisanat – il n’y a pas de grand supermarché à proximité
+    - "Vols jusqu’à Quito"
+    - "Assurance voyage avec couverture médicale (obligatoire)"
+
 
 packing:
-  title: Ce qu’il faut emporter
+  title: "À prévoir"
   items:
-    - Bottes en caoutchouc (également en vente au centre communautaire)
-    - Vêtements légers à manches longues
-    - Veste de pluie
-    - Serviette à séchage rapide
-    - Moustiquaire
-    - Draps
-    - Savon biodégradable
-    - Répulsif anti-moustiques
-    - Gourde
+    - "Bottes en caoutchouc ou chaussures de randonnée imperméables"
+    - "Vêtements légers à manches longues"
+    - "Veste imperméable"
+    - "Serviette à séchage rapide"
+    - "Moustiquaire"
+    - "Draps"
+    - "Savon biodégradable"
+    - "Répulsif anti-moustiques"
+    - "Crème solaire"
+    - "Maillot de bain"
+    - "Gourde"
+
 
 price:
   title: Prix
@@ -135,14 +131,15 @@ dates:
   button: Nous contacter pour réserver
 
 booking:
-  title: Comment réserver
+  title: "Comment réserver"
   steps:
-    - title: Écrivez-nous
-      text: Dites-nous qui vous êtes, combien de personnes viendront et quelles dates vous intéressent.
-    - title: Réservation
-      text: Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les autres détails.
-    - title: Préparez-vous
-      text: Nous vous envoyons notre guide de voyage avec la liste des affaires à emporter et des informations de santé.
+    - title: "Écrivez-nous"
+      text: "Dites-nous qui vous êtes, combien de personnes viennent et quelles dates vous intéressent."
+    - title: "Réservation"
+      text: "Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les détails."
+    - title: "Préparez-vous"
+      text: "Nous avons hâte de vous accueillir à Maikiuants pour 10 jours transformateurs."
+
 
 past:
   title: Photos de Maikiuants
@@ -167,14 +164,6 @@ faq:
         À Maikiuants, on parle le Shuar Chicham et l’espagnol – presque aucune autre langue.
         Pendant le tour, notre guide international et des interprètes vous accompagnent, et nous
         trouvons toujours un moyen de nous comprendre.
-    - q: Avez-vous de l’expérience dans l’accueil de visiteurs ?
-      a: >-
-        Oui. Au début, nous avons appris sur le tas, mais aujourd’hui nous avons une belle
-        expérience de l’accueil et de l’accompagnement de nos visiteurs, et du partage des savoirs
-        de notre territoire.
     - q: Est-ce sûr ?
       a: >-
-        Oui. Dès votre arrivée à Quito, notre guide international vous accompagne, et en forêt vous
-        êtes toujours avec des membres de la communauté qui la connaissent bien. La sécurité est
-        incluse dans le prix.
-        [Décrire la trousse de premiers secours, la communication d’urgence et le plan d’évacuation.]
+        La communauté de Maikiuants repose sur la confiance, et se déplacer à l’intérieur de la communauté est sûr. Lors des excursions et dans la forêt, vous êtes toujours accompagné de membres de la communauté qui connaissent bien la région.

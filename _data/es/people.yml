@@ -1,7 +1,7 @@
 # Página del equipo – español (las personas están en _data/team.yml)
 hero:
   eyebrow: Equipo
-  title: Las personas detrás de Maikiuants
+  title: "Las personas detrás de Kampuntin"
   lead: >-
     Detrás de Kampuntin hay un pequeño equipo: personas que coordinan los tours y el voluntariado,
     te guían por la selva y te acompañan durante tu estancia.
@@ -13,15 +13,13 @@ groups:
 
 # Abschnitt „Gesichter hinter der Website“ (unten auf der Team-Seite, Anker #creditos)
 credits:
-  title: Las caras detrás de esta web
-  intro: >-
-    Esta página la hicimos entre varias personas. Las fotos son de Jesko Dorner y del archivo de
-    Kampuntin; las ilustraciones de los encabezados y el logo, de Anouk Segebart.
-  people:
-    - { name: Jesko Dorner, role: "Fotos, textos, diseño web y mantenimiento", email: jesko.dorner@gmail.com }
-    - { name: Anouk Segebart, role: "Ilustraciones, logo y textos", email: anoukbsb@gmail.com }
-    - { name: Nalo Goosmann, role: Textos }
-    - { name: Yael Bulik, role: Textos }
+  title: "Las caras detrás de esta web"
   webdesign: "Diseño web: Jesko Dorner, con Claude de Anthropic."
-  maintained: "Jesko Dorner mantiene esta web. Para preguntas o correcciones sobre la información de la página, escribe a"
   map: "Mapas: © OpenStreetMap (colaboradores) y Natural Earth."
+  maintained: "Esta web la mantiene Jesko Dorner. Para preguntas o correcciones:"
+  people:
+    - { name: "Jesko Dorner", role: "Concepción y diseño, fotos, diseño web y mantenimiento" }
+    - { name: "Anouk Segebart", role: "Concepción y diseño, ilustraciones y logo" }
+    - { name: "Nalo Goosmann", role: "Concepción y diseño, textos" }
+    - { name: "Yael Bulik", role: "Concepción y diseño, textos" }
+

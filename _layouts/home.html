@@ -33,7 +33,7 @@ layout: default
       <blockquote class="quote">
         <p lang="jiv">{{ t.quote.text }}</p>
         {%- if t.quote.translation %}<p class="quote__translation">{{ t.quote.translation }}</p>{% endif %}
-        <footer>— {{ t.quote.source }}</footer>
+        {%- if t.quote.source != "" %}<footer>— {{ t.quote.source }}</footer>{%- endif %}
       </blockquote>
     </div>
     <ul class="principles">

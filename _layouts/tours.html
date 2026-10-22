@@ -13,7 +13,7 @@ layout: default
   <div class="container">
     <ul class="facts">
       {%- for f in t.facts %}
-      <li class="fact"><strong>{{ f.value }}</strong><span>{{ f.label }}</span></li>
+      <li class="fact"><span>{{ f.text }}</span></li>
       {%- endfor %}
     </ul>
   </div>
@@ -29,15 +29,6 @@ layout: default
   </div>
 </section>
 
-<section class="section section--forest section--quote">
-  <div class="container narrow center">
-    <blockquote class="quote quote--light">
-      <p>{{ t.quote.text }}</p>
-      <footer>— {{ t.quote.source }}</footer>
-    </blockquote>
-  </div>
-</section>
-
 <section class="section">
   <div class="container">
     <h2 class="section-title">{{ t.life.title }}</h2>
@@ -47,37 +38,27 @@ layout: default
 </section>
 
 <section class="section section--alt">
-  <div class="container split split--media">
-    <div>
-      <h2 class="section-title">{{ t.activities.title }}</h2>
-      <p class="section-intro">{{ t.activities.intro }}</p>
-      <ul class="checklist checklist--columns">
-        {%- for a in t.activities.items %}
-        <li>{{ a }}</li>
-        {%- endfor %}
-      </ul>
-    </div>
-    <a href="{{ t.activities.image | relative_url }}" data-lightbox data-caption="{{ t.activities.image_alt | escape }}">
-      <img class="split__img split__img--tall" src="{{ t.activities.image | relative_url }}" alt="{{ t.activities.image_alt | escape }}" loading="lazy">
-    </a>
-  </div>
-</section>
-
-<section class="section">
   <div class="container">
-    <h2 class="section-title">{{ t.itinerary.title }}</h2>
-    <p class="section-intro">{{ t.itinerary.note }}</p>
-    <ol class="timeline">
-      {%- for d in t.itinerary.days %}
-      <li>
-        <span class="timeline__day" aria-hidden="true">{{ forloop.index }}</span>
-        <div>
-          <h3><span class="sr-only">{{ forloop.index }}. </span>{{ d.title }}</h3>
-          <p>{{ d.text }}</p>
-        </div>
-      </li>
-      {%- endfor %}
-    </ol>
+    <h2 class="section-title">{{ t.experience.title }}</h2>
+    <div class="experience">
+      <div class="exp-card exp-card--small">
+        <h3>{{ t.experience.arrival_title }}</h3>
+        <p>{{ t.experience.arrival }}</p>
+      </div>
+      <div class="exp-card exp-card--big">
+        <h3>{{ t.experience.activities_title }}</h3>
+        <ul class="checklist checklist--columns">
+          {%- for a in t.experience.activities %}
+          <li>{{ a }}</li>
+          {%- endfor %}
+        </ul>
+        <p class="exp-note">{{ t.experience.activities_note }}</p>
+      </div>
+      <div class="exp-card exp-card--small">
+        <h3>{{ t.experience.departure_title }}</h3>
+        <p>{{ t.experience.departure }}</p>
+      </div>
+    </div>
   </div>
 </section>
 

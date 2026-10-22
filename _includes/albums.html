@@ -66,7 +66,6 @@
     </a>
     <div class="album__body">
       <h3>{{ al_title }}</h3>
-      {%- if al_when != "" %}<p>{{ al_when }}</p>{% endif %}
     </div>
     <div hidden>
       {%- for p in al_photos %}{% unless p == al_cover %}<a href="{{ p | relative_url }}" data-lightbox data-album="{{ folder }}" data-caption="{{ al_title | escape }}"></a>{% endunless %}{% endfor -%}

@@ -41,7 +41,7 @@ layout: default
         <source src="{{ sv.file | relative_url }}" type="video/mp4">
       </video>
       <div>
-        <p class="eyebrow eyebrow--dark">Video · 3:23 min</p>
+        <p class="eyebrow eyebrow--dark">Video</p>
         <h3 class="subsection-title">{{ sv.title[page.lang] | default: sv.title.en }}</h3>
         <p>{{ sv.text[page.lang] | default: sv.text.en }}</p>
       </div>
@@ -64,7 +64,6 @@ layout: default
       <article class="species">
         {% include media.html src=s.image alt=s_name class="species__img" %}
         <div class="species__body">
-          <span class="status status--{{ s.status | downcase }}"><abbr title="{{ ui.iucn[s.status] }}">{{ s.status }}</abbr> {{ ui.iucn[s.status] }}</span>
           <h4>{{ s_name }}</h4>
           <p class="latin"><i lang="la">{{ s.latin }}</i></p>
           <details class="species__cams">
@@ -80,7 +79,7 @@ layout: default
       </article>
       {%- endfor %}
     </div>
-    <p class="note">{{ a.threatened.also }}<br>{{ a.threatened.note }} <strong>{{ a.threatened.sensitive }}</strong></p>
+    <p class="note">{{ a.threatened.also }}<br><strong>{{ a.threatened.sensitive }}</strong></p>
 
     {%- assign frogs = "atelopus frog" | split: " " %}
     {%- for key in frogs %}

@@ -1,73 +1,86 @@
 # Personen auf der Seite „Equipo / People“
-# group: kampuntin (Organisationsteam). Optional auch "community" – dann erscheint
-#        automatisch ein zweiter Abschnitt „De la comunidad“.
-# shuar_name: optional, Shuar-Name (erscheint unter dem Namen). Wer nur einen Shuar-Namen hat,
-#             trägt ihn einfach unter "name" ein.
+# group: kampuntin (Organisationsteam) oder community. "details" erscheint beim Aufklappen.
 # photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
+# shuar_name: optional, Shuar-Name unter dem Namen.
+# Keine Telefonnummern oder E-Mails hier – die Seite verlinkt auf die Kontaktseite.
 # WICHTIG: Nur mit Einverständnis der Person veröffentlichen.
 
 - name: "Freddy Ankuash"
   shuar_name: "Nenkas Chicham"
   group: kampuntin
   photo: ""
-  role: { es: Dirección y coordinación de Kampuntin, en: Head and coordinator of Kampuntin, fr: Direction et coordination de Kampuntin }
+  role: { es: "Dirección de Kampuntin y coordinación", en: "Head of Kampuntin and coordination", fr: "Direction de Kampuntin et coordination" }
   bio:
-    es: Dirige Kampuntin, coordina los tours y el voluntariado y es tu primer contacto antes y durante tu estancia. Paraecólogo. WhatsApp +593 98 015 4335.
-    en: Leads Kampuntin, coordinates tours and volunteering and is your first contact before and during your stay. Para-ecologist. WhatsApp +593 98 015 4335.
-    fr: Dirige Kampuntin, coordonne les tours et le bénévolat et reste votre premier contact avant et pendant votre séjour. Paraécologue. WhatsApp +593 98 015 4335.
+    es: "Coordina a los voluntarios y a los grupos, y planifica las excursiones."
+    en: "Coordinates the volunteers and groups and plans the excursions."
+    fr: "Coordonne les bénévoles et les groupes et organise les excursions."
+  details:
+    es: "Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica."
+    en: "Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them."
+    fr: "Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise."
 
 - name: "Minki Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: Contacto para visitantes nacionales, en: Contact for visitors from Ecuador, fr: Contact pour les visiteurs d’Équateur }
+  role: { es: "Contacto para visitantes nacionales", en: "Contact for visitors from Ecuador", fr: "Contact pour les visiteurs d’Équateur" }
   bio:
-    es: Tu contacto si viajas desde Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
-    en: Your contact if you are travelling from within Ecuador. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
-    fr: Votre contact si vous voyagez depuis l’Équateur. WhatsApp +593 96 966 9760 · ocstkampuntin@gmail.com
+    es: "Tu contacto si viajas desde Ecuador."
+    en: "Your contact if you are travelling from within Ecuador."
+    fr: "Votre contact si vous voyagez depuis l’Équateur."
 
 - name: "Julien Shakaim"
   group: kampuntin
   photo: ""
-  role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
+  role: { es: "Contacto para visitantes internacionales", en: "Contact for international visitors", fr: "Contact pour les visiteurs internationaux" }
   bio:
-    es: Tu contacto si vienes desde el extranjero. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
-    en: Your contact if you are coming from abroad. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
-    fr: Votre contact si vous venez de l’étranger. WhatsApp +32 494 86 08 65 · jdefourny.explore@gmail.com
+    es: "Tu contacto si vienes desde el extranjero."
+    en: "Your contact if you are coming from abroad."
+    fr: "Votre contact si vous venez de l’étranger."
 
-# Laut Interview ebenfalls im Kampuntin-Team (Directiva: gerente, secretario, contador).
-# PLATZHALTER in [eckigen Klammern] – Nachname, Rolle und Text bitte ergänzen.
 - name: "Marcos Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en la directiva de Kampuntin]", en: "[Role on the Kampuntin board]", fr: "[Rôle au bureau de Kampuntin]" }
+  role: { es: "Dueño de la tienda del pueblo", en: "Owner of the village shop", fr: "Propriétaire de la petite épicerie du village" }
   bio:
-    es: "[1–2 frases sobre Marcos.]"
-    en: "[1–2 sentences about Marcos.]"
-    fr: "[1 ou 2 phrases sur Marcos.]"
+    es: "Tiene la pequeña tienda del pueblo y apoya las excursiones y las visitas guiadas por el pueblo."
+    en: "Runs the small shop in the village and supports the excursions and village tours."
+    fr: "Tient la petite épicerie du village et soutient les excursions et les visites du village."
+  details:
+    es: "Marcos es dueño de la pequeña tienda del pueblo. Apoya las excursiones y guía visitas por el pueblo."
+    en: "Marcos owns the small shop in the village. He supports the excursions and leads village tours."
+    fr: "Marcos tient la petite épicerie du village. Il soutient les excursions et guide les visites du village."
 
 - name: "Eddy Ankuash"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]", fr: "[Rôle chez Kampuntin]" }
+  role: { es: "Dueño de un aserradero y de plantaciones", en: "Owner of a sawmill and of plantations", fr: "Propriétaire d’une scierie et de plantations" }
   bio:
-    es: "[1–2 frases sobre Eddy.]"
-    en: "[1–2 sentences about Eddy.]"
-    fr: "[1 ou 2 phrases sur Eddy.]"
+    es: "Tiene un aserradero y cultiva plátano, yuca y caña de azúcar, que cosechamos juntos."
+    en: "Runs a sawmill and grows bananas, cassava and sugarcane, which we harvest together."
+    fr: "Possède une scierie et cultive bananes, manioc et canne à sucre, que nous récoltons ensemble."
+  details:
+    es: "Eddy es dueño de un aserradero y cultiva plátano, yuca y caña de azúcar en sus plantaciones. Los visitantes y los voluntarios pueden cosechar junto con él."
+    en: "Eddy owns a sawmill and grows bananas, cassava and sugarcane on his plantations. Visitors and volunteers can harvest together with him."
+    fr: "Eddy possède une scierie et cultive bananes, manioc et canne à sucre dans ses plantations. Les visiteurs et les bénévoles peuvent récolter avec lui."
 
 - name: "Jessica [Apellido]"
   group: kampuntin
   photo: ""
-  role: { es: "[Rol en Kampuntin]", en: "[Role at Kampuntin]", fr: "[Rôle chez Kampuntin]" }
+  role: { es: "Voluntaria y parte de la comunidad", en: "Volunteer and community member", fr: "Bénévole et membre de la communauté" }
   bio:
-    es: "[1–2 frases sobre Jessica.]"
-    en: "[1–2 sentences about Jessica.]"
-    fr: "[1 ou 2 phrases sur Jessica.]"
+    es: "Vive con los grupos de voluntarios y ayuda en los tours."
+    en: "Lives together with the volunteer groups and helps with the tours."
+    fr: "Vit avec les groupes de bénévoles et aide lors des tours."
+  details:
+    es: "Jessica también es voluntaria. Vive con los grupos de voluntarios, ayuda en los tours y acerca la cultura de la comunidad a los visitantes y a los voluntarios."
+    en: "Jessica is also a volunteer. She lives together with the volunteer groups, helps with the tours and brings the local culture closer to visitors and volunteers."
+    fr: "Jessica est aussi bénévole. Elle vit avec les groupes de bénévoles, aide lors des tours et rapproche la culture locale des visiteurs et des bénévoles."
 
 - name: "Numi"
   group: kampuntin
   photo: "/assets/img/equipo/numi.jpg"
   role: { es: "Guía · naturaleza", en: "Guide · nature", fr: "Guide · nature" }
   bio:
-    es: Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio.
-    en: Leads the rainforest walks and shares their knowledge of the plants and animals of the territory.
-    fr: Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire.
+    es: "Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio."
+    en: "Leads the rainforest walks and shares their knowledge of the plants and animals of the territory."
+    fr: "Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire."

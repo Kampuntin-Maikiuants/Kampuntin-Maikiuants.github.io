@@ -8,43 +8,32 @@ hero:
     Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors d’un tour de
     dix jours ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
     scientifique et la mission de Kampuntin.
-  image: "/assets/img/ilustraciones/inicio.jpg"
+  image: "/assets/img/ilustraciones/banner-startseite.jpg"
   image_alt: Illustration de plantes de la forêt amazonienne
   buttons:
     - { ref: tours, label: Découvrir les tours }
     - { ref: volunteering, label: Devenir bénévole, style: ghost }
 
 about:
-  title: L’histoire de la communauté
+  title: "Qui nous sommes"
   items:
-    - title: Les Shuar
+    - title: "Les Shuar"
       image: "/assets/img/fotos/shuar.jpg"
-      image_alt: Familles shuar de Maikiuants dans la forêt
+      image_alt: "Familles shuar de Maikiuants dans la forêt"
       text: >-
-        Les Shuar sont l’un des peuples autochtones les plus nombreux d’Amazonie. Leur langue est
-        le **Shuar Chicham**. Leur vie est profondément liée à la forêt, aux rivières et à la
-        spiritualité. La nourriture, les remèdes et les matériaux sont prélevés durablement dans la
-        forêt, et les savoirs se transmettent de génération en génération.
+        Les Shuar sont l’un des plus grands peuples autochtones de l’Amazonie, dont l’objectif est de protéger la forêt tropicale. Leur langue est le **shuar chicham**. Leur vie est profondément liée à la forêt, aux rivières et à la spiritualité.
     - title: Maikiuants
       image: "/assets/img/fotos/maikiuants.jpg"
-      image_position: bottom      # Bild unten ausrichten, damit das Wasserzeichen sichtbar bleibt
-      image_alt: Le centre de la communauté de Maikiuants, entouré par la forêt
+      image_position: bottom
+      image_alt: "Le centre de la communauté de Maikiuants entouré de forêt"
       text: >-
-        Maikiuants est une communauté shuar de la province de Morona Santiago, dans le sud de
-        l’Amazonie équatorienne, qui fait partie du **Pueblo Shuar Arutam**. Le village, entouré de
-        forêt et de rivières limpides, porte le nom de la rivière qui le traverse : *maikiua* est le
-        guanto (trompette des anges), qui pousse tout le long de ses rives, et *ants* signifie
-        « eau ». Maikiuants signifie « l’eau du guanto ».
+        Maikiuants est une communauté shuar de la province de Morona Santiago, dans l’Amazonie australe de l’Équateur, et fait partie du **Pueblo Shuar Arutam**. Le village tire son nom de la rivière qui le traverse : *maikiua* est le guanto (datura), qui pousse tout le long de ses rives, et *ants* signifie eau. Maikiuants signifie « l’eau du guanto ».
     - title: Kampuntin
       image: "/assets/img/fotos/kampuntin.jpg"
-      image_alt: L’équipe de Kampuntin avec un groupe de bénévoles devant la jea
+      image_alt: "L’équipe de Kampuntin avec un groupe de bénévoles devant la jea"
       text: >-
-        *Kampuntin* signifie « forêt tropicale » en Shuar Chicham – d’où notre devise
-        **« Selva, mi destino »** (la forêt, ma destination). Nous sommes l’organisation qui rend
-        possibles les tours et le bénévolat à Maikiuants. Nous étions déjà actifs auparavant, et
-        nous sommes officiellement reconnus depuis 2023. Ce qui nous anime, c’est d’apprendre les
-        uns des autres et les uns avec les autres. Kampuntin est aussi l’organisation qui porte le
-        travail scientifique, le suivi et la protection de la forêt.
+        *Kampuntin* signifie « forêt » en shuar chicham, d’où notre devise **« Selva, mi destino »** (la forêt, ma destination). Nous sommes nés au sein de la communauté de Maikiuants. Nous voulons créer un échange culturel, en partageant un regard sur la forêt et la communauté de l’intérieur, tout en soutenant économiquement la communauté de Maikiuants. Kampuntin est aussi l’organisation derrière le travail scientifique, le suivi et la protection de la forêt.
+
 
 # PLACEHOLDER – the mission will be worded in more detail later
 mission:
@@ -60,32 +49,28 @@ mission:
         eux.
     - title: Partager et documenter la culture shuar
       text: >-
-        Nous transmettons notre langue, nos savoirs et nos coutumes aux visiteurs et aux
-        générations suivantes — et nous documentons notre mode de vie tant que c’est encore
-        possible.
+        Nous transmettons notre langue, nos savoirs et nos coutumes aux visiteurs et aux générations futures.
     - title: Apprendre ensemble
       text: >-
-        Visiteurs, bénévoles et communauté apprennent les uns des autres — sur les plantes, la
-        spiritualité et d’autres façons de vivre.
+        Visiteurs, bénévoles et communauté apprennent les uns des autres : sur les plantes, l’alimentation, la spiritualité et d’autres façons de vivre.
     - title: Renforcer la communauté
       text: >-
-        Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur
-        place, et 5 % des revenus vont directement à Maikiuants. Nous aidons aussi les familles dans
-        le besoin en matière de santé et d’éducation.
-
+        Nous payons les guides et les cuisinières locales, achetons les aliments au sein de la communauté, et 5 % des revenus vont directement à Maikiuants.
 quote:
   text: Iikia kampuntniuitji tura achitkiaji ii nekatairijiai.
-  translation: Nous sommes nature, lien et sagesse.
-  source: La communauté de Maikiuants
+  translation: "Nous sommes la nature, la connexion et la sagesse."
+  source: ""
+
 
 location:
   title: Où nous trouver
   text: >-
     Maikiuants se trouve dans la province de **Morona Santiago**, dans le sud de l’Amazonie
     équatorienne, dans la Cordillera del Cóndor. La route vers Maikiuants part de **Limón
-    Indanza** ; de là, il faut compter environ deux heures et demie, généralement en taxi 4×4
+    Indanza** ; de là, il faut compter environ deux heures et demie, généralement en taxi
     (env. 50–60 USD). Nous accueillons les groupes des tours à Quito et voyageons ensemble jusqu’à
     la communauté.
+    La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
   coords: 3°07'10.2" S · 78°15'56.4" O
   map_link: Voir sur OpenStreetMap
   map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
@@ -114,8 +99,7 @@ explore:
 tour_popup:
   eyebrow: Prochain tour
   text: >-
-    Dix jours au sein de la communauté shuar de Maikiuants. En 2027, sous le signe de la
-    spiritualité.
+    Dix jours à vivre avec la communauté shuar de Maikiuants, tout compris. En 2027, avec un accent sur la spiritualité.
   per: par personne
   button: Voir le tour
   close: Fermer

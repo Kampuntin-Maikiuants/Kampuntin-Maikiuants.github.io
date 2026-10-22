@@ -1,7 +1,7 @@
 # Science page (para-ecology) – English
 
 hero:
-  eyebrow: Community science
+  eyebrow: Science
   title: "Para-ecology: researching the forest from within the community"
   lead: >-
     In Maikiuants, community members train as para-ecologists. They combine Shuar knowledge
@@ -34,7 +34,7 @@ what:
 methods:
   title: What we monitor
   intro: >-
-    The data we collect are complex and require training. In addition to the existing weather
+    In addition to the existing weather
     station and wildlife cameras, a new scientific station will soon be built so that we can
     collect and analyse data even more systematically.
   items:
@@ -158,19 +158,12 @@ book:
   subtitle: "Guide to the aquatic macroinvertebrates of the Aakas and Yunkumas river micro-basins – Cordillera del Cóndor"
   cover: "/assets/img/libro/portada-recortada.jpg"
   cover_alt: Cover of the guide to the aquatic macroinvertebrates of the Aakas and Yunkumas rivers
-  text: |-
-    The para-ecologists of Maikiuants collected, identified and photographed the small animals
-    that live in our rivers. The result is this illustrated guide: detailed photographs of each
-    family — from mayflies and damselflies to beetles, fly larvae and leeches — an introduction
-    to their anatomy, and what they tell us about water quality.
-
-    We made this guide ourselves: around ten para-ecologists from Maikiuants, whose names appear
-    in the book. Only a few printed copies exist – if you are interested, get in touch.
+  text: >-
+    The Shuar community of Maikiuants, settled in the Cordillera del Cóndor, has a large territory that is home to a great biodiversity of species and ecosystems, now threatened by extractive activities. This area is mainly watered by the Aakas and Yunkumas rivers, whose aquatic ecosystems show a wide variety of fauna, among which aquatic macroinvertebrates stand out. This guide presents the families of this group of fauna; their presence shows that the waters of these two rivers are in excellent condition. This work is the result of studies carried out jointly by the Universidad del Azuay, the Maikiuants community, the Pueblo Shuar Arutam and the Fundación Ecoforensic, whose aim is to explore and show the biological and cultural richness of this territory.
   details:
-    - { label: Authors, value: "Para-ecologists of Maikiuants" }
-    - { label: Year, value: "[Year]" }
-    - { label: Language, value: Spanish }
-    - { label: Pages, value: "[XXX]" }
+    - { label: Language, value: "Spanish" }
+    - { label: Publisher, value: "Universidad del Azuay & Casa Editorial" }
+    - { label: ISBN, value: "978-9942-54-103-1" }
   button: { label: Ask about the book, url: "" }   # empty url = contact page
   pages_title: A look inside
   pages:

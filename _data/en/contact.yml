@@ -3,8 +3,7 @@ hero:
   eyebrow: Contact
   title: Write to us
   lead: >-
-    Questions about tours, volunteering or a research collaboration? Message us on WhatsApp
-    or by email. We answer personally; signal is limited in the rainforest, so please be patient.
+    Questions about tours, volunteering or a research collaboration? Message us on WhatsApp or by email. We answer personally and usually within a day. Signal can be limited in the rainforest, so please be patient.
   image: "/assets/img/ilustraciones/detalle-4.jpg"
   image_alt: Illustration of Amazon rainforest plants
 direct:
@@ -23,8 +22,9 @@ location:
   text: >-
     Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon. The road
     to the community starts in Limón Indanza; from there it takes about two and a half hours,
-    usually by 4×4 taxi (approx. 50–60 USD). Tour groups are picked up in Quito. We'll agree on the
+    usually by taxi (approx. 50–60 USD). Tour groups are picked up in Quito. We'll agree on the
     other travel details before your arrival.
+    The road is not shown on Google Maps, but it is on OpenStreetMap.
   map_link: View on OpenStreetMap
   map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
 
@@ -33,26 +33,10 @@ faq:
   items:
     - q: How long does it take you to reply?
       a: >-
-        Usually a few days. Signal is limited in the rainforest, so sometimes it takes a little
-        longer. WhatsApp is often faster.
+        Usually within hours. Signal is limited in the rainforest, so sometimes it takes a little longer. WhatsApp is often faster.
     - q: Which languages can I write in?
       a: >-
-        Spanish is best. If you don't speak Spanish, write to us anyway – we always find a way to
-        understand each other.
-    - q: How do I get to Maikiuants?
-      a: >-
-        **Tours:** we pick you up in Quito. Our international guide travels with the group by minibus
-        to Cuenca and from there by taxi to Maikiuants; transport is included in the price.
-        **Volunteering:** by bus to Limón Indanza, then about two and a half hours by 4×4 taxi
-        (approx. 50–60 USD) to the community. We'll agree on the details with you before your trip.
-    - q: Can I visit Maikiuants without joining a tour?
-      a: >-
-        Visits are always agreed with the community beforehand. Write to us and we'll see what is
-        possible.
-    - q: Can I change or cancel a booking?
-      a: >-
-        Yes. Write to us as early as possible: changes and cancellations are arranged personally
-        with you.
+        Spanish is best. If you don't speak Spanish, write to us anyway, we will translate your message.
     - q: How can I support you without travelling?
       a: >-
         By sharing our updates or helping with translation, photography or social media. With part

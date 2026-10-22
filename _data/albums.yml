@@ -1,56 +1,45 @@
 # Fotoalben der Galerie
 # -----------------------------------------------------------------
-# Jedes Album ist ein Ordner in assets/galeria/, z. B. assets/galeria/2026-09-tour-septiembre/
-# Fotos einfach in den Ordner hochladen – das Album erscheint automatisch (neueste Ordnernamen zuerst,
-# deshalb Ordnernamen mit Datum beginnen).
-#
-# Hier optional Titel, Datum und Titelbild festlegen:
+# Jeder Unterordner in assets/galeria/ ist ein Album. Die Reihenfolge ergibt sich aus dem Ordnernamen
+# (absteigend sortiert): 10-… steht vor 09-…, deshalb die Nummern voranstellen.
+# Datumsangaben werden nicht angezeigt.
 #   folder: Ordnername
 #   title:  Titel auf Spanisch, Englisch und Französisch
-#   date:   Datum (für die Anzeige „Octubre 2026“)
 #   cover:  Dateiname des Titelbilds (leer = erstes Foto im Ordner)
 # Ordner ohne Eintrag erscheinen trotzdem, mit dem Ordnernamen als Titel.
 
-- folder: fiesta-en-maikiuants
+- folder: 10-caminatas-por-la-selva
+  title: { es: "Caminatas por la selva", en: "Walks in the rainforest", fr: "Randonnées dans la forêt" }
+  cover: "009.jpg"
+
+- folder: 09-plantas-y-cuidado-natural
+  title: { es: "Plantas y cuidado natural", en: "Plants and natural care", fr: "Plantes et soins naturels" }
+  cover: "007.jpg"
+
+- folder: 08-cocina-tradicional
+  title: { es: "Cocina tradicional", en: "Traditional cooking", fr: "Cuisine traditionnelle" }
+  cover: "011.jpg"
+
+- folder: 07-ceramica-y-artesania
+  title: { es: "Cerámica y artesanía", en: "Pottery and handicrafts", fr: "Poterie et artisanat" }
+  cover: "008.jpg"
+
+- folder: 06-la-vida-en-la-jea
+  title: { es: "La vida en la jea", en: "Life in the jea", fr: "La vie dans la jea" }
+  cover: "001.jpg"
+
+- folder: 03-fiesta-en-maikiuants
   title: { es: "Fiesta en Maikiuants", en: "Celebration in Maikiuants", fr: "Fête à Maikiuants" }
   cover: ""
 
-- folder: 2026-10-19-caminata-con-guia
-  title: { es: "Caminata por la selva con guía", en: "Forest walk with a guide", fr: "Balade en forêt avec un guide" }
-  date: 2026-10-19
-  cover: "004.jpg"
-
-- folder: 2026-10-18-champu-natural
-  title: { es: "Champú natural de plantas", en: "Making natural shampoo from plants", fr: "Shampoing naturel aux plantes" }
-  date: 2026-10-18
-  cover: "013.jpg"
-
-- folder: 2026-10-17-taller-de-ceramica
-  title: { es: "Taller de cerámica", en: "Pottery workshop", fr: "Atelier de céramique" }
-  date: 2026-10-17
-  cover: "010.jpg"
-
-- folder: 2026-10-16-comida-tradicional
-  title: { es: "Comida tradicional", en: "Traditional meal", fr: "Repas traditionnel" }
-  date: 2026-10-16
-  cover: "034.jpg"
-
-- folder: 2026-10-15-libro
+- folder: 02-nuestro-libro
   title: { es: "Nuestro libro: Guía de macroinvertebrados acuáticos", en: "Our book: guide to aquatic macroinvertebrates", fr: "Notre livre : guide des macroinvertébrés aquatiques" }
-  date: 2026-10-15
-  cover: "01.jpg"
-
-- folder: 2026-10-07-jesko-en-maikiuants
-  title: { es: "Jesko en Maikiuants", en: "Jesko in Maikiuants", fr: "Jesko à Maikiuants" }
-  date: 2026-10-07
-  cover: "072.jpg"
-
-- folder: 2024-07-voluntariado
-  title: { es: "Voluntariado", en: "Volunteering", fr: "Bénévolat" }
-  date: 2024-07-29
   cover: ""
 
-- folder: 2024-06-investigacion
+- folder: 01b-investigacion-2024
   title: { es: "Investigación en el bosque y los ríos", en: "Research in the forest and rivers", fr: "Recherche dans la forêt et les rivières" }
-  date: 2024-06-18
+  cover: ""
+
+- folder: 01a-voluntariado-2024
+  title: { es: "Voluntariado", en: "Volunteering", fr: "Bénévolat" }
   cover: ""
