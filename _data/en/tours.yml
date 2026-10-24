@@ -85,51 +85,24 @@ experience:
   activities_note: >-
     The activities depend on the season and the community's schedule. We are happy to hear and include your wishes and interests.
   activities:
-    - "Getting to know the village and the community"
-    - "Taking part in a minga (the community work day that cares for the village)"
-    - "Eating with the whole community in the village"
-    - "Pottery with clay from the immediate surroundings"
-    - "Harvesting vegetables and fruit together from our plantations"
-    - "Making music together"
-    - "A long walk through the rainforest and traditional medicinal plants"
-    - "Learning how to carve traditional spears"
-    - "Blowgun practice (with fruit as targets)"
-    - "A culinary exchange: cooking dishes from Shuar culture and from the visitors' own cultures together"
-    - "Playing football with the children of the village"
-    - "A walk to the nearest big waterfalls"
-    - "Bathing in the river"
-    - "Dance and music"
-    - "Selective night fishing"
-    - "A raft trip on the Río Coangos"
-    - "Walks to sacred places and waterfalls"
-    - "Purification ceremony"
-    - "Learning to make handicrafts and your own jewellery"
+    - "Welcome from the community with dance and celebration"
+    - "Rainforest walks to waterfalls and caves"
+    - "Stories from the elders about the Shuar people"
     - "Learning how the community defends its territory against mining"
     - "Setting up a camera trap to observe wildlife"
+    - "Nunkui day: sowing, planting and harvesting in the family fields with anent songs"
+    - "Cooking the harvest and making cassava chicha"
+    - "Pottery with the women of the community: collecting clay, shaping, painting and firing"
+    - "Tsunki day: recognising and collecting medicinal plants"
     - "A Shuar steam bath with medicinal plants"
-    - "Several days as \"nomads of the jungle\": hikes through the territory and a night in a shelter we build ourselves"
+    - "A walk to the sacred waterfall and a ceremony about the Shuar worldview"
+    - "Weaving the changuina, the traditional basket"
+    - "Tasting food from the rainforest"
+    - "The Río Coangos and the stories of the pre-Hispanic axes"
+    - "Building a shelter (ayamte) and spending the night in the rainforest"
   departure_title: "Farewell, expedition and return"
   departure: >-
     At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
-
-why:
-  title: "Why this journey?"
-  intro: This is not a tourist trip but a shared adventure.
-  community_title: What your journey brings to the community
-  community:
-    - "Visibility for their difficult socio-political situation"
-    - "Support to fund the defence of their territory"
-    - "Their own income, independent of government projects"
-    - "Pride in Shuar identity, so that young people keep their knowledge alive"
-    - "Support for their own education"
-    - "An opening to the rest of the world"
-  you_title: What you take home
-  you:
-    - "A reconnection with nature"
-    - "A reconnection with yourself"
-    - "New insights"
-    - "An intense group experience"
-
 
 # Spiritual journey (11 days) – same structure as experience
 spiritual:

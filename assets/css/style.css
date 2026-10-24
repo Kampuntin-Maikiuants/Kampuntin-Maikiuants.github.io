@@ -363,6 +363,17 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .checklist--big li { font-size: 1.12rem; padding: .9rem 1rem .9rem 3rem; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-sm); }
 .checklist--big li::before { left: 1rem; top: 1.05rem; }
 .lists .panel { box-shadow: none; }
+/* Tour: Inklusive / Nicht inklusive / Packliste – nur auf dem Handy zum Aufklappen (am Computer immer offen, siehe main.js) */
+.panel--toggle summary { cursor: pointer; list-style: none; position: relative; padding-right: 2.2rem; }
+.panel--toggle summary::-webkit-details-marker { display: none; }
+.panel--toggle summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.6rem; line-height: 1; color: var(--clay); }
+.panel--toggle[open] summary::after { content: "–"; }
+.panel--toggle summary h2 { margin: 0; }
+.panel--toggle[open] summary { margin-bottom: 1rem; }
+@media (min-width: 760px) {
+  .panel--toggle summary { cursor: default; padding-right: 0; pointer-events: none; }
+  .panel--toggle summary::after { display: none; }
+}
 
 .facts-list { margin: 0 0 1.5rem; display: grid; gap: .1rem; }
 .facts-list div { display: grid; grid-template-columns: minmax(130px, 38%) 1fr; gap: 1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
@@ -884,9 +895,8 @@ img.wm { object-position: 0 100% !important; }
 .tour-popup__trip { margin: -.15rem 0 .3rem; font-size: .8rem; font-weight: 700; color: var(--clay-dark); }
 .partner-trip__links { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }
 
-/* ---------- Tour: Warum diese Reise (zwei Listen nebeneinander) ---------- */
+/* ---------- Tour: zwei Karten nebeneinander (Auswahl der Reisen) ---------- */
 .grid--why { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
-.grid--why .panel h3 { font-size: 1.3rem; margin-bottom: .8rem; }
 
 /* ---------- Tour: Hinweis auf die längere Reise von Raíces ---------- */
 .partner-trip { margin-top: 2.5rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; }

@@ -87,51 +87,24 @@ experience:
   activities_note: >-
     Les activités dépendent de la saison et du programme de la communauté. Nous sommes heureux d’écouter vos souhaits et vos intérêts et de les intégrer.
   activities:
-    - "Faire connaissance avec le village et la communauté"
-    - "Participer à une minga (la journée de travail collectif qui entretient le village)"
-    - "Manger avec toute la communauté dans le village"
-    - "Poterie avec de l’argile des environs"
-    - "Récolter ensemble légumes et fruits de nos plantations"
-    - "Faire de la musique ensemble"
-    - "Une longue randonnée dans la forêt tropicale et les plantes médicinales traditionnelles"
-    - "Apprendre à sculpter des lances traditionnelles"
-    - "S’exercer à la sarbacane (sur des fruits)"
-    - "Échange culinaire : cuisiner ensemble des plats de la culture shuar et aussi des visiteurs"
-    - "Jouer au football avec les enfants du village"
-    - "Une randonnée jusqu’aux plus grandes cascades des environs"
-    - "Se baigner dans la rivière"
-    - "Danses et musique"
-    - "Pêche sélective de nuit"
-    - "Une balade en radeau sur le Río Coangos"
-    - "Randonnées vers des lieux sacrés et des cascades"
-    - "Cérémonie de purification"
-    - "Apprendre à fabriquer de l’artisanat et vos propres bijoux"
+    - "Accueil de la communauté avec danse et fête"
+    - "Randonnées dans la forêt vers des cascades et des grottes"
+    - "Récits des anciens sur le peuple shuar"
     - "Découvrir comment la communauté défend son territoire face à l’industrie minière"
     - "Installer un piège photographique pour observer la faune"
+    - "Journée de Nunkui : semer, planter et récolter dans les parcelles familiales avec des chants anent"
+    - "Cuisiner la récolte et préparer la chicha de manioc"
+    - "Poterie avec les femmes de la communauté : récolter l’argile, modeler, peindre et cuire"
+    - "Journée de Tsunki : reconnaître et récolter des plantes médicinales"
     - "Un bain de vapeur shuar aux plantes médicinales"
-    - "Plusieurs jours en « nomades de la jungle » : randonnées à travers le territoire et une nuit dans un abri construit par nous-mêmes"
+    - "Marche vers la cascade sacrée et cérémonie autour de la cosmovision shuar"
+    - "Tresser la changuina, le panier traditionnel"
+    - "Goûter des mets de la forêt"
+    - "Le fleuve Coangos et les récits des haches préhispaniques"
+    - "Construire un abri (ayamte) et passer la nuit dans la forêt"
   departure_title: "Adieux, expédition et retour"
   departure: >-
     À la fin du séjour à Maikiuants, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Vient ensuite l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
-
-why:
-  title: "Pourquoi ce voyage ?"
-  intro: Ce n’est pas un voyage touristique, mais une aventure partagée.
-  community_title: Ce que votre voyage apporte à la communauté
-  community:
-    - "De la visibilité face à une situation sociopolitique difficile"
-    - "Un soutien pour financer la défense de leur territoire"
-    - "Des revenus propres, indépendants des projets gouvernementaux"
-    - "La fierté de l’identité shuar, pour que les jeunes gardent leur savoir vivant"
-    - "Un soutien à une éducation autonome"
-    - "Une ouverture sur le reste du monde"
-  you_title: Ce que vous emportez
-  you:
-    - "Une reconnexion à la nature"
-    - "Une reconnexion à vous-même"
-    - "Des prises de conscience"
-    - "Une expérience de groupe intense"
-
 
 # Voyage spirituel (11 jours) – même structure que experience
 spiritual:

@@ -106,6 +106,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3500);
   }
 
+  // --- Tour: Leistungen und Packliste nur auf dem Handy zugeklappt, am Computer immer offen ----
+  const wide = window.matchMedia('(min-width: 760px)');
+  const syncToggles = () => document.querySelectorAll('.panel--toggle').forEach((d) => { d.open = wide.matches; });
+  syncToggles();
+  wide.addEventListener('change', syncToggles);
+  document.querySelectorAll('.panel--toggle summary').forEach((s) => {
+    s.addEventListener('click', (e) => { if (wide.matches) e.preventDefault(); });
+  });
+
   // --- Aufklappbare Reiseprogramme: ein Link auf #id öffnet das <details> ----
   const openDetails = (hash) => {
     if (!hash || hash.length < 2) return;

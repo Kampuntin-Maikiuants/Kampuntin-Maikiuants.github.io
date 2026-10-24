@@ -2,7 +2,7 @@
 
 Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
-- **Teil A** (40 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil A** (38 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
 - **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
 - **Ganz unten**: offene Fragen.
 
@@ -42,12 +42,6 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - [ ] **Sobre el tour – Arutam-Absatz** – _„Los dos viajes llevan a la cascada sagrada“ habe ich aus den Programmen abgeleitet_
   - ES: Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
   - EN: For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
-- [ ] **¿Por qué este viaje? – Überschrift und Satz** – _sinngemäß nach Raíces („Pourquoi ?“), Auswahl und Wortlaut von mir_
-  - ES: ¿Por qué este viaje? · No es un viaje turístico, sino una aventura compartida.
-  - EN: Why this journey? · This is not a tourist trip but a shared adventure.
-- [ ] **¿Por qué este viaje? – die beiden Listen** – _Auswahl von mir; „une bonne claque“ und „détox“ habe ich weggelassen_
-  - ES: Lo que tu viaje aporta a la comunidad: Visibilidad para su difícil situación sociopolítica · Apoyo para financiar la defensa del territorio · Ingresos propios, independientes de los proyectos del gobierno · Orgullo por la identidad shuar, para que los jóvenes mantengan vivo su saber · Apoyo a una educación propia · Apertura al resto del mundo || Lo que te llevas: Una reconexión con la naturaleza · Una reconexión contigo mismo · Nuevas tomas de conciencia · Una experiencia de grupo intensa
-  - EN: What your journey brings to the community: Visibility for their difficult socio-political situation · Support to fund the defence of their territory · Their own income, independent of government projects · Pride in Shuar identity, so that young people keep their knowledge alive · Support for their own education · An opening to the rest of the world || What you take home: A reconnection with nature · A reconnection with yourself · New insights · An intense group experience
 - [ ] **Incluido – Transport, Unterkunft, Essen** – _aus beiden Programmen zusammengeführt, die Unterschiede in Klammern sind von mir_
   - ES: Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional) · Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos · Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
   - EN: All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe) · Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos · All meals from day 2; in Maikiuants prepared by community cooks
@@ -271,80 +265,56 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - EN: The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
 - FR: Le voyage commence à Cuenca, à 2 800 mètres d’altitude. Après une journée libre pour vous acclimater, nous découvrons le centre historique, le marché local et le musée Pumapungo. Nous allons en bus jusqu’à Limón Indanza, où un chaman shuar guide une cérémonie de purification, puis nous continuons en 4×4 à travers la Cordillère du Condor jusqu’à Maikiuants, où la communauté nous accueille avec de la danse et une fête.
 
-**Unos diez días en Maikiuants – Aktivitäten (vollständige Liste)** – _Boot raus, Nachtfischen, Floß, Blasrohr, kulinarischer Austausch, Schmuck, Versammlung raus, Doppelte raus_
+**Viaje Arutam – Aktivitäten (vollständige Liste)** – _nur noch nach Juliens Programm (Tag 4–13 in Maikiuants)_
 
 - ES:
-  - Conocer el pueblo y la comunidad
-  - Participar en una minga (el día de trabajo comunitario para cuidar el pueblo)
-  - Comer con toda la comunidad en el pueblo
-  - Cerámica con arcilla de los alrededores
-  - Cosechar juntos verduras y frutas de nuestras plantaciones
-  - Hacer música juntos
-  - Una larga caminata por la selva y las plantas medicinales tradicionales
-  - Aprender a tallar lanzas tradicionales
-  - Práctica con la cerbatana (con frutas como blanco)
-  - Intercambio culinario: cocinar juntos platos de la cultura shuar y también de los visitantes
-  - Jugar fútbol con los niños del pueblo
-  - Una caminata hasta las cascadas grandes más cercanas
-  - Bañarse en el río
-  - Danzas y música
-  - Pesca selectiva nocturna
-  - Paseo en balsa por el río Coangos
-  - Caminatas a lugares sagrados y cascadas
-  - Ceremonia de purificación
-  - Aprender a hacer artesanías y tus propias joyas
+  - Bienvenida de la comunidad con baile y fiesta
+  - Caminatas por la selva hacia cascadas y cuevas
+  - Historias de los mayores sobre el pueblo shuar
   - Conocer cómo la comunidad defiende su territorio frente a la minería
   - Instalar una cámara trampa para observar la fauna
+  - Día de Nunkui: sembrar, plantar y cosechar en las parcelas familiares con cantos anent
+  - Cocinar la cosecha y preparar chicha de yuca
+  - Cerámica con las mujeres de la comunidad: recoger la arcilla, modelar, pintar y cocer
+  - Día de Tsunki: reconocer y recolectar plantas medicinales
   - Un baño de vapor shuar con plantas medicinales
-  - Varios días como «nómadas de la selva»: caminatas por el territorio y una noche en un refugio construido por nosotros mismos
+  - Caminata a la cascada sagrada y ceremonia sobre la cosmovisión shuar
+  - Tejer la changuina, la canasta tradicional
+  - Probar comidas de la selva
+  - El río Coangos y las historias de las hachas prehispánicas
+  - Construir un refugio (ayamte) y pasar la noche en la selva
 - EN:
-  - Getting to know the village and the community
-  - Taking part in a minga (the community work day that cares for the village)
-  - Eating with the whole community in the village
-  - Pottery with clay from the immediate surroundings
-  - Harvesting vegetables and fruit together from our plantations
-  - Making music together
-  - A long walk through the rainforest and traditional medicinal plants
-  - Learning how to carve traditional spears
-  - Blowgun practice (with fruit as targets)
-  - A culinary exchange: cooking dishes from Shuar culture and from the visitors' own cultures together
-  - Playing football with the children of the village
-  - A walk to the nearest big waterfalls
-  - Bathing in the river
-  - Dance and music
-  - Selective night fishing
-  - A raft trip on the Río Coangos
-  - Walks to sacred places and waterfalls
-  - Purification ceremony
-  - Learning to make handicrafts and your own jewellery
+  - Welcome from the community with dance and celebration
+  - Rainforest walks to waterfalls and caves
+  - Stories from the elders about the Shuar people
   - Learning how the community defends its territory against mining
   - Setting up a camera trap to observe wildlife
+  - Nunkui day: sowing, planting and harvesting in the family fields with anent songs
+  - Cooking the harvest and making cassava chicha
+  - Pottery with the women of the community: collecting clay, shaping, painting and firing
+  - Tsunki day: recognising and collecting medicinal plants
   - A Shuar steam bath with medicinal plants
-  - Several days as "nomads of the jungle": hikes through the territory and a night in a shelter we build ourselves
+  - A walk to the sacred waterfall and a ceremony about the Shuar worldview
+  - Weaving the changuina, the traditional basket
+  - Tasting food from the rainforest
+  - The Río Coangos and the stories of the pre-Hispanic axes
+  - Building a shelter (ayamte) and spending the night in the rainforest
 - FR:
-  - Faire connaissance avec le village et la communauté
-  - Participer à une minga (la journée de travail collectif qui entretient le village)
-  - Manger avec toute la communauté dans le village
-  - Poterie avec de l’argile des environs
-  - Récolter ensemble légumes et fruits de nos plantations
-  - Faire de la musique ensemble
-  - Une longue randonnée dans la forêt tropicale et les plantes médicinales traditionnelles
-  - Apprendre à sculpter des lances traditionnelles
-  - S’exercer à la sarbacane (sur des fruits)
-  - Échange culinaire : cuisiner ensemble des plats de la culture shuar et aussi des visiteurs
-  - Jouer au football avec les enfants du village
-  - Une randonnée jusqu’aux plus grandes cascades des environs
-  - Se baigner dans la rivière
-  - Danses et musique
-  - Pêche sélective de nuit
-  - Une balade en radeau sur le Río Coangos
-  - Randonnées vers des lieux sacrés et des cascades
-  - Cérémonie de purification
-  - Apprendre à fabriquer de l’artisanat et vos propres bijoux
+  - Accueil de la communauté avec danse et fête
+  - Randonnées dans la forêt vers des cascades et des grottes
+  - Récits des anciens sur le peuple shuar
   - Découvrir comment la communauté défend son territoire face à l’industrie minière
   - Installer un piège photographique pour observer la faune
+  - Journée de Nunkui : semer, planter et récolter dans les parcelles familiales avec des chants anent
+  - Cuisiner la récolte et préparer la chicha de manioc
+  - Poterie avec les femmes de la communauté : récolter l’argile, modeler, peindre et cuire
+  - Journée de Tsunki : reconnaître et récolter des plantes médicinales
   - Un bain de vapeur shuar aux plantes médicinales
-  - Plusieurs jours en « nomades de la jungle » : randonnées à travers le territoire et une nuit dans un abri construit par nous-mêmes
+  - Marche vers la cascade sacrée et cérémonie autour de la cosmovision shuar
+  - Tresser la changuina, le panier traditionnel
+  - Goûter des mets de la forêt
+  - Le fleuve Coangos et les récits des haches préhispaniques
+  - Construire un abri (ayamte) et passer la nuit dans la forêt
 
 **Despedida – Titel**
 
@@ -357,18 +327,6 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - ES: Al final de la estancia en Maikiuants nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. Después viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
 - EN: At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
 - FR: À la fin du séjour à Maikiuants, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Vient ensuite l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
-
-**Neuer Abschnitt: ¿Por qué este viaje?** – _nach Juliens Seite_
-
-- ES: **¿Por qué este viaje?** · No es un viaje turístico, sino una aventura compartida.
-  - Lo que tu viaje aporta a la comunidad: Visibilidad para su difícil situación sociopolítica · Apoyo para financiar la defensa del territorio · Ingresos propios, independientes de los proyectos del gobierno · Orgullo por la identidad shuar, para que los jóvenes mantengan vivo su saber · Apoyo a una educación propia · Apertura al resto del mundo
-  - Lo que te llevas: Una reconexión con la naturaleza · Una reconexión contigo mismo · Nuevas tomas de conciencia · Una experiencia de grupo intensa
-- EN: **Why this journey?** · This is not a tourist trip but a shared adventure.
-  - What your journey brings to the community: Visibility for their difficult socio-political situation · Support to fund the defence of their territory · Their own income, independent of government projects · Pride in Shuar identity, so that young people keep their knowledge alive · Support for their own education · An opening to the rest of the world
-  - What you take home: A reconnection with nature · A reconnection with yourself · New insights · An intense group experience
-- FR: **Pourquoi ce voyage ?** · Ce n’est pas un voyage touristique, mais une aventure partagée.
-  - Ce que votre voyage apporte à la communauté: De la visibilité face à une situation sociopolitique difficile · Un soutien pour financer la défense de leur territoire · Des revenus propres, indépendants des projets gouvernementaux · La fierté de l’identité shuar, pour que les jeunes gardent leur savoir vivant · Un soutien à une éducation autonome · Une ouverture sur le reste du monde
-  - Ce que vous emportez: Une reconnexion à la nature · Une reconnexion à vous-même · Des prises de conscience · Une expérience de groupe intense
 
 **Incluido** – _Versicherung über Raíces neu_
 

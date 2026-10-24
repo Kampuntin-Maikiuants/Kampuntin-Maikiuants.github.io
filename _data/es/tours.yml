@@ -86,51 +86,24 @@ experience:
   activities_note: >-
     Las actividades dependen de la temporada y del calendario de la comunidad. Con gusto escuchamos tus deseos e intereses y los incluimos.
   activities:
-    - "Conocer el pueblo y la comunidad"
-    - "Participar en una minga (el día de trabajo comunitario para cuidar el pueblo)"
-    - "Comer con toda la comunidad en el pueblo"
-    - "Cerámica con arcilla de los alrededores"
-    - "Cosechar juntos verduras y frutas de nuestras plantaciones"
-    - "Hacer música juntos"
-    - "Una larga caminata por la selva y las plantas medicinales tradicionales"
-    - "Aprender a tallar lanzas tradicionales"
-    - "Práctica con la cerbatana (con frutas como blanco)"
-    - "Intercambio culinario: cocinar juntos platos de la cultura shuar y también de los visitantes"
-    - "Jugar fútbol con los niños del pueblo"
-    - "Una caminata hasta las cascadas grandes más cercanas"
-    - "Bañarse en el río"
-    - "Danzas y música"
-    - "Pesca selectiva nocturna"
-    - "Paseo en balsa por el río Coangos"
-    - "Caminatas a lugares sagrados y cascadas"
-    - "Ceremonia de purificación"
-    - "Aprender a hacer artesanías y tus propias joyas"
+    - "Bienvenida de la comunidad con baile y fiesta"
+    - "Caminatas por la selva hacia cascadas y cuevas"
+    - "Historias de los mayores sobre el pueblo shuar"
     - "Conocer cómo la comunidad defiende su territorio frente a la minería"
     - "Instalar una cámara trampa para observar la fauna"
+    - "Día de Nunkui: sembrar, plantar y cosechar en las parcelas familiares con cantos anent"
+    - "Cocinar la cosecha y preparar chicha de yuca"
+    - "Cerámica con las mujeres de la comunidad: recoger la arcilla, modelar, pintar y cocer"
+    - "Día de Tsunki: reconocer y recolectar plantas medicinales"
     - "Un baño de vapor shuar con plantas medicinales"
-    - "Varios días como «nómadas de la selva»: caminatas por el territorio y una noche en un refugio construido por nosotros mismos"
+    - "Caminata a la cascada sagrada y ceremonia sobre la cosmovisión shuar"
+    - "Tejer la changuina, la canasta tradicional"
+    - "Probar comidas de la selva"
+    - "El río Coangos y las historias de las hachas prehispánicas"
+    - "Construir un refugio (ayamte) y pasar la noche en la selva"
   departure_title: "Despedida, expedición y regreso"
   departure: >-
     Al final de la estancia en Maikiuants nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. Después viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
-
-why:
-  title: "¿Por qué este viaje?"
-  intro: No es un viaje turístico, sino una aventura compartida.
-  community_title: Lo que tu viaje aporta a la comunidad
-  community:
-    - "Visibilidad para su difícil situación sociopolítica"
-    - "Apoyo para financiar la defensa del territorio"
-    - "Ingresos propios, independientes de los proyectos del gobierno"
-    - "Orgullo por la identidad shuar, para que los jóvenes mantengan vivo su saber"
-    - "Apoyo a una educación propia"
-    - "Apertura al resto del mundo"
-  you_title: Lo que te llevas
-  you:
-    - "Una reconexión con la naturaleza"
-    - "Una reconexión contigo mismo"
-    - "Nuevas tomas de conciencia"
-    - "Una experiencia de grupo intensa"
-
 
 # Viaje espiritual (11 días) – gleicher Aufbau wie experience
 spiritual:
