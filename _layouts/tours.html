@@ -70,6 +70,9 @@ layout: default
       </details>
       {%- endfor %}
     </div>
+    {%- if t.school_trips %}
+    <p class="trip-note"><strong>{{ t.school_trips.title }}</strong> {{ t.school_trips.text }} <a href="{{ t.school_trips.url }}" target="_blank" rel="noopener">{{ t.school_trips.link }} ↗</a> · <a href="{{ contact_page.url | relative_url }}">{{ ui.person_contact }} →</a></p>
+    {%- endif %}
   </div>
 </section>
 {%- endif %}

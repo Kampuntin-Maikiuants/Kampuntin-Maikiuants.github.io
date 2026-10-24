@@ -44,6 +44,13 @@ trips:
     link: Voir le programme
 
 
+# Remarque sous les deux voyages : voyages scolaires sur demande
+school_trips:
+  title: "Voyages scolaires :"
+  text: Nous organisons aussi des voyages de 20 jours pour des groupes scolaires, sur demande.
+  link: Plus d’informations sur raices.be
+  url: "https://www.raices.be/voyages-etudiants/"
+
 intro:
   title: À propos du tour
   image: "/assets/img/fotos/cultura.jpg"

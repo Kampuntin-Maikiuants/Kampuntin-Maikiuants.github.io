@@ -871,6 +871,9 @@ img.wm { object-position: 0 100% !important; }
 .trip-program__body { padding: 0 1.4rem 1.4rem; }
 .trip-program__body .section-intro { margin-bottom: 1.25rem; }
 .trip-program .exp-card { box-shadow: none; background: var(--sand); }
+.trip-note { margin: 1.5rem 0 0; color: var(--muted); }
+.trip-note strong { color: var(--forest); }
+.trip-note a { font-weight: 600; }
 .price--trip { margin: .4rem 0 1.1rem; }
 .price .price__name { display: block; font-weight: 650; color: var(--on-dark); }
 .dates__trip { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #f0c7a4; }

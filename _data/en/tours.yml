@@ -43,6 +43,13 @@ trips:
     link: See the programme
 
 
+# Note below the two journeys: school trips on request
+school_trips:
+  title: "School trips:"
+  text: We also organise 20-day journeys for school groups on request.
+  link: More information on raices.be
+  url: "https://www.raices.be/voyages-etudiants/"
+
 intro:
   title: About the tour
   image: "/assets/img/fotos/cultura.jpg"

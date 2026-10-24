@@ -43,6 +43,13 @@ trips:
     link: Ver el programa
 
 
+# Hinweis unter den beiden Reisen: Schülerreisen auf Anfrage
+school_trips:
+  title: "Viajes para escuelas:"
+  text: También organizamos viajes de 20 días para grupos escolares, a petición.
+  link: Más información en raices.be
+  url: "https://www.raices.be/voyages-etudiants/"
+
 intro:
   title: Sobre el tour
   image: "/assets/img/fotos/cultura.jpg"
