@@ -90,6 +90,7 @@ exclude:
   - README.md
   - TODO.md
   - GEGENLESEN.md
+  - manual
   - scripts
   - Gemfile
   - Gemfile.lock

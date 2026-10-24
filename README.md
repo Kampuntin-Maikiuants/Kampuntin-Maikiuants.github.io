@@ -42,6 +42,18 @@ in `_config.yml` bei `url:` die Adresse ergänzen.
 
 ---
 
+## Handbücher für die Übergabe (PDF)
+
+Druckfertige Schritt-für-Schritt-Anleitungen für alle, die die Website pflegen:
+`manual/Manual-pagina-web-ES.pdf` (Spanisch) und `manual/Website-handbook-EN.pdf` (Englisch).
+Sie erklären Zugang, Tour-Termine und Plätze (Pages CMS), das Popup auf der Startseite, Galerien und
+Fotos, Facebook/Instagram auf „Novedades“, Team, Texte, Videos, eine eigene Domain und was zu tun ist, wenn
+etwas schiefgeht.
+
+Neu erzeugen, wenn sich die Website ändert (auf diesem Mac):
+`PYTHONPATH=vendor/py python3 scripts/make_manual.py`. Die Bildschirmfotos liegen in `manual/img/`.
+Der Ordner `manual` wird nicht mit der Website veröffentlicht.
+
 ## 2. Inhalte bearbeiten
 
 Jede Änderung geht direkt auf github.com: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.

@@ -3,6 +3,7 @@
 # Kategorien wie auf der Infotafel in Maikiuants – Quelle bitte bestätigen.
 # image:     Illustration (von der Infotafel)
 # snapshots: Fotos der Kamerafallen – erscheinen zum Aufklappen unter der Karte.
+# videos:    kurze Videos der Kamerafallen (MP4 in assets/video/, mit Vorschaubild poster) – ebenfalls zum Aufklappen.
 #            Beispiel:
 #            snapshots:
 #              - { image: /assets/img/especies/jaguar-camara-1.jpg, alt: "Jaguar en la cámara trampa, marzo 2024" }
@@ -11,7 +12,10 @@
   name: { es: Jaguar, en: Jaguar, fr: Jaguar }
   status: CR
   image: /assets/img/especies/jaguar.jpg
-  snapshots: []
+  snapshots:
+    - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: { es: "Jaguar de noche en la cámara trampa, noviembre de 2025", en: "Jaguar at night on the camera trap, November 2025", fr: "Jaguar de nuit devant le piège photographique, novembre 2025" } }
+    - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: { es: "Jaguar de noche en la cámara trampa, noviembre de 2025", en: "Jaguar at night on the camera trap, November 2025", fr: "Jaguar de nuit devant le piège photographique, novembre 2025" } }
+    - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: { es: "Jaguar de noche en la cámara trampa, noviembre de 2025", en: "Jaguar at night on the camera trap, November 2025", fr: "Jaguar de nuit devant le piège photographique, novembre 2025" } }
 - latin: Tremarctos ornatus
   name: { es: Oso andino, en: Andean bear, fr: Ours à lunettes }
   status: EN
@@ -20,7 +24,9 @@
     - { image: /assets/img/especies/oso-andino-camara-1.jpg, alt: { es: "Oso andino en el bosque, frente a la cámara trampa", en: "Andean bear in the forest, in front of the camera trap", fr: "Ours à lunettes en forêt, devant le piège photographique" } }
     - { image: /assets/img/especies/oso-andino-camara-2.jpg, alt: { es: "Oso andino acercándose a la cámara trampa", en: "Andean bear approaching the camera trap", fr: "Ours à lunettes s’approchant du piège photographique" } }
     - { image: /assets/img/especies/oso-andino-camara-3.jpg, alt: { es: "Oso andino de cerca", en: "Andean bear up close", fr: "Ours à lunettes de près" } }
-    - { image: /assets/img/especies/oso-andino-camara-4.jpg, alt: { es: "Oso andino cruzando el bosque", en: "Andean bear crossing the forest", fr: "Ours à lunettes traversant la forêt" } }
+  videos:
+    - { file: /assets/video/oso-andino-1.mp4, poster: /assets/video/oso-andino-1.jpg, title: { es: "Oso andino frente a la cámara trampa", en: "Andean bear on the camera trap", fr: "Ours à lunettes devant le piège photographique" } }
+    - { file: /assets/video/oso-andino-2.mp4, poster: /assets/video/oso-andino-2.jpg, title: { es: "El oso se acerca y olfatea la cámara", en: "The bear comes closer and sniffs the camera", fr: "L’ours s’approche et renifle le piège" } }
 - latin: Puma concolor
   name: { es: Puma, en: Puma, fr: Puma }
   status: EN
@@ -30,4 +36,7 @@
   name: { es: Zorro vinagre, en: Bush dog, fr: Chien des buissons }
   status: VU
   image: /assets/img/especies/zorro-vinagre.jpg
-  snapshots: []
+  snapshots:
+    - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: { es: "Zorros vinagre en la cámara trampa, junio de 2025", en: "Bush dogs on the camera trap, June 2025", fr: "Chiens des buissons devant le piège photographique, juin 2025" } }
+    - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: { es: "Zorros vinagre en la cámara trampa, junio de 2025", en: "Bush dogs on the camera trap, June 2025", fr: "Chiens des buissons devant le piège photographique, juin 2025" } }
+    - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: { es: "Zorros vinagre en la cámara trampa, junio de 2025", en: "Bush dogs on the camera trap, June 2025", fr: "Chiens des buissons devant le piège photographique, juin 2025" } }

@@ -93,14 +93,6 @@ animals:
     note: Catégories de menace selon notre panneau d’information.
     also: "Également enregistrés : margay, tayra, ocelot, écureuil amazonien et faux vampire, entre autres."
     sensitive: Pour les protéger, nous ne publions jamais la localisation exacte des espèces sensibles.
-    more_title: Autres images de nos pièges photographiques
-    more_photos:
-      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Piège photographique, juin 2025" }
-      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Piège photographique, juin 2025" }
-      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Piège photographique, juin 2025" }
-      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Piège photographique de nuit, novembre 2025" }
-      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Piège photographique de nuit, novembre 2025" }
-      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Piège photographique de nuit, novembre 2025" }
 
   atelopus:
     title: "Une grenouille très particulière : Atelopus sp."

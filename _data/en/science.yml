@@ -89,14 +89,6 @@ animals:
     note: Threat categories according to our information board.
     also: "Also recorded: margay, tayra, ocelot, Amazon squirrel and spectral bat, among others."
     sensitive: To protect them, we never publish exact locations of sensitive species.
-    more_title: More from our camera traps
-    more_photos:
-      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Camera trap recording, June 2025" }
-      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Camera trap recording, June 2025" }
-      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Camera trap recording, June 2025" }
-      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Night-time camera trap recording, November 2025" }
-      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Night-time camera trap recording, November 2025" }
-      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Night-time camera trap recording, November 2025" }
 
   atelopus:
     title: "A very special frog: Atelopus sp."

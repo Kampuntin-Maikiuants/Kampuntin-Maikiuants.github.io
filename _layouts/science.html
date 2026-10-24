@@ -66,11 +66,21 @@ layout: default
         <div class="species__body">
           <h4>{{ s_name }}</h4>
           <p class="latin"><i lang="la">{{ s.latin }}</i></p>
+          {%- assign cam_count = s.snapshots.size | plus: s.videos.size %}
           <details class="species__cams">
-            <summary>{{ ui.camera_photos }}{% if s.snapshots.size > 0 %} ({{ s.snapshots.size }}){% endif %}</summary>
-            {%- if s.snapshots.size > 0 %}
+            <summary>{{ ui.camera_photos }}{% if cam_count > 0 %} ({{ cam_count }}){% endif %}</summary>
+            {%- if cam_count > 0 %}
               {%- assign cam_group = "camara-" | append: forloop.index %}
+              {%- if s.snapshots.size > 0 %}
             {% include photo-grid.html photos=s.snapshots group=cam_group class="photo-grid--cams" %}
+              {%- endif %}
+              {%- for v in s.videos %}
+                {%- assign v_title = v.title[page.lang] | default: v.title.en %}
+            <figure class="species__video">
+              <video controls preload="none" playsinline poster="{{ v.poster | relative_url }}" aria-label="{{ v_title | escape }}"><source src="{{ v.file | relative_url }}" type="video/mp4"></video>
+              <figcaption>{{ v_title }}</figcaption>
+            </figure>
+              {%- endfor %}
             {%- else %}
             <p class="species__empty">{{ ui.camera_soon }}</p>
             {%- endif %}
@@ -80,10 +90,6 @@ layout: default
       {%- endfor %}
     </div>
     <p class="note">{{ a.threatened.also }}<br><strong>{{ a.threatened.sensitive }}</strong></p>
-    {%- if a.threatened.more_photos %}
-    <h3 class="subsection-title subsection">{{ a.threatened.more_title }}</h3>
-    {% include photo-grid.html photos=a.threatened.more_photos group="camaras" %}
-    {%- endif %}
 
     {%- assign frogs = "atelopus frog" | split: " " %}
     {%- for key in frogs %}

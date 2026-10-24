@@ -90,14 +90,6 @@ animals:
     note: Categorías de amenaza según nuestro panel informativo.
     also: "También registrados: margay, tayra, ocelote, ardilla amazónica y falso vampiro, entre otros."
     sensitive: Para protegerlas, no publicamos ubicaciones exactas de especies sensibles.
-    more_title: Más registros de las cámaras trampa
-    more_photos:
-      - { image: /assets/img/camaras/camara-trampa-1.jpg, alt: "Registro de cámara trampa, junio de 2025" }
-      - { image: /assets/img/camaras/camara-trampa-2.jpg, alt: "Registro de cámara trampa, junio de 2025" }
-      - { image: /assets/img/camaras/camara-trampa-3.jpg, alt: "Registro de cámara trampa, junio de 2025" }
-      - { image: /assets/img/camaras/camara-trampa-4.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
-      - { image: /assets/img/camaras/camara-trampa-5.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
-      - { image: /assets/img/camaras/camara-trampa-6.jpg, alt: "Registro nocturno de cámara trampa, noviembre de 2025" }
 
   atelopus:
     title: "Una rana muy especial: Atelopus sp."

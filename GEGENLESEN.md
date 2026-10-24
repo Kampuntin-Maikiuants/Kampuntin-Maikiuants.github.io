@@ -422,23 +422,26 @@ Stand: 24. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
 - EN: On **19 June 2024**, during monitoring, the para-ecologists found a frog of the true toad ¶ family (*Bufonidae*) with very unusual features. Everything suggests it is a **species new to ¶ science** that exists only in the territory of Maikiuants. That is why we propose the ¶ scientific name ***Rhinella maikiuants***. ¶ Around ten para-ecologists from Maikiuants are involved in the research, supported by the ¶ Universidad del Azuay (UDA) and in collaboration with Ecoforensic, a company from Great ¶ Britain that also checks the results. The find is ¶ now being discussed by the scientific community; we hope it will soon be officially confirmed ¶ as a new species.
 - FR: Le **19 juin 2024**, lors d’une sortie de suivi, les paraécologues ont trouvé un crapaud de ¶ la famille des *Bufonidae* aux caractéristiques très inhabituelles. Tout porte à croire qu’il ¶ s’agit d’une **espèce nouvelle pour la science**, qui n’existe que sur le territoire de ¶ Maikiuants. C’est pourquoi nous proposons le nom scientifique ***Rhinella maikiuants***. ¶ Une dizaine de paraécologues de Maikiuants participent à la recherche, avec le soutien de ¶ l’Universidad del Azuay (UDA) et en collaboration avec Ecoforensic, une entreprise de ¶ Grande-Bretagne qui vérifie également les résultats. La découverte est actuellement examinée par la communauté scientifique ; nous ¶ espérons que l’espèce sera bientôt officiellement reconnue.
 
-**Rana nueva – neues Foto**
+**Rana nueva – großes Foto oben**
 
-- ES: La rana sobre una piedra
-- EN: The frog on a stone
-- FR: Le crapaud sur une pierre
+- ES: La rana de Maikiuants que podría ser una especie nueva
+- EN: The Maikiuants frog that could be a new species
+- FR: Le crapaud de Maikiuants qui pourrait être une nouvelle espèce
 
-**Neu: weitere Kamerafallen-Fotos**
+**Kamerafallen bei den bedrohten Arten** – _Bildtexte der Fotos und Videos zum Aufklappen_
 
-- ES: **Más registros de las cámaras trampa** · Bildtexte: Registro de cámara trampa, junio de 2025 / Registro nocturno de cámara trampa, noviembre de 2025
-- EN: **More from our camera traps** · Bildtexte: Camera trap recording, June 2025 / Night-time camera trap recording, November 2025
-- FR: **Autres images de nos pièges photographiques** · Bildtexte: Piège photographique, juin 2025 / Piège photographique de nuit, novembre 2025
-
-**Neu: Oso andino – Kamerafallen-Bilder**
-
-- ES: Oso andino en el bosque, frente a la cámara trampa / Oso andino acercándose a la cámara trampa / Oso andino de cerca / Oso andino cruzando el bosque
-- EN: Andean bear in the forest, in front of the camera trap / Andean bear approaching the camera trap / Andean bear up close / Andean bear crossing the forest
-- FR: Ours à lunettes en forêt, devant le piège photographique / Ours à lunettes s’approchant du piège photographique / Ours à lunettes de près / Ours à lunettes traversant la forêt
+- **Jaguar** (Panthera onca)
+  - ES: Jaguar de noche en la cámara trampa, noviembre de 2025
+  - EN: Jaguar at night on the camera trap, November 2025
+  - FR: Jaguar de nuit devant le piège photographique, novembre 2025
+- **Oso andino** (Tremarctos ornatus)
+  - ES: Oso andino en el bosque, frente a la cámara trampa / Oso andino acercándose a la cámara trampa / Oso andino de cerca / Video: Oso andino frente a la cámara trampa / Video: El oso se acerca y olfatea la cámara
+  - EN: Andean bear in the forest, in front of the camera trap / Andean bear approaching the camera trap / Andean bear up close / Video: Andean bear on the camera trap / Video: The bear comes closer and sniffs the camera
+  - FR: Ours à lunettes en forêt, devant le piège photographique / Ours à lunettes s’approchant du piège photographique / Ours à lunettes de près / Video: Ours à lunettes devant le piège photographique / Video: L’ours s’approche et renifle le piège
+- **Zorro vinagre** (Speothos venaticus)
+  - ES: Zorros vinagre en la cámara trampa, junio de 2025
+  - EN: Bush dogs on the camera trap, June 2025
+  - FR: Chiens des buissons devant le piège photographique, juin 2025
 
 _Die Karte „Casa cultural y científica“ wurde von der Ciencia-Seite entfernt (jetzt eigener Abschnitt auf der Startseite)._
 
@@ -446,24 +449,7 @@ _Die Karte „Casa cultural y científica“ wurde von der Ciencia-Seite entfern
 
 **Album-Titel** – _statt „Fiesta en Maikiuants“_: ES: Ceremonia de la Chonta · EN: Chonta ceremony · FR: Cérémonie de la Chonta
 
-**Neue Videos**
-
-- oso-andino-1.mp4
-  - ES: **Oso andino en la cámara trampa** · El oso andino, una especie en peligro de extinción, pasa frente a una cámara trampa.
-  - EN: **Andean bear on a camera trap** · The Andean bear, an endangered species, walks past a camera trap.
-  - FR: **Ours à lunettes devant un piège photographique** · L’ours à lunettes, une espèce en danger, passe devant un piège photographique.
-- oso-andino-2.mp4
-  - ES: **Un oso curioso** · El oso se acerca y olfatea la cámara trampa.
-  - EN: **A curious bear** · The bear comes closer and sniffs the camera trap.
-  - FR: **Un ours curieux** · L’ours s’approche et renifle le piège photographique.
-- oso-andino-3.mp4
-  - ES: **Oso andino en el bosque** · Un oso andino cruza el bosque frente a la cámara trampa.
-  - EN: **Andean bear in the forest** · An Andean bear crosses the forest in front of the camera trap.
-  - FR: **Ours à lunettes en forêt** · Un ours à lunettes traverse la forêt devant le piège photographique.
-- rana-nueva.mp4
-  - ES: **¿Una especie nueva para la ciencia?** · La rana de Maikiuants que podría ser una especie nueva (nombre propuesto: Rhinella maikiuants).
-  - EN: **A new species for science?** · The Maikiuants frog that may be a new species (proposed name: Rhinella maikiuants).
-  - FR: **Une nouvelle espèce pour la science ?** · Le crapaud de Maikiuants qui pourrait être une nouvelle espèce (nom proposé : Rhinella maikiuants).
+_Die Videos der Kamerafallen und des Froschs stehen jetzt auf der Ciencia-Seite, nicht mehr in der Galerie._
 
 ## 7. Team (People)
 
@@ -529,6 +515,5 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 - Versicherung: Freddy sagt „über Raíces“, Juliens Seite sagt „selbst abschließen“.
 - Juliens Nachname: „Shakaim“ (bei uns) oder „Defourny“ (Raíces)?
-- Tierarten auf den 6 Kamerafallen-Fotos (Tayra? Ozelot oder Margay?).
 - „somos el … de la selva“ aus dem Gespräch mit Freddy (Wortlaut unklar, nicht eingebaut).
 - Startseite, Text „Kampuntin“: Dort steht noch „protección de la selva“. Nach Freddys Hinweis („proteger el territorio“) eventuell auch hier „protección del territorio“?

@@ -32,6 +32,14 @@ content:
             fields:
               - { name: es, label: Español, type: string }
               - { name: en, label: English, type: string }
+              - { name: fr, label: Français, type: string }
+          - name: note
+            label: Nota pequeña debajo de la fecha (opcional, p. ej. «Fecha exacta por confirmar»)
+            type: object
+            fields:
+              - { name: es, label: Español, type: string }
+              - { name: en, label: English, type: string }
+              - { name: fr, label: Français, type: string }
           - name: free
             label: Plazas libres (número; 0 = completo). Dejar vacío para usar el estado de abajo
             type: number
