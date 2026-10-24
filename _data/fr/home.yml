@@ -5,8 +5,8 @@ hero:
   eyebrow: Amazonie équatorienne · Morona Santiago
   title: Kampuntin Maikiuants
   lead: >-
-    Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors d’un voyage de
-    22 jours ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
+    Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors de l’un de nos
+    deux voyages ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
     scientifique et la mission de Kampuntin.
   image: "/assets/img/ilustraciones/banner-startseite.jpg"
   image_alt: Illustration de plantes de la forêt amazonienne
@@ -109,7 +109,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: 22 jours en territoire shuar pour des groupes de 12 personnes maximum, dont une dizaine de jours à partager la vie de la communauté.
+      text: "Deux voyages pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours."
     - ref: volunteering
       title: Bénévolat
       text: Jardinage, agroforesterie, mingas et construction, en vivant dans une jea traditionnelle au cœur de la forêt.
@@ -121,7 +121,7 @@ explore:
 tour_popup:
   eyebrow: Prochain tour
   text: >-
-    22 jours en territoire shuar, dont une dizaine de jours dans la communauté de Maikiuants. En 2027, avec un accent sur la spiritualité.
+    Vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
   per: par personne
   button: Voir le tour
   close: Fermer

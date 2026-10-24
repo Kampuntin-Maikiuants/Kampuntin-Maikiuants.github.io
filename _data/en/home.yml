@@ -5,8 +5,8 @@ hero:
   eyebrow: Ecuadorian Amazon · Morona Santiago
   title: Kampuntin Maikiuants
   lead: >-
-    Experience the rainforest and get to know the Shuar community of Maikiuants: on a 22-day
-    journey or as a volunteer. Learn more about the community, the rainforest, our scientific work
+    Experience the rainforest and get to know the Shuar community of Maikiuants: on one of our two
+    journeys or as a volunteer. Learn more about the community, the rainforest, our scientific work
     and Kampuntin's mission.
   image: "/assets/img/ilustraciones/banner-startseite.jpg"
   image_alt: Illustration of Amazon rainforest plants
@@ -107,7 +107,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: 22 days in Shuar territory for groups of up to 12 people, with about ten days sharing community life.
+      text: "Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey."
     - ref: volunteering
       title: Volunteering
       text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
@@ -119,7 +119,7 @@ explore:
 tour_popup:
   eyebrow: Next tour
   text: >-
-    22 days in Shuar territory, with about ten days in the Maikiuants community. In 2027, with a focus on spirituality.
+    Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
   per: per person
   button: See the tour
   close: Close

@@ -106,6 +106,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3500);
   }
 
+  // --- Aufklappbare Reiseprogramme: ein Link auf #id öffnet das <details> ----
+  const openDetails = (hash) => {
+    if (!hash || hash.length < 2) return;
+    const el = document.getElementById(decodeURIComponent(hash.slice(1)));
+    if (el && el.tagName === 'DETAILS') el.open = true;
+  };
+  openDetails(location.hash);
+  window.addEventListener('hashchange', () => openDetails(location.hash));
+  document.querySelectorAll('a[href^="#"]').forEach((a) => {
+    a.addEventListener('click', () => openDetails(a.getAttribute('href')));
+  });
+
   // --- Kopfbild bewegt sich beim Scrollen langsamer mit (Parallax) ----------
   const heroBg = $('.page-hero__bg');
   if (heroBg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

@@ -1,0 +1,21 @@
+{%- comment -%} Ablauf einer Reise in drei Karten (Ankunft · Aktivitäten · Abschluss). Parameter: e (experience oder spiritual aus tours.yml) {%- endcomment -%}
+{%- assign e = include.e -%}
+<div class="experience">
+  <div class="exp-card exp-card--small">
+    <h3>{{ e.arrival_title }}</h3>
+    <p>{{ e.arrival }}</p>
+  </div>
+  <div class="exp-card exp-card--big">
+    <h3>{{ e.activities_title }}</h3>
+    <ul class="checklist checklist--columns">
+      {%- for a in e.activities %}
+      <li>{{ a }}</li>
+      {%- endfor %}
+    </ul>
+    {%- if e.activities_note %}<p class="exp-note">{{ e.activities_note }}</p>{% endif %}
+  </div>
+  <div class="exp-card exp-card--small">
+    <h3>{{ e.departure_title }}</h3>
+    <p>{{ e.departure }}</p>
+  </div>
+</div>

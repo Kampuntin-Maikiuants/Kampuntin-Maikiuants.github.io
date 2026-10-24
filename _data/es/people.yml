@@ -11,6 +11,15 @@ groups:
   community: De la comunidad
   kampuntin: "Kampuntin: tu equipo en Maikiuants"
 
+# Letzte Karte im Team: alle weiteren Menschen aus der Gemeinschaft
+more_people:
+  image: /assets/img/equipo/comunidad.jpg
+  title: Y muchas personas más
+  role: De la comunidad de Maikiuants
+  text: >-
+    Además del equipo, muchas personas de la comunidad ayudan: guías, cocineras, artesanas y
+    familias. Las conocerás en Maikiuants y estarás en contacto con ellas durante tu estancia.
+
 # Abschnitt „Gesichter hinter der Website“ (unten auf der Team-Seite, Anker #creditos)
 credits:
   title: "Las caras detrás de esta web"

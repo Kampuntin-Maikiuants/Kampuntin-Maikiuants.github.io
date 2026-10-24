@@ -856,6 +856,27 @@ img.wm { object-position: 0 100% !important; }
 .photo-grid--2 .photo-grid__item:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .photo-grid--2 .photo-grid__item:last-child:nth-child(odd) img { aspect-ratio: 16 / 9; }
 
+/* ---------- Tour: zwei Reisen (Auswahl-Karten, Preise, Termine) ---------- */
+.trip-card h3 { margin: 0 0 .3rem; font-size: 1.45rem; }
+.trip-card__when { margin: 0 0 .4rem; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--clay); }
+.trip-card__meta { margin: 0 0 .7rem; font-weight: 650; color: var(--forest); }
+.trip-card .link-arrow { margin-top: auto; padding-top: .6rem; }
+.trip-programs { display: grid; gap: 1rem; margin-top: 1.75rem; }
+.trip-program { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.trip-program summary { cursor: pointer; list-style: none; position: relative; padding: 1.1rem 3.4rem 1.1rem 1.4rem; font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--forest); }
+.trip-program summary::-webkit-details-marker { display: none; }
+.trip-program summary::after { content: "+"; position: absolute; right: 1.4rem; top: 50%; transform: translateY(-50%); font-family: var(--font-sans); font-size: 1.6rem; color: var(--clay); }
+.trip-program[open] summary::after { content: "–"; }
+.trip-program summary span { display: block; margin-top: .15rem; font-family: var(--font-sans); font-size: .85rem; font-weight: 600; color: var(--muted); }
+.trip-program__body { padding: 0 1.4rem 1.4rem; }
+.trip-program__body .section-intro { margin-bottom: 1.25rem; }
+.trip-program .exp-card { box-shadow: none; background: var(--sand); }
+.price--trip { margin: .4rem 0 1.1rem; }
+.price .price__name { display: block; font-weight: 650; color: var(--on-dark); }
+.dates__trip { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #f0c7a4; }
+.tour-popup__trip { margin: -.15rem 0 .3rem; font-size: .8rem; font-weight: 700; color: var(--clay-dark); }
+.partner-trip__links { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }
+
 /* ---------- Tour: Warum diese Reise (zwei Listen nebeneinander) ---------- */
 .grid--why { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
 .grid--why .panel h3 { font-size: 1.3rem; margin-bottom: .8rem; }
@@ -869,6 +890,8 @@ img.wm { object-position: 0 100% !important; }
 
 /* ---------- Team: Link zur Kontaktseite ---------- */
 .person__contact { display: inline-block; margin-top: .8rem; font-size: .92rem; }
+.person p.person__social { margin: .7rem 0 0; font-size: .9rem; }
+.person__social a { font-weight: 600; }
 
 /* ---------- Credits: dezent, ohne Fotos ---------- */
 .credits { padding: 2.2rem 0 2.6rem; border-top: 1px solid var(--line); }

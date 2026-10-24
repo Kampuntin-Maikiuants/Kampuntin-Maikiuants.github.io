@@ -1,6 +1,6 @@
 # Zum Gegenlesen: Änderungen nach dem Gespräch mit Freddy
 
-Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Freddy neu geschrieben oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz. Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
+Stand: 24. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Freddy neu geschrieben oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz. Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
 ## 1. Startseite
 
@@ -54,11 +54,77 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
 
 ## 2. Tour-Seite
 
+**Neu: Zwei Reisen (Auswahl oben auf der Seite)** – _Buchung über Raíces, vor Ort Kampuntin_
+
+- ES: **Dos viajes** · Elige el viaje que mejor te va. Los dos empiezan y terminan en Cuenca.
+  - Abril – mayo 2027 · **Viaje espiritual** · 11 días · 2.490 € · Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
+  - Agosto – septiembre 2027 · **Viaje Arutam** · 22 días · 3.890 € · La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
+- EN: **Two journeys** · Choose the journey that suits you best. Both start and end in Cuenca.
+  - April – May 2027 · **Spiritual journey** · 11 days · €2,490 · An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
+  - August – September 2027 · **Arutam journey** · 22 days · €3,890 · The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
+- FR: **Deux voyages** · Choisissez le voyage qui vous convient. Les deux commencent et se terminent à Cuenca.
+  - Avril – mai 2027 · **Voyage spirituel** · 11 jours · 2 490 € · Une immersion dans la spiritualité shuar : la cérémonie de la chonta (le Nouvel An shuar), les plantes médicinales, des rituels traditionnels et la marche vers la cascade sacrée d’Arutam.
+  - Août – septembre 2027 · **Voyage Arutam** · 22 jours · 3 890 € · La grande aventure : une dizaine de jours avec la communauté à Maikiuants, l’expédition à la Cueva de los Tayos et un voyage en pirogue vers des communautés shuar du Pérou.
+
+**Neu: Viaje espiritual – Titel und Einleitung**
+
+- ES: El viaje espiritual: 11 días · Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
+- EN: The spiritual journey: 11 days · A shorter journey focused on Shuar spirituality and the connection with nature.
+- FR: Le voyage spirituel : 11 jours · Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature.
+
+**Viaje espiritual – Llegada**
+
+- ES: Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y hacemos una limpieza espiritual; luego entramos al territorio shuar.
+- EN: We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and take part in a spiritual cleansing; then we enter Shuar territory.
+- FR: Nous nous retrouvons à Cuenca et faisons connaissance. Le lendemain, nous visitons le musée Pumapungo et participons à un nettoyage spirituel, puis nous entrons sur le territoire shuar.
+
+**Viaje espiritual – Ceremonias** – _Spirituelles bewusst allgemein beschrieben_
+
+- ES:
+  - Cosechar la chonta en las huertas con la comunidad
+  - La ceremonia de la chonta: el Año Nuevo shuar, con chicha de chonta
+  - Plantas medicinales y baño de vapor shuar
+  - Una ceremonia ancestral guiada por los shuar, con un tiempo de ayuno
+  - La caminata a la cascada sagrada de Arutam, con cantos sagrados (anent)
+  - Una noche en la selva, en un refugio construido con materiales del bosque
+- EN:
+  - Harvesting chonta in the gardens with the community
+  - The chonta ceremony: the Shuar New Year, with chonta chicha
+  - Medicinal plants and a Shuar steam bath
+  - An ancestral ceremony guided by the Shuar, with a time of fasting
+  - The walk to the sacred Arutam waterfall, with sacred songs (anent)
+  - A night in the rainforest in a shelter built from forest materials
+- FR:
+  - Récolter la chonta dans les huertas avec la communauté
+  - La cérémonie de la chonta : le Nouvel An shuar, avec de la chicha de chonta
+  - Plantes médicinales et bain de vapeur shuar
+  - Une cérémonie ancestrale guidée par les Shuar, avec un temps de jeûne
+  - La marche vers la cascade sacrée d’Arutam, avec des chants sacrés (anent)
+  - Une nuit dans la forêt, dans un abri construit avec des matériaux de la forêt
+
+**Viaje espiritual – Hinweis**
+
+- ES: Antes del viaje te explicamos con detalle cómo se desarrollan las ceremonias y cómo prepararte.
+- EN: Before the journey we explain in detail how the ceremonies work and how to prepare.
+- FR: Avant le voyage, nous vous expliquons en détail le déroulement des cérémonies et comment vous y préparer.
+
+**Viaje espiritual – Cierre**
+
+- ES: Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
+- EN: At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
+- FR: À la fin, nous partageons et interprétons ensemble ce que nous avons vécu. Le 11e jour, nous rentrons à Cuenca.
+
+**Viaje Arutam – Titel und Einleitung**
+
+- ES: El viaje Arutam: 22 días · La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
+- EN: The Arutam journey: 22 days · The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
+- FR: Le voyage Arutam : 22 jours · La grande aventure à travers le territoire shuar, de Cuenca à la Cueva de los Tayos et au Río Santiago.
+
 **Sobre el tour** – _spiritueller Austausch, Heilpflanzen, Name „Arutam“_
 
-- ES: El viaje dura **22 días**. Empieza y termina en Cuenca; en el centro están unos diez días con ¶ la comunidad en Maikiuants, seguidos de una expedición a la Cueva de los Tayos y un viaje en ¶ canoa a comunidades shuar del Perú. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ El viaje se llama **Arutam**: para los shuar, Arutam es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza.
-- EN: The journey lasts **22 days**. It starts and ends in Cuenca; at its heart are about ten days ¶ with the community in Maikiuants, followed by an expedition to the Cueva de los Tayos and a ¶ canoe trip to Shuar communities in Peru. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ The journey is called **Arutam**: for the Shuar, Arutam is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature.
-- FR: Le voyage dure **22 jours**. Il commence et se termine à Cuenca ; au cœur du voyage, une ¶ dizaine de jours avec la communauté à Maikiuants, suivis d’une expédition à la Cueva de los ¶ Tayos et d’un voyage en pirogue vers des communautés shuar du Pérou. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Le voyage s’appelle **Arutam** : pour les Shuar, Arutam est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant.
+- ES: Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra ¶ organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
+- EN: Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister ¶ organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
+- FR: Kampuntin et Raíces travaillent ensemble : la réservation se fait via **Raíces**, notre ¶ organisation sœur en Belgique, et à Maikiuants **Kampuntin** organise tout le voyage. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
 
 **Llegada a Cuenca** – _mit dem Bus ab Cuenca_
 
@@ -168,8 +234,8 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
 **Incluido** – _Versicherung über Raíces neu_
 
 - ES:
-  - Todos los traslados durante el viaje desde Cuenca: bus, 4×4, lancha y canoa tradicional
-  - Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en comunidades, en el bosque y en la Cueva de los Tayos
+  - Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional)
+  - Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos
   - Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
   - Nuestro guía internacional y traductor, y guías de la comunidad
   - Todas las actividades y ceremonias del programa
@@ -179,8 +245,8 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
   - Un río para bañarte
   - Una pequeña tienda en el centro comunitario para tus gastos personales
 - EN:
-  - All transport during the journey from Cuenca: bus, 4×4, boat and traditional canoe
-  - Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in communities, in the forest and in the Cueva de los Tayos
+  - All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe)
+  - Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos
   - All meals from day 2; in Maikiuants prepared by community cooks
   - Our international guide and translator, plus community guides
   - All programme activities and ceremonies
@@ -190,8 +256,8 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
   - A river to bathe in
   - A tiny shop in the community centre for personal expenses
 - FR:
-  - Tous les transports pendant le voyage depuis Cuenca : bus, 4×4, bateau et pirogue traditionnelle
-  - Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits dans des communautés, en forêt et dans la Cueva de los Tayos
+  - Tous les transports pendant le voyage depuis Cuenca (bus et 4×4 ; lors du voyage Arutam aussi bateau et pirogue traditionnelle)
+  - Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits en forêt et, lors du voyage Arutam, aussi dans des communautés et dans la Cueva de los Tayos
   - Tous les repas à partir du 2e jour ; à Maikiuants, préparés par les cuisinières de la communauté
   - Notre guide international et traducteur, ainsi que des guides de la communauté
   - Toutes les activités et cérémonies du programme
@@ -206,15 +272,15 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
 - ES:
   - Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)
   - Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)
-  - Comidas del día 1 (aprox. 3–10 USD por comida)
+  - Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
 - EN:
   - Flights to Cuenca and back (we are happy to advise you)
   - Taxi between the airport and the hotel in Cuenca (arrival and departure)
-  - Meals on day 1 (approx. 3–10 USD per meal)
+  - Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
 - FR:
   - Vols jusqu’à Cuenca et retour (nous vous conseillons volontiers)
   - Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)
-  - Repas du 1er jour (env. 3–10 USD par repas)
+  - Repas du 1er jour (env. 3–10 USD par repas) ; lors du voyage spirituel aussi ceux du dernier jour après le départ de Limón Indanza
 
 **Qué llevar – neuer Punkt** – _Wasserfilter_
 
@@ -224,27 +290,39 @@ Stand: 22. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Fred
 
 **Precio** – _Versicherung, statt 5 % finanzielle Unterstützung, Hinweis auf Spenden-Events_
 
-- ES: Todo incluido durante 22 días desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. Organizamos los tours junto con la organización belga Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-- EN: All-inclusive for 22 days from Cuenca: accommodation, meals, all transport during the journey, guides, translators, travel insurance, safety and activities. We organise the tours together with the Belgian organisation Raíces. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
-- FR: Tout compris pendant 22 jours depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes, assurance voyage, sécurité et activités. Nous organisons les tours avec l’organisation belge Raíces. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
+- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators, travel insurance, safety and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes, assurance voyage, sécurité et activités. La réservation se fait via Raíces, et à Maikiuants Kampuntin organise le voyage. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
 
 **Cómo reservar – Schritt 3** – _Vorbereitungstreffen_
 
-- ES: Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para 22 días transformadores.
-- EN: Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for 22 transformational days.
-- FR: Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour 22 jours transformateurs.
+- ES: Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador.
+- EN: Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey.
+- FR: Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour un voyage transformateur.
 
 **Kasten zu Raíces**
 
-- ES: El programa día a día · Raíces, la organización belga de Julien con la que organizamos los tours, publica en su sitio web el programa detallado día por día y un PDF del viaje. · Button: Ver el programa en raices.be (en francés)
-- EN: The day-by-day programme · Raíces, Julien's Belgian organisation and our partner for the tours, publishes the detailed day-by-day programme and a PDF of the journey on its website. · Button: View the programme on raices.be (in French)
-- FR: Le programme jour par jour · Raíces, l’association belge de Julien avec laquelle nous organisons les tours, publie sur son site le programme détaillé jour par jour et un PDF du voyage. · Button: Voir le programme sur raices.be
+- ES: El programa día a día · Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado día por día de los dos viajes. · Buttons: Viaje espiritual / Viaje Arutam
+- EN: The day-by-day programme · Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of both journeys on its website. · Buttons: Spiritual journey / Arutam journey
+- FR: Le programme jour par jour · Raíces, notre organisation sœur en Belgique, publie sur son site le programme détaillé jour par jour des deux voyages. · Buttons: Voyage spirituel / Voyage Arutam
+
+**Fechas – Einleitung**
+
+- ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+- EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
+- FR: Groupes de 12 personnes maximum. Les deux voyages commencent et se terminent à Cuenca. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
+
+**Hechos (Band oben)**
+
+- ES: 11 o 22 días · 12 personas como máximo · Jea: alojamiento tradicional · Comidas compartidas · Guías de la comunidad
+- EN: 11 or 22 days · 12 people at most · Jea: traditional accommodation · Shared meals · Community guides
+- FR: 11 ou 22 jours · 12 personnes au maximum · Jea : hébergement traditionnel · Repas partagés · Guides de la communauté
 
 **FAQ – ¿Necesito una buena condición física?** – _Abenteuer, Komfortzone_
 
-- ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. Para entrar a la Cueva de los Tayos se baja 60 metros con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
-- EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. To reach the Cueva de los Tayos there is a 60-metre rope descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
-- FR: Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec des montées et des traversées de rivière, parfois pendant plusieurs heures. Pour accéder à la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux. C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
+- ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
+- EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
+- FR: Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec des montées et des traversées de rivière, parfois pendant plusieurs heures. Lors du voyage Arutam, pour accéder à la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux. C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
 
 **FAQ – ¿Qué idiomas se hablan?** – _Julien als Guide und Übersetzer_
 
@@ -415,11 +493,42 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 - EN: _Secretary of Kampuntin_ · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him.
 - FR: _Secrétaire de Kampuntin_ · Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre, et les visiteurs et les bénévoles peuvent récolter avec lui.
 
+**Numi**
+
+- ES: _Guía · naturaleza_ · Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio.
+- EN: _Guide · nature_ · Leads the rainforest walks and shares their knowledge of the plants and animals of the territory.
+- FR: _Guide · nature_ · Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire.
+
+**Neue Karte am Ende des Teams (Gruppenfoto)**
+
+- ES: **Y muchas personas más** · _De la comunidad de Maikiuants_ · Además del equipo, muchas personas de la comunidad ayudan: guías, cocineras, artesanas y familias. Las conocerás en Maikiuants y estarás en contacto con ellas durante tu estancia.
+- EN: **And many more people** · _From the Maikiuants community_ · Besides the team, many people from the community help out: guides, cooks, craftswomen and families. You will meet them in Maikiuants and be in touch with them throughout your stay.
+- FR: **Et bien d’autres personnes** · _De la communauté de Maikiuants_ · En plus de l’équipe, de nombreuses personnes de la communauté participent : guides, cuisinières, artisanes et familles. Vous les rencontrerez à Maikiuants et serez en contact avec elles pendant tout votre séjour.
+
+## 8. Startseite und Popup (zwei Reisen)
+
+**Startseite – Einleitung oben**
+
+- ES: Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la misión de Kampuntin.
+- EN: Experience the rainforest and get to know the Shuar community of Maikiuants: on one of our two journeys or as a volunteer. Learn more about the community, the rainforest, our scientific work and Kampuntin's mission.
+- FR: Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors de l’un de nos deux voyages ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail scientifique et la mission de Kampuntin.
+
+**Startseite – Descubre: Tours**
+
+- ES: Dos viajes para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
+- EN: Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
+- FR: Deux voyages pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours.
+
+**Popup – Text**
+
+- ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+- EN: Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+- FR: Vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
+
 ## Noch offen
 
 - Versicherung: Freddy sagt „über Raíces“, Juliens Seite sagt „selbst abschließen“.
 - Juliens Nachname: „Shakaim“ (bei uns) oder „Defourny“ (Raíces)?
 - Tierarten auf den 6 Kamerafallen-Fotos (Tayra? Ozelot oder Margay?).
 - „somos el … de la selva“ aus dem Gespräch mit Freddy (Wortlaut unklar, nicht eingebaut).
-- April 2027: Termin steht nicht auf Juliens Seite.
 - Startseite, Text „Kampuntin“: Dort steht noch „protección de la selva“. Nach Freddys Hinweis („proteger el territorio“) eventuell auch hier „protección del territorio“?

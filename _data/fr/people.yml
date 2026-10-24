@@ -11,6 +11,16 @@ groups:
   community: De la communauté
   kampuntin: "Kampuntin : votre équipe à Maikiuants"
 
+# Dernière carte de l’équipe : toutes les autres personnes de la communauté qui participent
+more_people:
+  image: /assets/img/equipo/comunidad.jpg
+  title: Et bien d’autres personnes
+  role: De la communauté de Maikiuants
+  text: >-
+    En plus de l’équipe, de nombreuses personnes de la communauté participent : guides,
+    cuisinières, artisanes et familles. Vous les rencontrerez à Maikiuants et serez en contact avec
+    elles pendant tout votre séjour.
+
 # Section "Faces behind the website" (bottom of the people page, anchor #creditos)
 credits:
   title: "Les visages derrière ce site"

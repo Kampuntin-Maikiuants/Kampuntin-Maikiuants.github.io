@@ -12,11 +12,35 @@ hero:
   image_alt: Visitors walking through the rainforest with a guide
 
 facts:
-  - { text: "22 days, 10 in Maikiuants" }
+  - { text: "11 or 22 days" }
   - { text: "12 people at most" }
   - { text: "Jea: traditional accommodation" }
   - { text: "Shared meals" }
   - { text: "Community guides" }
+
+
+# The two journeys. Dates are in _data/tour_dates.yml (field trip: espiritual or arutam).
+trips_title: Two journeys
+trips_intro: Choose the journey that suits you best. Both start and end in Cuenca.
+trips:
+  espiritual:
+    name: Spiritual journey
+    days: 11 days
+    when: April – May 2027
+    amount: "€2,490"
+    text: >-
+      An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal
+      plants, traditional rituals and the walk to the sacred Arutam waterfall.
+    link: See the programme
+  arutam:
+    name: Arutam journey
+    days: 22 days
+    when: August – September 2027
+    amount: "€3,890"
+    text: >-
+      The big adventure: about ten days with the community in Maikiuants, the expedition to the
+      Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
+    link: See the programme
 
 
 intro:
@@ -24,9 +48,8 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Community members sharing a drink and handicrafts with visitors
   text: |-
-    The journey lasts **22 days**. It starts and ends in Cuenca; at its heart are about ten days
-    with the community in Maikiuants, followed by an expedition to the Cueva de los Tayos and a
-    canoe trip to Shuar communities in Peru.
+    Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister
+    organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey.
 
     The community welcomes you for a **cultural and spiritual exchange**. Together with people from the
     community you share the accommodation in a traditional jea, cook and eat together and learn
@@ -36,7 +59,7 @@ intro:
     them. We make music together and show you how to play our handmade flutes. The days combine
     forest walks, work in the nursery and gardens, crafts, cooking and free time.
 
-    The journey is called **Arutam**: for the Shuar, Arutam is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature.
+    For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
 
 
 life:
@@ -46,7 +69,8 @@ life:
 
 
 experience:
-  title: "What you can expect from your tour"
+  title: "The Arutam journey: 22 days"
+  intro: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
   arrival_title: "Arrival in Cuenca"
   arrival: >-
     The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
@@ -99,11 +123,34 @@ why:
     - "New insights"
     - "An intense group experience"
 
+
+# Spiritual journey (11 days) – same structure as experience
+spiritual:
+  title: "The spiritual journey: 11 days"
+  intro: A shorter journey focused on Shuar spirituality and the connection with nature.
+  arrival_title: Arrival in Cuenca
+  arrival: >-
+    We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and
+    take part in a spiritual cleansing; then we enter Shuar territory.
+  activities_title: Ceremonies in Maikiuants
+  activities:
+    - "Harvesting chonta in the gardens with the community"
+    - "The chonta ceremony: the Shuar New Year, with chonta chicha"
+    - "Medicinal plants and a Shuar steam bath"
+    - "An ancestral ceremony guided by the Shuar, with a time of fasting"
+    - "The walk to the sacred Arutam waterfall, with sacred songs (anent)"
+    - "A night in the rainforest in a shelter built from forest materials"
+  activities_note: >-
+    Before the journey we explain in detail how the ceremonies work and how to prepare.
+  departure_title: Closing and return
+  departure: >-
+    At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
+
 included:
   title: "Included"
   items:
-    - "All transport during the journey from Cuenca: bus, 4×4, boat and traditional canoe"
-    - "Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in communities, in the forest and in the Cueva de los Tayos"
+    - "All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe)"
+    - "Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos"
     - "All meals from day 2; in Maikiuants prepared by community cooks"
     - "Our international guide and translator, plus community guides"
     - "All programme activities and ceremonies"
@@ -119,7 +166,7 @@ not_included:
   items:
     - "Flights to Cuenca and back (we are happy to advise you)"
     - "Taxi between the airport and the hotel in Cuenca (arrival and departure)"
-    - "Meals on day 1 (approx. 3–10 USD per meal)"
+    - "Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza"
 
 
 packing:
@@ -141,17 +188,17 @@ packing:
 
 price:
   title: Price
-  amount: "€3,890"
-  per: per person, 22 days
+  per: per person
   text: >-
-    All-inclusive for 22 days from Cuenca: accommodation, meals, all transport during the journey,
-    guides, translators, travel insurance, safety and activities. We organise the tours together with the Belgian organisation Raíces. We
+    All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides,
+    translators, travel insurance, safety and activities. Bookings are made through Raíces, and in
+    Maikiuants Kampuntin organises the journey. We
     pay local guides and cooks, buy food within the community and support Maikiuants
     financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 
 dates:
   title: Upcoming dates
-  intro: Groups of up to 12 people. The journey starts and ends in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
+  intro: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
   focus_title: "Focus 2027: spirituality"
   focus: >-
     In 2027 our tours focus on spirituality: finding yourself, valuing every moment of life,
@@ -165,9 +212,9 @@ booking:
     - title: "Write to us"
       text: "Tell us who you are, how many people are coming and which dates you are interested in."
     - title: "Booking"
-      text: "We confirm your booking and arrange the dates, payment and all other details with you."
+      text: "Bookings are made through Raíces, our sister organisation in Belgium. We confirm your place and arrange the dates, payment and all other details with you."
     - title: "Get ready"
-      text: "Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for 22 transformational days."
+      text: "Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey."
 
 
 past:
@@ -181,7 +228,7 @@ faq:
     - q: Do I need to be very fit?
       a: >-
         Good basic fitness is enough. We walk on muddy trails with climbs and river crossings,
-        sometimes for several hours. To reach the Cueva de los Tayos there is a 60-metre rope
+        sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope
         descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find
         alternatives.
     - q: Is there electricity, phone signal and internet?
@@ -202,7 +249,8 @@ faq:
 partner_trip:
   title: "The day-by-day programme"
   text: >-
-    Raíces, Julien's Belgian organisation and our partner for the tours, publishes the detailed
-    day-by-day programme and a PDF of the journey on its website.
-  button: "View the programme on raices.be (in French)"
-  url: "https://www.raices.be/voyages-tout-public/"
+    Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of
+    both journeys on its website.
+  links:
+    - { label: "Spiritual journey", url: "https://www.raices.be/voyages-spirituels/" }
+    - { label: "Arutam journey", url: "https://www.raices.be/voyages-tout-public/" }

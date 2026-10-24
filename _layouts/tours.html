@@ -7,6 +7,7 @@ layout: default
 {%- assign contact_page = lang_pages | where: "ref", "contact" | first -%}
 {%- assign gallery_page = lang_pages | where: "ref", "gallery" | first -%}
 {%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- assign trip_keys = "espiritual arutam" | split: " " -%}
 {% include page-hero.html hero=t.hero %}
 
 <section class="facts-band" aria-label="{{ t.intro.title }}">
@@ -18,6 +19,7 @@ layout: default
     </ul>
   </div>
 </section>
+
 
 <section class="section">
   <div class="container split split--media">
@@ -37,30 +39,40 @@ layout: default
   </div>
 </section>
 
-<section class="section section--alt">
+{%- if t.trips %}
+<section class="section section--alt" id="viajes">
   <div class="container">
-    <h2 class="section-title">{{ t.experience.title }}</h2>
-    <div class="experience">
-      <div class="exp-card exp-card--small">
-        <h3>{{ t.experience.arrival_title }}</h3>
-        <p>{{ t.experience.arrival }}</p>
-      </div>
-      <div class="exp-card exp-card--big">
-        <h3>{{ t.experience.activities_title }}</h3>
-        <ul class="checklist checklist--columns">
-          {%- for a in t.experience.activities %}
-          <li>{{ a }}</li>
-          {%- endfor %}
-        </ul>
-        <p class="exp-note">{{ t.experience.activities_note }}</p>
-      </div>
-      <div class="exp-card exp-card--small">
-        <h3>{{ t.experience.departure_title }}</h3>
-        <p>{{ t.experience.departure }}</p>
-      </div>
+    <h2 class="section-title">{{ t.trips_title }}</h2>
+    <p class="section-intro">{{ t.trips_intro }}</p>
+    <div class="grid grid--why">
+      {%- for k in trip_keys %}
+        {%- assign tr = t.trips[k] %}
+      <a class="card card--link trip-card" href="#{{ k }}">
+        <p class="trip-card__when">{{ tr.when }}</p>
+        <h3>{{ tr.name }}</h3>
+        <p class="trip-card__meta">{{ tr.days }} · {{ tr.amount }} {{ t.price.per }}</p>
+        <p>{{ tr.text }}</p>
+        <span class="link-arrow">{{ tr.link }} ↓</span>
+      </a>
+      {%- endfor %}
+    </div>
+    {%- comment -%} Programme der beiden Reisen zum Aufklappen (espiritual = spiritual, arutam = experience) {%- endcomment %}
+    <div class="trip-programs">
+      {%- for k in trip_keys %}
+        {%- assign tr = t.trips[k] %}
+        {%- if k == "espiritual" %}{% assign e = t.spiritual %}{% else %}{% assign e = t.experience %}{% endif %}
+      <details class="trip-program" id="{{ k }}">
+        <summary>{{ e.title }}<span>{{ tr.link }}</span></summary>
+        <div class="trip-program__body">
+          {%- if e.intro %}<p class="section-intro">{{ e.intro }}</p>{% endif %}
+          {% include exp-cards.html e=e %}
+        </div>
+      </details>
+      {%- endfor %}
     </div>
   </div>
 </section>
+{%- endif %}
 
 {%- if t.why %}
 <section class="section">
@@ -102,7 +114,10 @@ layout: default
   <div class="container split">
     <div>
       <h2 class="section-title">{{ t.price.title }}</h2>
-      <p class="price"><strong>{{ t.price.amount }}</strong> <span>{{ t.price.per }}</span></p>
+      {%- for k in trip_keys %}
+        {%- assign tr = t.trips[k] %}
+      <p class="price price--trip"><span class="price__name">{{ tr.name }} · {{ tr.days }}</span><strong>{{ tr.amount }}</strong> <span>{{ t.price.per }}</span></p>
+      {%- endfor %}
       <p>{{ t.price.text }}</p>
     </div>
     <div>
@@ -122,6 +137,7 @@ layout: default
           {%- assign shown = shown | plus: 1 %}
         <li>
           <span class="dates__when">
+            {%- assign dtr = t.trips[d.trip] %}{% if dtr %}<span class="dates__trip">{{ dtr.name }} · {{ dtr.days }}</span>{% endif %}
             <span class="dates__range">{%- assign dl = d.label[page.lang] | default: d.label.en | strip -%}{% if dl != "" %}{{ dl }}{% else %}{% include date-range.html start=d.start end=d.end %}{% endif %}</span>
             {%- assign dn = d.note[page.lang] | default: d.note.en | strip -%}{% if dn != "" %}<span class="dates__note">{{ dn }}</span>{% endif %}
           </span>
@@ -146,7 +162,7 @@ layout: default
         <p>{{ t.partner_trip.text }}</p>
         {%- if t.partner_trip.meta %}<p class="partner-trip__meta">{{ t.partner_trip.meta }}</p>{% endif %}
       </div>
-      <a class="btn ghost-dark" href="{{ t.partner_trip.url }}" target="_blank" rel="noopener">{{ t.partner_trip.button }} ↗</a>
+      <p class="partner-trip__links">{% for pl in t.partner_trip.links %}<a class="btn ghost-dark" href="{{ pl.url }}" target="_blank" rel="noopener">{{ pl.label }} ↗</a>{% endfor %}</p>
     </aside>
     {%- endif %}
   </div>

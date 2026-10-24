@@ -12,11 +12,35 @@ hero:
   image_alt: Visitantes caminando con un guía por la selva
 
 facts:
-  - { text: "22 días, 10 en Maikiuants" }
+  - { text: "11 o 22 días" }
   - { text: "12 personas como máximo" }
   - { text: "Jea: alojamiento tradicional" }
   - { text: "Comidas compartidas" }
   - { text: "Guías de la comunidad" }
+
+
+# Die beiden Reisen. Termine stehen in _data/tour_dates.yml (Feld trip: espiritual oder arutam).
+trips_title: Dos viajes
+trips_intro: Elige el viaje que mejor te va. Los dos empiezan y terminan en Cuenca.
+trips:
+  espiritual:
+    name: Viaje espiritual
+    days: 11 días
+    when: Abril – mayo 2027
+    amount: "2.490 €"
+    text: >-
+      Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar),
+      plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
+    link: Ver el programa
+  arutam:
+    name: Viaje Arutam
+    days: 22 días
+    when: Agosto – septiembre 2027
+    amount: "3.890 €"
+    text: >-
+      La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de
+      los Tayos y un viaje en canoa a comunidades shuar del Perú.
+    link: Ver el programa
 
 
 intro:
@@ -24,9 +48,8 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Miembros de la comunidad compartiendo bebida y artesanía con visitantes
   text: |-
-    El viaje dura **22 días**. Empieza y termina en Cuenca; en el centro están unos diez días con
-    la comunidad en Maikiuants, seguidos de una expedición a la Cueva de los Tayos y un viaje en
-    canoa a comunidades shuar del Perú.
+    Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra
+    organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje.
 
     La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad
     compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la
@@ -37,7 +60,7 @@ intro:
     combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y
     tiempo libre.
 
-    El viaje se llama **Arutam**: para los shuar, Arutam es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza.
+    Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
 
 
 life:
@@ -47,7 +70,8 @@ life:
 
 
 experience:
-  title: "Lo que puedes esperar de tu tour"
+  title: "El viaje Arutam: 22 días"
+  intro: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
   arrival_title: "Llegada a Cuenca"
   arrival: >-
     El viaje empieza en Cuenca, a 2.800 metros. Tras un día libre para aclimatarte, conocemos el centro histórico, el mercado local y el museo Pumapungo. En bus viajamos a Limón Indanza, donde un chamán shuar guía una ceremonia de purificación, y desde allí seguimos en 4×4 por la Cordillera del Cóndor hasta Maikiuants, donde la comunidad nos recibe con baile y fiesta.
@@ -100,11 +124,34 @@ why:
     - "Nuevas tomas de conciencia"
     - "Una experiencia de grupo intensa"
 
+
+# Viaje espiritual (11 días) – gleicher Aufbau wie experience
+spiritual:
+  title: "El viaje espiritual: 11 días"
+  intro: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
+  arrival_title: Llegada a Cuenca
+  arrival: >-
+    Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y
+    hacemos una limpieza espiritual; luego entramos al territorio shuar.
+  activities_title: Ceremonias en Maikiuants
+  activities:
+    - "Cosechar la chonta en las huertas con la comunidad"
+    - "La ceremonia de la chonta: el Año Nuevo shuar, con chicha de chonta"
+    - "Plantas medicinales y baño de vapor shuar"
+    - "Una ceremonia ancestral guiada por los shuar, con un tiempo de ayuno"
+    - "La caminata a la cascada sagrada de Arutam, con cantos sagrados (anent)"
+    - "Una noche en la selva, en un refugio construido con materiales del bosque"
+  activities_note: >-
+    Antes del viaje te explicamos con detalle cómo se desarrollan las ceremonias y cómo prepararte.
+  departure_title: Cierre y regreso
+  departure: >-
+    Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
+
 included:
   title: "Incluido"
   items:
-    - "Todos los traslados durante el viaje desde Cuenca: bus, 4×4, lancha y canoa tradicional"
-    - "Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en comunidades, en el bosque y en la Cueva de los Tayos"
+    - "Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional)"
+    - "Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos"
     - "Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad"
     - "Nuestro guía internacional y traductor, y guías de la comunidad"
     - "Todas las actividades y ceremonias del programa"
@@ -120,7 +167,7 @@ not_included:
   items:
     - "Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)"
     - "Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)"
-    - "Comidas del día 1 (aprox. 3–10 USD por comida)"
+    - "Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza"
 
 
 packing:
@@ -142,19 +189,18 @@ packing:
 
 price:
   title: Precio
-  amount: "3.890 €"
-  per: por persona, 22 días
+  per: por persona
   text: >-
-    Todo incluido durante 22 días desde Cuenca: alojamiento, comidas, todos los traslados durante
-    el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. Organizamos los tours junto con la organización belga
-    Raíces. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
+    Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías,
+    intérpretes, seguro de viaje, seguridad y actividades. La reserva se hace a través de Raíces, y
+    en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
     apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos
     personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te
     aconsejamos cómo organizar eventos para recaudarlos.
 
 dates:
   title: Próximas fechas
-  intro: Grupos de máximo 12 personas. El viaje empieza y termina en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  intro: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
   focus_title: "Enfoque 2027: espiritualidad"
   focus: >-
     En 2027 nuestros tours se centran en la espiritualidad: encontrarse a uno mismo, valorar cada
@@ -168,9 +214,9 @@ booking:
     - title: "Escríbenos"
       text: "Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan."
     - title: "Reserva"
-      text: "Confirmamos tu reserva y acordamos contigo las fechas, el pago y todos los detalles."
+      text: "La reserva se hace a través de Raíces, nuestra organización hermana en Bélgica. Confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles."
     - title: "Prepárate"
-      text: "Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para 22 días transformadores."
+      text: "Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador."
 
 
 past:
@@ -184,7 +230,7 @@ faq:
     - q: ¿Necesito una buena condición física?
       a: >-
         Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces
-        de río, a veces durante varias horas. Para entrar a la Cueva de los Tayos se baja 60 metros
+        de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros
         con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos
         alternativas.
     - q: ¿Hay electricidad, señal de teléfono e internet?
@@ -205,7 +251,8 @@ faq:
 partner_trip:
   title: "El programa día a día"
   text: >-
-    Raíces, la organización belga de Julien con la que organizamos los tours, publica en su sitio
-    web el programa detallado día por día y un PDF del viaje.
-  button: "Ver el programa en raices.be (en francés)"
-  url: "https://www.raices.be/voyages-tout-public/"
+    Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado
+    día por día de los dos viajes.
+  links:
+    - { label: "Viaje espiritual", url: "https://www.raices.be/voyages-spirituels/" }
+    - { label: "Viaje Arutam", url: "https://www.raices.be/voyages-tout-public/" }

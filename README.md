@@ -7,7 +7,7 @@ automatisch, man muss nichts installieren.
 | Seite | Spanisch | Englisch |
 |---|---|---|
 | Start (Shuar, Maikiuants, Kampuntin, Mission, Karte) | `/` | `/en/` |
-| Touren (22 Tage ab Cuenca, max. 12 Personen) | `/tours/` | `/en/tours/` |
+| Touren: Viaje espiritual (11 Tage) und Viaje Arutam (22 Tage), ab Cuenca, max. 12 Personen | `/tours/` | `/en/tours/` |
 | Volunteering | `/voluntariado/` | `/en/volunteering/` |
 | Wissenschaft / Paraecología, Tiere, Buch | `/ciencia/` | `/en/science/` |
 | Updates (Facebook & Instagram) | `/novedades/` | `/en/updates/` |

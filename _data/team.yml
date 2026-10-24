@@ -3,13 +3,17 @@
 # group: kampuntin (Organisationsteam) oder community. "details" (optional) ist die ausführliche Beschreibung und ersetzt auf der Seite die kurze "bio".
 # photo: optional, z. B. /assets/img/equipo/nombre.jpg (quadratisch, ca. 600×600 px)
 # shuar_name: optional, Shuar-Name unter dem Namen.
-# Keine Telefonnummern oder E-Mails hier – die Seite verlinkt auf die Kontaktseite.
+# social: optional, Links zu Instagram/Facebook der Person (name, handle optional, url).
+# Keine Telefonnummern oder E-Mails hier. contact: true zeigt den Link zur Kontaktseite (nur bei den Ansprechpersonen).
 # WICHTIG: Nur mit Einverständnis der Person veröffentlichen.
 
 - name: "Freddy Ankuash"
+  contact: true
   shuar_name: "Nenkas Chicham"
   group: kampuntin
   photo: "/assets/img/equipo/freddy.jpg"
+  social:
+    - { name: Instagram, url: "https://www.instagram.com/nekas_chicham/" }
   role: { es: "Gerente y coordinación de Kampuntin", en: "Manager and coordinator of Kampuntin", fr: "Gérant et coordinateur de Kampuntin" }
   bio:
     es: "Coordina a los voluntarios y a los grupos, y planifica las excursiones."
@@ -21,6 +25,7 @@
     fr: "Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise."
 
 - name: "Julien Shakaim"
+  contact: true
   group: kampuntin
   photo: "/assets/img/equipo/julien.jpg"
   role: { es: "Fundador de Raíces · guía y traductor", en: "Founder of Raíces · guide and translator", fr: "Fondateur de Raíces · guide et traducteur" }
@@ -75,6 +80,8 @@
 - name: "Numi"
   group: kampuntin
   photo: "/assets/img/equipo/numi.jpg"
+  social:
+    - { name: Facebook, url: "https://www.facebook.com/profile.php?id=61560174250559" }
   role: { es: "Guía · naturaleza", en: "Guide · nature", fr: "Guide · nature" }
   bio:
     es: "Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio."

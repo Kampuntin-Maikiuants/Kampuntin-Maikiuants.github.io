@@ -12,11 +12,36 @@ hero:
   image_alt: Des visiteurs marchent dans la forêt avec un guide
 
 facts:
-  - { text: "22 jours, dont 10 à Maikiuants" }
+  - { text: "11 ou 22 jours" }
   - { text: "12 personnes au maximum" }
   - { text: "Jea : hébergement traditionnel" }
   - { text: "Repas partagés" }
   - { text: "Guides de la communauté" }
+
+
+# Les deux voyages. Les dates sont dans _data/tour_dates.yml (champ trip : espiritual ou arutam).
+trips_title: Deux voyages
+trips_intro: Choisissez le voyage qui vous convient. Les deux commencent et se terminent à Cuenca.
+trips:
+  espiritual:
+    name: Voyage spirituel
+    days: 11 jours
+    when: Avril – mai 2027
+    amount: "2 490 €"
+    text: >-
+      Une immersion dans la spiritualité shuar : la cérémonie de la chonta (le Nouvel An shuar),
+      les plantes médicinales, des rituels traditionnels et la marche vers la cascade sacrée
+      d’Arutam.
+    link: Voir le programme
+  arutam:
+    name: Voyage Arutam
+    days: 22 jours
+    when: Août – septembre 2027
+    amount: "3 890 €"
+    text: >-
+      La grande aventure : une dizaine de jours avec la communauté à Maikiuants, l’expédition à la
+      Cueva de los Tayos et un voyage en pirogue vers des communautés shuar du Pérou.
+    link: Voir le programme
 
 
 intro:
@@ -24,9 +49,8 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Des membres de la communauté partagent une boisson et de l’artisanat avec des visiteurs
   text: |-
-    Le voyage dure **22 jours**. Il commence et se termine à Cuenca ; au cœur du voyage, une
-    dizaine de jours avec la communauté à Maikiuants, suivis d’une expédition à la Cueva de los
-    Tayos et d’un voyage en pirogue vers des communautés shuar du Pérou.
+    Kampuntin et Raíces travaillent ensemble : la réservation se fait via **Raíces**, notre
+    organisation sœur en Belgique, et à Maikiuants **Kampuntin** organise tout le voyage.
 
     La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la
     communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez
@@ -37,7 +61,7 @@ intro:
     fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans
     les potagers, artisanat, cuisine et temps libre.
 
-    Le voyage s’appelle **Arutam** : pour les Shuar, Arutam est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant.
+    Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
 
 
 life:
@@ -47,7 +71,8 @@ life:
 
 
 experience:
-  title: "Ce que vous pouvez attendre de votre tour"
+  title: "Le voyage Arutam : 22 jours"
+  intro: La grande aventure à travers le territoire shuar, de Cuenca à la Cueva de los Tayos et au Río Santiago.
   arrival_title: "Arrivée à Cuenca"
   arrival: >-
     Le voyage commence à Cuenca, à 2 800 mètres d’altitude. Après une journée libre pour vous acclimater, nous découvrons le centre historique, le marché local et le musée Pumapungo. Nous allons en bus jusqu’à Limón Indanza, où un chaman shuar guide une cérémonie de purification, puis nous continuons en 4×4 à travers la Cordillère du Condor jusqu’à Maikiuants, où la communauté nous accueille avec de la danse et une fête.
@@ -100,11 +125,36 @@ why:
     - "Des prises de conscience"
     - "Une expérience de groupe intense"
 
+
+# Voyage spirituel (11 jours) – même structure que experience
+spiritual:
+  title: "Le voyage spirituel : 11 jours"
+  intro: Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature.
+  arrival_title: Arrivée à Cuenca
+  arrival: >-
+    Nous nous retrouvons à Cuenca et faisons connaissance. Le lendemain, nous visitons le musée
+    Pumapungo et participons à un nettoyage spirituel, puis nous entrons sur le territoire shuar.
+  activities_title: Cérémonies à Maikiuants
+  activities:
+    - "Récolter la chonta dans les huertas avec la communauté"
+    - "La cérémonie de la chonta : le Nouvel An shuar, avec de la chicha de chonta"
+    - "Plantes médicinales et bain de vapeur shuar"
+    - "Une cérémonie ancestrale guidée par les Shuar, avec un temps de jeûne"
+    - "La marche vers la cascade sacrée d’Arutam, avec des chants sacrés (anent)"
+    - "Une nuit dans la forêt, dans un abri construit avec des matériaux de la forêt"
+  activities_note: >-
+    Avant le voyage, nous vous expliquons en détail le déroulement des cérémonies et comment vous y
+    préparer.
+  departure_title: Clôture et retour
+  departure: >-
+    À la fin, nous partageons et interprétons ensemble ce que nous avons vécu. Le 11e jour, nous
+    rentrons à Cuenca.
+
 included:
   title: "Inclus"
   items:
-    - "Tous les transports pendant le voyage depuis Cuenca : bus, 4×4, bateau et pirogue traditionnelle"
-    - "Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits dans des communautés, en forêt et dans la Cueva de los Tayos"
+    - "Tous les transports pendant le voyage depuis Cuenca (bus et 4×4 ; lors du voyage Arutam aussi bateau et pirogue traditionnelle)"
+    - "Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits en forêt et, lors du voyage Arutam, aussi dans des communautés et dans la Cueva de los Tayos"
     - "Tous les repas à partir du 2e jour ; à Maikiuants, préparés par les cuisinières de la communauté"
     - "Notre guide international et traducteur, ainsi que des guides de la communauté"
     - "Toutes les activités et cérémonies du programme"
@@ -120,7 +170,7 @@ not_included:
   items:
     - "Vols jusqu’à Cuenca et retour (nous vous conseillons volontiers)"
     - "Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)"
-    - "Repas du 1er jour (env. 3–10 USD par repas)"
+    - "Repas du 1er jour (env. 3–10 USD par repas) ; lors du voyage spirituel aussi ceux du dernier jour après le départ de Limón Indanza"
 
 
 packing:
@@ -142,18 +192,17 @@ packing:
 
 price:
   title: Prix
-  amount: "3 890 €"
-  per: par personne, 22 jours
+  per: par personne
   text: >-
-    Tout compris pendant 22 jours depuis Cuenca : hébergement, repas, tous les transports pendant
-    le voyage, guides, interprètes, assurance voyage, sécurité et activités. Nous organisons les tours avec l’organisation belge
-    Raíces. Nous rémunérons des guides et des cuisinières de la communauté, achetons la
+    Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides,
+    interprètes, assurance voyage, sécurité et activités. La réservation se fait via Raíces, et à
+    Maikiuants Kampuntin organise le voyage. Nous rémunérons des guides et des cuisinières de la communauté, achetons la
     nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous
     les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
 
 dates:
   title: Prochaines dates
-  intro: Groupes de 12 personnes maximum. Le voyage commence et se termine à Cuenca. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
+  intro: Groupes de 12 personnes maximum. Les deux voyages commencent et se terminent à Cuenca. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
   focus_title: "Thème 2027 : la spiritualité"
   focus: >-
     En 2027, nos tours sont axés sur la spiritualité : se retrouver soi-même, apprécier chaque
@@ -167,9 +216,9 @@ booking:
     - title: "Écrivez-nous"
       text: "Dites-nous qui vous êtes, combien de personnes viennent et quelles dates vous intéressent."
     - title: "Réservation"
-      text: "Nous confirmons votre réservation et convenons avec vous des dates, du paiement et de tous les détails."
+      text: "La réservation se fait via Raíces, notre organisation sœur en Belgique. Nous confirmons votre place et convenons avec vous des dates, du paiement et de tous les détails."
     - title: "Préparez-vous"
-      text: "Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour 22 jours transformateurs."
+      text: "Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour un voyage transformateur."
 
 
 past:
@@ -183,8 +232,8 @@ faq:
     - q: Faut-il être en très bonne condition physique ?
       a: >-
         Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec
-        des montées et des traversées de rivière, parfois pendant plusieurs heures. Pour accéder à
-        la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux.
+        des montées et des traversées de rivière, parfois pendant plusieurs heures. Lors du voyage Arutam, pour
+        accéder à la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux.
         C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de
         sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
     - q: Y a-t-il de l’électricité, du réseau téléphonique et Internet ?
@@ -206,7 +255,8 @@ faq:
 partner_trip:
   title: "Le programme jour par jour"
   text: >-
-    Raíces, l’association belge de Julien avec laquelle nous organisons les tours, publie sur son
-    site le programme détaillé jour par jour et un PDF du voyage.
-  button: "Voir le programme sur raices.be"
-  url: "https://www.raices.be/voyages-tout-public/"
+    Raíces, notre organisation sœur en Belgique, publie sur son site le programme détaillé jour par
+    jour des deux voyages.
+  links:
+    - { label: "Voyage spirituel", url: "https://www.raices.be/voyages-spirituels/" }
+    - { label: "Voyage Arutam", url: "https://www.raices.be/voyages-tout-public/" }

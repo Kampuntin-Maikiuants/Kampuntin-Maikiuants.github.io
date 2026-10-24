@@ -8,9 +8,10 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 
 ## Aus dem Interview bereits eingebaut
 
-- **Touren:** Maßgeblich ist Juliens Seite (raices.be/voyages-tout-public), gilt für alle Touren:
-  22 Tage ab/bis Cuenca, davon ca. 10 in Maikiuants, danach Cueva de los Tayos und Río Santiago
-  (Shuar auf der peruanischen Seite). Preis 3.890 € pro Person. Nicht inklusive: Flüge,
+- **Touren:** Maßgeblich ist Raíces (raices.be). Buchung über Raíces, vor Ort organisiert Kampuntin.
+  Zwei Reisen ab/bis Cuenca: Viaje espiritual (11 Tage, April–Mai 2027, 2.490 €, Chonta-Zeremonie,
+  Heilpflanzen, Zeremonie zur heiligen Arutam-Kaskade) und Viaje Arutam (22 Tage, August–September
+  2027, 3.890 €, ca. 10 Tage in Maikiuants, danach Cueva de los Tayos und Río Santiago/Peru). Nicht inklusive: Flüge,
   Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Die Reiseversicherung übernimmt Raíces
   (laut Freddy, 22.10.; auf Juliens Seite steht noch, dass man sie selbst abschließt). Keine Anzahlung – Zahlung
   und Details nach Vereinbarung. Raíces (Belgien) als Partner, Link zum Tagesprogramm auf der
@@ -43,8 +44,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Gespräch mit Freddy (22.10.), noch offen:** Beim Text über die Shuar nannte er eine
       Alternative „somos el … de la selva“ (germen? guardián?) – Wortlaut klären. Minki ist von
       Kontakt- und Team-Seite entfernt. Versicherung mit Julien abgleichen.
-- [ ] **April 2027:** Steht nicht auf Juliens Seite. Gibt es den Termin, und ist er auch die
-      22-Tage-Reise ab Cuenca?
+- [x] **April 2027:** geklärt – das ist die spirituelle Reise (11 Tage, 2.490 €, April–Mai 2027).
 - [x] **Ablauf der Anreise:** geklärt über Juliens Programm (Start in Cuenca, über Limón Indanza
       nach Maikiuants).
 - [x] **Tagesablauf:** geklärt über Juliens Programm; die Tour-Seite zeigt eine Kurzfassung und
@@ -120,7 +120,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 ## 2. Preguntas para Freddy (en español)
 
 1. ¿Cuáles son las fechas exactas (inicio y fin) de los tours de abril y de agosto/septiembre 2027?
-2. ¿El tour de abril 2027 existe? ¿Es también el viaje de 22 días de Raíces (Cuenca–Cuenca, 3.890 €)?
+2. ~~¿El tour de abril 2027 existe?~~ Ya aclarado: es el viaje espiritual de 11 días (2.490 €).
 3. ¿Qué actividades espirituales tendrá el tour 2027 (ceremonias, plantas medicinales…)? ¿Qué podemos publicar?
 4. Seguridad: ¿qué botiquín hay, cómo se comunican en una emergencia, dónde está el hospital más cercano?
 5. ¿Nos puedes enviar el video del tour y las fotos de las cámaras trampa?

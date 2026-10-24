@@ -11,6 +11,15 @@ groups:
   community: From the community
   kampuntin: "Kampuntin: your team in Maikiuants"
 
+# Last card in the team: everyone else from the community who helps
+more_people:
+  image: /assets/img/equipo/comunidad.jpg
+  title: And many more people
+  role: From the Maikiuants community
+  text: >-
+    Besides the team, many people from the community help out: guides, cooks, craftswomen and
+    families. You will meet them in Maikiuants and be in touch with them throughout your stay.
+
 # Section "Faces behind the website" (bottom of the people page, anchor #creditos)
 credits:
   title: "The faces behind this website"

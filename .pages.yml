@@ -19,6 +19,13 @@ content:
         fields:
           - { name: start, label: Inicio, type: date, options: { format: yyyy-MM-dd } }
           - { name: end, label: Fin, type: date, options: { format: yyyy-MM-dd } }
+          - name: trip
+            label: Viaje
+            type: select
+            options:
+              values:
+                - { name: espiritual, label: Viaje espiritual (11 días) }
+                - { name: arutam, label: Viaje Arutam (22 días) }
           - name: label
             label: Texto en vez de la fecha (opcional, si la fecha exacta aún no está fija)
             type: object
