@@ -89,6 +89,7 @@ plugins:
 exclude:
   - README.md
   - TODO.md
+  - GEGENLESEN.md
   - scripts
   - Gemfile
   - Gemfile.lock
