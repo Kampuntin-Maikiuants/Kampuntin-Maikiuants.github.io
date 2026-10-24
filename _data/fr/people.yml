@@ -28,8 +28,8 @@ credits:
   map: "Cartes : © contributeurs OpenStreetMap et Natural Earth."
   maintained: "Ce site est géré par Jesko Dorner. Pour toute question ou correction :"
   people:
-    - { name: "Jesko Dorner", role: "Conception et design, photos, webdesign et maintenance" }
-    - { name: "Anouk Segebart", role: "Conception et design, illustrations et logo" }
+    - { name: "Jesko Dorner", role: "Conception et design, photos, webdesign et maintenance", email: "jesko.dorner@gmail.com" }
+    - { name: "Anouk Segebart", role: "Conception et design, illustrations et logo", email: "anoukbsb@gmail.com" }
     - { name: "Nalo Goosmann", role: "Conception et design, textes" }
     - { name: "Yael Bulik", role: "Conception et design, textes" }
 

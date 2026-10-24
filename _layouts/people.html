@@ -57,7 +57,7 @@ layout: default
     <h2 class="credits__title">{{ c.title }}</h2>
     <ul class="credits__list">
       {%- for cp in c.people %}
-      <li><strong>{{ cp.name }}</strong> · {{ cp.role }}</li>
+      <li><strong>{{ cp.name }}</strong> · {{ cp.role }}{% if cp.email %} · <a href="mailto:{{ cp.email }}">{{ cp.email }}</a>{% endif %}</li>
       {%- endfor %}
     </ul>
     <p class="credits__note">{{ c.webdesign }} {{ c.map }}</p>

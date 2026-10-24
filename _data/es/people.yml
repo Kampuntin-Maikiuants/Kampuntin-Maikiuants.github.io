@@ -27,8 +27,8 @@ credits:
   map: "Mapas: © OpenStreetMap (colaboradores) y Natural Earth."
   maintained: "Esta web la mantiene Jesko Dorner. Para preguntas o correcciones:"
   people:
-    - { name: "Jesko Dorner", role: "Concepción y diseño, fotos, diseño web y mantenimiento" }
-    - { name: "Anouk Segebart", role: "Concepción y diseño, ilustraciones y logo" }
+    - { name: "Jesko Dorner", role: "Concepción y diseño, fotos, diseño web y mantenimiento", email: "jesko.dorner@gmail.com" }
+    - { name: "Anouk Segebart", role: "Concepción y diseño, ilustraciones y logo", email: "anoukbsb@gmail.com" }
     - { name: "Nalo Goosmann", role: "Concepción y diseño, textos" }
     - { name: "Yael Bulik", role: "Concepción y diseño, textos" }
 
