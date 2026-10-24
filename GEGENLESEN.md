@@ -2,7 +2,7 @@
 
 Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
-- **Teil A** (39 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil A** (40 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
 - **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
 - **Ganz unten**: offene Fragen.
 
@@ -123,6 +123,9 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 ### Voluntariado: Erfahrungsberichte
 
+- [ ] **Anouk** – _aus dem Deutschen ausformuliert und übersetzt, ohne Zwischenüberschriften; Tipps als letzter Absatz; „Bürgermeister“ habe ich mit „dirigente de la comunidad / community leader“ übersetzt, „Markus“ mit „Marcos“ – stimmt das?_
+  - Zitat ES: Lo que más me gustó fue lo mucho que puedes sumergirte en la vida de la comunidad, si tienes ganas.
+  - Zitat EN: What I liked most was how deeply you can immerse yourself in community life if you want to.
 - [ ] **Yael** – _von Ihnen auf Englisch, sprachlich geglättet; der letzte Absatz (Yuca, zwei Begleitpersonen) ist als dritter Absatz eingefügt; ES/FR von mir übersetzt; „Voluntariado“ statt „Voluntaria/o“, Land fehlt_
   - Zitat ES: Lo que más disfruté fue que no todo seguía un horario fijo: el día podía desarrollarse de forma natural.
   - Zitat EN: What I particularly enjoyed was that not everything followed a fixed schedule – the day was allowed to unfold naturally.
