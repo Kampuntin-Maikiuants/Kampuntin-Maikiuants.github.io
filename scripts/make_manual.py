@@ -445,7 +445,7 @@ def es(b):
         "carpeta, de mayor a menor: por eso cada carpeta empieza con un número. Los tres primeros álbumes "
         "aparecen también abajo en la página de tours.")
     b.img("galeria", "La galería: cada tarjeta es un álbum. Un clic abre todas las fotos.")
-    b.p("Las carpetas actuales van de `01` a `10`. Un álbum nuevo recibe el número siguiente (`11`, `12`, …) "
+    b.p("Las carpetas actuales van de `01` a `11`. Un álbum nuevo recibe el número siguiente (`12`, `13`, …) "
         "para aparecer primero.")
     b.h2("3.2 Preparar las fotos")
     b.bullets([
@@ -461,7 +461,7 @@ def es(b):
         "En GitHub abre la carpeta `assets` › `galeria`.",
         "Haz clic en «Add file» › «Create new file».",
         "En el campo del nombre escribe el nombre de la carpeta, una barra `/` y `_LEEME.txt`, por ejemplo: "
-        "`11-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.",
+        "`12-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.",
         "En el contenido escribe una línea, por ejemplo «Álbum Fiesta de la Chonta 2027». Haz clic en "
         "«Commit changes…» y luego en «Commit changes».",
     ])
@@ -477,7 +477,7 @@ def es(b):
     b.h2("3.5 Título bonito y portada")
     b.p("Sin más datos, el álbum usa el nombre de la carpeta como título. Para un título en tres idiomas y una "
         "portada elegida, abre `_data/albums.yml`, copia un bloque arriba de la lista y cámbialo:")
-    b.code('- folder: 11-fiesta-de-la-chonta-2027\n'
+    b.code('- folder: 12-fiesta-de-la-chonta-2027\n'
            '  title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }\n'
            '  cover: "004.jpg"', "_data/albums.yml (ejemplo)")
     b.bullets(["`folder`: el nombre exacto de la carpeta.", "`title`: el título en los tres idiomas.",
@@ -832,7 +832,7 @@ def en(b):
         "lowest: that is why each folder starts with a number. The first three albums also appear at the bottom "
         "of the tours page.")
     b.img("galeria", "The gallery: each card is an album. One click opens all photos.")
-    b.p("The current folders go from `01` to `10`. A new album gets the next number (`11`, `12`, …) so it appears "
+    b.p("The current folders go from `01` to `11`. A new album gets the next number (`12`, `13`, …) so it appears "
         "first.")
     b.h2("3.2 Preparing photos")
     b.bullets([
@@ -848,7 +848,7 @@ def en(b):
         "On GitHub, open the folder `assets` › `galeria`.",
         "Click «Add file» › «Create new file».",
         "In the name field, type the folder name, a slash `/` and `_LEEME.txt`, for example: "
-        "`11-chonta-festival-2027/_LEEME.txt`. When you type the slash, GitHub creates the folder.",
+        "`12-chonta-festival-2027/_LEEME.txt`. When you type the slash, GitHub creates the folder.",
         "In the content, write one line, for example «Album Chonta festival 2027». Click «Commit changes…» and "
         "then «Commit changes».",
     ])
@@ -864,7 +864,7 @@ def en(b):
     b.h2("3.5 A nice title and cover")
     b.p("Without further information, the album uses the folder name as its title. For a title in three languages "
         "and a chosen cover, open `_data/albums.yml`, copy a block at the top of the list and change it:")
-    b.code('- folder: 11-chonta-festival-2027\n'
+    b.code('- folder: 12-chonta-festival-2027\n'
            '  title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }\n'
            '  cover: "004.jpg"', "_data/albums.yml (example)")
     b.bullets(["`folder`: the exact folder name.", "`title`: the title in the three languages.",

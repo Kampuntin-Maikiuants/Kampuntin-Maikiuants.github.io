@@ -187,7 +187,7 @@ Cada álbum es una **carpeta** dentro de `assets/galeria`. Todas las fotos de la
 ![La galería: cada tarjeta es un álbum. Un clic abre todas las fotos.](manual/img/es-galeria.jpg)
 _La galería: cada tarjeta es un álbum. Un clic abre todas las fotos._
 
-Las carpetas actuales van de `01` a `10`. Un álbum nuevo recibe el número siguiente (`11`, `12`, …) para aparecer primero.
+Las carpetas actuales van de `01` a `11`. Un álbum nuevo recibe el número siguiente (`12`, `13`, …) para aparecer primero.
 
 
 ### 3.2 Preparar las fotos
@@ -203,7 +203,7 @@ Las carpetas actuales van de `01` a `10`. Un álbum nuevo recibe el número sigu
 
 1. En GitHub abre la carpeta `assets` › `galeria`.
 2. Haz clic en «Add file» › «Create new file».
-3. En el campo del nombre escribe el nombre de la carpeta, una barra `/` y `_LEEME.txt`, por ejemplo: `11-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.
+3. En el campo del nombre escribe el nombre de la carpeta, una barra `/` y `_LEEME.txt`, por ejemplo: `12-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.
 4. En el contenido escribe una línea, por ejemplo «Álbum Fiesta de la Chonta 2027». Haz clic en «Commit changes…» y luego en «Commit changes».
 
 
@@ -224,7 +224,7 @@ Sin más datos, el álbum usa el nombre de la carpeta como título. Para un tít
 
 `_data/albums.yml` (ejemplo)
 ```yaml
-- folder: 11-fiesta-de-la-chonta-2027
+- folder: 12-fiesta-de-la-chonta-2027
   title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }
   cover: "004.jpg"
 ```

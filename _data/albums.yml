@@ -8,6 +8,10 @@
 #   cover:  Dateiname des Titelbilds (leer = erstes Foto im Ordner)
 # Ordner ohne Eintrag erscheinen trotzdem, mit dem Ordnernamen als Titel.
 
+- folder: 11-la-vida-en-maikiuants
+  title: { es: "La vida en Maikiuants", en: "Life in Maikiuants", fr: "La vie à Maikiuants" }
+  cover: "017.jpg"
+
 - folder: 10-caminatas-por-la-selva
   title: { es: "Caminatas por la selva", en: "Walks in the rainforest", fr: "Randonnées dans la forêt" }
   cover: "008.jpg"
@@ -30,10 +34,6 @@
 
 - folder: 03-fiesta-en-maikiuants
   title: { es: "Ceremonia de la Chonta", en: "Chonta ceremony", fr: "Cérémonie de la Chonta" }
-  cover: ""
-
-- folder: 02-nuestro-libro
-  title: { es: "Nuestro libro: Guía de macroinvertebrados acuáticos", en: "Our book: guide to aquatic macroinvertebrates", fr: "Notre livre : guide des macroinvertébrés aquatiques" }
   cover: ""
 
 - folder: 01b-investigacion-2024
