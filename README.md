@@ -383,6 +383,41 @@ Las personas de la página de contacto y del pie de página están en `_config.y
 **Videos cortos** (MP4, menos de 50 MB): súbelos a `assets/video` y agrégalos en `_data/videos.yml` (copia un bloque con `file`, `poster`, `title` y `text`). **Videos largos:** súbelos a YouTube y escribe solo el código del video en `youtube:`, por ejemplo `AbCdEf12345` de `https://youtu.be/AbCdEf12345`.
 
 
+### 5.5 Experiencias de voluntarios (testimonios)
+
+![Las experiencias en la página de voluntariado. Hoy todavía son ejemplos con «[Nombre]».](manual/img/es-testimonios.jpg)
+_Las experiencias en la página de voluntariado. Hoy todavía son ejemplos con «[Nombre]»._
+
+En la página de voluntariado hay tarjetas con experiencias de personas que ya estuvieron en Maikiuants. Cada tarjeta tiene una cita corta que siempre se ve, el nombre, una línea pequeña (por ejemplo «Voluntaria · Alemania · 2026») y, si quieres, el relato completo para abrir y una foto pequeña.
+
+1. Pide a la persona una cita corta (una a tres frases), cómo quiere aparecer (nombre, país, año), si quiere también un relato más largo y una foto. **Pide su permiso para publicarlo.**
+2. Opcional, la foto: cuadrada, con la cara en el centro, unos 300 × 300 píxeles. Súbela a `assets` › `img` › `fotos` con «Add file» › «Upload files», por ejemplo como `testimonio-ana.jpg`.
+3. En GitHub abre `_data/es/volunteering.yml` y haz clic en el lápiz. Busca `testimonials:` y debajo `items:`.
+4. Cambia un bloque de ejemplo (los que tienen «[Nombre]») o copia un bloque completo, desde `- quote:` hasta antes del siguiente `- quote:`, y pégalo debajo. Cambia los textos (ver el ejemplo).
+5. Haz lo mismo en `_data/en/volunteering.yml` y `_data/fr/volunteering.yml`, con el texto traducido.
+6. Guarda con «Commit changes».
+
+`_data/es/volunteering.yml` (ejemplo de un bloque)
+```yaml
+    - quote: >-
+        Llegué para ayudar en el vivero y me fui habiendo aprendido muchísimo más.
+      name: "Ana"
+      meta: "Voluntaria · Alemania · 2026"
+      photo: "/assets/img/fotos/testimonio-ana.jpg"
+      text: |-
+        Primer párrafo del relato.
+
+        Segundo párrafo del relato.
+```
+
+- `quote`: la cita corta. Deja `>-` tal cual y escribe el texto en la línea de abajo, con la misma sangría.
+- `name` y `meta`: el nombre y la línea pequeña debajo.
+- `photo`: la ruta de la foto, o vacío (`""`) si no hay foto.
+- `text`: el relato completo (opcional). Deja `|-` tal cual; una línea vacía separa los párrafos. Si no hay relato, borra las líneas de `text`; entonces no aparece el botón «Leer la experiencia completa».
+
+> **Consejo:** Antes de publicar, borra o reemplaza los tres bloques de ejemplo con «[Nombre]». Para quitar una experiencia, borra su bloque completo. Por ahora las experiencias aparecen solo en la página de voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la página.
+
+
 ## 6. Una dirección propia (dominio)
 
 Hoy la página está en **kampuntin-maikiuants.github.io**. Con un dominio propio, por ejemplo **www.kampuntin.org**, la dirección es más corta y fácil de recordar. La página sigue gratis en GitHub; solo el dominio cuesta dinero.
@@ -460,4 +495,5 @@ Borra las otras entradas A o CNAME para `@` y `www` que el proveedor haya creado
 | Persona del equipo | `_data/team.yml` y `assets/img/equipo` | GitHub |
 | Personas de contacto | `_config.yml` › `contact` | GitHub |
 | Videos | `_data/videos.yml` y `assets/video` | GitHub |
+| Experiencia de voluntario | `_data/es\|en\|fr/volunteering.yml` › `testimonials` | GitHub |
 | Dominio propio | Proveedor de dominios (DNS) y «Settings» › «Pages» | Proveedor y GitHub |
