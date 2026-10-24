@@ -1,6 +1,145 @@
-# Zum Gegenlesen: Änderungen nach dem Gespräch mit Freddy
+# Zum Gegenlesen
 
-Stand: 24. Oktober 2026. Hier stehen alle Texte, die nach dem Gespräch mit Freddy neu geschrieben oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz. Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
+Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
+
+- **Teil A** (40 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
+- **Ganz unten**: offene Fragen.
+
+## A. Neu und nicht 1:1 von raices.be – bitte zuerst prüfen
+
+Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefasst oder abgeleitet habe. Was sinngemäß direkt von Juliens Seite kommt (Termine, Preise, Dauer, Tagesprogramme, nicht inklusive Leistungen, Schülerreise 20 Tage, Juliens Lebenslauf), steht hier nicht. Die englischen und französischen Fassungen sind alle von mir übersetzt; zum Prüfen reicht meist Spanisch, EN steht zum Vergleich dabei. Abhaken: `[ ]` → `[x]`.
+
+### Tour-Seite
+
+- [ ] **Karte „Viaje espiritual“ – Kurzbeschreibung** – _eigene Zusammenfassung des Programms_
+  - ES: Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
+  - EN: An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
+- [ ] **Karte „Viaje Arutam“ – Kurzbeschreibung** – _eigene Zusammenfassung des Programms_
+  - ES: La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
+  - EN: The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
+- [ ] **Viaje espiritual – Einleitung** – _eigene Formulierung_
+  - ES: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
+  - EN: A shorter journey focused on Shuar spirituality and the connection with nature.
+- [ ] **Viaje espiritual – Llegada** – _zusammengefasst aus Tag 1–3_
+  - ES: Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y hacemos una limpieza espiritual; luego entramos al territorio shuar.
+  - EN: We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and take part in a spiritual cleansing; then we enter Shuar territory.
+- [ ] **Viaje espiritual – Ceremonias (Liste)** – _bewusst allgemein formuliert (Fasten ja, heilige Pflanzen nicht namentlich) – passt das so?_
+  - ES: Cosechar la chonta en las huertas con la comunidad · La ceremonia de la chonta: el Año Nuevo shuar, con chicha de chonta · Plantas medicinales y baño de vapor shuar · Una ceremonia ancestral guiada por los shuar, con un tiempo de ayuno · La caminata a la cascada sagrada de Arutam, con cantos sagrados (anent) · Una noche en la selva, en un refugio construido con materiales del bosque
+  - EN: Harvesting chonta in the gardens with the community · The chonta ceremony: the Shuar New Year, with chonta chicha · Medicinal plants and a Shuar steam bath · An ancestral ceremony guided by the Shuar, with a time of fasting · The walk to the sacred Arutam waterfall, with sacred songs (anent) · A night in the rainforest in a shelter built from forest materials
+- [ ] **Viaje espiritual – Hinweis unter der Liste** – _von mir ergänzt, steht nicht bei Raíces – stimmt das so?_
+  - ES: Antes del viaje te explicamos con detalle cómo se desarrollan las ceremonias y cómo prepararte.
+  - EN: Before the journey we explain in detail how the ceremonies work and how to prepare.
+- [ ] **Viaje espiritual – Cierre** – _zusammengefasst aus Tag 10–11_
+  - ES: Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
+  - EN: At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
+- [ ] **Viaje Arutam – Einleitung** – _eigene Formulierung_
+  - ES: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
+  - EN: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
+- [ ] **Sobre el tour – erster Absatz** – _aus Ihrer Aussage „Buchung über Raíces, vor Ort Kampuntin“; „organización hermana“ ist meine Wortwahl_
+  - ES: Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje.
+  - EN: Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey.
+- [ ] **Sobre el tour – Arutam-Absatz** – _„Los dos viajes llevan a la cascada sagrada“ habe ich aus den Programmen abgeleitet_
+  - ES: Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
+  - EN: For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
+- [ ] **¿Por qué este viaje? – Überschrift und Satz** – _sinngemäß nach Raíces („Pourquoi ?“), Auswahl und Wortlaut von mir_
+  - ES: ¿Por qué este viaje? · No es un viaje turístico, sino una aventura compartida.
+  - EN: Why this journey? · This is not a tourist trip but a shared adventure.
+- [ ] **¿Por qué este viaje? – die beiden Listen** – _Auswahl von mir; „une bonne claque“ und „détox“ habe ich weggelassen_
+  - ES: Lo que tu viaje aporta a la comunidad: Visibilidad para su difícil situación sociopolítica · Apoyo para financiar la defensa del territorio · Ingresos propios, independientes de los proyectos del gobierno · Orgullo por la identidad shuar, para que los jóvenes mantengan vivo su saber · Apoyo a una educación propia · Apertura al resto del mundo || Lo que te llevas: Una reconexión con la naturaleza · Una reconexión contigo mismo · Nuevas tomas de conciencia · Una experiencia de grupo intensa
+  - EN: What your journey brings to the community: Visibility for their difficult socio-political situation · Support to fund the defence of their territory · Their own income, independent of government projects · Pride in Shuar identity, so that young people keep their knowledge alive · Support for their own education · An opening to the rest of the world || What you take home: A reconnection with nature · A reconnection with yourself · New insights · An intense group experience
+- [ ] **Incluido – Transport, Unterkunft, Essen** – _aus beiden Programmen zusammengeführt, die Unterschiede in Klammern sind von mir_
+  - ES: Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional) · Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos · Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
+  - EN: All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe) · Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos · All meals from day 2; in Maikiuants prepared by community cooks
+- [ ] **Incluido – Reiseversicherung** – _laut Freddy; Raíces schreibt, dass man sie selbst abschließt – Widerspruch klären_
+  - ES: Seguro de viaje (lo gestiona Raíces)
+  - EN: Travel insurance (arranged by Raíces)
+- [ ] **No incluido – Essen** – _Zusatz zur spirituellen Reise aus Raíces abgeleitet_
+  - ES: Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
+  - EN: Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
+- [ ] **Precio – Text** – _eigene Formulierung (Versicherung, Raíces/Kampuntin, finanzielle Unterstützung)_
+  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators, travel insurance, safety and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+- [ ] **Próximas fechas – Einleitung** – _„máximo 12 personas“ steht nicht bei Raíces (kommt aus dem Interview)_
+  - ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  - EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
+- [ ] **Cómo reservar – Schritt 2 und 3** – _eigene Formulierung_
+  - ES: La reserva se hace a través de Raíces, nuestra organización hermana en Bélgica. Confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles. / Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador.
+  - EN: Bookings are made through Raíces, our sister organisation in Belgium. We confirm your place and arrange the dates, payment and all other details with you. / Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey.
+- [ ] **Viajes para escuelas** – _„a petición“ ist abgeleitet – Raíces nennt keine Termine_
+  - ES: Viajes para escuelas: También organizamos viajes de 20 días para grupos escolares, a petición.
+  - EN: School trips: We also organise 20-day journeys for school groups on request.
+- [ ] **Kasten „El programa día a día“** – _eigene Formulierung_
+  - ES: Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado día por día de los dos viajes.
+  - EN: Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of both journeys on its website.
+- [ ] **FAQ – Sprachen** – _„intérpretes de la comunidad“ und „guía francófono“: bitte bestätigen_
+  - ES: En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de entendernos.
+  - EN: In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the tour, Julien, our French-speaking guide and translator, and translators from the community accompany you, and we always find a way to understand each other.
+- [ ] **FAQ – Fitness** – _Raíces-Inhalt ergänzt um „buscamos alternativas“ (stand schon vorher da) – geht das bei der Höhle?_
+  - ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
+  - EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
+
+### Startseite
+
+- [ ] **Einleitung oben** – _eigene Formulierung_
+  - ES: Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la misión de Kampuntin.
+  - EN: Experience the rainforest and get to know the Shuar community of Maikiuants: on one of our two journeys or as a volunteer. Learn more about the community, the rainforest, our scientific work and Kampuntin's mission.
+- [ ] **Descubre – Tours** – _eigene Formulierung_
+  - ES: Dos viajes para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
+  - EN: Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
+- [ ] **Popup – Text** – _eigene Formulierung_
+  - ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+  - EN: Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+- [ ] **Casa cultural y científica – Text** – _nach Freddy und den Beschriftungen auf den Entwürfen (Museum, Labore, Etappen …)_
+  - ES: En Maikiuants se construirá una casa cultural y científica: un lugar donde se muestran y se conservan tanto la ciencia como la cultura shuar. Se construirá por etapas e incluirá un museo, laboratorios, un centro educativo, oficinas, dormitorios y alojamiento para científicos, un comedor con cocina y baños secos.
+  - EN: A cultural and science house will be built in Maikiuants: a place where both science and Shuar culture are shown and preserved. It will be built in stages and include a museum, laboratories, an education centre, offices, dormitories and accommodation for scientists, a dining room with kitchen and dry toilets.
+- [ ] **Casa cultural y científica – Bildnachweis** – _aus den Logos auf den Bildern abgeleitet – stimmt der Name?_
+  - ES: Visualizaciones del proyecto: Universidad del Azuay – Consultora de Arquitectura y Urbanismo.
+  - EN: Visualisations of the project: Universidad del Azuay – Consultora de Arquitectura y Urbanismo.
+
+### Team
+
+- [ ] **Freddy Ankuash** – _Rolle von Ihnen; Text von früher – noch aktuell?_
+  - ES: Gerente y coordinación de Kampuntin · Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica.
+  - EN: Manager and coordinator of Kampuntin · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
+- [ ] **Julien Shakaim** – _nach Raíces formuliert; Name „Shakaim“ oder „Defourny“?_
+  - ES: Fundador de Raíces · guía y traductor · Julien es aventurero, realizador y fotógrafo, y fundó la asociación belga [Raíces](https://www.raices.be/). Conoció a los shuar en 2017, durante un viaje de cuatro años sin motor por el continente americano, y desde entonces considera a Maikiuants su familia amazónica. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
+  - EN: Founder of Raíces · guide and translator · Julien is an adventurer, filmmaker and photographer and founded the Belgian association [Raíces](https://www.raices.be/). He met the Shuar in 2017 during a four-year journey across the Americas without a motor, and has since considered Maikiuants his Amazonian family. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
+- [ ] **Marcos Ankuash** – _von Ihnen; EN/FR von mir_
+  - ES: Tesorero de Kampuntin · Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital y administra la cuenta de Instagram [«Territorio Shuar Indomable»](https://www.instagram.com/territorioshuar/).
+  - EN: Treasurer of Kampuntin · Marcos is a business entrepreneur with his grocery shop. He is also a digital manager and runs the Instagram account ["Territorio Shuar Indomable"](https://www.instagram.com/territorioshuar/).
+- [ ] **Eddy Ankuash** – _von Ihnen; der Satz zum Ernten ist von früher – noch richtig?_
+  - ES: Secretario de Kampuntin · Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar, y los visitantes y los voluntarios pueden cosechar junto con él.
+  - EN: Secretary of Kampuntin · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him.
+- [ ] **Karte „Y muchas personas más“** – _eigene Formulierung, die Beispiele (guías, cocineras, artesanas, familias) sind von mir_
+  - ES: Y muchas personas más · De la comunidad de Maikiuants · Además del equipo, muchas personas de la comunidad ayudan: guías, cocineras, artesanas y familias. Las conocerás en Maikiuants y estarás en contacto con ellas durante tu estancia.
+  - EN: And many more people · From the Maikiuants community · Besides the team, many people from the community help out: guides, cooks, craftswomen and families. You will meet them in Maikiuants and be in touch with them throughout your stay.
+
+### Ciencia
+
+- [ ] **Kamerafallen – Jaguar** – _Monat aus dem Zeitstempel der Kamera – stimmt die Kamera-Uhr?_
+  - ES: Jaguar de noche en la cámara trampa, noviembre de 2025
+  - EN: Jaguar at night on the camera trap, November 2025
+- [ ] **Kamerafallen – Oso andino** – _Bildtexte von mir_
+  - ES: Oso andino en el bosque, frente a la cámara trampa / Oso andino acercándose a la cámara trampa / Oso andino de cerca / Video: Oso andino frente a la cámara trampa / Video: El oso se acerca y olfatea la cámara
+  - EN: Andean bear in the forest, in front of the camera trap / Andean bear approaching the camera trap / Andean bear up close / Video: Andean bear on the camera trap / Video: The bear comes closer and sniffs the camera
+- [ ] **Kamerafallen – Zorro vinagre** – _Monat aus dem Zeitstempel der Kamera – stimmt die Kamera-Uhr?_
+  - ES: Zorros vinagre en la cámara trampa, junio de 2025
+  - EN: Bush dogs on the camera trap, June 2025
+- [ ] **Rana nueva – Bildtexte** – _von mir_
+  - ES: La rana de Maikiuants que podría ser una especie nueva / La rana en una bolsa de muestreo durante el monitoreo / La rana sobre una piedra
+  - EN: The Maikiuants frog that could be a new species / The frog in a sampling bag during monitoring / The frog on a stone
+
+### Handbuch (PDF)
+
+- [ ] **Pages CMS** – _Knopf-Namen („Save“, Plus-Knopf) nicht live geprüft; Kapitel 2.2 einmal selbst durchgehen_
+- [ ] **Facebook-Import** – _funktioniert nur mit Facebook-Seiten; die Links Kampuntin/Maikiuants (`profile.php?id=…`) prüfen, ob es Seiten oder Profile sind_
+- [ ] **Eigene Domain** – _DNS-Werte und Menünamen nach meinem Wissen, vor dem Einrichten mit der GitHub-Hilfe abgleichen_
+- [ ] **Kontakt für Hilfe** – _„Jesko Dorner · jesko.dorner@gmail.com“ – soll das so bleiben?_
+
+---
+
+## B. Alle Texte seit dem Gespräch mit Freddy (zum Nachschlagen)
 
 ## 1. Startseite
 

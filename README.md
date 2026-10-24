@@ -1,264 +1,463 @@
-# Maikiuants · Kampuntin – Website
+# Manual de la página web – Kampuntin Maikiuants
 
-Zweisprachige Website (Spanisch/Englisch) für Kampuntin und die Shuar-Gemeinschaft Maikiuants.
-Sie läuft kostenlos auf **GitHub Pages** und wird mit **Jekyll** gebaut. Das übernimmt GitHub
-automatisch, man muss nichts installieren.
+Cómo actualizar tours, galerías y novedades, paso a paso. Para personas sin conocimientos técnicos.
 
-| Seite | Spanisch | Englisch |
+Página web: https://kampuntin-maikiuants.github.io · Este manual también como PDF para imprimir: [español](manual/Manual-pagina-web-ES.pdf) · [English](manual/Website-handbook-EN.pdf) · Notas técnicas para quien administra la página (en alemán): [manual/Technik-DE.md](manual/Technik-DE.md)
+
+**Contenido**
+
+- [1. Antes de empezar](#1-antes-de-empezar)
+- [2. Tours: fechas, plazas y aviso en la página de inicio](#2-tours-fechas-plazas-y-aviso-en-la-página-de-inicio)
+- [3. Galería: álbumes y fotos](#3-galería-álbumes-y-fotos)
+- [4. Novedades: Facebook e Instagram](#4-novedades-facebook-e-instagram)
+- [5. Equipo, textos y otras cosas útiles](#5-equipo-textos-y-otras-cosas-útiles)
+- [6. Una dirección propia (dominio)](#6-una-dirección-propia-dominio)
+- [7. Si algo sale mal](#7-si-algo-sale-mal)
+
+## 1. Antes de empezar
+
+La página web de Kampuntin no necesita un servidor propio. Todos los textos, fotos y fechas están guardados en **GitHub**, un servicio gratuito. Cada vez que alguien guarda un cambio allí, la página se actualiza sola en uno a tres minutos.
+
+
+### 1.1 Las dos herramientas
+
+| Herramienta | Para qué | Dirección |
 |---|---|---|
-| Start (Shuar, Maikiuants, Kampuntin, Mission, Karte) | `/` | `/en/` |
-| Touren: Viaje espiritual (11 Tage) und Viaje Arutam (22 Tage), ab Cuenca, max. 12 Personen | `/tours/` | `/en/tours/` |
-| Volunteering | `/voluntariado/` | `/en/volunteering/` |
-| Wissenschaft / Paraecología, Tiere, Buch | `/ciencia/` | `/en/science/` |
-| Updates (Facebook & Instagram) | `/novedades/` | `/en/updates/` |
-| Fotoalben & Videos | `/galeria/` | `/en/gallery/` |
-| Team | `/equipo/` | `/en/people/` |
-| Kontakt | `/contacto/` | `/en/contact/` |
-| Impressum & Datenschutz | `/aviso-legal/` | `/en/legal/` |
+| **GitHub** | Todos los archivos de la página: textos, fotos, álbumes y ajustes. | github.com/Kampuntin-Maikiuants/Kampuntin-Maikiuants.github.io |
+| **Pages CMS** | Un formulario sencillo para las fechas de los tours y las plazas libres. Funciona también desde el celular. | app.pagescms.org |
 
----
 
-## 1. Veröffentlichen & Änderungen hochladen
+### 1.2 Crear tu acceso (una sola vez)
 
-Die Website liegt im Repository **Kampuntin-Maikiuants/Kampuntin-Maikiuants.github.io** und ist
-unter **https://kampuntin-maikiuants.github.io** erreichbar. Dieser Projektordner ist bereits mit
-dem Repository verknüpft.
+1. Crea una cuenta gratuita en **github.com** (botón «Sign up»). Usa un correo que revises con frecuencia.
+2. Envía tu nombre de usuario de GitHub a la persona que administra la página (hoy: Jesko Dorner).
+3. Esa persona te invita en GitHub: en el repositorio «Settings» › «Collaborators» › «Add people».
+4. Recibirás un correo de GitHub. Haz clic en «Accept invitation». Desde ese momento puedes editar.
 
-**Einmalig einrichten**
-1. [GitHub Desktop](https://desktop.github.com) installieren und mit dem Konto anmelden, das
-   Zugriff auf *Kampuntin-Maikiuants* hat.
-2. **File → Add Local Repository…** → diesen Ordner („Kampuntin Website“) auswählen.
-3. Unten links bei „Summary“ z. B. *Erste Version der Website* eintragen → **Commit to main**
-   → oben **Publish branch**.
-4. Auf github.com: **Settings → Pages → Source: „GitHub Actions“**.
-5. Tab **Actions**: Ist der erste Durchlauf rot (weil Pages noch aus war), anklicken →
-   **Re-run all jobs**. Nach 1–2 Minuten ist die Seite online.
+> **Consejo:** GitHub está en inglés. En este manual los nombres de los botones aparecen entre comillas, tal como los ves en la pantalla, por ejemplo «Add file» o «Commit changes».
 
-**Später, bei jeder Änderung:** GitHub Desktop öffnen → Änderungen erscheinen links →
-kurze Beschreibung → **Commit to main** → **Push origin**. Fertig.
 
-Eigene Domain (z. B. `kampuntin.org`): unter **Settings → Pages → Custom domain** eintragen und
-in `_config.yml` bei `url:` die Adresse ergänzen.
+### 1.3 Cómo se edita un archivo en GitHub
 
----
+1. Abre **github.com/Kampuntin-Maikiuants/Kampuntin-Maikiuants.github.io** e inicia sesión («Sign in»).
+2. Haz clic en las carpetas hasta llegar al archivo, por ejemplo `_data` › `es` › `home.yml`.
+3. Arriba a la derecha del archivo haz clic en el lápiz («Edit this file»).
+4. Cambia el texto.
+5. Haz clic en el botón verde «Commit changes…». En la ventana escribe en una línea qué cambiaste (por ejemplo «Nuevo precio del viaje Arutam») y confirma con «Commit changes».
+6. Espera uno a tres minutos y recarga la página web. Listo.
 
-## Handbücher für die Übergabe (PDF)
 
-Druckfertige Schritt-für-Schritt-Anleitungen für alle, die die Website pflegen:
-`manual/Manual-pagina-web-ES.pdf` (Spanisch) und `manual/Website-handbook-EN.pdf` (Englisch).
-Sie erklären Zugang, Tour-Termine und Plätze (Pages CMS), das Popup auf der Startseite, Galerien und
-Fotos, Facebook/Instagram auf „Novedades“, Team, Texte, Videos, eine eigene Domain und was zu tun ist, wenn
-etwas schiefgeht.
+### 1.4 ¿Ya está publicado?
 
-Neu erzeugen, wenn sich die Website ändert (auf diesem Mac):
-`PYTHONPATH=vendor/py python3 scripts/make_manual.py`. Die Bildschirmfotos liegen in `manual/img/`.
-Der Ordner `manual` wird nicht mit der Website veröffentlicht.
+En GitHub, la pestaña «Actions» muestra cada actualización de la página:
 
-## 2. Inhalte bearbeiten
+- **Círculo amarillo:** la página se está actualizando.
+- **Marca verde:** listo, el cambio está en línea.
+- **Cruz roja:** algo salió mal. La página sigue mostrando la versión anterior. Ver capítulo 7.
 
-Jede Änderung geht direkt auf github.com: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.
-Nach 1–2 Minuten ist die Änderung online.
+> **Consejo:** Si no ves el cambio, recarga la página con fuerza: en la computadora Ctrl + F5 (en Mac: Cmd + Shift + R).
 
-| Was | Wo |
+
+### 1.5 Tres idiomas
+
+La página existe en español, inglés y francés. Casi todos los textos están en tres archivos con el mismo nombre en las carpetas `_data/es`, `_data/en` y `_data/fr`. **Cambia siempre los tres.** Si no sabes traducir, cambia el español y pide ayuda para los otros idiomas, o usa un traductor como DeepL.
+
+
+### 1.6 Reglas de oro para los archivos .yml
+
+Los textos están en archivos con la terminación `.yml`. Son fáciles de leer, pero hay que respetar algunas reglas:
+
+- No borres los espacios al principio de las líneas. La sangría indica qué pertenece a qué.
+- Usa espacios, nunca la tecla Tab.
+- Si un texto contiene dos puntos seguidos de un espacio, ponlo entre comillas: `"Viaje Arutam: 22 días"`.
+- Para agregar algo nuevo, copia un bloque que ya existe, pégalo justo debajo y cambia los textos.
+- Las líneas que empiezan con `#` son notas para quien edita. No aparecen en la página.
+
+
+## 2. Tours: fechas, plazas y aviso en la página de inicio
+
+
+### 2.1 Cómo funciona
+
+Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). La reserva se hace a través de Raíces; en Maikiuants, Kampuntin organiza el viaje. El nombre, la duración, el precio y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué viaje pertenece.
+
+![La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.](manual/img/es-viajes.jpg)
+_La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas._
+
+- **Fechas y plazas:** archivo `_data/tour_dates.yml`. Lo más fácil es usar Pages CMS (2.2).
+- **Nombre, duración, precio y texto de cada viaje:** `_data/es/tours.yml` (y `en`, `fr`), bajo `trips` (2.5).
+- **El aviso en la página de inicio** toma la próxima fecha automáticamente (2.4).
+
+
+### 2.2 Agregar una fecha nueva (con Pages CMS)
+
+1. Abre **app.pagescms.org** e inicia sesión con «Sign in with GitHub».
+2. Elige el repositorio **Kampuntin-Maikiuants.github.io**.
+3. En el menú de la izquierda haz clic en **Fechas de tours**.
+4. Debajo de la última fecha, haz clic en el botón para agregar una entrada nueva (signo +).
+5. Llena los campos (ver la tabla).
+6. Haz clic en «Save». En uno a tres minutos la fecha aparece en la página de tours y, si es la próxima, también en el aviso de la página de inicio.
+
+| Campo | Qué escribir |
 |---|---|
-| Texte jeder Seite | `_data/es/*.yml` (Spanisch), `_data/en/*.yml` (Englisch) und `_data/fr/*.yml` (Französisch), eine Datei pro Seite |
-| Menü, Buttons, Fußzeile | `_data/es/ui.yml`, `_data/en/ui.yml`, `_data/fr/ui.yml` |
-| Sprachen im Umschalter | `_config.yml` → `languages: [es, en, fr]` (Seiten in `pages/es`, `pages/en`, `pages/fr`) |
-| E-Mail, WhatsApp, Instagram, Facebook, WWOOF, Name der Organisation | `_config.yml` |
-| Tour-Termine | `_data/tour_dates.yml` |
-| Team (Namen, Rollen, Fotos) | `_data/team.yml` |
-| Bedrohte Arten | `_data/species.yml` |
-| Neue Froschart, Flusstiere, Buch | `_data/es/science.yml`, `_data/en/science.yml` |
-| Erfahrungsberichte, FAQ Volunteering | `_data/es/volunteering.yml`, `_data/en/volunteering.yml` |
-| 6 Fotos „Leben in der Jea“ (Touren + Volunteering) | `_data/jea_photos.yml` |
-| Menü-Reihenfolge | `_data/navigation.yml` |
-| Videos (eigene MP4 in `assets/video/` oder YouTube) | `_data/videos.yml` |
-| Fotoalben (Titel, Datum, Titelbild) | `_data/albums.yml` |
-| Design (Farben, Schriften) | `assets/css/style.css`, ganz oben unter `:root` |
-| Hintergrundmuster an/aus | `_config.yml` → `background_pattern: true/false` (Stärke: `opacity` bei „Hintergrundmuster“ in `style.css`) |
-| Logo von Anouk Segebart (Kopf- und Fußzeile) | `assets/img/logo-128.png` / `logo-256.png` (eingebunden über `_includes/logo.html`) · Browser-Icons: `assets/img/favicon-32/48/192.png` · iPhone-Icon: `assets/img/apple-touch-icon.png` · Original im Ordner `Logo-Entwurf` neben der Website |
-| Credits „Las caras detrás de esta web“ | `_data/<sprache>/people.yml` unter `credits`; Webmaster in `_config.yml` → `webmaster` |
-| Shuar-Namen im Team | `_data/team.yml` → `shuar_name: "…"` |
-| Detailkarte Limón Indanza – Maikiuants | wird erzeugt mit `python3 scripts/make_region_map.py` (Daten: OpenStreetMap) |
-| Besucherstatistik (GoatCounter) | `_config.yml` → `goatcounter: "kontoname"` – Anleitung unten, Abschnitt 4 |
-| Tour-Hinweis auf der Startseite an/aus | `_config.yml` → `tour_popup: true/false` (Texte: `tour_popup` in `_data/es|en/home.yml`; Termin kommt automatisch aus `tour_dates.yml`) |
+| Inicio | Primer día del viaje (exacto o aproximado). |
+| Fin | Último día del viaje. |
+| Viaje | Viaje espiritual (11 días) o Viaje Arutam (22 días). |
+| Texto en vez de la fecha | Solo si la fecha aún no es exacta, por ejemplo «Abril / mayo 2027». En español, inglés y francés. |
+| Nota pequeña | Opcional, una línea debajo de la fecha, por ejemplo «Fecha exacta por confirmar». |
+| Plazas libres | Cuántas plazas quedan. **0** = Completo. Vacío = se usa el Estado. |
+| Estado | Plazas a consultar · Plazas libres · Últimas plazas · Completo (solo si «Plazas libres» está vacío). |
 
-**Fotos einbauen:** Bild hochladen (z. B. nach `assets/img/fotos/`). Dann im passenden
-Text-File bei `image: ""` den Pfad eintragen, z. B. `image: "/assets/img/fotos/inicio.jpg"`.
-Solange kein Bild eingetragen ist, erscheint ein grüner Platzhalter mit Bildbeschreibung.
+![Así se ven los precios y las próximas fechas en la página de tours.](manual/img/es-fechas.jpg)
+_Así se ven los precios y las próximas fechas en la página de tours._
 
-**Galerie (Fotoalben):** Jedes Album ist ein eigener Ordner in `assets/galeria/`, z. B.
-`assets/galeria/2026-09-tour-septiembre/`. Neuen Ordner anlegen, Fotos hineinladen, fertig: Das
-Album erscheint automatisch mit dem ersten Foto als Titelbild. Ein Klick darauf zeigt alle Fotos
-zum Durchblättern.
-- Ordnernamen **mit Datum beginnen** (`2026-11-minga-de-siembra`). Dann steht das neueste Album
-  vorne, und Monat/Jahr werden automatisch angezeigt.
-- Schöner Titel, Datum oder ein anderes Titelbild: optional in `_data/albums.yml` eintragen.
-- Die drei neuesten Alben erscheinen zusätzlich unten auf der Tour-Seite.
-- Auf github.com legt man einen neuen Ordner so an: **Add file → Create new file**, als Namen
-  `assets/galeria/2026-11-minga/_LEEME.txt` eingeben (der Schrägstrich erzeugt den Ordner),
-  speichern, dann im Ordner **Add file → Upload files**.
+> **Consejo:** Las fechas pasadas desaparecen solas: cuando llega el día de inicio, la fecha ya no se muestra (la página se actualiza cada 6 horas). No hace falta borrarlas, pero puedes hacerlo para mantener la lista ordenada.
 
-> Bilder vorher verkleinern (ca. 1600 px breit, unter 500 KB). GitHub Pages empfiehlt höchstens
-> 1 GB pro Website. Längere Videos besser auf YouTube hochladen und in `_data/videos.yml` eintragen.
 
-**Tipp für YAML-Dateien:** Einrückung (Leerzeichen) beibehalten. Enthält ein Text einen
-Doppelpunkt mit Leerzeichen dahinter, den ganzen Text in "Anführungszeichen" setzen.
+### 2.3 Actualizar las plazas libres
 
----
+1. Abre Pages CMS › **Fechas de tours**.
+2. En la fecha del viaje escribe en **Plazas libres** cuántas quedan (por ejemplo 12, y después de cada reserva un número menos).
+3. Haz clic en «Save». Con 3 plazas o menos el número se muestra en naranja; con **0** aparece «Completo».
 
-## 3. Updates über Facebook & Instagram
+Una fecha completa ya no aparece en el aviso de la página de inicio. El aviso muestra entonces la siguiente fecha con plazas.
 
-Die Novedades-Seite zeigt oben die Konten (Facebook **Kampuntin** und **Maikiuants**, Instagram
-**@territorioshuar**) und darunter die **neuesten Beiträge als eigene Karten mit Text und Fotos**,
-ohne eingebettetes Facebook. Die drei neuesten erscheinen auch auf der Startseite.
 
-### So funktioniert der automatische Import
+### 2.4 El aviso (pop-up) en la página de inicio
 
-Alle 6 Stunden holt GitHub über die offizielle Facebook-Schnittstelle (Graph API) die neuesten
-Beiträge, speichert Text und Fotos im Repository (`_data/social_posts.json`,
-`assets/img/social/`) und veröffentlicht die Website neu. Das Programm dafür ist
-`scripts/import_social.py`, der Zeitplan steht in `.github/workflows/website.yml`.
+![El aviso aparece abajo a la derecha, unos segundos después de abrir la página de inicio.](manual/img/es-popup.jpg)
+_El aviso aparece abajo a la derecha, unos segundos después de abrir la página de inicio._
 
-Solange kein Zugangsschlüssel (Token) hinterlegt ist, passiert nichts. Die Seite zeigt dann nur
-die drei Konten als große Karten.
+El aviso muestra siempre la próxima fecha que todavía no pasó y que no está completa, con el nombre del viaje, la duración y el precio. **No hay que cambiar nada para que se actualice.**
 
-> Die früher eingebettete Facebook-Chronik ist abgeschaltet: Facebook zeigt sie nur noch
-> Besuchern, die bei Facebook eingeloggt sind – alle anderen sahen ein leeres weißes Feld.
+**Encender o apagar el aviso:**
 
-**Voraussetzungen**
-- Es müssen **Facebook-Seiten** sein (keine privaten Profile), und wer einrichtet, muss dort
-  Admin sein.
-- Für Instagram: @territorioshuar muss ein **Business- oder Creator-Konto** sein und mit einer
-  der beiden Facebook-Seiten verknüpft sein. Dann kommt Instagram automatisch mit, ohne
-  zusätzlichen Schlüssel.
+1. En GitHub abre el archivo `_config.yml` (está en la carpeta principal) y haz clic en el lápiz.
+2. Busca la línea `tour_popup: true`.
+3. Escribe `false` para apagarlo o `true` para encenderlo y guarda con «Commit changes».
 
-**Einrichtung (einmalig, ca. 20 Minuten)**
-1. Auf [developers.facebook.com](https://developers.facebook.com) mit dem Facebook-Konto anmelden,
-   das die Seiten verwaltet → **Meine Apps → App erstellen** (Typ „Business“, Name z. B.
-   „Kampuntin Website“).
-2. **Tools → Graph API Explorer** öffnen, oben die neue App wählen. Unter „Berechtigungen“
-   hinzufügen: `pages_show_list`, `pages_read_engagement` und für Instagram zusätzlich
-   `instagram_basic` und `business_management`. Dann **Generate Access Token** und bestätigen.
-3. **Tools → Access Token Debugger**: das Token einfügen → **Debug** → unten
-   **Extend Access Token** (langlebiges Token) → kopieren.
-4. Zurück im Graph API Explorer das langlebige Token einsetzen und die Abfrage `me/accounts`
-   ausführen. Die Antwort enthält für **jede Seite** ein eigenes `access_token`. Diese
-   Seiten-Tokens laufen nicht ab.
-5. Auf GitHub im Repository: **Settings → Secrets and variables → Actions → New repository
-   secret**. Name: `FB_PAGE_TOKENS`, Wert: die Seiten-Tokens, **eins pro Zeile**.
-6. **Actions → Website bauen & Social Media importieren → Run workflow**. Nach 1–2 Minuten
-   erscheinen die Beiträge auf der Website.
+**Cambiar el texto o la foto del aviso:** en `_data/es/home.yml` (y `en`, `fr`), al final, en el bloque `tour_popup`. La foto (`image`) es una ruta a un archivo de la página.
 
-**Kontrollieren, ob es läuft:** Tab **Actions** → letzten Durchlauf anklicken. Oben unter
-„Annotations“ steht eine kurze Meldung:
-- gelb *„Kein Secret FB_PAGE_TOKENS gesetzt“* → Schritte 1–5 sind noch nicht erledigt,
-- rot *„Token Nr. 1: …“* → das Token ist falsch oder abgelaufen (Meldung von Facebook steht dabei),
-- blau *„… Beiträge geladen“* → alles gut.
-
-**Gut zu wissen**
-- Ändert jemand das Facebook-Passwort oder entzieht der App die Rechte, werden die Tokens
-  ungültig. Dann Schritte 2–5 wiederholen.
-- GitHub pausiert zeitgesteuerte Abläufe, wenn 60 Tage lang nichts im Repository passiert. Dann
-  unter Actions einmal „Enable workflow“ klicken.
-- Nach dem Hinterlegen des Tokens nicht 6 Stunden warten: **Actions → Website bauen & Social
-  Media importieren → Run workflow** startet den Import sofort.
-- Einzelne Instagram-Posts lassen sich zusätzlich von Hand einbetten: Link in
-  `_data/instagram_embeds.yml` eintragen (lädt erst nach Klick).
-
-**Pages CMS (optional):** Mit [app.pagescms.org](https://app.pagescms.org) (kostenlos, Login mit
-GitHub) lassen sich die Tour-Termine und freien Plätze in einem Formular bearbeiten – auch vom
-Handy. Die Einstellungen dafür stehen in `.pages.yml`, die Anleitung auf Spanisch für die Leitung
-ganz unten („Guía rápida: actualizar las plazas de un tour“). Wer das Formular nutzen soll,
-braucht ein GitHub-Konto und muss unter **Settings → Collaborators** eingeladen werden.
-
----
-
-## 4. Was GitHub Pages (kostenlos) kann – und was nicht
-
-GitHub Pages liefert nur fertige Seiten aus. Es gibt keinen Server und keine Datenbank. Deshalb:
-
-| Funktion | Lösung in dieser Website |
-|---|---|
-| Kontaktformular | Gibt es bewusst nicht: GitHub Pages kann keine E-Mails versenden. Die Kontaktseite führt direkt zu WhatsApp und E-Mail. (Nachrüstbar über einen Dienst wie Formspree.) |
-| Buchung & Zahlung | Läuft über Kontakt/WhatsApp. Für Online-Zahlung wäre ein externer Dienst nötig. |
-| Kommentare, Logins, Newsletter | Nicht eingebaut. Bei Bedarf über externe Dienste möglich. |
-| Statistiken | Keine, also auch kein Cookie-Banner nötig. |
-| Karte auf der Startseite | Eigene Grafik (`_includes/map-ecuador.html`, Umrisse von Natural Earth), kein Google Maps, keine Daten an Dritte. Der Link führt zu OpenStreetMap mit den genauen Koordinaten. |
-
-Grenzen laut GitHub: Website bis 1 GB, ca. 100 GB Datenvolumen pro Monat, öffentliches
-Repository. GitHub Pages ist nicht für Websites gedacht, die hauptsächlich dem Online-Verkauf
-dienen. Eine Informationsseite mit Buchung per Kontakt ist üblich. Wenn später Online-Zahlung
-dazukommen soll, lohnt sich ein anderer Hoster (z. B. Netlify oder Cloudflare Pages, beide mit
-kostenlosem Plan).
-
----
-
-### Besucherstatistik
-
-GitHub Pages zeigt keine Besucherzahlen (unter *Insights → Traffic* sieht man nur Besuche des
-Repositorys, nicht der Website). Empfehlung: **GoatCounter** – kostenlos für Projekte wie dieses,
-ohne Cookies, ohne Einwilligungs-Banner, und die Zahlen lassen sich mit Kampuntin teilen.
-
-1. Auf [goatcounter.com](https://www.goatcounter.com) ein Konto anlegen, Code z. B. `kampuntin`.
-2. In `_config.yml` eintragen: `goatcounter: "kampuntin"` → speichern, pushen.
-3. Ab dann zählt die Seite Besuche. Im Impressum erscheint automatisch ein kurzer Hinweis dazu.
-4. Teilen: In GoatCounter unter *Settings → Users* Kampuntin als Benutzer einladen, oder unter
-   *Settings → Site settings* die Statistik öffentlich machen und den Link weitergeben.
-
-## 5. Vor dem Start: Checkliste
-
-- [ ] Alle Platzhalter ersetzen. Sie stehen in **[eckigen Klammern]**, z. B. `[ciudad de encuentro]`,
-      `[XXX] USD`, `[Nombre]`. Auf GitHub findet die Suche (Taste `/`) alle Stellen.
-- [ ] E-Mail-Adresse in `_config.yml` eintragen (WhatsApp, Facebook und Instagram sind schon drin).
-- [ ] Echte Tour-Termine in `_data/tour_dates.yml`.
-- [ ] Die Liste bedrohter Arten (`_data/species.yml`) mit den echten Monitoring-Daten abgleichen.
-- [ ] Name, Foto und Geschichte der neuen Froschart sowie die Angaben zum Buch eintragen.
-- [ ] Mission von Kampuntin ausformulieren (`_data/es/home.yml`, `_data/en/home.yml`).
-- [ ] Erfahrungsberichte durch echte ersetzen (mit Einverständnis).
-- [ ] Alle Texte über Kultur, Wissen und Territorium **von der Gemeinschaft Maikiuants prüfen lassen**.
-- [ ] Für jedes Foto und jede Personenbeschreibung das Einverständnis der Personen einholen.
-- [ ] Impressum & Datenschutz (`_data/*/legal.yml`) rechtlich prüfen lassen.
-
----
-
-## 6. Lokale Vorschau (optional, für Technik-Interessierte)
-
-Auf diesem Mac liegt das Bauwerkzeug im Ordner `vendor/` (wird nicht zu GitHub hochgeladen):
-
-```bash
-./vendor/build.sh
+`_data/es/home.yml`
+```yaml
+tour_popup:
+  eyebrow: Próximo tour
+  text: >-
+    Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+  per: por persona
+  button: Ver el tour
+  close: Cerrar
+  image: /assets/img/fotos/cascada.jpg
 ```
 
-baut die Seite nach `_site/`. `./vendor/vorschau.sh` erzeugt zusätzlich die Offline-Vorschau
-neben dem Projekt (`../Vorschau` und `../Kampuntin-Website-offline.zip`).
 
-Auf einem anderen Rechner: Ruby 3.x installieren (z. B. `brew install ruby`), dann
-`bundle install` und `bundle exec jekyll serve` – danach unter http://localhost:4000 ansehen.
+### 2.5 Cambiar el precio, la duración o la descripción de un viaje
 
----
+1. En GitHub abre `_data/es/tours.yml` y haz clic en el lápiz.
+2. Busca `trips:`. Debajo están `espiritual` y `arutam`.
+3. Cambia `amount` (precio), `days` (duración), `when` (temporada) o `text` (descripción corta).
+4. Haz lo mismo en `_data/en/tours.yml` y `_data/fr/tours.yml`.
+5. Guarda con «Commit changes».
 
-## Guía rápida (español): subir un álbum de fotos
+`_data/es/tours.yml` (fragmento)
+```yaml
+  espiritual:
+    name: Viaje espiritual
+    days: 11 días
+    when: Abril – mayo 2027
+    amount: "2.490 €"
+    text: >-
+      Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar),
+      plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
+    link: Ver el programa
+```
 
-1. En github.com abre la carpeta `assets/galeria`.
-2. **Add file → Create new file** y escribe como nombre `2026-11-nombre-del-album/_LEEME.txt`
-   (con la fecha al principio). Guarda con **Commit changes**.
-3. Abre la nueva carpeta → **Add file → Upload files** y sube las fotos (reducidas a unos 1600 px).
-4. En uno o dos minutos el álbum aparece en la galería. Título y fecha opcionales en
-   `_data/albums.yml`.
+El programa detallado (llegada, actividades y regreso) está en el mismo archivo: en `spiritual` para el viaje espiritual y en `experience` para el viaje Arutam.
 
-## Guía rápida (español): actualizar las plazas de un tour
+> **Importante:** Un viaje completamente nuevo (un tercer tipo de viaje) necesita un pequeño cambio técnico en la página. Para eso, contacta a la persona que administra la página.
 
-Se hace en un minuto, también desde el celular. Se necesita una cuenta de GitHub con acceso al
-repositorio (la primera vez hay que pedir la invitación).
 
-1. Abre [app.pagescms.org](https://app.pagescms.org) e inicia sesión con GitHub.
-2. Elige el repositorio **Kampuntin-Maikiuants.github.io** → **Fechas de tours**.
-3. En la fecha del tour escribe en **Plazas libres** cuántas plazas quedan (por ejemplo 12, y
-   después de cada reserva un número menos). Con **0** aparece «Completo».
-   Si no quieres contar plazas, deja el campo vacío y elige un **Estado**, por ejemplo
-   «Plazas a consultar».
-4. Para una fecha nueva: **Agregar**, llenar inicio y fin (y si aún no es exacta, el texto en
-   «Texto en vez de la fecha»).
-5. **Guardar.** En uno o dos minutos la página web está actualizada.
+## 3. Galería: álbumes y fotos
 
+
+### 3.1 Cómo funciona
+
+Cada álbum es una **carpeta** dentro de `assets/galeria`. Todas las fotos de la carpeta aparecen en el álbum. La primera foto (o la que elijas) es la portada. Los álbumes se ordenan por el nombre de la carpeta, de mayor a menor: por eso cada carpeta empieza con un número. Los tres primeros álbumes aparecen también abajo en la página de tours.
+
+![La galería: cada tarjeta es un álbum. Un clic abre todas las fotos.](manual/img/es-galeria.jpg)
+_La galería: cada tarjeta es un álbum. Un clic abre todas las fotos._
+
+Las carpetas actuales van de `01` a `10`. Un álbum nuevo recibe el número siguiente (`11`, `12`, …) para aparecer primero.
+
+
+### 3.2 Preparar las fotos
+
+- Formato **JPG**.
+- Unos **1600 píxeles de ancho** y menos de **500 KB** por foto. Las fotos grandes hacen lenta la página.
+- Para achicar fotos gratis: **squoosh.app** en el navegador, o una app para reducir fotos en el celular.
+- Nombres sencillos, sin espacios ni acentos: `001.jpg`, `002.jpg`, … El orden de los números es el orden en el álbum.
+- Pide permiso a las personas que aparecen en las fotos.
+
+
+### 3.3 Crear un álbum nuevo
+
+1. En GitHub abre la carpeta `assets` › `galeria`.
+2. Haz clic en «Add file» › «Create new file».
+3. En el campo del nombre escribe el nombre de la carpeta, una barra `/` y `_LEEME.txt`, por ejemplo: `11-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.
+4. En el contenido escribe una línea, por ejemplo «Álbum Fiesta de la Chonta 2027». Haz clic en «Commit changes…» y luego en «Commit changes».
+
+
+### 3.4 Subir las fotos
+
+1. Abre la carpeta nueva (o un álbum que ya existe).
+2. Haz clic en «Add file» › «Upload files».
+3. Arrastra las fotos a la ventana o haz clic en «choose your files». Puedes subir varias a la vez.
+4. Abajo haz clic en «Commit changes» y espera a que termine la subida.
+5. En uno a tres minutos el álbum aparece en la galería.
+
+> **Consejo:** El archivo `_LEEME.txt` no aparece en la página. Puedes dejarlo o borrarlo.
+
+
+### 3.5 Título bonito y portada
+
+Sin más datos, el álbum usa el nombre de la carpeta como título. Para un título en tres idiomas y una portada elegida, abre `_data/albums.yml`, copia un bloque arriba de la lista y cámbialo:
+
+`_data/albums.yml` (ejemplo)
+```yaml
+- folder: 11-fiesta-de-la-chonta-2027
+  title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }
+  cover: "004.jpg"
+```
+
+- `folder`: el nombre exacto de la carpeta.
+- `title`: el título en los tres idiomas.
+- `cover`: el nombre de la foto de portada. Vacío (`""`) = la primera foto.
+
+
+### 3.6 Borrar una foto o un álbum
+
+1. Abre la foto en GitHub.
+2. Arriba a la derecha haz clic en los tres puntos «…» › «Delete file».
+3. Confirma con «Commit changes». Un álbum desaparece cuando ya no tiene fotos.
+
+
+## 4. Novedades: Facebook e Instagram
+
+
+### 4.1 Qué se ve en la página Novedades
+
+![Arriba aparecen las cuentas de Facebook e Instagram como tarjetas.](manual/img/es-novedades.jpg)
+_Arriba aparecen las cuentas de Facebook e Instagram como tarjetas._
+
+La página muestra las cuentas de Facebook e Instagram como tarjetas. Si la importación automática está configurada (4.3), debajo aparecen también las publicaciones más recientes con texto y fotos. Las tres últimas aparecen además en la página de inicio.
+
+El muro de Facebook no se puede mostrar directamente: Facebook solo lo muestra a personas que tienen la sesión iniciada en Facebook, y las demás verían un cuadro vacío. Por eso la página **importa** las publicaciones.
+
+
+### 4.2 Cambiar o agregar una cuenta
+
+1. En GitHub abre `_config.yml` y haz clic en el lápiz.
+2. Busca `social:`.
+3. Cambia el nombre (`name`) o el enlace (`url`). Para otra cuenta de Facebook copia un bloque `- name: … url: …` y pégalo debajo.
+4. Guarda con «Commit changes». La tarjeta aparece en Novedades y en el pie de página.
+
+`_config.yml` (fragmento)
+```yaml
+social:
+  instagram:
+    handle: territorioshuar
+    url: "https://www.instagram.com/territorioshuar/"
+  facebook:
+    - name: Kampuntin
+      url: "https://www.facebook.com/profile.php?id=61576137841827"
+    - name: Maikiuants
+      url: "https://www.facebook.com/profile.php?id=61566774571229"
+```
+
+
+### 4.3 Mostrar las publicaciones automáticamente
+
+Se configura una sola vez y toma unos 20 minutos. Después, la página busca publicaciones nuevas cada 6 horas, sola.
+
+> **Importante:** Requisitos: tienen que ser **páginas de Facebook** (no perfiles personales) y quien lo configura tiene que ser administrador de esas páginas. Para Instagram, la cuenta tiene que ser profesional (empresa o creador) y estar vinculada a una de las páginas de Facebook.
+
+1. Entra en **developers.facebook.com** con la cuenta de Facebook que administra las páginas. «My Apps» › «Create App», tipo «Business», nombre por ejemplo «Kampuntin Website».
+2. Abre «Tools» › «Graph API Explorer» y elige arriba la app nueva. En «Permissions» agrega `pages_show_list` y `pages_read_engagement`, y para Instagram también `instagram_basic` y `business_management`. Luego «Generate Access Token» y confirma.
+3. Abre «Tools» › «Access Token Debugger», pega el token, haz clic en «Debug» y abajo en «Extend Access Token». Copia el token largo.
+4. Vuelve al Graph API Explorer, pega el token largo y ejecuta la consulta `me/accounts`. La respuesta tiene un `access_token` para cada página. Estos tokens de página no vencen.
+5. En GitHub, en el repositorio: «Settings» › «Secrets and variables» › «Actions» › «New repository secret». Nombre: `FB_PAGE_TOKENS`. Valor: los tokens de página, uno por línea. Guarda con «Add secret».
+6. Pestaña «Actions» › «Website bauen & Social Media importieren» › «Run workflow». En uno a tres minutos aparecen las publicaciones.
+
+
+### 4.4 ¿Funciona la importación?
+
+En «Actions» abre la última ejecución. Arriba, en «Annotations», hay un mensaje corto (en alemán):
+
+- Amarillo «Kein Secret FB_PAGE_TOKENS gesetzt»: falta el paso 5.
+- Rojo «Token Nr. 1: …»: el token es incorrecto o venció. Al lado está el mensaje de Facebook.
+- Azul «… Beiträge geladen»: todo bien.
+
+> **Consejo:** Si alguien cambia la contraseña de Facebook o quita los permisos de la app, los tokens dejan de funcionar: repite los pasos 2 a 5. Si en el repositorio no pasa nada durante 60 días, GitHub pausa la actualización automática: en «Actions» haz clic en «Enable workflow».
+
+
+### 4.5 Mostrar una publicación de Instagram a mano
+
+1. Abre la publicación en Instagram y copia el enlace, por ejemplo `https://www.instagram.com/p/ABC123/`.
+2. En GitHub abre `_data/instagram_embeds.yml` y agrega una línea: `- https://www.instagram.com/p/ABC123/`
+3. Guarda con «Commit changes». La publicación aparece en Novedades. Se carga recién al hacer clic, para proteger la privacidad de las visitas.
+
+
+## 5. Equipo, textos y otras cosas útiles
+
+
+### 5.1 Agregar o cambiar una persona del equipo
+
+![Las tarjetas del equipo en la página «Equipo».](manual/img/es-equipo.jpg)
+_Las tarjetas del equipo en la página «Equipo»._
+
+1. Prepara una foto **cuadrada** (unos 600 × 600 píxeles, JPG) con la cara en el centro.
+2. Súbela a `assets` › `img` › `equipo` con «Add file» › «Upload files», con un nombre sencillo, por ejemplo `eddy.jpg`.
+3. Abre `_data/team.yml`, copia el bloque de una persona, pégalo y cámbialo (ver el ejemplo).
+4. Guarda con «Commit changes».
+
+`_data/team.yml` (ejemplo)
+```yaml
+- name: "Eddy Ankuash"
+  group: kampuntin
+  photo: "/assets/img/equipo/eddy.jpg"
+  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }
+  bio:
+    es: "Texto corto en español."
+    en: "Short text in English."
+    fr: "Texte court en français."
+```
+
+- Opcional: `contact: true` muestra el enlace «Escríbenos» (solo para las personas de contacto).
+- Opcional: `social:` agrega enlaces a Instagram o Facebook.
+- Opcional: `shuar_name:` muestra el nombre shuar debajo del nombre.
+
+> **Consejo:** Para cambiar una foto, sube la nueva con otro nombre (por ejemplo `eddy-2.jpg`) y cambia la línea `photo`. Así los navegadores muestran enseguida la foto nueva. Publica fotos y textos de personas solo con su permiso.
+
+
+### 5.2 ¿Dónde está cada texto?
+
+| Página | Archivo (en `_data/es`, `_data/en` y `_data/fr`) |
+|---|---|
+| Inicio | `home.yml` |
+| Tours | `tours.yml` |
+| Voluntariado | `volunteering.yml` |
+| Ciencia | `science.yml` |
+| Novedades | `updates.yml` |
+| Galería (textos) | `gallery.yml` |
+| Equipo (textos generales) | `people.yml` |
+| Contacto | `contact.yml` |
+| Aviso legal | `legal.yml` |
+| Menú, botones y pie de página | `ui.yml` |
+
+| Contenido compartido por los tres idiomas | Archivo |
+|---|---|
+| Personas del equipo | `_data/team.yml` |
+| Fechas de los tours | `_data/tour_dates.yml` |
+| Álbumes (títulos y portadas) | `_data/albums.yml` |
+| Videos | `_data/videos.yml` |
+| Especies amenazadas | `_data/species.yml` |
+| Correo, WhatsApp, personas de contacto, redes sociales, aviso encendido o apagado | `_config.yml` |
+
+
+### 5.3 Personas de contacto y WhatsApp
+
+Las personas de la página de contacto y del pie de página están en `_config.yml`, bajo `contact:` › `people:`. Cada persona tiene nombre, función en tres idiomas, número de WhatsApp (solo cifras, con código de país, sin + ni espacios) y el teléfono tal como se muestra.
+
+`_config.yml` (fragmento)
+```yaml
+    - name: Julien Shakaim
+      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
+      whatsapp: "32494860865"
+      phone: "+32 494 86 08 65"
+      email: "jdefourny.explore@gmail.com"
+```
+
+
+### 5.4 Videos
+
+**Videos cortos** (MP4, menos de 50 MB): súbelos a `assets/video` y agrégalos en `_data/videos.yml` (copia un bloque con `file`, `poster`, `title` y `text`). **Videos largos:** súbelos a YouTube y escribe solo el código del video en `youtube:`, por ejemplo `AbCdEf12345` de `https://youtu.be/AbCdEf12345`.
+
+
+## 6. Una dirección propia (dominio)
+
+Hoy la página está en **kampuntin-maikiuants.github.io**. Con un dominio propio, por ejemplo **www.kampuntin.org**, la dirección es más corta y fácil de recordar. La página sigue gratis en GitHub; solo el dominio cuesta dinero.
+
+
+### 6.1 Elegir y comprar el dominio
+
+1. Elige un nombre y una terminación, por ejemplo `kampuntin.org`, `kampuntin.com` o `kampuntin.ec`. En la página del proveedor puedes comprobar si todavía está libre.
+2. Cómpralo en un proveedor de dominios (registrador), por ejemplo Namecheap, Porkbun o Cloudflare. Para la terminación .ec también hay proveedores en Ecuador. Precio aproximado: 10 a 20 USD por año para .org o .com; otras terminaciones pueden costar más.
+3. Registra el dominio a nombre de Kampuntin, con un correo de la organización, y activa la renovación automática. Si el dominio vence, la página deja de verse con esa dirección.
+
+> **Importante:** Guarda bien los datos de acceso del proveedor y compártelos con una segunda persona de confianza. Sin acceso al proveedor no se puede renovar ni cambiar el dominio.
+
+
+### 6.2 Conectar el dominio con la página (DNS)
+
+En la cuenta del proveedor, abre la configuración de DNS del dominio (se llama «DNS», «DNS records» o «Zona DNS») y crea estas entradas:
+
+| Tipo | Nombre (host) | Valor |
+|---|---|---|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | kampuntin-maikiuants.github.io |
+
+Borra las otras entradas A o CNAME para `@` y `www` que el proveedor haya creado (por ejemplo para una página de espera).
+
+> **Consejo:** Opcional, para conexiones IPv6: cuatro entradas AAAA para `@` con los valores `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153` y `2606:50c0:8003::153`.
+
+
+### 6.3 Activar el dominio en GitHub
+
+1. En GitHub, en el repositorio: «Settings» › «Pages».
+2. En «Custom domain» escribe tu dominio con www, por ejemplo `www.kampuntin.org`, y haz clic en «Save».
+3. GitHub comprueba el DNS. Puede tardar desde unos minutos hasta 48 horas. Cuando aparece «DNS check successful», marca «Enforce HTTPS». Si la casilla todavía está gris, espera unas horas y vuelve a intentarlo.
+4. Listo: la página se abre en la dirección nueva. La dirección antigua kampuntin-maikiuants.github.io lleva automáticamente a la nueva.
+
+> **Consejo:** Recomendado: verifica el dominio en GitHub para que nadie más pueda usarlo con GitHub Pages. En la configuración de la organización Kampuntin-Maikiuants: «Settings» › «Pages» › «Add a domain», y sigue las instrucciones (es otra entrada DNS, de tipo TXT).
+
+
+### 6.4 Después del cambio
+
+- Cambia la dirección en los perfiles de Facebook e Instagram, en WWOOF, en los volantes y en los códigos QR.
+- Si las vistas previas en WhatsApp o Facebook todavía muestran la dirección antigua, escribe la dirección nueva en `_config.yml`, en la línea `url:` (quita el `#` del principio), por ejemplo `url: "https://www.kampuntin.org"`.
+- Un correo con el dominio (por ejemplo info@kampuntin.org) se puede agregar después con un servicio de correo. Muchos proveedores de dominios ofrecen reenvío de correo gratis.
+
+
+## 7. Si algo sale mal
+
+| Problema | Qué hacer |
+|---|---|
+| La página no cambia | Espera tres minutos y recarga con Ctrl + F5. Mira la pestaña «Actions»: ¿amarillo (trabajando), verde (listo) o rojo (error)? |
+| Cruz roja en «Actions» | Casi siempre es un error en un archivo `.yml`: un espacio de más o de menos, o faltan comillas. Abre la ejecución roja: el mensaje dice el archivo y la línea. Corrige y guarda de nuevo. Mientras tanto la página sigue mostrando la última versión buena. |
+| Borré algo por error | Nada se pierde. En GitHub abre el archivo › «History», abre la versión anterior, copia el texto y pégalo de nuevo con el lápiz. |
+| Una foto no aparece | Revisa que el nombre en el archivo sea exactamente igual al de la foto, con mayúsculas y la terminación (`.jpg` no es lo mismo que `.JPG`). |
+| Las publicaciones de Facebook ya no se actualizan | Ver 4.4. |
+
+**Ayuda:** Jesko Dorner · jesko.dorner@gmail.com
+
+
+### Hoja resumen
+
+| Tarea | Dónde | Herramienta |
+|---|---|---|
+| Fecha de tour nueva, plazas | Fechas de tours | Pages CMS |
+| Precio o texto de un viaje | `_data/es\|en\|fr/tours.yml` › `trips` | GitHub |
+| Aviso encendido o apagado | `_config.yml` › `tour_popup` | GitHub |
+| Texto o foto del aviso | `_data/es\|en\|fr/home.yml` › `tour_popup` | GitHub |
+| Álbum nuevo, subir fotos | `assets/galeria/NN-nombre/` | GitHub |
+| Título o portada de un álbum | `_data/albums.yml` | GitHub |
+| Cuentas de Facebook e Instagram | `_config.yml` › `social` | GitHub |
+| Publicaciones automáticas | Secret `FB_PAGE_TOKENS` | GitHub y Facebook |
+| Publicación de Instagram a mano | `_data/instagram_embeds.yml` | GitHub |
+| Persona del equipo | `_data/team.yml` y `assets/img/equipo` | GitHub |
+| Personas de contacto | `_config.yml` › `contact` | GitHub |
+| Videos | `_data/videos.yml` y `assets/video` | GitHub |
+| Dominio propio | Proveedor de dominios (DNS) y «Settings» › «Pages» | Proveedor y GitHub |

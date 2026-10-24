@@ -3,7 +3,8 @@
 
 Aufruf (auf dem Mac, mit reportlab aus vendor/py):
     PYTHONPATH=vendor/py python3 scripts/make_manual.py
-Ergebnis: manual/Manual-pagina-web-ES.pdf und manual/Website-handbook-EN.pdf
+Ergebnis: manual/Manual-pagina-web-ES.pdf, manual/Website-handbook-EN.pdf und README.md
+(die README auf GitHub ist das spanische Handbuch, aus denselben Inhalten erzeugt)
 Bildschirmfotos: manual/img/{es,en}-*.jpg
 """
 import re
@@ -186,6 +187,63 @@ class Builder:
                                ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 0),
                                ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
         self.story.append(KeepTogether([t, Paragraph(md(caption), ST["caption"])]))
+
+
+class MdBuilder:
+    """Gleiche Schnittstelle wie Builder, schreibt aber Markdown (für die README auf GitHub)."""
+    LABEL = {"tip": {"es": "Consejo", "en": "Tip"}, "warn": {"es": "Importante", "en": "Important"}}
+
+    def __init__(self, lang):
+        self.lang, self.lines, self.chapters = lang, [], []
+
+    def h1(self, text):
+        self.chapters.append(text)
+        self.lines += ["", f"## {text}", ""]
+
+    def h2(self, text):
+        self.lines += ["", f"### {text}", ""]
+
+    def p(self, text):
+        self.lines += [text, ""]
+
+    def bullets(self, items):
+        self.lines += [f"- {i}" for i in items] + [""]
+
+    def steps(self, items):
+        self.lines += [f"{n}. {i}" for n, i in enumerate(items, 1)] + [""]
+
+    def box(self, text, kind="tip"):
+        self.lines += [f"> **{self.LABEL[kind][self.lang]}:** {text}", ""]
+
+    def code(self, text, title=None):
+        if title:
+            path, _, rest = title.partition(" ")
+            self.lines.append(f"`{path}` {rest}".rstrip())
+        self.lines += ["```yaml", text.rstrip("\n"), "```", ""]
+
+    def table(self, header, rows, widths):
+        cell = lambda c: c.replace("|", "\\|")
+        self.lines.append("| " + " | ".join(cell(h) for h in header) + " |")
+        self.lines.append("|" + "---|" * len(header))
+        self.lines += ["| " + " | ".join(cell(c) for c in r) + " |" for r in rows]
+        self.lines.append("")
+
+    def img(self, name, caption, width=1.0):
+        self.lines += [f"![{caption}](manual/img/{self.lang}-{name}.jpg)", f"_{caption}_", ""]
+
+
+def slug(text):
+    """Anker wie bei GitHub: klein, Satzzeichen weg, Leerzeichen zu Bindestrichen."""
+    return re.sub(r"[^\w\- ]", "", text.lower()).replace(" ", "-")
+
+
+def build_md(lang, filename, T):
+    b = MdBuilder(lang)
+    T["content"](b)
+    head = [f"# {T['title']}", "", T["cover_lead"], "", T["readme_links"], "", f"**{T['toc_title']}**", ""]
+    head += [f"- [{c}](#{slug(c)})" for c in b.chapters]
+    (ROOT / filename).write_text("\n".join(head + b.lines).rstrip() + "\n", encoding="utf-8")
+    print("geschrieben:", ROOT / filename)
 
 
 def wrap_code(text, width=90):
@@ -963,7 +1021,11 @@ TEXTS = {
                cover_sub="Kampuntin Maikiuants", footer="Manual de la página web · Kampuntin Maikiuants",
                cover_lead="Cómo actualizar tours, galerías y novedades, paso a paso. Para personas sin "
                           "conocimientos técnicos.",
-               cover_meta="Versión: octubre de 2026 · Página web: " + SITE, toc_title="Contenido", content=es),
+               cover_meta="Versión: octubre de 2026 · Página web: " + SITE, toc_title="Contenido", content=es,
+               readme_links="Página web: https://" + SITE + " · Este manual también como PDF para imprimir: "
+                            "[español](manual/Manual-pagina-web-ES.pdf) · [English](manual/Website-handbook-EN.pdf) · "
+                            "Notas técnicas para quien administra la página (en alemán): "
+                            "[manual/Technik-DE.md](manual/Technik-DE.md)"),
     "en": dict(title="Website handbook – Kampuntin Maikiuants", cover_title="Website handbook",
                cover_sub="Kampuntin Maikiuants", footer="Website handbook · Kampuntin Maikiuants",
                cover_lead="How to update tours, galleries and news, step by step. For people without technical "
@@ -974,3 +1036,4 @@ TEXTS = {
 if __name__ == "__main__":
     build("es", "Manual-pagina-web-ES.pdf", TEXTS["es"])
     build("en", "Website-handbook-EN.pdf", TEXTS["en"])
+    build_md("es", "README.md", TEXTS["es"])

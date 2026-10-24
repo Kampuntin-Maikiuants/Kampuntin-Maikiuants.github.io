@@ -39,8 +39,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 ### Touren
 - [ ] **Genaue Termine 2027** (Start- und Enddatum) für April und für August/September
 - [ ] **Freie Plätze pflegen:** Wer bei Kampuntin trägt die Plätze ein? Diese Person braucht ein
-      GitHub-Konto → im Repository unter Settings → Collaborators einladen → Anleitung im README
-      („Guía rápida: actualizar las plazas“). Bis dahin steht bei den Terminen „Plazas a consultar“.
+      GitHub-Konto → im Repository unter Settings → Collaborators einladen → Anleitung im Handbuch,
+      Kapitel 2.3 (README bzw. PDF in `manual/`). Bis dahin steht bei den Terminen „Plazas a consultar“.
 - [ ] **Gespräch mit Freddy (22.10.), noch offen:** Beim Text über die Shuar nannte er eine
       Alternative „somos el … de la selva“ (germen? guardián?) – Wortlaut klären. Minki ist von
       Kontakt- und Team-Seite entfernt. Versicherung mit Julien abgleichen.
@@ -101,7 +101,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 ### Facebook & Instagram
 - [ ] Sind beide Facebook-Konten **Seiten** (keine Privatprofile)?
 - [ ] Ist @territorioshuar ein **Business-/Creator-Konto** und mit einer Seite verknüpft?
-- [ ] **Automatischen Import einrichten** (README, Abschnitt 3, ca. 20 Minuten) – ohne diesen
+- [ ] **Automatischen Import einrichten** (Handbuch Kapitel 4.3 bzw. `manual/Technik-DE.md` Abschnitt 3, ca. 20 Minuten) – ohne diesen
       Schritt erscheinen keine Facebook-Posts auf der Website
 
 ### Sonstiges
@@ -110,7 +110,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
 - [ ] **Galerie:** neue Alben aus „Fotos Website mit Nametag“ – Titel prüfen (v. a. „Minga y comida
       con la comunidad“ vom 12.10. – war das die Minga oder die Fotopräsentation der Freiwilligen?)
       und ggf. in `_data/albums.yml` ändern
-- [ ] **Besucherstatistik:** GoatCounter-Konto anlegen und in `_config.yml` eintragen (README, Abschnitt 4)
+- [ ] **Besucherstatistik:** GoatCounter-Konto anlegen und in `_config.yml` eintragen (`manual/Technik-DE.md`, „Besucherstatistik“)
 - [ ] **Datenschutz-/Impressumstext** kurz rechtlich prüfen lassen
 - [ ] Ordner `_archiv` (alte Version) löschen
 - [ ] Letzter Durchgang am Handy, dann Website teilen (WWOOF-Profil, Facebook, Instagram-Bio)
