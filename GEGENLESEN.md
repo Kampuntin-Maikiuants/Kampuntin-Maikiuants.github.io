@@ -103,8 +103,8 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Gerente y coordinación de Kampuntin · Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica.
   - EN: Manager and coordinator of Kampuntin · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
 - [ ] **Julien Shakaim** – _nach Raíces formuliert; Name „Shakaim“ oder „Defourny“?_
-  - ES: Fundador de Raíces · guía y traductor · Julien es aventurero, realizador y fotógrafo, y fundó la asociación belga [Raíces](https://www.raices.be/). Conoció a los shuar en 2017, durante un viaje de cuatro años sin motor por el continente americano, y desde entonces considera a Maikiuants su familia amazónica. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
-  - EN: Founder of Raíces · guide and translator · Julien is an adventurer, filmmaker and photographer and founded the Belgian association [Raíces](https://www.raices.be/). He met the Shuar in 2017 during a four-year journey across the Americas without a motor, and has since considered Maikiuants his Amazonian family. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
+  - ES: Fundador de Raíces · guía y traductor · Julien fundó la asociación belga [Raíces](https://www.raices.be/) y conoce a los shuar desde 2017. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
+  - EN: Founder of Raíces · guide and translator · Julien founded the Belgian association [Raíces](https://www.raices.be/) and has known the Shuar since 2017. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
 - [ ] **Marcos Ankuash** – _von Ihnen; EN/FR von mir_
   - ES: Tesorero de Kampuntin · Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital y administra la cuenta de Instagram [«Territorio Shuar Indomable»](https://www.instagram.com/territorioshuar/).
   - EN: Treasurer of Kampuntin · Marcos is a business entrepreneur with his grocery shop. He is also a digital manager and runs the Instagram account ["Territorio Shuar Indomable"](https://www.instagram.com/territorioshuar/).
@@ -151,9 +151,9 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Quiénes somos – Kampuntin** – _auf Spanisch die Übersetzung in Klammern entfernt_
 
-- ES: *Kampuntin* significa «selva» en shuar chicham, de ahí nuestro lema **«Selva, mi destino»**. Nacimos desde dentro de la comunidad de Maikiuants. Queremos crear un intercambio cultural, compartiendo una mirada sobre el bosque y la comunidad desde dentro, y al mismo tiempo apoyar económicamente a la comunidad de Maikiuants. Kampuntin es también la organización detrás del trabajo científico, del monitoreo y de la protección de la selva.
-- EN: *Kampuntin* means "rainforest" in Shuar Chicham – hence our motto **"Selva, mi destino"** (the rainforest, my destination). We were founded from within the Maikiuants community. We aim to create a cultural exchange, sharing a perspective of forest and community from within, while economically supporting the Maikiuants community. Kampuntin is also the organisation behind the scientific work, the monitoring and the protection of the rainforest.
-- FR: *Kampuntin* signifie « forêt » en shuar chicham, d’où notre devise **« Selva, mi destino »** (la forêt, ma destination). Nous sommes nés au sein de la communauté de Maikiuants. Nous voulons créer un échange culturel, en partageant un regard sur la forêt et la communauté de l’intérieur, tout en soutenant économiquement la communauté de Maikiuants. Kampuntin est aussi l’organisation derrière le travail scientifique, le suivi et la protection de la forêt.
+- ES: *Kampuntin* significa «selva» en shuar chicham, de ahí nuestro lema **«Selva, mi destino»**. Nacimos desde dentro de la comunidad de Maikiuants. Queremos crear un intercambio cultural, compartiendo una mirada sobre el bosque y la comunidad desde dentro, y al mismo tiempo apoyar económicamente a la comunidad de Maikiuants. Kampuntin es también la organización detrás del trabajo científico, del monitoreo y de la protección del territorio.
+- EN: *Kampuntin* means "rainforest" in Shuar Chicham – hence our motto **"Selva, mi destino"** (the rainforest, my destination). We were founded from within the Maikiuants community. We aim to create a cultural exchange, sharing a perspective of forest and community from within, while economically supporting the Maikiuants community. Kampuntin is also the organisation behind the scientific work, the monitoring and the protection of the territory.
+- FR: *Kampuntin* signifie « forêt » en shuar chicham, d’où notre devise **« Selva, mi destino »** (la forêt, ma destination). Nous sommes nés au sein de la communauté de Maikiuants. Nous voulons créer un échange culturel, en partageant un regard sur la forêt et la communauté de l’intérieur, tout en soutenant économiquement la communauté de Maikiuants. Kampuntin est aussi l’organisation derrière le travail scientifique, le suivi et la protection du territoire.
 
 **Misión, Punkt 4: Fortalecer la comunidad** – _statt 5 %: finanzielle Unterstützung_
 
@@ -602,9 +602,9 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 **Julien Shakaim**
 
-- ES: _Fundador de Raíces · guía y traductor_ · Julien es aventurero, realizador y fotógrafo, y fundó la asociación belga [Raíces](https://www.raices.be/). Conoció a los shuar en 2017, durante un viaje de cuatro años sin motor por el continente americano, y desde entonces considera a Maikiuants su familia amazónica. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
-- EN: _Founder of Raíces · guide and translator_ · Julien is an adventurer, filmmaker and photographer and founded the Belgian association [Raíces](https://www.raices.be/). He met the Shuar in 2017 during a four-year journey across the Americas without a motor, and has since considered Maikiuants his Amazonian family. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
-- FR: _Fondateur de Raíces · guide et traducteur_ · Julien est aventurier, réalisateur et photographe, et a fondé l’association belge [Raíces](https://www.raices.be/). Il a rencontré les Shuar en 2017, lors d’un voyage de quatre ans sans moteur à travers le continent américain, et considère depuis Maikiuants comme sa famille amazonienne. Il accompagne les tours comme guide et traducteur et est votre contact si vous venez de l’étranger.
+- ES: _Fundador de Raíces · guía y traductor_ · Julien fundó la asociación belga [Raíces](https://www.raices.be/) y conoce a los shuar desde 2017. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
+- EN: _Founder of Raíces · guide and translator_ · Julien founded the Belgian association [Raíces](https://www.raices.be/) and has known the Shuar since 2017. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
+- FR: _Fondateur de Raíces · guide et traducteur_ · Julien a fondé l’association belge [Raíces](https://www.raices.be/) et connaît les Shuar depuis 2017. Il accompagne les tours comme guide et traducteur et est votre contact si vous venez de l’étranger.
 
 **Marcos Ankuash**
 
@@ -655,4 +655,3 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 - Versicherung: Freddy sagt „über Raíces“, Juliens Seite sagt „selbst abschließen“.
 - Juliens Nachname: „Shakaim“ (bei uns) oder „Defourny“ (Raíces)?
 - „somos el … de la selva“ aus dem Gespräch mit Freddy (Wortlaut unklar, nicht eingebaut).
-- Startseite, Text „Kampuntin“: Dort steht noch „protección de la selva“. Nach Freddys Hinweis („proteger el territorio“) eventuell auch hier „protección del territorio“?
