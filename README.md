@@ -370,7 +370,7 @@ Las personas de la página de contacto y del pie de página están en `_config.y
 
 `_config.yml` (fragmento)
 ```yaml
-    - name: Julien Shakaim
+    - name: Julien Defourny
       role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"

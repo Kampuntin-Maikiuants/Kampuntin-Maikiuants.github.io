@@ -24,7 +24,8 @@
     en: "Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them."
     fr: "Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise."
 
-- name: "Julien Shakaim"
+- name: "Julien Defourny"
+  shuar_name: "Shakaim"
   contact: true
   group: kampuntin
   photo: "/assets/img/equipo/julien.jpg"

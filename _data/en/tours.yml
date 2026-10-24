@@ -134,7 +134,6 @@ included:
     - "All meals from day 2; in Maikiuants prepared by community cooks"
     - "Our international guide and translator, plus community guides"
     - "All programme activities and ceremonies"
-    - "Travel insurance (arranged by Raíces)"
     - "Solar-powered kitchen and electricity"
     - "Free wifi in the village (about a 35-minute walk from the accommodation)"
     - "A river to bathe in"
@@ -145,6 +144,7 @@ not_included:
   title: "Not included"
   items:
     - "Flights to Cuenca and back (we are happy to advise you)"
+    - "Travel insurance (we are happy to advise you here too)"
     - "Taxi between the airport and the hotel in Cuenca (arrival and departure)"
     - "Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza"
 
@@ -171,7 +171,7 @@ price:
   per: per person
   text: >-
     All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides,
-    translators, travel insurance, safety and activities. Bookings are made through Raíces, and in
+    translators and activities. Bookings are made through Raíces, and in
     Maikiuants Kampuntin organises the journey. We
     pay local guides and cooks, buy food within the community and support Maikiuants
     financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.

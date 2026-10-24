@@ -23,7 +23,7 @@ contact:
   whatsapp: "593980154335"         # Haupt-WhatsApp für die Buttons (ohne + und Leerzeichen)
   # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
   people:
-    - name: Julien Shakaim
+    - name: Julien Defourny
       role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"

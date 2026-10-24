@@ -2,7 +2,7 @@
 
 Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
-- **Teil A** (38 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil A** (37 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
 - **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
 - **Ganz unten**: offene Fragen.
 
@@ -45,15 +45,12 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - [ ] **Incluido – Transport, Unterkunft, Essen** – _aus beiden Programmen zusammengeführt, die Unterschiede in Klammern sind von mir_
   - ES: Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional) · Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos · Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
   - EN: All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe) · Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos · All meals from day 2; in Maikiuants prepared by community cooks
-- [ ] **Incluido – Reiseversicherung** – _laut Freddy; Raíces schreibt, dass man sie selbst abschließt – Widerspruch klären_
-  - ES: Seguro de viaje (lo gestiona Raíces)
-  - EN: Travel insurance (arranged by Raíces)
 - [ ] **No incluido – Essen** – _Zusatz zur spirituellen Reise aus Raíces abgeleitet_
   - ES: Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
   - EN: Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
-- [ ] **Precio – Text** – _eigene Formulierung (Versicherung, Raíces/Kampuntin, finanzielle Unterstützung)_
-  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators, travel insurance, safety and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+- [ ] **Precio – Text** – _eigene Formulierung (Raíces/Kampuntin, finanzielle Unterstützung)_
+  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 - [ ] **Próximas fechas – Einleitung** – _„máximo 12 personas“ steht nicht bei Raíces (kommt aus dem Interview)_
   - ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
   - EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
@@ -96,7 +93,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - [ ] **Freddy Ankuash** – _Rolle von Ihnen; Text von früher – noch aktuell?_
   - ES: Gerente y coordinación de Kampuntin · Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica.
   - EN: Manager and coordinator of Kampuntin · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
-- [ ] **Julien Shakaim** – _nach Raíces formuliert; Name „Shakaim“ oder „Defourny“?_
+- [ ] **Julien Defourny** (Shuar-Name: Shakaim) – _nach Raíces formuliert_
   - ES: Fundador de Raíces · guía y traductor · Julien fundó la asociación belga [Raíces](https://www.raices.be/) y conoce a los shuar desde 2017. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
   - EN: Founder of Raíces · guide and translator · Julien founded the Belgian association [Raíces](https://www.raices.be/) and has known the Shuar since 2017. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
 - [ ] **Marcos Ankuash** – _von Ihnen; EN/FR von mir_
@@ -328,7 +325,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - EN: At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
 - FR: À la fin du séjour à Maikiuants, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Vient ensuite l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
 
-**Incluido** – _Versicherung über Raíces neu_
+**Incluido**
 
 - ES:
   - Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional)
@@ -336,7 +333,6 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
   - Nuestro guía internacional y traductor, y guías de la comunidad
   - Todas las actividades y ceremonias del programa
-  - Seguro de viaje (lo gestiona Raíces)
   - Cocina con energía solar y electricidad
   - Wifi gratis en el pueblo (a unos 35 minutos a pie del alojamiento)
   - Un río para bañarte
@@ -347,7 +343,6 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - All meals from day 2; in Maikiuants prepared by community cooks
   - Our international guide and translator, plus community guides
   - All programme activities and ceremonies
-  - Travel insurance (arranged by Raíces)
   - Solar-powered kitchen and electricity
   - Free wifi in the village (about a 35-minute walk from the accommodation)
   - A river to bathe in
@@ -358,24 +353,26 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - Tous les repas à partir du 2e jour ; à Maikiuants, préparés par les cuisinières de la communauté
   - Notre guide international et traducteur, ainsi que des guides de la communauté
   - Toutes les activités et cérémonies du programme
-  - Assurance voyage (prise en charge par Raíces)
   - Cuisine à l’énergie solaire et électricité
   - Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)
   - Une rivière pour vous baigner
   - Une petite boutique au centre communautaire pour vos dépenses personnelles
 
-**No incluido** – _Versicherung raus, Hinweis zu Flügen_
+**No incluido** – _Flüge und Reiseversicherung schließt man selbst ab_
 
 - ES:
   - Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)
+  - Seguro de viaje (también aquí te aconsejamos con gusto)
   - Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)
   - Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
 - EN:
   - Flights to Cuenca and back (we are happy to advise you)
+  - Travel insurance (we are happy to advise you here too)
   - Taxi between the airport and the hotel in Cuenca (arrival and departure)
   - Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
 - FR:
   - Vols jusqu’à Cuenca et retour (nous vous conseillons volontiers)
+  - Assurance voyage (là aussi, nous vous conseillons volontiers)
   - Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)
   - Repas du 1er jour (env. 3–10 USD par repas) ; lors du voyage spirituel aussi ceux du dernier jour après le départ de Limón Indanza
 
@@ -385,11 +382,11 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - EN: 
 - FR: Filtre à eau (par exemple à fixer sur la gourde)
 
-**Precio** – _Versicherung, statt 5 % finanzielle Unterstützung, Hinweis auf Spenden-Events_
+**Precio** – _statt 5 % finanzielle Unterstützung, Hinweis auf Spenden-Events_
 
-- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes, seguro de viaje, seguridad y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators, travel insurance, safety and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
-- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes, assurance voyage, sécurité et activités. La réservation se fait via Raíces, et à Maikiuants Kampuntin organise le voyage. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
+- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes et activités. La réservation se fait via Raíces, et à Maikiuants Kampuntin organise le voyage. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
 
 **Cómo reservar – Schritt 3** – _Vorbereitungstreffen_
 
@@ -429,7 +426,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 ## 3. Kontakt
 
-**Ansprechpersonen** – _Minki entfernt, Julien zuerst_: Julien Shakaim (Contacto para visitantes internacionales), Freddy Ankuash (Coordinación de tours y voluntariado)
+**Ansprechpersonen** – _Minki entfernt, Julien zuerst_: Julien Defourny (Contacto para visitantes internacionales), Freddy Ankuash (Coordinación de tours y voluntariado)
 
 **Cómo llegar** – _Taxi 60–70 USD_
 
@@ -558,7 +555,7 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 - EN: _Manager and coordinator of Kampuntin_ · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
 - FR: _Gérant et coordinateur de Kampuntin_ · Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise.
 
-**Julien Shakaim**
+**Julien Defourny**
 
 - ES: _Fundador de Raíces · guía y traductor_ · Julien fundó la asociación belga [Raíces](https://www.raices.be/) y conoce a los shuar desde 2017. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
 - EN: _Founder of Raíces · guide and translator_ · Julien founded the Belgian association [Raíces](https://www.raices.be/) and has known the Shuar since 2017. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
@@ -610,6 +607,4 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 ## Noch offen
 
-- Versicherung: Freddy sagt „über Raíces“, Juliens Seite sagt „selbst abschließen“.
-- Juliens Nachname: „Shakaim“ (bei uns) oder „Defourny“ (Raíces)?
 - „somos el … de la selva“ aus dem Gespräch mit Freddy (Wortlaut unklar, nicht eingebaut).

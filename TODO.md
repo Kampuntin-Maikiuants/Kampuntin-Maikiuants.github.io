@@ -12,8 +12,8 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
   Zwei Reisen ab/bis Cuenca: Viaje espiritual (11 Tage, April–Mai 2027, 2.490 €, Chonta-Zeremonie,
   Heilpflanzen, Zeremonie zur heiligen Arutam-Kaskade) und Viaje Arutam (22 Tage, August–September
   2027, 3.890 €, ca. 10 Tage in Maikiuants, danach Cueva de los Tayos und Río Santiago/Peru). Nicht inklusive: Flüge,
-  Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Die Reiseversicherung übernimmt Raíces
-  (laut Freddy, 22.10.; auf Juliens Seite steht noch, dass man sie selbst abschließt). Keine Anzahlung – Zahlung
+  Taxi Flughafen–Hotel in Cuenca, Essen an Tag 1. Die Reiseversicherung schließt man selbst
+  ab (wie auf Juliens Seite; geklärt am 24.10.). Keine Anzahlung – Zahlung
   und Details nach Vereinbarung. Raíces (Belgien) als Partner, Link zum Tagesprogramm auf der
   Tour-Seite. Termine April 2027 und August/September 2027. Schwerpunkt 2027 „Spiritualität“.
   FAQ zu Sprachen, Sicherheit und Erfahrung.
@@ -43,7 +43,7 @@ Am einfachsten schickt ihr mir Infos, Texte und Fotos gesammelt, dann baue ich s
       Kapitel 2.3 (README bzw. PDF in `manual/`). Bis dahin steht bei den Terminen „Plazas a consultar“.
 - [ ] **Gespräch mit Freddy (22.10.), noch offen:** Beim Text über die Shuar nannte er eine
       Alternative „somos el … de la selva“ (germen? guardián?) – Wortlaut klären. Minki ist von
-      Kontakt- und Team-Seite entfernt. Versicherung mit Julien abgleichen.
+      Kontakt- und Team-Seite entfernt.
 - [x] **April 2027:** geklärt – das ist die spirituelle Reise (11 Tage, 2.490 €, April–Mai 2027).
 - [x] **Ablauf der Anreise:** geklärt über Juliens Programm (Start in Cuenca, über Limón Indanza
       nach Maikiuants).
