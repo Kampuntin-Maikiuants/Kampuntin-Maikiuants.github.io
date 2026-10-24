@@ -83,43 +83,42 @@ apply:
       text: Te recibimos en el alojamiento y te mostramos todo.
   button: Quiero ser voluntario/a
 
-# PLATZHALTER – echte Erfahrungsberichte (mit Einverständnis) eintragen
+# Erfahrungsberichte (nur mit Einverständnis der Personen veröffentlichen)
 testimonials:
   title: Experiencias de voluntarios
   intro: Lo que cuentan quienes ya vivieron un tiempo en Maikiuants.
   # quote = kurzes Zitat (immer sichtbar) · text = ganzer Bericht zum Aufklappen (optional, beliebig lang)
   items:
     - quote: >-
-        Llegué para ayudar en el vivero y me fui habiendo aprendido muchísimo más: sobre plantas,
-        sobre la comunidad y sobre mí misma. Bañarse en el río cada mañana no tiene precio.
-      name: "[Nombre]"
-      meta: "Voluntaria · [país] · [año]"
+        Lo que más disfruté fue que no todo seguía un horario fijo: el día podía desarrollarse de forma natural.
+      name: "Yael"
+      meta: "Voluntariado · octubre de 2026"
       photo: ""
       text: |-
-        Vine por tres semanas y me quedé dos meses. Al principio todo era nuevo: dormir en la jea,
-        cocinar para todos, entender el ritmo de la comunidad. Poco a poco el vivero se volvió mi
-        lugar favorito.
+        Mi tiempo en Maikiuants estuvo marcado por el ritmo de vida lento y tranquilo. Lo que más disfruté fue que no todo seguía un horario fijo. Cada día podía desarrollarse de forma natural, según cómo se sentía la gente, el clima y las tareas que había que hacer.
 
-        [Aquí puede ir el relato completo: cómo fue la llegada, qué aprendiste, un momento que no
-        olvidarás y qué le dirías a alguien que piensa venir.]
+        Después de pocos días, la caminata de 30 minutos hasta la comunidad ya no me molestaba, y a menudo nos llevaban en moto, lo que hacía el camino aún más divertido. La gente de la comunidad fue increíblemente acogedora, abierta y servicial. Me mostraron muchísimas cosas maravillosas e interesantes, y aprendí mucho.
+
+        Nos dieron mucha yuca, plátanos y guineos, y pudimos ayudar a cosecharlos. Dos personas de la comunidad pasaban los días con nosotros y poco a poco nos mostraron todo: la selva, la comunidad y las comunidades vecinas. Muy pronto nos sentimos como en casa.
+
+        También tuve mucha libertad en el trabajo. Podía elegir en gran parte qué quería hacer y organizar mis tareas con flexibilidad, así que el trabajo se sentía menos como una obligación y más como un pasatiempo que de verdad disfrutaba.
+
+        Mi tiempo en la comunidad y en la jea fue muy valioso para mí. Viví muchas experiencias nuevas, conocí a gente interesante y aprendí cosas que me acompañarán mucho después de haberme ido.
     - quote: >-
-        Las primeras noches en la jea fueron raras, después ya no quería irme. Lo mejor fueron
-        las tardes con los niños y las caminatas al atardecer.
-      name: "[Nombre]"
-      meta: "Voluntario · [país] · [año]"
+        Si estás abierto a condiciones de vida simples y naturales, al intercambio cultural y te gusta lo inesperado, sin duda vas a tener una buena experiencia.
+      name: "Lotte"
+      meta: "Voluntariado · Alemania · agosto de 2025"
       photo: ""
       text: |-
-        [Relato completo del voluntario: cómo fueron los primeros días, la vida con las familias,
-        las caminatas por el bosque y lo que se llevó de Maikiuants.]
-    - quote: >-
-        Es trabajo de verdad, con barro y lluvia. Pero ver crecer los árboles que plantamos y
-        compartir la comida con todos hace que valga la pena.
-      name: "[Nombre]"
-      meta: "Voluntaria · [país] · [año]"
-      photo: ""
-      text: |-
-        [Relato completo de la voluntaria: el trabajo en las parcelas agroforestales, la minga,
-        la convivencia con los demás voluntarios y lo que significó para ella.]
+        Hace unos meses pasamos un mes con los shuar. Fue un tiempo que recuerdo con mucho cariño y una experiencia que fue valiosa. A 20 minutos a pie del pueblo donde viven los shuar, dormimos en una casa tradicional cerca del río, rodeados de una naturaleza hermosa y fascinante, entre los sonidos maravillosos de la selva.
+
+        Todas las mañanas caminamos al pueblo para ayudar en el proyecto de agroforestería. Aprendimos mucho sobre las plantas y cómo plantarlas, sobre las relaciones ecológicas y los retos locales. Las rutinas diarias eran relajadas y a veces fuimos selva adentro, a las cascadas, para aprender sobre las tradiciones y hacernos una idea de los amplios conocimientos de los shuar sobre la selva. Creo que lo que hacen los voluntarios allí es probablemente siempre diferente y puede ser algo distinto de lo que hicimos. Pero, de todas formas, recomendamos que se queden allí al menos 3 semanas para establecer una conexión con la familia, los niños y las otras personas. Todo se toma su tiempo…
+
+        Muchas experiencias fantásticas han quedado sin mencionar aquí, pero si estás abierto a condiciones de vida simples y naturales, al intercambio cultural y te gusta lo inesperado, sin duda vas a tener una buena experiencia.
+
+        ¡Saludos a Nancy y Pinchu, Estrella, Kilian y Kirup, a Freddy, Numi y Julien!
+
+        Dino y Lotz
 
 faq:
   title: Preguntas frecuentes

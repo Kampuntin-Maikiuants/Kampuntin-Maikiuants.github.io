@@ -472,6 +472,8 @@ body.has-pattern .section--alt { background: rgb(255 252 246 / .82); }
 .person__shuar span { font-family: var(--font-sans); font-style: normal; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: .2rem; }
 .person__role { color: var(--clay-dark); font-weight: 650; font-size: .95rem; margin-bottom: .6rem; }
 .person p:last-child { color: var(--muted); font-size: .95rem; margin: 0; }
+/* Beschreibung der Person immer gleich: klein und grau (auch wenn danach noch ein Link folgt) */
+.person p.person__text { color: var(--muted); font-size: .95rem; margin: 0; }
 
 /* ---------- Galerie ---------- */
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }

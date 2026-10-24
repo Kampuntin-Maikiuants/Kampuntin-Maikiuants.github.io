@@ -82,43 +82,42 @@ apply:
       text: We meet you at the accommodation and show you around.
   button: I want to volunteer
 
-# PLACEHOLDER – add real testimonials (with consent)
+# Erfahrungsberichte (nur mit Einverständnis der Personen veröffentlichen)
 testimonials:
   title: Volunteer experiences
   intro: What people who have already spent time in Maikiuants say.
   # quote = short quote (always visible) · text = full story to expand (optional, any length)
   items:
     - quote: >-
-        I came to help in the nursery and left having learned so much more — about plants, about
-        the community and about myself. Bathing in the river every morning is priceless.
-      name: "[Name]"
-      meta: "Volunteer · [country] · [year]"
+        What I particularly enjoyed was that not everything followed a fixed schedule – the day was allowed to unfold naturally.
+      name: "Yael"
+      meta: "Volunteer · October 2026"
       photo: ""
       text: |-
-        I came for three weeks and stayed two months. At first everything was new: sleeping in the
-        jea, cooking for everyone, getting used to the rhythm of the community. Little by little the
-        nursery became my favourite place.
+        My time in Maikiuants was shaped by the slow, relaxed pace of life. What I particularly enjoyed was that not everything followed a fixed schedule. Instead, each day was allowed to unfold naturally, depending on how people felt, the weather and the tasks that needed doing.
 
-        [The full story can go here: how the arrival was, what you learned, a moment you'll never
-        forget and what you'd tell someone thinking about coming.]
+        After just a few days, the 30-minute walk to the community no longer bothered me, and we were often given a ride on a motorbike, which made the journey even more fun. The people in the community were incredibly welcoming, open and helpful. They showed me so many wonderful and interesting things, and I learned a great deal.
+
+        We were given lots of yuca, plantains and sweet bananas, and we were allowed to help with the harvest. Two members of the community spent the days with us and gradually showed us around: the forest, the community and the neighbouring communities. We quickly felt at home.
+
+        I also had a lot of freedom in my work. I could largely choose what I wanted to do and organise my tasks flexibly, so the work felt less like an obligation and more like a hobby I genuinely enjoyed.
+
+        My time in the community and at the jea was very valuable to me. I gained many new experiences, met interesting people and learned things that I will carry with me long after my stay has ended.
     - quote: >-
-        The first nights in the jea felt strange; after that I didn't want to leave. The best
-        part were the afternoons with the children and the walks at sunset.
-      name: "[Name]"
-      meta: "Volunteer · [country] · [year]"
+        If you are open to a simple, natural way of life and to cultural exchange, and you like the unexpected, you will definitely have a good experience.
+      name: "Lotte"
+      meta: "Volunteer · Germany · August 2025"
       photo: ""
       text: |-
-        [Full story from the volunteer: the first days, life with the families, the forest walks
-        and what they took home from Maikiuants.]
-    - quote: >-
-        It's real work, with mud and rain. But watching the trees we planted grow and sharing
-        meals with everyone makes it all worth it.
-      name: "[Name]"
-      meta: "Volunteer · [country] · [year]"
-      photo: ""
-      text: |-
-        [Full story from the volunteer: work on the agroforestry plots, the minga, living with the
-        other volunteers and what it meant to them.]
+        A few months ago we spent a month with the Shuar. It is a time I remember very fondly and an experience that was truly valuable. A 20-minute walk from the village where the Shuar live, we slept in a traditional house near the river, surrounded by beautiful, fascinating nature and the wonderful sounds of the rainforest.
+
+        Every morning we walked to the village to help with the agroforestry project. We learned a lot about plants and how to plant them, about ecological relationships and local challenges. Daily routines were relaxed, and sometimes we went deep into the rainforest to the waterfalls to learn about traditions and get an idea of the Shuar's vast knowledge of the forest. I think what volunteers do there is probably always different and may be something other than what we did. Either way, we recommend staying at least 3 weeks to build a connection with the family, the children and the other people. Everything takes its time…
+
+        Many fantastic experiences are left unmentioned here, but if you are open to a simple, natural way of life and to cultural exchange, and you like the unexpected, you will definitely have a good experience.
+
+        Greetings to Nancy and Pinchu, Estrella, Kilian and Kirup, to Freddy, Numi and Julien!
+
+        Dino and Lotz
 
 faq:
   title: Frequently asked questions

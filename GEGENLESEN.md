@@ -2,7 +2,7 @@
 
 Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
-- **Teil A** (37 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil A** (39 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
 - **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
 - **Ganz unten**: offene Fragen.
 
@@ -91,8 +91,8 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 ### Team
 
 - [ ] **Freddy Ankuash** – _Rolle von Ihnen; Text von früher – noch aktuell?_
-  - ES: Gerente y coordinación de Kampuntin · Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica.
-  - EN: Manager and coordinator of Kampuntin · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
+  - ES: Gerente y coordinación de Kampuntin · Freddy coordina a los voluntarios y a los grupos de los tours. Planifica las excursiones y es tu guía local.
+  - EN: Manager and coordinator of Kampuntin · Freddy coordinates the volunteers and tour groups. He plans the excursions and is your local guide.
 - [ ] **Julien Defourny** (Shuar-Name: Shakaim) – _nach Raíces formuliert_
   - ES: Fundador de Raíces · guía y traductor · Julien fundó la asociación belga [Raíces](https://www.raices.be/) y conoce a los shuar desde 2017. Acompaña los tours como guía y traductor y es tu contacto si vienes desde el extranjero.
   - EN: Founder of Raíces · guide and translator · Julien founded the Belgian association [Raíces](https://www.raices.be/) and has known the Shuar since 2017. He accompanies the tours as guide and translator and is your contact if you are coming from abroad.
@@ -100,8 +100,8 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Tesorero de Kampuntin · Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital y administra la cuenta de Instagram [«Territorio Shuar Indomable»](https://www.instagram.com/territorioshuar/).
   - EN: Treasurer of Kampuntin · Marcos is a business entrepreneur with his grocery shop. He is also a digital manager and runs the Instagram account ["Territorio Shuar Indomable"](https://www.instagram.com/territorioshuar/).
 - [ ] **Eddy Ankuash** – _von Ihnen; der Satz zum Ernten ist von früher – noch richtig?_
-  - ES: Secretario de Kampuntin · Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar, y los visitantes y los voluntarios pueden cosechar junto con él.
-  - EN: Secretary of Kampuntin · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him.
+  - ES: Secretario de Kampuntin · Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar. Los visitantes y los voluntarios pueden cosechar junto con él.
+  - EN: Secretary of Kampuntin · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane. Visitors and volunteers can harvest together with him.
 - [ ] **Karte „Y muchas personas más“** – _eigene Formulierung, die Beispiele (guías, cocineras, artesanas, familias) sind von mir_
   - ES: Y muchas personas más · De la comunidad de Maikiuants · Además del equipo, muchas personas de la comunidad ayudan: guías, cocineras, artesanas y familias. Las conocerás en Maikiuants y estarás en contacto con ellas durante tu estancia.
   - EN: And many more people · From the Maikiuants community · Besides the team, many people from the community help out: guides, cooks, craftswomen and families. You will meet them in Maikiuants and be in touch with them throughout your stay.
@@ -120,6 +120,14 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - [ ] **Rana nueva – Bildtexte** – _von mir_
   - ES: La rana de Maikiuants que podría ser una especie nueva / La rana en una bolsa de muestreo durante el monitoreo / La rana sobre una piedra
   - EN: The Maikiuants frog that could be a new species / The frog in a sampling bag during monitoring / The frog on a stone
+
+### Voluntariado: Erfahrungsberichte
+
+- [ ] **Yael** – _von Ihnen auf Englisch, sprachlich geglättet; der letzte Absatz (Yuca, zwei Begleitpersonen) ist als dritter Absatz eingefügt; ES/FR von mir übersetzt; „Voluntariado“ statt „Voluntaria/o“, Land fehlt_
+  - Zitat ES: Lo que más disfruté fue que no todo seguía un horario fijo: el día podía desarrollarse de forma natural.
+  - Zitat EN: What I particularly enjoyed was that not everything followed a fixed schedule – the day was allowed to unfold naturally.
+- [ ] **Lotte** – _Text aus dem Screenshot, nur Tippfehler und Großschreibung korrigiert; Zitat aus dem letzten Absatz; EN/FR von mir übersetzt; Foto nicht übernommen; Grüße an Nancy, Pinchu, Estrella, Kilian und Kirup bleiben drin – okay?_
+  - Zitat ES: Si estás abierto a condiciones de vida simples y naturales, al intercambio cultural y te gusta lo inesperado, sin duda vas a tener una buena experiencia.
 
 ### Handbuch (PDF)
 
@@ -551,9 +559,9 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 **Freddy Ankuash**
 
-- ES: _Gerente y coordinación de Kampuntin_ · Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica.
-- EN: _Manager and coordinator of Kampuntin_ · Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them.
-- FR: _Gérant et coordinateur de Kampuntin_ · Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise.
+- ES: _Gerente y coordinación de Kampuntin_ · Freddy coordina a los voluntarios y a los grupos de los tours. Planifica las excursiones y es tu guía local.
+- EN: _Manager and coordinator of Kampuntin_ · Freddy coordinates the volunteers and tour groups. He plans the excursions and is your local guide.
+- FR: _Gérant et coordinateur de Kampuntin_ · Freddy coordonne les bénévoles et les groupes des tours. Il organise les excursions et est votre guide local.
 
 **Julien Defourny**
 
@@ -569,14 +577,14 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 **Eddy Ankuash**
 
-- ES: _Secretario de Kampuntin_ · Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar, y los visitantes y los voluntarios pueden cosechar junto con él.
-- EN: _Secretary of Kampuntin_ · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him.
-- FR: _Secrétaire de Kampuntin_ · Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre, et les visiteurs et les bénévoles peuvent récolter avec lui.
+- ES: _Secretario de Kampuntin_ · Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar. Los visitantes y los voluntarios pueden cosechar junto con él.
+- EN: _Secretary of Kampuntin_ · Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane. Visitors and volunteers can harvest together with him.
+- FR: _Secrétaire de Kampuntin_ · Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre. Les visiteurs et les bénévoles peuvent récolter avec lui.
 
 **Numi**
 
 - ES: _Guía · naturaleza_ · Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio.
-- EN: _Guide · nature_ · Leads the rainforest walks and shares their knowledge of the plants and animals of the territory.
+- EN: _Guide · nature_ · Leads the rainforest walks and shares his knowledge of the plants and animals of the territory.
 - FR: _Guide · nature_ · Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire.
 
 **Neue Karte am Ende des Teams (Gruppenfoto)**

@@ -31,7 +31,7 @@ REPO = "github.com/Kampuntin-Maikiuants/Kampuntin-Maikiuants.github.io"
 EXAMPLE_TESTIMONIAL = """    - quote: >-
         Llegué para ayudar en el vivero y me fui habiendo aprendido muchísimo más.
       name: "Ana"
-      meta: "Voluntaria · Alemania · 2026"
+      meta: "Voluntariado · Alemania · 2026"
       photo: "/assets/img/fotos/testimonio-ana.jpg"
       text: |-
         Primer párrafo del relato.
@@ -592,7 +592,7 @@ def es(b):
         "solo el código del video en `youtube:`, por ejemplo `AbCdEf12345` de `https://youtu.be/AbCdEf12345`.")
 
     b.h2("5.5 Experiencias de voluntarios (testimonios)")
-    b.img("testimonios", "Las experiencias en la página de voluntariado. Hoy todavía son ejemplos con «[Nombre]».")
+    b.img("testimonios", "Las experiencias en la página de voluntariado. Un clic en «Leer la experiencia completa» abre el relato.")
     b.p("En la página de voluntariado hay tarjetas con experiencias de personas que ya estuvieron en Maikiuants. Cada "
         "tarjeta tiene una cita corta que siempre se ve, el nombre, una línea pequeña (por ejemplo «Voluntaria · "
         "Alemania · 2026») y, si quieres, el relato completo para abrir y una foto pequeña.")
@@ -602,8 +602,8 @@ def es(b):
         "Opcional, la foto: cuadrada, con la cara en el centro, unos 300 × 300 píxeles. Súbela a `assets` › `img` › "
         "`fotos` con «Add file» › «Upload files», por ejemplo como `testimonio-ana.jpg`.",
         "En GitHub abre `_data/es/volunteering.yml` y haz clic en el lápiz. Busca `testimonials:` y debajo `items:`.",
-        "Cambia un bloque de ejemplo (los que tienen «[Nombre]») o copia un bloque completo, desde `- quote:` hasta "
-        "antes del siguiente `- quote:`, y pégalo debajo. Cambia los textos (ver el ejemplo).",
+        "Copia un bloque completo, desde `- quote:` hasta antes del siguiente `- quote:`, y pégalo arriba de la "
+        "lista (la primera tarjeta es la más nueva). Cambia los textos (ver el ejemplo).",
         "Haz lo mismo en `_data/en/volunteering.yml` y `_data/fr/volunteering.yml`, con el texto traducido.",
         "Guarda con «Commit changes».",
     ])
@@ -615,9 +615,9 @@ def es(b):
         "`text`: el relato completo (opcional). Deja `|-` tal cual; una línea vacía separa los párrafos. Si no hay "
         "relato, borra las líneas de `text`; entonces no aparece el botón «Leer la experiencia completa».",
     ])
-    b.box("Antes de publicar, borra o reemplaza los tres bloques de ejemplo con «[Nombre]». Para quitar una "
-          "experiencia, borra su bloque completo. Por ahora las experiencias aparecen solo en la página de "
-          "voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la página.")
+    b.box("Para quitar una experiencia, borra su bloque completo. Por ahora las experiencias aparecen solo en la "
+          "página de voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la "
+          "página.")
 
     b.h1("6. Una dirección propia (dominio)")
     b.p("Hoy la página está en **kampuntin-maikiuants.github.io**. Con un dominio propio, por ejemplo "
@@ -977,7 +977,7 @@ def en(b):
         "enter only the video code under `youtube:`, for example `AbCdEf12345` from `https://youtu.be/AbCdEf12345`.")
 
     b.h2("5.5 Volunteer stories (testimonials)")
-    b.img("testimonios", "The stories on the volunteering page. Today they are still examples with «[Nombre]».")
+    b.img("testimonios", "The stories on the volunteering page. A click on «Read the full story» opens the whole text.")
     b.p("The volunteering page has cards with stories from people who have already been to Maikiuants. Each card has "
         "a short quote that is always visible, the name, a small line (for example «Volunteer · Germany · 2026») "
         "and, if you like, the full story to open and a small photo.")
@@ -987,8 +987,8 @@ def en(b):
         "Optional, the photo: square, face in the centre, about 300 × 300 pixels. Upload it to `assets` › `img` › "
         "`fotos` with «Add file» › «Upload files», for example as `testimonio-ana.jpg`.",
         "On GitHub, open `_data/en/volunteering.yml` and click the pencil. Find `testimonials:` and below it `items:`.",
-        "Change one of the example blocks (the ones with «[Nombre]») or copy a complete block, from `- quote:` to "
-        "just before the next `- quote:`, and paste it below. Change the texts (see example).",
+        "Copy a complete block, from `- quote:` to just before the next `- quote:`, and paste it at the top of the "
+        "list (the first card is the newest). Change the texts (see example).",
         "Do the same in `_data/es/volunteering.yml` and `_data/fr/volunteering.yml`, with the translated text.",
         "Save with «Commit changes».",
     ])
@@ -1000,9 +1000,8 @@ def en(b):
         "`text`: the full story (optional). Leave `|-` as it is; an empty line separates paragraphs. If there is no "
         "story, delete the `text` lines; then the «Read the full story» button does not appear.",
     ])
-    b.box("Before publishing, delete or replace the three example blocks with «[Nombre]». To remove a story, delete "
-          "its whole block. For now the stories only appear on the volunteering page; to have them on the tours "
-          "page as well, ask the person who manages the website for help.")
+    b.box("To remove a story, delete its whole block. For now the stories only appear on the volunteering page; to "
+          "have them on the tours page as well, ask the person who manages the website for help.")
 
     b.h1("6. Your own address (domain)")
     b.p("Today the website is at **kampuntin-maikiuants.github.io**. With your own domain, for example "

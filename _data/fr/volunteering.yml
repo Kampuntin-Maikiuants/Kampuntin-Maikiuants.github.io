@@ -85,44 +85,42 @@ apply:
       text: Nous vous accueillons à l’hébergement et vous faisons découvrir les lieux.
   button: Je veux devenir bénévole
 
-# PLACEHOLDER – add real testimonials (with consent)
+# Erfahrungsberichte (nur mit Einverständnis der Personen veröffentlichen)
 testimonials:
   title: Témoignages de bénévoles
   intro: Ce que racontent les personnes qui ont déjà passé du temps à Maikiuants.
   # quote = short quote (always visible) · text = full story to expand (optional, any length)
   items:
     - quote: >-
-        Je suis venue aider à la pépinière et je suis repartie en ayant appris bien plus — sur les
-        plantes, sur la communauté et sur moi-même. Se baigner dans la rivière chaque matin n’a pas
-        de prix.
-      name: "[Nom]"
-      meta: "Bénévole · [pays] · [année]"
+        Ce que j’ai le plus apprécié, c’est que tout ne suivait pas un horaire fixe : la journée pouvait se dérouler naturellement.
+      name: "Yael"
+      meta: "Bénévolat · octobre 2026"
       photo: ""
       text: |-
-        Je suis venue pour trois semaines et je suis restée deux mois. Au début, tout était
-        nouveau : dormir dans la jea, cuisiner pour tout le monde, m’habituer au rythme de la
-        communauté. Peu à peu, la pépinière est devenue mon endroit préféré.
+        Mon séjour à Maikiuants a été marqué par le rythme de vie lent et paisible. Ce que j’ai particulièrement apprécié, c’est que tout ne suivait pas un horaire fixe. Chaque journée pouvait se dérouler naturellement, selon l’humeur des gens, la météo et les tâches à accomplir.
 
-        [Le récit complet peut figurer ici : comment s’est passée l’arrivée, ce que vous avez
-        appris, un moment inoubliable et ce que vous diriez à quelqu’un qui envisage de venir.]
+        Au bout de quelques jours, les 30 minutes de marche jusqu’à la communauté ne me dérangeaient plus, et on nous emmenait souvent à moto, ce qui rendait le trajet encore plus agréable. Les gens de la communauté ont été incroyablement accueillants, ouverts et serviables. Ils m’ont montré tant de choses merveilleuses et intéressantes, et j’ai beaucoup appris.
+
+        On nous a donné beaucoup de manioc, de bananes plantain et de bananes douces, que nous avons pu aider à récolter. Deux membres de la communauté passaient les journées avec nous et nous ont peu à peu tout fait découvrir : la forêt, la communauté et les communautés voisines. Nous nous sommes vite sentis chez nous.
+
+        J’avais aussi beaucoup de liberté dans le travail. Je pouvais en grande partie choisir ce que je voulais faire et organiser mes tâches avec souplesse, si bien que le travail ressemblait moins à une obligation qu’à un loisir que j’aimais vraiment.
+
+        Mon séjour dans la communauté et à la jea a été très précieux pour moi. J’ai vécu beaucoup d’expériences nouvelles, rencontré des personnes intéressantes et appris des choses que je garderai avec moi longtemps après mon départ.
     - quote: >-
-        Les premières nuits dans la jea m’ont semblé étranges ; ensuite, je ne voulais plus partir.
-        Le meilleur, c’étaient les après-midi avec les enfants et les balades au coucher du soleil.
-      name: "[Nom]"
-      meta: "Bénévole · [pays] · [année]"
+        Si vous êtes ouvert à une vie simple et naturelle, à l’échange culturel et que vous aimez l’imprévu, vous vivrez sans aucun doute une belle expérience.
+      name: "Lotte"
+      meta: "Bénévolat · Allemagne · août 2025"
       photo: ""
       text: |-
-        [Récit complet du bénévole : les premiers jours, la vie avec les familles, les balades en
-        forêt et ce qu’il a rapporté de Maikiuants.]
-    - quote: >-
-        C’est un vrai travail, avec de la boue et de la pluie. Mais voir pousser les arbres que nous
-        avons plantés et partager les repas avec tout le monde, ça en vaut vraiment la peine.
-      name: "[Nom]"
-      meta: "Bénévole · [pays] · [année]"
-      photo: ""
-      text: |-
-        [Récit complet de la bénévole : le travail sur les parcelles agroforestières, la minga, la
-        vie avec les autres bénévoles et ce que cela a représenté pour elle.]
+        Il y a quelques mois, nous avons passé un mois avec les Shuar. C’est une période dont je garde un très beau souvenir et une expérience vraiment précieuse. À 20 minutes à pied du village où vivent les Shuar, nous dormions dans une maison traditionnelle près de la rivière, entourés d’une nature belle et fascinante et des sons merveilleux de la forêt.
+
+        Chaque matin, nous marchions jusqu’au village pour aider au projet d’agroforesterie. Nous avons beaucoup appris sur les plantes et la manière de les planter, sur les relations écologiques et les défis locaux. Le quotidien était détendu, et parfois nous allions au cœur de la forêt, jusqu’aux cascades, pour découvrir les traditions et nous faire une idée des vastes connaissances des Shuar sur la forêt. Je pense que ce que font les bénévoles là-bas est sans doute toujours différent et peut être autre chose que ce que nous avons fait. Quoi qu’il en soit, nous recommandons de rester au moins 3 semaines pour créer un lien avec la famille, les enfants et les autres personnes. Tout prend son temps…
+
+        Beaucoup d’expériences fantastiques ne sont pas mentionnées ici, mais si vous êtes ouvert à une vie simple et naturelle, à l’échange culturel et que vous aimez l’imprévu, vous vivrez sans aucun doute une belle expérience.
+
+        Salutations à Nancy et Pinchu, Estrella, Kilian et Kirup, à Freddy, Numi et Julien !
+
+        Dino et Lotz
 
 faq:
   title: Questions fréquentes

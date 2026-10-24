@@ -16,13 +16,13 @@
     - { name: Instagram, url: "https://www.instagram.com/nekas_chicham/" }
   role: { es: "Gerente y coordinación de Kampuntin", en: "Manager and coordinator of Kampuntin", fr: "Gérant et coordinateur de Kampuntin" }
   bio:
-    es: "Coordina a los voluntarios y a los grupos, y planifica las excursiones."
-    en: "Coordinates the volunteers and groups and plans the excursions."
-    fr: "Coordonne les bénévoles et les groupes et organise les excursions."
+    es: "Coordina a los voluntarios y a los grupos de los tours, y planifica las excursiones."
+    en: "Coordinates the volunteers and tour groups and plans the excursions."
+    fr: "Coordonne les bénévoles et les groupes des tours et organise les excursions."
   details:
-    es: "Freddy coordina a los voluntarios y a los grupos. También participa en las excursiones y las planifica."
-    en: "Freddy coordinates the volunteers and groups. He also takes part in the excursions and plans them."
-    fr: "Freddy coordonne les bénévoles et les groupes. Il participe aussi aux excursions et les organise."
+    es: "Freddy coordina a los voluntarios y a los grupos de los tours. Planifica las excursiones y es tu guía local."
+    en: "Freddy coordinates the volunteers and tour groups. He plans the excursions and is your local guide."
+    fr: "Freddy coordonne les bénévoles et les groupes des tours. Il organise les excursions et est votre guide local."
 
 - name: "Julien Defourny"
   shuar_name: "Shakaim"
@@ -61,9 +61,9 @@
     en: "An entrepreneur in agriculture and carpentry."
     fr: "Entrepreneur dans l’agriculture et la menuiserie."
   details:
-    es: "Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar, y los visitantes y los voluntarios pueden cosechar junto con él."
-    en: "Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane, and visitors and volunteers can harvest together with him."
-    fr: "Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre, et les visiteurs et les bénévoles peuvent récolter avec lui."
+    es: "Eddy es emprendedor en la agricultura y la carpintería. Cultiva plátano, yuca y caña de azúcar. Los visitantes y los voluntarios pueden cosechar junto con él."
+    en: "Eddy is an entrepreneur in agriculture and carpentry. He grows bananas, cassava and sugarcane. Visitors and volunteers can harvest together with him."
+    fr: "Eddy est entrepreneur dans l’agriculture et la menuiserie. Il cultive bananes, manioc et canne à sucre. Les visiteurs et les bénévoles peuvent récolter avec lui."
 
 - name: "Jessica"
   group: kampuntin
@@ -74,9 +74,9 @@
     en: "Lives together with the volunteer groups and helps with the tours."
     fr: "Vit avec les groupes de bénévoles et aide lors des tours."
   details:
-    es: "Jessica también es voluntaria. Vive con los grupos de voluntarios, ayuda en los tours y acerca la cultura de la comunidad a los visitantes y a los voluntarios."
-    en: "Jessica is also a volunteer. She lives together with the volunteer groups, helps with the tours and brings the local culture closer to visitors and volunteers."
-    fr: "Jessica est aussi bénévole. Elle vit avec les groupes de bénévoles, aide lors des tours et rapproche la culture locale des visiteurs et des bénévoles."
+    es: "Jessica vive con los grupos de voluntarios, ayuda en los tours y acerca la cultura de la comunidad a los visitantes y a los voluntarios."
+    en: "Jessica lives together with the volunteer groups, helps with the tours and brings the local culture closer to visitors and volunteers."
+    fr: "Jessica vit avec les groupes de bénévoles, aide lors des tours et rapproche la culture locale des visiteurs et des bénévoles."
 
 - name: "Numi"
   group: kampuntin
@@ -86,5 +86,5 @@
   role: { es: "Guía · naturaleza", en: "Guide · nature", fr: "Guide · nature" }
   bio:
     es: "Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio."
-    en: "Leads the rainforest walks and shares their knowledge of the plants and animals of the territory."
+    en: "Leads the rainforest walks and shares his knowledge of the plants and animals of the territory."
     fr: "Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire."
