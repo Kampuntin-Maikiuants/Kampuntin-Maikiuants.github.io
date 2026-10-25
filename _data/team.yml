@@ -42,15 +42,17 @@
 - name: "Marcos Ankuash"
   group: kampuntin
   photo: "/assets/img/equipo/marcos.jpg"
+  social:
+    - { name: Instagram, url: "https://www.instagram.com/territorioshuar/" }
   role: { es: "Tesorero de Kampuntin", en: "Treasurer of Kampuntin", fr: "Trésorier de Kampuntin" }
   bio:
     es: "Emprendedor comercial con su tienda de víveres y gestor digital."
     en: "A business entrepreneur with his grocery shop and a digital manager."
     fr: "Entrepreneur commercial avec son épicerie et gestionnaire numérique."
   details:
-    es: "Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital y administra la cuenta de Instagram [«Territorio Shuar Indomable»](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
-    en: "Marcos is a business entrepreneur with his grocery shop. He is also a digital manager and runs the Instagram account [\"Territorio Shuar Indomable\"](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
-    fr: "Marcos est entrepreneur commercial avec son épicerie. Il est aussi gestionnaire numérique et administre le compte Instagram [« Territorio Shuar Indomable »](https://www.instagram.com/territorioshuar/){:target=\"_blank\" rel=\"noopener\"}."
+    es: "Marcos es emprendedor comercial con su tienda de víveres. También es gestor digital."
+    en: "Marcos is a business entrepreneur with his grocery shop. He is also a digital manager."
+    fr: "Marcos est entrepreneur commercial avec son épicerie. Il est aussi gestionnaire numérique."
 
 - name: "Eddy Ankuash"
   group: kampuntin
@@ -68,6 +70,8 @@
 - name: "Jessica"
   group: kampuntin
   photo: "/assets/img/equipo/jessica.jpg"
+  social:
+    - { name: Instagram, url: "https://www.instagram.com/_sjesz/" }
   role: { es: "Voluntaria y parte de la comunidad", en: "Volunteer and community member", fr: "Bénévole et membre de la communauté" }
   bio:
     es: "Vive con los grupos de voluntarios y ayuda en los tours."

@@ -621,6 +621,34 @@ def es(b):
           "página de voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la "
           "página.")
 
+    b.h2("5.6 El pie de página")
+    b.p("El pie de página aparece abajo en todas las páginas. Cada parte se cambia en un lugar distinto:")
+    b.table(["Parte", "Dónde se cambia"], [
+        ["Recuadro «¿Te gustaría conocer Maikiuants?» (título, texto y botón)", "`_data/es/ui.yml` › `cta`"],
+        ["Frase debajo del logo y títulos de las columnas", "`_data/es/ui.yml` › `footer`"],
+        ["Nombre oficial de la organización", "`_config.yml` › `org_name`"],
+        ["Columna «Explorar» (orden de las páginas)", "`_data/navigation.yml`"],
+        ["Columna «Contacto»: correo general y personas", "`_config.yml` › `contact` (ver 5.3)"],
+        ["Columna «Síguenos»: Instagram, Facebook, WWOOF y otros enlaces", "`_config.yml` › `social`"],
+    ], [.55, .45])
+    b.p("Los textos de `ui.yml` existen en los tres idiomas: cámbialos también en `_data/en/ui.yml` y "
+        "`_data/fr/ui.yml`.")
+    b.p("**Agregar, cambiar o quitar una red social** (en `_config.yml`, bajo `social:`):")
+    b.bullets([
+        "**Instagram:** `handle` es el nombre de la cuenta sin @, `url` es el enlace. Para quitar Instagram, deja "
+        "el enlace vacío: `url: \"\"`.",
+        "**Facebook:** cada página son dos líneas, `- name:` y `url:`. Para agregar una página, copia las dos "
+        "líneas y pégalas debajo. Para quitar una, borra sus dos líneas.",
+        "**WWOOF:** para quitarlo, escribe `wwoof: \"\"`. Así también desaparece el botón de WWOOF en la página "
+        "de voluntariado.",
+        "**Otros enlaces** (por ejemplo una segunda cuenta de Instagram o YouTube): cambia `links: []` por una "
+        "lista como la del ejemplo. Cada enlace son dos líneas: el texto que se ve (`name`) y el enlace (`url`).",
+    ])
+    b.code('  links:\n    - name: "Instagram · Freddy"\n      url: "https://www.instagram.com/nekas_chicham/"\n'
+           '    - name: "YouTube"\n      url: "https://www.youtube.com/@..."', "Ejemplo: otros enlaces en _config.yml")
+    b.box("Instagram y Facebook también aparecen como tarjetas en la página Novedades (ver 4.2). Lo que cambias en "
+          "`social` se ve en los dos lugares. Los «otros enlaces» solo aparecen en el pie de página.")
+
     b.h1("6. Una dirección propia (dominio)")
     b.p("Hoy la página está en **kampuntin-maikiuants.github.io**. Con un dominio propio, por ejemplo "
         "**www.kampuntin.org**, la dirección es más corta y fácil de recordar. La página sigue gratis en GitHub; "
@@ -741,6 +769,7 @@ def es(b):
         ["Publicación de Instagram a mano", "`_data/instagram_embeds.yml`", "GitHub"],
         ["Persona del equipo", "`_data/team.yml` y `assets/img/equipo`", "GitHub"],
         ["Personas de contacto", "`_config.yml` › `contact`", "GitHub"],
+        ["Pie de página: redes y textos", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` y `assets/video`", "GitHub"],
         ["Experiencia de voluntario", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Dominio propio", "Proveedor de dominios (DNS) y «Settings» › «Pages»", "Proveedor y GitHub"],
@@ -1054,6 +1083,33 @@ def en(b):
     b.box("To remove a story, delete its whole block. For now the stories only appear on the volunteering page; to "
           "have them on the tours page as well, ask the person who manages the website for help.")
 
+    b.h2("5.6 The footer")
+    b.p("The footer appears at the bottom of every page. Each part is changed in a different place:")
+    b.table(["Part", "Where to change it"], [
+        ["Box «Would you like to visit Maikiuants?» (title, text and button)", "`_data/en/ui.yml` › `cta`"],
+        ["Sentence below the logo and column headings", "`_data/en/ui.yml` › `footer`"],
+        ["Official name of the organisation", "`_config.yml` › `org_name`"],
+        ["«Explore» column (order of the pages)", "`_data/navigation.yml`"],
+        ["«Contact» column: general email and contact persons", "`_config.yml` › `contact` (see 5.3)"],
+        ["«Follow us» column: Instagram, Facebook, WWOOF and other links", "`_config.yml` › `social`"],
+    ], [.55, .45])
+    b.p("The texts in `ui.yml` exist in all three languages: change them in `_data/es/ui.yml` and "
+        "`_data/fr/ui.yml` too.")
+    b.p("**Adding, changing or removing a social network** (in `_config.yml`, under `social:`):")
+    b.bullets([
+        "**Instagram:** `handle` is the account name without @, `url` is the link. To remove Instagram, leave the "
+        "link empty: `url: \"\"`.",
+        "**Facebook:** each page is two lines, `- name:` and `url:`. To add a page, copy the two lines and paste "
+        "them below. To remove one, delete its two lines.",
+        "**WWOOF:** to remove it, write `wwoof: \"\"`. This also removes the WWOOF button on the volunteering page.",
+        "**Other links** (for example a second Instagram account or YouTube): replace `links: []` with a list like "
+        "the one in the example. Each link is two lines: the text shown (`name`) and the link (`url`).",
+    ])
+    b.code('  links:\n    - name: "Instagram · Freddy"\n      url: "https://www.instagram.com/nekas_chicham/"\n'
+           '    - name: "YouTube"\n      url: "https://www.youtube.com/@..."', "Example: other links in _config.yml")
+    b.box("Instagram and Facebook also appear as cards on the Updates page (see 4.2). What you change in `social` "
+          "shows up in both places. «Other links» only appear in the footer.")
+
     b.h1("6. Your own address (domain)")
     b.p("Today the website is at **kampuntin-maikiuants.github.io**. With your own domain, for example "
         "**www.kampuntin.org**, the address is shorter and easier to remember. The website stays free on GitHub; "
@@ -1174,6 +1230,7 @@ def en(b):
         ["Instagram post manually", "`_data/instagram_embeds.yml`", "GitHub"],
         ["Team member", "`_data/team.yml` and `assets/img/equipo`", "GitHub"],
         ["Contact persons", "`_config.yml` › `contact`", "GitHub"],
+        ["Footer: social networks and texts", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` and `assets/video`", "GitHub"],
         ["Volunteer story", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Own domain", "Domain provider (DNS) and «Settings» › «Pages»", "Provider and GitHub"],

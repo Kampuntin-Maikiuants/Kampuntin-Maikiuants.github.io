@@ -41,14 +41,20 @@ contact:
 # --- Soziale Netzwerke (leer lassen = wird nicht angezeigt) --
 social:
   instagram:
-    handle: territorioshuar
-    url: "https://www.instagram.com/territorioshuar/"
+    handle: centro_shuar_maikiuants
+    url: "https://www.instagram.com/centro_shuar_maikiuants/"
   facebook:                                 # eine oder mehrere Facebook-Seiten
     - name: Kampuntin
       url: "https://www.facebook.com/profile.php?id=61576137841827"
     - name: Maikiuants
       url: "https://www.facebook.com/profile.php?id=61566774571229"
   wwoof: "https://wwoofindependents.org/en/host/56512"   # WWOOF-Profil
+  # Weitere Links unter „Síguenos“ in der Fußzeile (z. B. ein zweites Instagram oder YouTube).
+  # Keine: links: []   Sonst je Link zwei Zeilen, z. B.:
+  #   links:
+  #     - name: "YouTube"
+  #       url: "https://www.youtube.com/@..."
+  links: []
 
 # Illustration als schwaches Muster im Hintergrund der ganzen Seite (true = an, false = aus)
 # Wer die Website pflegt (Abschnitt „Las caras detrás de esta web“, Impressum)

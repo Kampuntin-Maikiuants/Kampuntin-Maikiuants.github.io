@@ -420,6 +420,40 @@ En la página de voluntariado hay tarjetas con experiencias de personas que ya e
 > **Consejo:** Para quitar una experiencia, borra su bloque completo. Por ahora las experiencias aparecen solo en la página de voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la página.
 
 
+### 5.6 El pie de página
+
+El pie de página aparece abajo en todas las páginas. Cada parte se cambia en un lugar distinto:
+
+| Parte | Dónde se cambia |
+|---|---|
+| Recuadro «¿Te gustaría conocer Maikiuants?» (título, texto y botón) | `_data/es/ui.yml` › `cta` |
+| Frase debajo del logo y títulos de las columnas | `_data/es/ui.yml` › `footer` |
+| Nombre oficial de la organización | `_config.yml` › `org_name` |
+| Columna «Explorar» (orden de las páginas) | `_data/navigation.yml` |
+| Columna «Contacto»: correo general y personas | `_config.yml` › `contact` (ver 5.3) |
+| Columna «Síguenos»: Instagram, Facebook, WWOOF y otros enlaces | `_config.yml` › `social` |
+
+Los textos de `ui.yml` existen en los tres idiomas: cámbialos también en `_data/en/ui.yml` y `_data/fr/ui.yml`.
+
+**Agregar, cambiar o quitar una red social** (en `_config.yml`, bajo `social:`):
+
+- **Instagram:** `handle` es el nombre de la cuenta sin @, `url` es el enlace. Para quitar Instagram, deja el enlace vacío: `url: ""`.
+- **Facebook:** cada página son dos líneas, `- name:` y `url:`. Para agregar una página, copia las dos líneas y pégalas debajo. Para quitar una, borra sus dos líneas.
+- **WWOOF:** para quitarlo, escribe `wwoof: ""`. Así también desaparece el botón de WWOOF en la página de voluntariado.
+- **Otros enlaces** (por ejemplo una segunda cuenta de Instagram o YouTube): cambia `links: []` por una lista como la del ejemplo. Cada enlace son dos líneas: el texto que se ve (`name`) y el enlace (`url`).
+
+`Ejemplo:` otros enlaces en _config.yml
+```yaml
+  links:
+    - name: "Instagram · Freddy"
+      url: "https://www.instagram.com/nekas_chicham/"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@..."
+```
+
+> **Consejo:** Instagram y Facebook también aparecen como tarjetas en la página Novedades (ver 4.2). Lo que cambias en `social` se ve en los dos lugares. Los «otros enlaces» solo aparecen en el pie de página.
+
+
 ## 6. Una dirección propia (dominio)
 
 Hoy la página está en **kampuntin-maikiuants.github.io**. Con un dominio propio, por ejemplo **www.kampuntin.org**, la dirección es más corta y fácil de recordar. La página sigue gratis en GitHub; solo el dominio cuesta dinero.
@@ -537,6 +571,7 @@ En **bing.com/webmasters** se puede importar la página desde la Google Search C
 | Publicación de Instagram a mano | `_data/instagram_embeds.yml` | GitHub |
 | Persona del equipo | `_data/team.yml` y `assets/img/equipo` | GitHub |
 | Personas de contacto | `_config.yml` › `contact` | GitHub |
+| Pie de página: redes y textos | `_config.yml` › `social`; `_data/es\|en\|fr/ui.yml` › `footer` | GitHub |
 | Videos | `_data/videos.yml` y `assets/video` | GitHub |
 | Experiencia de voluntario | `_data/es\|en\|fr/volunteering.yml` › `testimonials` | GitHub |
 | Dominio propio | Proveedor de dominios (DNS) y «Settings» › «Pages» | Proveedor y GitHub |

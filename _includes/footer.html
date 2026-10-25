@@ -56,6 +56,7 @@
         {%- if site.social.instagram.url and site.social.instagram.url != "" %}<li><a href="{{ site.social.instagram.url }}" rel="noopener">Instagram · @{{ site.social.instagram.handle }}</a></li>{% endif %}
         {%- for fb in site.social.facebook %}<li><a href="{{ fb.url }}" rel="noopener">Facebook · {{ fb.name }}</a></li>{% endfor %}
         {%- if site.social.wwoof != "" %}<li><a href="{{ site.social.wwoof }}" rel="noopener">WWOOF</a></li>{% endif %}
+        {%- for l in site.social.links %}<li><a href="{{ l.url }}" rel="noopener">{{ l.name }}</a></li>{% endfor %}
       </ul>
     </div>
   </div>
