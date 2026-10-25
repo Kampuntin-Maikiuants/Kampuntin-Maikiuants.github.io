@@ -9,10 +9,9 @@ title: "Kampuntin Maikiuants"
 org_name: "Organización Comunitaria de Servicios Turísticos Kampuntin (Selva mi destino)"
 description: "Tours, voluntariado y ciencia comunitaria con la comunidad shuar de Maikiuants, Amazonía ecuatoriana."
 
-# Adresse der Website. GitHub Pages setzt url/baseurl automatisch.
-# Nur ausfüllen, wenn eine eigene Domain genutzt wird, z. B.:
-# url: "https://www.kampuntin.org"
-# baseurl: ""
+# Adresse der Website (eigene Domain bei Cloudflare, Weiterleitung von kampuntin.org/.com).
+# Fest eingetragen, damit Links für Google, Sitemap und Vorschaubild immer mit https beginnen.
+url: "https://www.kampuntin.org"
 
 # Bild für Vorschauen in WhatsApp/Facebook (1200×630 px empfohlen; Logo und Name mittig, weil manche Apps quadratisch zuschneiden)
 og_image: "/assets/img/og-logo.jpg"
