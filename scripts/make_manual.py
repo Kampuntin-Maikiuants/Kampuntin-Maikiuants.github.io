@@ -367,8 +367,8 @@ def es(b):
 
     b.h1("2. Tours: fechas, plazas y aviso en la página de inicio")
     b.h2("2.1 Cómo funciona")
-    b.p("Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). La reserva se hace a "
-        "través de Raíces; en Maikiuants, Kampuntin organiza el viaje. El nombre, la duración, el precio y la "
+    b.p("Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). Los viajes son de Raíces, que "
+        "organiza el viaje y las reservas; en Maikiuants, Kampuntin se encarga de la organización y el acompañamiento. El nombre, la duración, el precio y la "
         "descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué "
         "viaje pertenece.")
     b.img("viajes", "La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.")
@@ -756,7 +756,8 @@ def en(b):
     b.h1("2. Tours: dates, places and the homepage notice")
     b.h2("2.1 How it works")
     b.p("There are two journeys: the **spiritual journey** (11 days) and the **Arutam journey** (22 days). "
-        "Bookings are made through Raíces; in Maikiuants, Kampuntin organises the journey. The name, duration, "
+        "The journeys are run by Raíces, which organises the journey and the bookings; in Maikiuants, Kampuntin takes care of the "
+        "organisation and support. The name, duration, "
         "price and description of each journey are stored once. The dates are stored separately, and each date "
         "says which journey it belongs to.")
     b.img("viajes", "The «Two journeys» section on the tours page. The programmes can be opened below.")

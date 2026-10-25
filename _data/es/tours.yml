@@ -21,7 +21,7 @@ facts:
 
 # Die beiden Reisen. Termine stehen in _data/tour_dates.yml (Feld trip: espiritual oder arutam).
 trips_title: Dos viajes
-trips_intro: Elige el viaje que mejor te va. Los dos empiezan y terminan en Cuenca.
+trips_intro: Los dos viajes los organiza Raíces y empiezan y terminan en Cuenca. Elige el que mejor te va.
 trips:
   espiritual:
     name: Viaje espiritual
@@ -46,7 +46,7 @@ trips:
 # Hinweis unter den beiden Reisen: Schülerreisen auf Anfrage
 school_trips:
   title: "Viajes para escuelas:"
-  text: También organizamos viajes de 20 días para grupos escolares, a petición.
+  text: Raíces también organiza viajes de 20 días para grupos escolares, a petición.
   link: Más información en raices.be
   url: "https://www.raices.be/voyages-etudiants/"
 
@@ -55,8 +55,7 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Miembros de la comunidad compartiendo bebida y artesanía con visitantes
   text: |-
-    Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra
-    organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje.
+    Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad.
 
     La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad
     compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la
@@ -78,7 +77,7 @@ life:
 
 experience:
   title: "El viaje Arutam: 22 días"
-  intro: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
+  intro: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
   arrival_title: "Llegada a Cuenca"
   arrival: >-
     El viaje empieza en Cuenca, a 2.800 metros. Tras un día libre para aclimatarte, conocemos el centro histórico, el mercado local y el museo Pumapungo. En bus viajamos a Limón Indanza, donde un chamán shuar guía una ceremonia de purificación, y desde allí seguimos en 4×4 por la Cordillera del Cóndor hasta Maikiuants, donde la comunidad nos recibe con baile y fiesta.
@@ -108,7 +107,7 @@ experience:
 # Viaje espiritual (11 días) – gleicher Aufbau wie experience
 spiritual:
   title: "El viaje espiritual: 11 días"
-  intro: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
+  intro: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
   arrival_title: Llegada a Cuenca
   arrival: >-
     Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y
@@ -172,8 +171,7 @@ price:
   per: por persona
   text: >-
     Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías,
-    intérpretes y actividades. La reserva se hace a través de Raíces, y
-    en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
+    intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
     apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos
     personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te
     aconsejamos cómo organizar eventos para recaudarlos.
@@ -194,9 +192,9 @@ booking:
     - title: "Escríbenos"
       text: "Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan."
     - title: "Reserva"
-      text: "La reserva se hace a través de Raíces, nuestra organización hermana en Bélgica. Confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles."
+      text: "La reserva se hace a través de Raíces, que organiza los viajes. Raíces confirma tu plaza y acuerda contigo las fechas, el pago y todos los detalles."
     - title: "Prepárate"
-      text: "Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador."
+      text: "Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría."
 
 
 past:

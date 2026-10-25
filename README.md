@@ -79,7 +79,7 @@ Los textos están en archivos con la terminación `.yml`. Son fáciles de leer, 
 
 ### 2.1 Cómo funciona
 
-Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). La reserva se hace a través de Raíces; en Maikiuants, Kampuntin organiza el viaje. El nombre, la duración, el precio y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué viaje pertenece.
+Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). Los viajes son de Raíces, que organiza el viaje y las reservas; en Maikiuants, Kampuntin se encarga de la organización y el acompañamiento. El nombre, la duración, el precio y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué viaje pertenece.
 
 ![La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.](manual/img/es-viajes.jpg)
 _La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas._
@@ -143,7 +143,7 @@ El aviso muestra siempre la próxima fecha que todavía no pasó y que no está 
 tour_popup:
   eyebrow: Próximo tour
   text: >-
-    Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+    Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
   per: por persona
   button: Ver el tour
   close: Cerrar
@@ -371,7 +371,7 @@ Las personas de la página de contacto y del pie de página están en `_config.y
 `_config.yml` (fragmento)
 ```yaml
     - name: Julien Defourny
-      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
+      role: { es: "Raíces · tours y visitantes internacionales", en: "Raíces · tours and international visitors", fr: "Raíces · tours et visiteurs internationaux" }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"
       email: "jdefourny.explore@gmail.com"

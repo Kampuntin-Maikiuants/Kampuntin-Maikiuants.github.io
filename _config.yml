@@ -24,12 +24,12 @@ contact:
   # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
   people:
     - name: Julien Defourny
-      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
+      role: { es: "Raíces · tours y visitantes internacionales", en: "Raíces · tours and international visitors", fr: "Raíces · tours et visiteurs internationaux" }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"
       email: "jdefourny.explore@gmail.com"
     - name: Freddy Ankuash
-      role: { es: Coordinación de tours y voluntariado, en: Tour and volunteer coordination, fr: Coordination des tours et du bénévolat }
+      role: { es: "Kampuntin · organización en Maikiuants y voluntariado", en: "Kampuntin · organisation in Maikiuants and volunteering", fr: "Kampuntin · organisation à Maikiuants et bénévolat" }
       whatsapp: "593980154335"
       phone: "+593 98 015 4335"
 

@@ -107,7 +107,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: "Dos viajes para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días."
+      text: "Dos viajes de nuestra organización hermana Raíces, para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días."
     - ref: volunteering
       title: Voluntariado
       text: Huerta, agroforestería, mingas y construcción, viviendo en una jea tradicional en medio del bosque.
@@ -119,7 +119,7 @@ explore:
 tour_popup:
   eyebrow: Próximo tour
   text: >-
-    Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+    Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
   per: por persona
   button: Ver el tour
   close: Cerrar

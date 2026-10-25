@@ -19,8 +19,8 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
   - EN: The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
 - [ ] **Viaje espiritual – Einleitung** – _eigene Formulierung_
-  - ES: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
-  - EN: A shorter journey focused on Shuar spirituality and the connection with nature.
+  - ES: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
+  - EN: A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
 - [ ] **Viaje espiritual – Llegada** – _zusammengefasst aus Tag 1–3_
   - ES: Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y hacemos una limpieza espiritual; luego entramos al territorio shuar.
   - EN: We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and take part in a spiritual cleansing; then we enter Shuar territory.
@@ -34,11 +34,11 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
   - EN: At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
 - [ ] **Viaje Arutam – Einleitung** – _eigene Formulierung_
-  - ES: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
-  - EN: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
-- [ ] **Sobre el tour – erster Absatz** – _aus Ihrer Aussage „Buchung über Raíces, vor Ort Kampuntin“; „organización hermana“ ist meine Wortwahl_
-  - ES: Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje.
-  - EN: Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey.
+  - ES: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
+  - EN: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
+- [ ] **Sobre el tour – erster Absatz** – _nach Juliens Hinweis klarer: Reisen von Raíces, Kampuntin vor Ort; „organización hermana“ ist meine Wortwahl_
+  - ES: Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad.
+  - EN: The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community.
 - [ ] **Sobre el tour – Arutam-Absatz** – _„Los dos viajes llevan a la cascada sagrada“ habe ich aus den Programmen abgeleitet_
   - ES: Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
   - EN: For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
@@ -49,17 +49,17 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
   - EN: Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
 - [ ] **Precio – Text** – _eigene Formulierung (Raíces/Kampuntin, finanzielle Unterstützung)_
-  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 - [ ] **Próximas fechas – Einleitung** – _„máximo 12 personas“ steht nicht bei Raíces (kommt aus dem Interview)_
   - ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
   - EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
 - [ ] **Cómo reservar – Schritt 2 und 3** – _eigene Formulierung_
-  - ES: La reserva se hace a través de Raíces, nuestra organización hermana en Bélgica. Confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles. / Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador.
-  - EN: Bookings are made through Raíces, our sister organisation in Belgium. We confirm your place and arrange the dates, payment and all other details with you. / Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey.
+  - ES: La reserva se hace a través de Raíces, que organiza los viajes. Raíces confirma tu plaza y acuerda contigo las fechas, el pago y todos los detalles. / Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría.
+  - EN: Bookings are made through Raíces, which organises the journeys. Raíces confirms your place and arranges the dates, payment and all other details with you. / Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you.
 - [ ] **Viajes para escuelas** – _„a petición“ ist abgeleitet – Raíces nennt keine Termine_
-  - ES: Viajes para escuelas: También organizamos viajes de 20 días para grupos escolares, a petición.
-  - EN: School trips: We also organise 20-day journeys for school groups on request.
+  - ES: Viajes para escuelas: Raíces también organiza viajes de 20 días para grupos escolares, a petición.
+  - EN: School trips: Raíces also organises 20-day journeys for school groups on request.
 - [ ] **Kasten „El programa día a día“** – _eigene Formulierung_
   - ES: Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado día por día de los dos viajes.
   - EN: Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of both journeys on its website.
@@ -76,11 +76,11 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la misión de Kampuntin.
   - EN: Experience the rainforest and get to know the Shuar community of Maikiuants: on one of our two journeys or as a volunteer. Learn more about the community, the rainforest, our scientific work and Kampuntin's mission.
 - [ ] **Descubre – Tours** – _eigene Formulierung_
-  - ES: Dos viajes para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
-  - EN: Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
+  - ES: Dos viajes de nuestra organización hermana Raíces, para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
+  - EN: Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
 - [ ] **Popup – Text** – _eigene Formulierung_
-  - ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
-  - EN: Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+  - ES: Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+  - EN: A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
 - [ ] **Casa cultural y científica – Text** – _nach Freddy und den Beschriftungen auf den Entwürfen (Museum, Labore, Etappen …)_
   - ES: En Maikiuants se construirá una casa cultural y científica: un lugar donde se muestran y se conservan tanto la ciencia como la cultura shuar. Se construirá por etapas e incluirá un museo, laboratorios, un centro educativo, oficinas, dormitorios y alojamiento para científicos, un comedor con cocina y baños secos.
   - EN: A cultural and science house will be built in Maikiuants: a place where both science and Shuar culture are shown and preserved. It will be built in stages and include a museum, laboratories, an education centre, offices, dormitories and accommodation for scientists, a dining room with kitchen and dry toilets.
@@ -123,7 +123,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 ### Voluntariado: Erfahrungsberichte
 
-- [ ] **Anouk** – _aus dem Deutschen ausformuliert und übersetzt, ohne Zwischenüberschriften; Tipps als letzter Absatz; „Bürgermeister“ habe ich mit „dirigente de la comunidad / community leader“ übersetzt, „Markus“ mit „Marcos“ – stimmt das?_
+- [ ] **Anouk** – _aus dem Deutschen ausformuliert und übersetzt, ohne Zwischenüberschriften; Tipps als letzter Absatz; „Bürgermeister“ als „alcalde de la comunidad / community mayor / maire de la communauté“, „Markus“ als „Marcos“_
   - Zitat ES: Lo que más me gustó fue lo mucho que puedes sumergirte en la vida de la comunidad, si tienes ganas.
   - Zitat EN: What I liked most was how deeply you can immerse yourself in community life if you want to.
 - [ ] **Yael** – _von Ihnen auf Englisch, sprachlich geglättet; der letzte Absatz (Yuca, zwei Begleitpersonen) ist als dritter Absatz eingefügt; ES/FR von mir übersetzt; „Voluntariado“ statt „Voluntaria/o“, Land fehlt_
@@ -197,21 +197,21 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Neu: Zwei Reisen (Auswahl oben auf der Seite)** – _Buchung über Raíces, vor Ort Kampuntin_
 
-- ES: **Dos viajes** · Elige el viaje que mejor te va. Los dos empiezan y terminan en Cuenca.
+- ES: **Dos viajes** · Los dos viajes los organiza Raíces y empiezan y terminan en Cuenca. Elige el que mejor te va.
   - Abril – mayo 2027 · **Viaje espiritual** · 11 días · 2.490 € · Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
   - Agosto – septiembre 2027 · **Viaje Arutam** · 22 días · 3.890 € · La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
-- EN: **Two journeys** · Choose the journey that suits you best. Both start and end in Cuenca.
+- EN: **Two journeys** · Both journeys are organised by Raíces and start and end in Cuenca. Choose the one that suits you best.
   - April – May 2027 · **Spiritual journey** · 11 days · €2,490 · An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
   - August – September 2027 · **Arutam journey** · 22 days · €3,890 · The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
-- FR: **Deux voyages** · Choisissez le voyage qui vous convient. Les deux commencent et se terminent à Cuenca.
+- FR: **Deux voyages** · Les deux voyages sont organisés par Raíces et commencent et se terminent à Cuenca. Choisissez celui qui vous convient.
   - Avril – mai 2027 · **Voyage spirituel** · 11 jours · 2 490 € · Une immersion dans la spiritualité shuar : la cérémonie de la chonta (le Nouvel An shuar), les plantes médicinales, des rituels traditionnels et la marche vers la cascade sacrée d’Arutam.
   - Août – septembre 2027 · **Voyage Arutam** · 22 jours · 3 890 € · La grande aventure : une dizaine de jours avec la communauté à Maikiuants, l’expédition à la Cueva de los Tayos et un voyage en pirogue vers des communautés shuar du Pérou.
 
 **Neu: Viaje espiritual – Titel und Einleitung**
 
-- ES: El viaje espiritual: 11 días · Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
-- EN: The spiritual journey: 11 days · A shorter journey focused on Shuar spirituality and the connection with nature.
-- FR: Le voyage spirituel : 11 jours · Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature.
+- ES: El viaje espiritual: 11 días · Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
+- EN: The spiritual journey: 11 days · A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
+- FR: Le voyage spirituel : 11 jours · Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature. Raíces organise le voyage ; à Maikiuants, Kampuntin vous accueille et vous accompagne.
 
 **Viaje espiritual – Llegada**
 
@@ -257,15 +257,15 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Viaje Arutam – Titel und Einleitung**
 
-- ES: El viaje Arutam: 22 días · La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago.
-- EN: The Arutam journey: 22 days · The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
-- FR: Le voyage Arutam : 22 jours · La grande aventure à travers le territoire shuar, de Cuenca à la Cueva de los Tayos et au Río Santiago.
+- ES: El viaje Arutam: 22 días · La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
+- EN: The Arutam journey: 22 days · The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
+- FR: Le voyage Arutam : 22 jours · La grande aventure à travers le territoire shuar, de Cuenca à la Cueva de los Tayos et au Río Santiago. Raíces organise le voyage ; à Maikiuants, Kampuntin vous accueille et vous accompagne.
 
 **Sobre el tour** – _spiritueller Austausch, Heilpflanzen, Name „Arutam“_
 
-- ES: Kampuntin y Raíces trabajan juntos: la reserva se hace a través de **Raíces**, nuestra ¶ organización hermana en Bélgica, y en Maikiuants **Kampuntin** organiza todo el viaje. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
-- EN: Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister ¶ organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
-- FR: Kampuntin et Raíces travaillent ensemble : la réservation se fait via **Raíces**, notre ¶ organisation sœur en Belgique, et à Maikiuants **Kampuntin** organise tout le voyage. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
+- ES: Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
+- EN: The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
+- FR: Les voyages sont proposés par **Raíces**, notre organisation sœur en Belgique : Raíces organise le voyage et s’occupe des réservations. À Maikiuants, **Kampuntin** se charge de l’organisation et de l’accompagnement dans la communauté. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
 
 **Llegada a Cuenca** – _mit dem Bus ab Cuenca_
 
@@ -273,7 +273,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - EN: The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
 - FR: Le voyage commence à Cuenca, à 2 800 mètres d’altitude. Après une journée libre pour vous acclimater, nous découvrons le centre historique, le marché local et le musée Pumapungo. Nous allons en bus jusqu’à Limón Indanza, où un chaman shuar guide une cérémonie de purification, puis nous continuons en 4×4 à travers la Cordillère du Condor jusqu’à Maikiuants, où la communauté nous accueille avec de la danse et une fête.
 
-**Viaje Arutam – Aktivitäten (vollständige Liste)** – _nur noch nach Juliens Programm (Tag 4–13 in Maikiuants)_
+**Unos diez días en Maikiuants – Aktivitäten (vollständige Liste)** – _Boot raus, Nachtfischen, Floß, Blasrohr, kulinarischer Austausch, Schmuck, Versammlung raus, Doppelte raus_
 
 - ES:
   - Bienvenida de la comunidad con baile y fiesta
@@ -395,15 +395,15 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Precio** – _statt 5 % finanzielle Unterstützung, Hinweis auf Spenden-Events_
 
-- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. La reserva se hace a través de Raíces, y en Maikiuants Kampuntin organiza el viaje. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Bookings are made through Raíces, and in Maikiuants Kampuntin organises the journey. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
-- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes et activités. La réservation se fait via Raíces, et à Maikiuants Kampuntin organise le voyage. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
+- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
+- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes et activités. Raíces organise le voyage et la réservation ; à Maikiuants, Kampuntin se charge de l’organisation dans la communauté. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
 
 **Cómo reservar – Schritt 3** – _Vorbereitungstreffen_
 
-- ES: Antes del viaje hacemos una reunión de preparación con todos los participantes. Nos alegra recibirte en Cuenca para un viaje transformador.
-- EN: Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey.
-- FR: Avant le voyage, nous organisons une réunion de préparation avec tous les participants. Nous avons hâte de vous accueillir à Cuenca pour un voyage transformateur.
+- ES: Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría.
+- EN: Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you.
+- FR: Avant le voyage, Raíces organise une réunion de préparation avec tous les participants. Et à Maikiuants, nous avons hâte de vous accueillir.
 
 **Kasten zu Raíces**
 
@@ -437,7 +437,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 ## 3. Kontakt
 
-**Ansprechpersonen** – _Minki entfernt, Julien zuerst_: Julien Defourny (Contacto para visitantes internacionales), Freddy Ankuash (Coordinación de tours y voluntariado)
+**Ansprechpersonen** – _Minki entfernt, Julien zuerst_: Julien Defourny (Raíces · tours y visitantes internacionales), Freddy Ankuash (Kampuntin · organización en Maikiuants y voluntariado)
 
 **Cómo llegar** – _Taxi 60–70 USD_
 
@@ -606,15 +606,15 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 **Startseite – Descubre: Tours**
 
-- ES: Dos viajes para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
-- EN: Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
-- FR: Deux voyages pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours.
+- ES: Dos viajes de nuestra organización hermana Raíces, para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
+- EN: Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
+- FR: Deux voyages de notre organisation sœur Raíces, pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours.
 
 **Popup – Text**
 
-- ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
-- EN: Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
-- FR: Vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
+- ES: Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+- EN: A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+- FR: Un voyage de Raíces : vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
 
 ## Noch offen
 

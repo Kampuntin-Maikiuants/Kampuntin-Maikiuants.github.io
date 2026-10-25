@@ -21,7 +21,7 @@ facts:
 
 # The two journeys. Dates are in _data/tour_dates.yml (field trip: espiritual or arutam).
 trips_title: Two journeys
-trips_intro: Choose the journey that suits you best. Both start and end in Cuenca.
+trips_intro: Both journeys are organised by Raíces and start and end in Cuenca. Choose the one that suits you best.
 trips:
   espiritual:
     name: Spiritual journey
@@ -46,7 +46,7 @@ trips:
 # Note below the two journeys: school trips on request
 school_trips:
   title: "School trips:"
-  text: We also organise 20-day journeys for school groups on request.
+  text: Raíces also organises 20-day journeys for school groups on request.
   link: More information on raices.be
   url: "https://www.raices.be/voyages-etudiants/"
 
@@ -55,8 +55,7 @@ intro:
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Community members sharing a drink and handicrafts with visitors
   text: |-
-    Kampuntin and Raíces work together: bookings are made through **Raíces**, our sister
-    organisation in Belgium, and in Maikiuants **Kampuntin** organises the whole journey.
+    The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community.
 
     The community welcomes you for a **cultural and spiritual exchange**. Together with people from the
     community you share the accommodation in a traditional jea, cook and eat together and learn
@@ -77,7 +76,7 @@ life:
 
 experience:
   title: "The Arutam journey: 22 days"
-  intro: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago.
+  intro: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
   arrival_title: "Arrival in Cuenca"
   arrival: >-
     The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
@@ -107,7 +106,7 @@ experience:
 # Spiritual journey (11 days) – same structure as experience
 spiritual:
   title: "The spiritual journey: 11 days"
-  intro: A shorter journey focused on Shuar spirituality and the connection with nature.
+  intro: A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
   arrival_title: Arrival in Cuenca
   arrival: >-
     We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and
@@ -171,8 +170,7 @@ price:
   per: per person
   text: >-
     All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides,
-    translators and activities. Bookings are made through Raíces, and in
-    Maikiuants Kampuntin organises the journey. We
+    translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We
     pay local guides and cooks, buy food within the community and support Maikiuants
     financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 
@@ -192,9 +190,9 @@ booking:
     - title: "Write to us"
       text: "Tell us who you are, how many people are coming and which dates you are interested in."
     - title: "Booking"
-      text: "Bookings are made through Raíces, our sister organisation in Belgium. We confirm your place and arrange the dates, payment and all other details with you."
+      text: "Bookings are made through Raíces, which organises the journeys. Raíces confirms your place and arranges the dates, payment and all other details with you."
     - title: "Get ready"
-      text: "Before the journey we hold a preparation meeting with all participants. We are looking forward to welcoming you in Cuenca for a transformative journey."
+      text: "Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you."
 
 
 past:

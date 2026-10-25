@@ -107,7 +107,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: "Two journeys for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey."
+      text: "Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey."
     - ref: volunteering
       title: Volunteering
       text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
@@ -119,7 +119,7 @@ explore:
 tour_popup:
   eyebrow: Next tour
   text: >-
-    Live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+    A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
   per: per person
   button: See the tour
   close: Close

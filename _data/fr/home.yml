@@ -109,7 +109,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: "Deux voyages pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours."
+      text: "Deux voyages de notre organisation sœur Raíces, pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours."
     - ref: volunteering
       title: Bénévolat
       text: Jardinage, agroforesterie, mingas et construction, en vivant dans une jea traditionnelle au cœur de la forêt.
@@ -121,7 +121,7 @@ explore:
 tour_popup:
   eyebrow: Prochain tour
   text: >-
-    Vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
+    Un voyage de Raíces : vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
   per: par personne
   button: Voir le tour
   close: Fermer
