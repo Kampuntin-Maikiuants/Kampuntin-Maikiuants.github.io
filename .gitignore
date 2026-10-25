@@ -7,3 +7,5 @@ vendor/
 .DS_Store
 _archiv/
 .claude/
+# Handbuch (enthält Zugangsdaten) – nur lokal, nicht auf GitHub
+manual/
