@@ -17,6 +17,10 @@ description: "Tours, voluntariado y ciencia comunitaria con la comunidad shuar d
 # Bild für Vorschauen in WhatsApp/Facebook (1200×630 px empfohlen; Logo und Name mittig, weil manche Apps quadratisch zuschneiden)
 og_image: "/assets/img/og-logo.jpg"
 
+# Google Search Console: beim Bestätigen die Methode „HTML-Tag“ wählen und nur den Code
+# aus content="…" hier eintragen, z. B. google_site_verification: "AbC123…"
+google_site_verification: ""
+
 # --- Kontakt -------------------------------------------------
 contact:
   email: "ocstkampuntin@gmail.com"

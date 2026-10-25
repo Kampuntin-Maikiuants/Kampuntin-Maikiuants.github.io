@@ -1,0 +1,29 @@
+{%- comment -%} Angaben für Suchmaschinen (nur Startseite): Name, Kurzname, Logo, Profile in sozialen Netzwerken {%- endcomment -%}
+{%- assign home = '/' | absolute_url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": {{ site.title | jsonify }},
+      "alternateName": "Kampuntin",
+      "url": {{ home | jsonify }}
+    },
+    {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "alternateName": ["Kampuntin", {{ site.org_name | jsonify }}],
+      "url": {{ home | jsonify }},
+      "logo": {{ '/assets/img/logo-256.png' | absolute_url | jsonify }},
+      "email": {{ site.contact.email | jsonify }},
+      "address": { "@type": "PostalAddress", "addressLocality": "Maikiuants", "addressCountry": "EC" },
+      "sameAs": [
+        {%- if site.social.instagram.url %}{{ site.social.instagram.url | jsonify }}, {% endif -%}
+        {%- for fb in site.social.facebook %}{{ fb.url | jsonify }}{% unless forloop.last and site.social.wwoof == nil %}, {% endunless %}{% endfor -%}
+        {%- if site.social.wwoof %}{{ site.social.wwoof | jsonify }}{% endif -%}
+      ]
+    }
+  ]
+}
+</script>

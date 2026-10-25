@@ -12,7 +12,8 @@ Página web: https://kampuntin-maikiuants.github.io · Este manual también como
 - [4. Novedades: Facebook e Instagram](#4-novedades-facebook-e-instagram)
 - [5. Equipo, textos y otras cosas útiles](#5-equipo-textos-y-otras-cosas-útiles)
 - [6. Una dirección propia (dominio)](#6-una-dirección-propia-dominio)
-- [7. Si algo sale mal](#7-si-algo-sale-mal)
+- [7. Aparecer en Google](#7-aparecer-en-google)
+- [8. Si algo sale mal](#8-si-algo-sale-mal)
 
 ## 1. Antes de empezar
 
@@ -53,7 +54,7 @@ En GitHub, la pestaña «Actions» muestra cada actualización de la página:
 
 - **Círculo amarillo:** la página se está actualizando.
 - **Marca verde:** listo, el cambio está en línea.
-- **Cruz roja:** algo salió mal. La página sigue mostrando la versión anterior. Ver capítulo 7.
+- **Cruz roja:** algo salió mal. La página sigue mostrando la versión anterior. Ver capítulo 8.
 
 > **Consejo:** Si no ves el cambio, recarga la página con fuerza: en la computadora Ctrl + F5 (en Mac: Cmd + Shift + R).
 
@@ -463,10 +464,51 @@ Borra las otras entradas A o CNAME para `@` y `www` que el proveedor haya creado
 
 - Cambia la dirección en los perfiles de Facebook e Instagram, en WWOOF, en los volantes y en los códigos QR.
 - Si las vistas previas en WhatsApp o Facebook todavía muestran la dirección antigua, escribe la dirección nueva en `_config.yml`, en la línea `url:` (quita el `#` del principio), por ejemplo `url: "https://www.kampuntin.org"`.
+- Si la página ya está en la Google Search Console (capítulo 7): agrega la dirección nueva como propiedad nueva, verifícala igual que en 7.1 y envía otra vez `sitemap.xml`.
 - Un correo con el dominio (por ejemplo info@kampuntin.org) se puede agregar después con un servicio de correo. Muchos proveedores de dominios ofrecen reenvío de correo gratis.
 
 
-## 7. Si algo sale mal
+## 7. Aparecer en Google
+
+Google muestra la página solo si sabe que existe. Con la **Google Search Console** le avisas a Google, y además ves con qué búsquedas llega la gente y si hay problemas. Es gratis. Se configura una sola vez; después basta con mirar de vez en cuando.
+
+
+### 7.1 Registrar la página en la Google Search Console
+
+1. Abre **search.google.com/search-console** e inicia sesión con la cuenta de Google de Kampuntin (ocstkampuntin@gmail.com), así el acceso queda en la organización.
+2. Haz clic en «Agregar propiedad». Elige la opción de la derecha, «Prefijo de la URL», y escribe `https://kampuntin-maikiuants.github.io/`. La opción «Dominio» de la izquierda no funciona con github.io.
+3. Como método de verificación elige «Etiqueta HTML». Google muestra una línea como `<meta name="google-site-verification" content="AbC123...">`. Copia solo el código que está entre las comillas después de `content=`.
+4. En GitHub abre `_config.yml`, busca la línea `google_site_verification: ""` y pega el código entre las comillas, por ejemplo `google_site_verification: "AbC123..."`. Guarda (ver 1.3).
+5. Espera a que «Actions» esté en verde (ver 1.4) y haz clic en «Verificar» en la Search Console.
+
+> **Importante:** No borres después la línea `google_site_verification`. Google la revisa de vez en cuando; sin ella se pierde el acceso a la Search Console.
+
+
+### 7.2 Enviar el mapa del sitio y pedir la indexación
+
+1. En el menú de la izquierda, «Sitemaps»: escribe `sitemap.xml` y haz clic en «Enviar». El mapa del sitio se crea solo y contiene todas las páginas en los tres idiomas.
+2. En la barra de arriba («Inspeccionar cualquier URL») escribe la dirección de la página de inicio y haz clic en «Solicitar indexación». Haz lo mismo con las páginas más importantes, por ejemplo `/en/`, `/fr/` y `/tours/`.
+3. Ahora hay que esperar: normalmente la página aparece en Google después de unos días o hasta dos semanas. Para comprobarlo, busca en Google `site:kampuntin-maikiuants.github.io`.
+
+> **Consejo:** Para dar acceso a otra persona: «Configuración» › «Usuarios y permisos» › «Agregar usuario».
+
+
+### 7.3 Enlaces desde otras páginas
+
+Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner la dirección en todas partes:
+
+- En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.
+- En el perfil de WWOOF y en la página de Raíces.
+- En los volantes y en la firma de los correos.
+- Opcional: un perfil en Google Maps («Perfil de Empresa en Google») para Kampuntin en Maikiuants, con la dirección de la página. Así aparece también un mapa cuando alguien busca «Kampuntin».
+
+
+### 7.4 Bing y otros buscadores
+
+En **bing.com/webmasters** se puede importar la página desde la Google Search Console con un clic (opción de importar desde Google Search Console). Así la página llega también a Bing, DuckDuckGo, Ecosia y Yahoo.
+
+
+## 8. Si algo sale mal
 
 | Problema | Qué hacer |
 |---|---|
@@ -497,3 +539,4 @@ Borra las otras entradas A o CNAME para `@` y `www` que el proveedor haya creado
 | Videos | `_data/videos.yml` y `assets/video` | GitHub |
 | Experiencia de voluntario | `_data/es\|en\|fr/volunteering.yml` › `testimonials` | GitHub |
 | Dominio propio | Proveedor de dominios (DNS) y «Settings» › «Pages» | Proveedor y GitHub |
+| Aparecer en Google | Search Console y `_config.yml` › `google_site_verification` | Google y GitHub |

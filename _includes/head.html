@@ -33,6 +33,12 @@
 <meta property="og:image" content="{{ og_image | absolute_url }}?v={{ site.image_version }}">
 {%- endif %}
 <meta name="theme-color" content="#173a2a">
+{%- if site.google_site_verification and site.google_site_verification != "" %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{%- endif %}
+{%- if page.ref == "home" %}
+{% include schema.html %}
+{%- endif %}
 {%- if site.goatcounter and site.goatcounter != "" %}
 <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 {%- endif %}

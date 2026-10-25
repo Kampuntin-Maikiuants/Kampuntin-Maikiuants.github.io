@@ -347,7 +347,7 @@ def es(b):
     b.p("En GitHub, la pestaña «Actions» muestra cada actualización de la página:")
     b.bullets(["**Círculo amarillo:** la página se está actualizando.",
                "**Marca verde:** listo, el cambio está en línea.",
-               "**Cruz roja:** algo salió mal. La página sigue mostrando la versión anterior. Ver capítulo 7."])
+               "**Cruz roja:** algo salió mal. La página sigue mostrando la versión anterior. Ver capítulo 8."])
     b.box("Si no ves el cambio, recarga la página con fuerza: en la computadora Ctrl + F5 (en Mac: Cmd + Shift + R).")
     b.h2("1.5 Tres idiomas")
     b.p("La página existe en español, inglés y francés. Casi todos los textos están en tres archivos con el mismo "
@@ -661,11 +661,57 @@ def es(b):
         "Si las vistas previas en WhatsApp o Facebook todavía muestran la dirección antigua, escribe la dirección "
         "nueva en `_config.yml`, en la línea `url:` (quita el `#` del principio), por ejemplo "
         "`url: \"https://www.kampuntin.org\"`.",
+        "Si la página ya está en la Google Search Console (capítulo 7): agrega la dirección nueva como propiedad "
+        "nueva, verifícala igual que en 7.1 y envía otra vez `sitemap.xml`.",
         "Un correo con el dominio (por ejemplo info@kampuntin.org) se puede agregar después con un servicio de "
         "correo. Muchos proveedores de dominios ofrecen reenvío de correo gratis.",
     ])
 
-    b.h1("7. Si algo sale mal")
+    b.h1("7. Aparecer en Google")
+    b.p("Google muestra la página solo si sabe que existe. Con la **Google Search Console** le avisas a Google, "
+        "y además ves con qué búsquedas llega la gente y si hay problemas. Es gratis. Se configura una sola vez; "
+        "después basta con mirar de vez en cuando.")
+    b.h2("7.1 Registrar la página en la Google Search Console")
+    b.steps([
+        "Abre **search.google.com/search-console** e inicia sesión con la cuenta de Google de Kampuntin "
+        "(ocstkampuntin@gmail.com), así el acceso queda en la organización.",
+        "Haz clic en «Agregar propiedad». Elige la opción de la derecha, «Prefijo de la URL», y escribe "
+        "`https://kampuntin-maikiuants.github.io/`. La opción «Dominio» de la izquierda no funciona con github.io.",
+        "Como método de verificación elige «Etiqueta HTML». Google muestra una línea como "
+        "`<meta name=\"google-site-verification\" content=\"AbC123...\">`. Copia solo el código que está entre "
+        "las comillas después de `content=`.",
+        "En GitHub abre `_config.yml`, busca la línea `google_site_verification: \"\"` y pega el código entre las "
+        "comillas, por ejemplo `google_site_verification: \"AbC123...\"`. Guarda (ver 1.3).",
+        "Espera a que «Actions» esté en verde (ver 1.4) y haz clic en «Verificar» en la Search Console.",
+    ])
+    b.box("No borres después la línea `google_site_verification`. Google la revisa de vez en cuando; sin ella se "
+          "pierde el acceso a la Search Console.", "warn")
+    b.h2("7.2 Enviar el mapa del sitio y pedir la indexación")
+    b.steps([
+        "En el menú de la izquierda, «Sitemaps»: escribe `sitemap.xml` y haz clic en «Enviar». El mapa del sitio se "
+        "crea solo y contiene todas las páginas en los tres idiomas.",
+        "En la barra de arriba («Inspeccionar cualquier URL») escribe la dirección de la página de inicio y haz clic "
+        "en «Solicitar indexación». Haz lo mismo con las páginas más importantes, por ejemplo `/en/`, `/fr/` y "
+        "`/tours/`.",
+        "Ahora hay que esperar: normalmente la página aparece en Google después de unos días o hasta dos semanas. "
+        "Para comprobarlo, busca en Google `site:kampuntin-maikiuants.github.io`.",
+    ])
+    b.box("Para dar acceso a otra persona: «Configuración» › «Usuarios y permisos» › «Agregar usuario».")
+    b.h2("7.3 Enlaces desde otras páginas")
+    b.p("Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner la dirección en "
+        "todas partes:")
+    b.bullets([
+        "En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.",
+        "En el perfil de WWOOF y en la página de Raíces.",
+        "En los volantes y en la firma de los correos.",
+        "Opcional: un perfil en Google Maps («Perfil de Empresa en Google») para Kampuntin en Maikiuants, con la "
+        "dirección de la página. Así aparece también un mapa cuando alguien busca «Kampuntin».",
+    ])
+    b.h2("7.4 Bing y otros buscadores")
+    b.p("En **bing.com/webmasters** se puede importar la página desde la Google Search Console con un clic (opción "
+        "de importar desde Google Search Console). Así la página llega también a Bing, DuckDuckGo, Ecosia y Yahoo.")
+
+    b.h1("8. Si algo sale mal")
     b.table(["Problema", "Qué hacer"], [
         ["La página no cambia", "Espera tres minutos y recarga con Ctrl + F5. Mira la pestaña «Actions»: "
                                 "¿amarillo (trabajando), verde (listo) o rojo (error)?"],
@@ -696,6 +742,7 @@ def es(b):
         ["Videos", "`_data/videos.yml` y `assets/video`", "GitHub"],
         ["Experiencia de voluntario", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Dominio propio", "Proveedor de dominios (DNS) y «Settings» › «Pages»", "Proveedor y GitHub"],
+        ["Aparecer en Google", "Search Console y `_config.yml` › `google_site_verification`", "Google y GitHub"],
     ], [.36, .44, .20])
 
 
@@ -736,7 +783,7 @@ def en(b):
     b.p("On GitHub, the «Actions» tab shows every website update:")
     b.bullets(["**Yellow circle:** the website is being updated.",
                "**Green tick:** done, the change is online.",
-               "**Red cross:** something went wrong. The website still shows the previous version. See chapter 7."])
+               "**Red cross:** something went wrong. The website still shows the previous version. See chapter 8."])
     b.box("If you don't see the change, force a reload: on a computer press Ctrl + F5 (on a Mac: Cmd + Shift + R).")
     b.h2("1.5 Three languages")
     b.p("The website exists in Spanish, English and French. Almost all texts are in three files with the same name "
@@ -1046,11 +1093,57 @@ def en(b):
         "If link previews on WhatsApp or Facebook still show the old address, enter the new address in "
         "`_config.yml` on the `url:` line (remove the `#` at the start), for example "
         "`url: \"https://www.kampuntin.org\"`.",
+        "If the website is already in Google Search Console (chapter 7): add the new address as a new property, "
+        "verify it as in 7.1 and submit `sitemap.xml` again.",
         "An email address with the domain (for example info@kampuntin.org) can be added later with an email "
         "service. Many domain providers offer free email forwarding.",
     ])
 
-    b.h1("7. If something goes wrong")
+    b.h1("7. Getting found on Google")
+    b.p("Google only shows the website if it knows that it exists. With the **Google Search Console** you tell "
+        "Google about it, and you can also see which searches bring people to the website and whether there are "
+        "problems. It is free. You set it up once; after that, an occasional look is enough.")
+    b.h2("7.1 Registering the website in Google Search Console")
+    b.steps([
+        "Open **search.google.com/search-console** and sign in with Kampuntin's Google account "
+        "(ocstkampuntin@gmail.com), so that access stays with the organisation.",
+        "Click «Add property». Choose the option on the right, «URL prefix», and enter "
+        "`https://kampuntin-maikiuants.github.io/`. The «Domain» option on the left does not work with github.io.",
+        "As the verification method, choose «HTML tag». Google shows a line like "
+        "`<meta name=\"google-site-verification\" content=\"AbC123...\">`. Copy only the code between the quotes "
+        "after `content=`.",
+        "On GitHub, open `_config.yml`, find the line `google_site_verification: \"\"` and paste the code between "
+        "the quotes, for example `google_site_verification: \"AbC123...\"`. Save (see 1.3).",
+        "Wait until «Actions» is green (see 1.4) and click «Verify» in Search Console.",
+    ])
+    b.box("Do not delete the `google_site_verification` line later. Google checks it from time to time; without it, "
+          "access to Search Console is lost.", "warn")
+    b.h2("7.2 Submitting the sitemap and requesting indexing")
+    b.steps([
+        "In the menu on the left, «Sitemaps»: enter `sitemap.xml` and click «Submit». The sitemap is created "
+        "automatically and contains all pages in all three languages.",
+        "In the bar at the top («Inspect any URL»), enter the address of the homepage and click «Request indexing». "
+        "Do the same for the most important pages, for example `/en/`, `/fr/` and `/tours/`.",
+        "Now you have to wait: the website usually appears on Google after a few days to two weeks. To check, "
+        "search Google for `site:kampuntin-maikiuants.github.io`.",
+    ])
+    b.box("To give another person access: «Settings» › «Users and permissions» › «Add user».")
+    b.h2("7.3 Links from other websites")
+    b.p("Google trusts a website more when other websites link to it. So it is worth putting the address "
+        "everywhere:")
+    b.bullets([
+        "On the Facebook pages («Website» field) and in the Instagram bio.",
+        "On the WWOOF profile and on the Raíces website.",
+        "On flyers and in email signatures.",
+        "Optional: a Google Maps profile («Google Business Profile») for Kampuntin in Maikiuants, with the address "
+        "of the website. Then a map also appears when someone searches for «Kampuntin».",
+    ])
+    b.h2("7.4 Bing and other search engines")
+    b.p("At **bing.com/webmasters** you can import the website from Google Search Console with one click (the "
+        "option to import from Google Search Console). This way the website also reaches Bing, DuckDuckGo, Ecosia "
+        "and Yahoo.")
+
+    b.h1("8. If something goes wrong")
     b.table(["Problem", "What to do"], [
         ["The website doesn't change", "Wait three minutes and reload with Ctrl + F5. Check the «Actions» tab: "
                                        "yellow (working), green (done) or red (error)?"],
@@ -1081,6 +1174,7 @@ def en(b):
         ["Videos", "`_data/videos.yml` and `assets/video`", "GitHub"],
         ["Volunteer story", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Own domain", "Domain provider (DNS) and «Settings» › «Pages»", "Provider and GitHub"],
+        ["Getting found on Google", "Search Console and `_config.yml` › `google_site_verification`", "Google and GitHub"],
     ], [.36, .44, .20])
 
 

@@ -137,6 +137,7 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - [ ] **Pages CMS** – _Knopf-Namen („Save“, Plus-Knopf) nicht live geprüft; Kapitel 2.2 einmal selbst durchgehen_
 - [ ] **Facebook-Import** – _funktioniert nur mit Facebook-Seiten; die Links Kampuntin/Maikiuants (`profile.php?id=…`) prüfen, ob es Seiten oder Profile sind_
 - [ ] **Eigene Domain** – _DNS-Werte und Menünamen nach meinem Wissen, vor dem Einrichten mit der GitHub-Hilfe abgleichen_
+- [ ] **Neues Kapitel 7 „Aparecer en Google“** – _Menünamen der Search Console nach meinem Wissen; beim ersten Einrichten einmal abgleichen_
 - [ ] **Kontakt für Hilfe** – _„Jesko Dorner · jesko.dorner@gmail.com“ – soll das so bleiben?_
 
 ---

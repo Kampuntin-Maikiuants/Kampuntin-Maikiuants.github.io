@@ -3,7 +3,8 @@
 
 hero:
   eyebrow: Amazonía ecuatoriana · Morona Santiago
-  title: Kampuntin Maikiuants
+  # Offizieller Name der Organisation (bleibt in allen Sprachen spanisch)
+  title: "Organización Comunitaria de Servicios Turísticos Kampuntin – Selva mi destino"
   lead: >-
     Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o
     como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la
