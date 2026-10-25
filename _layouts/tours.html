@@ -49,7 +49,7 @@ layout: default
       <a class="card card--link trip-card" href="#{{ k }}">
         <p class="trip-card__when">{{ tr.when }}</p>
         <h3>{{ tr.name }}</h3>
-        <p class="trip-card__meta">{{ tr.days }} · {{ tr.amount }} {{ t.price.per }}</p>
+        <p class="trip-card__meta">{{ tr.days }} · {% if tr.amount %}{{ tr.amount }} {{ t.price.per }}{% else %}{{ t.price.on_request }}{% endif %}</p>
         <p>{{ tr.text }}</p>
         <span class="link-arrow">{{ tr.link }} ↓</span>
       </a>
@@ -70,7 +70,7 @@ layout: default
       {%- endfor %}
     </div>
     {%- if t.school_trips %}
-    <p class="trip-note"><strong>{{ t.school_trips.title }}</strong> {{ t.school_trips.text }} <a href="{{ t.school_trips.url }}" target="_blank" rel="noopener">{{ t.school_trips.link }} ↗</a> · <a href="{{ contact_page.url | relative_url }}">{{ ui.person_contact }} →</a></p>
+    <p class="trip-note"><strong>{{ t.school_trips.title }}</strong> {{ t.school_trips.text }}{% if t.school_trips.url %} <a href="{{ t.school_trips.url }}" target="_blank" rel="noopener">{{ t.school_trips.link }} ↗</a> ·{% endif %} <a href="{{ contact_page.url | relative_url }}">{{ ui.person_contact }} →</a></p>
     {%- endif %}
   </div>
 </section>
@@ -99,9 +99,13 @@ layout: default
       <h2 class="section-title">{{ t.price.title }}</h2>
       {%- for k in trip_keys %}
         {%- assign tr = t.trips[k] %}
-      <p class="price price--trip"><span class="price__name">{{ tr.name }} · {{ tr.days }}</span><strong>{{ tr.amount }}</strong> <span>{{ t.price.per }}</span></p>
+      {%- comment -%} Ohne „amount“ steht „Precio a consultar“ (price.on_request) {%- endcomment %}
+      <p class="price price--trip{% unless tr.amount %} price--request{% endunless %}"><span class="price__name">{{ tr.name }} · {{ tr.days }}</span>{% if tr.amount %}<strong>{{ tr.amount }}</strong> <span>{{ t.price.per }}</span>{% else %}<strong>{{ t.price.on_request }}</strong>{% endif %}</p>
       {%- endfor %}
       <p>{{ t.price.text }}</p>
+      {%- if t.price.button %}
+      <p><a class="btn ghost" href="{{ contact_page.url | relative_url }}">{{ t.price.button }}</a></p>
+      {%- endif %}
     </div>
     <div>
       <h2 class="section-title">{{ t.dates.title }}</h2>

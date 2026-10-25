@@ -89,8 +89,7 @@ location:
   text: >-
     Maikiuants is located in the province of **Morona Santiago** in Ecuador's southern Amazon, in
     the Cordillera del Cóndor. The road to Maikiuants starts in **Limón Indanza**; from there it
-    takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start in
-    Cuenca and from there we travel together to the community.
+    takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start in Limón Indanza and from there we travel together to the community; the best way to get to Limón Indanza is via Cuenca.
     The road is not shown on Google Maps, but it is on OpenStreetMap.
   coords: 3°07'10.2" S · 78°15'56.4" W
   map_link: View on OpenStreetMap
@@ -108,7 +107,7 @@ explore:
   items:
     - ref: tours
       title: Tours
-      text: "Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey."
+      text: "Two journeys from Limón Indanza for groups of up to 12 people: the 8-day spiritual journey and the 10-day Arutam journey."
     - ref: volunteering
       title: Volunteering
       text: Gardening, agroforestry, mingas and construction, living in a traditional jea in the forest.
@@ -120,7 +119,7 @@ explore:
 tour_popup:
   eyebrow: Next tour
   text: >-
-    A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+    Live with the Shuar community of Maikiuants, all-inclusive from Limón Indanza.
   per: per person
   button: See the tour
   close: Close

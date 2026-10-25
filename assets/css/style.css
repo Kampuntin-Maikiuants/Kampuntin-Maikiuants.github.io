@@ -893,6 +893,7 @@ img.wm { object-position: 0 100% !important; }
 .trip-note a { font-weight: 600; }
 .price--trip { margin: .4rem 0 1.1rem; }
 .price .price__name { display: block; font-weight: 650; color: var(--on-dark); }
+.price--request strong { font-size: clamp(1.35rem, 2.4vw, 1.6rem); }
 .dates__trip { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #f0c7a4; }
 .tour-popup__trip { margin: -.15rem 0 .3rem; font-size: .8rem; font-weight: 700; color: var(--clay-dark); }
 .partner-trip__links { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }

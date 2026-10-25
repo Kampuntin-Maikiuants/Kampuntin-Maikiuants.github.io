@@ -12,7 +12,7 @@ hero:
   image_alt: Visitors walking through the rainforest with a guide
 
 facts:
-  - { text: "11 or 22 days" }
+  - { text: "8 or 10 days" }
   - { text: "12 people at most" }
   - { text: "Jea: traditional accommodation" }
   - { text: "Shared meals" }
@@ -21,41 +21,36 @@ facts:
 
 # The two journeys. Dates are in _data/tour_dates.yml (field trip: espiritual or arutam).
 trips_title: Two journeys
-trips_intro: Both journeys are organised by Raíces and start and end in Cuenca. Choose the one that suits you best.
+trips_intro: "Both journeys start and end in Limón Indanza; the best way to get there is via Cuenca. Choose the one that suits you best."
 trips:
   espiritual:
     name: Spiritual journey
-    days: 11 days
+    days: 8 days
     when: April – May 2027
-    amount: "€2,490"
     text: >-
       An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal
       plants, traditional rituals and the walk to the sacred Arutam waterfall.
     link: See the programme
   arutam:
     name: Arutam journey
-    days: 22 days
+    days: 10 days
     when: August – September 2027
-    amount: "€3,890"
     text: >-
-      The big adventure: about ten days with the community in Maikiuants, the expedition to the
-      Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
+      Ten days with the community in Maikiuants: rainforest walks to waterfalls and caves, Shuar culture, pottery, medicinal plants, the sacred waterfall and a night in the rainforest.
     link: See the programme
 
 
 # Note below the two journeys: school trips on request
 school_trips:
   title: "School trips:"
-  text: Raíces also organises 20-day journeys for school groups on request.
-  link: More information on raices.be
-  url: "https://www.raices.be/voyages-etudiants/"
+  text: "We also organise 10-day journeys for school groups on request."
 
 intro:
   title: About the tour
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Community members sharing a drink and handicrafts with visitors
   text: |-
-    The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community.
+    The tours are organised by **Kampuntin**, the community tourism organisation of Maikiuants: by us, together with the whole community.
 
     The community welcomes you for a **cultural and spiritual exchange**. Together with people from the
     community you share the accommodation in a traditional jea, cook and eat together and learn
@@ -75,12 +70,11 @@ life:
 
 
 experience:
-  title: "The Arutam journey: 22 days"
-  intro: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-  arrival_title: "Arrival in Cuenca"
-  arrival: >-
-    The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
-  activities_title: "About ten days in Maikiuants"
+  title: "The Arutam journey: 10 days"
+  intro: "Ten days in the Shuar territory of Maikiuants: rainforest, waterfalls, culture and community life."
+  arrival_title: "Arrival in Limón Indanza"
+  arrival: "The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants, where the community welcomes you with dance and celebration."
+  activities_title: "In Maikiuants"
   activities_note: >-
     The activities depend on the season and the community's schedule. We are happy to hear and include your wishes and interests.
   activities:
@@ -99,18 +93,15 @@ experience:
     - "Tasting food from the rainforest"
     - "The Río Coangos and the stories of the pre-Hispanic axes"
     - "Building a shelter (ayamte) and spending the night in the rainforest"
-  departure_title: "Farewell, expedition and return"
-  departure: >-
-    At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
+  departure_title: "Farewell and return"
+  departure: "At the end we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. On day 10 we travel back together to Limón Indanza."
 
-# Spiritual journey (11 days) – same structure as experience
+# Spiritual journey (8 days) – same structure as experience
 spiritual:
-  title: "The spiritual journey: 11 days"
-  intro: A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-  arrival_title: Arrival in Cuenca
-  arrival: >-
-    We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and
-    take part in a spiritual cleansing; then we enter Shuar territory.
+  title: "The spiritual journey: 8 days"
+  intro: "A shorter journey focused on Shuar spirituality and the connection with nature."
+  arrival_title: "Arrival in Limón Indanza"
+  arrival: "The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants and enter Shuar territory."
   activities_title: Ceremonies in Maikiuants
   activities:
     - "Harvesting chonta in the gardens with the community"
@@ -122,15 +113,14 @@ spiritual:
   activities_note: >-
     Before the journey we explain in detail how the ceremonies work and how to prepare.
   departure_title: Closing and return
-  departure: >-
-    At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
+  departure: "At the end we share and reflect on the experience together. On day 8 we return to Limón Indanza."
 
 included:
   title: "Included"
   items:
-    - "All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe)"
-    - "Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos"
-    - "All meals from day 2; in Maikiuants prepared by community cooks"
+    - "Transport from Limón Indanza to Maikiuants and back"
+    - "Accommodation in the jea in Maikiuants (bunk beds or a place for your own hammock) and nights in the rainforest"
+    - "All meals in Maikiuants, prepared by community cooks"
     - "Our international guide and translator, plus community guides"
     - "All programme activities and ceremonies"
     - "Solar-powered kitchen and electricity"
@@ -142,10 +132,9 @@ included:
 not_included:
   title: "Not included"
   items:
-    - "Flights to Cuenca and back (we are happy to advise you)"
+    - "Travel to Limón Indanza and back, including flights (we are happy to advise you; the best route is via Cuenca)"
     - "Travel insurance (we are happy to advise you here too)"
-    - "Taxi between the airport and the hotel in Cuenca (arrival and departure)"
-    - "Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza"
+    - "Accommodation and meals before and after the tour"
 
 
 packing:
@@ -168,15 +157,15 @@ packing:
 price:
   title: Price
   per: per person
+  # Ohne „amount“ bei den Reisen steht „on_request“ statt eines Preises
+  on_request: "Price on request"
+  button: "Ask for the price"
   text: >-
-    All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides,
-    translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We
-    pay local guides and cooks, buy food within the community and support Maikiuants
-    financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
+    Write to us and we will send you the price of your journey with all the details. It includes accommodation, meals, transport from Limón Indanza, guides and activities. We pay local guides and cooks, buy food within the community and support Maikiuants financially. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
 
 dates:
   title: Upcoming dates
-  intro: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
+  intro: Groups of up to 12 people. Both journeys start and end in Limón Indanza. Exact dates will be confirmed soon – get in touch if you're interested.
   focus_title: "Focus 2027: spirituality"
   focus: >-
     In 2027 our tours focus on spirituality: finding yourself, valuing every moment of life,
@@ -190,9 +179,9 @@ booking:
     - title: "Write to us"
       text: "Tell us who you are, how many people are coming and which dates you are interested in."
     - title: "Booking"
-      text: "Bookings are made through Raíces, which organises the journeys. Raíces confirms your place and arranges the dates, payment and all other details with you."
+      text: "We send you the price, confirm your place and arrange the dates, payment and all other details with you."
     - title: "Get ready"
-      text: "Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you."
+      text: "We help you plan your trip to Limón Indanza. We look forward to welcoming you in Maikiuants!"
 
 
 past:
@@ -206,9 +195,11 @@ faq:
     - q: Do I need to be very fit?
       a: >-
         Good basic fitness is enough. We walk on muddy trails with climbs and river crossings,
-        sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope
-        descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find
+        sometimes for several hours. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find
         alternatives.
+    - q: How do I get to Limón Indanza?
+      a: >-
+        The best way is via Cuenca: buses run from there to Limón Indanza. We are happy to help you plan the journey.
     - q: Is there electricity, phone signal and internet?
       a: >-
         The kitchen runs on solar power and you can charge your phone there. There's no wifi and no
@@ -221,14 +212,3 @@ faq:
     - q: Is it safe?
       a: >-
         The Maikiuants community is built on trust, and moving around inside the community is safe. On excursions and in the forest you are always with community members who know the region well.
-
-# Info box below "How to book": detailed programme on the Raíces website.
-# Delete the whole block to hide the box.
-partner_trip:
-  title: "The day-by-day programme"
-  text: >-
-    Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of
-    both journeys on its website.
-  links:
-    - { label: "Spiritual journey", url: "https://www.raices.be/voyages-spirituels/" }
-    - { label: "Arutam journey", url: "https://www.raices.be/voyages-tout-public/" }

@@ -12,7 +12,7 @@ hero:
   image_alt: Visitantes caminando con un guía por la selva
 
 facts:
-  - { text: "11 o 22 días" }
+  - { text: "8 o 10 días" }
   - { text: "12 personas como máximo" }
   - { text: "Jea: alojamiento tradicional" }
   - { text: "Comidas compartidas" }
@@ -21,41 +21,36 @@ facts:
 
 # Die beiden Reisen. Termine stehen in _data/tour_dates.yml (Feld trip: espiritual oder arutam).
 trips_title: Dos viajes
-trips_intro: Los dos viajes los organiza Raíces y empiezan y terminan en Cuenca. Elige el que mejor te va.
+trips_intro: "Los dos viajes empiezan y terminan en Limón Indanza; la mejor forma de llegar es desde Cuenca. Elige el que mejor te va."
 trips:
   espiritual:
     name: Viaje espiritual
-    days: 11 días
+    days: 8 días
     when: Abril – mayo 2027
-    amount: "2.490 €"
     text: >-
       Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar),
       plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
     link: Ver el programa
   arutam:
     name: Viaje Arutam
-    days: 22 días
+    days: 10 días
     when: Agosto – septiembre 2027
-    amount: "3.890 €"
     text: >-
-      La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de
-      los Tayos y un viaje en canoa a comunidades shuar del Perú.
+      Diez días con la comunidad en Maikiuants: caminatas por la selva hacia cascadas y cuevas, cultura shuar, cerámica, plantas medicinales, la cascada sagrada y una noche en la selva.
     link: Ver el programa
 
 
 # Hinweis unter den beiden Reisen: Schülerreisen auf Anfrage
 school_trips:
   title: "Viajes para escuelas:"
-  text: Raíces también organiza viajes de 20 días para grupos escolares, a petición.
-  link: Más información en raices.be
-  url: "https://www.raices.be/voyages-etudiants/"
+  text: "También organizamos viajes de 10 días para grupos escolares, a petición."
 
 intro:
   title: Sobre el tour
   image: "/assets/img/fotos/cultura.jpg"
   image_alt: Miembros de la comunidad compartiendo bebida y artesanía con visitantes
   text: |-
-    Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad.
+    Los tours los organiza **Kampuntin**, la organización de turismo comunitario de Maikiuants: nosotros mismos, junto con toda la comunidad.
 
     La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad
     compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la
@@ -76,12 +71,11 @@ life:
 
 
 experience:
-  title: "El viaje Arutam: 22 días"
-  intro: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-  arrival_title: "Llegada a Cuenca"
-  arrival: >-
-    El viaje empieza en Cuenca, a 2.800 metros. Tras un día libre para aclimatarte, conocemos el centro histórico, el mercado local y el museo Pumapungo. En bus viajamos a Limón Indanza, donde un chamán shuar guía una ceremonia de purificación, y desde allí seguimos en 4×4 por la Cordillera del Cóndor hasta Maikiuants, donde la comunidad nos recibe con baile y fiesta.
-  activities_title: "Unos diez días en Maikiuants"
+  title: "El viaje Arutam: 10 días"
+  intro: "Diez días en el territorio shuar de Maikiuants: selva, cascadas, cultura y vida en comunidad."
+  arrival_title: "Llegada a Limón Indanza"
+  arrival: "El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants, donde la comunidad te recibe con baile y fiesta."
+  activities_title: "En Maikiuants"
   activities_note: >-
     Las actividades dependen de la temporada y del calendario de la comunidad. Con gusto escuchamos tus deseos e intereses y los incluimos.
   activities:
@@ -100,18 +94,15 @@ experience:
     - "Probar comidas de la selva"
     - "El río Coangos y las historias de las hachas prehispánicas"
     - "Construir un refugio (ayamte) y pasar la noche en la selva"
-  departure_title: "Despedida, expedición y regreso"
-  departure: >-
-    Al final de la estancia en Maikiuants nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. Después viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
+  departure_title: "Despedida y regreso"
+  departure: "Al final nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. El día 10 regresamos juntos a Limón Indanza."
 
-# Viaje espiritual (11 días) – gleicher Aufbau wie experience
+# Viaje espiritual (8 días) – gleicher Aufbau wie experience
 spiritual:
-  title: "El viaje espiritual: 11 días"
-  intro: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-  arrival_title: Llegada a Cuenca
-  arrival: >-
-    Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y
-    hacemos una limpieza espiritual; luego entramos al territorio shuar.
+  title: "El viaje espiritual: 8 días"
+  intro: "Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza."
+  arrival_title: "Llegada a Limón Indanza"
+  arrival: "El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants y entramos al territorio shuar."
   activities_title: Ceremonias en Maikiuants
   activities:
     - "Cosechar la chonta en las huertas con la comunidad"
@@ -123,15 +114,14 @@ spiritual:
   activities_note: >-
     Antes del viaje te explicamos con detalle cómo se desarrollan las ceremonias y cómo prepararte.
   departure_title: Cierre y regreso
-  departure: >-
-    Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
+  departure: "Al final compartimos e interpretamos juntos lo vivido. El día 8 regresamos a Limón Indanza."
 
 included:
   title: "Incluido"
   items:
-    - "Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional)"
-    - "Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos"
-    - "Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad"
+    - "Traslado de Limón Indanza a Maikiuants y de regreso"
+    - "Alojamiento en la jea en Maikiuants (literas o un lugar para tu propia hamaca) y noches en la selva"
+    - "Todas las comidas en Maikiuants, preparadas por las cocineras de la comunidad"
     - "Nuestro guía internacional y traductor, y guías de la comunidad"
     - "Todas las actividades y ceremonias del programa"
     - "Cocina con energía solar y electricidad"
@@ -143,10 +133,9 @@ included:
 not_included:
   title: "No incluido"
   items:
-    - "Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)"
+    - "El viaje hasta Limón Indanza y de regreso, también los vuelos (con gusto te aconsejamos; la mejor ruta es por Cuenca)"
     - "Seguro de viaje (también aquí te aconsejamos con gusto)"
-    - "Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)"
-    - "Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza"
+    - "Alojamiento y comidas antes y después del tour"
 
 
 packing:
@@ -169,16 +158,15 @@ packing:
 price:
   title: Precio
   per: por persona
+  # Ohne „amount“ bei den Reisen steht „on_request“ statt eines Preises
+  on_request: "Precio a consultar"
+  button: "Consultar precio"
   text: >-
-    Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías,
-    intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y
-    apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos
-    personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te
-    aconsejamos cómo organizar eventos para recaudarlos.
+    Escríbenos y te enviamos el precio de tu viaje con todos los detalles. Incluye alojamiento, comidas, el traslado desde Limón Indanza, guías y actividades. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
 
 dates:
   title: Próximas fechas
-  intro: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  intro: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Limón Indanza. Las fechas exactas se confirman pronto; escríbenos si te interesa.
   focus_title: "Enfoque 2027: espiritualidad"
   focus: >-
     En 2027 nuestros tours se centran en la espiritualidad: encontrarse a uno mismo, valorar cada
@@ -192,9 +180,9 @@ booking:
     - title: "Escríbenos"
       text: "Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan."
     - title: "Reserva"
-      text: "La reserva se hace a través de Raíces, que organiza los viajes. Raíces confirma tu plaza y acuerda contigo las fechas, el pago y todos los detalles."
+      text: "Te enviamos el precio, confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles."
     - title: "Prepárate"
-      text: "Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría."
+      text: "Te ayudamos a planear el viaje hasta Limón Indanza. ¡Nos alegra recibirte en Maikiuants!"
 
 
 past:
@@ -208,29 +196,19 @@ faq:
     - q: ¿Necesito una buena condición física?
       a: >-
         Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces
-        de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros
-        con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos
+        de río, a veces durante varias horas. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos
         alternativas.
+    - q: ¿Cómo llego a Limón Indanza?
+      a: >-
+        La mejor forma es por Cuenca: desde allí salen buses hacia Limón Indanza. Con gusto te ayudamos a planear el viaje.
     - q: ¿Hay electricidad, señal de teléfono e internet?
       a: >-
         La cocina funciona con energía solar y ahí puedes cargar tu teléfono. En la jea no hay wifi
         ni señal de teléfono, pero en el pueblo, a unos 35 minutos a pie, hay wifi gratis.
     - q: ¿Qué idiomas se hablan?
       a: >-
-        En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te
-        acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de
+        En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de
         entendernos.
     - q: ¿Es seguro?
       a: >-
         La comunidad de Maikiuants se basa en la confianza, y moverse dentro de la comunidad es seguro. En las excursiones y en la selva siempre vas con miembros de la comunidad que conocen bien la región.
-
-# Hinweis-Box unter „Cómo reservar“: ausführliches Programm bei Raíces (Link auf deren Website).
-# Ganz entfernen, wenn die Box nicht mehr erscheinen soll.
-partner_trip:
-  title: "El programa día a día"
-  text: >-
-    Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado
-    día por día de los dos viajes.
-  links:
-    - { label: "Viaje espiritual", url: "https://www.raices.be/voyages-spirituels/" }
-    - { label: "Viaje Arutam", url: "https://www.raices.be/voyages-tout-public/" }

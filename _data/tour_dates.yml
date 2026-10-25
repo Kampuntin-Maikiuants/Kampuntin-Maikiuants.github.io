@@ -8,8 +8,8 @@
 # Noch ungefähres Datum: zusätzlich "label" (Zeitraum, z. B. „Abril 2027“) und optional "note"
 # (kleiner Hinweis darunter, z. B. „Fecha exacta por confirmar“) – dann wird der Text statt des Datums gezeigt.
 # "start" dient dann nur zum Sortieren und Ausblenden vergangener Termine.
-# trip: welche Reise (espiritual = Viaje espiritual, 11 Tage · arutam = Viaje Arutam, 22 Tage).
-#       Name, Dauer und Preis kommen aus trips in _data/{es,en,fr}/tours.yml.
+# trip: welche Reise (espiritual = Viaje espiritual, 8 Tage · arutam = Viaje Arutam, 10 Tage).
+#       Name und Dauer kommen aus trips in _data/{es,en,fr}/tours.yml. Ohne „amount“ dort steht „Precio a consultar“.
 
 dates:
   - start: 2027-04-15

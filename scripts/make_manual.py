@@ -360,16 +360,15 @@ def es(b):
         "No borres los espacios al principio de las líneas. La sangría indica qué pertenece a qué.",
         "Usa espacios, nunca la tecla Tab.",
         "Si un texto contiene dos puntos seguidos de un espacio, ponlo entre comillas: "
-        "`\"Viaje Arutam: 22 días\"`.",
+        "`\"Viaje Arutam: 10 días\"`.",
         "Para agregar algo nuevo, copia un bloque que ya existe, pégalo justo debajo y cambia los textos.",
         "Las líneas que empiezan con `#` son notas para quien edita. No aparecen en la página.",
     ])
 
     b.h1("2. Tours: fechas, plazas y aviso en la página de inicio")
     b.h2("2.1 Cómo funciona")
-    b.p("Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). Los viajes son de Raíces, que "
-        "organiza el viaje y las reservas; en Maikiuants, Kampuntin se encarga de la organización y el acompañamiento. El nombre, la duración, el precio y la "
-        "descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué "
+    b.p("Hay dos viajes: el **Viaje espiritual** (8 días) y el **Viaje Arutam** (10 días). Los dos empiezan y terminan "
+        "en Limón Indanza. El nombre, la duración y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué "
         "viaje pertenece.")
     b.img("viajes", "La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.")
     b.bullets([
@@ -390,7 +389,7 @@ def es(b):
     b.table(["Campo", "Qué escribir"], [
         ["Inicio", "Primer día del viaje (exacto o aproximado)."],
         ["Fin", "Último día del viaje."],
-        ["Viaje", "Viaje espiritual (11 días) o Viaje Arutam (22 días)."],
+        ["Viaje", "Viaje espiritual (8 días) o Viaje Arutam (10 días)."],
         ["Texto en vez de la fecha", "Solo si la fecha aún no es exacta, por ejemplo «Abril / mayo 2027». "
                                      "En español, inglés y francés."],
         ["Nota pequeña", "Opcional, una línea debajo de la fecha, por ejemplo «Fecha exacta por confirmar»."],
@@ -428,11 +427,14 @@ def es(b):
     b.steps([
         "En GitHub abre `_data/es/tours.yml` y haz clic en el lápiz.",
         "Busca `trips:`. Debajo están `espiritual` y `arutam`.",
-        "Cambia `amount` (precio), `days` (duración), `when` (temporada) o `text` (descripción corta).",
+        "Cambia `days` (duración), `when` (temporada) o `text` (descripción corta).",
         "Haz lo mismo en `_data/en/tours.yml` y `_data/fr/tours.yml`.",
         "Guarda con «Commit changes».",
     ])
     b.code(block("_data/es/tours.yml", r"^  espiritual:", r"^  arutam:"), "_data/es/tours.yml (fragmento)")
+    b.box("Hoy la página no muestra precios: en su lugar dice «Precio a consultar» (el texto está en `price` › "
+          "`on_request`). Para mostrar un precio, agrega debajo de `days` una línea como `amount: \"1.200 USD\"`. "
+          "Para volver a «Precio a consultar», borra esa línea.")
     b.p("El programa detallado (llegada, actividades y regreso) está en el mismo archivo: en `spiritual` para el "
         "viaje espiritual y en `experience` para el viaje Arutam.")
     b.box("Un viaje completamente nuevo (un tercer tipo de viaje) necesita un pequeño cambio técnico en la página. "
@@ -702,7 +704,7 @@ def es(b):
         "todas partes:")
     b.bullets([
         "En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.",
-        "En el perfil de WWOOF y en la página de Raíces.",
+        "En el perfil de WWOOF y en las páginas de organizaciones amigas.",
         "En los volantes y en la firma de los correos.",
         "Opcional: un perfil en Google Maps («Perfil de Empresa en Google») para Kampuntin en Maikiuants, con la "
         "dirección de la página. Así aparece también un mapa cuando alguien busca «Kampuntin».",
@@ -802,10 +804,8 @@ def en(b):
 
     b.h1("2. Tours: dates, places and the homepage notice")
     b.h2("2.1 How it works")
-    b.p("There are two journeys: the **spiritual journey** (11 days) and the **Arutam journey** (22 days). "
-        "The journeys are run by Raíces, which organises the journey and the bookings; in Maikiuants, Kampuntin takes care of the "
-        "organisation and support. The name, duration, "
-        "price and description of each journey are stored once. The dates are stored separately, and each date "
+    b.p("There are two journeys: the **spiritual journey** (8 days) and the **Arutam journey** (10 days). "
+        "Both start and end in Limón Indanza. The name, duration and description of each journey are stored once. The dates are stored separately, and each date "
         "says which journey it belongs to.")
     b.img("viajes", "The «Two journeys» section on the tours page. The programmes can be opened below.")
     b.bullets([
@@ -827,7 +827,7 @@ def en(b):
     b.table(["Field (Spanish label)", "What to enter"], [
         ["Inicio (start)", "First day of the journey (exact or approximate)."],
         ["Fin (end)", "Last day of the journey."],
-        ["Viaje (journey)", "Viaje espiritual (11 días) or Viaje Arutam (22 días)."],
+        ["Viaje (journey)", "Viaje espiritual (8 días) or Viaje Arutam (10 días)."],
         ["Texto en vez de la fecha (text instead of the date)",
          "Only if the date is not fixed yet, for example «April / May 2027». In Spanish, English and French."],
         ["Nota pequeña (small note)", "Optional, a line below the date, for example «Exact date to be confirmed»."],
@@ -863,11 +863,14 @@ def en(b):
     b.steps([
         "On GitHub, open `_data/en/tours.yml` and click the pencil.",
         "Find `trips:`. Below it are `espiritual` and `arutam`.",
-        "Change `amount` (price), `days` (duration), `when` (season) or `text` (short description).",
+        "Change `days` (duration), `when` (season) or `text` (short description).",
         "Do the same in `_data/es/tours.yml` and `_data/fr/tours.yml`.",
         "Save with «Commit changes».",
     ])
     b.code(block("_data/en/tours.yml", r"^  espiritual:", r"^  arutam:"), "_data/en/tours.yml (excerpt)")
+    b.box("At the moment the website shows no prices: instead it says «Price on request» (the text is in `price` › "
+          "`on_request`). To show a price, add a line such as `amount: \"1,200 USD\"` below `days`. To go back to "
+          "«Price on request», delete that line.")
     b.p("The detailed programme (arrival, activities and return) is in the same file: in `spiritual` for the "
         "spiritual journey and in `experience` for the Arutam journey.")
     b.box("A completely new journey (a third kind of journey) needs a small technical change to the website. For "
@@ -1133,7 +1136,7 @@ def en(b):
         "everywhere:")
     b.bullets([
         "On the Facebook pages («Website» field) and in the Instagram bio.",
-        "On the WWOOF profile and on the Raíces website.",
+        "On the WWOOF profile and on the websites of partner organisations.",
         "On flyers and in email signatures.",
         "Optional: a Google Maps profile («Google Business Profile») for Kampuntin in Maikiuants, with the address "
         "of the website. Then a map also appears when someone searches for «Kampuntin».",

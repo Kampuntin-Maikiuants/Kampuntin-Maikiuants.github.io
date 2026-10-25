@@ -34,7 +34,7 @@
     {%- if next_trip %}<p class="tour-popup__trip">{{ next_trip.name }} · {{ next_trip.days }}</p>{% endif %}
     {%- if next_note != "" %}<p class="tour-popup__note">{{ next_note }}</p>{% endif %}
     <p class="tour-popup__text">{{ p.text }}</p>
-    <p class="tour-popup__meta">{% include tour-badge.html date=next %} {% if next_trip %}<span>{{ next_trip.amount }} {{ p.per }}</span>{% endif %}</p>
+    <p class="tour-popup__meta">{% include tour-badge.html date=next %} {% if next_trip %}<span>{% if next_trip.amount %}{{ next_trip.amount }} {{ p.per }}{% else %}{{ tours.price.on_request }}{% endif %}</span>{% endif %}</p>
     <a class="btn tour-popup__btn" href="{{ tours_page.url | relative_url }}#fechas">{{ p.button }}</a>
   </div>
 </aside>

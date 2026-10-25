@@ -2,73 +2,76 @@
 
 Die Datei gehört nicht zur Website und kann nach dem Gegenlesen gelöscht werden.
 
-- **Teil A** (40 Punkte zum Abhaken): alles Neue, das nicht 1:1 von Juliens Seite stammt – also meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
+- **Teil A** (43 Punkte zum Abhaken): meine eigenen Formulierungen, Zusammenfassungen und Ableitungen. Das zuerst prüfen.
 - **Teil B**: zum Nachschlagen alle Texte, die seit dem Gespräch mit Freddy neu sind oder geändert wurden, jeweils auf Spanisch, Englisch und Französisch. ¶ markiert einen neuen Absatz.
 - **Ganz unten**: offene Fragen.
 
-## A. Neu und nicht 1:1 von raices.be – bitte zuerst prüfen
+## A. Selbst formuliert oder abgeleitet – bitte zuerst prüfen
 
-Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefasst oder abgeleitet habe. Was sinngemäß direkt von Juliens Seite kommt (Termine, Preise, Dauer, Tagesprogramme, nicht inklusive Leistungen, Schülerreise 20 Tage, Juliens Lebenslauf), steht hier nicht. Die englischen und französischen Fassungen sind alle von mir übersetzt; zum Prüfen reicht meist Spanisch, EN steht zum Vergleich dabei. Abhaken: `[ ]` → `[x]`.
+Stand: 25. Oktober 2026. Die Touren sind jetzt Kampuntins eigene Touren: 8 und 10 Tage ab Limón Indanza, Preise auf Anfrage; Raíces kommt auf der Tour-Seite nicht mehr vor. Hier steht, was ich selbst formuliert, zusammengefasst oder abgeleitet habe. Die englischen und französischen Fassungen sind alle von mir übersetzt; zum Prüfen reicht meist Spanisch, EN steht zum Vergleich dabei. Abhaken: `[ ]` → `[x]`.
 
 ### Tour-Seite
 
-- [ ] **Karte „Viaje espiritual“ – Kurzbeschreibung** – _eigene Zusammenfassung des Programms_
+- [ ] **Sobre el tour – erster Absatz** – _neu: Kampuntin organisiert die Touren selbst – meine Formulierung_
+  - ES: Los tours los organiza **Kampuntin**, la organización de turismo comunitario de Maikiuants: nosotros mismos, junto con toda la comunidad.
+  - EN: The tours are organised by **Kampuntin**, the community tourism organisation of Maikiuants: by us, together with the whole community.
+- [ ] **Dos viajes – Einleitung** – _„beste Anreise über Cuenca“ war bei dir mit Fragezeichen – bitte mit Freddy bestätigen_
+  - ES: Los dos viajes empiezan y terminan en Limón Indanza; la mejor forma de llegar es desde Cuenca. Elige el que mejor te va.
+  - EN: Both journeys start and end in Limón Indanza; the best way to get there is via Cuenca. Choose the one that suits you best.
+- [ ] **Karte „Viaje espiritual“ – Kurzbeschreibung** – _eigene Zusammenfassung des Programms (unverändert)_
   - ES: Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
   - EN: An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
-- [ ] **Karte „Viaje Arutam“ – Kurzbeschreibung** – _eigene Zusammenfassung des Programms_
-  - ES: La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
-  - EN: The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
-- [ ] **Viaje espiritual – Einleitung** – _eigene Formulierung_
-  - ES: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-  - EN: A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-- [ ] **Viaje espiritual – Llegada** – _zusammengefasst aus Tag 1–3_
-  - ES: Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y hacemos una limpieza espiritual; luego entramos al territorio shuar.
-  - EN: We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and take part in a spiritual cleansing; then we enter Shuar territory.
+- [ ] **Karte „Viaje Arutam“ – Kurzbeschreibung** – _neu, aus der Aktivitätenliste zusammengefasst_
+  - ES: Diez días con la comunidad en Maikiuants: caminatas por la selva hacia cascadas y cuevas, cultura shuar, cerámica, plantas medicinales, la cascada sagrada y una noche en la selva.
+  - EN: Ten days with the community in Maikiuants: rainforest walks to waterfalls and caves, Shuar culture, pottery, medicinal plants, the sacred waterfall and a night in the rainforest.
+- [ ] **Termine und Zeiträume** – _Abril/mayo (espiritual) und agosto/septiembre (Arutam) stammen noch von den Raíces-Reisen – gelten sie auch für Kampuntins Touren?_
+  - ES: Viaje espiritual: Abril – mayo 2027 · Viaje Arutam: Agosto – septiembre 2027
+  - EN: Spiritual journey: April – May 2027 · Arutam journey: August – September 2027
+- [ ] **Viaje Arutam – Einleitung, Ankunft, Abschied** – _aus dem Maikiuants-Teil der 22-Tage-Reise abgeleitet; Cueva de los Tayos und Peru sind raus; „2,5 Stunden“ aus der Lagebeschreibung_
+  - ES: Diez días en el territorio shuar de Maikiuants: selva, cascadas, cultura y vida en comunidad. / El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants, donde la comunidad te recibe con baile y fiesta. / Al final nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. El día 10 regresamos juntos a Limón Indanza.
+  - EN: Ten days in the Shuar territory of Maikiuants: rainforest, waterfalls, culture and community life. / The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants, where the community welcomes you with dance and celebration. / At the end we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. On day 10 we travel back together to Limón Indanza.
+- [ ] **Viaje Arutam – Aktivitäten** – _unverändert (15 Punkte); Freddy: passen alle in 10 Tage?_
+  - ES: Bienvenida de la comunidad con baile y fiesta · Caminatas por la selva hacia cascadas y cuevas · Historias de los mayores sobre el pueblo shuar · Conocer cómo la comunidad defiende su territorio frente a la minería · Instalar una cámara trampa para observar la fauna · Día de Nunkui: sembrar, plantar y cosechar en las parcelas familiares con cantos anent · Cocinar la cosecha y preparar chicha de yuca · Cerámica con las mujeres de la comunidad: recoger la arcilla, modelar, pintar y cocer · Día de Tsunki: reconocer y recolectar plantas medicinales · Un baño de vapor shuar con plantas medicinales · Caminata a la cascada sagrada y ceremonia sobre la cosmovisión shuar · Tejer la changuina, la canasta tradicional · Probar comidas de la selva · El río Coangos y las historias de las hachas prehispánicas · Construir un refugio (ayamte) y pasar la noche en la selva
+  - EN: Welcome from the community with dance and celebration · Rainforest walks to waterfalls and caves · Stories from the elders about the Shuar people · Learning how the community defends its territory against mining · Setting up a camera trap to observe wildlife · Nunkui day: sowing, planting and harvesting in the family fields with anent songs · Cooking the harvest and making cassava chicha · Pottery with the women of the community: collecting clay, shaping, painting and firing · Tsunki day: recognising and collecting medicinal plants · A Shuar steam bath with medicinal plants · A walk to the sacred waterfall and a ceremony about the Shuar worldview · Weaving the changuina, the traditional basket · Tasting food from the rainforest · The Río Coangos and the stories of the pre-Hispanic axes · Building a shelter (ayamte) and spending the night in the rainforest
+- [ ] **Viaje espiritual – Einleitung, Ankunft, Abschluss** – _Museum und Reinigung in Cuenca sind raus_
+  - ES: Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. / El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants y entramos al territorio shuar. / Al final compartimos e interpretamos juntos lo vivido. El día 8 regresamos a Limón Indanza.
+  - EN: A shorter journey focused on Shuar spirituality and the connection with nature. / The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants and enter Shuar territory. / At the end we share and reflect on the experience together. On day 8 we return to Limón Indanza.
 - [ ] **Viaje espiritual – Ceremonias (Liste)** – _bewusst allgemein formuliert (Fasten ja, heilige Pflanzen nicht namentlich) – passt das so?_
   - ES: Cosechar la chonta en las huertas con la comunidad · La ceremonia de la chonta: el Año Nuevo shuar, con chicha de chonta · Plantas medicinales y baño de vapor shuar · Una ceremonia ancestral guiada por los shuar, con un tiempo de ayuno · La caminata a la cascada sagrada de Arutam, con cantos sagrados (anent) · Una noche en la selva, en un refugio construido con materiales del bosque
   - EN: Harvesting chonta in the gardens with the community · The chonta ceremony: the Shuar New Year, with chonta chicha · Medicinal plants and a Shuar steam bath · An ancestral ceremony guided by the Shuar, with a time of fasting · The walk to the sacred Arutam waterfall, with sacred songs (anent) · A night in the rainforest in a shelter built from forest materials
-- [ ] **Viaje espiritual – Hinweis unter der Liste** – _von mir ergänzt, steht nicht bei Raíces – stimmt das so?_
+- [ ] **Viaje espiritual – Hinweis unter der Liste** – _von mir ergänzt – stimmt das so?_
   - ES: Antes del viaje te explicamos con detalle cómo se desarrollan las ceremonias y cómo prepararte.
   - EN: Before the journey we explain in detail how the ceremonies work and how to prepare.
-- [ ] **Viaje espiritual – Cierre** – _zusammengefasst aus Tag 10–11_
-  - ES: Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
-  - EN: At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
-- [ ] **Viaje Arutam – Einleitung** – _eigene Formulierung_
-  - ES: La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-  - EN: The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-- [ ] **Sobre el tour – erster Absatz** – _nach Juliens Hinweis klarer: Reisen von Raíces, Kampuntin vor Ort; „organización hermana“ ist meine Wortwahl_
-  - ES: Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad.
-  - EN: The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community.
-- [ ] **Sobre el tour – Arutam-Absatz** – _„Los dos viajes llevan a la cascada sagrada“ habe ich aus den Programmen abgeleitet_
+- [ ] **Sobre el tour – Arutam-Absatz** – _„Los dos viajes llevan a la cascada sagrada“ aus den Programmen abgeleitet_
   - ES: Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
   - EN: For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
-- [ ] **Incluido – Transport, Unterkunft, Essen** – _aus beiden Programmen zusammengeführt, die Unterschiede in Klammern sind von mir_
-  - ES: Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional) · Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos · Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
-  - EN: All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe) · Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos · All meals from day 2; in Maikiuants prepared by community cooks
-- [ ] **No incluido – Essen** – _Zusatz zur spirituellen Reise aus Raíces abgeleitet_
-  - ES: Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
-  - EN: Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
-- [ ] **Precio – Text** – _eigene Formulierung (Raíces/Kampuntin, finanzielle Unterstützung)_
-  - ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-  - EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
-- [ ] **Próximas fechas – Einleitung** – _„máximo 12 personas“ steht nicht bei Raíces (kommt aus dem Interview)_
-  - ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
-  - EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
-- [ ] **Cómo reservar – Schritt 2 und 3** – _eigene Formulierung_
-  - ES: La reserva se hace a través de Raíces, que organiza los viajes. Raíces confirma tu plaza y acuerda contigo las fechas, el pago y todos los detalles. / Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría.
-  - EN: Bookings are made through Raíces, which organises the journeys. Raíces confirms your place and arranges the dates, payment and all other details with you. / Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you.
-- [ ] **Viajes para escuelas** – _„a petición“ ist abgeleitet – Raíces nennt keine Termine_
-  - ES: Viajes para escuelas: Raíces también organiza viajes de 20 días para grupos escolares, a petición.
-  - EN: School trips: Raíces also organises 20-day journeys for school groups on request.
-- [ ] **Kasten „El programa día a día“** – _eigene Formulierung_
-  - ES: Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado día por día de los dos viajes.
-  - EN: Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of both journeys on its website.
-- [ ] **FAQ – Sprachen** – _„intérpretes de la comunidad“ und „guía francófono“: bitte bestätigen_
-  - ES: En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de entendernos.
-  - EN: In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the tour, Julien, our French-speaking guide and translator, and translators from the community accompany you, and we always find a way to understand each other.
-- [ ] **FAQ – Fitness** – _Raíces-Inhalt ergänzt um „buscamos alternativas“ (stand schon vorher da) – geht das bei der Höhle?_
-  - ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
-  - EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
+- [ ] **Incluido** – _Transfer Limón Indanza–Maikiuants und Nächte in der Selva bei beiden Reisen – stimmt das?_
+  - ES: Traslado de Limón Indanza a Maikiuants y de regreso · Alojamiento en la jea en Maikiuants (literas o un lugar para tu propia hamaca) y noches en la selva · Todas las comidas en Maikiuants, preparadas por las cocineras de la comunidad · Guías e intérpretes de la comunidad · Todas las actividades y ceremonias del programa
+  - EN: Transport from Limón Indanza to Maikiuants and back · Accommodation in the jea in Maikiuants (bunk beds or a place for your own hammock) and nights in the rainforest · All meals in Maikiuants, prepared by community cooks · Guides and translators from the community · All programme activities and ceremonies
+- [ ] **No incluido** – _meine Formulierung_
+  - ES: El viaje hasta Limón Indanza y de regreso, también los vuelos (con gusto te aconsejamos; la mejor ruta es por Cuenca) · Seguro de viaje (también aquí te aconsejamos con gusto) · Alojamiento y comidas antes y después del tour
+  - EN: Travel to Limón Indanza and back, including flights (we are happy to advise you; the best route is via Cuenca) · Travel insurance (we are happy to advise you here too) · Accommodation and meals before and after the tour
+- [ ] **Precio – Text und Knopf** – _Preise auf Anfrage; Text meine Formulierung_
+  - ES: Precio a consultar · Escríbenos y te enviamos el precio de tu viaje con todos los detalles. Incluye alojamiento, comidas, el traslado desde Limón Indanza, guías y actividades. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos. · Knopf: Consultar precio
+  - EN: Price on request · Write to us and we will send you the price of your journey with all the details. It includes accommodation, meals, transport from Limón Indanza, guides and activities. We pay local guides and cooks, buy food within the community and support Maikiuants financially. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them. · Knopf: Ask for the price
+- [ ] **Próximas fechas – Einleitung** – _meine Formulierung_
+  - ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Limón Indanza. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+  - EN: Groups of up to 12 people. Both journeys start and end in Limón Indanza. Exact dates will be confirmed soon – get in touch if you're interested.
+- [ ] **Cómo reservar – Schritt 2 und 3** – _wieder ohne Raíces, Kampuntin bucht selbst_
+  - ES: Te enviamos el precio, confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles. / Te ayudamos a planear el viaje hasta Limón Indanza. ¡Nos alegra recibirte en Maikiuants!
+  - EN: We send you the price, confirm your place and arrange the dates, payment and all other details with you. / We help you plan your trip to Limón Indanza. We look forward to welcoming you in Maikiuants!
+- [ ] **Viajes para escuelas** – _10 Tage, ohne Link zu Raíces_
+  - ES: Viajes para escuelas: También organizamos viajes de 10 días para grupos escolares, a petición.
+  - EN: School trips: We also organise 10-day journeys for school groups on request.
+- [ ] **FAQ – neue Frage zur Anreise** – _Busse ab Cuenca – bitte bestätigen_
+  - ES: ¿Cómo llego a Limón Indanza? La mejor forma es por Cuenca: desde allí salen buses hacia Limón Indanza. Con gusto te ayudamos a planear el viaje.
+  - EN: How do I get to Limón Indanza? The best way is via Cuenca: buses run from there to Limón Indanza. We are happy to help you plan the journey.
+- [ ] **FAQ – Sprachen** – _Julien als Guide herausgenommen_
+  - ES: En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan guías e intérpretes de la comunidad, y siempre encontramos una manera de entendernos.
+  - EN: In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the tour, guides and translators from the community accompany you, and we always find a way to understand each other.
+- [ ] **FAQ – Fitness** – _Satz zur Cueva de los Tayos herausgenommen_
+  - ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
+  - EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
 
 ### Startseite
 
@@ -76,11 +79,14 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
   - ES: Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la misión de Kampuntin.
   - EN: Experience the rainforest and get to know the Shuar community of Maikiuants: on one of our two journeys or as a volunteer. Learn more about the community, the rainforest, our scientific work and Kampuntin's mission.
 - [ ] **Descubre – Tours** – _eigene Formulierung_
-  - ES: Dos viajes de nuestra organización hermana Raíces, para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
-  - EN: Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
+  - ES: Dos viajes desde Limón Indanza para grupos de hasta 12 personas: el viaje espiritual de 8 días y el viaje Arutam de 10 días.
+  - EN: Two journeys from Limón Indanza for groups of up to 12 people: the 8-day spiritual journey and the 10-day Arutam journey.
 - [ ] **Popup – Text** – _eigene Formulierung_
-  - ES: Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
-  - EN: A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
+  - ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Limón Indanza.
+  - EN: Live with the Shuar community of Maikiuants, all-inclusive from Limón Indanza.
+- [ ] **Dónde estamos (Startseite und Kontakt)** – _Touren ab Limón Indanza, Anreise über Cuenca_
+  - ES: Maikiuants está en la provincia de Morona Santiago, en la Amazonía sur del Ecuador. La carretera hacia la comunidad sale de Limón Indanza; desde allí son unas dos horas y media, normalmente en taxi (aprox. 60–70 USD). Los tours empiezan y terminan en Limón Indanza; la mejor forma de llegar es desde Cuenca. Los demás detalles del viaje los acordamos antes de tu llegada. La carretera no aparece en Google Maps, pero sí en OpenStreetMap.
+  - EN: Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon. The road to the community starts in Limón Indanza; from there it takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start and end in Limón Indanza; the best way to get there is via Cuenca. We'll agree on the other travel details before your arrival. The road is not shown on Google Maps, but it is on OpenStreetMap.
 - [ ] **Casa cultural y científica – Text** – _nach Freddy und den Beschriftungen auf den Entwürfen (Museum, Labore, Etappen …)_
   - ES: En Maikiuants se construirá una casa cultural y científica: un lugar donde se muestran y se conservan tanto la ciencia como la cultura shuar. Se construirá por etapas e incluirá un museo, laboratorios, un centro educativo, oficinas, dormitorios y alojamiento para científicos, un comedor con cocina y baños secos.
   - EN: A cultural and science house will be built in Maikiuants: a place where both science and Shuar culture are shown and preserved. It will be built in stages and include a museum, laboratories, an education centre, offices, dormitories and accommodation for scientists, a dining room with kitchen and dry toilets.
@@ -166,9 +172,9 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Dónde estamos** – _Taxi 60–70 USD_
 
-- ES: Maikiuants se encuentra en la provincia de **Morona Santiago**, en la Amazonía sur del Ecuador, en la Cordillera del Cóndor. La carretera hacia Maikiuants sale de **Limón Indanza**; desde allí se llega en unas dos horas y media, normalmente en taxi (aprox. 60–70 USD). Los tours empiezan en Cuenca y desde allí viajamos juntos hasta la comunidad. La carretera no aparece en Google Maps, pero sí en OpenStreetMap.
-- EN: Maikiuants is located in the province of **Morona Santiago** in Ecuador's southern Amazon, in the Cordillera del Cóndor. The road to Maikiuants starts in **Limón Indanza**; from there it takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start in Cuenca and from there we travel together to the community. The road is not shown on Google Maps, but it is on OpenStreetMap.
-- FR: Maikiuants se trouve dans la province de **Morona Santiago**, dans le sud de l’Amazonie équatorienne, dans la Cordillera del Cóndor. La route vers Maikiuants part de **Limón Indanza** ; de là, il faut compter environ deux heures et demie, généralement en taxi (env. 60–70 USD). Les tours commencent à Cuenca, d’où nous voyageons ensemble jusqu’à la communauté. La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
+- ES: Maikiuants se encuentra en la provincia de **Morona Santiago**, en la Amazonía sur del Ecuador, en la Cordillera del Cóndor. La carretera hacia Maikiuants sale de **Limón Indanza**; desde allí se llega en unas dos horas y media, normalmente en taxi (aprox. 60–70 USD). Los tours empiezan en Limón Indanza y desde allí viajamos juntos hasta la comunidad; la mejor forma de llegar a Limón Indanza es desde Cuenca. La carretera no aparece en Google Maps, pero sí en OpenStreetMap.
+- EN: Maikiuants is located in the province of **Morona Santiago** in Ecuador's southern Amazon, in the Cordillera del Cóndor. The road to Maikiuants starts in **Limón Indanza**; from there it takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start in Limón Indanza and from there we travel together to the community; the best way to get to Limón Indanza is via Cuenca. The road is not shown on Google Maps, but it is on OpenStreetMap.
+- FR: Maikiuants se trouve dans la province de **Morona Santiago**, dans le sud de l’Amazonie équatorienne, dans la Cordillera del Cóndor. La route vers Maikiuants part de **Limón Indanza** ; de là, il faut compter environ deux heures et demie, généralement en taxi (env. 60–70 USD). Les tours commencent à Limón Indanza, d’où nous voyageons ensemble jusqu’à la communauté ; le mieux est de rejoindre Limón Indanza depuis Cuenca. La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
 
 **Neuer Abschnitt: Casa cultural y científica** – _eigener Abschnitt mit den 5 Entwürfen_
 
@@ -196,29 +202,29 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 ## 2. Tour-Seite
 
-**Neu: Zwei Reisen (Auswahl oben auf der Seite)** – _Buchung über Raíces, vor Ort Kampuntin_
+**Zwei Reisen (Auswahl oben auf der Seite)** – _Kampuntins eigene Touren ab Limón Indanza, Preis auf Anfrage_
 
-- ES: **Dos viajes** · Los dos viajes los organiza Raíces y empiezan y terminan en Cuenca. Elige el que mejor te va.
-  - Abril – mayo 2027 · **Viaje espiritual** · 11 días · 2.490 € · Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
-  - Agosto – septiembre 2027 · **Viaje Arutam** · 22 días · 3.890 € · La gran aventura: unos diez días con la comunidad en Maikiuants, la expedición a la Cueva de los Tayos y un viaje en canoa a comunidades shuar del Perú.
-- EN: **Two journeys** · Both journeys are organised by Raíces and start and end in Cuenca. Choose the one that suits you best.
-  - April – May 2027 · **Spiritual journey** · 11 days · €2,490 · An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
-  - August – September 2027 · **Arutam journey** · 22 days · €3,890 · The big adventure: about ten days with the community in Maikiuants, the expedition to the Cueva de los Tayos and a canoe trip to Shuar communities in Peru.
-- FR: **Deux voyages** · Les deux voyages sont organisés par Raíces et commencent et se terminent à Cuenca. Choisissez celui qui vous convient.
-  - Avril – mai 2027 · **Voyage spirituel** · 11 jours · 2 490 € · Une immersion dans la spiritualité shuar : la cérémonie de la chonta (le Nouvel An shuar), les plantes médicinales, des rituels traditionnels et la marche vers la cascade sacrée d’Arutam.
-  - Août – septembre 2027 · **Voyage Arutam** · 22 jours · 3 890 € · La grande aventure : une dizaine de jours avec la communauté à Maikiuants, l’expédition à la Cueva de los Tayos et un voyage en pirogue vers des communautés shuar du Pérou.
+- ES: **Dos viajes** · Los dos viajes empiezan y terminan en Limón Indanza; la mejor forma de llegar es desde Cuenca. Elige el que mejor te va.
+  - Abril – mayo 2027 · **Viaje espiritual** · 8 días · Precio a consultar · Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar), plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
+  - Agosto – septiembre 2027 · **Viaje Arutam** · 10 días · Precio a consultar · Diez días con la comunidad en Maikiuants: caminatas por la selva hacia cascadas y cuevas, cultura shuar, cerámica, plantas medicinales, la cascada sagrada y una noche en la selva.
+- EN: **Two journeys** · Both journeys start and end in Limón Indanza; the best way to get there is via Cuenca. Choose the one that suits you best.
+  - April – May 2027 · **Spiritual journey** · 8 days · Price on request · An immersion in Shuar spirituality: the chonta ceremony (the Shuar New Year), medicinal plants, traditional rituals and the walk to the sacred Arutam waterfall.
+  - August – September 2027 · **Arutam journey** · 10 days · Price on request · Ten days with the community in Maikiuants: rainforest walks to waterfalls and caves, Shuar culture, pottery, medicinal plants, the sacred waterfall and a night in the rainforest.
+- FR: **Deux voyages** · Les deux voyages commencent et se terminent à Limón Indanza ; le mieux est d’y arriver depuis Cuenca. Choisissez celui qui vous convient.
+  - Avril – mai 2027 · **Voyage spirituel** · 8 jours · Prix sur demande · Une immersion dans la spiritualité shuar : la cérémonie de la chonta (le Nouvel An shuar), les plantes médicinales, des rituels traditionnels et la marche vers la cascade sacrée d’Arutam.
+  - Août – septembre 2027 · **Voyage Arutam** · 10 jours · Prix sur demande · Dix jours avec la communauté à Maikiuants : balades en forêt vers des cascades et des grottes, culture shuar, poterie, plantes médicinales, la cascade sacrée et une nuit en forêt.
 
 **Neu: Viaje espiritual – Titel und Einleitung**
 
-- ES: El viaje espiritual: 11 días · Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-- EN: The spiritual journey: 11 days · A shorter journey focused on Shuar spirituality and the connection with nature. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-- FR: Le voyage spirituel : 11 jours · Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature. Raíces organise le voyage ; à Maikiuants, Kampuntin vous accueille et vous accompagne.
+- ES: El viaje espiritual: 8 días · Un viaje más corto, centrado en la espiritualidad shuar y en la conexión con la naturaleza.
+- EN: The spiritual journey: 8 days · A shorter journey focused on Shuar spirituality and the connection with nature.
+- FR: Le voyage spirituel : 8 jours · Un voyage plus court, centré sur la spiritualité shuar et la connexion à la nature.
 
 **Viaje espiritual – Llegada**
 
-- ES: Nos encontramos en Cuenca y nos conocemos. Al día siguiente visitamos el museo Pumapungo y hacemos una limpieza espiritual; luego entramos al territorio shuar.
-- EN: We meet in Cuenca and get to know each other. The next day we visit the Pumapungo museum and take part in a spiritual cleansing; then we enter Shuar territory.
-- FR: Nous nous retrouvons à Cuenca et faisons connaissance. Le lendemain, nous visitons le musée Pumapungo et participons à un nettoyage spirituel, puis nous entrons sur le territoire shuar.
+- ES: El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants y entramos al territorio shuar.
+- EN: The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants and enter Shuar territory.
+- FR: Le voyage commence à Limón Indanza. De là, nous rejoignons ensemble Maikiuants en deux heures et demie environ et entrons sur le territoire shuar.
 
 **Viaje espiritual – Ceremonias** – _Spirituelles bewusst allgemein beschrieben_
 
@@ -252,29 +258,29 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Viaje espiritual – Cierre**
 
-- ES: Al final compartimos e interpretamos juntos lo vivido. El día 11 regresamos a Cuenca.
-- EN: At the end we share and reflect on the experience together. On day 11 we return to Cuenca.
-- FR: À la fin, nous partageons et interprétons ensemble ce que nous avons vécu. Le 11e jour, nous rentrons à Cuenca.
+- ES: Al final compartimos e interpretamos juntos lo vivido. El día 8 regresamos a Limón Indanza.
+- EN: At the end we share and reflect on the experience together. On day 8 we return to Limón Indanza.
+- FR: À la fin, nous partageons et interprétons ensemble ce que nous avons vécu. Le 8e jour, nous rentrons à Limón Indanza.
 
 **Viaje Arutam – Titel und Einleitung**
 
-- ES: El viaje Arutam: 22 días · La gran aventura por el territorio shuar, de Cuenca a la Cueva de los Tayos y el río Santiago. Raíces organiza el viaje; en Maikiuants, Kampuntin te recibe y te acompaña.
-- EN: The Arutam journey: 22 days · The big adventure through Shuar territory, from Cuenca to the Cueva de los Tayos and the Río Santiago. Raíces organises the journey; in Maikiuants, Kampuntin welcomes and accompanies you.
-- FR: Le voyage Arutam : 22 jours · La grande aventure à travers le territoire shuar, de Cuenca à la Cueva de los Tayos et au Río Santiago. Raíces organise le voyage ; à Maikiuants, Kampuntin vous accueille et vous accompagne.
+- ES: El viaje Arutam: 10 días · Diez días en el territorio shuar de Maikiuants: selva, cascadas, cultura y vida en comunidad.
+- EN: The Arutam journey: 10 days · Ten days in the Shuar territory of Maikiuants: rainforest, waterfalls, culture and community life.
+- FR: Le voyage Arutam : 10 jours · Dix jours sur le territoire shuar de Maikiuants : forêt, cascades, culture et vie communautaire.
 
 **Sobre el tour** – _spiritueller Austausch, Heilpflanzen, Name „Arutam“_
 
-- ES: Los viajes son de **Raíces**, nuestra organización hermana en Bélgica: Raíces organiza el viaje y se encarga de las reservas. En Maikiuants, **Kampuntin** se ocupa de la organización y el acompañamiento en la comunidad. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
-- EN: The journeys are run by **Raíces**, our sister organisation in Belgium: Raíces organises the journey and handles the bookings. In Maikiuants, **Kampuntin** takes care of the organisation and support in the community. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
-- FR: Les voyages sont proposés par **Raíces**, notre organisation sœur en Belgique : Raíces organise le voyage et s’occupe des réservations. À Maikiuants, **Kampuntin** se charge de l’organisation et de l’accompagnement dans la communauté. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
+- ES: Los tours los organiza **Kampuntin**, la organización de turismo comunitario de Maikiuants: nosotros mismos, junto con toda la comunidad. ¶ La comunidad te recibe para un **intercambio cultural y espiritual**. Junto con personas de la comunidad ¶ compartes el alojamiento en una jea tradicional, cocinas y comes con ellas y aprendes sobre la ¶ selva y sobre el uso de las plantas medicinales. Tenemos la mejor ducha del mundo: el río. ¶ Aprenderás a cocinar tus nuevos platos favoritos y a cosechar lo que necesitas para ellos. ¶ Hacemos música juntos y te mostramos cómo tocar nuestras flautas hechas a mano. Los días ¶ combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y ¶ tiempo libre. ¶ Para los shuar, **Arutam** es la fuerza presente en las cascadas, que une a todos los seres vivos; un lugar de introspección y de conexión con la naturaleza. Los dos viajes llevan a la cascada sagrada.
+- EN: The tours are organised by **Kampuntin**, the community tourism organisation of Maikiuants: by us, together with the whole community. ¶ The community welcomes you for a **cultural and spiritual exchange**. Together with people from the ¶ community you share the accommodation in a traditional jea, cook and eat together and learn ¶ about the rainforest and how medicinal plants are used. We have the best shower in the world: the river. ¶ You'll learn how to cook your new favourite dishes — and how to harvest the ingredients for ¶ them. We make music together and show you how to play our handmade flutes. The days combine ¶ forest walks, work in the nursery and gardens, crafts, cooking and free time. ¶ For the Shuar, **Arutam** is the force present in the waterfalls that connects all living beings – a place of introspection and connection with nature. Both journeys lead to the sacred waterfall.
+- FR: Les tours sont organisés par **Kampuntin**, l’organisation de tourisme communautaire de Maikiuants : par nous-mêmes, avec toute la communauté. ¶ La communauté vous accueille pour un **échange culturel et spirituel**. Avec des membres de la ¶ communauté, vous partagez l’hébergement dans une jea traditionnelle, cuisinez et mangez ¶ ensemble, et découvrez la forêt et l’usage des plantes médicinales. Nous avons la meilleure douche du monde : la rivière. ¶ Vous apprendrez à cuisiner vos nouveaux plats préférés — et à en récolter les ingrédients. ¶ Nous faisons de la musique ensemble et vous montrons comment jouer de nos flûtes ¶ fabriquées à la main. Les journées mêlent balades en forêt, travail à la pépinière et dans ¶ les potagers, artisanat, cuisine et temps libre. ¶ Pour les Shuar, **Arutam** est la force présente dans les cascades, qui relie tous les êtres vivants – un lieu d’introspection et de connexion au vivant. Les deux voyages mènent à la cascade sacrée.
 
-**Llegada a Cuenca** – _mit dem Bus ab Cuenca_
+**Viaje Arutam – Llegada** – _ab Limón Indanza_
 
-- ES: El viaje empieza en Cuenca, a 2.800 metros. Tras un día libre para aclimatarte, conocemos el centro histórico, el mercado local y el museo Pumapungo. En bus viajamos a Limón Indanza, donde un chamán shuar guía una ceremonia de purificación, y desde allí seguimos en 4×4 por la Cordillera del Cóndor hasta Maikiuants, donde la comunidad nos recibe con baile y fiesta.
-- EN: The journey starts in Cuenca, at 2,800 metres. After a free day to acclimatise, we explore the old town, the local market and the Pumapungo museum. We travel by bus to Limón Indanza, where a Shuar shaman leads a purification ceremony, and from there continue by 4×4 through the Cordillera del Cóndor to Maikiuants, where the community welcomes us with dance and celebration.
-- FR: Le voyage commence à Cuenca, à 2 800 mètres d’altitude. Après une journée libre pour vous acclimater, nous découvrons le centre historique, le marché local et le musée Pumapungo. Nous allons en bus jusqu’à Limón Indanza, où un chaman shuar guide une cérémonie de purification, puis nous continuons en 4×4 à travers la Cordillère du Condor jusqu’à Maikiuants, où la communauté nous accueille avec de la danse et une fête.
+- ES: El viaje empieza en Limón Indanza. Desde allí viajamos juntos unas dos horas y media hasta Maikiuants, donde la comunidad te recibe con baile y fiesta.
+- EN: The journey starts in Limón Indanza. From there we travel together for about two and a half hours to Maikiuants, where the community welcomes you with dance and celebration.
+- FR: Le voyage commence à Limón Indanza. De là, nous rejoignons ensemble Maikiuants en deux heures et demie environ, où la communauté vous accueille avec de la danse et une fête.
 
-**Unos diez días en Maikiuants – Aktivitäten (vollständige Liste)** – _Boot raus, Nachtfischen, Floß, Blasrohr, kulinarischer Austausch, Schmuck, Versammlung raus, Doppelte raus_
+**Viaje Arutam – Aktivitäten (vollständige Liste)** – _unverändert aus dem Maikiuants-Teil_
 
 - ES:
   - Bienvenida de la comunidad con baile y fiesta
@@ -327,43 +333,43 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 
 **Despedida – Titel**
 
-- ES: Despedida, expedición y regreso
-- EN: Farewell, expedition and return
-- FR: Adieux, expédition et retour
+- ES: Despedida y regreso
+- EN: Farewell and return
+- FR: Adieux et retour
 
-**Despedida – Text** – _Abschiedsfest mit Geschenkaustausch_
+**Despedida – Text** – _Abschiedsfest mit Geschenkaustausch, zurück nach Limón Indanza_
 
-- ES: Al final de la estancia en Maikiuants nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. Después viene la expedición a la Cueva de los Tayos: en canoa hasta la comunidad de Coangos, un descenso de 60 metros con cuerdas y una noche en la cueva. Luego viajamos en canoa tradicional por el río Santiago hasta comunidades shuar del lado peruano, con una laguna llena de fauna y una última noche en el bosque. En Limón Indanza hacemos juntos un balance del viaje y volvemos a Cuenca para una cena de despedida. El día 22 vuelas de regreso.
-- EN: At the end of the stay in Maikiuants we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. Then comes the expedition to the Cueva de los Tayos: by boat to the Coangos community, a 60-metre rope descent and a night in the cave. Then we travel by traditional canoe on the Río Santiago to Shuar communities on the Peruvian side, with a lagoon full of wildlife and a last night in the forest. In Limón Indanza we look back on the journey together and return to Cuenca for a farewell dinner. On day 22 you fly home.
-- FR: À la fin du séjour à Maikiuants, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Vient ensuite l’expédition à la Cueva de los Tayos : en pirogue jusqu’à la communauté de Coangos, une descente de 60 mètres en rappel et une nuit dans la grotte. Ensuite, nous naviguons en pirogue traditionnelle sur le Río Santiago jusqu’à des communautés shuar du côté péruvien, avec une lagune riche en faune et une dernière nuit en forêt. À Limón Indanza, nous faisons ensemble le bilan du voyage, puis nous rentrons à Cuenca pour un dîner d’adieu. Le 22e jour, vous prenez votre vol retour.
+- ES: Al final nos despedimos con una gran fiesta junto a toda la comunidad: una gran cena, música y baile. También hay un intercambio de regalos: la comunidad entrega regalos a los visitantes y, si quieren, los visitantes también a la gente de aquí. El día 10 regresamos juntos a Limón Indanza.
+- EN: At the end we say goodbye with a big celebration with the whole community: a large dinner, music and dancing. There is also a gift exchange – the community gives presents to the visitors, and visitors can give something to the people here too if they like. On day 10 we travel back together to Limón Indanza.
+- FR: À la fin, nous faisons nos adieux lors d’une grande fête avec toute la communauté : un grand dîner, de la musique et de la danse. Il y a aussi un échange de cadeaux : la communauté offre des cadeaux aux visiteurs et, s’ils le souhaitent, les visiteurs peuvent aussi en offrir aux habitants. Le 10e jour, nous rentrons ensemble à Limón Indanza.
 
 **Incluido**
 
 - ES:
-  - Todos los traslados durante el viaje desde Cuenca (bus y 4×4; en el viaje Arutam también lancha y canoa tradicional)
-  - Alojamiento: hoteles en Cuenca y Limón Indanza, la jea en Maikiuants (literas o un lugar para tu propia hamaca), noches en la selva y, en el viaje Arutam, también en comunidades y en la Cueva de los Tayos
-  - Todas las comidas a partir del día 2; en Maikiuants preparadas por las cocineras de la comunidad
-  - Nuestro guía internacional y traductor, y guías de la comunidad
+  - Traslado de Limón Indanza a Maikiuants y de regreso
+  - Alojamiento en la jea en Maikiuants (literas o un lugar para tu propia hamaca) y noches en la selva
+  - Todas las comidas en Maikiuants, preparadas por las cocineras de la comunidad
+  - Guías e intérpretes de la comunidad
   - Todas las actividades y ceremonias del programa
   - Cocina con energía solar y electricidad
   - Wifi gratis en el pueblo (a unos 35 minutos a pie del alojamiento)
   - Un río para bañarte
   - Una pequeña tienda en el centro comunitario para tus gastos personales
 - EN:
-  - All transport during the journey from Cuenca (bus and 4×4; on the Arutam journey also boat and traditional canoe)
-  - Accommodation: hotels in Cuenca and Limón Indanza, the jea in Maikiuants (bunk beds or a place for your own hammock), nights in the rainforest and, on the Arutam journey, also in communities and in the Cueva de los Tayos
-  - All meals from day 2; in Maikiuants prepared by community cooks
-  - Our international guide and translator, plus community guides
+  - Transport from Limón Indanza to Maikiuants and back
+  - Accommodation in the jea in Maikiuants (bunk beds or a place for your own hammock) and nights in the rainforest
+  - All meals in Maikiuants, prepared by community cooks
+  - Guides and translators from the community
   - All programme activities and ceremonies
   - Solar-powered kitchen and electricity
   - Free wifi in the village (about a 35-minute walk from the accommodation)
   - A river to bathe in
   - A tiny shop in the community centre for personal expenses
 - FR:
-  - Tous les transports pendant le voyage depuis Cuenca (bus et 4×4 ; lors du voyage Arutam aussi bateau et pirogue traditionnelle)
-  - Hébergement : hôtels à Cuenca et Limón Indanza, la jea à Maikiuants (lits superposés ou place pour votre propre hamac), nuits en forêt et, lors du voyage Arutam, aussi dans des communautés et dans la Cueva de los Tayos
-  - Tous les repas à partir du 2e jour ; à Maikiuants, préparés par les cuisinières de la communauté
-  - Notre guide international et traducteur, ainsi que des guides de la communauté
+  - Le transport de Limón Indanza à Maikiuants et retour
+  - Hébergement dans la jea à Maikiuants (lits superposés ou place pour votre propre hamac) et nuits en forêt
+  - Tous les repas à Maikiuants, préparés par les cuisinières de la communauté
+  - Guides et interprètes de la communauté
   - Toutes les activités et cérémonies du programme
   - Cuisine à l’énergie solaire et électricité
   - Wi-Fi gratuit au village (à environ 35 minutes à pied de l’hébergement)
@@ -373,20 +379,17 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 **No incluido** – _Flüge und Reiseversicherung schließt man selbst ab_
 
 - ES:
-  - Vuelos hasta Cuenca y de regreso (con gusto te aconsejamos)
+  - El viaje hasta Limón Indanza y de regreso, también los vuelos (con gusto te aconsejamos; la mejor ruta es por Cuenca)
   - Seguro de viaje (también aquí te aconsejamos con gusto)
-  - Taxi entre el aeropuerto y el hotel en Cuenca (llegada y salida)
-  - Comidas del día 1 (aprox. 3–10 USD por comida); en el viaje espiritual también las del último día, después de salir de Limón Indanza
+  - Alojamiento y comidas antes y después del tour
 - EN:
-  - Flights to Cuenca and back (we are happy to advise you)
+  - Travel to Limón Indanza and back, including flights (we are happy to advise you; the best route is via Cuenca)
   - Travel insurance (we are happy to advise you here too)
-  - Taxi between the airport and the hotel in Cuenca (arrival and departure)
-  - Meals on day 1 (approx. 3–10 USD per meal); on the spiritual journey also those on the last day after leaving Limón Indanza
+  - Accommodation and meals before and after the tour
 - FR:
-  - Vols jusqu’à Cuenca et retour (nous vous conseillons volontiers)
+  - Le voyage jusqu’à Limón Indanza et retour, vols compris (nous vous conseillons volontiers ; le mieux est de passer par Cuenca)
   - Assurance voyage (là aussi, nous vous conseillons volontiers)
-  - Taxi entre l’aéroport et l’hôtel à Cuenca (arrivée et départ)
-  - Repas du 1er jour (env. 3–10 USD par repas) ; lors du voyage spirituel aussi ceux du dernier jour après le départ de Limón Indanza
+  - Hébergement et repas avant et après le tour
 
 **Qué llevar – neuer Punkt** – _Wasserfilter_
 
@@ -394,57 +397,63 @@ Stand: 24. Oktober 2026. Hier steht nur, was ich selbst formuliert, zusammengefa
 - EN: 
 - FR: Filtre à eau (par exemple à fixer sur la gourde)
 
-**Precio** – _statt 5 % finanzielle Unterstützung, Hinweis auf Spenden-Events_
+**Precio** – _Preis auf Anfrage_
 
-- ES: Todo incluido desde Cuenca: alojamiento, comidas, todos los traslados durante el viaje, guías, intérpretes y actividades. Raíces organiza el viaje y la reserva; en Maikiuants, Kampuntin se encarga de la organización en la comunidad. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. El pago y los demás detalles los acordamos personalmente contigo. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos.
-- EN: All-inclusive from Cuenca: accommodation, meals, all transport during the journey, guides, translators and activities. Raíces organises the journey and the booking; in Maikiuants, Kampuntin takes care of the organisation in the community. We pay local guides and cooks, buy food within the community and support Maikiuants financially. Payment and all other details are arranged personally with you. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them.
-- FR: Tout compris depuis Cuenca : hébergement, repas, tous les transports pendant le voyage, guides, interprètes et activités. Raíces organise le voyage et la réservation ; à Maikiuants, Kampuntin se charge de l’organisation dans la communauté. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Le paiement et tous les autres détails sont convenus personnellement avec vous. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir.
+- ES: Precio a consultar · Escríbenos y te enviamos el precio de tu viaje con todos los detalles. Incluye alojamiento, comidas, el traslado desde Limón Indanza, guías y actividades. Pagamos a guías y cocineras locales, compramos los alimentos en la comunidad y apoyamos económicamente a Maikiuants. Si el viaje te inspira pero te faltan los fondos, escríbenos: te aconsejamos cómo organizar eventos para recaudarlos. · Knopf: Consultar precio
+- EN: Price on request · Write to us and we will send you the price of your journey with all the details. It includes accommodation, meals, transport from Limón Indanza, guides and activities. We pay local guides and cooks, buy food within the community and support Maikiuants financially. If the journey inspires you but you lack the funds, write to us – we can advise you on organising events to raise them. · Knopf: Ask for the price
+- FR: Prix sur demande · Écrivez-nous et nous vous envoyons le prix de votre voyage avec tous les détails. Il comprend l’hébergement, les repas, le transport depuis Limón Indanza, les guides et les activités. Nous rémunérons des guides et des cuisinières de la communauté, achetons la nourriture sur place et soutenons financièrement Maikiuants. Si ce voyage vous inspire mais que les fonds vous manquent, écrivez-nous : nous vous conseillons pour organiser des événements afin de les réunir. · Knopf: Demander le prix
 
-**Cómo reservar – Schritt 3** – _Vorbereitungstreffen_
+**Cómo reservar – Schritt 2 und 3**
 
-- ES: Antes del viaje, Raíces hace una reunión de preparación con todos los participantes. Y en Maikiuants te esperamos con mucha alegría.
-- EN: Before the journey, Raíces holds a preparation meeting with all participants. And in Maikiuants, we look forward to welcoming you.
-- FR: Avant le voyage, Raíces organise une réunion de préparation avec tous les participants. Et à Maikiuants, nous avons hâte de vous accueillir.
+- ES: Te enviamos el precio, confirmamos tu plaza y acordamos contigo las fechas, el pago y todos los detalles. / Te ayudamos a planear el viaje hasta Limón Indanza. ¡Nos alegra recibirte en Maikiuants!
+- EN: We send you the price, confirm your place and arrange the dates, payment and all other details with you. / We help you plan your trip to Limón Indanza. We look forward to welcoming you in Maikiuants!
+- FR: Nous vous envoyons le prix, confirmons votre place et convenons avec vous des dates, du paiement et de tous les détails. / Nous vous aidons à préparer votre voyage jusqu’à Limón Indanza. Nous avons hâte de vous accueillir à Maikiuants !
 
-**Kasten zu Raíces**
+**Viajes para escuelas**
 
-- ES: El programa día a día · Raíces, nuestra organización hermana en Bélgica, publica en su sitio web el programa detallado día por día de los dos viajes. · Buttons: Viaje espiritual / Viaje Arutam
-- EN: The day-by-day programme · Raíces, our sister organisation in Belgium, publishes the detailed day-by-day programme of both journeys on its website. · Buttons: Spiritual journey / Arutam journey
-- FR: Le programme jour par jour · Raíces, notre organisation sœur en Belgique, publie sur son site le programme détaillé jour par jour des deux voyages. · Buttons: Voyage spirituel / Voyage Arutam
+- ES: Viajes para escuelas: También organizamos viajes de 10 días para grupos escolares, a petición.
+- EN: School trips: We also organise 10-day journeys for school groups on request.
+- FR: Voyages scolaires : Nous organisons aussi des voyages de 10 jours pour des groupes scolaires, sur demande.
 
 **Fechas – Einleitung**
 
-- ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Cuenca. Las fechas exactas se confirman pronto; escríbenos si te interesa.
-- EN: Groups of up to 12 people. Both journeys start and end in Cuenca. Exact dates will be confirmed soon – get in touch if you're interested.
-- FR: Groupes de 12 personnes maximum. Les deux voyages commencent et se terminent à Cuenca. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
+- ES: Grupos de máximo 12 personas. Los dos viajes empiezan y terminan en Limón Indanza. Las fechas exactas se confirman pronto; escríbenos si te interesa.
+- EN: Groups of up to 12 people. Both journeys start and end in Limón Indanza. Exact dates will be confirmed soon – get in touch if you're interested.
+- FR: Groupes de 12 personnes maximum. Les deux voyages commencent et se terminent à Limón Indanza. Les dates exactes seront bientôt confirmées – écrivez-nous si cela vous intéresse.
 
 **Hechos (Band oben)**
 
-- ES: 11 o 22 días · 12 personas como máximo · Jea: alojamiento tradicional · Comidas compartidas · Guías de la comunidad
-- EN: 11 or 22 days · 12 people at most · Jea: traditional accommodation · Shared meals · Community guides
-- FR: 11 ou 22 jours · 12 personnes au maximum · Jea : hébergement traditionnel · Repas partagés · Guides de la communauté
+- ES: 8 o 10 días · 12 personas como máximo · Jea: alojamiento tradicional · Comidas compartidas · Guías de la comunidad
+- EN: 8 or 10 days · 12 people at most · Jea: traditional accommodation · Shared meals · Community guides
+- FR: 8 ou 10 jours · 12 personnes au maximum · Jea : hébergement traditionnel · Repas partagés · Guides de la communauté
 
 **FAQ – ¿Necesito una buena condición física?** – _Abenteuer, Komfortzone_
 
-- ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. En el viaje Arutam, para entrar a la Cueva de los Tayos se baja 60 metros con cuerdas, acompañados por guías locales. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
-- EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. On the Arutam journey, reaching the Cueva de los Tayos involves a 60-metre rope descent with local guides. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
-- FR: Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec des montées et des traversées de rivière, parfois pendant plusieurs heures. Lors du voyage Arutam, pour accéder à la Cueva de los Tayos, il faut descendre 60 mètres en rappel, accompagnés de guides locaux. C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
+- ES: Basta una buena condición física básica. Caminamos por senderos con barro, subidas y cruces de río, a veces durante varias horas. Es una verdadera aventura: es importante que te guste caminar y que quieras salir de tu zona de confort. Si tienes alguna limitación, avísanos y buscamos alternativas.
+- EN: Good basic fitness is enough. We walk on muddy trails with climbs and river crossings, sometimes for several hours. It is a real adventure: you should enjoy walking and be ready to leave your comfort zone. If you have any limitations, let us know and we will find alternatives.
+- FR: Une bonne condition physique de base suffit. Nous marchons sur des sentiers boueux, avec des montées et des traversées de rivière, parfois pendant plusieurs heures. C’est une vraie aventure : il est important d’aimer marcher et d’avoir envie de sortir de sa zone de confort. Si vous avez des limitations, dites-le-nous et nous trouverons des alternatives.
 
-**FAQ – ¿Qué idiomas se hablan?** – _Julien als Guide und Übersetzer_
+**FAQ – ¿Qué idiomas se hablan?** – _Guías e intérpretes de la comunidad_
 
-- ES: En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan Julien, nuestro guía francófono y traductor, e intérpretes de la comunidad, y siempre encontramos una manera de entendernos.
-- EN: In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the tour, Julien, our French-speaking guide and translator, and translators from the community accompany you, and we always find a way to understand each other.
-- FR: À Maikiuants, on parle le Shuar Chicham et l’espagnol – presque aucune autre langue. Pendant le tour, Julien, notre guide francophone et traducteur, ainsi que des interprètes de la communauté vous accompagnent, et nous trouvons toujours un moyen de nous comprendre.
+- ES: En Maikiuants se habla shuar chicham y español; otros idiomas casi no. Durante el tour te acompañan guías e intérpretes de la comunidad, y siempre encontramos una manera de entendernos.
+- EN: In Maikiuants people speak Shuar Chicham and Spanish – hardly any other languages. During the tour, guides and translators from the community accompany you, and we always find a way to understand each other.
+- FR: À Maikiuants, on parle le Shuar Chicham et l’espagnol – presque aucune autre langue. Pendant le tour, des guides et interprètes de la communauté vous accompagnent, et nous trouvons toujours un moyen de nous comprendre.
+
+**Neu: FAQ – ¿Cómo llego a Limón Indanza?** – _Anreise über Cuenca_
+
+- ES: La mejor forma es por Cuenca: desde allí salen buses hacia Limón Indanza. Con gusto te ayudamos a planear el viaje.
+- EN: The best way is via Cuenca: buses run from there to Limón Indanza. We are happy to help you plan the journey.
+- FR: Le plus simple est de passer par Cuenca : de là, des bus partent pour Limón Indanza. Nous vous aidons volontiers à préparer le trajet.
 
 ## 3. Kontakt
 
-**Ansprechpersonen** – _Minki entfernt, Julien zuerst_: Julien Defourny (Raíces · tours y visitantes internacionales), Freddy Ankuash (Kampuntin · organización en Maikiuants y voluntariado)
+**Ansprechpersonen** – _Minki entfernt, Julien zuerst, Rollen wie vor der Raíces-Umstellung_: Julien Defourny (Contacto para visitantes internacionales), Freddy Ankuash (Coordinación de tours y voluntariado)
 
-**Cómo llegar** – _Taxi 60–70 USD_
+**Cómo llegar** – _Taxi 60–70 USD, Touren ab Limón Indanza, Anreise über Cuenca_
 
-- ES: Maikiuants está en la provincia de Morona Santiago, en la Amazonía sur del Ecuador. La carretera hacia la comunidad sale de Limón Indanza; desde allí son unas dos horas y media, normalmente en taxi (aprox. 60–70 USD). Los tours empiezan y terminan en Cuenca. Los demás detalles del viaje los acordamos antes de tu llegada. La carretera no aparece en Google Maps, pero sí en OpenStreetMap.
-- EN: Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon. The road to the community starts in Limón Indanza; from there it takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start and end in Cuenca. We'll agree on the other travel details before your arrival. The road is not shown on Google Maps, but it is on OpenStreetMap.
-- FR: Maikiuants se trouve dans la province de Morona Santiago, dans le sud de l’Amazonie équatorienne. La route vers la communauté part de Limón Indanza ; de là, il faut compter environ deux heures et demie, généralement en taxi (env. 60–70 USD). Les tours commencent et se terminent à Cuenca. Nous convenons des autres détails du voyage avec vous avant votre arrivée. La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
+- ES: Maikiuants está en la provincia de Morona Santiago, en la Amazonía sur del Ecuador. La carretera hacia la comunidad sale de Limón Indanza; desde allí son unas dos horas y media, normalmente en taxi (aprox. 60–70 USD). Los tours empiezan y terminan en Limón Indanza; la mejor forma de llegar es desde Cuenca. Los demás detalles del viaje los acordamos antes de tu llegada. La carretera no aparece en Google Maps, pero sí en OpenStreetMap.
+- EN: Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon. The road to the community starts in Limón Indanza; from there it takes about two and a half hours, usually by taxi (approx. 60–70 USD). Tours start and end in Limón Indanza; the best way to get there is via Cuenca. We'll agree on the other travel details before your arrival. The road is not shown on Google Maps, but it is on OpenStreetMap.
+- FR: Maikiuants se trouve dans la province de Morona Santiago, dans le sud de l’Amazonie équatorienne. La route vers la communauté part de Limón Indanza ; de là, il faut compter environ deux heures et demie, généralement en taxi (env. 60–70 USD). Les tours commencent et se terminent à Limón Indanza ; le mieux est d’y arriver depuis Cuenca. Nous convenons des autres détails du voyage avec vous avant votre arrivée. La route n’apparaît pas sur Google Maps, mais elle figure sur OpenStreetMap.
 
 ## 4. Voluntariado
 
@@ -607,15 +616,15 @@ _Minki entfernt. Neue Fotos: Freddy, Julien, Marcos, Jessica._
 
 **Startseite – Descubre: Tours**
 
-- ES: Dos viajes de nuestra organización hermana Raíces, para grupos de hasta 12 personas: el viaje espiritual de 11 días y el viaje Arutam de 22 días.
-- EN: Two journeys by our sister organisation Raíces, for groups of up to 12 people: the 11-day spiritual journey and the 22-day Arutam journey.
-- FR: Deux voyages de notre organisation sœur Raíces, pour des groupes de 12 personnes maximum : le voyage spirituel de 11 jours et le voyage Arutam de 22 jours.
+- ES: Dos viajes desde Limón Indanza para grupos de hasta 12 personas: el viaje espiritual de 8 días y el viaje Arutam de 10 días.
+- EN: Two journeys from Limón Indanza for groups of up to 12 people: the 8-day spiritual journey and the 10-day Arutam journey.
+- FR: Deux voyages depuis Limón Indanza pour des groupes de 12 personnes maximum : le voyage spirituel de 8 jours et le voyage Arutam de 10 jours.
 
 **Popup – Text**
 
-- ES: Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
-- EN: A journey by Raíces: live with the Shuar community of Maikiuants, all-inclusive from Cuenca.
-- FR: Un voyage de Raíces : vivez avec la communauté shuar de Maikiuants, tout compris depuis Cuenca.
+- ES: Vive con la comunidad shuar de Maikiuants, todo incluido desde Limón Indanza.
+- EN: Live with the Shuar community of Maikiuants, all-inclusive from Limón Indanza.
+- FR: Vivez avec la communauté shuar de Maikiuants, tout compris depuis Limón Indanza.
 
 ## Noch offen
 

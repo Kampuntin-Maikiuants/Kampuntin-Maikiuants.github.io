@@ -70,7 +70,7 @@ Los textos están en archivos con la terminación `.yml`. Son fáciles de leer, 
 
 - No borres los espacios al principio de las líneas. La sangría indica qué pertenece a qué.
 - Usa espacios, nunca la tecla Tab.
-- Si un texto contiene dos puntos seguidos de un espacio, ponlo entre comillas: `"Viaje Arutam: 22 días"`.
+- Si un texto contiene dos puntos seguidos de un espacio, ponlo entre comillas: `"Viaje Arutam: 10 días"`.
 - Para agregar algo nuevo, copia un bloque que ya existe, pégalo justo debajo y cambia los textos.
 - Las líneas que empiezan con `#` son notas para quien edita. No aparecen en la página.
 
@@ -80,7 +80,7 @@ Los textos están en archivos con la terminación `.yml`. Son fáciles de leer, 
 
 ### 2.1 Cómo funciona
 
-Hay dos viajes: el **Viaje espiritual** (11 días) y el **Viaje Arutam** (22 días). Los viajes son de Raíces, que organiza el viaje y las reservas; en Maikiuants, Kampuntin se encarga de la organización y el acompañamiento. El nombre, la duración, el precio y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué viaje pertenece.
+Hay dos viajes: el **Viaje espiritual** (8 días) y el **Viaje Arutam** (10 días). Los dos empiezan y terminan en Limón Indanza. El nombre, la duración y la descripción de cada viaje se guardan una sola vez. Las fechas se guardan aparte, y cada fecha dice a qué viaje pertenece.
 
 ![La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.](manual/img/es-viajes.jpg)
 _La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas._
@@ -103,7 +103,7 @@ _La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los pr
 |---|---|
 | Inicio | Primer día del viaje (exacto o aproximado). |
 | Fin | Último día del viaje. |
-| Viaje | Viaje espiritual (11 días) o Viaje Arutam (22 días). |
+| Viaje | Viaje espiritual (8 días) o Viaje Arutam (10 días). |
 | Texto en vez de la fecha | Solo si la fecha aún no es exacta, por ejemplo «Abril / mayo 2027». En español, inglés y francés. |
 | Nota pequeña | Opcional, una línea debajo de la fecha, por ejemplo «Fecha exacta por confirmar». |
 | Plazas libres | Cuántas plazas quedan. **0** = Completo. Vacío = se usa el Estado. |
@@ -144,7 +144,7 @@ El aviso muestra siempre la próxima fecha que todavía no pasó y que no está 
 tour_popup:
   eyebrow: Próximo tour
   text: >-
-    Un viaje de Raíces: vive con la comunidad shuar de Maikiuants, todo incluido desde Cuenca.
+    Vive con la comunidad shuar de Maikiuants, todo incluido desde Limón Indanza.
   per: por persona
   button: Ver el tour
   close: Cerrar
@@ -156,7 +156,7 @@ tour_popup:
 
 1. En GitHub abre `_data/es/tours.yml` y haz clic en el lápiz.
 2. Busca `trips:`. Debajo están `espiritual` y `arutam`.
-3. Cambia `amount` (precio), `days` (duración), `when` (temporada) o `text` (descripción corta).
+3. Cambia `days` (duración), `when` (temporada) o `text` (descripción corta).
 4. Haz lo mismo en `_data/en/tours.yml` y `_data/fr/tours.yml`.
 5. Guarda con «Commit changes».
 
@@ -164,14 +164,15 @@ tour_popup:
 ```yaml
   espiritual:
     name: Viaje espiritual
-    days: 11 días
+    days: 8 días
     when: Abril – mayo 2027
-    amount: "2.490 €"
     text: >-
       Una inmersión en la espiritualidad shuar: la ceremonia de la chonta (el Año Nuevo shuar),
       plantas medicinales, rituales tradicionales y la caminata a la cascada sagrada de Arutam.
     link: Ver el programa
 ```
+
+> **Consejo:** Hoy la página no muestra precios: en su lugar dice «Precio a consultar» (el texto está en `price` › `on_request`). Para mostrar un precio, agrega debajo de `days` una línea como `amount: "1.200 USD"`. Para volver a «Precio a consultar», borra esa línea.
 
 El programa detallado (llegada, actividades y regreso) está en el mismo archivo: en `spiritual` para el viaje espiritual y en `experience` para el viaje Arutam.
 
@@ -372,7 +373,7 @@ Las personas de la página de contacto y del pie de página están en `_config.y
 `_config.yml` (fragmento)
 ```yaml
     - name: Julien Defourny
-      role: { es: "Raíces · tours y visitantes internacionales", en: "Raíces · tours and international visitors", fr: "Raíces · tours et visiteurs internationaux" }
+      role: { es: Contacto para visitantes internacionales, en: Contact for international visitors, fr: Contact pour les visiteurs internationaux }
       whatsapp: "32494860865"
       phone: "+32 494 86 08 65"
       email: "jdefourny.explore@gmail.com"
@@ -498,7 +499,7 @@ Google muestra la página solo si sabe que existe. Con la **Google Search Consol
 Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner la dirección en todas partes:
 
 - En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.
-- En el perfil de WWOOF y en la página de Raíces.
+- En el perfil de WWOOF y en las páginas de organizaciones amigas.
 - En los volantes y en la firma de los correos.
 - Opcional: un perfil en Google Maps («Perfil de Empresa en Google») para Kampuntin en Maikiuants, con la dirección de la página. Así aparece también un mapa cuando alguien busca «Kampuntin».
 
