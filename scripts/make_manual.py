@@ -39,9 +39,10 @@ EXAMPLE_TESTIMONIAL = """    - quote: >-
 
         Segundo párrafo del relato."""
 # DNS-Einträge für eine eigene Domain (GitHub Pages)
-DNS = [["A", "@", "185.199.108.153"], ["A", "@", "185.199.109.153"], ["A", "@", "185.199.110.153"],
-       ["A", "@", "185.199.111.153"], ["CNAME", "www", "kampuntin-maikiuants.github.io"]]
-SITE = "kampuntin-maikiuants.github.io"
+DNS = [["A", "@", "185.199.108.153", "Proxied"], ["A", "@", "185.199.109.153", "Proxied"],
+       ["A", "@", "185.199.110.153", "Proxied"], ["A", "@", "185.199.111.153", "Proxied"],
+       ["CNAME", "www", "kampuntin-maikiuants.github.io", "Proxied"]]
+SITE = "www.kampuntin.org"
 # Zugangsdaten nur lokal (nie ins Skript schreiben – das Skript liegt auf GitHub)
 import json as _json
 _acc = Path(__file__).resolve().parent.parent / "manual" / "accesos.json"
@@ -574,6 +575,8 @@ def es(b):
     b.code('- name: "Eddy Ankuash"\n'
            '  group: kampuntin\n'
            '  photo: "/assets/img/equipo/eddy.jpg"\n'
+           '  social:\n'
+           '    - { name: Facebook, url: "https://www.facebook.com/eddy.ankuash.2025" }\n'
            '  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }\n'
            '  bio:\n'
            '    es: "Texto corto en español."\n'
@@ -664,113 +667,108 @@ def es(b):
     b.box("Instagram y Facebook también aparecen como tarjetas en la página Novedades (ver 4.2). Lo que cambias en "
           "`social` se ve en los dos lugares. Los «otros enlaces» solo aparecen en el pie de página.")
 
-    b.h1("6. Dirección propia: kampuntin.org")
-    b.p("Los dominios **kampuntin.org** y **kampuntin.com** están registrados en **Cloudflare** (acceso en 1.7). La "
-        "dirección principal es **www.kampuntin.org**; kampuntin.com solo lleva a ella. La página sigue gratis en "
-        "GitHub; solo los dominios cuestan dinero. Cada dominio se configura por separado en Cloudflare, pero de forma "
-        "distinta: kampuntin.org apunta a GitHub (6.2), kampuntin.com solo redirige (6.4).")
-    b.h2("6.1 Los dominios en Cloudflare")
+    b.h1("6. La dirección: www.kampuntin.org")
+    b.p("La página está en **www.kampuntin.org**. Los dominios **kampuntin.org** y **kampuntin.com** están registrados "
+        "en **Cloudflare** (acceso en 1.7). Todas estas direcciones llevan automáticamente a https://www.kampuntin.org: "
+        "kampuntin.org, kampuntin.com, www.kampuntin.com y la dirección antigua kampuntin-maikiuants.github.io. La "
+        "página sigue gratis en GitHub; solo los dominios cuestan dinero.")
+    b.h2("6.1 Renovar los dominios")
     b.steps([
         "Inicia sesión en **cloudflare.com** (datos en 1.7).",
         "En el menú de la izquierda: «Domain Registration» › «Manage Domains». Ahí ves los dos dominios y la fecha "
         "de vencimiento.",
-        "Revisa que la renovación automática («Auto-renew») esté activada en los dos. Si un dominio vence, la página "
-        "deja de verse con esa dirección.",
+        "Revisa que la renovación automática («Auto-renew») esté activada en los dos y que la forma de pago guardada "
+        "siga siendo válida. Cloudflare cobra la renovación una vez al año.",
     ])
-    b.box("Comparte el acceso a Cloudflare con una segunda persona de confianza. Sin acceso no se puede renovar ni "
-          "cambiar el dominio.", "warn")
-    b.h2("6.2 Conectar kampuntin.org con la página (DNS)")
-    b.steps([
-        "En Cloudflare, en la página de inicio de la cuenta, haz clic en **kampuntin.org**.",
-        "En el menú de la izquierda: «DNS» › «Records». Borra las entradas A o CNAME para `kampuntin.org` y `www` "
-        "que ya existan.",
-        "Con «Add record» crea estas cinco entradas, una por una:",
-    ])
-    b.table(["Type", "Name", "IPv4 address / Target"], DNS, [.18, .27, .55])
-    b.box("En cada entrada, «Proxy status» debe estar en **DNS only** (nube gris), no en "
-          "«Proxied» (nube naranja). Si no, GitHub no puede activar la conexión segura (HTTPS).", "warn")
-    b.box("Opcional, para conexiones IPv6: cuatro entradas AAAA para `@` con los valores `2606:50c0:8000::153`, "
-          "`2606:50c0:8001::153`, `2606:50c0:8002::153` y `2606:50c0:8003::153`, también en «DNS only».")
-    b.h2("6.3 Activar el dominio en GitHub")
-    b.steps([
-        "En GitHub, en el repositorio: «Settings» › «Pages».",
-        "En «Custom domain» escribe `www.kampuntin.org` y haz clic en «Save».",
-        "GitHub comprueba el DNS. Puede tardar desde unos minutos hasta 48 horas. Cuando aparece «DNS check "
-        "successful», marca «Enforce HTTPS». Si la casilla todavía está gris, espera unas horas y vuelve a intentarlo.",
-        "En la pestaña «Actions» abre «Website bauen & Social Media importieren» y haz clic en «Run workflow». Así la "
-        "página se construye con la dirección nueva (si no, pasa sola en las próximas 6 horas).",
-        "Listo: la página se abre en www.kampuntin.org. La dirección antigua " + SITE + " y kampuntin.org llevan "
-        "automáticamente a la nueva.",
-    ])
-    b.box("Recomendado: verifica el dominio en GitHub para que nadie más pueda usarlo con GitHub Pages. En la "
-          "configuración de la organización Kampuntin-Maikiuants: «Settings» › «Pages» › «Add a domain». GitHub te da "
-          "una entrada TXT; créala en Cloudflare igual que en 6.2 y vuelve a GitHub para confirmar.")
-    b.h2("6.4 Redirigir kampuntin.com a kampuntin.org")
-    b.steps([
-        "En Cloudflare haz clic en **kampuntin.com** › «DNS» › «Records» y crea dos entradas, esta vez con «Proxy "
-        "status» en **Proxied** (nube naranja): tipo `A`, nombre `@`, dirección `192.0.2.1`; y tipo `CNAME`, nombre "
-        "`www`, destino `kampuntin.com`. La dirección `192.0.2.1` es solo un marcador; la redirección la hace Cloudflare.",
-        "En el menú de la izquierda: «Rules» › «Redirect Rules» › «Create rule».",
-        "Ponle un nombre (por ejemplo «a kampuntin.org») y elige «All incoming requests».",
-        "En «Then»: «Type» = «Static», «URL» = `https://www.kampuntin.org`, «Status code» = «301». Haz clic en «Deploy».",
-        "Prueba abrir kampuntin.com y www.kampuntin.com: las dos deben llevar a www.kampuntin.org.",
-    ])
-    b.h2("6.5 Después del cambio")
+    b.box("Si un dominio vence, la página deja de verse con esa dirección. Comparte el acceso a Cloudflare con una "
+          "segunda persona de confianza.", "warn")
+    b.h2("6.2 Cómo está configurado")
+    b.p("Normalmente no hay que cambiar nada. Si algo deja de funcionar, compara con esta lista.")
+    b.p("**kampuntin.org** en Cloudflare › «DNS» › «Records»:")
+    b.table(["Type", "Name", "Content", "Proxy status"], DNS, [.14, .16, .45, .25])
     b.bullets([
-        "Cambia la dirección en los perfiles de Facebook e Instagram, en WWOOF, en los volantes y en los códigos QR. "
-        "No es urgente: la dirección antigua sigue funcionando y lleva a la nueva.",
-        "Registra kampuntin.org en la Google Search Console (ver 7.1).",
-        "Un correo con el dominio (por ejemplo info@kampuntin.org) se puede agregar después con el reenvío de correo "
-        "gratuito de Cloudflare («Email» › «Email Routing»).",
+        "«SSL/TLS» › «Overview»: modo **Full** (o «Automatic», que usa Full). **No** elijas «Full (Strict)»: la página "
+        "mostraría un error.",
+        "«SSL/TLS» › «Edge Certificates»: «Always Use HTTPS» activado. Así todos llegan a la versión segura (https).",
     ])
+    b.p("**En GitHub:**")
+    b.bullets([
+        "«Settings» › «Pages» › «Custom domain»: `www.kampuntin.org`.",
+        "En el repositorio hay un archivo `CNAME` con el texto `www.kampuntin.org`. No lo borres.",
+        "En `_config.yml` está la línea `url: \"https://www.kampuntin.org\"`. Con ella, los enlaces para Google y la "
+        "vista previa al compartir usan la dirección correcta.",
+    ])
+    b.box("Recomendado, si aún no está hecho: verifica el dominio en GitHub para que nadie más pueda usarlo con GitHub "
+          "Pages. En la configuración de la organización Kampuntin-Maikiuants: «Settings» › «Pages» › «Add a domain». "
+          "GitHub te da una entrada TXT; créala en Cloudflare (kampuntin.org › «DNS» › «Records» › «Add record») y "
+          "vuelve a GitHub para confirmar.")
+    b.h2("6.3 kampuntin.com: la redirección")
+    b.p("kampuntin.com no tiene página propia: Cloudflare lleva a todos los visitantes a www.kampuntin.org. Así está "
+        "configurado en Cloudflare › **kampuntin.com**:")
+    b.bullets([
+        "«DNS» › «Records»: `A` · `@` · `192.0.2.1` y `CNAME` · `www` · `kampuntin.com`, los dos en **Proxied** (nube "
+        "naranja). La dirección 192.0.2.1 es solo un marcador.",
+        "«Rules» › «Redirect Rules»: una regla para «All incoming requests» con «Type» = «Static», «URL» = "
+        "`https://www.kampuntin.org` y «Status code» = 301.",
+    ])
+    b.h2("6.4 Si la página no se abre")
+    b.bullets([
+        "Revisa en Cloudflare que los dominios no hayan vencido (6.1).",
+        "Compara los ajustes con 6.2. Un error frecuente es el modo «Full (Strict)»: cámbialo a «Full».",
+        "En GitHub, «Settings» › «Pages»: «Custom domain» debe seguir en `www.kampuntin.org`. Si está vacío, escríbelo "
+        "de nuevo y haz clic en «Save».",
+        "Si solo falla kampuntin.com, revisa la regla de 6.3.",
+    ])
+    b.h2("6.5 Un correo con el dominio (opcional)")
+    b.p("Con el reenvío gratuito de Cloudflare se puede crear una dirección como info@kampuntin.org que llega a un "
+        "correo existente, por ejemplo ocstkampuntin@gmail.com: Cloudflare › kampuntin.org › «Email» › «Email Routing», "
+        "y seguir los pasos.")
 
     b.h1("7. Aparecer en Google")
-    b.p("Google muestra la página solo si sabe que existe. Con la **Google Search Console** le avisas a Google, "
-        "y además ves con qué búsquedas llega la gente y si hay problemas. Es gratis. Se configura una sola vez; "
-        "después basta con mirar de vez en cuando.")
-    b.h2("7.1 Registrar la página en la Google Search Console")
+    b.p("Google muestra la página solo si sabe que existe. Con la **Google Search Console** le avisas a Google, y "
+        "además ves con qué búsquedas llega la gente y si hay problemas. Es gratis y se configura una sola vez.")
+    b.h2("7.1 Registrar kampuntin.org en la Google Search Console")
     b.steps([
         "Abre **search.google.com/search-console** e inicia sesión con la cuenta de Google de Kampuntin "
         "(ocstkampuntin@gmail.com), así el acceso queda en la organización.",
-        "Haz clic en «Agregar propiedad». Elige la opción de la derecha, «Prefijo de la URL», y escribe "
-        "`https://kampuntin-maikiuants.github.io/`. La opción «Dominio» de la izquierda no funciona con github.io.",
-        "Como método de verificación elige «Etiqueta HTML». Google muestra una línea como "
-        "`<meta name=\"google-site-verification\" content=\"AbC123...\">`. Copia solo el código que está entre "
-        "las comillas después de `content=`.",
-        "En GitHub abre `_config.yml`, busca la línea `google_site_verification: \"\"` y pega el código entre las "
-        "comillas, por ejemplo `google_site_verification: \"AbC123...\"`. Guarda (ver 1.3).",
-        "Espera a que «Actions» esté en verde (ver 1.4) y haz clic en «Verificar» en la Search Console.",
+        "Haz clic en «Agregar propiedad». Elige la opción de la izquierda, «Dominio», y escribe `kampuntin.org`.",
+        "Google reconoce que el dominio está en Cloudflare y ofrece hacer la verificación allí. Acepta, inicia sesión en "
+        "Cloudflare (datos en 1.7) y autoriza. Google crea solo la entrada necesaria.",
+        "Si no aparece esa opción: copia el valor TXT que muestra Google. En Cloudflare abre kampuntin.org › «DNS» › "
+        "«Records» › «Add record»: «Type» `TXT`, «Name» `@`, en «Content» pega el valor y guarda. Vuelve a Google y "
+        "haz clic en «Verificar».",
     ])
-    b.box("Cuando kampuntin.org ya funcione (capítulo 6), mejor elige en el paso 2 la opción de la izquierda, "
-          "«Dominio», y escribe `kampuntin.org`. Google te da una entrada TXT: créala en Cloudflare (kampuntin.org › "
-          "«DNS» › «Records» › «Add record», tipo TXT) y haz clic en «Verificar». Así quedan registradas todas las "
-          "direcciones a la vez.")
-    b.box("No borres después la línea `google_site_verification`. Google la revisa de vez en cuando; sin ella se "
+    b.box("No borres después la entrada TXT de Google en Cloudflare. Google la revisa de vez en cuando; sin ella se "
           "pierde el acceso a la Search Console.", "warn")
     b.h2("7.2 Enviar el mapa del sitio y pedir la indexación")
     b.steps([
-        "En el menú de la izquierda, «Sitemaps»: escribe `sitemap.xml` y haz clic en «Enviar». El mapa del sitio se "
-        "crea solo y contiene todas las páginas en los tres idiomas.",
-        "En la barra de arriba («Inspeccionar cualquier URL») escribe la dirección de la página de inicio y haz clic "
-        "en «Solicitar indexación». Haz lo mismo con las páginas más importantes, por ejemplo `/en/`, `/fr/` y "
-        "`/tours/`.",
+        "En el menú de la izquierda, «Sitemaps»: escribe `https://www.kampuntin.org/sitemap.xml` y haz clic en "
+        "«Enviar». El mapa del sitio se crea solo y contiene todas las páginas en los tres idiomas.",
+        "En la barra de arriba («Inspeccionar cualquier URL») escribe `https://www.kampuntin.org/` y haz clic en "
+        "«Solicitar indexación». Haz lo mismo con las páginas más importantes, por ejemplo "
+        "`https://www.kampuntin.org/tours/`, `/en/` y `/fr/`.",
         "Ahora hay que esperar: normalmente la página aparece en Google después de unos días o hasta dos semanas. "
-        "Para comprobarlo, busca en Google `site:kampuntin-maikiuants.github.io`.",
+        "Para comprobarlo, busca en Google `site:kampuntin.org`.",
     ])
     b.box("Para dar acceso a otra persona: «Configuración» › «Usuarios y permisos» › «Agregar usuario».")
     b.h2("7.3 Enlaces desde otras páginas")
-    b.p("Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner la dirección en "
-        "todas partes:")
+    b.p("Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner **www.kampuntin.org** "
+        "en todas partes:")
     b.bullets([
         "En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.",
         "En el perfil de WWOOF y en las páginas de organizaciones amigas.",
         "En los volantes y en la firma de los correos.",
+        "En GitHub, en la organización Kampuntin-Maikiuants: «Settings» › «Profile», con una descripción (por ejemplo "
+        "«Página web de Kampuntin») y la URL `https://www.kampuntin.org`.",
         "Opcional: un perfil en Google Maps («Perfil de Empresa en Google») para Kampuntin en Maikiuants, con la "
         "dirección de la página. Así aparece también un mapa cuando alguien busca «Kampuntin».",
     ])
-    b.h2("7.4 Bing y otros buscadores")
-    b.p("En **bing.com/webmasters** se puede importar la página desde la Google Search Console con un clic (opción "
-        "de importar desde Google Search Console). Así la página llega también a Bing, DuckDuckGo, Ecosia y Yahoo.")
+    b.h2("7.4 Bing, DuckDuckGo y otros buscadores")
+    b.p("En **bing.com/webmasters** se puede importar la página desde la Google Search Console con un clic. Así la "
+        "página llega también a Bing, DuckDuckGo, Ecosia y Yahoo.")
+    b.box("En algunos buscadores aparece también la página de GitHub de Kampuntin-Maikiuants (el código de la página). "
+          "Es normal y no es un problema: ahí solo está lo que ya se ve en la página web, sin contraseñas. Cuando "
+          "www.kampuntin.org esté registrada, aparecerá más arriba.")
 
     b.h1("8. Si algo sale mal")
     b.table(["Problema", "Qué hacer"], [
@@ -785,6 +783,7 @@ def es(b):
         ["Una foto no aparece", "Revisa que el nombre en el archivo sea exactamente igual al de la foto, con "
                                 "mayúsculas y la terminación (`.jpg` no es lo mismo que `.JPG`)."],
         ["Las publicaciones de Facebook ya no se actualizan", "Ver 4.4."],
+        ["La página no se abre en www.kampuntin.org", "Ver 6.4."],
     ], [.3, .7])
     b.p("**Ayuda:** Jesko Dorner · jesko.dorner@gmail.com")
     b.h2("Hoja resumen")
@@ -803,8 +802,8 @@ def es(b):
         ["Pie de página: redes y textos", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` y `assets/video`", "GitHub"],
         ["Experiencia de voluntario", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
-        ["Dominios y DNS", "Cloudflare (acceso en 1.7, pasos en 6)", "Cloudflare y GitHub"],
-        ["Aparecer en Google", "Search Console y `_config.yml` › `google_site_verification`", "Google y GitHub"],
+        ["Dominios, renovación y DNS", "Cloudflare (acceso en 1.7, ajustes en 6)", "Cloudflare y GitHub"],
+        ["Aparecer en Google", "Search Console, propiedad «Dominio» kampuntin.org (ver 7)", "Google y Cloudflare"],
     ], [.36, .44, .20])
 
 
@@ -1063,6 +1062,8 @@ def en(b):
     b.code('- name: "Eddy Ankuash"\n'
            '  group: kampuntin\n'
            '  photo: "/assets/img/equipo/eddy.jpg"\n'
+           '  social:\n'
+           '    - { name: Facebook, url: "https://www.facebook.com/eddy.ankuash.2025" }\n'
            '  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }\n'
            '  bio:\n'
            '    es: "Texto corto en español."\n'
@@ -1151,112 +1152,109 @@ def en(b):
     b.box("Instagram and Facebook also appear as cards on the Updates page (see 4.2). What you change in `social` "
           "shows up in both places. «Other links» only appear in the footer.")
 
-    b.h1("6. Your own address: kampuntin.org")
-    b.p("The domains **kampuntin.org** and **kampuntin.com** are registered with **Cloudflare** (access in 1.7). The "
-        "main address is **www.kampuntin.org**; kampuntin.com only leads to it. The website stays free on GitHub; only "
-        "the domains cost money. Each domain is set up separately in Cloudflare, but differently: kampuntin.org points "
-        "to GitHub (6.2), kampuntin.com only redirects (6.4).")
-    b.h2("6.1 The domains in Cloudflare")
+    b.h1("6. The address: www.kampuntin.org")
+    b.p("The website is at **www.kampuntin.org**. The domains **kampuntin.org** and **kampuntin.com** are registered "
+        "with **Cloudflare** (access in 1.7). All these addresses lead automatically to https://www.kampuntin.org: "
+        "kampuntin.org, kampuntin.com, www.kampuntin.com and the old address kampuntin-maikiuants.github.io. The "
+        "website stays free on GitHub; only the domains cost money.")
+    b.h2("6.1 Renewing the domains")
     b.steps([
         "Sign in at **cloudflare.com** (details in 1.7).",
         "In the menu on the left: «Domain Registration» › «Manage Domains». There you see both domains and their "
         "expiry date.",
-        "Check that «Auto-renew» is switched on for both. If a domain expires, the website can no longer be reached "
-        "at that address.",
+        "Check that «Auto-renew» is switched on for both and that the saved payment method is still valid. Cloudflare "
+        "charges the renewal once a year.",
     ])
-    b.box("Share the Cloudflare access with a second trusted person. Without access, the domain cannot be renewed or "
-          "changed.", "warn")
-    b.h2("6.2 Connecting kampuntin.org to the website (DNS)")
-    b.steps([
-        "In Cloudflare, on the account home page, click **kampuntin.org**.",
-        "In the menu on the left: «DNS» › «Records». Delete any existing A or CNAME records for `kampuntin.org` and "
-        "`www`.",
-        "Use «Add record» to create these five records, one by one:",
-    ])
-    b.table(["Type", "Name", "IPv4 address / Target"], DNS, [.18, .27, .55])
-    b.box("For each record, «Proxy status» must be **DNS only** (grey cloud), not «Proxied» "
-          "(orange cloud). Otherwise GitHub cannot activate the secure connection (HTTPS).", "warn")
-    b.box("Optional, for IPv6 connections: four AAAA records for `@` with the values `2606:50c0:8000::153`, "
-          "`2606:50c0:8001::153`, `2606:50c0:8002::153` and `2606:50c0:8003::153`, also «DNS only».")
-    b.h2("6.3 Activating the domain on GitHub")
-    b.steps([
-        "On GitHub, in the repository: «Settings» › «Pages».",
-        "Under «Custom domain», enter `www.kampuntin.org` and click «Save».",
-        "GitHub checks the DNS. This can take from a few minutes up to 48 hours. When «DNS check successful» appears, "
-        "tick «Enforce HTTPS». If the box is still grey, wait a few hours and try again.",
-        "In the «Actions» tab, open «Website bauen & Social Media importieren» and click «Run workflow». This builds "
-        "the website with the new address (otherwise it happens by itself within 6 hours).",
-        "Done: the website opens at www.kampuntin.org. The old address " + SITE + " and kampuntin.org redirect to "
-        "the new one automatically.",
-    ])
-    b.box("Recommended: verify the domain on GitHub so nobody else can use it with GitHub Pages. In the settings of "
-          "the Kampuntin-Maikiuants organisation: «Settings» › «Pages» › «Add a domain». GitHub gives you a TXT record; "
-          "create it in Cloudflare as in 6.2 and go back to GitHub to confirm.")
-    b.h2("6.4 Redirecting kampuntin.com to kampuntin.org")
-    b.steps([
-        "In Cloudflare, click **kampuntin.com** › «DNS» › «Records» and create two records, this time with «Proxy "
-        "status» set to **Proxied** (orange cloud): type `A`, name `@`, address `192.0.2.1`; and type `CNAME`, name "
-        "`www`, target `kampuntin.com`. The address `192.0.2.1` is only a placeholder; Cloudflare does the redirect.",
-        "In the menu on the left: «Rules» › «Redirect Rules» › «Create rule».",
-        "Give it a name (for example «to kampuntin.org») and choose «All incoming requests».",
-        "Under «Then»: «Type» = «Static», «URL» = `https://www.kampuntin.org`, «Status code» = «301». Click «Deploy».",
-        "Try opening kampuntin.com and www.kampuntin.com: both should lead to www.kampuntin.org.",
-    ])
-    b.h2("6.5 After the change")
+    b.box("If a domain expires, the website can no longer be reached at that address. Share the Cloudflare access "
+          "with a second trusted person.", "warn")
+    b.h2("6.2 How it is set up")
+    b.p("Normally nothing needs to be changed. If something stops working, compare with this list.")
+    b.p("**kampuntin.org** in Cloudflare › «DNS» › «Records»:")
+    b.table(["Type", "Name", "Content", "Proxy status"], DNS, [.14, .16, .45, .25])
     b.bullets([
-        "Update the address on the Facebook and Instagram profiles, on WWOOF, on flyers and in QR codes. This is not "
-        "urgent: the old address keeps working and leads to the new one.",
-        "Register kampuntin.org in Google Search Console (see 7.1).",
-        "An email address with the domain (for example info@kampuntin.org) can be added later with Cloudflare's free "
-        "email forwarding («Email» › «Email Routing»).",
+        "«SSL/TLS» › «Overview»: mode **Full** (or «Automatic», which uses Full). Do **not** choose «Full (Strict)»: "
+        "the website would show an error.",
+        "«SSL/TLS» › «Edge Certificates»: «Always Use HTTPS» switched on. This sends everyone to the secure version "
+        "(https).",
     ])
+    b.p("**On GitHub:**")
+    b.bullets([
+        "«Settings» › «Pages» › «Custom domain»: `www.kampuntin.org`.",
+        "The repository contains a file `CNAME` with the text `www.kampuntin.org`. Do not delete it.",
+        "`_config.yml` contains the line `url: \"https://www.kampuntin.org\"`. It makes the links for Google and the "
+        "link preview use the correct address.",
+    ])
+    b.box("Recommended, if not done yet: verify the domain on GitHub so nobody else can use it with GitHub Pages. In "
+          "the settings of the Kampuntin-Maikiuants organisation: «Settings» › «Pages» › «Add a domain». GitHub gives "
+          "you a TXT record; create it in Cloudflare (kampuntin.org › «DNS» › «Records» › «Add record») and go back "
+          "to GitHub to confirm.")
+    b.h2("6.3 kampuntin.com: the redirect")
+    b.p("kampuntin.com has no website of its own: Cloudflare sends all visitors to www.kampuntin.org. This is how it "
+        "is set up in Cloudflare › **kampuntin.com**:")
+    b.bullets([
+        "«DNS» › «Records»: `A` · `@` · `192.0.2.1` and `CNAME` · `www` · `kampuntin.com`, both **Proxied** (orange "
+        "cloud). The address 192.0.2.1 is only a placeholder.",
+        "«Rules» › «Redirect Rules»: one rule for «All incoming requests» with «Type» = «Static», «URL» = "
+        "`https://www.kampuntin.org` and «Status code» = 301.",
+    ])
+    b.h2("6.4 If the website does not open")
+    b.bullets([
+        "Check in Cloudflare that the domains have not expired (6.1).",
+        "Compare the settings with 6.2. A common mistake is the «Full (Strict)» mode: change it to «Full».",
+        "On GitHub, «Settings» › «Pages»: «Custom domain» must still be `www.kampuntin.org`. If it is empty, enter it "
+        "again and click «Save».",
+        "If only kampuntin.com fails, check the rule in 6.3.",
+    ])
+    b.h2("6.5 An email address with the domain (optional)")
+    b.p("With Cloudflare's free email forwarding you can create an address such as info@kampuntin.org that arrives in "
+        "an existing inbox, for example ocstkampuntin@gmail.com: Cloudflare › kampuntin.org › «Email» › «Email "
+        "Routing», then follow the steps.")
 
     b.h1("7. Getting found on Google")
-    b.p("Google only shows the website if it knows that it exists. With the **Google Search Console** you tell "
-        "Google about it, and you can also see which searches bring people to the website and whether there are "
-        "problems. It is free. You set it up once; after that, an occasional look is enough.")
-    b.h2("7.1 Registering the website in Google Search Console")
+    b.p("Google only shows the website if it knows that it exists. With the **Google Search Console** you tell Google "
+        "about it, and you can also see which searches bring people to the website and whether there are problems. "
+        "It is free and only needs to be set up once.")
+    b.h2("7.1 Registering kampuntin.org in Google Search Console")
     b.steps([
         "Open **search.google.com/search-console** and sign in with Kampuntin's Google account "
         "(ocstkampuntin@gmail.com), so that access stays with the organisation.",
-        "Click «Add property». Choose the option on the right, «URL prefix», and enter "
-        "`https://kampuntin-maikiuants.github.io/`. The «Domain» option on the left does not work with github.io.",
-        "As the verification method, choose «HTML tag». Google shows a line like "
-        "`<meta name=\"google-site-verification\" content=\"AbC123...\">`. Copy only the code between the quotes "
-        "after `content=`.",
-        "On GitHub, open `_config.yml`, find the line `google_site_verification: \"\"` and paste the code between "
-        "the quotes, for example `google_site_verification: \"AbC123...\"`. Save (see 1.3).",
-        "Wait until «Actions» is green (see 1.4) and click «Verify» in Search Console.",
+        "Click «Add property». Choose the option on the left, «Domain», and enter `kampuntin.org`.",
+        "Google recognises that the domain is with Cloudflare and offers to do the verification there. Accept, sign in "
+        "to Cloudflare (details in 1.7) and allow it. Google creates the required record by itself.",
+        "If that option does not appear: copy the TXT value Google shows. In Cloudflare, open kampuntin.org › «DNS» › "
+        "«Records» › «Add record»: «Type» `TXT`, «Name» `@`, paste the value into «Content» and save. Go back to Google "
+        "and click «Verify».",
     ])
-    b.box("Once kampuntin.org is working (chapter 6), it is better to choose the option on the left in step 2, "
-          "«Domain», and enter `kampuntin.org`. Google gives you a TXT record: create it in Cloudflare (kampuntin.org › "
-          "«DNS» › «Records» › «Add record», type TXT) and click «Verify». This registers all addresses at once.")
-    b.box("Do not delete the `google_site_verification` line later. Google checks it from time to time; without it, "
+    b.box("Do not delete Google's TXT record in Cloudflare later. Google checks it from time to time; without it, "
           "access to Search Console is lost.", "warn")
     b.h2("7.2 Submitting the sitemap and requesting indexing")
     b.steps([
-        "In the menu on the left, «Sitemaps»: enter `sitemap.xml` and click «Submit». The sitemap is created "
-        "automatically and contains all pages in all three languages.",
-        "In the bar at the top («Inspect any URL»), enter the address of the homepage and click «Request indexing». "
-        "Do the same for the most important pages, for example `/en/`, `/fr/` and `/tours/`.",
-        "Now you have to wait: the website usually appears on Google after a few days to two weeks. To check, "
-        "search Google for `site:kampuntin-maikiuants.github.io`.",
+        "In the menu on the left, «Sitemaps»: enter `https://www.kampuntin.org/sitemap.xml` and click «Submit». The "
+        "sitemap is created automatically and contains all pages in all three languages.",
+        "In the bar at the top («Inspect any URL»), enter `https://www.kampuntin.org/` and click «Request indexing». "
+        "Do the same for the most important pages, for example `https://www.kampuntin.org/tours/`, `/en/` and `/fr/`.",
+        "Now you have to wait: the website usually appears on Google after a few days to two weeks. To check, search "
+        "Google for `site:kampuntin.org`.",
     ])
     b.box("To give another person access: «Settings» › «Users and permissions» › «Add user».")
     b.h2("7.3 Links from other websites")
-    b.p("Google trusts a website more when other websites link to it. So it is worth putting the address "
+    b.p("Google trusts a website more when other websites link to it. So it is worth putting **www.kampuntin.org** "
         "everywhere:")
     b.bullets([
         "On the Facebook pages («Website» field) and in the Instagram bio.",
         "On the WWOOF profile and on the websites of partner organisations.",
         "On flyers and in email signatures.",
-        "Optional: a Google Maps profile («Google Business Profile») for Kampuntin in Maikiuants, with the address "
-        "of the website. Then a map also appears when someone searches for «Kampuntin».",
+        "On GitHub, in the Kampuntin-Maikiuants organisation: «Settings» › «Profile», with a description (for example "
+        "«Kampuntin website») and the URL `https://www.kampuntin.org`.",
+        "Optional: a Google Maps profile («Google Business Profile») for Kampuntin in Maikiuants, with the address of "
+        "the website. Then a map also appears when someone searches for «Kampuntin».",
     ])
-    b.h2("7.4 Bing and other search engines")
-    b.p("At **bing.com/webmasters** you can import the website from Google Search Console with one click (the "
-        "option to import from Google Search Console). This way the website also reaches Bing, DuckDuckGo, Ecosia "
-        "and Yahoo.")
+    b.h2("7.4 Bing, DuckDuckGo and other search engines")
+    b.p("At **bing.com/webmasters** you can import the website from Google Search Console with one click. This way the "
+        "website also reaches Bing, DuckDuckGo, Ecosia and Yahoo.")
+    b.box("Some search engines also show the GitHub page of Kampuntin-Maikiuants (the website's code). This is normal "
+          "and not a problem: it only contains what is already visible on the website, no passwords. Once "
+          "www.kampuntin.org is registered, it will appear higher up.")
 
     b.h1("8. If something goes wrong")
     b.table(["Problem", "What to do"], [
@@ -1271,6 +1269,7 @@ def en(b):
         ["A photo doesn't appear", "Check that the name in the file is exactly the same as the photo's, including "
                                    "capital letters and the extension (`.jpg` is not the same as `.JPG`)."],
         ["Facebook posts are no longer updated", "See 4.4."],
+        ["The website does not open at www.kampuntin.org", "See 6.4."],
     ], [.3, .7])
     b.p("**Help:** Jesko Dorner · jesko.dorner@gmail.com")
     b.h2("Quick reference")
@@ -1289,8 +1288,8 @@ def en(b):
         ["Footer: social networks and texts", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` and `assets/video`", "GitHub"],
         ["Volunteer story", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
-        ["Domains and DNS", "Cloudflare (access in 1.7, steps in 6)", "Cloudflare and GitHub"],
-        ["Getting found on Google", "Search Console and `_config.yml` › `google_site_verification`", "Google and GitHub"],
+        ["Domains, renewal and DNS", "Cloudflare (access in 1.7, settings in 6)", "Cloudflare and GitHub"],
+        ["Getting found on Google", "Search Console, «Domain» property kampuntin.org (see 7)", "Google and Cloudflare"],
     ], [.36, .44, .20])
 
 
