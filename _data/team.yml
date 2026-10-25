@@ -56,7 +56,9 @@
 
 - name: "Eddy Ankuash"
   group: kampuntin
-  photo: ""
+  photo: "/assets/img/equipo/eddy.jpg"
+  social:
+    - { name: Facebook, url: "https://www.facebook.com/eddy.ankuash.2025" }
   role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }
   bio:
     es: "Es emprendedor en la agricultura y la carpintería."
