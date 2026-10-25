@@ -94,3 +94,18 @@
     es: "Guía las caminatas por la selva y comparte su conocimiento sobre las plantas y los animales del territorio."
     en: "Leads the rainforest walks and shares his knowledge of the plants and animals of the territory."
     fr: "Guide les randonnées en forêt et partage ses connaissances sur les plantes et les animaux du territoire."
+
+- name: "Elvia Ankuash"
+  group: kampuntin
+  photo: ""
+  social:
+    - { name: Facebook, url: "https://www.facebook.com/elvia.ankuash" }
+  role: { es: "Cerámica y artesanía", en: "Pottery and handicrafts", fr: "Céramique et artisanat" }
+  bio:
+    es: "Hace cerámica con los visitantes y artesanía con cuentas, como collares."
+    en: "Makes pottery with visitors and beadwork such as necklaces."
+    fr: "Fait de la céramique avec les visiteurs et de l’artisanat en perles, comme des colliers."
+  details:
+    es: "Elvia es alfarera: hace cerámica junto con los visitantes y los voluntarios. También hace artesanía, como collares y otras piezas con cuentas."
+    en: "Elvia is a potter: she makes ceramics together with visitors and volunteers. She also makes handicrafts such as necklaces and other beadwork."
+    fr: "Elvia est potière : elle fait de la céramique avec les visiteurs et les bénévoles. Elle fabrique aussi de l’artisanat, comme des colliers et d’autres bijoux en perles."
