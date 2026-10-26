@@ -28,6 +28,16 @@ media:
     input: assets/img/fotos
     output: /assets/img/fotos
     extensions: [jpg, jpeg, png, webp]
+  - name: camaras
+    label: Fotos de las cámaras trampa
+    input: assets/img/camaras
+    output: /assets/img/camaras
+    extensions: [jpg, jpeg, png, webp]
+  - name: especies
+    label: Ilustraciones de especies
+    input: assets/img/especies
+    output: /assets/img/especies
+    extensions: [jpg, jpeg, png, webp]
 
 content:
   - name: tour_dates
@@ -77,6 +87,178 @@ content:
                 - { name: open, label: Plazas libres }
                 - { name: few, label: Últimas plazas }
                 - { name: full, label: Completo }
+
+  - name: precios_aviso
+    label: Precios y aviso
+    description: Vale para los tres idiomas.
+    type: file
+    path: _data/tour_settings.yml
+    format: yaml
+    fields:
+      - { name: popup, label: "Mostrar el aviso (pop-up) en la página de inicio", type: boolean }
+      - name: espiritual
+        label: "Precio del viaje espiritual"
+        type: object
+        fields:
+          - { name: show, label: "Mostrar el precio (apagado = «Precio a consultar»)", type: boolean }
+          - { name: amount, label: "Precio por persona, igual para los tres idiomas (por ejemplo 1200 USD)", type: string }
+      - name: arutam
+        label: "Precio del viaje Arutam"
+        type: object
+        fields:
+          - { name: show, label: "Mostrar el precio (apagado = «Precio a consultar»)", type: boolean }
+          - { name: amount, label: "Precio por persona, igual para los tres idiomas (por ejemplo 1200 USD)", type: string }
+
+  - name: viajes
+    label: Viajes
+    type: group
+    items:
+      - name: viajes_es
+        label: Español
+        type: file
+        path: _data/es/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+      - name: viajes_en
+        label: English
+        type: file
+        path: _data/en/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+      - name: viajes_fr
+        label: Français
+        type: file
+        path: _data/fr/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+
+  - name: aviso
+    label: Aviso (pop-up)
+    type: group
+    items:
+      - name: aviso_es
+        label: Español
+        type: file
+        path: _data/es/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
+      - name: aviso_en
+        label: English
+        type: file
+        path: _data/en/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
+      - name: aviso_fr
+        label: Français
+        type: file
+        path: _data/fr/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
 
   - name: albumes
     label: Álbumes de fotos
@@ -238,153 +420,155 @@ content:
                     options: { media: fotos }
                   - { name: text, label: "Relato completo (opcional)", type: text }
 
-  - name: viajes
-    label: Viajes
+  - name: voluntariado
+    label: "Voluntariado: datos prácticos"
     type: group
     items:
-      - name: viajes_es
+      - name: practico_es
         label: Español
         type: file
-        path: _data/es/tours.yml
+        path: _data/es/volunteering.yml
         format: yaml
         fields:
-          - name: trips
-            label: Viajes
+          - name: practical
+            label: Datos prácticos
             type: object
             fields:
-              - name: espiritual
-                label: Viaje espiritual
+              - { name: title, label: Título de la sección, type: string }
+              - name: items
+                label: Datos
                 type: object
+                list:
+                  collapsible: { summary: "{label}" }
                 fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
-              - name: arutam
-                label: Viaje Arutam
-                type: object
-                fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
-      - name: viajes_en
+                  - { name: label, label: "Tema (por ejemplo Estancia)", type: string }
+                  - { name: value, label: Texto, type: text }
+              - { name: wwoof, label: "Texto del enlace a WWOOF", type: string }
+      - name: practico_en
         label: English
         type: file
-        path: _data/en/tours.yml
+        path: _data/en/volunteering.yml
         format: yaml
         fields:
-          - name: trips
-            label: Viajes
+          - name: practical
+            label: Datos prácticos
             type: object
             fields:
-              - name: espiritual
-                label: Viaje espiritual
+              - { name: title, label: Título de la sección, type: string }
+              - name: items
+                label: Datos
                 type: object
+                list:
+                  collapsible: { summary: "{label}" }
                 fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
-              - name: arutam
-                label: Viaje Arutam
-                type: object
-                fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
-      - name: viajes_fr
+                  - { name: label, label: "Tema (por ejemplo Estancia)", type: string }
+                  - { name: value, label: Texto, type: text }
+              - { name: wwoof, label: "Texto del enlace a WWOOF", type: string }
+      - name: practico_fr
         label: Français
         type: file
-        path: _data/fr/tours.yml
+        path: _data/fr/volunteering.yml
         format: yaml
         fields:
-          - name: trips
-            label: Viajes
+          - name: practical
+            label: Datos prácticos
             type: object
             fields:
-              - name: espiritual
-                label: Viaje espiritual
+              - { name: title, label: Título de la sección, type: string }
+              - name: items
+                label: Datos
                 type: object
+                list:
+                  collapsible: { summary: "{label}" }
                 fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
-              - name: arutam
-                label: Viaje Arutam
-                type: object
-                fields:
-                  - { name: name, label: Nombre, type: string }
-                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
-                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
-                  - { name: text, label: Descripción corta, type: text }
-                  - { name: link, label: "Texto del enlace al programa", type: string }
+                  - { name: label, label: "Tema (por ejemplo Estancia)", type: string }
+                  - { name: value, label: Texto, type: text }
+              - { name: wwoof, label: "Texto del enlace a WWOOF", type: string }
 
-  - name: aviso
-    label: Aviso (pop-up)
-    type: group
-    items:
-      - name: aviso_es
-        label: Español
-        type: file
-        path: _data/es/home.yml
-        format: yaml
+  - name: especies
+    label: Especies y cámaras trampa
+    description: Las especies amenazadas de la página de ciencia, con las fotos de las cámaras trampa.
+    type: file
+    path: _data/species.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: latin, label: Nombre científico, type: string, required: true }
+      - name: name
+        label: "Nombre"
+        type: object
         fields:
-          - name: tour_popup
-            label: Aviso (pop-up)
+          - { name: es, label: Español, type: string }
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+      - name: status
+        label: Categoría de amenaza
+        type: select
+        options:
+          values:
+            - { name: CR, label: "CR – En peligro crítico" }
+            - { name: EN, label: "EN – En peligro" }
+            - { name: VU, label: "VU – Vulnerable" }
+            - { name: NT, label: "NT – Casi amenazado" }
+      - name: image
+        label: Ilustración
+        type: image
+        options: { media: especies }
+      - name: snapshots
+        label: Fotos de las cámaras trampa
+        type: object
+        list:
+          collapsible: { summary: "{alt.es}" }
+        fields:
+          - name: image
+            label: Foto
+            type: image
+            options: { media: camaras }
+          - name: alt
+            label: "Descripción de la foto (por ejemplo «Jaguar de noche, noviembre de 2025»)"
             type: object
             fields:
-              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
-              - { name: text, label: Texto, type: text }
-              - { name: button, label: Texto del botón, type: string }
-              - name: image
-                label: Foto del aviso
-                type: image
-                options: { media: fotos }
-              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
-              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
-      - name: aviso_en
-        label: English
-        type: file
-        path: _data/en/home.yml
-        format: yaml
+              - { name: es, label: Español, type: string }
+              - { name: en, label: English, type: string }
+              - { name: fr, label: Français, type: string }
+      - name: videos
+        label: "Videos de las cámaras trampa (los archivos MP4 se suben por GitHub)"
+        type: object
+        list:
+          collapsible: { summary: "{title.es}" }
         fields:
-          - name: tour_popup
-            label: Aviso (pop-up)
+          - { name: file, label: "Archivo MP4 (por ejemplo /assets/video/oso-andino-1.mp4)", type: string }
+          - { name: poster, label: "Imagen de vista previa (por ejemplo /assets/video/oso-andino-1.jpg)", type: string }
+          - name: title
+            label: "Título"
             type: object
             fields:
-              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
-              - { name: text, label: Texto, type: text }
-              - { name: button, label: Texto del botón, type: string }
-              - name: image
-                label: Foto del aviso
-                type: image
-                options: { media: fotos }
-              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
-              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
-      - name: aviso_fr
-        label: Français
-        type: file
-        path: _data/fr/home.yml
-        format: yaml
+              - { name: es, label: Español, type: string }
+              - { name: en, label: English, type: string }
+              - { name: fr, label: Français, type: string }
+
+  - name: videos
+    label: Videos
+    description: "Videos de YouTube: basta el código del video. Los archivos MP4 se suben por GitHub."
+    type: file
+    path: _data/videos.yml
+    format: yaml
+    list: true
+    fields:
+      - name: title
+        label: "Título"
+        type: object
         fields:
-          - name: tour_popup
-            label: Aviso (pop-up)
-            type: object
-            fields:
-              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
-              - { name: text, label: Texto, type: text }
-              - { name: button, label: Texto del botón, type: string }
-              - name: image
-                label: Foto del aviso
-                type: image
-                options: { media: fotos }
-              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
-              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
+          - { name: es, label: Español, type: string }
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+      - name: text
+        label: "Texto corto"
+        type: object
+        fields:
+          - { name: es, label: Español, type: text }
+          - { name: en, label: English, type: text }
+          - { name: fr, label: Français, type: text }
+      - { name: youtube, label: "Código de YouTube (por ejemplo AbCdEf12345 de https://youtu.be/AbCdEf12345)", type: string }
+      - { name: file, label: "Archivo MP4 (solo videos subidos por GitHub, por ejemplo /assets/video/video.mp4)", type: string }
+      - { name: poster, label: "Imagen de vista previa del MP4 (por ejemplo /assets/video/video.jpg)", type: string }

@@ -71,9 +71,8 @@ image_version: 10
 
 background_pattern: true
 
-# Kleines Fenster auf der Startseite, das den nächsten Tour-Termin bewirbt (true = an, false = aus).
-# Zeigt automatisch den nächsten Termin aus _data/tour_dates.yml, der noch freie Plätze hat.
-tour_popup: true
+# Kleines Fenster auf der Startseite (nächster Tour-Termin): an/aus jetzt in _data/tour_settings.yml
+# (Pages CMS: „Precios y aviso“). Texte: tour_popup in _data/{es,en,fr}/home.yml.
 
 # Eingebettete Facebook-Chronik (erst nach Klick). Ausgeschaltet, weil Facebook sie nur noch
 # eingeloggten Besuchern zeigt – alle anderen sehen ein leeres Feld. Die Beiträge kommen

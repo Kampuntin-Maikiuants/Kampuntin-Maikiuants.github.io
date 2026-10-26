@@ -116,7 +116,7 @@ explore:
       title: Ciencia
       text: Paraecólogas y paraecólogos de la comunidad monitorean la biodiversidad, los ríos y el clima.
 
-# Kleines Fenster unten rechts (nächster Tour-Termin) – an/aus: tour_popup in _config.yml
+# Kleines Fenster unten rechts (nächster Tour-Termin) – an/aus: _data/tour_settings.yml (Pages CMS „Precios y aviso“)
 tour_popup:
   eyebrow: Próximo tour
   text: >-

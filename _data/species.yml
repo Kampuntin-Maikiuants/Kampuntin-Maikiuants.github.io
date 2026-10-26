@@ -21,9 +21,9 @@
   status: EN
   image: /assets/img/especies/oso-andino.jpg
   snapshots:
-    - { image: /assets/img/especies/oso-andino-camara-1.jpg, alt: { es: "Oso andino en el bosque, frente a la cámara trampa", en: "Andean bear in the forest, in front of the camera trap", fr: "Ours à lunettes en forêt, devant le piège photographique" } }
-    - { image: /assets/img/especies/oso-andino-camara-2.jpg, alt: { es: "Oso andino acercándose a la cámara trampa", en: "Andean bear approaching the camera trap", fr: "Ours à lunettes s’approchant du piège photographique" } }
-    - { image: /assets/img/especies/oso-andino-camara-3.jpg, alt: { es: "Oso andino de cerca", en: "Andean bear up close", fr: "Ours à lunettes de près" } }
+    - { image: /assets/img/camaras/oso-andino-camara-1.jpg, alt: { es: "Oso andino en el bosque, frente a la cámara trampa", en: "Andean bear in the forest, in front of the camera trap", fr: "Ours à lunettes en forêt, devant le piège photographique" } }
+    - { image: /assets/img/camaras/oso-andino-camara-2.jpg, alt: { es: "Oso andino acercándose a la cámara trampa", en: "Andean bear approaching the camera trap", fr: "Ours à lunettes s’approchant du piège photographique" } }
+    - { image: /assets/img/camaras/oso-andino-camara-3.jpg, alt: { es: "Oso andino de cerca", en: "Andean bear up close", fr: "Ours à lunettes de près" } }
   videos:
     - { file: /assets/video/oso-andino-1.mp4, poster: /assets/video/oso-andino-1.jpg, title: { es: "Oso andino frente a la cámara trampa", en: "Andean bear on the camera trap", fr: "Ours à lunettes devant le piège photographique" } }
     - { file: /assets/video/oso-andino-2.mp4, poster: /assets/video/oso-andino-2.jpg, title: { es: "El oso se acerca y olfatea la cámara", en: "The bear comes closer and sniffs the camera", fr: "L’ours s’approche et renifle le piège" } }

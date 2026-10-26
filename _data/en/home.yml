@@ -115,7 +115,7 @@ explore:
       title: Science
       text: Community para-ecologists monitor biodiversity, rivers and the climate.
 
-# Small box in the bottom corner (next tour date) – on/off: tour_popup in _config.yml
+# Small box in the bottom corner (next tour date) – on/off: _data/tour_settings.yml (Pages CMS „Precios y aviso“)
 tour_popup:
   eyebrow: Next tour
   text: >-

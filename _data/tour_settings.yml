@@ -1,0 +1,11 @@
+# Ajustes de los tours – gelten für alle drei Sprachen (in Pages CMS: „Precios y aviso“)
+# popup:  kleines Fenster auf der Startseite mit dem nächsten Tour-Termin (true = an, false = aus)
+# Preise je Reise: show true = Preis anzeigen · false = „Precio a consultar / Price on request“
+#                  amount = Preis pro Person, z. B. "1200 USD" (der Text danach kommt aus tours.yml › price.per)
+popup: true
+espiritual:
+  show: false
+  amount: ""
+arutam:
+  show: false
+  amount: ""

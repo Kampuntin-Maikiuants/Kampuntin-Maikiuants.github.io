@@ -117,7 +117,7 @@ explore:
       title: Science
       text: Des paraécologues de la communauté suivent la biodiversité, les rivières et le climat.
 
-# Small box in the bottom corner (next tour date) – on/off: tour_popup in _config.yml
+# Small box in the bottom corner (next tour date) – on/off: _data/tour_settings.yml (Pages CMS „Precios y aviso“)
 tour_popup:
   eyebrow: Prochain tour
   text: >-

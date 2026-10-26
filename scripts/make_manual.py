@@ -392,15 +392,20 @@ def es(b):
         "Cambia lo que quieras y haz clic en «Save». Igual que con GitHub, la página se actualiza en uno a tres "
         "minutos (ver 1.4).",
     ])
+    b.img("pcms-fechas", "Pages CMS: a la izquierda el menú, a la derecha el formulario (aquí «Fechas de tours»).", .72)
     b.table(["En el menú", "Qué cambias ahí", "Ver"], [
         ["Fechas de tours", "Fechas de los viajes y plazas libres", "2.2"],
-        ["Aviso (pop-up)", "Texto, botón y foto del aviso", "2.4"],
+        ["Precios y aviso", "Precios de los viajes; aviso encendido o apagado", "2.4, 2.5"],
         ["Viajes", "Nombre, duración, temporada y texto de los dos viajes", "2.5"],
-        ["Galería (álbumes de fotos)", "Crear álbumes, subir y borrar fotos", "3.3–3.6"],
-        ["Álbumes de fotos", "Título y portada de cada álbum", "3.5"],
+        ["Aviso (pop-up)", "Texto, botón y foto del aviso", "2.4"],
+        ["Álbumes de fotos", "Título, portada y orden de los álbumes", "3.5"],
         ["Equipo", "Personas del equipo: foto, función, textos y enlaces", "5.1"],
         ["Experiencias de voluntarios", "Las experiencias en la página de voluntariado", "5.5"],
-        ["Fotos del equipo · Otras fotos", "Ver, subir o borrar esas fotos", "5.1, 5.5"],
+        ["Voluntariado: datos prácticos", "Estancia, horario, comida, idiomas, llegada", "5.7"],
+        ["Especies y cámaras trampa", "Fotos nuevas de las cámaras trampa", "5.8"],
+        ["Videos", "Videos de YouTube en la galería", "5.4"],
+        ["Galería (álbumes de fotos)", "Crear álbumes, subir y borrar fotos", "3.3–3.6"],
+        ["Las demás carpetas de fotos", "Ver, subir o borrar fotos del equipo, de las cámaras trampa y otras", "5.1, 5.8"],
     ], [.32, .52, .16])
     b.box("Los textos en tres idiomas tienen un formulario por idioma (Español, English, Français): cambia siempre "
           "los tres (ver 1.5). En las listas puedes cambiar el orden arrastrando los puntitos a la izquierda de cada "
@@ -415,6 +420,7 @@ def es(b):
     b.bullets([
         "**Fechas y plazas:** Pages CMS › Fechas de tours (2.2).",
         "**Nombre, duración y texto de cada viaje:** Pages CMS › Viajes (2.5).",
+        "**Precios y aviso encendido o apagado:** Pages CMS › Precios y aviso (2.4, 2.5).",
         "**El aviso en la página de inicio** toma la próxima fecha automáticamente (2.4).",
     ])
     b.h2("2.2 Agregar una fecha nueva (con Pages CMS)")
@@ -462,12 +468,9 @@ def es(b):
         "campo de la foto.",
         "Haz clic en «Save». Repite en **English** y **Français**.",
     ])
-    b.p("**Encender o apagar el aviso** (en GitHub):")
-    b.steps([
-        "En GitHub abre el archivo `_config.yml` (está en la carpeta principal) y haz clic en el lápiz.",
-        "Busca la línea `tour_popup: true`.",
-        "Escribe `false` para apagarlo o `true` para encenderlo y guarda con «Commit changes».",
-    ])
+    b.img("pcms-aviso", "El formulario del aviso en Pages CMS.", .72)
+    b.p("**Encender o apagar el aviso:** Pages CMS › **Precios y aviso** › «Mostrar el aviso (pop-up) en la página de "
+        "inicio» encendido o apagado › «Save». Vale para los tres idiomas.")
     b.h2("2.5 Cambiar el nombre, la duración o la descripción de un viaje")
     b.steps([
         "Pages CMS › **Viajes** › **Español**.",
@@ -475,9 +478,15 @@ def es(b):
         "(por ejemplo «Abril – mayo 2027») o la descripción corta.",
         "Haz clic en «Save». Repite en **English** y **Français**.",
     ])
-    b.box("Hoy la página no muestra precios: en su lugar dice «Precio a consultar». Para mostrar un precio, en GitHub "
-          "abre `_data/es/tours.yml` (y `en`, `fr`) y agrega debajo de `days` una línea como `amount: \"1.200 USD\"`. "
-          "Para volver a «Precio a consultar», borra esa línea.")
+    b.img("pcms-viajes", "El formulario de los viajes en Pages CMS.", .72)
+    b.p("**Precios:** hoy la página no muestra precios; en su lugar dice «Precio a consultar». Para mostrar un precio:")
+    b.steps([
+        "Pages CMS › **Precios y aviso**.",
+        "En el viaje, enciende «Mostrar el precio» y escribe el precio por persona, por ejemplo `1200 USD`. El precio "
+        "vale para los tres idiomas.",
+        "Haz clic en «Save». El precio aparece en la página de tours y en el aviso.",
+    ])
+    b.p("Para volver a «Precio a consultar», apaga «Mostrar el precio» y guarda.")
     b.p("El programa detallado de cada viaje (llegada, actividades y regreso) se cambia en GitHub, en "
         "`_data/es/tours.yml` (y `en`, `fr`): en `spiritual` para el viaje espiritual y en `experience` para el "
         "viaje Arutam.")
@@ -510,6 +519,7 @@ def es(b):
         "Escribe el nombre de la carpeta, sin espacios ni acentos, por ejemplo `fiesta-de-la-chonta-2027`, y "
         "confirma.",
     ])
+    b.img("pcms-galeria", "La «Galería» en Pages CMS: cada carpeta es un álbum. Arriba a la derecha: crear carpeta y «Upload».", .72)
     b.h2("3.4 Subir las fotos")
     b.steps([
         "En la «Galería», abre la carpeta del álbum con un clic.",
@@ -518,6 +528,7 @@ def es(b):
         "Cada foto se guarda sola. Espera a que terminen todas.",
         "En uno a tres minutos el álbum aparece en la galería.",
     ])
+    b.img("pcms-album", "Un álbum abierto en Pages CMS, con todas sus fotos.", .72)
     b.box("Si una foto no se sube, seguramente es demasiado grande: achícala antes (3.2).", "warn")
     b.box("Para muchas fotos a la vez también sirve GitHub: abre `assets` › `galeria` › la carpeta del álbum › "
           "«Add file» › «Upload files», arrastra las fotos y haz clic en «Commit changes».")
@@ -532,6 +543,7 @@ def es(b):
         "primera foto).",
         "Haz clic en «Save».",
     ])
+    b.img("pcms-albumes", "«Álbumes de fotos»: cada entrada es un álbum. Con los puntitos a la izquierda se cambia el orden.", .72)
     b.p("El orden de esta lista es el orden en la galería. La entrada nueva aparece al final: arrástrala arriba "
         "para que el álbum salga primero.")
     b.h2("3.6 Borrar una foto o un álbum")
@@ -541,6 +553,8 @@ def es(b):
         "Un álbum desaparece de la página cuando ya no tiene fotos. Si tenía título en «Álbumes de fotos», borra "
         "también esa entrada.",
     ])
+
+    b.img("pcms-foto-menu", "El menú de una foto: «Rename» cambia el nombre, «Delete» borra la foto.", .45)
 
     b.h1("4. Novedades: Facebook e Instagram")
     b.h2("4.1 Qué se ve en la página Novedades")
@@ -608,6 +622,7 @@ def es(b):
         "Llena los campos (ver la tabla). En «Foto» puedes subir la foto directamente.",
         "Haz clic en «Save».",
     ])
+    b.img("pcms-equipo", "Una persona del equipo en Pages CMS.", .72)
     b.table(["Campo", "Qué escribir"], [
         ["Nombre", "Nombre y apellido."],
         ["Nombre shuar", "Opcional. Aparece debajo del nombre."],
@@ -632,7 +647,8 @@ def es(b):
         ["Personas del equipo", "`_data/team.yml`"], ["Fechas de los tours", "`_data/tour_dates.yml`"],
         ["Álbumes (títulos y portadas)", "`_data/albums.yml`"], ["Videos", "`_data/videos.yml`"],
         ["Especies amenazadas", "`_data/species.yml`"],
-        ["Correo, WhatsApp, personas de contacto, redes sociales, aviso encendido o apagado", "`_config.yml`"],
+        ["Precios y aviso encendido o apagado", "`_data/tour_settings.yml`"],
+        ["Correo, WhatsApp, personas de contacto, redes sociales", "`_config.yml`"],
     ], [.62, .38])
     b.h2("5.3 Personas de contacto y WhatsApp")
     b.p("Las personas de la página de contacto y del pie de página están en `_config.yml`, bajo `contact:` › "
@@ -640,9 +656,13 @@ def es(b):
         "código de país, sin + ni espacios) y el teléfono tal como se muestra.")
     b.code(block("_config.yml", r"^    - name: Julien", r"^    - name: (?!Julien)", 6), "_config.yml (fragmento)")
     b.h2("5.4 Videos")
-    b.p("**Videos cortos** (MP4, menos de 50 MB): súbelos a `assets/video` y agrégalos en `_data/videos.yml` "
-        "(copia un bloque con `file`, `poster`, `title` y `text`). **Videos largos:** súbelos a YouTube y escribe "
-        "solo el código del video en `youtube:`, por ejemplo `AbCdEf12345` de `https://youtu.be/AbCdEf12345`.")
+    b.p("**Videos de YouTube** (lo más fácil, también para videos largos): sube el video a YouTube. Luego Pages CMS › "
+        "**Videos** › «Add an item»: título y texto en los tres idiomas y el **código de YouTube**, por ejemplo "
+        "`AbCdEf12345` de `https://youtu.be/AbCdEf12345`. Haz clic en «Save».")
+    b.p("**Videos MP4 cortos** (menos de 50 MB) son demasiado grandes para Pages CMS: súbelos en GitHub a "
+        "`assets/video`, con una imagen de vista previa, y después agrégalos en Pages CMS › Videos con «Archivo MP4» e "
+        "«Imagen de vista previa».")
+    b.p("El orden de la lista es el orden en la galería. El primer video aparece también en la página de ciencia.")
 
     b.h2("5.5 Experiencias de voluntarios (testimonios)")
     b.img("testimonios", "Las experiencias en la página de voluntariado. Un clic en «Leer la experiencia completa» abre el relato.")
@@ -659,6 +679,7 @@ def es(b):
         "y opcional **Relato completo** (una línea vacía separa los párrafos).",
         "Haz clic en «Save». Repite en **English** y **Français** con el texto traducido.",
     ])
+    b.img("pcms-experiencias", "Las experiencias en Pages CMS. Con los puntitos a la izquierda se cambia el orden.", .72)
     b.box("Sin relato completo no aparece el botón «Leer la experiencia completa». Para quitar una experiencia, "
           "bórrala de la lista en los tres idiomas.")
 
@@ -689,6 +710,27 @@ def es(b):
            '    - name: "YouTube"\n      url: "https://www.youtube.com/@..."', "Ejemplo: otros enlaces en _config.yml")
     b.box("Instagram y Facebook también aparecen como tarjetas en la página Novedades (ver 4.2). Lo que cambias en "
           "`social` se ve en los dos lugares. Los «otros enlaces» solo aparecen en el pie de página.")
+
+    b.h2("5.7 Datos prácticos del voluntariado")
+    b.p("En la página de voluntariado hay una lista de datos prácticos: estancia, horario, comida, idiomas y llegada.")
+    b.steps([
+        "Pages CMS › **Voluntariado: datos prácticos** › **Español**.",
+        "Abre el dato que quieres cambiar. Cada dato tiene un **Tema** (por ejemplo «Llegada») y un **Texto**.",
+        "Cambia el texto y haz clic en «Save». Repite en **English** y **Français**.",
+    ])
+    b.h2("5.8 Cámaras trampa: fotos nuevas")
+    b.steps([
+        "Prepara la foto: JPG, unos 1600 píxeles de ancho (ver 3.2).",
+        "Pages CMS › **Especies y cámaras trampa**. Abre la especie (las entradas siguen el orden de la página de "
+        "ciencia: jaguar, oso andino, puma, zorro vinagre).",
+        "En «Fotos de las cámaras trampa» haz clic en «Add an item».",
+        "En «Foto» sube la foto. En «Descripción de la foto» escribe una línea en los tres idiomas, por ejemplo "
+        "«Jaguar de noche, noviembre de 2025».",
+        "Haz clic en «Save». La foto aparece al abrir la especie en la página de ciencia.",
+    ])
+    b.box("Los videos de las cámaras trampa (MP4) se suben en GitHub a `assets/video`, con una imagen de vista previa. "
+          "Después se agregan aquí en «Videos de las cámaras trampa». Una especie nueva necesita también una "
+          "ilustración: para eso, pide ayuda a quien administra la página.")
 
     b.h1("6. La dirección: www.kampuntin.org")
     b.p("La página está en **www.kampuntin.org**. Los dominios **kampuntin.org** y **kampuntin.com** están registrados "
@@ -818,14 +860,17 @@ def es(b):
         ["Título o portada de un álbum", "Álbumes de fotos", "Pages CMS"],
         ["Persona del equipo", "Equipo", "Pages CMS"],
         ["Experiencia de voluntario", "Experiencias de voluntarios", "Pages CMS"],
-        ["Precio o programa detallado de un viaje", "`_data/es|en|fr/tours.yml`", "GitHub"],
-        ["Aviso encendido o apagado", "`_config.yml` › `tour_popup`", "GitHub"],
+        ["Precio de un viaje, aviso encendido o apagado", "Precios y aviso", "Pages CMS"],
+        ["Datos prácticos del voluntariado", "Voluntariado: datos prácticos", "Pages CMS"],
+        ["Fotos de las cámaras trampa", "Especies y cámaras trampa", "Pages CMS"],
+        ["Video de YouTube", "Videos", "Pages CMS"],
+        ["Programa detallado de un viaje", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Cuentas de Facebook e Instagram", "`_config.yml` › `social`", "GitHub"],
         ["Publicaciones automáticas", "Secret `FB_PAGE_TOKENS`", "GitHub y Facebook"],
         ["Publicación de Instagram a mano", "`_data/instagram_embeds.yml`", "GitHub"],
         ["Personas de contacto", "`_config.yml` › `contact`", "GitHub"],
         ["Pie de página: redes y textos", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
-        ["Videos", "`_data/videos.yml` y `assets/video`", "GitHub"],
+        ["Video MP4", "`assets/video`, después Videos", "GitHub y Pages CMS"],
         ["Dominios, renovación y DNS", "Cloudflare (acceso en 1.7, ajustes en 6)", "Cloudflare y GitHub"],
         ["Aparecer en Google", "Search Console, propiedad «Dominio» kampuntin.org (ver 7)", "Google y Cloudflare"],
     ], [.36, .44, .20])
@@ -906,15 +951,20 @@ def en(b):
         "Make your changes and click «Save». As with GitHub, the website updates within one to three minutes "
         "(see 1.4).",
     ])
+    b.img("pcms-fechas", "Pages CMS: the menu on the left, the form on the right (here «Fechas de tours»).", .72)
     b.table(["In the menu", "What you change there", "See"], [
         ["Fechas de tours", "Journey dates and free places", "2.2"],
-        ["Aviso (pop-up)", "Text, button and photo of the notice", "2.4"],
+        ["Precios y aviso", "Journey prices; notice on or off", "2.4, 2.5"],
         ["Viajes", "Name, duration, season and text of the two journeys", "2.5"],
-        ["Galería (álbumes de fotos)", "Create albums, upload and delete photos", "3.3–3.6"],
-        ["Álbumes de fotos", "Title and cover of each album", "3.5"],
+        ["Aviso (pop-up)", "Text, button and photo of the notice", "2.4"],
+        ["Álbumes de fotos", "Title, cover and order of the albums", "3.5"],
         ["Equipo", "Team members: photo, role, texts and links", "5.1"],
         ["Experiencias de voluntarios", "The stories on the volunteering page", "5.5"],
-        ["Fotos del equipo · Otras fotos", "View, upload or delete those photos", "5.1, 5.5"],
+        ["Voluntariado: datos prácticos", "Stay, hours, food, languages, arrival", "5.7"],
+        ["Especies y cámaras trampa", "New camera trap photos", "5.8"],
+        ["Videos", "YouTube videos in the gallery", "5.4"],
+        ["Galería (álbumes de fotos)", "Create albums, upload and delete photos", "3.3–3.6"],
+        ["The other photo folders", "View, upload or delete team, camera trap and other photos", "5.1, 5.8"],
     ], [.32, .52, .16])
     b.box("Texts in three languages have one form per language (Español, English, Français): always change all "
           "three (see 1.5). In lists, you can change the order by dragging the dots on the left of each entry.")
@@ -928,6 +978,7 @@ def en(b):
     b.bullets([
         "**Dates and places:** Pages CMS › Fechas de tours (2.2).",
         "**Name, duration and text of each journey:** Pages CMS › Viajes (2.5).",
+        "**Prices and notice on or off:** Pages CMS › Precios y aviso (2.4, 2.5).",
         "**The homepage notice** picks the next date automatically (2.4).",
     ])
     b.h2("2.2 Adding a new date (with Pages CMS)")
@@ -973,12 +1024,9 @@ def en(b):
         "field.",
         "Click «Save». Repeat in **Español** and **Français**.",
     ])
-    b.p("**Switching the notice on or off** (on GitHub):")
-    b.steps([
-        "On GitHub, open the file `_config.yml` (in the main folder) and click the pencil.",
-        "Find the line `tour_popup: true`.",
-        "Write `false` to switch it off or `true` to switch it on, and save with «Commit changes».",
-    ])
+    b.img("pcms-aviso", "The notice form in Pages CMS.", .72)
+    b.p("**Switching the notice on or off:** Pages CMS › **Precios y aviso** › switch «Mostrar el aviso (pop-up) en la "
+        "página de inicio» on or off › «Save». This applies to all three languages.")
     b.h2("2.5 Changing the name, duration or description of a journey")
     b.steps([
         "Pages CMS › **Viajes** › **English**.",
@@ -986,9 +1034,15 @@ def en(b):
         "season (for example «April – May 2027») or the short description.",
         "Click «Save». Repeat in **Español** and **Français**.",
     ])
-    b.box("At the moment the website shows no prices: instead it says «Price on request». To show a price, open "
-          "`_data/en/tours.yml` (and `es`, `fr`) on GitHub and add a line such as `amount: \"1,200 USD\"` below "
-          "`days`. To go back to «Price on request», delete that line.")
+    b.img("pcms-viajes", "The journeys form in Pages CMS.", .72)
+    b.p("**Prices:** at the moment the website shows no prices; instead it says «Price on request». To show a price:")
+    b.steps([
+        "Pages CMS › **Precios y aviso**.",
+        "For the journey, switch on «Mostrar el precio» and enter the price per person, for example `1200 USD`. The "
+        "price applies to all three languages.",
+        "Click «Save». The price appears on the tours page and in the notice.",
+    ])
+    b.p("To go back to «Price on request», switch «Mostrar el precio» off and save.")
     b.p("The detailed programme of each journey (arrival, activities and return) is changed on GitHub, in "
         "`_data/en/tours.yml` (and `es`, `fr`): in `spiritual` for the spiritual journey and in `experience` for the "
         "Arutam journey.")
@@ -1020,6 +1074,7 @@ def en(b):
         "Click the button to create a folder (the folder icon with +).",
         "Enter the folder name without spaces or accents, for example `chonta-festival-2027`, and confirm.",
     ])
+    b.img("pcms-galeria", "The «Galería» in Pages CMS: each folder is an album. Top right: create folder and «Upload».", .72)
     b.h2("3.4 Uploading photos")
     b.steps([
         "In the «Galería», open the album folder with one click.",
@@ -1028,6 +1083,7 @@ def en(b):
         "Each photo is saved by itself. Wait until all are done.",
         "Within one to three minutes the album appears in the gallery.",
     ])
+    b.img("pcms-album", "An open album in Pages CMS with all its photos.", .72)
     b.box("If a photo does not upload, it is probably too large: shrink it first (3.2).", "warn")
     b.box("For many photos at once, GitHub also works: open `assets` › `galeria` › the album folder › «Add file» › "
           "«Upload files», drag the photos in and click «Commit changes».")
@@ -1041,6 +1097,7 @@ def en(b):
         "the three languages and **Portada** (the name of a photo, for example `004.jpg`; empty = the first photo).",
         "Click «Save».",
     ])
+    b.img("pcms-albumes", "«Álbumes de fotos»: each entry is an album. Drag the dots on the left to change the order.", .72)
     b.p("The order of this list is the order in the gallery. A new entry appears at the end: drag it to the top so "
         "that the album appears first.")
     b.h2("3.6 Deleting a photo or an album")
@@ -1050,6 +1107,8 @@ def en(b):
         "An album disappears from the website when it has no photos left. If it had a title in «Álbumes de fotos», "
         "delete that entry too.",
     ])
+
+    b.img("pcms-foto-menu", "The menu of a photo: «Rename» changes the name, «Delete» deletes the photo.", .45)
 
     b.h1("4. Updates: Facebook and Instagram")
     b.h2("4.1 What the Updates page shows")
@@ -1114,6 +1173,7 @@ def en(b):
         "Fill in the fields (see the table). In «Foto» you can upload the photo directly.",
         "Click «Save».",
     ])
+    b.img("pcms-equipo", "A team member in Pages CMS.", .72)
     b.table(["Field", "What to enter"], [
         ["Nombre", "First and last name."],
         ["Nombre shuar", "Optional. Shown below the name."],
@@ -1139,7 +1199,8 @@ def en(b):
         ["Team members", "`_data/team.yml`"], ["Tour dates", "`_data/tour_dates.yml`"],
         ["Albums (titles and covers)", "`_data/albums.yml`"], ["Videos", "`_data/videos.yml`"],
         ["Threatened species", "`_data/species.yml`"],
-        ["Email, WhatsApp, contact persons, social media, notice on or off", "`_config.yml`"],
+        ["Prices and notice on or off", "`_data/tour_settings.yml`"],
+        ["Email, WhatsApp, contact persons, social media", "`_config.yml`"],
     ], [.62, .38])
     b.h2("5.3 Contact persons and WhatsApp")
     b.p("The people on the contact page and in the footer are in `_config.yml`, under `contact:` › `people:`. "
@@ -1147,9 +1208,12 @@ def en(b):
         "without + or spaces) and the phone number as displayed.")
     b.code(block("_config.yml", r"^    - name: Julien", r"^    - name: (?!Julien)", 6), "_config.yml (excerpt)")
     b.h2("5.4 Videos")
-    b.p("**Short videos** (MP4, under 50 MB): upload them to `assets/video` and add them in `_data/videos.yml` "
-        "(copy a block with `file`, `poster`, `title` and `text`). **Long videos:** upload them to YouTube and "
-        "enter only the video code under `youtube:`, for example `AbCdEf12345` from `https://youtu.be/AbCdEf12345`.")
+    b.p("**YouTube videos** (easiest, also for long videos): upload the video to YouTube. Then Pages CMS › **Videos** › "
+        "«Add an item»: title and text in the three languages and the **YouTube code**, for example `AbCdEf12345` from "
+        "`https://youtu.be/AbCdEf12345`. Click «Save».")
+    b.p("**Short MP4 videos** (under 50 MB) are too large for Pages CMS: upload them on GitHub to `assets/video`, with "
+        "a preview image, and then add them in Pages CMS › Videos with «Archivo MP4» and «Imagen de vista previa».")
+    b.p("The order of the list is the order in the gallery. The first video also appears on the science page.")
 
     b.h2("5.5 Volunteer stories (testimonials)")
     b.img("testimonios", "The stories on the volunteering page. A click on «Read the full story» opens the whole text.")
@@ -1167,6 +1231,7 @@ def en(b):
         "paragraphs).",
         "Click «Save». Repeat in **Español** and **Français** with the translated text.",
     ])
+    b.img("pcms-experiencias", "The stories in Pages CMS. Drag the dots on the left to change the order.", .72)
     b.box("Without a full story, the «Read the full story» button does not appear. To remove a story, delete it from "
           "the list in all three languages.")
 
@@ -1196,6 +1261,27 @@ def en(b):
            '    - name: "YouTube"\n      url: "https://www.youtube.com/@..."', "Example: other links in _config.yml")
     b.box("Instagram and Facebook also appear as cards on the Updates page (see 4.2). What you change in `social` "
           "shows up in both places. «Other links» only appear in the footer.")
+
+    b.h2("5.7 Practical information for volunteers")
+    b.p("The volunteering page has a list of practical information: stay, hours, food, languages and arrival.")
+    b.steps([
+        "Pages CMS › **Voluntariado: datos prácticos** › **English**.",
+        "Open the item you want to change. Each item has a **Tema** (topic, for example «Arrival») and a **Texto**.",
+        "Change the text and click «Save». Repeat in **Español** and **Français**.",
+    ])
+    b.h2("5.8 Camera traps: new photos")
+    b.steps([
+        "Prepare the photo: JPG, about 1600 pixels wide (see 3.2).",
+        "Pages CMS › **Especies y cámaras trampa**. Open the species (the entries follow the order of the science page: "
+        "jaguar, Andean bear, puma, bush dog).",
+        "Under «Fotos de las cámaras trampa», click «Add an item».",
+        "In «Foto», upload the photo. In «Descripción de la foto», write one line in the three languages, for example "
+        "«Jaguar at night, November 2025».",
+        "Click «Save». The photo appears when the species is opened on the science page.",
+    ])
+    b.box("Camera trap videos (MP4) are uploaded on GitHub to `assets/video`, with a preview image. Then they are "
+          "added here under «Videos de las cámaras trampa». A new species also needs an illustration: for that, ask "
+          "the person who manages the website.")
 
     b.h1("6. The address: www.kampuntin.org")
     b.p("The website is at **www.kampuntin.org**. The domains **kampuntin.org** and **kampuntin.com** are registered "
@@ -1326,14 +1412,17 @@ def en(b):
         ["Album title or cover", "Álbumes de fotos", "Pages CMS"],
         ["Team member", "Equipo", "Pages CMS"],
         ["Volunteer story", "Experiencias de voluntarios", "Pages CMS"],
-        ["Price or detailed programme of a journey", "`_data/es|en|fr/tours.yml`", "GitHub"],
-        ["Notice on or off", "`_config.yml` › `tour_popup`", "GitHub"],
+        ["Journey price, notice on or off", "Precios y aviso", "Pages CMS"],
+        ["Practical information for volunteers", "Voluntariado: datos prácticos", "Pages CMS"],
+        ["Camera trap photos", "Especies y cámaras trampa", "Pages CMS"],
+        ["YouTube video", "Videos", "Pages CMS"],
+        ["Detailed programme of a journey", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Facebook and Instagram accounts", "`_config.yml` › `social`", "GitHub"],
         ["Automatic posts", "Secret `FB_PAGE_TOKENS`", "GitHub and Facebook"],
         ["Instagram post manually", "`_data/instagram_embeds.yml`", "GitHub"],
         ["Contact persons", "`_config.yml` › `contact`", "GitHub"],
         ["Footer: social networks and texts", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
-        ["Videos", "`_data/videos.yml` and `assets/video`", "GitHub"],
+        ["MP4 video", "`assets/video`, then Videos", "GitHub and Pages CMS"],
         ["Domains, renewal and DNS", "Cloudflare (access in 1.7, settings in 6)", "Cloudflare and GitHub"],
         ["Getting found on Google", "Search Console, «Domain» property kampuntin.org (see 7)", "Google and Cloudflare"],
     ], [.36, .44, .20])
