@@ -222,6 +222,8 @@ abbr[title] { text-decoration: none; }
   color: #f0c7a4;
 }
 .notfound .eyebrow { color: var(--clay); font-size: 1.2rem; }
+/* Startseite: helles Banner – Zeile über der Überschrift heller, damit sie lesbar bleibt */
+.page-hero--big .eyebrow { color: #fff4e8; }
 
 /* ---------- Hintergrundmuster (Test, an/aus in _config.yml: background_pattern) ---------- */
 body.has-pattern::before {

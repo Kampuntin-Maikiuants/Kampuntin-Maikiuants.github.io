@@ -9,7 +9,7 @@ hero:
     Vive la selva y conoce a la comunidad shuar de Maikiuants: en uno de nuestros dos viajes o
     como voluntaria o voluntario. Descubre la comunidad, la selva, nuestro trabajo científico y la
     misión de Kampuntin.
-  image: "/assets/img/ilustraciones/banner-startseite.jpg"
+  image: "/assets/img/ilustraciones/banner-inicio.webp"
   image_alt: Ilustración de plantas de la selva amazónica
   buttons:
     - { ref: tours, label: Conocer los tours }

@@ -9,7 +9,7 @@ hero:
     Vivez la forêt tropicale et rencontrez la communauté shuar de Maikiuants : lors de l’un de nos
     deux voyages ou en tant que bénévole. Découvrez la communauté, la forêt, notre travail
     scientifique et la mission de Kampuntin.
-  image: "/assets/img/ilustraciones/banner-startseite.jpg"
+  image: "/assets/img/ilustraciones/banner-inicio.webp"
   image_alt: Illustration de plantes de la forêt amazonienne
   buttons:
     - { ref: tours, label: Découvrir les tours }
