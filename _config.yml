@@ -22,7 +22,7 @@ google_site_verification: ""
 
 # --- Kontakt -------------------------------------------------
 contact:
-  email: "ocstkampuntin@gmail.com"
+  email: "info@kampuntin.org"      # leitet über Cloudflare an ocstkampuntin@gmail.com weiter
   whatsapp: "593980154335"         # Haupt-WhatsApp für die Buttons (ohne + und Leerzeichen)
   # Ansprechpersonen (wie auf dem Flyer) – erscheinen auf der Kontaktseite und in der Fußzeile
   people:

@@ -7,7 +7,7 @@ sections:
       Organización Comunitaria de Servicios Turísticos Kampuntin (Selva mi destino)
       Office: Maikiuants community
       Limón Indanza, Morona Santiago, Ecuador
-      Email: ocstkampuntin@gmail.com
+      Email: info@kampuntin.org
   - title: Website maintenance
     text: >-
       This website is maintained by Jesko Dorner. For questions or corrections about its content: jesko.dorner@gmail.com. For tours, volunteering and everything else, please write to Kampuntin (see above).
@@ -28,7 +28,7 @@ sections:
   - title: Your rights
     text: >-
       You can request information about your data, its correction or deletion at any time by
-      writing to jesko.dorner@gmail.com (who maintains this website) or to ocstkampuntin@gmail.com.
+      writing to jesko.dorner@gmail.com (who maintains this website) or to info@kampuntin.org.
 # Erscheint nur, wenn in _config.yml "goatcounter" eingetragen ist
 analytics:
   title: Visitor statistics
