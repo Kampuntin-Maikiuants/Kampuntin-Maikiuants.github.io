@@ -63,9 +63,9 @@ ST = {
     "cell": ParagraphStyle("cell", fontName="Helvetica", fontSize=9.4, leading=12.6, textColor=INK),
     "cellb": ParagraphStyle("cellb", fontName="Helvetica-Bold", fontSize=9.4, leading=12.6, textColor=FOREST),
     "code": ParagraphStyle("code", fontName="Courier", fontSize=8.3, leading=11, textColor=INK),
-    "toc0": ParagraphStyle("toc0", fontName="Helvetica-Bold", fontSize=10.5, leading=14, spaceBefore=4,
+    "toc0": ParagraphStyle("toc0", fontName="Helvetica-Bold", fontSize=10.2, leading=13, spaceBefore=3,
                            textColor=FOREST),
-    "toc1": ParagraphStyle("toc1", fontName="Helvetica", fontSize=9.2, leading=11.8, leftIndent=14, textColor=INK),
+    "toc1": ParagraphStyle("toc1", fontName="Helvetica", fontSize=9, leading=11, leftIndent=14, textColor=INK),
 }
 
 
@@ -486,6 +486,7 @@ def es(b):
         "vale para los tres idiomas.",
         "Haz clic en «Save». El precio aparece en la página de tours y en el aviso.",
     ])
+    b.img("pcms-precios", "«Precios y aviso»: el aviso encendido o apagado y los precios de los dos viajes.", .72)
     b.p("Para volver a «Precio a consultar», apaga «Mostrar el precio» y guarda.")
     b.p("El programa detallado de cada viaje (llegada, actividades y regreso) se cambia en GitHub, en "
         "`_data/es/tours.yml` (y `en`, `fr`): en `spiritual` para el viaje espiritual y en `experience` para el "
@@ -659,6 +660,7 @@ def es(b):
     b.p("**Videos de YouTube** (lo más fácil, también para videos largos): sube el video a YouTube. Luego Pages CMS › "
         "**Videos** › «Add an item»: título y texto en los tres idiomas y el **código de YouTube**, por ejemplo "
         "`AbCdEf12345` de `https://youtu.be/AbCdEf12345`. Haz clic en «Save».")
+    b.img("pcms-videos", "Un video en Pages CMS: para YouTube basta el código del video.", .72)
     b.p("**Videos MP4 cortos** (menos de 50 MB) son demasiado grandes para Pages CMS: súbelos en GitHub a "
         "`assets/video`, con una imagen de vista previa, y después agrégalos en Pages CMS › Videos con «Archivo MP4» e "
         "«Imagen de vista previa».")
@@ -718,6 +720,7 @@ def es(b):
         "Abre el dato que quieres cambiar. Cada dato tiene un **Tema** (por ejemplo «Llegada») y un **Texto**.",
         "Cambia el texto y haz clic en «Save». Repite en **English** y **Français**.",
     ])
+    b.img("pcms-practico", "Los datos prácticos del voluntariado en Pages CMS.", .72)
     b.h2("5.8 Cámaras trampa: fotos nuevas")
     b.steps([
         "Prepara la foto: JPG, unos 1600 píxeles de ancho (ver 3.2).",
@@ -728,6 +731,7 @@ def es(b):
         "«Jaguar de noche, noviembre de 2025».",
         "Haz clic en «Save». La foto aparece al abrir la especie en la página de ciencia.",
     ])
+    b.img("pcms-especies", "Una foto de cámara trampa del jaguar, con su descripción.", .72)
     b.box("Los videos de las cámaras trampa (MP4) se suben en GitHub a `assets/video`, con una imagen de vista previa. "
           "Después se agregan aquí en «Videos de las cámaras trampa». Una especie nueva necesita también una "
           "ilustración: para eso, pide ayuda a quien administra la página.")
@@ -1042,6 +1046,7 @@ def en(b):
         "price applies to all three languages.",
         "Click «Save». The price appears on the tours page and in the notice.",
     ])
+    b.img("pcms-precios", "«Precios y aviso»: the notice on or off and the prices of the two journeys.", .72)
     b.p("To go back to «Price on request», switch «Mostrar el precio» off and save.")
     b.p("The detailed programme of each journey (arrival, activities and return) is changed on GitHub, in "
         "`_data/en/tours.yml` (and `es`, `fr`): in `spiritual` for the spiritual journey and in `experience` for the "
@@ -1211,6 +1216,7 @@ def en(b):
     b.p("**YouTube videos** (easiest, also for long videos): upload the video to YouTube. Then Pages CMS › **Videos** › "
         "«Add an item»: title and text in the three languages and the **YouTube code**, for example `AbCdEf12345` from "
         "`https://youtu.be/AbCdEf12345`. Click «Save».")
+    b.img("pcms-videos", "A video in Pages CMS: for YouTube, the video code is enough.", .72)
     b.p("**Short MP4 videos** (under 50 MB) are too large for Pages CMS: upload them on GitHub to `assets/video`, with "
         "a preview image, and then add them in Pages CMS › Videos with «Archivo MP4» and «Imagen de vista previa».")
     b.p("The order of the list is the order in the gallery. The first video also appears on the science page.")
@@ -1269,6 +1275,7 @@ def en(b):
         "Open the item you want to change. Each item has a **Tema** (topic, for example «Arrival») and a **Texto**.",
         "Change the text and click «Save». Repeat in **Español** and **Français**.",
     ])
+    b.img("pcms-practico", "The practical information for volunteers in Pages CMS.", .72)
     b.h2("5.8 Camera traps: new photos")
     b.steps([
         "Prepare the photo: JPG, about 1600 pixels wide (see 3.2).",
@@ -1279,6 +1286,7 @@ def en(b):
         "«Jaguar at night, November 2025».",
         "Click «Save». The photo appears when the species is opened on the science page.",
     ])
+    b.img("pcms-especies", "A camera trap photo of the jaguar, with its description.", .72)
     b.box("Camera trap videos (MP4) are uploaded on GitHub to `assets/video`, with a preview image. Then they are "
           "added here under «Videos de las cámaras trampa». A new species also needs an illustration: for that, ask "
           "the person who manages the website.")
