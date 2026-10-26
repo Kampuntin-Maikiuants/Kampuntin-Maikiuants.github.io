@@ -79,7 +79,7 @@ content:
                 - { name: full, label: Completo }
 
   - name: albumes
-    label: Álbumes de fotos (títulos y portadas)
+    label: Álbumes de fotos
     description: Las fotos se suben en «Galería»; aquí se ponen el título y la portada. El orden de esta lista es el orden en la galería (arrastra para cambiarlo).
     type: file
     path: _data/albums.yml
@@ -102,7 +102,7 @@ content:
         type: string
 
   - name: equipo
-    label: Equipo (personas)
+    label: Equipo
     type: file
     path: _data/team.yml
     format: yaml
@@ -239,7 +239,7 @@ content:
                   - { name: text, label: "Relato completo (opcional)", type: text }
 
   - name: viajes
-    label: "Viajes: nombre, duración, temporada y texto"
+    label: Viajes
     type: group
     items:
       - name: viajes_es
@@ -328,7 +328,7 @@ content:
                   - { name: link, label: "Texto del enlace al programa", type: string }
 
   - name: aviso
-    label: Aviso en la página de inicio (texto)
+    label: Aviso (pop-up)
     type: group
     items:
       - name: aviso_es

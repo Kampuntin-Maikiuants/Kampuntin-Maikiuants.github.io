@@ -394,11 +394,11 @@ def es(b):
     ])
     b.table(["En el menú", "Qué cambias ahí", "Ver"], [
         ["Fechas de tours", "Fechas de los viajes y plazas libres", "2.2"],
-        ["Aviso en la página de inicio", "Texto, botón y foto del aviso", "2.4"],
+        ["Aviso (pop-up)", "Texto, botón y foto del aviso", "2.4"],
         ["Viajes", "Nombre, duración, temporada y texto de los dos viajes", "2.5"],
         ["Galería (álbumes de fotos)", "Crear álbumes, subir y borrar fotos", "3.3–3.6"],
         ["Álbumes de fotos", "Título y portada de cada álbum", "3.5"],
-        ["Equipo (personas)", "Personas del equipo: foto, función, textos y enlaces", "5.1"],
+        ["Equipo", "Personas del equipo: foto, función, textos y enlaces", "5.1"],
         ["Experiencias de voluntarios", "Las experiencias en la página de voluntariado", "5.5"],
         ["Fotos del equipo · Otras fotos", "Ver, subir o borrar esas fotos", "5.1, 5.5"],
     ], [.32, .52, .16])
@@ -422,7 +422,7 @@ def es(b):
         "Abre **app.pagescms.org** e inicia sesión con «Sign in with GitHub».",
         "Elige el repositorio **Kampuntin-Maikiuants.github.io**.",
         "En el menú de la izquierda haz clic en **Fechas de tours**.",
-        "Debajo de la última fecha, haz clic en el botón para agregar una entrada nueva (signo +).",
+        "Debajo de la última fecha, haz clic en «Add an item».",
         "Llena los campos (ver la tabla).",
         "Haz clic en «Save». En uno a tres minutos la fecha aparece en la página de tours y, si es la próxima, "
         "también en el aviso de la página de inicio.",
@@ -457,7 +457,7 @@ def es(b):
         "viaje y la duración. **No hay que cambiar nada para que se actualice.**")
     b.p("**Cambiar el texto, el botón o la foto:**")
     b.steps([
-        "Pages CMS › **Aviso en la página de inicio (texto)** › **Español**.",
+        "Pages CMS › **Aviso (pop-up)** › **Español**.",
         "Cambia «Texto», «Texto del botón» o «Foto del aviso». Una foto nueva la puedes subir directamente en el "
         "campo de la foto.",
         "Haz clic en «Save». Repite en **English** y **Français**.",
@@ -470,7 +470,7 @@ def es(b):
     ])
     b.h2("2.5 Cambiar el nombre, la duración o la descripción de un viaje")
     b.steps([
-        "Pages CMS › **Viajes: nombre, duración, temporada y texto** › **Español**.",
+        "Pages CMS › **Viajes** › **Español**.",
         "En «Viaje espiritual» o «Viaje Arutam» cambia el nombre, la duración (por ejemplo «8 días»), la temporada "
         "(por ejemplo «Abril – mayo 2027») o la descripción corta.",
         "Haz clic en «Save». Repite en **English** y **Français**.",
@@ -525,8 +525,8 @@ def es(b):
     b.p("Sin más datos, el álbum usa el nombre de la carpeta como título. Para un título en tres idiomas y una "
         "portada elegida:")
     b.steps([
-        "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
-        "Agrega una entrada nueva con el botón para agregar (+).",
+        "Pages CMS › **Álbumes de fotos**.",
+        "Haz clic en «Add an item».",
         "Llena **Carpeta del álbum** (el nombre exacto de la carpeta, por ejemplo `fiesta-de-la-chonta-2027`), "
         "**Título** en los tres idiomas y **Portada** (el nombre de una foto, por ejemplo `004.jpg`; vacío = la "
         "primera foto).",
@@ -602,8 +602,8 @@ def es(b):
     b.img("equipo", "Las tarjetas del equipo en la página «Equipo».")
     b.steps([
         "Prepara una foto **cuadrada** (unos 600 × 600 píxeles, JPG) con la cara en el centro.",
-        "Abre Pages CMS › **Equipo (personas)**.",
-        "Para una persona nueva, agrega una entrada con el botón para agregar (+). Para cambiar a alguien, abre su "
+        "Abre Pages CMS › **Equipo**.",
+        "Para una persona nueva, haz clic en «Add an item». Para cambiar a alguien, abre su "
         "entrada.",
         "Llena los campos (ver la tabla). En «Foto» puedes subir la foto directamente.",
         "Haz clic en «Save».",
@@ -653,7 +653,7 @@ def es(b):
         "Pide a la persona una cita corta (una a tres frases), cómo quiere aparecer, si quiere también un relato más "
         "largo y una foto. **Pide su permiso para publicarlo.**",
         "Abre Pages CMS › **Experiencias de voluntarios** › **Español**.",
-        "En «Experiencias» agrega una entrada nueva con el botón para agregar (+) y arrástrala arriba de la lista: "
+        "En «Experiencias» haz clic en «Add an item» y arrastra la entrada nueva arriba de la lista: "
         "la primera tarjeta es la más nueva.",
         "Llena **Cita corta**, **Nombre**, **Línea pequeña**, opcional **Foto** (cuadrada, unos 300 × 300 píxeles) "
         "y opcional **Relato completo** (una línea vacía separa los párrafos).",
@@ -813,10 +813,10 @@ def es(b):
     b.table(["Tarea", "Dónde", "Herramienta"], [
         ["Fecha de tour nueva, plazas", "Fechas de tours", "Pages CMS"],
         ["Nombre, duración o texto de un viaje", "Viajes", "Pages CMS"],
-        ["Texto o foto del aviso", "Aviso en la página de inicio", "Pages CMS"],
+        ["Texto o foto del aviso", "Aviso (pop-up)", "Pages CMS"],
         ["Álbum nuevo, subir o borrar fotos", "Galería (álbumes de fotos)", "Pages CMS"],
         ["Título o portada de un álbum", "Álbumes de fotos", "Pages CMS"],
-        ["Persona del equipo", "Equipo (personas)", "Pages CMS"],
+        ["Persona del equipo", "Equipo", "Pages CMS"],
         ["Experiencia de voluntario", "Experiencias de voluntarios", "Pages CMS"],
         ["Precio o programa detallado de un viaje", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Aviso encendido o apagado", "`_config.yml` › `tour_popup`", "GitHub"],
@@ -908,11 +908,11 @@ def en(b):
     ])
     b.table(["In the menu", "What you change there", "See"], [
         ["Fechas de tours", "Journey dates and free places", "2.2"],
-        ["Aviso en la página de inicio", "Text, button and photo of the notice", "2.4"],
+        ["Aviso (pop-up)", "Text, button and photo of the notice", "2.4"],
         ["Viajes", "Name, duration, season and text of the two journeys", "2.5"],
         ["Galería (álbumes de fotos)", "Create albums, upload and delete photos", "3.3–3.6"],
         ["Álbumes de fotos", "Title and cover of each album", "3.5"],
-        ["Equipo (personas)", "Team members: photo, role, texts and links", "5.1"],
+        ["Equipo", "Team members: photo, role, texts and links", "5.1"],
         ["Experiencias de voluntarios", "The stories on the volunteering page", "5.5"],
         ["Fotos del equipo · Otras fotos", "View, upload or delete those photos", "5.1, 5.5"],
     ], [.32, .52, .16])
@@ -935,7 +935,7 @@ def en(b):
         "Open **app.pagescms.org** and sign in with «Sign in with GitHub».",
         "Choose the repository **Kampuntin-Maikiuants.github.io**.",
         "In the menu on the left, click **Fechas de tours** (tour dates).",
-        "Below the last date, click the button to add a new entry (plus sign).",
+        "Below the last date, click «Add an item».",
         "Fill in the fields (see table). The form labels are in Spanish.",
         "Click «Save». Within one to three minutes the date appears on the tours page and, if it is the next one, "
         "in the homepage notice.",
@@ -968,7 +968,7 @@ def en(b):
         "the journey. **Nothing needs to be changed for it to update.**")
     b.p("**Changing the text, button or photo:**")
     b.steps([
-        "Pages CMS › **Aviso en la página de inicio (texto)** › **English**.",
+        "Pages CMS › **Aviso (pop-up)** › **English**.",
         "Change «Texto», «Texto del botón» or «Foto del aviso». You can upload a new photo directly in the photo "
         "field.",
         "Click «Save». Repeat in **Español** and **Français**.",
@@ -981,7 +981,7 @@ def en(b):
     ])
     b.h2("2.5 Changing the name, duration or description of a journey")
     b.steps([
-        "Pages CMS › **Viajes: nombre, duración, temporada y texto** › **English**.",
+        "Pages CMS › **Viajes** › **English**.",
         "Under «Viaje espiritual» or «Viaje Arutam», change the name, the duration (for example «8 days»), the "
         "season (for example «April – May 2027») or the short description.",
         "Click «Save». Repeat in **Español** and **Français**.",
@@ -1035,8 +1035,8 @@ def en(b):
     b.p("Without further details, the album uses the folder name as its title. For a title in three languages and a "
         "chosen cover:")
     b.steps([
-        "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
-        "Add a new entry with the add button (+).",
+        "Pages CMS › **Álbumes de fotos**.",
+        "Click «Add an item».",
         "Fill in **Carpeta del álbum** (the exact folder name, for example `chonta-festival-2027`), **Título** in "
         "the three languages and **Portada** (the name of a photo, for example `004.jpg`; empty = the first photo).",
         "Click «Save».",
@@ -1109,8 +1109,8 @@ def en(b):
     b.img("equipo", "The team cards on the «People» page.")
     b.steps([
         "Prepare a **square** photo (about 600 × 600 pixels, JPG) with the face in the centre.",
-        "Open Pages CMS › **Equipo (personas)**.",
-        "For a new person, add an entry with the add button (+). To change someone, open their entry.",
+        "Open Pages CMS › **Equipo**.",
+        "For a new person, click «Add an item». To change someone, open their entry.",
         "Fill in the fields (see the table). In «Foto» you can upload the photo directly.",
         "Click «Save».",
     ])
@@ -1160,7 +1160,7 @@ def en(b):
         "Ask the person for a short quote (one to three sentences), how they want to appear, whether they also want a "
         "longer story and a photo. **Ask for their permission to publish it.**",
         "Open Pages CMS › **Experiencias de voluntarios** › **English**.",
-        "Under «Experiencias», add a new entry with the add button (+) and drag it to the top of the list: the first "
+        "Under «Experiencias», click «Add an item» and drag the new entry to the top of the list: the first "
         "card is the newest.",
         "Fill in **Cita corta** (quote), **Nombre** (name), **Línea pequeña** (small line), optionally **Foto** "
         "(square, about 300 × 300 pixels) and optionally **Relato completo** (full story; an empty line separates "
@@ -1321,10 +1321,10 @@ def en(b):
     b.table(["Task", "Where", "Tool"], [
         ["New tour date, free places", "Fechas de tours", "Pages CMS"],
         ["Name, duration or text of a journey", "Viajes", "Pages CMS"],
-        ["Text or photo of the notice", "Aviso en la página de inicio", "Pages CMS"],
+        ["Text or photo of the notice", "Aviso (pop-up)", "Pages CMS"],
         ["New album, upload or delete photos", "Galería (álbumes de fotos)", "Pages CMS"],
         ["Album title or cover", "Álbumes de fotos", "Pages CMS"],
-        ["Team member", "Equipo (personas)", "Pages CMS"],
+        ["Team member", "Equipo", "Pages CMS"],
         ["Volunteer story", "Experiencias de voluntarios", "Pages CMS"],
         ["Price or detailed programme of a journey", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Notice on or off", "`_config.yml` › `tour_popup`", "GitHub"],
