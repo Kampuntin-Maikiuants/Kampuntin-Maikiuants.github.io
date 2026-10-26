@@ -326,10 +326,13 @@ def es(b):
         "actualiza sola en uno a tres minutos.")
     b.h2("1.1 Las dos herramientas")
     b.table(["Herramienta", "Para qué", "Dirección"], [
-        ["**GitHub**", "Todos los archivos de la página: textos, fotos, álbumes y ajustes.", REPO],
-        ["**Pages CMS**", "Un formulario sencillo para las fechas de los tours y las plazas libres. "
-                          "Funciona también desde el celular.", "app.pagescms.org"],
+        ["**Pages CMS**", "Formularios sencillos para lo que se cambia seguido: fechas y plazas, fotos y álbumes, "
+                          "equipo, experiencias de voluntarios, viajes y el aviso. Funciona también desde el "
+                          "celular (ver 1.8).", "app.pagescms.org"],
+        ["**GitHub**", "Todos los archivos de la página. Se usa para lo demás: contactos, redes sociales, videos y "
+                       "los textos de las páginas.", REPO],
     ], [.17, .43, .40])
+    b.box("Regla sencilla: lo que está en Pages CMS, cámbialo en Pages CMS. Lo demás, en GitHub.")
     b.h2("1.2 Crear tu acceso (una sola vez)")
     b.steps([
         "Crea una cuenta gratuita en **github.com** (botón «Sign up»). Usa un correo que revises con frecuencia.",
@@ -381,6 +384,28 @@ def es(b):
     b.box("Este manual contiene contraseñas. No lo subas a GitHub ni a otras páginas y compártelo solo con personas "
           "de confianza. Si alguien deja el equipo, cambia las contraseñas.", "warn")
 
+    b.h2("1.8 Pages CMS: el editor sencillo")
+    b.steps([
+        "Abre **app.pagescms.org** e inicia sesión con «Sign in with GitHub» (con tu cuenta de GitHub, ver 1.2).",
+        "Elige el repositorio **Kampuntin-Maikiuants.github.io**.",
+        "En el menú de la izquierda eliges qué quieres cambiar (ver la tabla).",
+        "Cambia lo que quieras y haz clic en «Save». Igual que con GitHub, la página se actualiza en uno a tres "
+        "minutos (ver 1.4).",
+    ])
+    b.table(["En el menú", "Qué cambias ahí", "Ver"], [
+        ["Fechas de tours", "Fechas de los viajes y plazas libres", "2.2"],
+        ["Aviso en la página de inicio", "Texto, botón y foto del aviso", "2.4"],
+        ["Viajes", "Nombre, duración, temporada y texto de los dos viajes", "2.5"],
+        ["Galería (álbumes de fotos)", "Crear álbumes, subir y borrar fotos", "3.3–3.6"],
+        ["Álbumes de fotos", "Título y portada de cada álbum", "3.5"],
+        ["Equipo (personas)", "Personas del equipo: foto, función, textos y enlaces", "5.1"],
+        ["Experiencias de voluntarios", "Las experiencias en la página de voluntariado", "5.5"],
+        ["Fotos del equipo · Otras fotos", "Ver, subir o borrar esas fotos", "5.1, 5.5"],
+    ], [.32, .52, .16])
+    b.box("Los textos en tres idiomas tienen un formulario por idioma (Español, English, Français): cambia siempre "
+          "los tres (ver 1.5). En las listas puedes cambiar el orden arrastrando los puntitos a la izquierda de cada "
+          "entrada.")
+
     b.h1("2. Tours: fechas, plazas y aviso en la página de inicio")
     b.h2("2.1 Cómo funciona")
     b.p("Hay dos viajes: el **Viaje espiritual** (8 días) y el **Viaje Arutam** (10 días). Los dos empiezan y terminan "
@@ -388,8 +413,8 @@ def es(b):
         "viaje pertenece.")
     b.img("viajes", "La sección «Dos viajes» en la página de tours. Abajo se pueden abrir los programas.")
     b.bullets([
-        "**Fechas y plazas:** archivo `_data/tour_dates.yml`. Lo más fácil es usar Pages CMS (2.2).",
-        "**Nombre, duración, precio y texto de cada viaje:** `_data/es/tours.yml` (y `en`, `fr`), bajo `trips` (2.5).",
+        "**Fechas y plazas:** Pages CMS › Fechas de tours (2.2).",
+        "**Nombre, duración y texto de cada viaje:** Pages CMS › Viajes (2.5).",
         "**El aviso en la página de inicio** toma la próxima fecha automáticamente (2.4).",
     ])
     b.h2("2.2 Agregar una fecha nueva (con Pages CMS)")
@@ -429,82 +454,92 @@ def es(b):
     b.h2("2.4 El aviso (pop-up) en la página de inicio")
     b.img("popup", "El aviso aparece abajo a la derecha, unos segundos después de abrir la página de inicio.")
     b.p("El aviso muestra siempre la próxima fecha que todavía no pasó y que no está completa, con el nombre del "
-        "viaje, la duración y el precio. **No hay que cambiar nada para que se actualice.**")
-    b.p("**Encender o apagar el aviso:**")
+        "viaje y la duración. **No hay que cambiar nada para que se actualice.**")
+    b.p("**Cambiar el texto, el botón o la foto:**")
+    b.steps([
+        "Pages CMS › **Aviso en la página de inicio (texto)** › **Español**.",
+        "Cambia «Texto», «Texto del botón» o «Foto del aviso». Una foto nueva la puedes subir directamente en el "
+        "campo de la foto.",
+        "Haz clic en «Save». Repite en **English** y **Français**.",
+    ])
+    b.p("**Encender o apagar el aviso** (en GitHub):")
     b.steps([
         "En GitHub abre el archivo `_config.yml` (está en la carpeta principal) y haz clic en el lápiz.",
         "Busca la línea `tour_popup: true`.",
         "Escribe `false` para apagarlo o `true` para encenderlo y guarda con «Commit changes».",
     ])
-    b.p("**Cambiar el texto o la foto del aviso:** en `_data/es/home.yml` (y `en`, `fr`), al final, en el bloque "
-        "`tour_popup`. La foto (`image`) es una ruta a un archivo de la página.")
-    b.code(block("_data/es/home.yml", r"^tour_popup:", r"^\S"), "_data/es/home.yml")
-    b.h2("2.5 Cambiar el precio, la duración o la descripción de un viaje")
+    b.h2("2.5 Cambiar el nombre, la duración o la descripción de un viaje")
     b.steps([
-        "En GitHub abre `_data/es/tours.yml` y haz clic en el lápiz.",
-        "Busca `trips:`. Debajo están `espiritual` y `arutam`.",
-        "Cambia `days` (duración), `when` (temporada) o `text` (descripción corta).",
-        "Haz lo mismo en `_data/en/tours.yml` y `_data/fr/tours.yml`.",
-        "Guarda con «Commit changes».",
+        "Pages CMS › **Viajes: nombre, duración, temporada y texto** › **Español**.",
+        "En «Viaje espiritual» o «Viaje Arutam» cambia el nombre, la duración (por ejemplo «8 días»), la temporada "
+        "(por ejemplo «Abril – mayo 2027») o la descripción corta.",
+        "Haz clic en «Save». Repite en **English** y **Français**.",
     ])
-    b.code(block("_data/es/tours.yml", r"^  espiritual:", r"^  arutam:"), "_data/es/tours.yml (fragmento)")
-    b.box("Hoy la página no muestra precios: en su lugar dice «Precio a consultar» (el texto está en `price` › "
-          "`on_request`). Para mostrar un precio, agrega debajo de `days` una línea como `amount: \"1.200 USD\"`. "
+    b.box("Hoy la página no muestra precios: en su lugar dice «Precio a consultar». Para mostrar un precio, en GitHub "
+          "abre `_data/es/tours.yml` (y `en`, `fr`) y agrega debajo de `days` una línea como `amount: \"1.200 USD\"`. "
           "Para volver a «Precio a consultar», borra esa línea.")
-    b.p("El programa detallado (llegada, actividades y regreso) está en el mismo archivo: en `spiritual` para el "
-        "viaje espiritual y en `experience` para el viaje Arutam.")
+    b.p("El programa detallado de cada viaje (llegada, actividades y regreso) se cambia en GitHub, en "
+        "`_data/es/tours.yml` (y `en`, `fr`): en `spiritual` para el viaje espiritual y en `experience` para el "
+        "viaje Arutam.")
     b.box("Un viaje completamente nuevo (un tercer tipo de viaje) necesita un pequeño cambio técnico en la página. "
           "Para eso, contacta a la persona que administra la página.", "warn")
 
     b.h1("3. Galería: álbumes y fotos")
     b.h2("3.1 Cómo funciona")
-    b.p("Cada álbum es una **carpeta** dentro de `assets/galeria`. Todas las fotos de la carpeta aparecen en el "
-        "álbum. La primera foto (o la que elijas) es la portada. Los álbumes se ordenan por el nombre de la "
-        "carpeta, de mayor a menor: por eso cada carpeta empieza con un número. Los tres primeros álbumes "
-        "aparecen también abajo en la página de tours.")
+    b.p("Cada álbum es una **carpeta** en la «Galería» de Pages CMS (en GitHub: `assets/galeria`). Todas las fotos de "
+        "la carpeta aparecen en el álbum. La primera foto (o la que elijas) es la portada. Los álbumes se ordenan por "
+        "el nombre de la carpeta, de mayor a menor: por eso cada carpeta empieza con un número. Los tres primeros "
+        "álbumes aparecen también abajo en la página de tours.")
     b.img("galeria", "La galería: cada tarjeta es un álbum. Un clic abre todas las fotos.")
     b.p("Las carpetas actuales van de `01` a `11`. Un álbum nuevo recibe el número siguiente (`12`, `13`, …) "
         "para aparecer primero.")
     b.h2("3.2 Preparar las fotos")
     b.bullets([
-        "Formato **JPG**.",
-        "Unos **1600 píxeles de ancho** y menos de **500 KB** por foto. Las fotos grandes hacen lenta la página.",
+        "Formato **JPG** (también sirven PNG y WebP).",
+        "Unos **1600 píxeles de ancho** y menos de **500 KB** por foto. Las fotos grandes hacen lenta la página y "
+        "a veces no se pueden subir.",
         "Para achicar fotos gratis: **squoosh.app** en el navegador, o una app para reducir fotos en el celular.",
+        "Fotos del iPhone: tienen que ser JPG, no HEIC. En el iPhone: Ajustes › Cámara › Formatos › «Más compatible».",
         "Nombres sencillos, sin espacios ni acentos: `001.jpg`, `002.jpg`, … El orden de los números es el orden "
         "en el álbum.",
         "Pide permiso a las personas que aparecen en las fotos.",
     ])
     b.h2("3.3 Crear un álbum nuevo")
     b.steps([
-        "En GitHub abre la carpeta `assets` › `galeria`.",
-        "Haz clic en «Add file» › «Create new file».",
-        "En el campo del nombre escribe el nombre de la carpeta, una barra `/` y `_LEEME.txt`, por ejemplo: "
-        "`12-fiesta-de-la-chonta-2027/_LEEME.txt`. Al escribir la barra, GitHub crea la carpeta.",
-        "En el contenido escribe una línea, por ejemplo «Álbum Fiesta de la Chonta 2027». Haz clic en "
-        "«Commit changes…» y luego en «Commit changes».",
+        "Abre Pages CMS › **Galería (álbumes de fotos)**. Ves las carpetas de los álbumes.",
+        "Haz clic en el botón para crear una carpeta (el ícono de carpeta con +).",
+        "Escribe el nombre de la carpeta con el número siguiente delante, sin espacios ni acentos, por ejemplo "
+        "`12-fiesta-de-la-chonta-2027`, y confirma.",
     ])
     b.h2("3.4 Subir las fotos")
     b.steps([
-        "Abre la carpeta nueva (o un álbum que ya existe).",
-        "Haz clic en «Add file» › «Upload files».",
-        "Arrastra las fotos a la ventana o haz clic en «choose your files». Puedes subir varias a la vez.",
-        "Abajo haz clic en «Commit changes» y espera a que termine la subida.",
+        "En la «Galería», abre la carpeta del álbum con un clic.",
+        "**En la computadora:** arrastra las fotos a la ventana; puedes arrastrar varias a la vez. **En el "
+        "celular:** toca «Upload» y elige una foto; repite para cada foto.",
+        "Cada foto se guarda sola. Espera a que terminen todas.",
         "En uno a tres minutos el álbum aparece en la galería.",
     ])
-    b.box("El archivo `_LEEME.txt` no aparece en la página. Puedes dejarlo o borrarlo.")
-    b.h2("3.5 Título bonito y portada")
+    b.box("Si una foto no se sube, seguramente es demasiado grande: achícala antes (3.2).", "warn")
+    b.box("Para muchas fotos a la vez también sirve GitHub: abre `assets` › `galeria` › la carpeta del álbum › "
+          "«Add file» › «Upload files», arrastra las fotos y haz clic en «Commit changes».")
+    b.h2("3.5 Título y portada")
     b.p("Sin más datos, el álbum usa el nombre de la carpeta como título. Para un título en tres idiomas y una "
-        "portada elegida, abre `_data/albums.yml`, copia un bloque arriba de la lista y cámbialo:")
-    b.code('- folder: 12-fiesta-de-la-chonta-2027\n'
-           '  title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }\n'
-           '  cover: "004.jpg"', "_data/albums.yml (ejemplo)")
-    b.bullets(["`folder`: el nombre exacto de la carpeta.", "`title`: el título en los tres idiomas.",
-               "`cover`: el nombre de la foto de portada. Vacío (`\"\"`) = la primera foto."])
+        "portada elegida:")
+    b.steps([
+        "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
+        "Agrega una entrada nueva con el botón para agregar (+).",
+        "Llena **Carpeta del álbum** (el nombre exacto de la carpeta, por ejemplo `12-fiesta-de-la-chonta-2027`), "
+        "**Título** en los tres idiomas y **Portada** (el nombre de una foto, por ejemplo `004.jpg`; vacío = la "
+        "primera foto).",
+        "Haz clic en «Save».",
+    ])
+    b.p("El orden de esta lista no importa: los álbumes se ordenan por el número de la carpeta.")
     b.h2("3.6 Borrar una foto o un álbum")
     b.steps([
-        "Abre la foto en GitHub.",
-        "Arriba a la derecha haz clic en los tres puntos «…» › «Delete file».",
-        "Confirma con «Commit changes». Un álbum desaparece cuando ya no tiene fotos.",
+        "Pages CMS › **Galería (álbumes de fotos)** › abre la carpeta del álbum.",
+        "En la foto, abre el menú (los tres puntos) y elige «Delete». Confirma.",
+        "Un álbum desaparece de la página cuando ya no tiene fotos. Si tenía título en «Álbumes de fotos», borra "
+        "también esa entrada.",
     ])
 
     b.h1("4. Novedades: Facebook e Instagram")
@@ -567,27 +602,25 @@ def es(b):
     b.img("equipo", "Las tarjetas del equipo en la página «Equipo».")
     b.steps([
         "Prepara una foto **cuadrada** (unos 600 × 600 píxeles, JPG) con la cara en el centro.",
-        "Súbela a `assets` › `img` › `equipo` con «Add file» › «Upload files», con un nombre sencillo, por "
-        "ejemplo `eddy.jpg`.",
-        "Abre `_data/team.yml`, copia el bloque de una persona, pégalo y cámbialo (ver el ejemplo).",
-        "Guarda con «Commit changes».",
+        "Abre Pages CMS › **Equipo (personas)**.",
+        "Para una persona nueva, agrega una entrada con el botón para agregar (+). Para cambiar a alguien, abre su "
+        "entrada.",
+        "Llena los campos (ver la tabla). En «Foto» puedes subir la foto directamente.",
+        "Haz clic en «Save».",
     ])
-    b.code('- name: "Eddy Ankuash"\n'
-           '  group: kampuntin\n'
-           '  photo: "/assets/img/equipo/eddy.jpg"\n'
-           '  social:\n'
-           '    - { name: Facebook, url: "https://www.facebook.com/eddy.ankuash.2025" }\n'
-           '  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }\n'
-           '  bio:\n'
-           '    es: "Texto corto en español."\n'
-           '    en: "Short text in English."\n'
-           '    fr: "Texte court en français."', "_data/team.yml (ejemplo)")
-    b.bullets(["Opcional: `contact: true` muestra el enlace «Escríbenos» (solo para las personas de contacto).",
-               "Opcional: `social:` agrega enlaces a Instagram o Facebook.",
-               "Opcional: `shuar_name:` muestra el nombre shuar debajo del nombre."])
-    b.box("Para cambiar una foto, sube la nueva con otro nombre (por ejemplo `eddy-2.jpg`) y cambia la línea "
-          "`photo`. Así los navegadores muestran enseguida la foto nueva. Publica fotos y textos de personas solo "
-          "con su permiso.")
+    b.table(["Campo", "Qué escribir"], [
+        ["Nombre", "Nombre y apellido."],
+        ["Nombre shuar", "Opcional. Aparece debajo del nombre."],
+        ["Grupo", "«Kampuntin: equipo en Maikiuants»."],
+        ["Foto", "La foto cuadrada. Sin foto aparece la inicial del nombre."],
+        ["Mostrar el enlace «Escríbenos»", "Solo para las personas de contacto."],
+        ["Función", "Por ejemplo «Secretario de Kampuntin», en los tres idiomas."],
+        ["Texto corto · Texto largo", "La descripción en los tres idiomas. Si hay texto largo, se muestra ese."],
+        ["Enlaces", "Opcional: el texto («Instagram», «Facebook») y el enlace al perfil."],
+    ], [.34, .66])
+    b.p("El orden de la lista es el orden en la página: para mover a alguien, arrastra su entrada.")
+    b.box("Para cambiar una foto, sube la nueva con otro nombre (por ejemplo `eddy-2.jpg`) y elígela en «Foto». Así "
+          "los navegadores muestran enseguida la foto nueva. Publica fotos y textos de personas solo con su permiso.")
     b.h2("5.2 ¿Dónde está cada texto?")
     b.table(["Página", "Archivo (en `_data/es`, `_data/en` y `_data/fr`)"], [
         ["Inicio", "`home.yml`"], ["Tours", "`tours.yml`"], ["Voluntariado", "`volunteering.yml`"],
@@ -614,30 +647,20 @@ def es(b):
     b.h2("5.5 Experiencias de voluntarios (testimonios)")
     b.img("testimonios", "Las experiencias en la página de voluntariado. Un clic en «Leer la experiencia completa» abre el relato.")
     b.p("En la página de voluntariado hay tarjetas con experiencias de personas que ya estuvieron en Maikiuants. Cada "
-        "tarjeta tiene una cita corta que siempre se ve, el nombre, una línea pequeña (por ejemplo «Voluntaria · "
-        "Alemania · 2026») y, si quieres, el relato completo para abrir y una foto pequeña.")
+        "tarjeta tiene una cita corta que siempre se ve, el nombre, una línea pequeña (por ejemplo «Voluntariado · "
+        "octubre de 2026») y, si quieres, el relato completo para abrir y una foto pequeña.")
     b.steps([
-        "Pide a la persona una cita corta (una a tres frases), cómo quiere aparecer (nombre, país, año), si quiere "
-        "también un relato más largo y una foto. **Pide su permiso para publicarlo.**",
-        "Opcional, la foto: cuadrada, con la cara en el centro, unos 300 × 300 píxeles. Súbela a `assets` › `img` › "
-        "`fotos` con «Add file» › «Upload files», por ejemplo como `testimonio-ana.jpg`.",
-        "En GitHub abre `_data/es/volunteering.yml` y haz clic en el lápiz. Busca `testimonials:` y debajo `items:`.",
-        "Copia un bloque completo, desde `- quote:` hasta antes del siguiente `- quote:`, y pégalo arriba de la "
-        "lista (la primera tarjeta es la más nueva). Cambia los textos (ver el ejemplo).",
-        "Haz lo mismo en `_data/en/volunteering.yml` y `_data/fr/volunteering.yml`, con el texto traducido.",
-        "Guarda con «Commit changes».",
+        "Pide a la persona una cita corta (una a tres frases), cómo quiere aparecer, si quiere también un relato más "
+        "largo y una foto. **Pide su permiso para publicarlo.**",
+        "Abre Pages CMS › **Experiencias de voluntarios** › **Español**.",
+        "En «Experiencias» agrega una entrada nueva con el botón para agregar (+) y arrástrala arriba de la lista: "
+        "la primera tarjeta es la más nueva.",
+        "Llena **Cita corta**, **Nombre**, **Línea pequeña**, opcional **Foto** (cuadrada, unos 300 × 300 píxeles) "
+        "y opcional **Relato completo** (una línea vacía separa los párrafos).",
+        "Haz clic en «Save». Repite en **English** y **Français** con el texto traducido.",
     ])
-    b.code(EXAMPLE_TESTIMONIAL, "_data/es/volunteering.yml (ejemplo de un bloque)")
-    b.bullets([
-        "`quote`: la cita corta. Deja `>-` tal cual y escribe el texto en la línea de abajo, con la misma sangría.",
-        "`name` y `meta`: el nombre y la línea pequeña debajo.",
-        "`photo`: la ruta de la foto, o vacío (`\"\"`) si no hay foto.",
-        "`text`: el relato completo (opcional). Deja `|-` tal cual; una línea vacía separa los párrafos. Si no hay "
-        "relato, borra las líneas de `text`; entonces no aparece el botón «Leer la experiencia completa».",
-    ])
-    b.box("Para quitar una experiencia, borra su bloque completo. Por ahora las experiencias aparecen solo en la "
-          "página de voluntariado; para tenerlas también en la página de tours, pide ayuda a quien administra la "
-          "página.")
+    b.box("Sin relato completo no aparece el botón «Leer la experiencia completa». Para quitar una experiencia, "
+          "bórrala de la lista en los tres idiomas.")
 
     b.h2("5.6 El pie de página")
     b.p("El pie de página aparece abajo en todas las páginas. Cada parte se cambia en un lugar distinto:")
@@ -755,7 +778,7 @@ def es(b):
     b.p("Google confía más en una página cuando otras páginas la enlazan. Por eso conviene poner **www.kampuntin.org** "
         "en todas partes:")
     b.bullets([
-        "En las páginas de Facebook (campo «Sitio web») y en la biografía de Instagram.",
+        "En las páginas de Facebook Kampuntin y Maikiuants (campo «Sitio web») y en la biografía de Instagram.",
         "En el perfil de WWOOF y en las páginas de organizaciones amigas.",
         "En los volantes y en la firma de los correos.",
         "En GitHub, en la organización Kampuntin-Maikiuants: «Settings» › «Profile», con una descripción (por ejemplo "
@@ -789,19 +812,20 @@ def es(b):
     b.h2("Hoja resumen")
     b.table(["Tarea", "Dónde", "Herramienta"], [
         ["Fecha de tour nueva, plazas", "Fechas de tours", "Pages CMS"],
-        ["Precio o texto de un viaje", "`_data/es|en|fr/tours.yml` › `trips`", "GitHub"],
+        ["Nombre, duración o texto de un viaje", "Viajes", "Pages CMS"],
+        ["Texto o foto del aviso", "Aviso en la página de inicio", "Pages CMS"],
+        ["Álbum nuevo, subir o borrar fotos", "Galería (álbumes de fotos)", "Pages CMS"],
+        ["Título o portada de un álbum", "Álbumes de fotos", "Pages CMS"],
+        ["Persona del equipo", "Equipo (personas)", "Pages CMS"],
+        ["Experiencia de voluntario", "Experiencias de voluntarios", "Pages CMS"],
+        ["Precio o programa detallado de un viaje", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Aviso encendido o apagado", "`_config.yml` › `tour_popup`", "GitHub"],
-        ["Texto o foto del aviso", "`_data/es|en|fr/home.yml` › `tour_popup`", "GitHub"],
-        ["Álbum nuevo, subir fotos", "`assets/galeria/NN-nombre/`", "GitHub"],
-        ["Título o portada de un álbum", "`_data/albums.yml`", "GitHub"],
         ["Cuentas de Facebook e Instagram", "`_config.yml` › `social`", "GitHub"],
         ["Publicaciones automáticas", "Secret `FB_PAGE_TOKENS`", "GitHub y Facebook"],
         ["Publicación de Instagram a mano", "`_data/instagram_embeds.yml`", "GitHub"],
-        ["Persona del equipo", "`_data/team.yml` y `assets/img/equipo`", "GitHub"],
         ["Personas de contacto", "`_config.yml` › `contact`", "GitHub"],
         ["Pie de página: redes y textos", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` y `assets/video`", "GitHub"],
-        ["Experiencia de voluntario", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Dominios, renovación y DNS", "Cloudflare (acceso en 1.7, ajustes en 6)", "Cloudflare y GitHub"],
         ["Aparecer en Google", "Search Console, propiedad «Dominio» kampuntin.org (ver 7)", "Google y Cloudflare"],
     ], [.36, .44, .20])
@@ -817,10 +841,13 @@ def en(b):
         "to three minutes.")
     b.h2("1.1 The two tools")
     b.table(["Tool", "What for", "Address"], [
-        ["**GitHub**", "All website files: texts, photos, albums and settings.", REPO],
-        ["**Pages CMS**", "A simple form for tour dates and available places. Also works on a phone.",
+        ["**Pages CMS**", "Simple forms for things that change often: dates and places, photos and albums, team, "
+                          "volunteer stories, journeys and the notice. Also works on a phone (see 1.8).",
          "app.pagescms.org"],
+        ["**GitHub**", "All website files. Used for everything else: contacts, social networks, videos and the "
+                       "page texts.", REPO],
     ], [.17, .43, .40])
+    b.box("Simple rule: if something is in Pages CMS, change it in Pages CMS. Everything else on GitHub.")
     b.h2("1.2 Getting access (once)")
     b.steps([
         "Create a free account on **github.com** («Sign up»). Use an email address you check regularly.",
@@ -871,6 +898,27 @@ def en(b):
     b.box("This handbook contains passwords. Do not upload it to GitHub or other websites, and only share it with "
           "people you trust. If someone leaves the team, change the passwords.", "warn")
 
+    b.h2("1.8 Pages CMS: the simple editor")
+    b.steps([
+        "Open **app.pagescms.org** and sign in with «Sign in with GitHub» (with your GitHub account, see 1.2).",
+        "Choose the repository **Kampuntin-Maikiuants.github.io**.",
+        "In the menu on the left, choose what you want to change (see the table). The menu names are in Spanish.",
+        "Make your changes and click «Save». As with GitHub, the website updates within one to three minutes "
+        "(see 1.4).",
+    ])
+    b.table(["In the menu", "What you change there", "See"], [
+        ["Fechas de tours", "Journey dates and free places", "2.2"],
+        ["Aviso en la página de inicio", "Text, button and photo of the notice", "2.4"],
+        ["Viajes", "Name, duration, season and text of the two journeys", "2.5"],
+        ["Galería (álbumes de fotos)", "Create albums, upload and delete photos", "3.3–3.6"],
+        ["Álbumes de fotos", "Title and cover of each album", "3.5"],
+        ["Equipo (personas)", "Team members: photo, role, texts and links", "5.1"],
+        ["Experiencias de voluntarios", "The stories on the volunteering page", "5.5"],
+        ["Fotos del equipo · Otras fotos", "View, upload or delete those photos", "5.1, 5.5"],
+    ], [.32, .52, .16])
+    b.box("Texts in three languages have one form per language (Español, English, Français): always change all "
+          "three (see 1.5). In lists, you can change the order by dragging the dots on the left of each entry.")
+
     b.h1("2. Tours: dates, places and the homepage notice")
     b.h2("2.1 How it works")
     b.p("There are two journeys: the **spiritual journey** (8 days) and the **Arutam journey** (10 days). "
@@ -878,9 +926,8 @@ def en(b):
         "says which journey it belongs to.")
     b.img("viajes", "The «Two journeys» section on the tours page. The programmes can be opened below.")
     b.bullets([
-        "**Dates and places:** file `_data/tour_dates.yml`. The easiest way is Pages CMS (2.2).",
-        "**Name, duration, price and text of each journey:** `_data/en/tours.yml` (and `es`, `fr`), under "
-        "`trips` (2.5).",
+        "**Dates and places:** Pages CMS › Fechas de tours (2.2).",
+        "**Name, duration and text of each journey:** Pages CMS › Viajes (2.5).",
         "**The homepage notice** picks the next date automatically (2.4).",
     ])
     b.h2("2.2 Adding a new date (with Pages CMS)")
@@ -917,83 +964,92 @@ def en(b):
     b.p("A full date no longer appears in the homepage notice. The notice then shows the next date with places.")
     b.h2("2.4 The homepage notice (pop-up)")
     b.img("popup", "The notice appears at the bottom right a few seconds after opening the homepage.")
-    b.p("The notice always shows the next date that has not passed and is not full, with the name of the journey, "
-        "the duration and the price. **You don't need to change anything to keep it up to date.**")
-    b.p("**Switching the notice on or off:**")
+    b.p("The notice always shows the next date that has not passed and is not full, with the name and duration of "
+        "the journey. **Nothing needs to be changed for it to update.**")
+    b.p("**Changing the text, button or photo:**")
+    b.steps([
+        "Pages CMS › **Aviso en la página de inicio (texto)** › **English**.",
+        "Change «Texto», «Texto del botón» or «Foto del aviso». You can upload a new photo directly in the photo "
+        "field.",
+        "Click «Save». Repeat in **Español** and **Français**.",
+    ])
+    b.p("**Switching the notice on or off** (on GitHub):")
     b.steps([
         "On GitHub, open the file `_config.yml` (in the main folder) and click the pencil.",
         "Find the line `tour_popup: true`.",
         "Write `false` to switch it off or `true` to switch it on, and save with «Commit changes».",
     ])
-    b.p("**Changing the text or photo of the notice:** in `_data/en/home.yml` (and `es`, `fr`), at the end, in the "
-        "`tour_popup` block. The photo (`image`) is a path to a file on the website.")
-    b.code(block("_data/en/home.yml", r"^tour_popup:", r"^\S"), "_data/en/home.yml")
-    b.h2("2.5 Changing the price, duration or description of a journey")
+    b.h2("2.5 Changing the name, duration or description of a journey")
     b.steps([
-        "On GitHub, open `_data/en/tours.yml` and click the pencil.",
-        "Find `trips:`. Below it are `espiritual` and `arutam`.",
-        "Change `days` (duration), `when` (season) or `text` (short description).",
-        "Do the same in `_data/es/tours.yml` and `_data/fr/tours.yml`.",
-        "Save with «Commit changes».",
+        "Pages CMS › **Viajes: nombre, duración, temporada y texto** › **English**.",
+        "Under «Viaje espiritual» or «Viaje Arutam», change the name, the duration (for example «8 days»), the "
+        "season (for example «April – May 2027») or the short description.",
+        "Click «Save». Repeat in **Español** and **Français**.",
     ])
-    b.code(block("_data/en/tours.yml", r"^  espiritual:", r"^  arutam:"), "_data/en/tours.yml (excerpt)")
-    b.box("At the moment the website shows no prices: instead it says «Price on request» (the text is in `price` › "
-          "`on_request`). To show a price, add a line such as `amount: \"1,200 USD\"` below `days`. To go back to "
-          "«Price on request», delete that line.")
-    b.p("The detailed programme (arrival, activities and return) is in the same file: in `spiritual` for the "
-        "spiritual journey and in `experience` for the Arutam journey.")
+    b.box("At the moment the website shows no prices: instead it says «Price on request». To show a price, open "
+          "`_data/en/tours.yml` (and `es`, `fr`) on GitHub and add a line such as `amount: \"1,200 USD\"` below "
+          "`days`. To go back to «Price on request», delete that line.")
+    b.p("The detailed programme of each journey (arrival, activities and return) is changed on GitHub, in "
+        "`_data/en/tours.yml` (and `es`, `fr`): in `spiritual` for the spiritual journey and in `experience` for the "
+        "Arutam journey.")
     b.box("A completely new journey (a third kind of journey) needs a small technical change to the website. For "
           "that, contact the person who manages the website.", "warn")
 
     b.h1("3. Gallery: albums and photos")
     b.h2("3.1 How it works")
-    b.p("Each album is a **folder** inside `assets/galeria`. All photos in the folder appear in the album. The "
-        "first photo (or the one you choose) is the cover. Albums are sorted by folder name, from highest to "
-        "lowest: that is why each folder starts with a number. The first three albums also appear at the bottom "
-        "of the tours page.")
+    b.p("Each album is a **folder** in the «Galería» of Pages CMS (on GitHub: `assets/galeria`). All photos in the "
+        "folder appear in the album. The first photo (or the one you choose) is the cover. Albums are sorted by "
+        "folder name, from highest to lowest: that is why each folder starts with a number. The first three albums "
+        "also appear at the bottom of the tours page.")
     b.img("galeria", "The gallery: each card is an album. One click opens all photos.")
-    b.p("The current folders go from `01` to `11`. A new album gets the next number (`12`, `13`, …) so it appears "
-        "first.")
+    b.p("The current folders go from `01` to `11`. A new album gets the next number (`12`, `13`, …) so that it "
+        "appears first.")
     b.h2("3.2 Preparing photos")
     b.bullets([
-        "Format **JPG**.",
-        "About **1600 pixels wide** and under **500 KB** per photo. Large photos make the website slow.",
-        "To shrink photos for free: **squoosh.app** in the browser, or a photo resizing app on your phone.",
+        "Format **JPG** (PNG and WebP also work).",
+        "About **1600 pixels wide** and under **500 KB** per photo. Large photos make the website slow and "
+        "sometimes cannot be uploaded.",
+        "To shrink photos for free: **squoosh.app** in the browser, or a photo-resizing app on your phone.",
+        "iPhone photos must be JPG, not HEIC. On the iPhone: Settings › Camera › Formats › «Most Compatible».",
         "Simple names without spaces or accents: `001.jpg`, `002.jpg`, … The order of the numbers is the order in "
         "the album.",
         "Ask the people in the photos for permission.",
     ])
     b.h2("3.3 Creating a new album")
     b.steps([
-        "On GitHub, open the folder `assets` › `galeria`.",
-        "Click «Add file» › «Create new file».",
-        "In the name field, type the folder name, a slash `/` and `_LEEME.txt`, for example: "
-        "`12-chonta-festival-2027/_LEEME.txt`. When you type the slash, GitHub creates the folder.",
-        "In the content, write one line, for example «Album Chonta festival 2027». Click «Commit changes…» and "
-        "then «Commit changes».",
+        "Open Pages CMS › **Galería (álbumes de fotos)**. You see the album folders.",
+        "Click the button to create a folder (the folder icon with +).",
+        "Enter the folder name with the next number in front, without spaces or accents, for example "
+        "`12-chonta-festival-2027`, and confirm.",
     ])
     b.h2("3.4 Uploading photos")
     b.steps([
-        "Open the new folder (or an existing album).",
-        "Click «Add file» › «Upload files».",
-        "Drag the photos into the window or click «choose your files». You can upload several at once.",
-        "At the bottom, click «Commit changes» and wait until the upload has finished.",
+        "In the «Galería», open the album folder with one click.",
+        "**On a computer:** drag the photos into the window; you can drag several at once. **On a phone:** tap "
+        "«Upload» and choose a photo; repeat for each photo.",
+        "Each photo is saved by itself. Wait until all are done.",
         "Within one to three minutes the album appears in the gallery.",
     ])
-    b.box("The file `_LEEME.txt` does not appear on the website. You can keep it or delete it.")
-    b.h2("3.5 A nice title and cover")
-    b.p("Without further information, the album uses the folder name as its title. For a title in three languages "
-        "and a chosen cover, open `_data/albums.yml`, copy a block at the top of the list and change it:")
-    b.code('- folder: 12-chonta-festival-2027\n'
-           '  title: { es: "Fiesta de la Chonta 2027", en: "Chonta festival 2027", fr: "Fête de la Chonta 2027" }\n'
-           '  cover: "004.jpg"', "_data/albums.yml (example)")
-    b.bullets(["`folder`: the exact folder name.", "`title`: the title in the three languages.",
-               "`cover`: the file name of the cover photo. Empty (`\"\"`) = the first photo."])
+    b.box("If a photo does not upload, it is probably too large: shrink it first (3.2).", "warn")
+    b.box("For many photos at once, GitHub also works: open `assets` › `galeria` › the album folder › «Add file» › "
+          "«Upload files», drag the photos in and click «Commit changes».")
+    b.h2("3.5 Title and cover")
+    b.p("Without further details, the album uses the folder name as its title. For a title in three languages and a "
+        "chosen cover:")
+    b.steps([
+        "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
+        "Add a new entry with the add button (+).",
+        "Fill in **Carpeta del álbum** (the exact folder name, for example `12-chonta-festival-2027`), **Título** in "
+        "the three languages and **Portada** (the name of a photo, for example `004.jpg`; empty = the first photo).",
+        "Click «Save».",
+    ])
+    b.p("The order of this list does not matter: albums are sorted by the folder number.")
     b.h2("3.6 Deleting a photo or an album")
     b.steps([
-        "Open the photo on GitHub.",
-        "At the top right, click the three dots «…» › «Delete file».",
-        "Confirm with «Commit changes». An album disappears when it has no photos left.",
+        "Pages CMS › **Galería (álbumes de fotos)** › open the album folder.",
+        "On the photo, open the menu (the three dots) and choose «Delete». Confirm.",
+        "An album disappears from the website when it has no photos left. If it had a title in «Álbumes de fotos», "
+        "delete that entry too.",
     ])
 
     b.h1("4. Updates: Facebook and Instagram")
@@ -1054,27 +1110,25 @@ def en(b):
     b.img("equipo", "The team cards on the «People» page.")
     b.steps([
         "Prepare a **square** photo (about 600 × 600 pixels, JPG) with the face in the centre.",
-        "Upload it to `assets` › `img` › `equipo` with «Add file» › «Upload files», with a simple name, for "
-        "example `eddy.jpg`.",
-        "Open `_data/team.yml`, copy a person's block, paste it and change it (see example).",
-        "Save with «Commit changes».",
+        "Open Pages CMS › **Equipo (personas)**.",
+        "For a new person, add an entry with the add button (+). To change someone, open their entry.",
+        "Fill in the fields (see the table). In «Foto» you can upload the photo directly.",
+        "Click «Save».",
     ])
-    b.code('- name: "Eddy Ankuash"\n'
-           '  group: kampuntin\n'
-           '  photo: "/assets/img/equipo/eddy.jpg"\n'
-           '  social:\n'
-           '    - { name: Facebook, url: "https://www.facebook.com/eddy.ankuash.2025" }\n'
-           '  role: { es: "Secretario de Kampuntin", en: "Secretary of Kampuntin", fr: "Secrétaire de Kampuntin" }\n'
-           '  bio:\n'
-           '    es: "Texto corto en español."\n'
-           '    en: "Short text in English."\n'
-           '    fr: "Texte court en français."', "_data/team.yml (example)")
-    b.bullets(["Optional: `contact: true` shows the «Contact us» link (only for contact persons).",
-               "Optional: `social:` adds links to Instagram or Facebook.",
-               "Optional: `shuar_name:` shows the Shuar name below the name."])
-    b.box("To change a photo, upload the new one under a different name (for example `eddy-2.jpg`) and change the "
-          "`photo` line. That way browsers show the new photo right away. Only publish photos and texts about "
-          "people with their permission.")
+    b.table(["Field", "What to enter"], [
+        ["Nombre", "First and last name."],
+        ["Nombre shuar", "Optional. Shown below the name."],
+        ["Grupo", "«Kampuntin: equipo en Maikiuants»."],
+        ["Foto", "The square photo. Without a photo, the first letter of the name is shown."],
+        ["Mostrar el enlace «Escríbenos»", "Only for contact persons."],
+        ["Función", "The role, for example «Secretary of Kampuntin», in the three languages."],
+        ["Texto corto · Texto largo", "The description in the three languages. If there is a long text, it is shown."],
+        ["Enlaces", "Optional: the text («Instagram», «Facebook») and the link to the profile."],
+    ], [.34, .66])
+    b.p("The order of the list is the order on the website: to move someone, drag their entry.")
+    b.box("To change a photo, upload the new one with a different name (for example `eddy-2.jpg`) and choose it in "
+          "«Foto». This way browsers show the new photo straight away. Only publish photos and texts of people with "
+          "their permission.")
     b.h2("5.2 Where is each text?")
     b.table(["Page", "File (in `_data/es`, `_data/en` and `_data/fr`)"], [
         ["Home", "`home.yml`"], ["Tours", "`tours.yml`"], ["Volunteering", "`volunteering.yml`"],
@@ -1101,29 +1155,21 @@ def en(b):
     b.h2("5.5 Volunteer stories (testimonials)")
     b.img("testimonios", "The stories on the volunteering page. A click on «Read the full story» opens the whole text.")
     b.p("The volunteering page has cards with stories from people who have already been to Maikiuants. Each card has "
-        "a short quote that is always visible, the name, a small line (for example «Volunteer · Germany · 2026») "
+        "a short quote that is always visible, the name, a small line (for example «Volunteering · October 2026») "
         "and, if you like, the full story to open and a small photo.")
     b.steps([
-        "Ask the person for a short quote (one to three sentences), how they want to appear (name, country, year), "
-        "whether they want to add a longer story and a photo. **Ask for their permission to publish it.**",
-        "Optional, the photo: square, face in the centre, about 300 × 300 pixels. Upload it to `assets` › `img` › "
-        "`fotos` with «Add file» › «Upload files», for example as `testimonio-ana.jpg`.",
-        "On GitHub, open `_data/en/volunteering.yml` and click the pencil. Find `testimonials:` and below it `items:`.",
-        "Copy a complete block, from `- quote:` to just before the next `- quote:`, and paste it at the top of the "
-        "list (the first card is the newest). Change the texts (see example).",
-        "Do the same in `_data/es/volunteering.yml` and `_data/fr/volunteering.yml`, with the translated text.",
-        "Save with «Commit changes».",
+        "Ask the person for a short quote (one to three sentences), how they want to appear, whether they also want a "
+        "longer story and a photo. **Ask for their permission to publish it.**",
+        "Open Pages CMS › **Experiencias de voluntarios** › **English**.",
+        "Under «Experiencias», add a new entry with the add button (+) and drag it to the top of the list: the first "
+        "card is the newest.",
+        "Fill in **Cita corta** (quote), **Nombre** (name), **Línea pequeña** (small line), optionally **Foto** "
+        "(square, about 300 × 300 pixels) and optionally **Relato completo** (full story; an empty line separates "
+        "paragraphs).",
+        "Click «Save». Repeat in **Español** and **Français** with the translated text.",
     ])
-    b.code(EXAMPLE_TESTIMONIAL, "_data/es/volunteering.yml (example of one block)")
-    b.bullets([
-        "`quote`: the short quote. Leave `>-` as it is and write the text on the line below, with the same indentation.",
-        "`name` and `meta`: the name and the small line below it.",
-        "`photo`: the path to the photo, or empty (`\"\"`) if there is no photo.",
-        "`text`: the full story (optional). Leave `|-` as it is; an empty line separates paragraphs. If there is no "
-        "story, delete the `text` lines; then the «Read the full story» button does not appear.",
-    ])
-    b.box("To remove a story, delete its whole block. For now the stories only appear on the volunteering page; to "
-          "have them on the tours page as well, ask the person who manages the website for help.")
+    b.box("Without a full story, the «Read the full story» button does not appear. To remove a story, delete it from "
+          "the list in all three languages.")
 
     b.h2("5.6 The footer")
     b.p("The footer appears at the bottom of every page. Each part is changed in a different place:")
@@ -1241,7 +1287,7 @@ def en(b):
     b.p("Google trusts a website more when other websites link to it. So it is worth putting **www.kampuntin.org** "
         "everywhere:")
     b.bullets([
-        "On the Facebook pages («Website» field) and in the Instagram bio.",
+        "On the Kampuntin and Maikiuants Facebook pages («Website» field) and in the Instagram bio.",
         "On the WWOOF profile and on the websites of partner organisations.",
         "On flyers and in email signatures.",
         "On GitHub, in the Kampuntin-Maikiuants organisation: «Settings» › «Profile», with a description (for example "
@@ -1275,19 +1321,20 @@ def en(b):
     b.h2("Quick reference")
     b.table(["Task", "Where", "Tool"], [
         ["New tour date, free places", "Fechas de tours", "Pages CMS"],
-        ["Price or text of a journey", "`_data/es|en|fr/tours.yml` › `trips`", "GitHub"],
+        ["Name, duration or text of a journey", "Viajes", "Pages CMS"],
+        ["Text or photo of the notice", "Aviso en la página de inicio", "Pages CMS"],
+        ["New album, upload or delete photos", "Galería (álbumes de fotos)", "Pages CMS"],
+        ["Album title or cover", "Álbumes de fotos", "Pages CMS"],
+        ["Team member", "Equipo (personas)", "Pages CMS"],
+        ["Volunteer story", "Experiencias de voluntarios", "Pages CMS"],
+        ["Price or detailed programme of a journey", "`_data/es|en|fr/tours.yml`", "GitHub"],
         ["Notice on or off", "`_config.yml` › `tour_popup`", "GitHub"],
-        ["Text or photo of the notice", "`_data/es|en|fr/home.yml` › `tour_popup`", "GitHub"],
-        ["New album, uploading photos", "`assets/galeria/NN-name/`", "GitHub"],
-        ["Album title or cover", "`_data/albums.yml`", "GitHub"],
         ["Facebook and Instagram accounts", "`_config.yml` › `social`", "GitHub"],
         ["Automatic posts", "Secret `FB_PAGE_TOKENS`", "GitHub and Facebook"],
         ["Instagram post manually", "`_data/instagram_embeds.yml`", "GitHub"],
-        ["Team member", "`_data/team.yml` and `assets/img/equipo`", "GitHub"],
         ["Contact persons", "`_config.yml` › `contact`", "GitHub"],
         ["Footer: social networks and texts", "`_config.yml` › `social`; `_data/es|en|fr/ui.yml` › `footer`", "GitHub"],
         ["Videos", "`_data/videos.yml` and `assets/video`", "GitHub"],
-        ["Volunteer story", "`_data/es|en|fr/volunteering.yml` › `testimonials`", "GitHub"],
         ["Domains, renewal and DNS", "Cloudflare (access in 1.7, settings in 6)", "Cloudflare and GitHub"],
         ["Getting found on Google", "Search Console, «Domain» property kampuntin.org (see 7)", "Google and Cloudflare"],
     ], [.36, .44, .20])

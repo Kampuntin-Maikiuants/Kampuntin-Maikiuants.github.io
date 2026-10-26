@@ -37,7 +37,8 @@ content:
       - name: dates
         label: Fechas
         type: object
-        list: true
+        list:
+          collapsible: { summary: "{trip} · {label.es}" }
         fields:
           - { name: start, label: Inicio, type: date, options: { format: yyyy-MM-dd } }
           - { name: end, label: Fin, type: date, options: { format: yyyy-MM-dd } }
@@ -81,7 +82,8 @@ content:
     type: file
     path: _data/albums.yml
     format: yaml
-    list: true
+    list:
+      collapsible: { collapsed: true, summary: "{title.es} · {folder}" }
     fields:
       - name: folder
         label: "Carpeta del álbum en «Galería» (por ejemplo 12-mi-album)"
@@ -103,7 +105,8 @@ content:
     type: file
     path: _data/team.yml
     format: yaml
-    list: true
+    list:
+      collapsible: { collapsed: true, summary: "{name}" }
     fields:
       - { name: name, label: Nombre, type: string, required: true }
       - { name: shuar_name, label: "Nombre shuar (opcional)", type: string }
@@ -145,7 +148,8 @@ content:
       - name: social
         label: "Enlaces (Instagram, Facebook …)"
         type: object
-        list: true
+        list:
+          collapsible: { summary: "{name}" }
         fields:
           - { name: name, label: "Texto del enlace (por ejemplo Instagram)", type: string }
           - { name: handle, label: "Nombre de usuario (opcional)", type: string }
@@ -170,7 +174,8 @@ content:
               - name: items
                 label: Experiencias
                 type: object
-                list: true
+                list:
+                  collapsible: { collapsed: true, summary: "{name} · {meta}" }
                 fields:
                   - { name: quote, label: "Cita corta (siempre visible)", type: text }
                   - { name: name, label: Nombre, type: string }
@@ -195,7 +200,8 @@ content:
               - name: items
                 label: Experiencias
                 type: object
-                list: true
+                list:
+                  collapsible: { collapsed: true, summary: "{name} · {meta}" }
                 fields:
                   - { name: quote, label: "Cita corta (siempre visible)", type: text }
                   - { name: name, label: Nombre, type: string }
@@ -220,7 +226,8 @@ content:
               - name: items
                 label: Experiencias
                 type: object
-                list: true
+                list:
+                  collapsible: { collapsed: true, summary: "{name} · {meta}" }
                 fields:
                   - { name: quote, label: "Cita corta (siempre visible)", type: text }
                   - { name: name, label: Nombre, type: string }
