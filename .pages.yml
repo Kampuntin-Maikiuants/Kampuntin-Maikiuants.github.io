@@ -5,6 +5,8 @@
 #   einer Datei erhalten bleiben. Listen (Team, Alben, Termine, Erfahrungsberichte) werden aber komplett
 #   neu geschrieben: Jedes Feld, das in diesen Daten vorkommt, muss hier stehen, sonst geht es verloren.
 # - Kommentare in Dateien, die über Pages CMS gespeichert werden, gehen verloren (Inhalt bleibt).
+# - Bei Dateien, die als Ganzes eine Liste sind (Alben, Team), muss es „list: true“ bleiben:
+#   „list: { collapsible: … }“ funktioniert dort nicht (leeres Formular statt Liste!).
 
 settings:
   content:
@@ -78,15 +80,14 @@ content:
 
   - name: albumes
     label: Álbumes de fotos (títulos y portadas)
-    description: Las fotos se suben en «Galería»; aquí se ponen el título y la portada de cada álbum.
+    description: Las fotos se suben en «Galería»; aquí se ponen el título y la portada. El orden de esta lista es el orden en la galería (arrastra para cambiarlo).
     type: file
     path: _data/albums.yml
     format: yaml
-    list:
-      collapsible: { collapsed: true, summary: "{title.es} · {folder}" }
+    list: true
     fields:
       - name: folder
-        label: "Carpeta del álbum en «Galería» (por ejemplo 12-mi-album)"
+        label: "Carpeta del álbum en «Galería» (el nombre exacto, por ejemplo fiesta-de-la-chonta-2027)"
         type: string
         required: true
       - name: title
@@ -105,8 +106,7 @@ content:
     type: file
     path: _data/team.yml
     format: yaml
-    list:
-      collapsible: { collapsed: true, summary: "{name}" }
+    list: true
     fields:
       - { name: name, label: Nombre, type: string, required: true }
       - { name: shuar_name, label: "Nombre shuar (opcional)", type: string }

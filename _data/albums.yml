@@ -1,7 +1,8 @@
 # Fotoalben der Galerie
 # -----------------------------------------------------------------
-# Jeder Unterordner in assets/galeria/ ist ein Album. Die Reihenfolge ergibt sich aus dem Ordnernamen
-# (absteigend sortiert): 10-… steht vor 09-…, deshalb die Nummern voranstellen.
+# Jeder Unterordner in assets/galeria/ ist ein Album. Reihenfolge in der Galerie = Reihenfolge dieser Liste
+# (in Pages CMS per Ziehen änderbar). Ordner ohne Eintrag hier erscheinen ganz vorne.
+# Ordnernamen brauchen keine Nummer (die alten 01-…11- bleiben einfach so).
 # Datumsangaben werden nicht angezeigt.
 #   folder: Ordnername
 #   title:  Titel auf Spanisch, Englisch und Französisch

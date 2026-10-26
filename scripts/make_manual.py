@@ -487,12 +487,11 @@ def es(b):
     b.h1("3. Galería: álbumes y fotos")
     b.h2("3.1 Cómo funciona")
     b.p("Cada álbum es una **carpeta** en la «Galería» de Pages CMS (en GitHub: `assets/galeria`). Todas las fotos de "
-        "la carpeta aparecen en el álbum. La primera foto (o la que elijas) es la portada. Los álbumes se ordenan por "
-        "el nombre de la carpeta, de mayor a menor: por eso cada carpeta empieza con un número. Los tres primeros "
-        "álbumes aparecen también abajo en la página de tours.")
+        "la carpeta aparecen en el álbum. La primera foto (o la que elijas) es la portada. El orden de los álbumes en "
+        "la página es el orden de la lista «Álbumes de fotos» (3.5). Un álbum nuevo que todavía no está en esa lista "
+        "aparece primero. Los tres primeros álbumes aparecen también abajo en la página de tours.")
     b.img("galeria", "La galería: cada tarjeta es un álbum. Un clic abre todas las fotos.")
-    b.p("Las carpetas actuales van de `01` a `11`. Un álbum nuevo recibe el número siguiente (`12`, `13`, …) "
-        "para aparecer primero.")
+    b.p("Las carpetas antiguas tienen un número delante (`01` a `11`). Para álbumes nuevos ya no hace falta.")
     b.h2("3.2 Preparar las fotos")
     b.bullets([
         "Formato **JPG** (también sirven PNG y WebP).",
@@ -508,8 +507,8 @@ def es(b):
     b.steps([
         "Abre Pages CMS › **Galería (álbumes de fotos)**. Ves las carpetas de los álbumes.",
         "Haz clic en el botón para crear una carpeta (el ícono de carpeta con +).",
-        "Escribe el nombre de la carpeta con el número siguiente delante, sin espacios ni acentos, por ejemplo "
-        "`12-fiesta-de-la-chonta-2027`, y confirma.",
+        "Escribe el nombre de la carpeta, sin espacios ni acentos, por ejemplo `fiesta-de-la-chonta-2027`, y "
+        "confirma.",
     ])
     b.h2("3.4 Subir las fotos")
     b.steps([
@@ -528,12 +527,13 @@ def es(b):
     b.steps([
         "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
         "Agrega una entrada nueva con el botón para agregar (+).",
-        "Llena **Carpeta del álbum** (el nombre exacto de la carpeta, por ejemplo `12-fiesta-de-la-chonta-2027`), "
+        "Llena **Carpeta del álbum** (el nombre exacto de la carpeta, por ejemplo `fiesta-de-la-chonta-2027`), "
         "**Título** en los tres idiomas y **Portada** (el nombre de una foto, por ejemplo `004.jpg`; vacío = la "
         "primera foto).",
         "Haz clic en «Save».",
     ])
-    b.p("El orden de esta lista no importa: los álbumes se ordenan por el número de la carpeta.")
+    b.p("El orden de esta lista es el orden en la galería. La entrada nueva aparece al final: arrástrala arriba "
+        "para que el álbum salga primero.")
     b.h2("3.6 Borrar una foto o un álbum")
     b.steps([
         "Pages CMS › **Galería (álbumes de fotos)** › abre la carpeta del álbum.",
@@ -998,12 +998,11 @@ def en(b):
     b.h1("3. Gallery: albums and photos")
     b.h2("3.1 How it works")
     b.p("Each album is a **folder** in the «Galería» of Pages CMS (on GitHub: `assets/galeria`). All photos in the "
-        "folder appear in the album. The first photo (or the one you choose) is the cover. Albums are sorted by "
-        "folder name, from highest to lowest: that is why each folder starts with a number. The first three albums "
-        "also appear at the bottom of the tours page.")
+        "folder appear in the album. The first photo (or the one you choose) is the cover. The order of the albums on "
+        "the website is the order of the «Álbumes de fotos» list (3.5). A new album that is not yet in that list "
+        "appears first. The first three albums also appear at the bottom of the tours page.")
     b.img("galeria", "The gallery: each card is an album. One click opens all photos.")
-    b.p("The current folders go from `01` to `11`. A new album gets the next number (`12`, `13`, …) so that it "
-        "appears first.")
+    b.p("The older folders have a number in front (`01` to `11`). New albums no longer need one.")
     b.h2("3.2 Preparing photos")
     b.bullets([
         "Format **JPG** (PNG and WebP also work).",
@@ -1019,8 +1018,7 @@ def en(b):
     b.steps([
         "Open Pages CMS › **Galería (álbumes de fotos)**. You see the album folders.",
         "Click the button to create a folder (the folder icon with +).",
-        "Enter the folder name with the next number in front, without spaces or accents, for example "
-        "`12-chonta-festival-2027`, and confirm.",
+        "Enter the folder name without spaces or accents, for example `chonta-festival-2027`, and confirm.",
     ])
     b.h2("3.4 Uploading photos")
     b.steps([
@@ -1039,11 +1037,12 @@ def en(b):
     b.steps([
         "Pages CMS › **Álbumes de fotos (títulos y portadas)**.",
         "Add a new entry with the add button (+).",
-        "Fill in **Carpeta del álbum** (the exact folder name, for example `12-chonta-festival-2027`), **Título** in "
+        "Fill in **Carpeta del álbum** (the exact folder name, for example `chonta-festival-2027`), **Título** in "
         "the three languages and **Portada** (the name of a photo, for example `004.jpg`; empty = the first photo).",
         "Click «Save».",
     ])
-    b.p("The order of this list does not matter: albums are sorted by the folder number.")
+    b.p("The order of this list is the order in the gallery. A new entry appears at the end: drag it to the top so "
+        "that the album appears first.")
     b.h2("3.6 Deleting a photo or an album")
     b.steps([
         "Pages CMS › **Galería (álbumes de fotos)** › open the album folder.",

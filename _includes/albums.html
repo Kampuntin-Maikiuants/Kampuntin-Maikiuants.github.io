@@ -14,7 +14,18 @@
     {%- if al_exts contains al_ext and al_parts.size > 4 -%}{{ al_parts[3] }}|{%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
-{%- assign al_folders = al_folders | split: "|" | uniq | sort | reverse -%}
+{%- assign al_existing = al_folders | split: "|" | uniq | sort | reverse -%}
+{%- comment -%}
+  Reihenfolge: zuerst Ordner ohne Eintrag in _data/albums.yml (neu angelegt, nach Name absteigend),
+  danach die Alben in der Reihenfolge der Liste in _data/albums.yml (in Pages CMS per Ziehen änderbar).
+{%- endcomment -%}
+{%- assign al_listed = "" | split: "" -%}
+{%- for al_entry in site.data.albums -%}
+  {%- if al_existing contains al_entry.folder -%}{%- unless al_listed contains al_entry.folder -%}{%- assign al_listed = al_listed | push: al_entry.folder -%}{%- endunless -%}{%- endif -%}
+{%- endfor -%}
+{%- assign al_folders = "" | split: "" -%}
+{%- for al_f in al_existing -%}{%- unless al_listed contains al_f -%}{%- assign al_folders = al_folders | push: al_f -%}{%- endunless -%}{%- endfor -%}
+{%- for al_f in al_listed -%}{%- assign al_folders = al_folders | push: al_f -%}{%- endfor -%}
 {%- assign al_count = 0 -%}
 <div class="albums">
 {%- for folder in al_folders -%}
