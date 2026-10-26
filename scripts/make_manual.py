@@ -139,6 +139,14 @@ class Builder:
     def p(self, text):
         self.story.append(Paragraph(md(text), ST["body"]))
 
+    def keep(self, fn):
+        """Alles, was fn() hinzufügt, bleibt auf einer Seite zusammen."""
+        start = len(self.story)
+        fn()
+        block = self.story[start:]
+        del self.story[start:]
+        self.story.append(KeepTogether(block))
+
     def bullets(self, items):
         rows = [[Paragraph('<font color="#b8562e">•</font>', ST["step"]), Paragraph(md(i), ST["step"])]
                 for i in items]
@@ -334,6 +342,9 @@ def es(b):
     ], [.17, .43, .40])
     b.box("Regla sencilla: lo que está en Pages CMS, cámbialo en Pages CMS. Lo demás, en GitHub.")
     b.h2("1.2 Crear tu acceso (una sola vez)")
+    b.box("Kampuntin tiene una cuenta propia de GitHub (datos en 1.7). Con ella puedes entrar directamente en GitHub "
+          "y en Pages CMS. Los pasos de abajo solo hacen falta si una persona quiere su propia cuenta. Si entras desde "
+          "un equipo nuevo, GitHub puede pedir un código que llega al correo ocstkampuntin@gmail.com.")
     b.steps([
         "Crea una cuenta gratuita en **github.com** (botón «Sign up»). Usa un correo que revises con frecuencia.",
         "Envía tu nombre de usuario de GitHub a la persona que administra la página (hoy: Jesko Dorner).",
@@ -377,8 +388,9 @@ def es(b):
     b.h2("1.7 Datos de acceso")
     if ACCESOS:
         for a in ACCESOS:
-            b.p("**" + a["servicio"] + "** – " + a["para"]["es"])
-            b.bullets(["Página: " + a["web"], "Usuario: `" + a["usuario"] + "`", "Contraseña: `" + a["contrasena"] + "`"])
+            b.keep(lambda a=a: (b.p("**" + a["servicio"] + "** – " + a["para"]["es"]),
+                                b.bullets(["Página: " + a["web"], "Usuario: `" + a["usuario"] + "`",
+                                           "Contraseña: `" + a["contrasena"] + "`"])))
     else:
         b.p("Los datos de acceso están en el archivo local `manual/accesos.json`.")
     b.box("Este manual contiene contraseñas. No lo subas a GitHub ni a otras páginas y compártelo solo con personas "
@@ -898,6 +910,9 @@ def en(b):
     ], [.17, .43, .40])
     b.box("Simple rule: if something is in Pages CMS, change it in Pages CMS. Everything else on GitHub.")
     b.h2("1.2 Getting access (once)")
+    b.box("Kampuntin has its own GitHub account (details in 1.7). With it you can sign in directly to GitHub and "
+          "Pages CMS. The steps below are only needed if someone wants their own account. When signing in from a new "
+          "device, GitHub may ask for a code that is sent to ocstkampuntin@gmail.com.")
     b.steps([
         "Create a free account on **github.com** («Sign up»). Use an email address you check regularly.",
         "Send your GitHub username to the person who manages the website (currently Jesko Dorner).",
@@ -940,8 +955,9 @@ def en(b):
     b.h2("1.7 Access details")
     if ACCESOS:
         for a in ACCESOS:
-            b.p("**" + a["servicio"] + "** – " + a["para"]["en"])
-            b.bullets(["Website: " + a["web"], "Username: `" + a["usuario"] + "`", "Password: `" + a["contrasena"] + "`"])
+            b.keep(lambda a=a: (b.p("**" + a["servicio"] + "** – " + a["para"]["en"]),
+                                b.bullets(["Website: " + a["web"], "Username: `" + a["usuario"] + "`",
+                                           "Password: `" + a["contrasena"] + "`"])))
     else:
         b.p("The access details are in the local file `manual/accesos.json`.")
     b.box("This handbook contains passwords. Do not upload it to GitHub or other websites, and only share it with "
