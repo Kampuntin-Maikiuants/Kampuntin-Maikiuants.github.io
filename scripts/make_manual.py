@@ -664,6 +664,8 @@ def es(b):
         ["Correo, WhatsApp, personas de contacto, redes sociales", "`_config.yml`"],
     ], [.62, .38])
     b.h2("5.3 Personas de contacto y WhatsApp")
+    b.p("El correo general de la página (hoy info@kampuntin.org, ver 6.5) está en `_config.yml`, en `contact:` › "
+        "`email:`.")
     b.p("Las personas de la página de contacto y del pie de página están en `_config.yml`, bajo `contact:` › "
         "`people:`. Cada persona tiene nombre, función en tres idiomas, número de WhatsApp (solo cifras, con "
         "código de país, sin + ni espacios) y el teléfono tal como se muestra.")
@@ -771,6 +773,7 @@ def es(b):
         "«SSL/TLS» › «Overview»: modo **Full** (o «Automatic», que usa Full). **No** elijas «Full (Strict)»: la página "
         "mostraría un error.",
         "«SSL/TLS» › «Edge Certificates»: «Always Use HTTPS» activado. Así todos llegan a la versión segura (https).",
+        "Además hay entradas **MX** y **TXT** para el correo info@kampuntin.org (ver 6.5). No las borres.",
     ])
     b.p("**En GitHub:**")
     b.bullets([
@@ -800,10 +803,24 @@ def es(b):
         "de nuevo y haz clic en «Save».",
         "Si solo falla kampuntin.com, revisa la regla de 6.3.",
     ])
-    b.h2("6.5 Un correo con el dominio (opcional)")
-    b.p("Con el reenvío gratuito de Cloudflare se puede crear una dirección como info@kampuntin.org que llega a un "
-        "correo existente, por ejemplo ocstkampuntin@gmail.com: Cloudflare › kampuntin.org › «Email» › «Email Routing», "
-        "y seguir los pasos.")
+    b.h2("6.5 El correo info@kampuntin.org")
+    b.p("**info@kampuntin.org** es la dirección de contacto de la página. No es un buzón propio: Cloudflare reenvía "
+        "cada correo al buzón **ocstkampuntin@gmail.com**. Ahí se leen y se contestan los mensajes.")
+    b.bullets([
+        "**Ver o cambiar el reenvío:** Cloudflare › kampuntin.org › «Email» › «Email Routing» › «Routing rules». "
+        "Ahí está la regla `info@kampuntin.org` → `ocstkampuntin@gmail.com`.",
+        "**Otra dirección** (por ejemplo tours@kampuntin.org): en «Routing rules» haz clic en «Create address», "
+        "escribe el nombre, elige «Send to an email» y el buzón de destino, y guarda.",
+        "**Otro buzón de destino:** en «Destination addresses» agrega el correo nuevo. Cloudflare envía un correo de "
+        "confirmación a ese buzón; hay que confirmarlo antes de usarlo.",
+        "**Si no llegan correos:** revisa que «Email Routing» esté activo y que las entradas MX y TXT sigan en «DNS» "
+        "› «Records». Mira también la carpeta de spam de Gmail.",
+    ])
+    b.box("Al contestar desde Gmail, la respuesta sale normalmente desde ocstkampuntin@gmail.com. Así está bien. "
+          "Para contestar como info@kampuntin.org hay que configurar «Enviar como» en Gmail; para eso, pide ayuda a "
+          "quien administra la página.")
+    b.p("La dirección de contacto de la página está en `_config.yml`, en la línea `email:` debajo de `contact:` "
+        "(ver 5.3).")
 
     b.h1("7. Aparecer en Google")
     b.p("Google muestra la página solo si sabe que existe. Con la **Google Search Console** le avisas a Google, y "
@@ -1224,6 +1241,8 @@ def en(b):
         ["Email, WhatsApp, contact persons, social media", "`_config.yml`"],
     ], [.62, .38])
     b.h2("5.3 Contact persons and WhatsApp")
+    b.p("The website's general email address (currently info@kampuntin.org, see 6.5) is in `_config.yml`, under "
+        "`contact:` › `email:`.")
     b.p("The people on the contact page and in the footer are in `_config.yml`, under `contact:` › `people:`. "
         "Each person has a name, a role in three languages, a WhatsApp number (digits only, with country code, "
         "without + or spaces) and the phone number as displayed.")
@@ -1331,6 +1350,7 @@ def en(b):
         "the website would show an error.",
         "«SSL/TLS» › «Edge Certificates»: «Always Use HTTPS» switched on. This sends everyone to the secure version "
         "(https).",
+        "There are also **MX** and **TXT** records for the email address info@kampuntin.org (see 6.5). Do not delete them.",
     ])
     b.p("**On GitHub:**")
     b.bullets([
@@ -1360,10 +1380,22 @@ def en(b):
         "again and click «Save».",
         "If only kampuntin.com fails, check the rule in 6.3.",
     ])
-    b.h2("6.5 An email address with the domain (optional)")
-    b.p("With Cloudflare's free email forwarding you can create an address such as info@kampuntin.org that arrives in "
-        "an existing inbox, for example ocstkampuntin@gmail.com: Cloudflare › kampuntin.org › «Email» › «Email "
-        "Routing», then follow the steps.")
+    b.h2("6.5 The email address info@kampuntin.org")
+    b.p("**info@kampuntin.org** is the website's contact address. It is not a separate inbox: Cloudflare forwards "
+        "every email to the inbox **ocstkampuntin@gmail.com**. That is where messages are read and answered.")
+    b.bullets([
+        "**View or change the forwarding:** Cloudflare › kampuntin.org › «Email» › «Email Routing» › «Routing rules». "
+        "There you find the rule `info@kampuntin.org` → `ocstkampuntin@gmail.com`.",
+        "**Another address** (for example tours@kampuntin.org): in «Routing rules», click «Create address», enter the "
+        "name, choose «Send to an email» and the destination inbox, and save.",
+        "**Another destination inbox:** add the new address under «Destination addresses». Cloudflare sends a "
+        "confirmation email to that inbox; it must be confirmed before it can be used.",
+        "**If emails do not arrive:** check that «Email Routing» is enabled and that the MX and TXT records are still "
+        "in «DNS» › «Records». Also check the Gmail spam folder.",
+    ])
+    b.box("When replying from Gmail, the reply normally comes from ocstkampuntin@gmail.com. That is fine. To reply as "
+          "info@kampuntin.org, «Send mail as» must be set up in Gmail; for that, ask the person who manages the website.")
+    b.p("The website's contact address is in `_config.yml`, on the `email:` line under `contact:` (see 5.3).")
 
     b.h1("7. Getting found on Google")
     b.p("Google only shows the website if it knows that it exists. With the **Google Search Console** you tell Google "
