@@ -91,7 +91,7 @@ def main():
     if not tokens:
         # ::warning:: erscheint auf GitHub direkt in der Übersicht des Durchlaufs
         print("::warning title=Facebook-Import::Kein Secret FB_PAGE_TOKENS gesetzt – Import übersprungen. "
-              "Einrichtung: README, Kapitel 4.3 (Spanisch) oder manual/Technik-DE.md, Abschnitt 3.")
+              "Einrichtung: Handbuch (PDF), Kapitel 4.3.")
         return 0
     try:
         old = json.load(open(DATA, encoding="utf-8"))
