@@ -1,9 +1,31 @@
-# Konfiguration für Pages CMS (https://pagescms.org) – optionaler Editor,
-# mit dem Tour-Termine und Fotos ohne Programmierkenntnisse bearbeitet werden können.
+# Konfiguration für Pages CMS (https://app.pagescms.org) – einfacher Editor für Termine, Fotos und Texte.
+#
+# WICHTIG beim Ändern dieser Datei:
+# - Pages CMS speichert nur Felder, die hier definiert sind. „merge: true“ sorgt dafür, dass andere Teile
+#   einer Datei erhalten bleiben. Listen (Team, Alben, Termine, Erfahrungsberichte) werden aber komplett
+#   neu geschrieben: Jedes Feld, das in diesen Daten vorkommt, muss hier stehen, sonst geht es verloren.
+# - Kommentare in Dateien, die über Pages CMS gespeichert werden, gehen verloren (Inhalt bleibt).
+
+settings:
+  content:
+    merge: true
 
 media:
-  input: assets/galeria
-  output: /assets/galeria
+  - name: galeria
+    label: Galería (álbumes de fotos)
+    input: assets/galeria
+    output: /assets/galeria
+    extensions: [jpg, jpeg, png, webp]
+  - name: fotos_equipo
+    label: Fotos del equipo
+    input: assets/img/equipo
+    output: /assets/img/equipo
+    extensions: [jpg, jpeg, png, webp]
+  - name: fotos
+    label: Otras fotos de la página
+    input: assets/img/fotos
+    output: /assets/img/fotos
+    extensions: [jpg, jpeg, png, webp]
 
 content:
   - name: tour_dates
@@ -52,3 +74,310 @@ content:
                 - { name: open, label: Plazas libres }
                 - { name: few, label: Últimas plazas }
                 - { name: full, label: Completo }
+
+  - name: albumes
+    label: Álbumes de fotos (títulos y portadas)
+    description: Las fotos se suben en «Galería»; aquí se ponen el título y la portada de cada álbum.
+    type: file
+    path: _data/albums.yml
+    format: yaml
+    list: true
+    fields:
+      - name: folder
+        label: "Carpeta del álbum en «Galería» (por ejemplo 12-mi-album)"
+        type: string
+        required: true
+      - name: title
+        label: "Título"
+        type: object
+        fields:
+          - { name: es, label: Español, type: string }
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+      - name: cover
+        label: "Portada: nombre del archivo, por ejemplo 005.jpg (vacío = la primera foto)"
+        type: string
+
+  - name: equipo
+    label: Equipo (personas)
+    type: file
+    path: _data/team.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: Nombre, type: string, required: true }
+      - { name: shuar_name, label: "Nombre shuar (opcional)", type: string }
+      - name: group
+        label: Grupo
+        type: select
+        options:
+          values:
+            - { name: kampuntin, label: "Kampuntin: equipo en Maikiuants" }
+            - { name: community, label: Comunidad }
+      - name: photo
+        label: "Foto (cuadrada, unos 600 × 600 píxeles, la cara en el centro)"
+        type: image
+        options: { media: fotos_equipo }
+      - name: contact
+        label: "Mostrar el enlace «Escríbenos» (solo personas de contacto)"
+        type: boolean
+      - name: role
+        label: "Función"
+        type: object
+        fields:
+          - { name: es, label: Español, type: string }
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+      - name: bio
+        label: "Texto corto"
+        type: object
+        fields:
+          - { name: es, label: Español, type: text }
+          - { name: en, label: English, type: text }
+          - { name: fr, label: Français, type: text }
+      - name: details
+        label: "Texto largo (opcional; si existe, se muestra en lugar del texto corto)"
+        type: object
+        fields:
+          - { name: es, label: Español, type: text }
+          - { name: en, label: English, type: text }
+          - { name: fr, label: Français, type: text }
+      - name: social
+        label: "Enlaces (Instagram, Facebook …)"
+        type: object
+        list: true
+        fields:
+          - { name: name, label: "Texto del enlace (por ejemplo Instagram)", type: string }
+          - { name: handle, label: "Nombre de usuario (opcional)", type: string }
+          - { name: url, label: Enlace, type: string }
+
+  - name: experiencias
+    label: Experiencias de voluntarios
+    type: group
+    items:
+      - name: experiencias_es
+        label: Español
+        type: file
+        path: _data/es/volunteering.yml
+        format: yaml
+        fields:
+          - name: testimonials
+            label: Experiencias
+            type: object
+            fields:
+              - { name: title, label: Título de la sección, type: string }
+              - { name: intro, label: Introducción, type: string }
+              - name: items
+                label: Experiencias
+                type: object
+                list: true
+                fields:
+                  - { name: quote, label: "Cita corta (siempre visible)", type: text }
+                  - { name: name, label: Nombre, type: string }
+                  - { name: meta, label: "Línea pequeña (por ejemplo «Voluntariado · octubre de 2026»)", type: string }
+                  - name: photo
+                    label: "Foto (opcional)"
+                    type: image
+                    options: { media: fotos }
+                  - { name: text, label: "Relato completo (opcional)", type: text }
+      - name: experiencias_en
+        label: English
+        type: file
+        path: _data/en/volunteering.yml
+        format: yaml
+        fields:
+          - name: testimonials
+            label: Experiencias
+            type: object
+            fields:
+              - { name: title, label: Título de la sección, type: string }
+              - { name: intro, label: Introducción, type: string }
+              - name: items
+                label: Experiencias
+                type: object
+                list: true
+                fields:
+                  - { name: quote, label: "Cita corta (siempre visible)", type: text }
+                  - { name: name, label: Nombre, type: string }
+                  - { name: meta, label: "Línea pequeña (por ejemplo «Voluntariado · octubre de 2026»)", type: string }
+                  - name: photo
+                    label: "Foto (opcional)"
+                    type: image
+                    options: { media: fotos }
+                  - { name: text, label: "Relato completo (opcional)", type: text }
+      - name: experiencias_fr
+        label: Français
+        type: file
+        path: _data/fr/volunteering.yml
+        format: yaml
+        fields:
+          - name: testimonials
+            label: Experiencias
+            type: object
+            fields:
+              - { name: title, label: Título de la sección, type: string }
+              - { name: intro, label: Introducción, type: string }
+              - name: items
+                label: Experiencias
+                type: object
+                list: true
+                fields:
+                  - { name: quote, label: "Cita corta (siempre visible)", type: text }
+                  - { name: name, label: Nombre, type: string }
+                  - { name: meta, label: "Línea pequeña (por ejemplo «Voluntariado · octubre de 2026»)", type: string }
+                  - name: photo
+                    label: "Foto (opcional)"
+                    type: image
+                    options: { media: fotos }
+                  - { name: text, label: "Relato completo (opcional)", type: text }
+
+  - name: viajes
+    label: "Viajes: nombre, duración, temporada y texto"
+    type: group
+    items:
+      - name: viajes_es
+        label: Español
+        type: file
+        path: _data/es/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+      - name: viajes_en
+        label: English
+        type: file
+        path: _data/en/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+      - name: viajes_fr
+        label: Français
+        type: file
+        path: _data/fr/tours.yml
+        format: yaml
+        fields:
+          - name: trips
+            label: Viajes
+            type: object
+            fields:
+              - name: espiritual
+                label: Viaje espiritual
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+              - name: arutam
+                label: Viaje Arutam
+                type: object
+                fields:
+                  - { name: name, label: Nombre, type: string }
+                  - { name: days, label: "Duración (por ejemplo 8 días)", type: string }
+                  - { name: when, label: "Temporada (por ejemplo Abril – mayo 2027)", type: string }
+                  - { name: text, label: Descripción corta, type: text }
+                  - { name: link, label: "Texto del enlace al programa", type: string }
+
+  - name: aviso
+    label: Aviso en la página de inicio (texto)
+    type: group
+    items:
+      - name: aviso_es
+        label: Español
+        type: file
+        path: _data/es/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
+      - name: aviso_en
+        label: English
+        type: file
+        path: _data/en/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
+      - name: aviso_fr
+        label: Français
+        type: file
+        path: _data/fr/home.yml
+        format: yaml
+        fields:
+          - name: tour_popup
+            label: Aviso (pop-up)
+            type: object
+            fields:
+              - { name: eyebrow, label: "Línea pequeña arriba (por ejemplo Próximo tour)", type: string }
+              - { name: text, label: Texto, type: text }
+              - { name: button, label: Texto del botón, type: string }
+              - name: image
+                label: Foto del aviso
+                type: image
+                options: { media: fotos }
+              - { name: per, label: "Texto después del precio (por ejemplo por persona)", type: string }
+              - { name: close, label: "Texto del botón para cerrar (lo leen los lectores de pantalla)", type: string }
