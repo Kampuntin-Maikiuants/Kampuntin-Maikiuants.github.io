@@ -142,6 +142,8 @@ class Builder:
     def keep(self, fn):
         """Alles, was fn() hinzufügt, bleibt auf einer Seite zusammen."""
         start = len(self.story)
+        if start and getattr(self.story[-1], "toc_level", None) == 1:
+            start -= 1  # Zwischenüberschrift direkt davor mitnehmen
         fn()
         block = self.story[start:]
         del self.story[start:]
@@ -210,7 +212,11 @@ class Builder:
         t.setStyle(TableStyle([("BOX", (0, 0), (-1, -1), .7, LINE), ("LEFTPADDING", (0, 0), (-1, -1), 0),
                                ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 0),
                                ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
-        self.story.append(KeepTogether([t, Paragraph(md(caption), ST["caption"])]))
+        block = [t, Paragraph(md(caption), ST["caption"])]
+        # Steht direkt davor eine Zwischenüberschrift, kommt sie mit auf die Seite des Bildes
+        if self.story and getattr(self.story[-1], "toc_level", None) == 1:
+            block.insert(0, self.story.pop())
+        self.story.append(KeepTogether(block))
 
 
 class MdBuilder:
